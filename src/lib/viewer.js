@@ -342,6 +342,11 @@
       initialized.delete(root);
     }
     root.classList.remove("is-loaded"); root.dataset.loaded="false";
+    root.querySelectorAll('[aria-pressed]').forEach(button=>button.setAttribute('aria-pressed','false'));
+    const materialSelect=root.querySelector('[data-setting="material"]');
+    const lightingSelect=root.querySelector('[data-setting="lighting"]');
+    if(materialSelect) materialSelect.value='original';
+    if(lightingSelect) lightingSelect.value='studio';
     initialized.add(root);
     const viewer = new ArchiveModelViewer(root);
     viewerInstances.set(root, viewer);

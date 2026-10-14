@@ -4,7 +4,9 @@
 
 [素材ライブラリ](https://xenoah.github.io/meshcopia/) · [Releases](https://github.com/Xenoah/meshcopia/releases) · [エージェント向けJSON](https://xenoah.github.io/meshcopia/api/catalog.json)
 
-![Studio chair](content/assets/studio-chair/preview.webp)
+![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.0.0/desktop-catalog.png)
+
+> **公開状況**: Releaseの素材ZIPは取得可能です。GitHub Pagesは管理者が Settings → Pages → Source: GitHub Actions を選ぶ初回設定待ちです。設定後、Actionsの失敗したPagesジョブを再実行してください。
 
 ## できること
 

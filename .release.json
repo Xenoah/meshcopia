@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-rc.1",
-  "prerelease": true,
-  "name": "Meshcopia 1.0.0-rc.1 — First preview",
-  "notes": "docs/releases/v1.0.0-rc.1.md"
+  "version": "1.0.0",
+  "prerelease": false,
+  "name": "Meshcopia 1.0.0 — First release",
+  "notes": "docs/releases/v1.0.0.md"
 }
