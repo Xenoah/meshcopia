@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0-rc.1",
-  "prerelease": true,
-  "name": "Meshcopia 1.2.0 RC1 \u2014 More originals and texture wrap modes",
-  "notes": "docs/releases/v1.2.0-rc.1.md"
+  "version": "1.2.0",
+  "prerelease": false,
+  "name": "Meshcopia 1.2.0 \u2014 More original meshes and textures",
+  "notes": "docs/releases/v1.2.0.md"
 }

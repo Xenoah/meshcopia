@@ -126,3 +126,12 @@ The saved scene is authoritative: a lectern mentioned in build_world.py is absen
 from that scene and is not included. Books/bottles use explicit height ranges to
 avoid collecting adjacent shelves. The straight counter excludes the corner's
 long return. The poster frame contains only the empty frame and display plane.
+
+Observed for v1.2: workflow `38558939874` passed every verification, browser,
+Pages and prerelease job, creating `v1.2.0-rc.1` at imported asset commit
+`79b90dcc70e15bb30534b79da93e6dd7d1fefc18`. All 12 added model thumbnails and
+all nine source images were inspected. Browser screenshots cover every Commons
+model and added texture; mirrored tiling, clamp proportions, material spheres
+and mobile detail pages were also visually reviewed. Eight Node tests passed,
+with 47 assets, 224 file/ZIP hash checks, 2,167 internal links and 33 image-map
+checks (24 ordinary-repeat maps, six mirror images, three clamp atlases).
