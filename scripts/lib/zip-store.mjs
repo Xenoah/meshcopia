@@ -1,5 +1,7 @@
 import { createHash } from "node:crypto";
 import { writeFile } from "node:fs/promises";
+import { deflateRawSync } from "node:zlib";
+import { assertArchiveRuntime, compressionOptions } from './archive-runtime.mjs';
 
 const crcTable = new Uint32Array(256);
 for (let n = 0; n < 256; n += 1) {
@@ -10,7 +12,7 @@ for (let n = 0; n < 256; n += 1) {
   crcTable[n] = c >>> 0;
 }
 
-function crc32(buffer) {
+export function crc32(buffer) {
   let c = 0xffffffff;
   for (const byte of buffer) c = crcTable[(c ^ byte) & 0xff] ^ (c >>> 8);
   return (c ^ 0xffffffff) >>> 0;
@@ -38,7 +40,11 @@ function uint32(value) {
   return buffer;
 }
 
-export async function writeStoreZip(zipPath, entries) {
+// STORE remains the compatibility default. Opted-in packages use ZIP method 8
+// only when it saves bytes. Fixed metadata and level are deterministic within
+// a runtime; published legacy package versions must retain their STORE policy.
+export async function writeStoreZip(zipPath, entries, { compress = false } = {}) {
+  if (compress) assertArchiveRuntime();
   const localParts = [];
   const centralParts = [];
   let offset = 0;
@@ -48,16 +54,19 @@ export async function writeStoreZip(zipPath, entries) {
     const name = Buffer.from(entry.name.replace(/\\/g, "/"), "utf8");
     const data = Buffer.isBuffer(entry.data) ? entry.data : Buffer.from(String(entry.data), "utf8");
     const crc = crc32(data);
+    const compressed = compress ? deflateRawSync(data, compressionOptions) : data;
+    const method = compressed.length < data.length ? 8 : 0;
+    const payload = method === 8 ? compressed : data;
 
     const localHeader = Buffer.concat([
       uint32(0x04034b50),
       uint16(20),
       uint16(0x0800),
-      uint16(0),
+      uint16(method),
       uint16(time),
       uint16(day),
       uint32(crc),
-      uint32(data.length),
+      uint32(payload.length),
       uint32(data.length),
       uint16(name.length),
       uint16(0),
@@ -69,11 +78,11 @@ export async function writeStoreZip(zipPath, entries) {
       uint16(20),
       uint16(20),
       uint16(0x0800),
-      uint16(0),
+      uint16(method),
       uint16(time),
       uint16(day),
       uint32(crc),
-      uint32(data.length),
+      uint32(payload.length),
       uint32(data.length),
       uint16(name.length),
       uint16(0),
@@ -85,9 +94,9 @@ export async function writeStoreZip(zipPath, entries) {
       name
     ]);
 
-    localParts.push(localHeader, data);
+    localParts.push(localHeader, payload);
     centralParts.push(centralHeader);
-    offset += localHeader.length + data.length;
+    offset += localHeader.length + payload.length;
   }
 
   const central = Buffer.concat(centralParts);

@@ -20,7 +20,7 @@
   "author": "Xenoah",
   "license": "CC-BY-4.0",
   "version": "1.0.0",
-  "status": "draft",
+  "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
   "thumbnail": "preview.png",
@@ -33,14 +33,13 @@
     0.09802,
     0.812
   ],
-  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures.",
   "provenance": {
     "method": "Original AI-agent-authored procedural city geometry",
     "tool": "Blender 4.5.14 LTS; Meshcopia city generator 1.0",
     "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
     "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/infrastructure.py",
     "sourceSha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
-    "alternateFormat": "STL triangulated from the exact reimported GLB using Blender 4.3.2, meters and Y-up; no printability or manufacturing validation.",
     "stlSha256": "fafaf7c612b9f4eb14d9ebfcd48598055297750895eba66563260eb9e9cb3dc9"
   },
   "usages": [

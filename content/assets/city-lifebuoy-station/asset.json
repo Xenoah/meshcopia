@@ -1,0 +1,59 @@
+{
+  "id": "city-lifebuoy-station",
+  "type": "model",
+  "title": "救命浮環ステーション",
+  "titleEn": "Lifebuoy station",
+  "description": "厚みのある浮環、4本の帯、つかみ綱、投てき索リール、支持金具を備える静的な設備モデル。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A static station with thick ring, four bands, grab rope, throwline reel and support brackets; no safety certification is claimed. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "street-furniture",
+    "lifebuoy-station"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-lifebuoy-station.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6884,
+  "dimensions": [
+    0.698,
+    1.5175,
+    0.335
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/access_recreation.py",
+    "sourceSha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d",
+    "stlSha256": "e0dc95975073e86463f7ae8f6bf474d90ace0ad06cd705c76a5738af9c5759c4"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/access_recreation.py",
+        "scripts/city/common.py",
+        "scripts/city/access.py",
+        "scripts/city/access_extra.py",
+        "scripts/city/access_structures.py"
+      ],
+      "selectors": [
+        "city-lifebuoy-station"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

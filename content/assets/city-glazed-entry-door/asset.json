@@ -1,0 +1,62 @@
+{
+  "id": "city-glazed-entry-door",
+  "type": "model",
+  "title": "ガラス入り店舗入口ドア",
+  "titleEn": "Glazed shop entry door",
+  "description": "少し開いたガラス戸、アルミ枠、気密パッキン、丁番、引手、浅い敷居と上部クローザーを備えた店舗入口。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A slightly open glazed entry with aluminum framing, transparent glass, compression seals, hinges, pull handles, shallow threshold and closer. Static visual prop. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "door",
+    "entry",
+    "glazed",
+    "shopfront",
+    "architecture",
+    "ガラス戸"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-glazed-entry-door.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6244,
+  "dimensions": [
+    1.1,
+    2.22,
+    0.358542
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs. Glazing uses alpha-blended PBR transparency; appearance depends on viewer lighting and transparency sorting.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/infrastructure_architecture.py",
+    "sourceSha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+    "stlSha256": "76d195a3dea8fee4db281ee0c42b40a2206e043f9067fbeaf406129cc76f770d"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/infrastructure_architecture.py",
+        "scripts/city/common.py",
+        "scripts/city/infrastructure.py",
+        "scripts/city/infrastructure_extra.py"
+      ],
+      "selectors": [
+        "city-glazed-entry-door"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

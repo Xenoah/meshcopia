@@ -1,0 +1,59 @@
+{
+  "id": "city-pet-bag-dispenser",
+  "type": "model",
+  "title": "ペット用袋ディスペンサー",
+  "titleEn": "Pet bag dispenser",
+  "description": "雨よけ蓋、補充扉、鍵、実際に開いた引出口、折り畳まれた袋の端を備える壁付けディスペンサー。ごみ箱は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A wall-mounted pet bag dispenser with rain lid, refill hinge, key cylinder, real pull aperture and folded bag edge; no waste bin included. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "street-furniture",
+    "pet-bag-dispenser"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-pet-bag-dispenser.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 1916,
+  "dimensions": [
+    0.304,
+    0.47793,
+    0.257366
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/access_recreation.py",
+    "sourceSha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+    "stlSha256": "af72c33bf42ad0e6dc2ec786309ec894a038d1d99166c7c66d6d6cfde8e4452b"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/access_recreation.py",
+        "scripts/city/common.py",
+        "scripts/city/access.py",
+        "scripts/city/access_extra.py",
+        "scripts/city/access_structures.py"
+      ],
+      "selectors": [
+        "city-pet-bag-dispenser"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

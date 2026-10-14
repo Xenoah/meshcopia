@@ -2,8 +2,12 @@ import { mkdir, rm, cp, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { readCatalog, attributionFor, sha256, SITE, LICENSE_URL, MODEL_EXT } from './lib/catalog.mjs';
 import { writeStoreZip } from './lib/zip-store.mjs';
+import { zipOptionsForPackage } from './lib/zip-policy.mjs';
+import { assertArchiveRuntime } from './lib/archive-runtime.mjs';
+import { verifyArchiveLock, archiveLockPath } from './lib/archive-lock.mjs';
 
 const assets = await readCatalog(); // Validate before changing generated output.
+if (assets.some(a => a.status !== 'draft' && zipOptionsForPackage(a).compress)) assertArchiveRuntime();
 await rm('public/assets', {recursive:true,force:true});
 await rm('public/api', {recursive:true,force:true});
 await mkdir('public/assets', {recursive:true});
@@ -33,14 +37,15 @@ for (const asset of assets) {
     files.push({name:file,format:path.extname(file).slice(1).toUpperCase(),bytes:data.length,sha256:sha256(data),url:`${url}/source/${file.split('/').map(encodeURIComponent).join('/')}`});
   }
   const fullName = `${asset.id}-${asset.version}.zip`;
-  await writeStoreZip(`${out}/${fullName}`, [...entries,...common,{name:'README.md',data:readme},{name:'asset.json',data:JSON.stringify(metadata,null,2)},{name:`preview${path.extname(asset.thumbnail)}`,data:await readFile(path.join(dir,asset.thumbnail))}]);
+  const zipOptions = zipOptionsForPackage(asset);
+  await writeStoreZip(`${out}/${fullName}`, [...entries,...common,{name:'README.md',data:readme},{name:'asset.json',data:JSON.stringify(metadata,null,2)},{name:`preview${path.extname(asset.thumbnail)}`,data:await readFile(path.join(dir,asset.thumbnail))}], zipOptions);
   const fullData = await readFile(`${out}/${fullName}`);
   const downloads = {full:{url:`${url}/${fullName}`,bytes:fullData.length,sha256:sha256(fullData)}};
   if (asset.type === 'model') {
     // Preserve companion maps/buffers/MTL: models-only excludes presentation/docs,
     // never dependencies needed to use a downloaded model.
     const name = `${asset.id}-${asset.version}-models.zip`;
-    await writeStoreZip(`${out}/${name}`, [...entries,...common]);
+    await writeStoreZip(`${out}/${name}`, [...entries,...common], zipOptions);
     const data = await readFile(`${out}/${name}`);
     downloads.models = {url:`${url}/${name}`,bytes:data.length,sha256:sha256(data)};
     const direct = files.find(f => f.name===asset.preview && ['GLB','STL','STEP','STP'].includes(f.format));
@@ -52,6 +57,7 @@ for (const asset of assets) {
   catalog.push(item);
   await writeFile(`public/api/assets/${asset.id}.json`,JSON.stringify(item,null,2)+'\n');
 }
+await verifyArchiveLock({root:'public',catalog,lock:JSON.parse(await readFile(archiveLockPath,'utf8')),requireComplete:false});
 await writeFile('src/data/catalog.json',JSON.stringify(catalog,null,2)+'\n');
 const publicAssets = catalog.filter(a=>a.status==='public');
 await writeFile('public/api/catalog.json',JSON.stringify({schemaVersion:'2.1.0',name:'Meshcopia',license:'CC-BY-4.0',count:publicAssets.length,assets:publicAssets},null,2)+'\n');

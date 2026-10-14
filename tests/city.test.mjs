@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile,stat} from 'node:fs/promises';
 import path from 'node:path';
 import validator from 'gltf-validator';
 import {Matrix4,Vector3,Quaternion} from 'three';
@@ -22,10 +22,19 @@ test('Original city assets are self-contained, grounded, dimensioned and validat
   assert.equal(a.type,'model');assert.equal(a.unit,'m');assert.equal(a.upAxis,'Y');assert.equal(a.license,'CC-BY-4.0');
   assert.ok(a.usages.some(u=>u.relationship==='original'&&u.project==='Meshcopia'&&u.selectors.includes(a.id)));
   assert.ok(a.provenance.generatorUrl.startsWith('https://github.com/Xenoah/meshcopia/'));
+  const sourcePaths=new Set(a.usages.flatMap(u=>u.sourcePaths||[]));
+  assert.ok(sourcePaths.size>0,a.id+': missing reproducibility source paths');
+  for(const sourcePath of sourcePaths){
+   assert.match(sourcePath,/^scripts\/city\/[a-z0-9_]+\.py$/,a.id+': unexpected source path');
+   assert.ok((await stat(new URL('../'+sourcePath,import.meta.url))).isFile(),a.id+': missing generator source '+sourcePath);
+  }
+  assert.match(a.provenance.stlSha256,/^[0-9a-f]{64}$/,a.id+': required STL provenance hash');
+
   const raw=await readFile(path.join(a.dir,'source',a.preview)),hash=sha256(raw);
   assert.equal(hash,a.provenance.sourceSha256);assert.ok(!hashes.has(hash),'duplicate city GLB');hashes.add(hash);
   const report=await validator.validateBytes(new Uint8Array(raw),{uri:a.preview,maxIssues:50,writeTimestamp:false});
   assert.equal(report.issues.numErrors,0,a.id+': '+JSON.stringify(report.issues.messages));
+  assert.equal(report.issues.numWarnings,0,a.id+': validator warnings '+JSON.stringify(report.issues.messages));
   const size=raw.readUInt32LE(12),doc=JSON.parse(raw.subarray(20,20+size).toString()),binary=raw.subarray(28+size);
   assert.ok(doc.buffers.every(b=>!b.uri));assert.ok((doc.images||[]).every(i=>!i.uri));
   assert.equal(doc.cameras,undefined);assert.equal(doc.animations,undefined);assert.ok(doc.materials.length>0);

@@ -1,0 +1,60 @@
+{
+  "id": "city-pruned-street-tree",
+  "type": "model",
+  "title": "剪定された街路樹",
+  "titleEn": "Pruned street tree",
+  "description": "緩やかに先細る幹、階層状の枝と小枝、個別に折れ曲がった葉を持つオリジナルの汎用街路樹。丸い樹冠は不規則に剪定され、樹種は特定していません。葉は両面表示の薄い面で、風アニメーションやLODは含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Original generic street tree with a root flare, tapered branching hierarchy, fine bearing shoots and individually folded leaf blades. Its irregular rounded crown represents pruning without claiming a particular species. Leaves are thin double-sided surfaces; no wind animation, LODs or species accuracy is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "tree",
+    "foliage",
+    "landscape",
+    "vegetation",
+    "街路樹",
+    "植栽"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-pruned-street-tree.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 84316,
+  "dimensions": [
+    4.031686,
+    5.937617,
+    3.86028
+  ],
+  "uv": "Explicit cylindrical wood UVs and per-leaf blade UVs. Islands overlap by design and are not a unique lightmap atlas. Original procedural bark base-color and tangent-space normal maps are embedded in the GLB; leaf color variation is stored in exported COLOR_0 vertex colors. Standard opaque PBR materials, with explicit exported tangent vectors and no external resources. Leaf geometry is intentionally open and the leaf material is double-sided; STL preserves the same geometry but has no colors, UVs or double-sided material semantics.",
+  "provenance": {
+    "method": "Original deterministic procedural branching and folded-leaf geometry, original procedural bark maps and vertex-colored leaves",
+    "tool": "Blender 4.3.2; Meshcopia street tree generator 1.0; seed 14062026",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/street_tree.py",
+    "sourceSha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696",
+    "stlSha256": "cb2abb1e52ac617bd0b5aeee0683841f116fbcab2d6bd9ffe5026b5c92c4c8eb"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/street_tree.py",
+        "scripts/city/common.py"
+      ],
+      "selectors": [
+        "city-pruned-street-tree"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

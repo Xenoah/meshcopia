@@ -86,7 +86,7 @@ def _prepare():
         if not o.data.uv_layers:
             bpy.ops.object.select_all(action='DESELECT');o.select_set(True)
             bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.uv.smart_project(angle_limit=1.15192,island_margin=.02);bpy.ops.object.mode_set(mode='OBJECT')
-    bounds=[o.matrix_world@Vector(c) for o in obs for c in o.bound_box]
+    bounds=[o.matrix_world@v.co for o in obs for v in o.data.vertices]
     lo=Vector([min(v[i] for v in bounds) for i in range(3)]);hi=Vector([max(v[i] for v in bounds) for i in range(3)])
     offset=Vector(((lo.x+hi.x)/2,(lo.y+hi.y)/2,lo.z))
     for o in obs:o.location-=offset
@@ -96,7 +96,7 @@ def _prepare():
 def render(path,azimuth=-55,elevation=24,size=800):
     scene=bpy.context.scene
     meshes=[o for o in scene.objects if o.type=='MESH']
-    bounds=[o.matrix_world@Vector(c) for o in meshes for c in o.bound_box]
+    bounds=[o.matrix_world@v.co for o in meshes for v in o.data.vertices]
     lo=Vector([min(v[i] for v in bounds) for i in range(3)]);hi=Vector([max(v[i] for v in bounds) for i in range(3)])
     center=(lo+hi)/2;span=max(hi-lo)
     bpy.ops.object.camera_add();cam=bpy.context.object;cam.name='QA camera';cam.data.type='ORTHO'
@@ -149,7 +149,7 @@ def publish_asset(slug,title,title_en,description,description_en,tags,out_dir,ge
     obs=[o for o in bpy.context.scene.objects if o.type=='MESH']
     for o in obs:o.data.calc_loop_triangles()
     tris=sum(len(o.data.loop_triangles) for o in obs)
-    bounds=[o.matrix_world@Vector(c) for o in obs for c in o.bound_box]
+    bounds=[o.matrix_world@v.co for o in obs for v in o.data.vertices]
     lo=[min(v[i] for v in bounds) for i in range(3)];hi=[max(v[i] for v in bounds) for i in range(3)]
     d=[round(hi[i]-lo[i],6) for i in (0,2,1)]
     metadata=dict(id=slug,type='model',title=title,titleEn=title_en,description=description+' ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。',descriptionEn=description_en+' For games and visualization; not validated for manufacture, structural engineering or 3D printing.',category='urban',tags=['city','street','original',*tags],author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='draft',created='2026-10-14',updated='2026-10-14',thumbnail='preview.png',preview=f'{slug}.glb',unit='m',upAxis='Y',triangles=tris,dimensions=d,uv='Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.',provenance=dict(method='Original AI-agent-authored procedural city geometry',tool=f'Blender {bpy.app.version_string}; Meshcopia city generator 1.0',rights='Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.',generatorUrl=f'https://github.com/Xenoah/meshcopia/blob/main/{generator}',sourceSha256=hashlib.sha256(glb.read_bytes()).hexdigest()),usages=[dict(relationship='original',project='Meshcopia',sourceUrl='https://github.com/Xenoah/meshcopia',sourcePaths=[generator,'scripts/city/common.py'],selectors=[slug],context='Original city asset created for this library. No external deployment or reuse claimed.')])

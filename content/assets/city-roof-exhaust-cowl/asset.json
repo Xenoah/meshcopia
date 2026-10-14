@@ -1,0 +1,61 @@
+{
+  "id": "city-roof-exhaust-cowl",
+  "type": "model",
+  "title": "屋上換気ベンチレーター",
+  "titleEn": "Mushroom roof exhaust cowl",
+  "description": "中空の立上り管、丸い雨よけ、支持材、防鳥格子と屋根取付フランジを備えた屋上換気口。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A mushroom roof exhaust with hollow riser, spun weather cap, cap supports, bird-guard strips and roof flashing flange. Static visual prop, not airflow-rated. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "roof",
+    "exhaust",
+    "ventilator",
+    "cowl",
+    "industrial",
+    "屋上換気"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-roof-exhaust-cowl.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 16564,
+  "dimensions": [
+    0.68,
+    0.77,
+    0.68
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/infrastructure_extra.py",
+    "sourceSha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593",
+    "stlSha256": "256fa6ef2b392b3820dfb435257a938d6973e8e053f4694a31a2ff99a636471d"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/infrastructure_extra.py",
+        "scripts/city/common.py",
+        "scripts/city/infrastructure.py"
+      ],
+      "selectors": [
+        "city-roof-exhaust-cowl"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "city-postal-box",
+  "type": "model",
+  "title": "街路郵便ポスト",
+  "titleEn": "Street postal drop box",
+  "description": "アーチ状の雨よけ、深い投函口、回収扉と無地の案内欄を持つブランドのない郵便ポスト。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Unbranded postal drop box with arched rain canopy, deep mail slot, hinged collection door and a blank ruled notice panel. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "postal",
+    "mail",
+    "郵便"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-postal-box.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9510,
+  "dimensions": [
+    0.6,
+    1.445,
+    0.542
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/civic_extra.py",
+    "sourceSha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+    "stlSha256": "a52223d3d43e3848c3cea3d2fe6b37bb9246ac7d7c6586438f7a7dcdbf48d4e9"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/civic_extra.py",
+        "scripts/city/common.py",
+        "scripts/city/civic.py"
+      ],
+      "selectors": [
+        "city-postal-box"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

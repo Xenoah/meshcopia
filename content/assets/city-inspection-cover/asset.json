@@ -20,28 +20,31 @@
   "author": "Xenoah",
   "license": "CC-BY-4.0",
   "version": "1.0.0",
-  "status": "draft",
+  "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
   "thumbnail": "preview.png",
   "preview": "city-inspection-cover.glb",
   "unit": "m",
   "upAxis": "Y",
-  "triangles": 35418,
+  "triangles": 20154,
   "dimensions": [
     0.73,
     0.081,
     0.73
   ],
-  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs. Repeated static parts are grouped into named assemblies; triangle-corner UVs and material records retained from original.",
   "provenance": {
-    "method": "Original AI-agent-authored procedural city geometry",
-    "tool": "Blender 4.5.14 LTS; Meshcopia city generator 1.0",
+    "method": "Original procedural geometry, followed by geometry-preserving static GLB assembly grouping",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0; grouping postprocessor with Python 3.12.14 and NumPy 2.3.5",
     "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
-    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/infrastructure.py",
-    "sourceSha256": "06bd210ff16947ecaeec0e7c23d1c1470b5c03b8b2c1598db523de21d383ab39",
-    "alternateFormat": "STL triangulated from the exact reimported GLB using Blender 4.3.2, meters and Y-up; no printability or manufacturing validation.",
-    "stlSha256": "95587b9fc574b49d5291050a9154f7a3aca5a18adfd0e201ea2f5cc232c945c8"
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/group_static_assemblies.py",
+    "sourceSha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+    "stlSha256": "b5a6db4de816203ed4df0f4fa32231f7e4c7af459746c478b248b9e3206e3f4e",
+    "changes": "Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB e9d35fa99548e219b0f45186dd3be09458852a690fd9b8e1cea0467b2de2497d.",
+    "alternateFormat": "STL written by scripts/city/group_static_assemblies.py from exact grouped GLB triangle coordinates; meters, Y-up, no colors or UVs; no printability or manufacturing validation.",
+    "baseGeneratorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/infrastructure.py",
+    "postprocessGeneratorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/group_static_assemblies.py"
   },
   "usages": [
     {
@@ -50,7 +53,10 @@
       "sourceUrl": "https://github.com/Xenoah/meshcopia",
       "sourcePaths": [
         "scripts/city/infrastructure.py",
-        "scripts/city/common.py"
+        "scripts/city/common.py",
+        "scripts/city/group_static_assemblies.py",
+        "scripts/city/infrastructure_manhole_optimized.py",
+        "scripts/city/render_grouped_assemblies.py"
       ],
       "selectors": [
         "city-inspection-cover"

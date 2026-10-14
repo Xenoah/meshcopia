@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": 1,
+  "archives": [
+    {
+      "id": "atelier-lamp",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/atelier-lamp/atelier-lamp-1.0.1.zip",
+      "bytes": 169968,
+      "sha256": "b6997c7c3565184e652ab3731d1afc9982aff33777947835b25fdb803cdb8029",
+      "profile": "store-v1"
+    },
+    {
+      "id": "atelier-lamp",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/atelier-lamp/atelier-lamp-1.0.1-models.zip",
+      "bytes": 147868,
+      "sha256": "74096e56e03e15256b1678860ba40bd445649a2beedcb2bb05ce3e37924c26b9",
+      "profile": "store-v1"
+    },
+    {
+      "id": "brushed-aluminum",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/brushed-aluminum/brushed-aluminum-1.0.1.zip",
+      "bytes": 114718,
+      "sha256": "c3c7b664edae946243bdcd67abca7d29dcdf6dc5ceec888f8e59fdd9a4977290",
+      "profile": "store-v1"
+    },
+    {
+      "id": "cedar-boards",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/cedar-boards/cedar-boards-1.0.1.zip",
+      "bytes": 1012548,
+      "sha256": "4e610a054d5d2366cb1e08ca6e043e1b2b10026c4e5f14f7267068894ab51acf",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-bicycle-repair-stand",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-bicycle-repair-stand/city-bicycle-repair-stand-1.0.0.zip",
+      "bytes": 613302,
+      "sha256": "2ef20e667ed81838905cb8191059b190b9f1a89631728369c3d32843172cd460",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-bicycle-repair-stand",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-bicycle-repair-stand/city-bicycle-repair-stand-1.0.0-models.zip",
+      "bytes": 140808,
+      "sha256": "65365594f47a46a20e03ce67091c40ba483dda607fb9cb464290bba164c6980d",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-bollard",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-bollard/city-bollard-1.0.0.zip",
+      "bytes": 801721,
+      "sha256": "a114439a2aa6b05d7d868c173b661624606c135cca4332a6290cfcc693582ccf",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-bollard",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-bollard/city-bollard-1.0.0-models.zip",
+      "bytes": 410532,
+      "sha256": "b3443f67eb8bd43715f31a67888b69d0fc438fda6d8f60a9dbbe080b1555d6cd",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-cable-protector",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-cable-protector/city-cable-protector-1.0.0.zip",
+      "bytes": 441586,
+      "sha256": "5637e39bcc7678a72d15d5d5ae70e163da4bb7976ea551e083e8ce6f76d7deff",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-cable-protector",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-cable-protector/city-cable-protector-1.0.0-models.zip",
+      "bytes": 39371,
+      "sha256": "a20a451cf12ec2e27b7ee005f7987657fa8172ced41f3342e1e11c112e567a56",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-curb-ramp",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-curb-ramp/city-curb-ramp-1.0.0.zip",
+      "bytes": 565846,
+      "sha256": "993c57f0826744e22607ce023d9d6976372762a3dfd5f9f6b46415cc4ef7bc4d",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-curb-ramp",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-curb-ramp/city-curb-ramp-1.0.0-models.zip",
+      "bytes": 104608,
+      "sha256": "b12d6764619a248f4f99bdb7e5a04df8238c3a8c8f304c1bff073e99aad13b23",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-cycle-rack",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-cycle-rack/city-cycle-rack-1.0.0.zip",
+      "bytes": 705762,
+      "sha256": "3f7db53ca54c086a1f28c1575aef56c06a648f33a7bee8a3de2b3bacf514e02e",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-cycle-rack",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-cycle-rack/city-cycle-rack-1.0.0-models.zip",
+      "bytes": 293395,
+      "sha256": "b571995d30eb0e90941103f2038307122eb4688486b85d9d01f785c99d2111c1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-drinking-fountain",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-drinking-fountain/city-drinking-fountain-1.0.0.zip",
+      "bytes": 1778975,
+      "sha256": "8c4613ef70e16f48de8fa5954b1651e10013994a90476c9229cdcca0b35230ed",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-drinking-fountain",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-drinking-fountain/city-drinking-fountain-1.0.0-models.zip",
+      "bytes": 1260894,
+      "sha256": "17c48aa2590f17b31c23de445352f420fba36109a24182eacf7ab54d1f0b358c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-fire-hydrant",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-fire-hydrant/city-fire-hydrant-1.0.0.zip",
+      "bytes": 3256161,
+      "sha256": "00f51949eafbb5bcc40c1d51aa84cfff79bc65253e968133e107e46dfb21e32a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-fire-hydrant",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-fire-hydrant/city-fire-hydrant-1.0.0-models.zip",
+      "bytes": 2682901,
+      "sha256": "3e5f788e70285e6485139377ca2d17d4caa3ce60a544cf88ef4f48c6f81f6365",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-hvac-condenser",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-hvac-condenser/city-hvac-condenser-1.0.0.zip",
+      "bytes": 1325178,
+      "sha256": "bc4c70de683339b1b542593b3ec72b3b87655faf79642640e983c7e905343f5d",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-hvac-condenser",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-hvac-condenser/city-hvac-condenser-1.0.0-models.zip",
+      "bytes": 707138,
+      "sha256": "ed309de716394fa51938868f2671ef26807837ee8311d944e94e18271bece853",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-inspection-cover",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-inspection-cover/city-inspection-cover-1.0.0.zip",
+      "bytes": 983599,
+      "sha256": "ecceb4581573faf0dad81a2d7ed59e52034165dec80b69f1f4ac5c3644ad149c",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-inspection-cover",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-inspection-cover/city-inspection-cover-1.0.0-models.zip",
+      "bytes": 521902,
+      "sha256": "bacde322555c3a9075f7a4b620b487aef2b06633e594e85bf0cfc6ae16007363",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-litter-bin",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-litter-bin/city-litter-bin-1.0.0.zip",
+      "bytes": 1393661,
+      "sha256": "0a4c50b691499d3346d1b6a0acce597fc8b0cedb4af7dace9b6114358631146b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-litter-bin",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-litter-bin/city-litter-bin-1.0.0-models.zip",
+      "bytes": 827219,
+      "sha256": "1820869fa20402b576bc2831b5df6b0ff10cd0eb68e20d75365087865bb38cf2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-parcel-locker",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-parcel-locker/city-parcel-locker-1.0.0.zip",
+      "bytes": 2296050,
+      "sha256": "7a24e2d7ca4ed08200b2ca5602b9fd208cc2b47d48dfb8110634a54072530ec4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-parcel-locker",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-parcel-locker/city-parcel-locker-1.0.0-models.zip",
+      "bytes": 1670340,
+      "sha256": "313d4a63bd326695f4d8e6c1a1030677c6ae6615a3a2a96bd5bbe104c068db9b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-parking-meter",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-parking-meter/city-parking-meter-1.0.0.zip",
+      "bytes": 1784936,
+      "sha256": "2cc6ca94e7b28a09c1361d2b264b2cf440e4eef1edb2f47593c79e45a56505a4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-parking-meter",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-parking-meter/city-parking-meter-1.0.0-models.zip",
+      "bytes": 1330368,
+      "sha256": "af12eb6c01c9c32e387850f68ece9e623422ca5b55d9cd168a54c46bc7a3f9d5",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-pedestrian-railing",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-pedestrian-railing/city-pedestrian-railing-1.0.0.zip",
+      "bytes": 763631,
+      "sha256": "db4c04c09376875e06dedfb24f2dc53a5dbdfa6616138c6db3e856e19efb9e32",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-pedestrian-railing",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-pedestrian-railing/city-pedestrian-railing-1.0.0-models.zip",
+      "bytes": 320825,
+      "sha256": "d5b9d8ec4a4536bc26ba57bc7d6c970f2b7b184ca810e9e77ea7ca1a15338821",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-recycling-station",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-recycling-station/city-recycling-station-1.0.0.zip",
+      "bytes": 2353977,
+      "sha256": "eecc5385dc023fd2a410f1e4f9f3762315bb4da8deabebe1d153a49f16d6bfdb",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-recycling-station",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-recycling-station/city-recycling-station-1.0.0-models.zip",
+      "bytes": 1662872,
+      "sha256": "c0f4b92345ef3b4c1efb7367c20bb71c8af9518538747dc8904946ae1fd40c98",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-road-barrier",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-road-barrier/city-road-barrier-1.0.0.zip",
+      "bytes": 1270502,
+      "sha256": "9402f3057d32a39be94866b4d461229f1065914db1eb0ced0fdebcae450e4cd8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-road-barrier",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-road-barrier/city-road-barrier-1.0.0-models.zip",
+      "bytes": 679101,
+      "sha256": "a7604b378b6e91cae1a445d631e1a023f5734622348452bdf0bcfa6db0085022",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-speed-cushion",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-speed-cushion/city-speed-cushion-1.0.0.zip",
+      "bytes": 766996,
+      "sha256": "13646d3e07d89a31dcff74fe308edcac4de5260190ad5302d3dbfcb1d14b5650",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-speed-cushion",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-speed-cushion/city-speed-cushion-1.0.0-models.zip",
+      "bytes": 349144,
+      "sha256": "6504f7e119b660d44cde1762c546c8b226d77e0ebe21537ed80beecce3d699dc",
+      "profile": "store-v1"
+    },
+    {
+      "id": "city-storm-drain",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-storm-drain/city-storm-drain-1.0.0.zip",
+      "bytes": 656685,
+      "sha256": "312e9a9ac45b531178db9467aa63ef0f79c72fa67b350e3cc62a7cb408bb7297",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-storm-drain",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-storm-drain/city-storm-drain-1.0.0-models.zip",
+      "bytes": 109450,
+      "sha256": "7e9b98f37738ecf9d73b5f0a50864ee095659c79fb6809d7ce5aca933b430bc4",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-streetlight",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-streetlight/city-streetlight-1.0.0.zip",
+      "bytes": 593945,
+      "sha256": "6a6a9fbb3b24b7f26e7ad12cc1055dd25df2f1f1c3d9a8615ef26380b484559a",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-streetlight",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-streetlight/city-streetlight-1.0.0-models.zip",
+      "bytes": 217619,
+      "sha256": "f382dab78e535897ca536a8efe51ab0b3309d6b579edef4266245fd8336a3336",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tactile-paving",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tactile-paving/city-tactile-paving-1.0.0.zip",
+      "bytes": 492166,
+      "sha256": "df933db3f3597200fa9db0d87570ea7f564dad514711c3e2771d2d87a6740ad2",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tactile-paving",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tactile-paving/city-tactile-paving-1.0.0-models.zip",
+      "bytes": 39383,
+      "sha256": "44e6b3a8e18f413860fc4af77747ac32ef92ba3bac2eb9cb65976fefd7f3ba80",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-traffic-cone",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-traffic-cone/city-traffic-cone-1.0.0.zip",
+      "bytes": 487911,
+      "sha256": "db37f60c4272300ca466273d09c8d3d8a7e2393d8b0904d94d67687a90fba4da",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-traffic-cone",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-traffic-cone/city-traffic-cone-1.0.0-models.zip",
+      "bytes": 46984,
+      "sha256": "e4559d18ddad36d649fa06deb97a91534b19e56baf9b9a6c0f0810ba46ab8698",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-traffic-signal",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-traffic-signal/city-traffic-signal-1.0.0.zip",
+      "bytes": 946296,
+      "sha256": "72c62b53cd95b2aeedf6ab5f3f7e8775dec36ca5894d691d8000a70b670c1135",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-traffic-signal",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-traffic-signal/city-traffic-signal-1.0.0-models.zip",
+      "bytes": 532600,
+      "sha256": "b6a9bcb59a01bc10ea7773691b6f75b1b2fade3176ea2b5097ee4914c4ee483e",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tree-guard",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tree-guard/city-tree-guard-1.0.0.zip",
+      "bytes": 558242,
+      "sha256": "50ee42e46816193fc3c67212d28382aa2cad687ddeb8f2b474c751d0355529ce",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tree-guard",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tree-guard/city-tree-guard-1.0.0-models.zip",
+      "bytes": 53611,
+      "sha256": "4591214109d6f48ed077de1a9deec7e4c2e1f2eee2b550c27a898cda44a43191",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-ventilation-outlet",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-ventilation-outlet/city-ventilation-outlet-1.0.0.zip",
+      "bytes": 941439,
+      "sha256": "a49e9f25fa73a5a159db8098ed469d6de8f4cfcc78ed166cd358c895bfaa777d",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-ventilation-outlet",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-ventilation-outlet/city-ventilation-outlet-1.0.0-models.zip",
+      "bytes": 270935,
+      "sha256": "782ce458f0234aa899a778bb6e2098590fa93bbae41be24cf4c6df88f4e8fcdb",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-wheel-stop",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-wheel-stop/city-wheel-stop-1.0.0.zip",
+      "bytes": 373398,
+      "sha256": "c0c2c335d0702c52c15f3ad534c35d278d718262c6331024e867dfa660e541cb",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-wheel-stop",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-wheel-stop/city-wheel-stop-1.0.0-models.zip",
+      "bytes": 21732,
+      "sha256": "cc66a5c56e3ae0c4ddda6f42ccd0f5843f0c445ee6df2af67d5a349c3b8bdf09",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "clay-brick",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/clay-brick/clay-brick-1.0.1.zip",
+      "bytes": 766291,
+      "sha256": "5c4f12608e80b586fff028c98733529662aeaf166daeedcced34f8d15530e49c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "cobalt-ceramic",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/cobalt-ceramic/cobalt-ceramic-1.0.1.zip",
+      "bytes": 496055,
+      "sha256": "8bfe7c4134deb0b7fc2f318263f839288f82aa13c281faf53695bd9bec622984",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bar-counter",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bar-counter/commons-bar-counter-1.0.1.zip",
+      "bytes": 8368123,
+      "sha256": "63117fcc194bf0a7770490a8885afc106f6adc1545e536d7f835c41c2129d744",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bar-counter",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bar-counter/commons-bar-counter-1.0.1-models.zip",
+      "bytes": 7416719,
+      "sha256": "49e997be174e63b660829cb57b7ff9b59d968953a55cd7df62169370e3fe0b63",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bar-labels",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bar-labels/commons-bar-labels-1.0.1.zip",
+      "bytes": 3582030,
+      "sha256": "4af30244b3866d386d15f39ac3b1c8d3c3290762148f9e74119f3f15a7dda6a0",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bar-stool",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bar-stool/commons-bar-stool-1.0.1.zip",
+      "bytes": 9274573,
+      "sha256": "bdc4153e516535e9b92e5390f70eba7efefa14912104e122991786b464b91d4c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bar-stool",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bar-stool/commons-bar-stool-1.0.1-models.zip",
+      "bytes": 8323281,
+      "sha256": "09f217356e4aed89c791ab819600c7515f3ddbc4735610ce6e257268692cd351",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-basalt-terrazzo",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-basalt-terrazzo/commons-basalt-terrazzo-1.0.1.zip",
+      "bytes": 3873405,
+      "sha256": "076b3fc0711d7e7d5b11b9c1c79b05b4fb78208fc5685264a85e685de62736d9",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-blackened-steel",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-blackened-steel/commons-blackened-steel-1.0.1.zip",
+      "bytes": 2857953,
+      "sha256": "46304f9fa171eb5480a9e2a611729556dd5f13b872a7727ac6beb2d3b1ac74e5",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-book-set",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-book-set/commons-book-set-1.0.1.zip",
+      "bytes": 9490586,
+      "sha256": "28e2f10b18009de5fc63570ed9e81afd19c3c32a8ac564c9b7f0348473df3214",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-book-set",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-book-set/commons-book-set-1.0.1-models.zip",
+      "bytes": 8502722,
+      "sha256": "d9f8bc9b6eadcc510aee812abc0babf0af94d70c24f665e4a82eccaf733b6588",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bottle-set",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bottle-set/commons-bottle-set-1.0.1.zip",
+      "bytes": 6740888,
+      "sha256": "afb825f24d4b6299dee861056e25be497360c1e1cb8b05ca4934296c1e438cfb",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-bottle-set",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-bottle-set/commons-bottle-set-1.0.1-models.zip",
+      "bytes": 5870252,
+      "sha256": "a332b501e92af2d0a3c1a490d6da891d07a9c7506a53b9570002bd238c39adc1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-cafe-props",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-cafe-props/commons-cafe-props-1.0.1.zip",
+      "bytes": 3155258,
+      "sha256": "b780600f57f5dc0cdfed9a84a4ec09fe8c63e48e931f7a0370f7792919143036",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-coffee-bag",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-coffee-bag/commons-coffee-bag-1.0.1.zip",
+      "bytes": 6404391,
+      "sha256": "cd785f536e5babb34d8e27e3aba67813cdae8dc2757e1ca46dca36cc692aef3f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-coffee-bag",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-coffee-bag/commons-coffee-bag-1.0.1-models.zip",
+      "bytes": 5467076,
+      "sha256": "db06dd1cd6c95a634bb2f7e1dd83805a34941f7a4695c84a0f41e40637350ebb",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-coffee-cup",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-coffee-cup/commons-coffee-cup-1.0.1.zip",
+      "bytes": 849820,
+      "sha256": "d2bfe6f3337c2d3919bd57e2e9d2b8d5b573b7e91756704a0963e251e0a5bd6f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-coffee-cup",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-coffee-cup/commons-coffee-cup-1.0.1-models.zip",
+      "bytes": 29124,
+      "sha256": "0b37b65a5d2a0d5139a19fbe31ef6cf5aa40ebfd3c744d7b30ef22ef7fed8919",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-coffee-grinder",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-coffee-grinder/commons-coffee-grinder-1.0.1.zip",
+      "bytes": 3443677,
+      "sha256": "01bdea18d7e42de4652386dabcb98399467cd7d0057bea0c4b9c8a657d2b7982",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-coffee-grinder",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-coffee-grinder/commons-coffee-grinder-1.0.1-models.zip",
+      "bytes": 2575632,
+      "sha256": "9ee11283ae94a9fe903a3b99ea86cb6b18a164ceb74f429e12200d27483f5332",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-display-plinth",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-display-plinth/commons-display-plinth-1.0.1.zip",
+      "bytes": 3655064,
+      "sha256": "aaeaf284f38e7e5e2efb37b96d43fedeadc7aab9973b2bf0cd976d054ed336c2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-display-plinth",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-display-plinth/commons-display-plinth-1.0.1-models.zip",
+      "bytes": 2660492,
+      "sha256": "72fb4cbba84da81e203fc997742305275701b65b70e57b5d635d4c1ffeb7d29b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-dj-controller",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-dj-controller/commons-dj-controller-1.0.1.zip",
+      "bytes": 8703903,
+      "sha256": "f60acaf20c875384b524135f5e91e40c7f8b4d1bcdf2dfe50641a4ea1c3e2363",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-dj-controller",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-dj-controller/commons-dj-controller-1.0.1-models.zip",
+      "bytes": 7775505,
+      "sha256": "9f5b30b460bcddc77d71ef2976d74da334ef68f9f40eb739da32b5fc7a66d454",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-dj-desk",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-dj-desk/commons-dj-desk-1.0.1.zip",
+      "bytes": 5802759,
+      "sha256": "4ea0bf841cb7bffb4d1ecff4ecfc6c647c6e6953ba63cb559c79b2b0e39d6b7a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-dj-desk",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-dj-desk/commons-dj-desk-1.0.1-models.zip",
+      "bytes": 4872865,
+      "sha256": "f10003c723b25ba559be04e22d81b3a0cf3cb0acff349bd492d52a05e6ec396d",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-equipment-rack",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-equipment-rack/commons-equipment-rack-1.0.1.zip",
+      "bytes": 6525203,
+      "sha256": "80e2ca9c958389ed93501e751afd5d67a9a5dc97ea8ea36bd72d59d4c74f1ea5",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-equipment-rack",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-equipment-rack/commons-equipment-rack-1.0.1-models.zip",
+      "bytes": 5627384,
+      "sha256": "0ff3faa2a6516239d566548c661cb0b94565dac6cd7741c491064fbf132b2787",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-espresso-machine",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-espresso-machine/commons-espresso-machine-1.0.1.zip",
+      "bytes": 9117526,
+      "sha256": "fcce2a84b0b5d67bce19d2ad3989599c2304d423675dbcb9bb1e20ae6ebfadc2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-espresso-machine",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-espresso-machine/commons-espresso-machine-1.0.1-models.zip",
+      "bytes": 8034226,
+      "sha256": "0f2dd16250cf461b9d5e36920e01b08159b77134a1f6816a44958141d54cbd16",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-floating-bookshelf",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-floating-bookshelf/commons-floating-bookshelf-1.0.1.zip",
+      "bytes": 9731320,
+      "sha256": "52a199d3c1248e9b3705293e8351e3bdf5a16443b95cd3d18364f8ce2a14a45b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-floating-bookshelf",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-floating-bookshelf/commons-floating-bookshelf-1.0.1-models.zip",
+      "bytes": 8684192,
+      "sha256": "26a8f4430380f454d986eeccf2b959e8f9f0a71075d803f6b851f4c542364243",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-halo-light",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-halo-light/commons-halo-light-1.0.1.zip",
+      "bytes": 3529907,
+      "sha256": "4509c9ae50ef18109121566ee46839604b9a3839dd109da44db372f6b2d5bdb2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-halo-light",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-halo-light/commons-halo-light-1.0.1-models.zip",
+      "bytes": 2688416,
+      "sha256": "340ee4a3ca0ce7f77a5f841adbf0158fcee4be0477fd8ae31921ddc405a19898",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-leaf-planter",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-leaf-planter/commons-leaf-planter-1.0.1.zip",
+      "bytes": 887152,
+      "sha256": "384a8fcb5f72a8bc15181fd153aa292d2b645fbe08d5e95ed4de8470dd57a287",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-leaf-planter",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-leaf-planter/commons-leaf-planter-1.0.1-models.zip",
+      "bytes": 52044,
+      "sha256": "634e012ebf60e4f890aadf6d3b760abf4b59373f6720e89265bb5ff3290c486c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-lounge-chair",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-lounge-chair/commons-lounge-chair-1.0.1.zip",
+      "bytes": 6717568,
+      "sha256": "f7a7c7e92a305a9d2554f2803c62636fc14f43516894c6ecb2aa2a65d56aff62",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-lounge-chair",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-lounge-chair/commons-lounge-chair-1.0.1-models.zip",
+      "bytes": 5755374,
+      "sha256": "798d9badeb8c32e3b8319631d12e46f0d3b7494b4840dc8a82cbe855eb40eb28",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-lounge-sofa",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-lounge-sofa/commons-lounge-sofa-1.0.1.zip",
+      "bytes": 6833980,
+      "sha256": "1e6f2bfd3663bdf4ce0a810a00a82cd4d3e6d55b4bb3502decbce2d3ee7558c1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-lounge-sofa",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-lounge-sofa/commons-lounge-sofa-1.0.1-models.zip",
+      "bytes": 5781323,
+      "sha256": "e164dd51cbb2c4f1b57d72e9d5758a4a057b5f9ac600db3a6b97584580d6850a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-low-table",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-low-table/commons-low-table-1.0.1.zip",
+      "bytes": 8447757,
+      "sha256": "9cf73c79251f99e8e2432437311d759bbf3a49a7270d4b518bad35c14434b85e",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-low-table",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-low-table/commons-low-table-1.0.1-models.zip",
+      "bytes": 7404049,
+      "sha256": "f998e1a4e2c585cccf41df35b0ee02f3cfad41171b1e8fa6dea1c7fd38595a4c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-mineral-plaster",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-mineral-plaster/commons-mineral-plaster-1.0.1.zip",
+      "bytes": 3359113,
+      "sha256": "4a295a477ac12fffd5b2fbe85b82339dfe827c18c84233caa04523304ae83736",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-pa-speaker",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-pa-speaker/commons-pa-speaker-1.0.1.zip",
+      "bytes": 3418397,
+      "sha256": "bd7c5c2c0bc4bfcbdef2b7d1f2914140734372d5b716f63755d78b0cfa2bff78",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-pa-speaker",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-pa-speaker/commons-pa-speaker-1.0.1-models.zip",
+      "bytes": 2604316,
+      "sha256": "2a5320bf84a0a529a6be2afd5785e4d71df8041363eaa1e445cdef9911d950be",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-pendant-light",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-pendant-light/commons-pendant-light-1.0.1.zip",
+      "bytes": 3442914,
+      "sha256": "d047c07634a13cd10cbd168a54431c6d3b3af36690751c579b9b7db1e80aca7e",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-pendant-light",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-pendant-light/commons-pendant-light-1.0.1-models.zip",
+      "bytes": 2586193,
+      "sha256": "7f3d16b45a45eee4eef34bca2a034f95c2729dc1eb45278ad954710ef4fe04fc",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-poster-frame",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-poster-frame/commons-poster-frame-1.0.1.zip",
+      "bytes": 3346299,
+      "sha256": "fcd45f1339d02cbf074231bb9aaa068a6f4daf9050fb6d480f9e85103660b4ce",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-poster-frame",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-poster-frame/commons-poster-frame-1.0.1-models.zip",
+      "bytes": 2489946,
+      "sha256": "3f594a80b7e8acfb1b741f3b8e164e1694887854b60b7d085c1bbadd5658e3c8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-relay-controller",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-relay-controller/commons-relay-controller-1.0.1.zip",
+      "bytes": 2491067,
+      "sha256": "d675c089b1b5508481a90d7b8105ad4083146e28ee10b178b1a14a05e540ce4a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-round-stage",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-round-stage/commons-round-stage-1.0.1.zip",
+      "bytes": 5946871,
+      "sha256": "4b5e46b193074765402a7409b1457aa7f64857de0a397161ae9f85e9496cbd6b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-round-stage",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-round-stage/commons-round-stage-1.0.1-models.zip",
+      "bytes": 5021223,
+      "sha256": "fd46ea949b56ef8875586fa5687ec49b079ffbe9b04a83aa23c92cb9871653a8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-round-table",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-round-table/commons-round-table-1.0.1.zip",
+      "bytes": 8359594,
+      "sha256": "b445ded8d462f6d4cf31a176bd51cf35c53b4a77f56feb1fb334335bd7700717",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-round-table",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-round-table/commons-round-table-1.0.1-models.zip",
+      "bytes": 7404069,
+      "sha256": "fc5c60b06291adbe5f0873127eb0618685ed0aca7959034ac17b1fb4195be811",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-satin-brass",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-satin-brass/commons-satin-brass-1.0.1.zip",
+      "bytes": 2807803,
+      "sha256": "d7064d11ab6d369947cecf9e0d3e3293360954a80c1f425d936d86d3094dba94",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-table-candle",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-table-candle/commons-table-candle-1.0.1.zip",
+      "bytes": 795723,
+      "sha256": "5a41bd42e54b6d477051c747d2ee8d512347c42b50f08799795cdb6d62320eb1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-table-candle",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-table-candle/commons-table-candle-1.0.1-models.zip",
+      "bytes": 12710,
+      "sha256": "cc4524b09b4350d3c6ec30c8e7c9e4b72da8a5601635b54be8b1f89963016560",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-teal-woven",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-teal-woven/commons-teal-woven-1.0.1.zip",
+      "bytes": 3736607,
+      "sha256": "5fbd75f25f507edc71f46033c110ef3e61173c90cb426404e0c7773c3a8b6ffd",
+      "profile": "store-v1"
+    },
+    {
+      "id": "commons-warm-oak",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/commons-warm-oak/commons-warm-oak-1.0.1.zip",
+      "bytes": 2582504,
+      "sha256": "5c8164757df92b1c864d8be7c9fd1fcef913a804a6550242f279fb5bce6f8f56",
+      "profile": "store-v1"
+    },
+    {
+      "id": "field-terminal",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/field-terminal/field-terminal-1.0.1.zip",
+      "bytes": 44647,
+      "sha256": "9b9237658ebee3a5a10923974221c803e9a56ffa1b74846abccc164da2f4882c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "field-terminal",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/field-terminal/field-terminal-1.0.1-models.zip",
+      "bytes": 22023,
+      "sha256": "cb96486181c03f44e358436f050483d74db4d7cd793c522ae4f4b33ed2c41e85",
+      "profile": "store-v1"
+    },
+    {
+      "id": "garden-arch",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/garden-arch/garden-arch-1.0.1.zip",
+      "bytes": 60286,
+      "sha256": "c7fecdfea57edc4e9c2e564b680c51a8546c503cbdd87d445d96ba82a769c3c8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "garden-arch",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/garden-arch/garden-arch-1.0.1-models.zip",
+      "bytes": 42297,
+      "sha256": "f5cc3874e830a9789b4e9941df06df49d769dedfaad2d38f65ed94a844c5cac6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "market-crate",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/market-crate/market-crate-1.0.1.zip",
+      "bytes": 111047,
+      "sha256": "6fd6f023a3b4742d8a3aa400ffd6ec0a7f355d8628ae6e16adb4d60acf805c8b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "market-crate",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/market-crate/market-crate-1.0.1-models.zip",
+      "bytes": 68132,
+      "sha256": "d9177289bbe179e2447fb6225fa9a8d7e132b7673e93ec74f4bf826058c46a13",
+      "profile": "store-v1"
+    },
+    {
+      "id": "sage-terrazzo",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/sage-terrazzo/sage-terrazzo-1.0.1.zip",
+      "bytes": 379331,
+      "sha256": "d599f653caa4485fc566fa857f64f9027a2eb92f65a83548662a156f30f72ab3",
+      "profile": "store-v1"
+    },
+    {
+      "id": "slat-bench",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/slat-bench/slat-bench-1.0.1.zip",
+      "bytes": 67556,
+      "sha256": "498bde5d8315f114603397c101694a8a3dbb7faaeb3a9a528defab668cc92d41",
+      "profile": "store-v1"
+    },
+    {
+      "id": "slat-bench",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/slat-bench/slat-bench-1.0.1-models.zip",
+      "bytes": 29925,
+      "sha256": "7816bfad150acc983c4a8c76b788b5a3114e9f57af1d17525392464fbd220b1b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "studio-chair",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/studio-chair/studio-chair-1.0.1.zip",
+      "bytes": 45690,
+      "sha256": "35cd4a4851422b2a7829af1bf47fc18bd9235c7c9dacd96dab32fe0d7f0e0889",
+      "profile": "store-v1"
+    },
+    {
+      "id": "studio-chair",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/studio-chair/studio-chair-1.0.1-models.zip",
+      "bytes": 24516,
+      "sha256": "90f955bf961b64ac0b99d7f1cb5d2f44c9cce0b12d7e746cd8e6b391a3225273",
+      "profile": "store-v1"
+    },
+    {
+      "id": "terracotta-planter",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/terracotta-planter/terracotta-planter-1.0.1.zip",
+      "bytes": 349943,
+      "sha256": "e0238e33eb9a7d69a8e7a3e99f4314454fbfcfd0f44a768a35bb7cc4359f9d44",
+      "profile": "store-v1"
+    },
+    {
+      "id": "terracotta-planter",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/terracotta-planter/terracotta-planter-1.0.1-models.zip",
+      "bytes": 317386,
+      "sha256": "1c00babc3ca3ae8f865822275da337ae73510c93878b37a075715967853a5714",
+      "profile": "store-v1"
+    },
+    {
+      "id": "warm-limestone",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/warm-limestone/warm-limestone-1.0.1.zip",
+      "bytes": 1515050,
+      "sha256": "c78c5ec4349a0ebdad52e4f927d1b932de55ca7e83124d02ad677ffe2858fea4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "wayfinding-sign",
+      "version": "1.0.1",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/wayfinding-sign/wayfinding-sign-1.0.1.zip",
+      "bytes": 276180,
+      "sha256": "94f0816d8e85c554f761975bcd2dc790768f576f8484dbbcd93419cecad66967",
+      "profile": "store-v1"
+    },
+    {
+      "id": "wayfinding-sign",
+      "version": "1.0.1",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/wayfinding-sign/wayfinding-sign-1.0.1-models.zip",
+      "bytes": 257398,
+      "sha256": "6ec662f8826d2980b5f51d8b3e0f8303ca1d9a5087fa6ba08b5cc5c4f8308055",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-banquette",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-banquette/yokocho-banquette-1.0.0.zip",
+      "bytes": 3884920,
+      "sha256": "ec600bbf041ad950d4cf8a85289d858adf2bccd6e9825350f4599c77b8752fad",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-banquette",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-banquette/yokocho-banquette-1.0.0-models.zip",
+      "bytes": 3602132,
+      "sha256": "74ac43dc065bef617d451bc191bce00f846beb4da276f0e484907e4b96c8bfc0",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-bard-lyre-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-bard-lyre-sign/yokocho-bard-lyre-sign-1.0.0.zip",
+      "bytes": 447232,
+      "sha256": "b54c4f885bad69095225e7b55efd9d8bddce0d7d0dd1dc456c92e75b62d89f1b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-bard-lyre-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-bard-lyre-sign/yokocho-bard-lyre-sign-1.0.0-models.zip",
+      "bytes": 104915,
+      "sha256": "138f09473cc9947ef1d28df7b4290048d86d75de56d3bd0af42765486df22248",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-bark",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-bark/yokocho-bark-1.0.0.zip",
+      "bytes": 417358,
+      "sha256": "550aa1aec3be4b54513818ec61e7c915b27b0d3eab9da5652305213a6cebff55",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-booster-pump-skid",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-booster-pump-skid/yokocho-booster-pump-skid-1.0.0.zip",
+      "bytes": 815601,
+      "sha256": "3df9a8a8c0a1e37aeceebf90830d5cab6cca050f3c4e84f7397fc8e014ef2857",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-booster-pump-skid",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-booster-pump-skid/yokocho-booster-pump-skid-1.0.0-models.zip",
+      "bytes": 495604,
+      "sha256": "746602031b1a2284bf12f1e69d7930bc6e91d375631efbafdf8b16247bc6542c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-booth-table",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-booth-table/yokocho-booth-table-1.0.0.zip",
+      "bytes": 359068,
+      "sha256": "3579d556f6f568c5da71c93891cd9bef9f3c2df791d60a08174805b6ce63b202",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-booth-table",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-booth-table/yokocho-booth-table-1.0.0-models.zip",
+      "bytes": 91604,
+      "sha256": "618e583ae5f569dd4f3c6692a8937e671b84275dc34088c7a8ebcdb6518cf759",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-bottle-keep-wall",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-bottle-keep-wall/yokocho-bottle-keep-wall-1.0.0.zip",
+      "bytes": 4966033,
+      "sha256": "c12ff7089a5ae71496945e70eaea24d4e3ba35e6f5fd624f938fc606334102ab",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-bottle-keep-wall",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-bottle-keep-wall/yokocho-bottle-keep-wall-1.0.0-models.zip",
+      "bytes": 4579199,
+      "sha256": "1cd22d1c886a9c9febaa8b008cd86efd810455ddad676bd50d290d270bb46cc6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-charcoal-stool-set",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-charcoal-stool-set/yokocho-charcoal-stool-set-1.0.0.zip",
+      "bytes": 593422,
+      "sha256": "0f717b078f1b1c9d5ab03d2bc914ab309f95beca18e8dbb284c88e88ea680092",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-charcoal-stool-set",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-charcoal-stool-set/yokocho-charcoal-stool-set-1.0.0-models.zip",
+      "bytes": 303783,
+      "sha256": "8e4b2f4f5aa42b0e1faa1296ba63eb89bbc261a92b60451986bba137e8b3a90f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-cloth",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-cloth/yokocho-cloth-1.0.0.zip",
+      "bytes": 70744,
+      "sha256": "1b8ea64d9eea06cf0e38dabcdd8f019b24d20e6eb0d99b0afe0d6d50867a30f7",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-club-armchair",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-club-armchair/yokocho-club-armchair-1.0.0.zip",
+      "bytes": 441849,
+      "sha256": "3e4dad1ac861770029546cda92739fe3a03aa59ca4c88793709099a22e7fd542",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-club-armchair",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-club-armchair/yokocho-club-armchair-1.0.0-models.zip",
+      "bytes": 50468,
+      "sha256": "6ea17a5a6e0334daa663c6453111f0c8e4a5f8334a1460014f996b708bdc18b8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-cocktail-stool",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-cocktail-stool/yokocho-cocktail-stool-1.0.0.zip",
+      "bytes": 367992,
+      "sha256": "03effe74d9899c46227b57b003a3c398b4e6e686366148248c24f193c4b057f3",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-cocktail-stool",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-cocktail-stool/yokocho-cocktail-stool-1.0.0-models.zip",
+      "bytes": 52147,
+      "sha256": "fdbdba45793e6deeb9a31614dce929b2d8e4c7b337bec2dc7b1d74f7f0ea76e2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-confectioner-stool-set",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-confectioner-stool-set/yokocho-confectioner-stool-set-1.0.0.zip",
+      "bytes": 454877,
+      "sha256": "129776c4c580516adf808f63209a6f415326e1aa9a34ed575417382b2ee6044d",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-confectioner-stool-set",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-confectioner-stool-set/yokocho-confectioner-stool-set-1.0.0-models.zip",
+      "bytes": 194795,
+      "sha256": "59396a7bdb7665efb26fa1bab8916ddd5f77cb0648cf49b21fc2bd4e6c1229c9",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-counter-craft",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-counter-craft/yokocho-counter-craft-1.0.0.zip",
+      "bytes": 717233,
+      "sha256": "da2617e63329dbfff86fda567139770cfa58bcd387ef9f4914aa01cc2c029d8d",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-dragon-ember-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-dragon-ember-sign/yokocho-dragon-ember-sign-1.0.0.zip",
+      "bytes": 431555,
+      "sha256": "e79b3062baf89b59fac59091ccb8832b95a888cbc29087c3aa2224218f0dd94f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-dragon-ember-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-dragon-ember-sign/yokocho-dragon-ember-sign-1.0.0-models.zip",
+      "bytes": 104984,
+      "sha256": "4c27f6a7991127eb30718d3df8436a2c00fc47d38c01a6121af19858a8a4d425",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-control-panel",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-control-panel/yokocho-entry-control-panel-1.0.0.zip",
+      "bytes": 19302,
+      "sha256": "13c39bce5ba907fc428528ba79a61caca9dafc0ec528aeaac90efee45f4d4e86",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-display-frame",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-display-frame/yokocho-entry-display-frame-1.0.0.zip",
+      "bytes": 674745,
+      "sha256": "52e9cb716b6549dbeafe121fb5c09be99583596823cfec9f0ba0a47e543b472a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-display-frame",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-display-frame/yokocho-entry-display-frame-1.0.0-models.zip",
+      "bytes": 282623,
+      "sha256": "216b11c23c57c8f8c13ac14334ff0bee896107a9e800c64d282cc23308bc2b9b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-endgrain",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-endgrain/yokocho-entry-endgrain-1.0.0.zip",
+      "bytes": 427627,
+      "sha256": "59cafd1bbf2df8ba7d47451537a4e3ea4b857153022f9a0e21e7fa56dde8f94e",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-guideboard-artwork",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-guideboard-artwork/yokocho-entry-guideboard-artwork-1.0.0.zip",
+      "bytes": 198911,
+      "sha256": "293a259da4246fab9db93db031bdce21b9ab78404fa8f7be13e813d836afe582",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-guideboard",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-guideboard/yokocho-entry-guideboard-1.0.0.zip",
+      "bytes": 833102,
+      "sha256": "e6f6ef9b42869d40fd7f4b9e866814238a7ca6f5221c8fd5048b631f99d75383",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-guideboard",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-guideboard/yokocho-entry-guideboard-1.0.0-models.zip",
+      "bytes": 413548,
+      "sha256": "187d132509a3ada791ccb0c7fcf4b24f4336bb2248feb4706de5916b21a841b4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-log-bench",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-log-bench/yokocho-entry-log-bench-1.0.0.zip",
+      "bytes": 889010,
+      "sha256": "de1354542fa4aba935326c99dfdfabb2053768fadb39feea894cf21e496d7edc",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-log-bench",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-log-bench/yokocho-entry-log-bench-1.0.0-models.zip",
+      "bytes": 612177,
+      "sha256": "d1a5e0ddd36d7cb40e96fc3915d51e312ff226e51c278249a788bec5c1ba4333",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-stump-table",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-stump-table/yokocho-entry-stump-table-1.0.0.zip",
+      "bytes": 985316,
+      "sha256": "78c695b2b19776f1f20a2ad8756ffe01b994fab4bceaec07be2bb413b0d65eb4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-stump-table",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-stump-table/yokocho-entry-stump-table-1.0.0-models.zip",
+      "bytes": 595685,
+      "sha256": "068c5cc30a1a8fd4fcb7243fd53c80447f7c9574330b9b04f4698a5f3837cc42",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-entry-timber",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-entry-timber/yokocho-entry-timber-1.0.0.zip",
+      "bytes": 185681,
+      "sha256": "3e68acddb35bf3c55a1c09ed2c85c4cbbd5e2a9b6313d66d051ea4197b3fb387",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-foliage-spray",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-foliage-spray/yokocho-foliage-spray-1.0.0.zip",
+      "bytes": 326862,
+      "sha256": "acfb91185041b557c6eaeda959a3544fa3aa518a865b1f6b22e408a87d5be358",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-food-venue-signs",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-food-venue-signs/yokocho-food-venue-signs-1.0.0.zip",
+      "bytes": 310322,
+      "sha256": "10b2d02bbec4c3119e77ba3c4fd4e8ede6f68df75efea14dc8a420f5d921fa95",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-geometric-backbar",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-geometric-backbar/yokocho-geometric-backbar-1.0.0.zip",
+      "bytes": 1322857,
+      "sha256": "c628aa9a978e50c85d195b1e41d558ba5ce69ba03cdf628447b78b234012b2c3",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-geometric-backbar",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-geometric-backbar/yokocho-geometric-backbar-1.0.0-models.zip",
+      "bytes": 936378,
+      "sha256": "aafd2cfd65a01660006eef87de6b97675a16fe5ae87f09a98acb4227bc873408",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-lantern",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-lantern/yokocho-lantern-1.0.0.zip",
+      "bytes": 518429,
+      "sha256": "7c373fc6844ffe5a201d30ffc850750ed24c7752f673ec9a83091bc550cd2641",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-leaf",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-leaf/yokocho-leaf-1.0.0.zip",
+      "bytes": 1699262,
+      "sha256": "4fe5652d298d610e51c887d9474165bb524a8b5c184a0a017fe68a94d21b05ea",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-listening-chair",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-listening-chair/yokocho-listening-chair-1.0.0.zip",
+      "bytes": 3805641,
+      "sha256": "34b4f8df53a3b7025b5f3a73853fb44580e6e256e86108f7c7873b7fff295a3e",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-listening-chair",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-listening-chair/yokocho-listening-chair-1.0.0-models.zip",
+      "bytes": 3481766,
+      "sha256": "9c3150640dd6177c10a16cf8165dfca5a6b0aab48973d127e19af321adbcb03f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-listening-counter",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-listening-counter/yokocho-listening-counter-1.0.0.zip",
+      "bytes": 501838,
+      "sha256": "29e9580247545545445e84d959ab6ae151e3834752bd5bf327d3df421a6517b4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-listening-counter",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-listening-counter/yokocho-listening-counter-1.0.0-models.zip",
+      "bytes": 111254,
+      "sha256": "f8629a3050f11f72fd15bea90c29db5166a03b99708bfcb5a2b61b65f149e93e",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-lounge-table",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-lounge-table/yokocho-lounge-table-1.0.0.zip",
+      "bytes": 390869,
+      "sha256": "027d0d956c34f9527ea7c45aa03dd710086a32a9f5217f99e99d4fe622f24b26",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-lounge-table",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-lounge-table/yokocho-lounge-table-1.0.0-models.zip",
+      "bytes": 53219,
+      "sha256": "f9523ea55b6b421bf87155d2b5eba9e0aaf9975a7dd883bdb1e444df98e35df8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-medallion-chandelier",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-medallion-chandelier/yokocho-medallion-chandelier-1.0.0.zip",
+      "bytes": 383224,
+      "sha256": "62d111683e4eb97971f458beb8d613a1272b95b8c17b53e9670b3c5453a0ed5a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-medallion-chandelier",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-medallion-chandelier/yokocho-medallion-chandelier-1.0.0-models.zip",
+      "bytes": 86073,
+      "sha256": "afccc9c1185f76b0dbdc864176ceb8c388c6bf154739a937cac9d0e1863d4810",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-menus",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-menus/yokocho-menus-1.0.0.zip",
+      "bytes": 6846862,
+      "sha256": "734fb41076df488d8023e26d26fa126d9e5fc1be68970882e0451b2a8739db64",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-mixology-tools",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-mixology-tools/yokocho-mixology-tools-1.0.0.zip",
+      "bytes": 391553,
+      "sha256": "b49e13525d84c514258bd8906260000bc26a25d3abccf50de749e9f7b90f70b6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-mixology-tools",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-mixology-tools/yokocho-mixology-tools-1.0.0-models.zip",
+      "bytes": 64323,
+      "sha256": "2565fa6033d772b0459fd63ff8c43fe796d84948812f83b966ed4ffd4d158e0c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-moon-tea-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-moon-tea-sign/yokocho-moon-tea-sign-1.0.0.zip",
+      "bytes": 601989,
+      "sha256": "ad2098422528ba29b382790b64c3a6361dc68b01ed65dcf07dc710a1ba2868d4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-moon-tea-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-moon-tea-sign/yokocho-moon-tea-sign-1.0.0-models.zip",
+      "bytes": 207844,
+      "sha256": "aadece7ce447eeb768f0531a60ee2c623a5bca44fa30873f26191db0ba9b14b5",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-nightlife-signs",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-nightlife-signs/yokocho-nightlife-signs-1.0.0.zip",
+      "bytes": 443242,
+      "sha256": "f7be9b54a9c45be300d14a64de10a52a0310ed7409ffae9b9bb6c250664f55a1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-noh-pavilion",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-noh-pavilion/yokocho-noh-pavilion-1.0.0.zip",
+      "bytes": 9713683,
+      "sha256": "28568baedf34ba3ee7e5468af80bcc717429ed8c64fe45bcbcc05f15400c09f9",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-noh-pavilion",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-noh-pavilion/yokocho-noh-pavilion-1.0.0-models.zip",
+      "bytes": 9379771,
+      "sha256": "e9a62e6007fdeee8fabdae125553f12dc89a344d698a1527565fa35fbc318d93",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-noodle-guild-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-noodle-guild-sign/yokocho-noodle-guild-sign-1.0.0.zip",
+      "bytes": 4935894,
+      "sha256": "b8cea9dc99a40b231480281f3d14b7026e737eba56cf89cbb94592f23fea1173",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-noodle-guild-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-noodle-guild-sign/yokocho-noodle-guild-sign-1.0.0-models.zip",
+      "bytes": 4669444,
+      "sha256": "90a872dfd0b80f8844bcae77fe2938682ab987e8cb7488c205d4d016165c34b4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-noodle-stool-set",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-noodle-stool-set/yokocho-noodle-stool-set-1.0.0.zip",
+      "bytes": 628492,
+      "sha256": "3601a8162c6736c2307f2ca0e3271592a91ee54d9a3fa5df723313c13b418c22",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-noodle-stool-set",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-noodle-stool-set/yokocho-noodle-stool-set-1.0.0-models.zip",
+      "bytes": 363667,
+      "sha256": "9df2849ceb7e48d210f3bb1ae30c6888700ad954ff57cfaf43a55f50bc97f7b9",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-oden-bench-set",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-oden-bench-set/yokocho-oden-bench-set-1.0.0.zip",
+      "bytes": 1989116,
+      "sha256": "4038e929c95aaebc52812d9b723ed03aad3bbc52c02005ba318013845011c6d0",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-oden-bench-set",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-oden-bench-set/yokocho-oden-bench-set-1.0.0-models.zip",
+      "bytes": 1716979,
+      "sha256": "5a995a437050e3f21b2157117193cbdb8c11fb750dc07be80507bc1770d7a3e6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-pendant-ceiling",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-pendant-ceiling/yokocho-pendant-ceiling-1.0.0.zip",
+      "bytes": 387693,
+      "sha256": "c1ff2a3ac59e64f24f137e6e5425514309779521b0b3061ea03a6d9ce756523a",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-pendant-ceiling",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-pendant-ceiling/yokocho-pendant-ceiling-1.0.0-models.zip",
+      "bytes": 148926,
+      "sha256": "86c3e714d3c321e531ffda6fe322577126167efb1c1e5271be62e3fd1f1fe0c6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-plaster",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-plaster/yokocho-plaster-1.0.0.zip",
+      "bytes": 1387660,
+      "sha256": "a91a749a751743b580bccf57288e6606aa7281501ad5065a179e345a4e84d078",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-record-library",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-record-library/yokocho-record-library-1.0.0.zip",
+      "bytes": 835225,
+      "sha256": "fa627cedb1599ea69cd84d7f27f0fb7f952e3028f4b4ba58a687fa4583214a37",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-record-library",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-record-library/yokocho-record-library-1.0.0-models.zip",
+      "bytes": 498293,
+      "sha256": "347aecfc6e79d6226841afe8d979db15d37badc269e687f2ff7609dc9a3e7704",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-roof",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-roof/yokocho-roof-1.0.0.zip",
+      "bytes": 378552,
+      "sha256": "d1a48eb43cb25e8a4666f2f9269fe0e767327e8e30ab2cca6d016004dbb7f762",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-shopfront-identity",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-shopfront-identity/yokocho-shopfront-identity-1.0.0.zip",
+      "bytes": 4362346,
+      "sha256": "705f6d9eca760c4ffb1c7ecca5b1e1f2d315fbd5566cf96d252fa7c425fa745f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-signs",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-signs/yokocho-signs-1.0.0.zip",
+      "bytes": 3231137,
+      "sha256": "20d4ccfec6b3d24059281d81dd327a6319e4ceb9612a18836435ed1e1578614c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-snack-chair",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-snack-chair/yokocho-snack-chair-1.0.0.zip",
+      "bytes": 3827445,
+      "sha256": "623262939812d8a5089315e737427cef8e87af776d3d3c66ae266e6aca325c9d",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-snack-chair",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-snack-chair/yokocho-snack-chair-1.0.0-models.zip",
+      "bytes": 3511224,
+      "sha256": "bb58d28a7a7d940d59c0f3adaeeec31c8ba737caab717c0705d778f49e9f60d8",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-snack-counter",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-snack-counter/yokocho-snack-counter-1.0.0.zip",
+      "bytes": 3917355,
+      "sha256": "077782926652080248451d6b45d356c2e87927c552cfa2bd606acb9b037f43b2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-snack-counter",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-snack-counter/yokocho-snack-counter-1.0.0-models.zip",
+      "bytes": 3604556,
+      "sha256": "877f2efe139e2d671cc0126fd74f08b4e4cbe34ea11150c9257df5b4a9a79f19",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-star-distillery-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-star-distillery-sign/yokocho-star-distillery-sign-1.0.0.zip",
+      "bytes": 467194,
+      "sha256": "a9ffa4b6b5ec3aea8d7c7c290e7cbcb4d7ebba8947ae0ff556d220d77f5522e6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-star-distillery-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-star-distillery-sign/yokocho-star-distillery-sign-1.0.0-models.zip",
+      "bytes": 133117,
+      "sha256": "6371cce897ad802d6f1b24007b9b3d73478042378e5e2d2af34ab7398ea27c66",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-tea-furniture-set",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-tea-furniture-set/yokocho-tea-furniture-set-1.0.0.zip",
+      "bytes": 2156268,
+      "sha256": "e37a9c34a00325ba7f2b67cf5485107930750f4283703a051996a32ed9ff7de1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-tea-furniture-set",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-tea-furniture-set/yokocho-tea-furniture-set-1.0.0-models.zip",
+      "bytes": 1885492,
+      "sha256": "27bd3cffa4efe205faa349a8cd0f03cc94594179003637dc71cc7a54cce0acd7",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-telecom-mast",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-telecom-mast/yokocho-telecom-mast-1.0.0.zip",
+      "bytes": 478722,
+      "sha256": "3914f5212cc051ba39431aa1de3d5e592abda225794a71b533140fb15df9b198",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-telecom-mast",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-telecom-mast/yokocho-telecom-mast-1.0.0-models.zip",
+      "bytes": 245733,
+      "sha256": "16cbb8b5b6e9909c3b1fc3c8dcd1bfc53c4852a915cdf25556ad68e69ee8b2ce",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-tile-clay",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-tile-clay/yokocho-tile-clay-1.0.0.zip",
+      "bytes": 1342876,
+      "sha256": "557860e534db15dfb8f6505dcd5fc45fe7c9d106bc5ac0f683a1aa4fedc4a3d6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-timber-stair-flight",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-timber-stair-flight/yokocho-timber-stair-flight-1.0.0.zip",
+      "bytes": 630446,
+      "sha256": "6f6523579e0d47dbb2742dbfe34f564568b0b05d632912d1e6482073041d38d2",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-timber-stair-flight",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-timber-stair-flight/yokocho-timber-stair-flight-1.0.0-models.zip",
+      "bytes": 267160,
+      "sha256": "959dbcc33b6deb02afaae087d0309cde6d5c91c7d5b9ac5d23ecb777251da7a1",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-traveler-pot-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-traveler-pot-sign/yokocho-traveler-pot-sign-1.0.0.zip",
+      "bytes": 422344,
+      "sha256": "7fc6f39542deb0e16a9a38e709e12cc381220b41b51b0c306c8d838da4bb2ed4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-traveler-pot-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-traveler-pot-sign/yokocho-traveler-pot-sign-1.0.0-models.zip",
+      "bytes": 99312,
+      "sha256": "617d307e795b432526774fb9c7c760549354a7f815b15523bb189c98a2774181",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-turntable-amplifier",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-turntable-amplifier/yokocho-turntable-amplifier-1.0.0.zip",
+      "bytes": 348409,
+      "sha256": "7fd31025c8766e1f265a0169168bcb3e1a5577eb4b62b207af12e2b22c6971f6",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-turntable-amplifier",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-turntable-amplifier/yokocho-turntable-amplifier-1.0.0-models.zip",
+      "bytes": 55748,
+      "sha256": "8143e2c5b983c6d33ad751dbef1729251ee6d73b81e278a61de15219938ebefe",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-upper-water-storage",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-upper-water-storage/yokocho-upper-water-storage-1.0.0.zip",
+      "bytes": 585887,
+      "sha256": "36b765387d2d2cfdf4b7a73968a2ec9e7398002d622970441511ce2528138fed",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-upper-water-storage",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-upper-water-storage/yokocho-upper-water-storage-1.0.0-models.zip",
+      "bytes": 273640,
+      "sha256": "883bf1fe453b50e9ab87b866ed24b79ec606895c083ba0f13f3485f14a58da6c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-utility-service-bank",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-utility-service-bank/yokocho-utility-service-bank-1.0.0.zip",
+      "bytes": 438198,
+      "sha256": "64eeaf8424c75fe71db078cb51b816277ba934e980b51baf5dfff309a5e6e9d5",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-utility-service-bank",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-utility-service-bank/yokocho-utility-service-bank-1.0.0-models.zip",
+      "bytes": 174311,
+      "sha256": "ca36862ff294008c48d1e3db3cda09f8fd55fa8245d88900e9afc1cfa0f8531f",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-walnut-counter",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-walnut-counter/yokocho-walnut-counter-1.0.0.zip",
+      "bytes": 485004,
+      "sha256": "af88f1b42b609653bcc514a9eaa68546d12e2c9df4a45de7e18aad52c1a12920",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-walnut-counter",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-walnut-counter/yokocho-walnut-counter-1.0.0-models.zip",
+      "bytes": 140941,
+      "sha256": "22e7a509756a4662f580f5297105fa72cf3206091c3ef3bdf0dfd1579228760b",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-water",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-water/yokocho-water-1.0.0.zip",
+      "bytes": 392777,
+      "sha256": "561c0dc6b082d562f622037af6697f63463f68e21fe2adc8ab2f3cb40d06ce86",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-witch-moon-sign",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-witch-moon-sign/yokocho-witch-moon-sign-1.0.0.zip",
+      "bytes": 3822722,
+      "sha256": "3d0cc77b1ce9e306a075caa3d86da0c6f38374e78e771a941247abc896e7d1d4",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-witch-moon-sign",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-witch-moon-sign/yokocho-witch-moon-sign-1.0.0-models.zip",
+      "bytes": 3559758,
+      "sha256": "58456c8bf501e2f13b9553e0c64e950af09a0ab61014ad19c3bd73e63470f40c",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-wood",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-wood/yokocho-wood-1.0.0.zip",
+      "bytes": 425287,
+      "sha256": "4773d190b041410e930b8ced0171abfa3f406354665c2a3875e8ead8d8bde190",
+      "profile": "store-v1"
+    },
+    {
+      "id": "yokocho-woven",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/yokocho-woven/yokocho-woven-1.0.0.zip",
+      "bytes": 1666681,
+      "sha256": "1f58a825e60bf110104d8704f09eaeb596c1cd90bee3f2e49ea27a762201e9b1",
+      "profile": "store-v1"
+    }
+  ]
+}

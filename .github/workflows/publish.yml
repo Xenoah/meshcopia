@@ -24,8 +24,13 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version-file: '.node-version'
+          architecture: x64
           cache: npm
+      - name: Verify canonical archive runtime and immutable history
+        run: |
+          node scripts/check-archive-runtime.mjs
+          node scripts/check-archive-lock.mjs --check-history
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

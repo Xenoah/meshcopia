@@ -1,6 +1,6 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "prerelease": false,
-  "name": "Meshcopia 1.4.0 - Original city access and civic fixtures",
-  "notes": "docs/releases/v1.4.0.md"
+  "name": "Meshcopia 1.5.0 - Street infrastructure and pedestrian access",
+  "notes": "docs/releases/v1.5.0.md"
 }
