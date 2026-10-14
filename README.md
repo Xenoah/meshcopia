@@ -4,9 +4,9 @@
 
 [素材ライブラリ](https://xenoah.github.io/meshcopia/) · [Releases](https://github.com/Xenoah/meshcopia/releases) · [エージェント向けJSON](https://xenoah.github.io/meshcopia/api/catalog.json)
 
-![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.0.0/desktop-catalog.png)
+![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.0.0/desktop-catalog-full.png)
 
-> **公開状況**: Releaseの素材ZIPは取得可能です。GitHub Pagesは管理者が Settings → Pages → Source: GitHub Actions を選ぶ初回設定待ちです。設定後、Actionsの失敗したPagesジョブを再実行してください。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.0.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.0.0)。3Dモデル8点とシームレステクスチャ6点を無料で取得できます。
 
 ## できること
 
@@ -62,7 +62,7 @@ git push origin main
 
 `npm run build` が素材検証、ZIP・JSON生成、Astro静的ビルドを行います。`npm run check` はその前後に検証を実行します。mainへのpushでCIとPagesが動作します。`.release.json` のversionを変更すると、成功した検証後に対応するGitHub Releaseを作成します。`prerelease: true` でプレリリース、`false` で正式リリースです。同一タグは作り直しません。
 
-リリースには公開サイトZIP、全素材ZIP、モデル集ZIP、テクスチャ集ZIP、カタログJSON、SHA256SUMSを添付。GitHub Pagesの初回設定は **Settings → Pages → Source: GitHub Actions** を選択してください。
+リリースには公開サイトZIP、全素材ZIP、モデル集ZIP、テクスチャ集ZIP、カタログJSON、SHA256SUMSを添付。GitHub Pagesは **Settings → Pages → Source: GitHub Actions** を使用し、`.github/workflows/publish.yml` が検証済みのAstroサイトを公開します。別のリポジトリへ複製した場合もこのSourceを選択してください。
 
 ## 素材の再生成
 
