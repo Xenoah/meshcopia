@@ -1,0 +1,37 @@
+{
+  "id": "field-terminal",
+  "type": "model",
+  "title": "フィールドターミナル",
+  "titleEn": "Field terminal",
+  "description": "独立したスクリーンとボタンを持つレトロ端末。研究室・工場風シーンに。",
+  "descriptionEn": "A compact retro terminal with separate screen and buttons for lab and industrial scenes.",
+  "category": "technology",
+  "tags": [
+    "terminal",
+    "端末",
+    "industrial",
+    "retro"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 84,
+  "dimensions": [
+    0.72,
+    0.66,
+    0.4755
+  ],
+  "preview": "field-terminal.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "terracotta-planter",
+  "type": "model",
+  "title": "テラコッタプランター",
+  "titleEn": "Terracotta planter",
+  "description": "中空の鉢と独立した土面。植物の組み合わせに使えるベースモデル。",
+  "descriptionEn": "A hollow terracotta pot with a separate soil surface, ready for your plant meshes.",
+  "category": "props",
+  "tags": [
+    "planter",
+    "鉢",
+    "garden",
+    "terracotta"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 1760,
+  "dimensions": [
+    0.558,
+    0.504,
+    0.558
+  ],
+  "preview": "terracotta-planter.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}

@@ -1,0 +1,31 @@
+newmtl sage
+Kd 0.38 0.58 0.48
+Ns 32
+
+newmtl oak
+Kd 0.59 0.36 0.19
+Ns 32
+
+newmtl graphite
+Kd 0.12 0.16 0.19
+Ns 32
+
+newmtl cream
+Kd 0.88 0.82 0.66
+Ns 32
+
+newmtl terracotta
+Kd 0.67 0.3 0.19
+Ns 32
+
+newmtl brass
+Kd 0.72 0.51 0.24
+Ns 32
+
+newmtl blue
+Kd 0.25 0.42 0.56
+Ns 32
+
+newmtl light
+Kd 0.97 0.79 0.43
+Ns 32

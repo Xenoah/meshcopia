@@ -1,0 +1,47 @@
+{
+  "id": "brushed-aluminum",
+  "type": "texture",
+  "title": "ヘアラインアルミ",
+  "titleEn": "Brushed aluminum",
+  "description": "XY両方向に繰り返せる1024pxのプロシージャル素材。Base Color・Normal・Roughness・Heightを同梱。",
+  "descriptionEn": "A periodic 1024px material with base color, OpenGL normal, roughness and height maps. Procedural, not a photograph.",
+  "category": "materials",
+  "tags": [
+    "metal",
+    "seamless",
+    "PBR",
+    "シームレス"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored periodic procedural material",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "seamless": true,
+  "resolution": 1024,
+  "maps": {
+    "baseColor": "basecolor.png",
+    "normal": "normal.png",
+    "roughness": "roughness.png",
+    "height": "height.png"
+  },
+  "normalConvention": "OpenGL +Y",
+  "colorSpace": {
+    "baseColor": "sRGB",
+    "normal": "linear",
+    "roughness": "linear",
+    "height": "linear"
+  },
+  "physicalSize": [
+    2,
+    2
+  ],
+  "metalness": 1
+}

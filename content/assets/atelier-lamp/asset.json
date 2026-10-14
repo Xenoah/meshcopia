@@ -1,0 +1,37 @@
+{
+  "id": "atelier-lamp",
+  "type": "model",
+  "title": "アトリエランプ",
+  "titleEn": "Atelier lamp",
+  "description": "真鍮の支柱とコニカルシェード。デスクやカフェカウンターに。",
+  "descriptionEn": "A brass stem and a conical sage shade for desks and café counters.",
+  "category": "props",
+  "tags": [
+    "lamp",
+    "照明",
+    "cafe",
+    "brass"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 768,
+  "dimensions": [
+    0.52,
+    0.965,
+    0.52
+  ],
+  "preview": "atelier-lamp.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}

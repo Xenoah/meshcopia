@@ -1,0 +1,37 @@
+{
+  "id": "slat-bench",
+  "type": "model",
+  "title": "ウッドスラットベンチ",
+  "titleEn": "Slat bench",
+  "description": "独立した5枚の座板とスチール脚。屋外スペース、広場、休憩所に。",
+  "descriptionEn": "Five individual timber slats on steel legs for plazas and outdoor resting spaces.",
+  "category": "furniture",
+  "tags": [
+    "bench",
+    "ベンチ",
+    "wood",
+    "outdoor"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 120,
+  "dimensions": [
+    1.65,
+    0.4725,
+    0.535
+  ],
+  "preview": "slat-bench.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "garden-arch",
+  "type": "model",
+  "title": "ガーデンアーチ",
+  "titleEn": "Garden arch",
+  "description": "明るい石色のアーチ。Y軸上向き、幅1.52 mの建築用モジュール。",
+  "descriptionEn": "A pale stone arch. Y-up architectural module with a 1.52 m outer width.",
+  "category": "architecture",
+  "tags": [
+    "arch",
+    "アーチ",
+    "stone",
+    "garden"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 216,
+  "dimensions": [
+    1.52,
+    2.16,
+    0.32
+  ],
+  "preview": "garden-arch.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}

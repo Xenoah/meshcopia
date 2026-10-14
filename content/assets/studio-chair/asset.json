@@ -1,0 +1,38 @@
+{
+  "id": "studio-chair",
+  "type": "model",
+  "title": "スタジオチェア",
+  "titleEn": "Studio chair",
+  "description": "セージ色の座面と木製フレーム。カフェやワークスペース向けの軽量プロップ。",
+  "descriptionEn": "Sage upholstery and an oak frame. A lightweight prop for cafés and workspaces.",
+  "category": "furniture",
+  "tags": [
+    "chair",
+    "椅子",
+    "cafe",
+    "wood",
+    "low-poly"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 96,
+  "dimensions": [
+    0.56,
+    1.0359,
+    0.5833
+  ],
+  "preview": "studio-chair.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}

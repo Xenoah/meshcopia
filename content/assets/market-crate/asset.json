@@ -1,0 +1,37 @@
+{
+  "id": "market-crate",
+  "type": "model",
+  "title": "マーケット木箱",
+  "titleEn": "Market crate",
+  "description": "開いた上面と組み板を持つ木箱。倉庫・市場・横丁の小物に。",
+  "descriptionEn": "An open timber crate with individual boards for markets, workshops and alley scenes.",
+  "category": "props",
+  "tags": [
+    "crate",
+    "木箱",
+    "market",
+    "wood"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia starter generator 1.0 / Python, NumPy, Pillow",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 288,
+  "dimensions": [
+    0.735,
+    0.49,
+    0.595
+  ],
+  "preview": "market-crate.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+}
