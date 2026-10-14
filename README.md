@@ -6,7 +6,7 @@
 
 ![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.3.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.3.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.3.0)。3Dモデル71点とテクスチャ36点を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.4.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.4.0)。3Dモデル83点とテクスチャ36点を無料で取得できます。
 
 ## できること
 
@@ -20,6 +20,8 @@
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。
 
 ## 収録素材
+
+**街路オリジナル12モデル（v1.4）**: ボラード、自転車ラック、歩道柵、段差スロープ、減速クッション、注水バリア、ごみ箱、分別ステーション、飲水台、宅配ロッカー、パーキングメーター、消火栓。実メッシュ画像、GLB/STL、原寸・三角形数・出元情報付き。小さな金具や滑り止めの分割数を調整し、シルエットと使いやすい軽さを両立。[制作・検証・制限](docs/CITY_ASSETS.md)。
 
 **TreeTop Yokochoオリジナル60点（v1.3）**: 立体看板、椅子・テーブルセット、カウンター、棚、照明、能舞台、階段、設備、入口広場の家具など39モデル。元画像を保持した21テクスチャ（Mirror 9点、Clamp 12点）。外部スキャン画像は除外し、該当材質の置換を各モデルに明示。実メッシュのサムネイル、出元のオブジェクト名、SHA256、正確な三角形数・寸法を収録。[選定・出典・制限](docs/YOKOCHO_IMPORT.md)。
 

@@ -3,7 +3,7 @@ Recovered after executor failure; all rebuilt outputs require fresh QA.
 Author in Blender Z-up meters; GLB export converts to Y-up meters.
 """
 from pathlib import Path
-import bpy, math, json, hashlib, os
+import bpy, math, json, hashlib, os, struct
 from mathutils import Vector
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -109,12 +109,31 @@ def render(path,azimuth=-55,elevation=24,size=800):
     for pos,power,scale in [((-.8,-1.2,2.2),350,1.4),((1.5,-.3,1.2),150,1.2),((.4,1.5,2),300,1.1)]:
         bpy.ops.object.light_add(type='AREA',location=center+Vector(pos)*span);l=bpy.context.object;l.data.energy=power*span*span;l.data.shape='DISK';l.data.size=scale*span;look_at(l,center);lamps.append(l)
     scene.world.color=(.18,.18,.18)
-    scene.render.engine='CYCLES';scene.cycles.samples=64;scene.cycles.use_denoising=False
+    scene.render.engine='CYCLES';scene.cycles.samples=int(os.environ.get('CITY_RENDER_SAMPLES','64'));scene.cycles.use_denoising=False
     scene.render.resolution_x=size;scene.render.resolution_y=size;scene.render.resolution_percentage=100
     scene.render.image_settings.file_format='PNG';scene.render.film_transparent=False
     scene.view_settings.view_transform='AgX';scene.view_settings.exposure=-1.0;scene.render.filepath=str(path)
     bpy.ops.render.render(write_still=True)
     for o in [cam,*lamps]:bpy.data.objects.remove(o,do_unlink=True)
+
+def export_stl_from_scene(path):
+    """Binary STL from the exact reimported GLB, meters and Y-up like the GLB.
+    STL is an untextured visualization alternate, not a printability assertion.
+    """
+    triangles=[]
+    for obj in bpy.context.scene.objects:
+        if obj.type!='MESH': continue
+        obj.data.calc_loop_triangles()
+        for face in obj.data.loop_triangles:
+            vertices=[]
+            for index in face.vertices:
+                v=obj.matrix_world@obj.data.vertices[index].co
+                vertices.append(Vector((v.x,v.z,-v.y)))
+            normal=(vertices[1]-vertices[0]).cross(vertices[2]-vertices[0]).normalized()
+            triangles.append(struct.pack('<12fH',*normal,*(value for v in vertices for value in v),0))
+    header=b'Meshcopia original CC BY 4.0; meters Y-up; not print validated'.ljust(80,b'\0')
+    Path(path).write_bytes(header+struct.pack('<I',len(triangles))+b''.join(triangles))
+    return len(triangles)
 
 def publish_asset(slug,title,title_en,description,description_en,tags,out_dir,generator,azimuth=-55,elevation=24):
     """Build a draft, not approval to publish. Reimport exact bytes for all renders."""
@@ -126,13 +145,15 @@ def publish_asset(slug,title,title_en,description,description_en,tags,out_dir,ge
     glb=source/f'{slug}.glb'
     bpy.ops.export_scene.gltf(filepath=str(glb),export_format='GLB',use_selection=True,export_yup=True,export_apply=True,export_extras=False,export_cameras=False,export_lights=False)
     reset();bpy.ops.import_scene.gltf(filepath=str(glb))
+    export_stl_from_scene(source/f'{slug}.stl')
     obs=[o for o in bpy.context.scene.objects if o.type=='MESH']
     for o in obs:o.data.calc_loop_triangles()
     tris=sum(len(o.data.loop_triangles) for o in obs)
     bounds=[o.matrix_world@Vector(c) for o in obs for c in o.bound_box]
     lo=[min(v[i] for v in bounds) for i in range(3)];hi=[max(v[i] for v in bounds) for i in range(3)]
     d=[round(hi[i]-lo[i],6) for i in (0,2,1)]
-    metadata=dict(id=slug,type='model',title=title,titleEn=title_en,description=description+' ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。',descriptionEn=description_en+' For games and visualization; not validated for manufacture, structural engineering or 3D printing.',category='urban',tags=['city','street','original',*tags],author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='draft',created='2026-10-14',updated='2026-10-14',thumbnail='preview.png',preview=f'{slug}.glb',unit='m',upAxis='Y',triangles=tris,dimensions=d,uv='Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures.',provenance=dict(method='Original AI-agent-authored procedural city geometry',tool=f'Blender {bpy.app.version_string}; Meshcopia city generator 1.0',rights='Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.',generatorUrl=f'https://github.com/Xenoah/meshcopia/blob/main/{generator}',sourceSha256=hashlib.sha256(glb.read_bytes()).hexdigest()),usages=[dict(relationship='original',project='Meshcopia',sourceUrl='https://github.com/Xenoah/meshcopia',sourcePaths=[generator,'scripts/city/common.py'],selectors=[slug],context='Original city asset created for this library. No external deployment or reuse claimed.')])
+    metadata=dict(id=slug,type='model',title=title,titleEn=title_en,description=description+' ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。',descriptionEn=description_en+' For games and visualization; not validated for manufacture, structural engineering or 3D printing.',category='urban',tags=['city','street','original',*tags],author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='draft',created='2026-10-14',updated='2026-10-14',thumbnail='preview.png',preview=f'{slug}.glb',unit='m',upAxis='Y',triangles=tris,dimensions=d,uv='Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.',provenance=dict(method='Original AI-agent-authored procedural city geometry',tool=f'Blender {bpy.app.version_string}; Meshcopia city generator 1.0',rights='Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.',generatorUrl=f'https://github.com/Xenoah/meshcopia/blob/main/{generator}',sourceSha256=hashlib.sha256(glb.read_bytes()).hexdigest()),usages=[dict(relationship='original',project='Meshcopia',sourceUrl='https://github.com/Xenoah/meshcopia',sourcePaths=[generator,'scripts/city/common.py'],selectors=[slug],context='Original city asset created for this library. No external deployment or reuse claimed.')])
+    metadata['provenance']['stlSha256']=hashlib.sha256((source/f'{slug}.stl').read_bytes()).hexdigest()
     (folder/'asset.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
     render(folder/'preview.png',azimuth,elevation)
     qa=Path(out_dir)/'_qa';qa.mkdir(exist_ok=True)

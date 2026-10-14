@@ -1,0 +1,57 @@
+{
+  "id": "city-cycle-rack",
+  "type": "model",
+  "title": "逆U字型自転車ラック",
+  "titleEn": "Inverted-U cycle rack",
+  "description": "曲げ加工されたステンレス製の単体自転車ラック。保護スリーブと固定ボルト付き。自転車は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A single anchored stainless-steel bicycle hoop with bent corners, protective sleeves and mounting hardware; no bicycle included. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "access",
+    "road-safety",
+    "cycle-rack"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-cycle-rack.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 3516,
+  "dimensions": [
+    0.96,
+    0.855992,
+    0.17
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner's request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/access.py",
+    "sourceSha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+    "stlSha256": "5fac7965b0fd3734a973397ad1710f5382f76582e596bf0710bcffb83615aca8"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/access.py",
+        "scripts/city/common.py"
+      ],
+      "selectors": [
+        "city-cycle-rack"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

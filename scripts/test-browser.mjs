@@ -105,6 +105,20 @@ try{
   await loadImages();
   await page.screenshot({path:`test-results/${asset.id}.png`,fullPage:false});
  }
+ // Exercise every published original city model in both distributed formats.
+ for(const asset of catalog.filter(a=>a.type==='model'&&a.id.startsWith('city-'))){
+  await page.goto(home+`assets/${asset.id}/`);
+  await page.waitForSelector('.model-viewer-3d[data-loaded="true"]',{timeout:45000});
+  assert.equal(await page.locator('[data-format="glb"]').getAttribute('aria-pressed'),'true');
+  for(const format of ['stl','glb']){
+   await page.locator(`[data-format="${format}"]`).click();
+   await page.waitForFunction(type=>{const r=document.querySelector('.model-viewer-3d');return r.dataset.modelType===type&&r.dataset.loaded==='true'},format);
+  }
+  await page.locator('[data-action="wire"]').click();
+  assert.equal(await page.locator('[data-action="wire"]').getAttribute('aria-pressed'),'true');
+  await page.locator('[data-action="wire"]').click();
+  await loadImages();await page.screenshot({path:`test-results/${asset.id}.png`,fullPage:false});
+ }
  await page.goto(home+'assets/commons-bar-labels/');await page.locator('.file-list summary').click();
  const pngEvent=page.waitForEvent('download');await page.locator('.file-list a').click();const pngDownload=await pngEvent;
  const png=await readFile(await pngDownload.path());assert.equal(createHash('sha256').update(png).digest('hex'),catalog.find(a=>a.id==='commons-bar-labels').files[0].sha256);

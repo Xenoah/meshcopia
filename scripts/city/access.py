@@ -1,4 +1,6 @@
-"""Original street-access props. Blender 4.3; no external assets. CC BY 4.0."""
+"""Original street-access props. Adaptive detail tessellation candidate. CC BY 4.0.
+No external assets. Compare rendered output against the recovered baseline before adoption.
+"""
 import bpy, math, sys
 from pathlib import Path
 from mathutils import Vector
@@ -10,11 +12,11 @@ def mat(name,color,metal=0,rough=.45):
  p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*color,1);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=rough
  return m
 
-def finish(o,name,m,bevel=0):
+def finish(o,name,m,bevel=0,segments=3):
  o.name=name
  if m:o.data.materials.append(m)
  if bevel:
-  mod=o.modifiers.new('Manufactured edge radii','BEVEL');mod.width=bevel;mod.segments=3
+  mod=o.modifiers.new('Manufactured edge radii','BEVEL');mod.width=bevel;mod.segments=segments
   bpy.context.view_layer.objects.active=o;bpy.ops.object.modifier_apply(modifier=mod.name)
  if o.type=='MESH':
   for p in o.data.polygons:p.use_smooth=True
@@ -23,24 +25,34 @@ def finish(o,name,m,bevel=0):
  return o
 
 def box(name,loc,scale,m,b=.008):
- bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=bpy.context.object;o.dimensions=scale;bpy.ops.object.transform_apply(location=False,rotation=False,scale=True);return finish(o,name,m,min(b,min(scale)*.3))
+ bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=bpy.context.object;o.dimensions=scale;bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+ edge=min(b,min(scale)*.3)
+ # Thin treads, seams and hardware need a chamfer, not three curved edge bands.
+ segments=1 if edge<=.003 or min(scale)<=.015 else (2 if edge<.01 else 3)
+ return finish(o,name,m,edge,segments)
 def cyl(name,loc,r,d,m,n=32,b=.003,axis=None):
+ # Keep the main 48-sided bollard surfaces; reduce only small hardware.
+ n=min(n,12 if r<=.016 else (20 if r<=.035 else n))
  bpy.ops.mesh.primitive_cylinder_add(vertices=n,radius=r,depth=d,location=loc);o=bpy.context.object
  if axis:o.rotation_euler=Vector(axis).to_track_quat('Z','Y').to_euler()
- return finish(o,name,m,min(b,d*.2,r*.2))
+ edge=min(b,d*.2,r*.2)
+ segments=1 if edge<=.0015 or min(d,r)<=.012 else (2 if edge<=.005 else 3)
+ return finish(o,name,m,edge,segments)
 def torus(name,loc,r,t,m,rot=None):
- bpy.ops.mesh.primitive_torus_add(major_segments=40,minor_segments=10,location=loc,major_radius=r,minor_radius=t);o=bpy.context.object
+ # Small seals and weld beads are sub-centimeter details, not primary silhouettes.
+ major_segments,minor_segments=(24,6) if t<=.005 else (32,8)
+ bpy.ops.mesh.primitive_torus_add(major_segments=major_segments,minor_segments=minor_segments,location=loc,major_radius=r,minor_radius=t);o=bpy.context.object
  if rot:o.rotation_euler=rot
  return finish(o,name,m)
 def tube(name,pts,r,m):
- curve=bpy.data.curves.new(name,'CURVE');curve.dimensions='3D';curve.resolution_u=1;curve.bevel_depth=r;curve.bevel_resolution=5;curve.use_fill_caps=True
+ curve=bpy.data.curves.new(name,'CURVE');curve.dimensions='3D';curve.resolution_u=1;curve.bevel_depth=r;curve.bevel_resolution=2 if r<=.01 else 3;curve.use_fill_caps=True
  sp=curve.splines.new('POLY');sp.points.add(len(pts)-1)
  for v,p in zip(sp.points,pts):v.co=(*p,1)
  o=bpy.data.objects.new(name,curve);bpy.context.collection.objects.link(o);bpy.context.view_layer.objects.active=o;o.select_set(True);bpy.ops.object.convert(target='MESH');o.select_set(False);return finish(o,name,m)
 def mesh(name,verts,faces,m,b=.003):
  me=bpy.data.meshes.new(name);me.from_pydata(verts,[],faces);me.update();o=bpy.data.objects.new(name,me);bpy.context.collection.objects.link(o);bpy.context.view_layer.objects.active=o;o.select_set(True)
  bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.mesh.normals_make_consistent(inside=False);bpy.ops.object.mode_set(mode='OBJECT');o.select_set(False)
- return finish(o,name,m,b)
+ return finish(o,name,m,b,1 if b<=.002 else (2 if b<=.008 else 3))
 def extrude_x(name,profile,length,m,b=.005):
  n=len(profile);v=[(x,y,z) for x in (-length/2,length/2) for y,z in profile];f=[tuple(range(n-1,-1,-1)),tuple(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];return mesh(name,v,f,m,b)
 def bolts(x,y,z,steel,spacing=.062):
@@ -191,3 +203,4 @@ if __name__=='__main__':
   if (out/slug).exists():raise FileExistsError(f'Refusing to overwrite {out/slug}; move existing output before regenerating.')
   common.reset();builder(palette())
   common.publish_asset(slug,title,en,descriptions[slug],desc,['access','road-safety',slug.removeprefix('city-')],out,'scripts/city/access.py',elevation=30 if slug in ('city-curb-ramp','city-speed-cushion') else 22)
+

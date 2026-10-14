@@ -15,7 +15,7 @@ function values(doc,binary,index) {
 }
 test('Original city assets are self-contained, grounded, dimensioned and validator-clean',async()=>{
  const assets=(await readCatalog(process.env.CITY_ASSET_ROOT)).filter(a=>a.id.startsWith('city-'));
- const expected=JSON.parse(await readFile(new URL('../docs/city-assets.json',import.meta.url),'utf8'));
+ const expected=JSON.parse(await readFile(process.env.CITY_ASSET_ROSTER||new URL('../docs/city-assets.json',import.meta.url),'utf8'));
  assert.deepEqual(assets.map(a=>a.id).sort(),expected.ids.slice().sort(),'explicit city collection roster');
  const hashes=new Set();
  for(const a of assets){
@@ -56,5 +56,15 @@ test('Original city assets are self-contained, grounded, dimensioned and validat
   assert.ok(Math.abs(low[1])<1e-4,a.id+': base not grounded');
   for(let i=0;i<3;i++)assert.ok(Math.abs(high[i]-low[i]-a.dimensions[i])<1e-4,a.id+': dimension axis '+i);
   for(const i of [0,2])assert.ok(Math.abs(high[i]+low[i])<1e-4,a.id+': centered pivot axis '+i);
+  const stl=await readFile(path.join(a.dir,'source',a.id+'.stl'));
+  assert.equal(stl.readUInt32LE(80),triangles);assert.equal(stl.length,84+50*triangles);
+  if(a.provenance.stlSha256)assert.equal(sha256(stl),a.provenance.stlSha256);
+  const slo=[Infinity,Infinity,Infinity],shi=[-Infinity,-Infinity,-Infinity];
+  for(let t=0;t<triangles;t++)for(let v=0;v<3;v++)for(let axis=0;axis<3;axis++){
+   const coordinate=stl.readFloatLE(84+t*50+12+v*12+axis*4);assert.ok(Number.isFinite(coordinate));
+   slo[axis]=Math.min(slo[axis],coordinate);shi[axis]=Math.max(shi[axis],coordinate);
+  }
+  for(let axis=0;axis<3;axis++){assert.ok(Math.abs(slo[axis]-low[axis])<1e-5,a.id+': STL low bound');assert.ok(Math.abs(shi[axis]-high[axis])<1e-5,a.id+': STL high bound');}
+
  }
 });
