@@ -10,9 +10,9 @@ const context=await browser.newContext({viewport:{width:1440,height:1050},permis
 const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
 const home='http://127.0.0.1:4173/meshcopia/';
 async function loadImages(){
- for(const img of await page.locator('img').all()) await img.scrollIntoViewIfNeeded();
- await page.waitForFunction(()=>[...document.images].every(i=>i.complete&&i.naturalWidth>0));
- await page.evaluate(async()=>{await Promise.all([...document.images].map(i=>i.decode()));window.scrollTo(0,0)});
+ for(const img of await page.locator('img:visible').all()) await img.scrollIntoViewIfNeeded();
+ await page.waitForFunction(()=>[...document.images].filter(i=>i.getClientRects().length).every(i=>i.complete&&i.naturalWidth>0));
+ await page.evaluate(async()=>{await Promise.all([...document.images].filter(i=>i.getClientRects().length).map(i=>i.decode()));window.scrollTo(0,0)});
 }
 try{
  await page.goto(home);await page.waitForSelector('[data-card]');
