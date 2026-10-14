@@ -282,8 +282,8 @@ BUILDERS=[storm_drain,inspection_cover,ventilation_outlet,hvac_condenser,traffic
 
 if __name__=='__main__':
     import argparse
-    parser=argparse.ArgumentParser();parser.add_argument('--only');parser.add_argument('--output','--out',dest='output',default=str(Path.cwd()/'city-staging'/'infrastructure'))
-    args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+    parser=argparse.ArgumentParser();parser.add_argument('--only');parser.add_argument('--output','--out',dest='output',default=str(Path(__file__).resolve().parents[2]/'_inbox'))
+    args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else sys.argv[1:])
     for builder in BUILDERS:
         if args.only and args.only not in (builder.__name__,'city-'+builder.__name__.replace('_','-')):continue
         reset();spec=builder();el=48 if builder in (storm_drain,inspection_cover) else 24
