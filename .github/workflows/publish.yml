@@ -37,6 +37,19 @@ jobs:
             python3 scripts/create-starter-assets.py
             rm .bootstrap-starter
           fi
+      - name: Set up original cafe extraction (once)
+        if: hashFiles('.import-commons-cafe') != ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Extract the pinned original cafe collection (once)
+        if: hashFiles('.import-commons-cafe') != ''
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libgl1 libxi6 libxrender1 libxfixes3 libxkbcommon0 libxxf86vm1 libsm6
+          python3 -m pip install bpy==4.5.14 numpy==1.26.4 Pillow==11.2.1
+          python3 scripts/import-commons-cafe.py --fetch
+          rm .import-commons-cafe
       - name: Import inbox
         run: npm run import:all-inbox -- --apply
       - name: Validate, test and build
@@ -60,6 +73,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add content/assets _inbox
           if git ls-files --error-unmatch .bootstrap-starter >/dev/null 2>&1; then git add -u .bootstrap-starter; fi
+          if git ls-files --error-unmatch .import-commons-cafe >/dev/null 2>&1; then git add -u .import-commons-cafe; fi
           if ! git diff --cached --quiet; then
             git commit -m 'feat(assets): import validated original CC BY collection'
             git push origin HEAD:main

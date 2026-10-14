@@ -81,5 +81,7 @@ export async function readCatalog(root = path.join(ROOT, 'content/assets')) {
 }
 
 export function attributionFor(a) {
-  return `${a.titleEn} by ${a.author} / Meshcopia\n${SITE}/assets/${a.id}/\nCC BY 4.0 — ${LICENSE_URL}\nChanges: none. If modified, replace this line with a description of your changes.`;
+  const origin = a.provenance.sourceUrl ? `\nOriginal source: ${a.provenance.sourceUrl}` : '';
+  const changes = a.provenance.changes || 'none. If modified, replace this line with a description of your changes.';
+  return `${a.titleEn} by ${a.author} / Meshcopia\n${SITE}/assets/${a.id}/\nCC BY 4.0 — ${LICENSE_URL}${origin}\nChanges: ${changes}`;
 }

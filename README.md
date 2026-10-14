@@ -4,9 +4,9 @@
 
 [素材ライブラリ](https://xenoah.github.io/meshcopia/) · [Releases](https://github.com/Xenoah/meshcopia/releases) · [エージェント向けJSON](https://xenoah.github.io/meshcopia/api/catalog.json)
 
-![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.0.0/desktop-catalog-full.png)
+![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.1.0-rc.1/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.0.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.0.0)。3Dモデル8点とシームレステクスチャ6点を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [追加素材プレリリース v1.1.0-rc.1](https://github.com/Xenoah/meshcopia/releases/tag/v1.1.0-rc.1)。3Dモデル20点とシームレステクスチャ6点を無料で取得できます。
 
 ## できること
 
@@ -19,15 +19,17 @@
 - 認証不要のJSON/NDJSONカタログ、個別マニフェスト、SHA-256、クレジットコピー。
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。
 
-## 初期収録
+## 収録素材
+
+**Commons cafeオリジナル12点**: バースツール、ラウンジチェア、ソファ、丸テーブル、ペンダントライト、コーヒーカップ、観葉植物、エスプレッソマシン、グラインダー、PAスピーカー、DJコントローラー、展示台。[元ワールド](https://github.com/Xenoah/vrcworld_tech-tech-cafe)から独立したGLB/STLとして抽出。元の生成テクスチャ、UV、鏡像反復・Clamp設定を保持しています。[選定根拠・出典・再現手順](docs/COMMONS_IMPORT.md)。
 
 **3Dモデル8点**: スタジオチェア、アトリエランプ、ウッドスラットベンチ、テラコッタプランター、マーケット木箱、ガーデンアーチ、フィールドターミナル、ラウンドサイン。
 
 **テクスチャ6点**: ライムストーン、シダーボード、クレイブリック、セージテラゾー、ヘアラインアルミ、コバルトセラミック。各1024px / Base Color・Normal・Roughness・Height。
 
-すべて今回のために作成したオリジナルのプロシージャル素材です。サムネイルは実際の配布メッシュから描画。写真ベース・スキャン・写実素材ではありません。
+初期8モデル・6テクスチャはMeshcopiaのオリジナルのプロシージャル素材です。Commons cafeの追加素材は元ワールドのオリジナル形状と生成画像を使用。サムネイルは実際の配布メッシュから描画しています。
 
-モデル: 単位m、Y-up、GLB/OBJ/STL。GLBには色とPBR材質、OBJにはMTLを同梱。STLは色を持ちません。UVは基本的な平面投影で、方向性のあるテクスチャには再展開を推奨します。ゲーム・VR向けの小道具で、3Dプリントや機構部品としては未検証です。
+モデル: 単位m、Y-up。初期モデルはGLB/OBJ/STL、Commons cafe素材はGLB/STL。GLBには色・PBR材質を保持し、Commons cafe素材は画像も埋め込んでいます。OBJにはMTLを同梱。STLは色を持ちません。UVの仕様は各素材に記載しています。ゲーム・VR向けの小道具で、3Dプリントや機構部品としては未検証です。
 
 ## 開発
 

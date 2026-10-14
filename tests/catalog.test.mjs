@@ -17,14 +17,16 @@ test('all source assets have declared rights and structurally valid GLB/STL data
   if(a.type!=='model')continue;
   const b=await readFile(path.join(a.dir,'source',a.preview));assert.equal(b.readUInt32LE(0),0x46546c67);assert.equal(b.readUInt32LE(4),2);assert.equal(b.readUInt32LE(8),b.length);
   const json=JSON.parse(b.subarray(20,20+b.readUInt32LE(12)).toString());assert.equal(json.asset.version,'2.0');
-  const count=json.meshes.reduce((n,m)=>n+m.primitives.reduce((sum,p)=>sum+json.accessors[p.attributes.POSITION].count/3,0),0);assert.equal(count,a.triangles);
+  const count=json.meshes.reduce((n,m)=>n+m.primitives.reduce((sum,p)=>sum+json.accessors[p.indices??p.attributes.POSITION].count/3,0),0);assert.equal(count,a.triangles);
   const stl=await readFile(path.join(a.dir,'source',`${a.id}.stl`));assert.equal(stl.readUInt32LE(80),a.triangles);assert.equal(stl.length,84+50*a.triangles);
  }
 });
 test('public search covers Japanese, English and formats, with cumulative filters',async()=>{
  const assets=(await readCatalog()).map(a=>({...a,files:a.sources.map(name=>({format:name.split('.').pop().toUpperCase()})),downloads:{full:{bytes:a.id.length}}}));
- assert.equal(filterAssets(assets,{query:'椅子'}).length,1);assert.equal(filterAssets(assets,{query:'chair glb'}).length,1);
- assert.equal(filterAssets(assets,{type:'texture'}).length,6);assert.equal(filterAssets(assets,{type:'model',category:'furniture'}).length,2);
+ assert.ok(filterAssets(assets,{query:'椅子'}).some(a=>a.id==='studio-chair'));
+ assert.ok(filterAssets(assets,{query:'chair glb'}).some(a=>a.id==='studio-chair'));
+ assert.deepEqual(filterAssets(assets,{type:'texture'}).map(a=>a.id).sort(),assets.filter(a=>a.type==='texture').map(a=>a.id).sort());
+ const furniture=filterAssets(assets,{type:'model',category:'furniture'});assert.ok(furniture.length>=2);assert.ok(furniture.every(a=>a.type==='model'&&a.category==='furniture'));
  assert.equal(filterAssets(assets,{query:'not-a-real-item'}).length,0);assert.equal(filterAssets(assets,{type:'model',query:'seamless'}).length,0);
  const sorted=filterAssets(assets,{sort:'size'});assert.ok(sorted.every((a,i)=>!i||a.downloads.full.bytes>=sorted[i-1].downloads.full.bytes));
 });
