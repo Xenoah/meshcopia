@@ -16,7 +16,7 @@
   ],
   "author": "Xenoah",
   "license": "CC-BY-4.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
@@ -61,5 +61,27 @@
     0.7
   ],
   "preview": "commons-lounge-sofa.glb",
-  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing."
+  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing.",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Commons cafe",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourceRef": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourcePaths": [
+        "Blender/The_Commons_Compact.blend"
+      ],
+      "selectors": [
+        "FURN_BackCushion.006",
+        "FURN_SeatCushion.006",
+        "FURN_SeatLeg.024",
+        "FURN_SeatLeg.025",
+        "FURN_SeatLeg.026",
+        "FURN_SeatLeg.027",
+        "FURN_SofaArm",
+        "FURN_SofaArm.001"
+      ],
+      "context": "Original Blender collection: MODE_Lounge"
+    }
+  ]
 }

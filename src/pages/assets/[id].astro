@@ -31,6 +31,19 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
    {isModel&&a.uv&&<p class="technical-note">UV: {a.uv}</p>}
    {!isModel&&a.usage&&<p class="technical-note" data-ja={a.usage} data-en={a.usageEn}>{a.usage}</p>}
    {!isModel&&!a.maps.roughness&&wrap!=='clamp'&&<p class="technical-note" data-ja={`ベースカラーのみ。球体は元の材質設定（Roughness ${a.roughness??1} / Metalness ${a.metalness??0}）で表示しています。`} data-en={`Base color only. The sphere uses the source material settings: roughness ${a.roughness??1}, metalness ${a.metalness??0}.`}>ベースカラーのみ。球体は元の材質設定（Roughness {a.roughness??1} / Metalness {a.metalness??0}）で表示しています。</p>}
+   <section class="asset-usages" aria-labelledby="usage-heading">
+    <h2 id="usage-heading" data-ja="出元・使用作品" data-en="Origin & documented usage">出元・使用作品</h2>
+    <p class="technical-note" data-ja="記録された制作元・使用先です。公開ワールドでの稼働や第三者による利用を保証するものではありません。" data-en="Recorded origin and usage, not a claim of live deployment or third-party adoption.">記録された制作元・使用先です。公開ワールドでの稼働や第三者による利用を保証するものではありません。</p>
+    {a.usages?.length ? <ul>{a.usages.map(u=><li>
+     <strong>{u.project}</strong> <span data-ja={u.relationship==='original'?'制作元':'再利用先'} data-en={u.relationship==='original'?'Original project':'Reuse'}>{u.relationship==='original'?'制作元':'再利用先'}</span>
+     {u.context&&<p>{u.context}</p>}
+     {u.sourceUrl&&<p><a href={u.sourceUrl} rel="noopener noreferrer" data-ja="出典を開く" data-en="Open source">出典を開く <Icon name="external" size={14}/></a></p>}
+     {u.sourceRef&&<p>Source ref: <code>{u.sourceRef}</code></p>}
+     {u.sourcePaths?.length>0&&<p>Source paths: {u.sourcePaths.join(' · ')}</p>}
+     {u.selectors?.length>0&&<details><summary data-ja="元のオブジェクト・識別子" data-en="Source objects / selectors">元のオブジェクト・識別子</summary><ul>{u.selectors.map(selector=><li>{selector}</li>)}</ul></details>}
+     <a href={`${base}/?q=${encodeURIComponent(u.project)}#catalog`} data-ja="この制作元・使用先で検索 →" data-en="Search this project →">この制作元・使用先で検索 →</a>
+    </li>)}</ul>:<p data-ja="使用先は未記録です。" data-en="No usage recorded.">使用先は未記録です。</p>}
+   </section>
    <details class="provenance"><summary data-ja="生成方法・出自" data-en="Generation & provenance">生成方法・出自</summary><p>{a.provenance.method}<br/>{a.provenance.tool}</p><p>{a.provenance.rights}</p>{a.provenance.sourceUrl&&<p><a href={a.provenance.sourceUrl} data-ja="元のリポジトリ・固定コミット" data-en="Original repository / pinned commit">元のリポジトリ・固定コミット</a></p>}{a.provenance.changes&&<p>{a.provenance.changes}</p>}<a href={a.provenance.generatorUrl||'https://github.com/Xenoah/meshcopia/blob/main/scripts/create-starter-assets.py'}>再生成スクリプト <Icon name="external" size={14}/></a></details>
    </section>
   </section>
@@ -65,3 +78,11 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
   document.querySelectorAll('.related [data-preview]').forEach(button=>button.addEventListener('click',()=>location.href=button.closest('article').querySelector('.card-title').href));
  </script>
 </Layout>
+
+<style>
+.asset-usages { margin-block: 2rem; overflow-wrap: anywhere; }
+.asset-usages > ul { padding-left: 1.2rem; }
+.asset-usages li { margin-block: .75rem; }
+.asset-usages p { margin-block: .5rem; }
+.asset-usages h2 { font-size: 1.15rem; }
+</style>

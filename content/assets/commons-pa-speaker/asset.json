@@ -16,7 +16,7 @@
   ],
   "author": "Xenoah",
   "license": "CC-BY-4.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
@@ -66,5 +66,34 @@
     0.415
   ],
   "preview": "commons-pa-speaker.glb",
-  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing."
+  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing.",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Commons cafe",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourceRef": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourcePaths": [
+        "Blender/The_Commons_Compact.blend"
+      ],
+      "selectors": [
+        "AV_Grille",
+        "AV_Grille.001",
+        "AV_Grille.002",
+        "AV_Grille.003",
+        "AV_Grille.004",
+        "AV_Grille.005",
+        "AV_Grille.006",
+        "AV_Grille.007",
+        "AV_Grille.008",
+        "AV_Grille.009",
+        "AV_Grille.010",
+        "AV_Grille.011",
+        "AV_Grille.012",
+        "AV_Grille.013",
+        "AV_Speaker"
+      ],
+      "context": "Original Blender collection: AV_Stage"
+    }
+  ]
 }

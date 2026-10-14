@@ -183,6 +183,59 @@
       "type": "number",
       "minimum": 0,
       "maximum": 1
+    },
+    "usages": {
+      "type": "array",
+      "description": "Documented original project or later reuse. Omitted/empty means not recorded, not never used. Independent of rights provenance.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "relationship",
+          "project"
+        ],
+        "properties": {
+          "relationship": {
+            "enum": [
+              "original",
+              "reuse"
+            ]
+          },
+          "project": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "sourceRef": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Immutable commit/version when known; omit rather than invent."
+          },
+          "sourcePaths": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Repository-relative paths only; never local absolute paths."
+            }
+          },
+          "selectors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "context": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
     }
   },
   "allOf": [

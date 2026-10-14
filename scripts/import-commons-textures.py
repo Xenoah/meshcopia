@@ -47,7 +47,8 @@ def run(args):
     descriptionEn=desc_en+' Base color only. '+usage_en,category='materials' if wrap=='mirror' else 'atlases',
     tags=['commons','cafe','オリジナル','base-color',wrap,*name.split('_')]+(['鏡像リピート','material'] if wrap=='mirror' else ['atlas','アトラス','non-tileable']),
     author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='public',created=cafe.DATE,updated=cafe.DATE,
-    thumbnail='preview.webp',provenance=provenance,seamless=wrap=='mirror',wrapMode=wrap,width=width,height=height,resolution=max(width,height),
+    thumbnail='preview.webp',provenance=provenance,
+    usages=[dict(relationship='original',project='Commons cafe',sourceUrl=cafe.SOURCE_URL,sourceRef=cafe.COMMIT,sourcePaths=[relative],context='Original world texture; no specific deployed scene usage asserted.')],seamless=wrap=='mirror',wrapMode=wrap,width=width,height=height,resolution=max(width,height),
     maps={'baseColor':record['file']},colorSpace={'baseColor':'sRGB'},roughness=roughness,metalness=metalness,usage=usage,usageEn=usage_en)
   (folder/'asset.json').write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n')
   print('COPIED',slug,width,height,wrap,cafe.INPUTS[relative])

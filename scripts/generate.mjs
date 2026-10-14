@@ -54,6 +54,6 @@ for (const asset of assets) {
 }
 await writeFile('src/data/catalog.json',JSON.stringify(catalog,null,2)+'\n');
 const publicAssets = catalog.filter(a=>a.status==='public');
-await writeFile('public/api/catalog.json',JSON.stringify({schemaVersion:'2.0.0',name:'Meshcopia',license:'CC-BY-4.0',count:publicAssets.length,assets:publicAssets},null,2)+'\n');
+await writeFile('public/api/catalog.json',JSON.stringify({schemaVersion:'2.1.0',name:'Meshcopia',license:'CC-BY-4.0',count:publicAssets.length,assets:publicAssets},null,2)+'\n');
 await writeFile('public/api/catalog.ndjson',publicAssets.map(a=>JSON.stringify(a)).join('\n')+'\n');
 console.log(`Generated ${catalog.length} asset pages/manifests and ZIPs; ${publicAssets.length} listed publicly.`);

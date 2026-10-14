@@ -20,7 +20,7 @@
   ],
   "author": "Xenoah",
   "license": "CC-BY-4.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
@@ -54,5 +54,17 @@
   "roughness": 0.84,
   "metalness": 0,
   "usage": "Clampで使用。シームレス反復には対応しません。",
-  "usageEn": "Use Clamp. This atlas does not support seamless tiling."
+  "usageEn": "Use Clamp. This atlas does not support seamless tiling.",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Commons cafe",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourceRef": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourcePaths": [
+        "Unity/Assets/TheCommons/Textures/bar_labels_albedo.png"
+      ],
+      "context": "Original world texture; no specific deployed scene usage asserted."
+    }
+  ]
 }

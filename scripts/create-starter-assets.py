@@ -96,7 +96,7 @@ class Mesh:
   im.convert('RGB').save(file,'WEBP',quality=94)
 
 def metadata(slug,title,en,desc,desc_en,category,tags,kind='model'):
- return dict(id=slug,type=kind,title=title,titleEn=en,description=desc,descriptionEn=desc_en,category=category,tags=tags,author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='public',created='2026-10-14',updated='2026-10-14',thumbnail='preview.webp',provenance={'method':'AI-agent-authored deterministic procedural geometry' if kind=='model' else 'AI-agent-authored periodic procedural material','tool':'Meshcopia starter generator 1.0 / Python, NumPy, Pillow','rights':'Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included.'})
+ return dict(id=slug,type=kind,title=title,titleEn=en,description=desc,descriptionEn=desc_en,category=category,tags=tags,author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='public',created='2026-10-14',updated='2026-10-14',thumbnail='preview.webp',usages=[dict(relationship='original',project='Meshcopia',sourceUrl='https://github.com/Xenoah/meshcopia',sourcePaths=['scripts/create-starter-assets.py'],selectors=[slug],context='Created for the Meshcopia asset library; no external project usage recorded.')],provenance={'method':'AI-agent-authored deterministic procedural geometry' if kind=='model' else 'AI-agent-authored periodic procedural material','tool':'Meshcopia starter generator 1.0 / Python, NumPy, Pillow','rights':'Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included.'})
 
 def save_model(slug,title,en,desc,desc_en,category,tags,mesh):
  folder=ROOT/slug;(folder/'source').mkdir(parents=True,exist_ok=True)

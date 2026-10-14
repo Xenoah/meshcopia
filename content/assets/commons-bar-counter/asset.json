@@ -16,7 +16,7 @@
   ],
   "author": "Xenoah",
   "license": "CC-BY-4.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
@@ -93,5 +93,57 @@
     1.245
   ],
   "preview": "commons-bar-counter.glb",
-  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing."
+  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing.",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Commons cafe",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourceRef": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+      "sourcePaths": [
+        "Blender/The_Commons_Compact.blend"
+      ],
+      "selectors": [
+        "BarTopReturn",
+        "FURN_BarFlute",
+        "FURN_BarFlute.001",
+        "FURN_BarFlute.002",
+        "FURN_BarFlute.003",
+        "FURN_BarFlute.004",
+        "FURN_BarFlute.005",
+        "FURN_BarFlute.006",
+        "FURN_BarFlute.007",
+        "FURN_BarFlute.008",
+        "FURN_BarFlute.009",
+        "FURN_BarFlute.010",
+        "FURN_BarFlute.011",
+        "FURN_BarFlute.012",
+        "FURN_BarFlute.013",
+        "FURN_BarFlute.014",
+        "FURN_BarFlute.015",
+        "FURN_BarFlute.016",
+        "FURN_BarFlute.017",
+        "FURN_BarFlute.018",
+        "FURN_BarFlute.019",
+        "FURN_BarFlute.020",
+        "FURN_BarFlute.021",
+        "FURN_BarFlute.022",
+        "FURN_BarFlute.023",
+        "FURN_BarFlute.024",
+        "FURN_BarFlute.025",
+        "FURN_BarFlute.026",
+        "FURN_BarFlute.027",
+        "FURN_BarFlute.028",
+        "FURN_BarFlute.029",
+        "FURN_BarFlute.030",
+        "FURN_BarFlute.031",
+        "FURN_BarFlute.032",
+        "FURN_BarFlute.033",
+        "FURN_BarFlute.034",
+        "FURN_BarFootRail.001",
+        "FURN_BarReturn"
+      ],
+      "context": "Original Blender collection: FURN_Bar"
+    }
+  ]
 }

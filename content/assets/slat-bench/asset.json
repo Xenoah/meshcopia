@@ -14,7 +14,7 @@
   ],
   "author": "Xenoah",
   "license": "CC-BY-4.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "public",
   "created": "2026-10-14",
   "updated": "2026-10-14",
@@ -33,5 +33,19 @@
     0.535
   ],
   "preview": "slat-bench.glb",
-  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures"
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/create-starter-assets.py"
+      ],
+      "selectors": [
+        "slat-bench"
+      ],
+      "context": "Created for the Meshcopia asset library; no external project usage recorded."
+    }
+  ]
 }

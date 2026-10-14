@@ -4,9 +4,9 @@
 
 [素材ライブラリ](https://xenoah.github.io/meshcopia/) · [Releases](https://github.com/Xenoah/meshcopia/releases) · [エージェント向けJSON](https://xenoah.github.io/meshcopia/api/catalog.json)
 
-![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.2.0/desktop-catalog-full.png)
+![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.3.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.2.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.2.0)。3Dモデル32点とテクスチャ15点を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.3.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.3.0)。3Dモデル71点とテクスチャ36点を無料で取得できます。
 
 ## できること
 
@@ -20,6 +20,8 @@
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。
 
 ## 収録素材
+
+**TreeTop Yokochoオリジナル60点（v1.3）**: 立体看板、椅子・テーブルセット、カウンター、棚、照明、能舞台、階段、設備、入口広場の家具など39モデル。元画像を保持した21テクスチャ（Mirror 9点、Clamp 12点）。外部スキャン画像は除外し、該当材質の置換を各モデルに明示。実メッシュのサムネイル、出元のオブジェクト名、SHA256、正確な三角形数・寸法を収録。[選定・出典・制限](docs/YOKOCHO_IMPORT.md)。
 
 **Commons cafeオリジナル12点**: バースツール、ラウンジチェア、ソファ、丸テーブル、ペンダントライト、コーヒーカップ、観葉植物、エスプレッソマシン、グラインダー、PAスピーカー、DJコントローラー、展示台。[元ワールド](https://github.com/Xenoah/vrcworld_tech-tech-cafe)から独立したGLB/STLとして抽出。元の生成テクスチャ、UV、鏡像反復・Clamp設定を保持しています。[選定根拠・出典・再現手順](docs/COMMONS_IMPORT.md)。
 
@@ -37,7 +39,7 @@
 
 ## テクスチャとAPIの反復方式
 
-カタログの `schemaVersion` は **2.0.0**。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
+カタログの `schemaVersion` は **2.1.0**。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
 
 | wrapMode | 使い方 | seamless |
 | --- | --- | --- |
@@ -97,3 +99,7 @@ npm run check
 [Xenoah/archive-3dmodels](https://github.com/Xenoah/archive-3dmodels) のAstro・Three.jsビューアとフォルダー投入→カタログ→ZIPの設計を継承。ビューア、ZIP writerは参照コミット `7d52500c361200884d56e8361757953474dfdb68` を基礎に改修。CC BY-NCの旧モデル、解析タグ、旧サイトの設定は移植していません。
 
 本リポジトリのオリジナル素材・実装は [CC BY 4.0](LICENSE)。依存ライブラリはそれぞれのライセンスが適用されます。[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) を参照。
+
+## 出元・使用作品
+
+任意の構造化 `usages[]` で制作元・再利用先、固定コミット、リポジトリ内パス、オブジェクト名を記録します。詳細ページに表示し、作品名・場所・識別子で検索できます。カタログ・NDJSON・個別JSON・通常ZIPの asset.json に含まれます。ライセンスの `provenance`、テクスチャ設定の `usage` とは別項目です。記入例と未知情報の扱いは [usage metadata](docs/USAGE_METADATA.md) を参照。

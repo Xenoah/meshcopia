@@ -1,4 +1,5 @@
 // Executed on the GitHub Actions runner, not the managed authoring environment.
+import {testUsagesBrowser} from './test-usages-browser.mjs';
 import {chromium} from '@playwright/test';
 import {createHash} from 'node:crypto';
 import {createServer} from 'node:http';import {readFile,mkdir,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
@@ -18,6 +19,7 @@ async function loadImages(){
  await page.evaluate(async()=>{await Promise.all([...document.images].filter(i=>i.getClientRects().length).map(i=>i.decode()));document.activeElement?.blur();window.scrollTo({top:0,behavior:'instant'});await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))});
 }
 try{
+ await testUsagesBrowser(page,home);
  await page.goto(home);await page.waitForSelector('[data-card]');
  await loadImages();
  assert.equal(await page.locator('[data-card]:visible').count(),catalog.length);

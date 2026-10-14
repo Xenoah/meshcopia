@@ -296,6 +296,7 @@ def run(args):
         metadata.update(type='model', tags=['commons','cafe','オリジナル',spec['category'],*spec['id'].split('-')[1:]],
                         author='Xenoah', license='CC-BY-4.0', version='1.0.0', status='public',
                         created=DATE, updated=DATE, thumbnail='preview.png', provenance=provenance,
+                        usages=[dict(relationship='original',project='Commons cafe',sourceUrl=SOURCE_URL,sourceRef=COMMIT,sourcePaths=['Blender/The_Commons_Compact.blend'],selectors=provenance['sourceObjects'],context='Original Blender collection: '+spec['collection'])],
                         unit='m', upAxis='Y', triangles=triangle_count,
                         dimensions=[round(dimensions[i],5) for i in [0,2,1]], preview=file.name,
                         uv='Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing.')

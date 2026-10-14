@@ -17,6 +17,31 @@ export function safeRelative(value) {
   return value;
 }
 
+// Shared by the importer and build. Reject unsafe URLs before they reach HTML.
+/** @returns {import('../../src/lib/usage').AssetUsage[]} */
+export function validateUsages(usages) {
+  if (usages === undefined) return [];
+  if (!Array.isArray(usages)) throw new Error('usages must be an array');
+  const text = value => typeof value === 'string' && !!value.trim() && !/[\x00-\x1f\x7f]/.test(value);
+  const keys = new Set(['relationship','project','sourceUrl','sourceRef','sourcePaths','selectors','context']);
+  for (const usage of usages) {
+    if (!usage || typeof usage !== 'object' || Array.isArray(usage) || Object.keys(usage).some(key => !keys.has(key))) throw new Error('Invalid usage record or unknown field');
+    if (!['original','reuse'].includes(usage.relationship) || !text(usage.project)) throw new Error('usage relationship and project are required');
+    for (const key of ['sourceRef','context']) if (usage[key] !== undefined && !text(usage[key])) throw new Error(`Invalid usage ${key}`);
+    if (usage.sourceUrl !== undefined) {
+      if (!text(usage.sourceUrl) || !/^https?:\/\//.test(usage.sourceUrl) || /[\s\\]/.test(usage.sourceUrl)) throw new Error('Unsafe usage sourceUrl');
+      const url = new URL(usage.sourceUrl);
+      if (!['http:','https:'].includes(url.protocol) || !url.hostname || url.username || url.password) throw new Error('Unsafe usage sourceUrl');
+    }
+    for (const key of ['sourcePaths','selectors']) {
+      if (usage[key] === undefined) continue;
+      if (!Array.isArray(usage[key]) || usage[key].some(value => !text(value))) throw new Error(`Invalid usage ${key}`);
+      if (key === 'sourcePaths') usage[key].forEach(safeRelative);
+    }
+  }
+  return usages;
+}
+
 export async function filesIn(dir, prefix = '') {
   const entries = await readdir(path.join(dir, prefix), {withFileTypes: true});
   const files = [];
@@ -43,6 +68,7 @@ export async function readAsset(dir) {
   if (!['public','draft','hidden'].includes(a.status)) fail('Invalid status');
   if (!Array.isArray(a.tags) || a.tags.some(t => typeof t !== 'string')) fail('tags must be strings');
   if (!a.provenance?.method || !a.provenance?.tool || !a.provenance?.rights) fail('provenance (method/tool/rights) is required');
+  a.usages = validateUsages(a.usages);
   if (!IMAGE_EXT.has(path.extname(a.thumbnail))) fail('thumbnail must be PNG, JPEG or WebP');
   safeRelative(a.thumbnail);
   const thumbnail = await lstat(path.join(dir, a.thumbnail));
