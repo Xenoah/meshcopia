@@ -1,6 +1,6 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "prerelease": false,
-  "name": "Meshcopia 1.5.0 - Street infrastructure and pedestrian access",
-  "notes": "docs/releases/v1.5.0.md"
+  "name": "Meshcopia 1.6.0 - Transit and storefront fixtures",
+  "notes": "docs/releases/v1.6.0.md"
 }
