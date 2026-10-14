@@ -59,6 +59,11 @@ jobs:
           python3 scripts/import-commons-cafe.py --fetch --batch expansion
           python3 scripts/import-commons-textures.py
           rm .import-commons-expansion
+      - name: Import reviewed original Yokocho assets (once)
+        if: hashFiles('.import-yokocho') != ''
+        run: |
+          python3 scripts/import-yokocho-source.py
+          rm .import-yokocho
       - name: Import inbox
         run: npm run import:all-inbox -- --apply
       - name: Validate, test and build
@@ -84,6 +89,7 @@ jobs:
           if git ls-files --error-unmatch .bootstrap-starter >/dev/null 2>&1; then git add -u .bootstrap-starter; fi
           if git ls-files --error-unmatch .import-commons-cafe >/dev/null 2>&1; then git add -u .import-commons-cafe; fi
           if git ls-files --error-unmatch .import-commons-expansion >/dev/null 2>&1; then git add -u .import-commons-expansion; fi
+          if git ls-files --error-unmatch .import-yokocho >/dev/null 2>&1; then git add -u .import-yokocho; fi
           if ! git diff --cached --quiet; then
             git commit -m 'feat(assets): import validated original CC BY collection'
             git push origin HEAD:main

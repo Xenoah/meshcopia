@@ -1,0 +1,122 @@
+{
+  "water_normal.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "2626d95733fbf82f8b60ca6eace1ae9883f4c302a56de6536aa9acac8f144845"
+  },
+  "plaster_normal.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "632f13b8a9894a6ae25343538eda736f8560879837fd1d8c4ef08dde9866ebe6"
+  },
+  "leaf_detail_arm.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "0f3ce9b401b31602476044e2c19f6164f66154796db88945481cd1500a4983d5"
+  },
+  "leaf_detail_normal.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "1c3b194477eeac99d90fd0e426d07f991ea62697c68c830063edc99402e470c9"
+  },
+  "menus.png": {
+    "bytesEqual": false,
+    "pixelsEqual": false,
+    "regeneratedSha256": "b8704d116998e8ee9cdd15ab816d233635b3a5709bb9fe8d9131e2d8d8f34d8d"
+  },
+  "lantern.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "9d9cccb363e5d9bb5155f61a467d2cb9638b45444494c67754229362acf34587"
+  },
+  "water_arm.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "c2d0fdb2518ea231ceaafda31faf98ed2080f985d57b802cca7b273b9f612e32"
+  },
+  "foliage_spray.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "91f7de96e72778bb0e7e519aee1cda2edb3987e7fc0cec30c046f6c34cf85730"
+  },
+  "wood.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "84afc46469554df140f43a01535326408c4c6d4f7c959e8659e71d272d6d47a9"
+  },
+  "tile_clay_arm.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "bb995dc6d5ab8e7fe0e354d5c1f99697b4b758813db9949abc25342522e7e083"
+  },
+  "leaf.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "49ba1484e64397c8c18545d3ecf4185a804c278bc3b00c70ad600c77be2e505c"
+  },
+  "woven_normal.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+  },
+  "signs.png": {
+    "bytesEqual": false,
+    "pixelsEqual": false,
+    "regeneratedSha256": "68659e4f7fa8938f96790a631e77b57f3b5f61a23bd14f36c893186c66b68ab7"
+  },
+  "plaster.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "3f9b2283b32a1b497dd4c03556e777588f4d43bc559d75ed9092035f85e1146e"
+  },
+  "plaster_arm.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "5ac62a51f5a95f1374c34dca6f62dee0742481b7e0b44693fcac93a9344e0656"
+  },
+  "roof.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "474dcce9ff31a067d21a4b0952ad350133fcdd4a0e2c4cfa0fa816b8d8584227"
+  },
+  "tile_clay.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "04445a87cb43746b7c2481de1ff0e6ee1eac62e29cf77f863d6676e5e2ff1c36"
+  },
+  "water.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "4d166c3a08d753b35f9ef98a3e4e41e16a1cd40e038c76fc6a0f7d7aacf186dd"
+  },
+  "cloth.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "ddfcc9d69a72a5e1c102a5508e92d96974fc80b643a502ef9f8d055b47f0e0e6"
+  },
+  "woven_arm.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "0a39970738a7d29770fb4d1fa03dd2c59277e70242398ccba704c76aeb922468"
+  },
+  "tile_clay_normal.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb"
+  },
+  "bark.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "6900cd07e4c4961b943a9ebf75c4a2736853511a928fddc812fc4b9ccf97f6bb"
+  },
+  "woven.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+  },
+  "leaf_detail.png": {
+    "bytesEqual": true,
+    "pixelsEqual": true,
+    "regeneratedSha256": "fd5ce2e0bebdda9f92ad82e48c47adddd70627761858f7ce212fc18e5e64430c"
+  }
+}

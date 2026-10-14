@@ -1,0 +1,69 @@
+{
+  "id": "yokocho-entry-control-panel",
+  "title": "樹上横丁｜入口広場の空欄パネル",
+  "titleEn": "TreeTop Yokocho | Entry Plaza Blank Control Panel",
+  "description": "緑の二重枠を描いた生成りの空欄パネル。操作ボタンや文字は含みません。 クランプ用でシームレスではありません。原画像と縦横比を維持。 ベースカラーのみ。",
+  "descriptionEn": "Natural-paper-colored blank panel with a green double border. No buttons, controls or text are included. Clamp to edge; not seamless. Original image and aspect ratio preserved. Basecolor only.",
+  "category": "paper",
+  "tags": [
+    "yokocho",
+    "entry-plaza",
+    "original",
+    "clamp",
+    "paper"
+  ],
+  "maps": {
+    "baseColor": "EntryControls.png"
+  },
+  "width": 1536,
+  "height": 1024,
+  "resolution": 1536,
+  "wrapMode": "clamp",
+  "seamless": false,
+  "colorSpaces": {
+    "baseColor": "sRGB"
+  },
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "procedural",
+    "tool": "Python / NumPy / Pillow",
+    "sourcePixelsUnchanged": true,
+    "sourceFiles": {
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryControls.png": "0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905"
+    },
+    "generatorSources": {
+      "Source/build_entry_plaza.py": "677b5c6e0f0e7e8d8dbcb60d2d60c312dd4440a0f169c69eaf476dd362c542c4"
+    },
+    "generator": "Source/build_entry_plaza.py",
+    "sourceGLB": {
+      "path": "Preview/EntryPlaza.glb",
+      "sha256": "954520c4fbb5bd4366f875ce5c555b9db8016111f6d5b09349dded2005c0db53"
+    },
+    "sourceScope": "Separate source-authored entry-plaza-next staging; NOT from the immutable TreeTopYokocho v2.19 baseline commit.",
+    "notes": "Original procedural image, no external scan or AI image. Font binaries excluded. EntryGuideboard rendered text uses Klee One under OFL; font license remains unchanged and rendered artwork is not font software.",
+    "verification": "Original PNG copied byte-for-byte with matching SHA256.",
+    "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "changes": "Original PNG copied byte-for-byte. Separate actual-artwork thumbnail. Mirror surfaces require alternating flipped tiles; clamp artworks retain authored aspect ratio and are not tileable."
+  },
+  "previewDescription": "Full original image fitted without cropping or aspect distortion.",
+  "type": "texture",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho — Entry Plaza",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+      "sourcePaths": [
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryControls.png",
+        "Source/build_entry_plaza.py"
+      ],
+      "context": "Authored texture source for entry-plaza furniture and signage; separate staging snapshot."
+    }
+  ]
+}

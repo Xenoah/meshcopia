@@ -1,0 +1,466 @@
+{
+  "passed": true,
+  "assetCount": 39,
+  "checks": [
+    {
+      "id": "yokocho-dragon-ember-sign",
+      "triangles": 676,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-noodle-guild-sign",
+      "triangles": 956,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven_arm.png",
+          "sha256": "0a39970738a7d29770fb4d1fa03dd2c59277e70242398ccba704c76aeb922468"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-traveler-pot-sign",
+      "triangles": 644,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-witch-moon-sign",
+      "triangles": 784,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-moon-tea-sign",
+      "triangles": 1432,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-star-distillery-sign",
+      "triangles": 844,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-bard-lyre-sign",
+      "triangles": 764,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-snack-chair",
+      "triangles": 580,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-cocktail-stool",
+      "triangles": 336,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-club-armchair",
+      "triangles": 312,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-listening-chair",
+      "triangles": 220,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-banquette",
+      "triangles": 1464,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-snack-counter",
+      "triangles": 1316,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-walnut-counter",
+      "triangles": 1380,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-listening-counter",
+      "triangles": 904,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-booth-table",
+      "triangles": 772,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-lounge-table",
+      "triangles": 480,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-bottle-keep-wall",
+      "triangles": 8818,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven_normal.png",
+          "sha256": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9"
+        },
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        },
+        {
+          "name": "nightlife_signs.png",
+          "sha256": "aa75562739203504b7574565f1b0f8733ab6a20289af362edd48f20a7aa99de5"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-geometric-backbar",
+      "triangles": 6350,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "nightlife_signs.png",
+          "sha256": "aa75562739203504b7574565f1b0f8733ab6a20289af362edd48f20a7aa99de5"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-record-library",
+      "triangles": 854,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "nightlife_signs.png",
+          "sha256": "aa75562739203504b7574565f1b0f8733ab6a20289af362edd48f20a7aa99de5"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-turntable-amplifier",
+      "triangles": 496,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-medallion-chandelier",
+      "triangles": 956,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-pendant-ceiling",
+      "triangles": 1332,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-noh-pavilion",
+      "triangles": 33780,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "tile_clay_normal.png",
+          "sha256": "5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb"
+        },
+        {
+          "name": "tile_clay_arm.png",
+          "sha256": "bb995dc6d5ab8e7fe0e354d5c1f99697b4b758813db9949abc25342522e7e083"
+        },
+        {
+          "name": "tile_clay.png",
+          "sha256": "04445a87cb43746b7c2481de1ff0e6ee1eac62e29cf77f863d6676e5e2ff1c36"
+        },
+        {
+          "name": "lantern.png",
+          "sha256": "9d9cccb363e5d9bb5155f61a467d2cb9638b45444494c67754229362acf34587"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-booster-pump-skid",
+      "triangles": 5332,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-upper-water-storage",
+      "triangles": 2832,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-timber-stair-flight",
+      "triangles": 1956,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-telecom-mast",
+      "triangles": 2156,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-utility-service-bank",
+      "triangles": 1708,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-charcoal-stool-set",
+      "triangles": 2112,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-noodle-stool-set",
+      "triangles": 4320,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-oden-bench-set",
+      "triangles": 712,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-tea-furniture-set",
+      "triangles": 1976,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "woven.png",
+          "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-confectioner-stool-set",
+      "triangles": 2304,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-mixology-tools",
+      "triangles": 644,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": []
+    },
+    {
+      "id": "yokocho-entry-log-bench",
+      "triangles": 404,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "EntryTimber.png",
+          "sha256": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3"
+        },
+        {
+          "name": "EntryEndgrain.png",
+          "sha256": "217b158360e76c43e9190804b4b89409ab7cd3c6b13cbce064ee28befa3f861f"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-stump-table",
+      "triangles": 248,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "EntryTimber.png",
+          "sha256": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3"
+        },
+        {
+          "name": "EntryEndgrain.png",
+          "sha256": "217b158360e76c43e9190804b4b89409ab7cd3c6b13cbce064ee28befa3f861f"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-guideboard",
+      "triangles": 602,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "EntryTimber.png",
+          "sha256": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3"
+        },
+        {
+          "name": "EntryGuideboard.png",
+          "sha256": "5c8a17bb8634443d19306b7c89b1f328a95f5c3043ab99808aedd7189121a44b"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-display-frame",
+      "triangles": 604,
+      "geometryNormalsUVVertexColorsExact": true,
+      "groundCentered": true,
+      "stlDimensionsMatch": true,
+      "embeddedImagesExactSourcePng": [
+        {
+          "name": "EntryTimber.png",
+          "sha256": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3"
+        },
+        {
+          "name": "EntryControls.png",
+          "sha256": "0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905"
+        },
+        {
+          "name": "EntryControlsHeader.png",
+          "sha256": "7c9b2dd4d4f25076e8b9a1c2a621dc0cd6b65592bdbee054d39b98ffe7264135"
+        }
+      ]
+    }
+  ]
+}

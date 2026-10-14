@@ -1,0 +1,128 @@
+{
+  "id": "yokocho-noh-pavilion",
+  "type": "model",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "title": "瓦屋根の能舞台",
+  "titleEn": "Tiled Noh Stage Pavilion",
+  "description": "樹上横丁のオリジナル形状から切り出した瓦屋根の能舞台。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。舞台下の支持構造を含みます。 / Includes the under-stage support structure. 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。",
+  "descriptionEn": "Tiled Noh Stage Pavilion extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged. 舞台下の支持構造を含みます。 / Includes the under-stage support structure. Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.",
+  "category": "architecture",
+  "triangles": 33780,
+  "dimensions": [
+    8.774835586547852,
+    7.727081775665283,
+    8.774835586547852
+  ],
+  "unit": "m",
+  "upAxis": "Y",
+  "tags": [
+    "yokocho",
+    "original",
+    "architecture",
+    "v2.19.0"
+  ],
+  "thumbnail": "preview.png",
+  "preview": "yokocho-noh-pavilion.glb",
+  "uv": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+  "provenance": {
+    "method": "Original procedural TreeTop Yokocho mesh extraction; authored materials retained or explicitly substituted",
+    "tool": "Python / NumPy glTF extraction; Blender 4.3.2 Cycles CPU, 48 samples, orthographic camera, area lights; actual exported GLB imported and rendered, no generated concept imagery.",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+    "sourceFiles": {
+      "Source/TreeTopYokocho.glb": "32ec5b383c6586fa3568a4427d1d45dd82d77a24aa9f41e36a56dd647aaea0f1",
+      "Assets/TreeTopYokocho/Textures/tile_clay.png": "04445a87cb43746b7c2481de1ff0e6ee1eac62e29cf77f863d6676e5e2ff1c36",
+      "Assets/TreeTopYokocho/Textures/tile_clay_normal.png": "5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb",
+      "Assets/TreeTopYokocho/Textures/tile_clay_arm.png": "bb995dc6d5ab8e7fe0e354d5c1f99697b4b758813db9949abc25342522e7e083",
+      "Assets/TreeTopYokocho/Textures/lantern.png": "9d9cccb363e5d9bb5155f61a467d2cb9638b45444494c67754229362acf34587"
+    },
+    "sourceObjects": [
+      "Stage/Noh/Floor__DarkTimber",
+      "Stage/Noh/Floor__StageCypress",
+      "Stage/Noh/Floor__Bronze",
+      "Stage/Noh/Support__DarkTimber",
+      "Stage/Noh/Support__Cedar",
+      "Stage/Noh/Posts__StageCypress",
+      "Stage/Noh/Posts__Bronze",
+      "Stage/Noh/HipRoof__Kawara",
+      "Stage/Noh/HipRoof__DarkTimber",
+      "Stage/Noh/HipRoof__StageCypress",
+      "Stage/Noh/PineCrest__DarkTimber",
+      "Stage/Noh/PineCrest__Bronze",
+      "Stage/Noh/RoofDetail/Courses__Kawara",
+      "Stage/Noh/RoofDetail/Caps__Kawara",
+      "Stage/Noh/RoofDetail/Joinery__DarkTimber",
+      "Stage/Noh/RoofDetail/Joinery__StageCypress",
+      "Stage/Noh/Lighting__Iron",
+      "Stage/Noh/Lighting__PaperLight",
+      "Stage/Noh/Lighting__Bronze"
+    ],
+    "sourceCollection": "Stage/Noh/",
+    "sourceTranslation": [
+      -9.836034774780273,
+      -136.54391479492188,
+      9.836034774780273
+    ],
+    "preservedMaterials": [
+      "Bronze",
+      "Kawara",
+      "Iron",
+      "PaperLight"
+    ],
+    "replacedMaterials": [
+      "DarkTimber",
+      "StageCypress",
+      "Cedar"
+    ],
+    "changes": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+    "embeddedImageSha256": [
+      "5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb",
+      "bb995dc6d5ab8e7fe0e354d5c1f99697b4b758813db9949abc25342522e7e083",
+      "04445a87cb43746b7c2481de1ff0e6ee1eac62e29cf77f863d6676e5e2ff1c36",
+      "9d9cccb363e5d9bb5155f61a467d2cb9638b45444494c67754229362acf34587"
+    ],
+    "sourceCommit": "97091c96cf66a0f67b952827a753a448768f175a"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+      "sourcePaths": [
+        "Source/TreeTopYokocho.glb",
+        "Assets/TreeTopYokocho/Textures/tile_clay.png",
+        "Assets/TreeTopYokocho/Textures/tile_clay_normal.png",
+        "Assets/TreeTopYokocho/Textures/tile_clay_arm.png",
+        "Assets/TreeTopYokocho/Textures/lantern.png"
+      ],
+      "selectors": [
+        "Stage/Noh/Floor__DarkTimber",
+        "Stage/Noh/Floor__StageCypress",
+        "Stage/Noh/Floor__Bronze",
+        "Stage/Noh/Support__DarkTimber",
+        "Stage/Noh/Support__Cedar",
+        "Stage/Noh/Posts__StageCypress",
+        "Stage/Noh/Posts__Bronze",
+        "Stage/Noh/HipRoof__Kawara",
+        "Stage/Noh/HipRoof__DarkTimber",
+        "Stage/Noh/HipRoof__StageCypress",
+        "Stage/Noh/PineCrest__DarkTimber",
+        "Stage/Noh/PineCrest__Bronze",
+        "Stage/Noh/RoofDetail/Courses__Kawara",
+        "Stage/Noh/RoofDetail/Caps__Kawara",
+        "Stage/Noh/RoofDetail/Joinery__DarkTimber",
+        "Stage/Noh/RoofDetail/Joinery__StageCypress",
+        "Stage/Noh/Lighting__Iron",
+        "Stage/Noh/Lighting__PaperLight",
+        "Stage/Noh/Lighting__Bronze"
+      ],
+      "context": "Present in the pinned v2.19.0 source world under Stage/Noh/. Static source usage, not proof of a deployed VRChat world.",
+      "sourceRef": "97091c96cf66a0f67b952827a753a448768f175a"
+    }
+  ]
+}

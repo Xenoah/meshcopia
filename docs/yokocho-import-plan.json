@@ -1,0 +1,610 @@
+{
+  "files": [
+    {
+      "destination": "_inbox/yokocho-banquette/source/yokocho-banquette.glb",
+      "sha256": "e86a62614cd4ca8275c37bb805a9709baff1ff59a4b7ed7be08adaa4de62525b",
+      "modelId": "yokocho-banquette",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-banquette/source/yokocho-banquette.stl",
+      "sha256": "a7470dd5daaf1d77c521cf606b2c2271dd2068a76df046d8ea8ba390921e456c",
+      "modelId": "yokocho-banquette",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-bard-lyre-sign/source/yokocho-bard-lyre-sign.glb",
+      "sha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc",
+      "modelId": "yokocho-bard-lyre-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-bard-lyre-sign/source/yokocho-bard-lyre-sign.stl",
+      "sha256": "49311fd81780846ea258496f877fb992cb43c091e65e49b6d2b000628fa0759b",
+      "modelId": "yokocho-bard-lyre-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-bark/source/bark.png",
+      "sha256": "6900cd07e4c4961b943a9ebf75c4a2736853511a928fddc812fc4b9ccf97f6bb",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/bark.png"
+    },
+    {
+      "destination": "_inbox/yokocho-booster-pump-skid/source/yokocho-booster-pump-skid.glb",
+      "sha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7",
+      "modelId": "yokocho-booster-pump-skid",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-booster-pump-skid/source/yokocho-booster-pump-skid.stl",
+      "sha256": "cab75848b6e5bd7aeb69f495029564014711fc240d011a0e0a273f40e5183c4d",
+      "modelId": "yokocho-booster-pump-skid",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-booth-table/source/yokocho-booth-table.glb",
+      "sha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a",
+      "modelId": "yokocho-booth-table",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-booth-table/source/yokocho-booth-table.stl",
+      "sha256": "4333899da759ef63de57e9a689809413a8eb0526cecf1ad9ce1d9f80266246e3",
+      "modelId": "yokocho-booth-table",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-bottle-keep-wall/source/yokocho-bottle-keep-wall.glb",
+      "sha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2",
+      "modelId": "yokocho-bottle-keep-wall",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-bottle-keep-wall/source/yokocho-bottle-keep-wall.stl",
+      "sha256": "b5d7b5e79b3b971ce9c51195319c9948112798f673eabc741b158c3f0d695b77",
+      "modelId": "yokocho-bottle-keep-wall",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-charcoal-stool-set/source/yokocho-charcoal-stool-set.glb",
+      "sha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7",
+      "modelId": "yokocho-charcoal-stool-set",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-charcoal-stool-set/source/yokocho-charcoal-stool-set.stl",
+      "sha256": "ce157807d684bb269a241f06a3d5f47a5ece39892f1fa3d2226531cfc488b202",
+      "modelId": "yokocho-charcoal-stool-set",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-cloth/source/cloth.png",
+      "sha256": "ddfcc9d69a72a5e1c102a5508e92d96974fc80b643a502ef9f8d055b47f0e0e6",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/cloth.png"
+    },
+    {
+      "destination": "_inbox/yokocho-club-armchair/source/yokocho-club-armchair.glb",
+      "sha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53",
+      "modelId": "yokocho-club-armchair",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-club-armchair/source/yokocho-club-armchair.stl",
+      "sha256": "136616872079af6b75818804f8f573be45757fb2a664c09ce01a2cd58cd3898b",
+      "modelId": "yokocho-club-armchair",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-cocktail-stool/source/yokocho-cocktail-stool.glb",
+      "sha256": "75aedc315176f2431a992d52275530b9fb201f6c8c258f5a183e3be07364a5b2",
+      "modelId": "yokocho-cocktail-stool",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-cocktail-stool/source/yokocho-cocktail-stool.stl",
+      "sha256": "e311dd8d3e2b2615d2efa81db0453aab8a7869dc53e13a20370b8d1a063d4d51",
+      "modelId": "yokocho-cocktail-stool",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-confectioner-stool-set/source/yokocho-confectioner-stool-set.glb",
+      "sha256": "0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d",
+      "modelId": "yokocho-confectioner-stool-set",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-confectioner-stool-set/source/yokocho-confectioner-stool-set.stl",
+      "sha256": "141315dc22f6f60d46cab09aa6234aaec21adf53218ff031228129122042a67f",
+      "modelId": "yokocho-confectioner-stool-set",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-counter-craft/source/counter_craft.png",
+      "sha256": "467579b38a9026114fd202777ff3acad6fbc04ba6e295252ee19ca4305e76491",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/counter_craft.png"
+    },
+    {
+      "destination": "_inbox/yokocho-dragon-ember-sign/source/yokocho-dragon-ember-sign.glb",
+      "sha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0",
+      "modelId": "yokocho-dragon-ember-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-dragon-ember-sign/source/yokocho-dragon-ember-sign.stl",
+      "sha256": "94cca53dd1e884656012833f65c83f18b63c6fa7af347e5caaf716aa0b83b807",
+      "modelId": "yokocho-dragon-ember-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-control-panel/source/EntryControls.png",
+      "sha256": "0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-display-frame/source/yokocho-entry-display-frame.glb",
+      "sha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-display-frame/source/yokocho-entry-display-frame.stl",
+      "sha256": "8d826cac92fb5223e2276d0f8b83aef8e8adc861f6e4a7e2cfa35c0bae5ccaa4"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-endgrain/source/EntryEndgrain.png",
+      "sha256": "217b158360e76c43e9190804b4b89409ab7cd3c6b13cbce064ee28befa3f861f"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-guideboard/source/yokocho-entry-guideboard.glb",
+      "sha256": "82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-guideboard/source/yokocho-entry-guideboard.stl",
+      "sha256": "af6fdb9a61ad0cd80addf0b109b5c8658b4d6b227e777bb16f85d692fe6b0ec2"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-guideboard-artwork/source/EntryGuideboard.png",
+      "sha256": "5c8a17bb8634443d19306b7c89b1f328a95f5c3043ab99808aedd7189121a44b"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-log-bench/source/yokocho-entry-log-bench.glb",
+      "sha256": "b3efdc9cc7f12a43b859993caf0b661e3b341210666ac17cc367c0f9ced1616b"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-log-bench/source/yokocho-entry-log-bench.stl",
+      "sha256": "20b41ea12eae4ca04a0575df9e8ef797608d1d226f3513c5cb58dfe8a75fff98"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-stump-table/source/yokocho-entry-stump-table.glb",
+      "sha256": "95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-stump-table/source/yokocho-entry-stump-table.stl",
+      "sha256": "332c52fe09a66f7e1a8b3dfc982ac7b43b9771ac9dfcda05741bb59d460a0aec"
+    },
+    {
+      "destination": "_inbox/yokocho-entry-timber/source/EntryTimber.png",
+      "sha256": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3"
+    },
+    {
+      "destination": "_inbox/yokocho-foliage-spray/source/foliage_spray.png",
+      "sha256": "91f7de96e72778bb0e7e519aee1cda2edb3987e7fc0cec30c046f6c34cf85730",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/foliage_spray.png"
+    },
+    {
+      "destination": "_inbox/yokocho-food-venue-signs/source/food_venue_signs.png",
+      "sha256": "9cda1ac007cbf53792a7e5b6f24f8292227b81ebacef1ebef5f8897c5a340abf",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/food_venue_signs.png"
+    },
+    {
+      "destination": "_inbox/yokocho-geometric-backbar/source/yokocho-geometric-backbar.glb",
+      "sha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d",
+      "modelId": "yokocho-geometric-backbar",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-geometric-backbar/source/yokocho-geometric-backbar.stl",
+      "sha256": "ebe6352a7bc779c8989b5cef3e724f90993797c1747636e4d41d9aebe8f938c3",
+      "modelId": "yokocho-geometric-backbar",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-lantern/source/lantern.png",
+      "sha256": "9d9cccb363e5d9bb5155f61a467d2cb9638b45444494c67754229362acf34587",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/lantern.png"
+    },
+    {
+      "destination": "_inbox/yokocho-leaf/source/leaf.png",
+      "sha256": "49ba1484e64397c8c18545d3ecf4185a804c278bc3b00c70ad600c77be2e505c",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/leaf.png"
+    },
+    {
+      "destination": "_inbox/yokocho-listening-chair/source/yokocho-listening-chair.glb",
+      "sha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557",
+      "modelId": "yokocho-listening-chair",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-listening-chair/source/yokocho-listening-chair.stl",
+      "sha256": "8943a9c5af4269ed3357d077addc0fe3217565ef57f7c05d5b11f3d195af6e0e",
+      "modelId": "yokocho-listening-chair",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-listening-counter/source/yokocho-listening-counter.glb",
+      "sha256": "83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868",
+      "modelId": "yokocho-listening-counter",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-listening-counter/source/yokocho-listening-counter.stl",
+      "sha256": "8b685c21f7bb74d424615af719f889438686b6f63e2ba97e4f19dea1e8961b6f",
+      "modelId": "yokocho-listening-counter",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-lounge-table/source/yokocho-lounge-table.glb",
+      "sha256": "eacd273d7c5a05999bc890e7c4bb4dc4c7040cbc3e26ca558faecd99d55c0f4b",
+      "modelId": "yokocho-lounge-table",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-lounge-table/source/yokocho-lounge-table.stl",
+      "sha256": "d9a0b17acedc5a73350ca6fba5d976c6aaed67044631f2e022f53615b8e05c43",
+      "modelId": "yokocho-lounge-table",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-medallion-chandelier/source/yokocho-medallion-chandelier.glb",
+      "sha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0",
+      "modelId": "yokocho-medallion-chandelier",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-medallion-chandelier/source/yokocho-medallion-chandelier.stl",
+      "sha256": "4b8542490f9ab3a4dbd37799d10e573b4eead1e2ccd45f922e699d15439ab7d8",
+      "modelId": "yokocho-medallion-chandelier",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-menus/source/menus.png",
+      "sha256": "d63661c8b48935fabbed7e889aa1a327a7059a9ca4acff256d85879a9c84931e",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/menus.png"
+    },
+    {
+      "destination": "_inbox/yokocho-mixology-tools/source/yokocho-mixology-tools.glb",
+      "sha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3",
+      "modelId": "yokocho-mixology-tools",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-mixology-tools/source/yokocho-mixology-tools.stl",
+      "sha256": "464d221dcea925fe326e1d41a2c85ea57f5d60ae1800c40397a87456eff0ba2b",
+      "modelId": "yokocho-mixology-tools",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-moon-tea-sign/source/yokocho-moon-tea-sign.glb",
+      "sha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2",
+      "modelId": "yokocho-moon-tea-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-moon-tea-sign/source/yokocho-moon-tea-sign.stl",
+      "sha256": "2c56d28c0fd8ef75946f9a8a7dedc3c93e549960eb29f59b980f96e6ee4cde06",
+      "modelId": "yokocho-moon-tea-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-nightlife-signs/source/nightlife_signs.png",
+      "sha256": "aa75562739203504b7574565f1b0f8733ab6a20289af362edd48f20a7aa99de5",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/nightlife_signs.png"
+    },
+    {
+      "destination": "_inbox/yokocho-noh-pavilion/source/yokocho-noh-pavilion.glb",
+      "sha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+      "modelId": "yokocho-noh-pavilion",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-noh-pavilion/source/yokocho-noh-pavilion.stl",
+      "sha256": "f9f4582ff38e16904ecc491a726b7f0525b42b658bfbc6b64a45353883b1af40",
+      "modelId": "yokocho-noh-pavilion",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-noodle-guild-sign/source/yokocho-noodle-guild-sign.glb",
+      "sha256": "28e9e28a43a1ceb37730cfe3be778b295468367a109e02227f6b1701f8a8270e",
+      "modelId": "yokocho-noodle-guild-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-noodle-guild-sign/source/yokocho-noodle-guild-sign.stl",
+      "sha256": "318be2f5d029e6225efb71adb49e79980ece3cd558230d8f39cfda824b39e70f",
+      "modelId": "yokocho-noodle-guild-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-noodle-stool-set/source/yokocho-noodle-stool-set.glb",
+      "sha256": "594837b9aa9a1a54ee3c47122c752da78530591ccb82281cdeb1423e6d1f0d2a",
+      "modelId": "yokocho-noodle-stool-set",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-noodle-stool-set/source/yokocho-noodle-stool-set.stl",
+      "sha256": "d1d28bb9f2bc50adc804c60c477211fed5db28332b3f5bf722e87513467d5819",
+      "modelId": "yokocho-noodle-stool-set",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-oden-bench-set/source/yokocho-oden-bench-set.glb",
+      "sha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261",
+      "modelId": "yokocho-oden-bench-set",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-oden-bench-set/source/yokocho-oden-bench-set.stl",
+      "sha256": "ba59c25b4e925146c830b7e507673750bf984d3aa13f2d66609569dda0756c50",
+      "modelId": "yokocho-oden-bench-set",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-pendant-ceiling/source/yokocho-pendant-ceiling.glb",
+      "sha256": "766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c",
+      "modelId": "yokocho-pendant-ceiling",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-pendant-ceiling/source/yokocho-pendant-ceiling.stl",
+      "sha256": "1cbe8379f6066e3554333f0480b4ec58994816575f1f349232b9cfbe723554ef",
+      "modelId": "yokocho-pendant-ceiling",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-plaster/source/plaster.png",
+      "sha256": "3f9b2283b32a1b497dd4c03556e777588f4d43bc559d75ed9092035f85e1146e",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/plaster.png"
+    },
+    {
+      "destination": "_inbox/yokocho-record-library/source/yokocho-record-library.glb",
+      "sha256": "94d87bd5beee4b41550767ad9ce6a6dc4b767381586787eb67c8f1960c14d651",
+      "modelId": "yokocho-record-library",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-record-library/source/yokocho-record-library.stl",
+      "sha256": "304c6c1df3502f606a4b07f01c8423d581078fc5ced92913ea1c6cb431487849",
+      "modelId": "yokocho-record-library",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-roof/source/roof.png",
+      "sha256": "474dcce9ff31a067d21a4b0952ad350133fcdd4a0e2c4cfa0fa816b8d8584227",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/roof.png"
+    },
+    {
+      "destination": "_inbox/yokocho-shopfront-identity/source/shopfront_identity.png",
+      "sha256": "d7eb2b12eddb030462dac06013475d33ab32a20c5ce563f9186570156b0f1947",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/shopfront_identity.png"
+    },
+    {
+      "destination": "_inbox/yokocho-signs/source/signs.png",
+      "sha256": "02820335f5f2a6efbda17f34a6db5391d43b137508a2b1f9b1c8cd5e92ac3a6e",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/signs.png"
+    },
+    {
+      "destination": "_inbox/yokocho-snack-chair/source/yokocho-snack-chair.glb",
+      "sha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb",
+      "modelId": "yokocho-snack-chair",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-snack-chair/source/yokocho-snack-chair.stl",
+      "sha256": "7569e9075819fc9a624ae1bb5c682dad9cfbc5779c6e4d2ae47261e8027e5757",
+      "modelId": "yokocho-snack-chair",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-snack-counter/source/yokocho-snack-counter.glb",
+      "sha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42",
+      "modelId": "yokocho-snack-counter",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-snack-counter/source/yokocho-snack-counter.stl",
+      "sha256": "5af1753d34bf68036c5dd2e3813954d7fe07ef8356df15b8ca46cfcc9d625c7e",
+      "modelId": "yokocho-snack-counter",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-star-distillery-sign/source/yokocho-star-distillery-sign.glb",
+      "sha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b",
+      "modelId": "yokocho-star-distillery-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-star-distillery-sign/source/yokocho-star-distillery-sign.stl",
+      "sha256": "233bb8108df3c49900a66e03dc980a683e90a36c6ec68ba3b7b603ab16fb1819",
+      "modelId": "yokocho-star-distillery-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-tea-furniture-set/source/yokocho-tea-furniture-set.glb",
+      "sha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5",
+      "modelId": "yokocho-tea-furniture-set",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-tea-furniture-set/source/yokocho-tea-furniture-set.stl",
+      "sha256": "2bbe96cfa73b3d3b4277c3f42c4ffbc88e9b44246bc30922d619b9fa1c579bb9",
+      "modelId": "yokocho-tea-furniture-set",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-telecom-mast/source/yokocho-telecom-mast.glb",
+      "sha256": "e0fe0d1aebe2692f597e5f73c438385c2d19d1ed4d5dac75721ec3cc130f8b54",
+      "modelId": "yokocho-telecom-mast",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-telecom-mast/source/yokocho-telecom-mast.stl",
+      "sha256": "e7354ffcdceec84cd9a944b697a0e54b612351d2645e9b428249112bfb0a4dac",
+      "modelId": "yokocho-telecom-mast",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-tile-clay/source/tile_clay.png",
+      "sha256": "04445a87cb43746b7c2481de1ff0e6ee1eac62e29cf77f863d6676e5e2ff1c36",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/tile_clay.png"
+    },
+    {
+      "destination": "_inbox/yokocho-timber-stair-flight/source/yokocho-timber-stair-flight.glb",
+      "sha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9",
+      "modelId": "yokocho-timber-stair-flight",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-timber-stair-flight/source/yokocho-timber-stair-flight.stl",
+      "sha256": "6badeec859c4e7d72c23810fcb712f0d1544c4a37901eaeb9c2c606da3fd7a60",
+      "modelId": "yokocho-timber-stair-flight",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-traveler-pot-sign/source/yokocho-traveler-pot-sign.glb",
+      "sha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818",
+      "modelId": "yokocho-traveler-pot-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-traveler-pot-sign/source/yokocho-traveler-pot-sign.stl",
+      "sha256": "54adca1d89404f7901200cf8234d6c5b320f37f3eb0668974b924095b1f3b383",
+      "modelId": "yokocho-traveler-pot-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-turntable-amplifier/source/yokocho-turntable-amplifier.glb",
+      "sha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+      "modelId": "yokocho-turntable-amplifier",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-turntable-amplifier/source/yokocho-turntable-amplifier.stl",
+      "sha256": "dfb539b6c08d6c4030635be45264825b9ea46a6866a3232e6756711841715006",
+      "modelId": "yokocho-turntable-amplifier",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-upper-water-storage/source/yokocho-upper-water-storage.glb",
+      "sha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f",
+      "modelId": "yokocho-upper-water-storage",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-upper-water-storage/source/yokocho-upper-water-storage.stl",
+      "sha256": "0bdf410e83217bf268ea98bd01f08e7c8e14bc9dda5030b87b3614232f2c2a8d",
+      "modelId": "yokocho-upper-water-storage",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-utility-service-bank/source/yokocho-utility-service-bank.glb",
+      "sha256": "8a4de5792558b07549db1286d936e964e6c9e0c62f6cf80a1c227d8cd67388a8",
+      "modelId": "yokocho-utility-service-bank",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-utility-service-bank/source/yokocho-utility-service-bank.stl",
+      "sha256": "166c6b601d2ee0d7d4bf88c06ac6a8502a7e0421e7a42416e537fd4819fcde2e",
+      "modelId": "yokocho-utility-service-bank",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-walnut-counter/source/yokocho-walnut-counter.glb",
+      "sha256": "17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9",
+      "modelId": "yokocho-walnut-counter",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-walnut-counter/source/yokocho-walnut-counter.stl",
+      "sha256": "f462c2385615739cc4ed9a82d39b97daf2cfa53c313fc7f4812e837c8a3717bf",
+      "modelId": "yokocho-walnut-counter",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-water/source/water.png",
+      "sha256": "4d166c3a08d753b35f9ef98a3e4e41e16a1cd40e038c76fc6a0f7d7aacf186dd",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/water.png"
+    },
+    {
+      "destination": "_inbox/yokocho-witch-moon-sign/source/yokocho-witch-moon-sign.glb",
+      "sha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657",
+      "modelId": "yokocho-witch-moon-sign",
+      "modelFile": "model.glb"
+    },
+    {
+      "destination": "_inbox/yokocho-witch-moon-sign/source/yokocho-witch-moon-sign.stl",
+      "sha256": "262f0d8e1e0e0883368b0b42c8380d78787fcf4bb12f1a44254d1704a8668d25",
+      "modelId": "yokocho-witch-moon-sign",
+      "modelFile": "model.stl"
+    },
+    {
+      "destination": "_inbox/yokocho-wood/source/wood.png",
+      "sha256": "84afc46469554df140f43a01535326408c4c6d4f7c959e8659e71d272d6d47a9",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/wood.png"
+    },
+    {
+      "destination": "_inbox/yokocho-woven/source/woven.png",
+      "sha256": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e",
+      "upstreamPath": "Assets/TreeTopYokocho/Textures/woven.png"
+    }
+  ],
+  "upstreamHashes": {
+    "Source/TreeTopYokocho.glb": "32ec5b383c6586fa3568a4427d1d45dd82d77a24aa9f41e36a56dd647aaea0f1",
+    "Source/nightlife_venues.py": "5b27169e4a06bfb4f8c822405be0a6cb9402b3a7baa9c0a8935a1ad1429cc799",
+    "Assets/TreeTopYokocho/Textures/woven.png": "77a8c973cb0f6b8318642e48744fd668960b58c061d4c08fc38835877303e00e",
+    "Assets/TreeTopYokocho/Textures/woven_normal.png": "8dcc32b7dfa77f8a4ecb036d61c2ee1fdc7be749813f3adaaff0b9751913cef9",
+    "Source/venue_projecting_signs.py": "bd87b5c7fe5aae22f96e8b608a63bff56c7f9caadbb568e11c5b02dded3cf6f5",
+    "Assets/TreeTopYokocho/Textures/bark.png": "6900cd07e4c4961b943a9ebf75c4a2736853511a928fddc812fc4b9ccf97f6bb",
+    "Source/booster_pumps.py": "86c0349c50c5de4f524fe601e2e0e385d12322de4677d9d427eb5cf5da044baa",
+    "Assets/TreeTopYokocho/Textures/nightlife_signs.png": "aa75562739203504b7574565f1b0f8733ab6a20289af362edd48f20a7aa99de5",
+    "Source/food_venues.py": "1c2a1b092c08c2c2bc4aca9e755e33dc2fa94642860b416ff37cd7e915185284",
+    "Assets/TreeTopYokocho/Textures/cloth.png": "ddfcc9d69a72a5e1c102a5508e92d96974fc80b643a502ef9f8d055b47f0e0e6",
+    "Assets/TreeTopYokocho/Textures/counter_craft.png": "467579b38a9026114fd202777ff3acad6fbc04ba6e295252ee19ca4305e76491",
+    "Assets/TreeTopYokocho/Textures/foliage_spray.png": "91f7de96e72778bb0e7e519aee1cda2edb3987e7fc0cec30c046f6c34cf85730",
+    "Assets/TreeTopYokocho/Textures/food_venue_signs.png": "9cda1ac007cbf53792a7e5b6f24f8292227b81ebacef1ebef5f8897c5a340abf",
+    "Assets/TreeTopYokocho/Textures/lantern.png": "9d9cccb363e5d9bb5155f61a467d2cb9638b45444494c67754229362acf34587",
+    "Assets/TreeTopYokocho/Textures/leaf.png": "49ba1484e64397c8c18545d3ecf4185a804c278bc3b00c70ad600c77be2e505c",
+    "Assets/TreeTopYokocho/Textures/menus.png": "d63661c8b48935fabbed7e889aa1a327a7059a9ca4acff256d85879a9c84931e",
+    "Assets/TreeTopYokocho/Textures/tile_clay.png": "04445a87cb43746b7c2481de1ff0e6ee1eac62e29cf77f863d6676e5e2ff1c36",
+    "Assets/TreeTopYokocho/Textures/tile_clay_normal.png": "5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb",
+    "Assets/TreeTopYokocho/Textures/tile_clay_arm.png": "bb995dc6d5ab8e7fe0e354d5c1f99697b4b758813db9949abc25342522e7e083",
+    "Assets/TreeTopYokocho/Textures/woven_arm.png": "0a39970738a7d29770fb4d1fa03dd2c59277e70242398ccba704c76aeb922468",
+    "Assets/TreeTopYokocho/Textures/plaster.png": "3f9b2283b32a1b497dd4c03556e777588f4d43bc559d75ed9092035f85e1146e",
+    "Assets/TreeTopYokocho/Textures/roof.png": "474dcce9ff31a067d21a4b0952ad350133fcdd4a0e2c4cfa0fa816b8d8584227",
+    "Assets/TreeTopYokocho/Textures/shopfront_identity.png": "d7eb2b12eddb030462dac06013475d33ab32a20c5ce563f9186570156b0f1947",
+    "Assets/TreeTopYokocho/Textures/signs.png": "02820335f5f2a6efbda17f34a6db5391d43b137508a2b1f9b1c8cd5e92ac3a6e",
+    "Source/tree_infrastructure.py": "28297877dd8b7c635bb52f4f9495256799a763e6ec7779cadbd1eabf21241641",
+    "Source/build_world.py": "5fe2300d369d7e3e89a0af4e818989b01d1f05925de673d1d7ddc146955bd587",
+    "Assets/TreeTopYokocho/Textures/water.png": "4d166c3a08d753b35f9ef98a3e4e41e16a1cd40e038c76fc6a0f7d7aacf186dd",
+    "Assets/TreeTopYokocho/Textures/wood.png": "84afc46469554df140f43a01535326408c4c6d4f7c959e8659e71d272d6d47a9"
+  },
+  "originalTextures": [
+    "Assets/TreeTopYokocho/Textures/bark.png",
+    "Assets/TreeTopYokocho/Textures/cloth.png",
+    "Assets/TreeTopYokocho/Textures/counter_craft.png",
+    "Assets/TreeTopYokocho/Textures/foliage_spray.png",
+    "Assets/TreeTopYokocho/Textures/food_venue_signs.png",
+    "Assets/TreeTopYokocho/Textures/lantern.png",
+    "Assets/TreeTopYokocho/Textures/leaf.png",
+    "Assets/TreeTopYokocho/Textures/menus.png",
+    "Assets/TreeTopYokocho/Textures/nightlife_signs.png",
+    "Assets/TreeTopYokocho/Textures/plaster.png",
+    "Assets/TreeTopYokocho/Textures/roof.png",
+    "Assets/TreeTopYokocho/Textures/shopfront_identity.png",
+    "Assets/TreeTopYokocho/Textures/signs.png",
+    "Assets/TreeTopYokocho/Textures/tile_clay.png",
+    "Assets/TreeTopYokocho/Textures/tile_clay_arm.png",
+    "Assets/TreeTopYokocho/Textures/tile_clay_normal.png",
+    "Assets/TreeTopYokocho/Textures/water.png",
+    "Assets/TreeTopYokocho/Textures/wood.png",
+    "Assets/TreeTopYokocho/Textures/woven.png",
+    "Assets/TreeTopYokocho/Textures/woven_arm.png",
+    "Assets/TreeTopYokocho/Textures/woven_normal.png"
+  ]
+}

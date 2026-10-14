@@ -1,0 +1,103 @@
+{
+  "id": "yokocho-entry-display-frame",
+  "type": "model",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "title": "木製静的ディスプレイ枠",
+  "titleEn": "Timber Static Display Frame",
+  "description": "樹上横丁のオリジナル形状から切り出した木製静的ディスプレイ枠。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。静的装飾用。操作ボタンや実行機能は含みません。 / Static decorative mesh only; no controls or runtime functionality. 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。",
+  "descriptionEn": "Timber Static Display Frame extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged. 静的装飾用。操作ボタンや実行機能は含みません。 / Static decorative mesh only; no controls or runtime functionality. Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.",
+  "category": "signs",
+  "triangles": 604,
+  "dimensions": [
+    1.9500000476837158,
+    2.2400059700012207,
+    0.4000000059604645
+  ],
+  "unit": "m",
+  "upAxis": "Y",
+  "tags": [
+    "yokocho",
+    "original",
+    "signs",
+    "entry-plaza"
+  ],
+  "thumbnail": "preview.png",
+  "preview": "yokocho-entry-display-frame.glb",
+  "uv": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+  "provenance": {
+    "method": "Original procedural TreeTop Yokocho mesh extraction; authored materials retained or explicitly substituted",
+    "tool": "Python / NumPy glTF extraction; Blender 4.3.2 Cycles CPU, 48 samples, orthographic camera, area lights; actual exported GLB imported and rendered, no generated concept imagery.",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+    "sourceFiles": {
+      "Preview/EntryPlaza.glb": "954520c4fbb5bd4366f875ce5c555b9db8016111f6d5b09349dded2005c0db53",
+      "Source/build_entry_plaza.py": "677b5c6e0f0e7e8d8dbcb60d2d60c312dd4440a0f169c69eaf476dd362c542c4",
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryTimber.png": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3",
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryControls.png": "0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905",
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryControlsHeader.png": "7c9b2dd4d4f25076e8b9a1c2a621dc0cd6b65592bdbee054d39b98ffe7264135"
+    },
+    "sourceObjects": [
+      "EntryPlaza/SystemsFrame/Post__EntryDarkTimber",
+      "EntryPlaza/SystemsFrame/Foot__EntryPatinatedBrass",
+      "EntryPlaza/SystemsFrame/Back__EntryHeartwood",
+      "EntryPlaza/SystemsFrame/Print__EntryControlPrint",
+      "EntryPlaza/SystemsFrame/Crown__EntryDarkTimber",
+      "EntryPlaza/SystemsFrame/FrameRail__EntryHeartwood",
+      "EntryPlaza/SystemsFrame/FrameStile__EntryHeartwood",
+      "EntryPlaza/SystemsFrame/Peg__EntryPatinatedBrass",
+      "EntryPlaza/SystemsFrame/Header__EntryControlHeader"
+    ],
+    "sourceCollection": "EntryPlaza/SystemsFrame/",
+    "sourceTranslation": [
+      8.0,
+      -134.0,
+      -31.799999237060547
+    ],
+    "preservedMaterials": [
+      "EntryDarkTimber",
+      "EntryPatinatedBrass",
+      "EntryHeartwood",
+      "EntryControlPrint",
+      "EntryControlHeader"
+    ],
+    "replacedMaterials": [],
+    "changes": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+    "embeddedImageSha256": [
+      "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3",
+      "0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905",
+      "7c9b2dd4d4f25076e8b9a1c2a621dc0cd6b65592bdbee054d39b98ffe7264135"
+    ],
+    "sourceScope": "Separate entry-plaza authored staging snapshot, not the baseline v2.19.0 release. Source GLB and generator hashes identify the snapshot."
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho — Entry Plaza",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+      "sourcePaths": [
+        "Preview/EntryPlaza.glb",
+        "Source/build_entry_plaza.py",
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryTimber.png",
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryControls.png",
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryControlsHeader.png"
+      ],
+      "selectors": [
+        "EntryPlaza/SystemsFrame/Post__EntryDarkTimber",
+        "EntryPlaza/SystemsFrame/Foot__EntryPatinatedBrass",
+        "EntryPlaza/SystemsFrame/Back__EntryHeartwood",
+        "EntryPlaza/SystemsFrame/Print__EntryControlPrint",
+        "EntryPlaza/SystemsFrame/Crown__EntryDarkTimber",
+        "EntryPlaza/SystemsFrame/FrameRail__EntryHeartwood",
+        "EntryPlaza/SystemsFrame/FrameStile__EntryHeartwood",
+        "EntryPlaza/SystemsFrame/Peg__EntryPatinatedBrass",
+        "EntryPlaza/SystemsFrame/Header__EntryControlHeader"
+      ],
+      "context": "Authored entry-plaza addition; static source mesh, not proof of deployment."
+    }
+  ]
+}

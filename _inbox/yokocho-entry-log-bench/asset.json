@@ -1,0 +1,94 @@
+{
+  "id": "yokocho-entry-log-bench",
+  "type": "model",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "title": "丸太のロングベンチ",
+  "titleEn": "Long Log Bench",
+  "description": "樹上横丁のオリジナル形状から切り出した丸太のロングベンチ。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。",
+  "descriptionEn": "Long Log Bench extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged.  Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.",
+  "category": "furniture",
+  "triangles": 404,
+  "dimensions": [
+    2.630000114440918,
+    0.5559390187263489,
+    0.48399901390075684
+  ],
+  "unit": "m",
+  "upAxis": "Y",
+  "tags": [
+    "yokocho",
+    "original",
+    "furniture",
+    "entry-plaza"
+  ],
+  "thumbnail": "preview.png",
+  "preview": "yokocho-entry-log-bench.glb",
+  "uv": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+  "provenance": {
+    "method": "Original procedural TreeTop Yokocho mesh extraction; authored materials retained or explicitly substituted",
+    "tool": "Python / NumPy glTF extraction; Blender 4.3.2 Cycles CPU, 48 samples, orthographic camera, area lights; actual exported GLB imported and rendered, no generated concept imagery.",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+    "sourceFiles": {
+      "Preview/EntryPlaza.glb": "954520c4fbb5bd4366f875ce5c555b9db8016111f6d5b09349dded2005c0db53",
+      "Source/build_entry_plaza.py": "677b5c6e0f0e7e8d8dbcb60d2d60c312dd4440a0f169c69eaf476dd362c542c4",
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryTimber.png": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3",
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryEndgrain.png": "217b158360e76c43e9190804b4b89409ab7cd3c6b13cbce064ee28befa3f861f"
+    },
+    "sourceObjects": [
+      "EntryPlaza/LogBench0/Leg-0.867__EntryBark",
+      "EntryPlaza/LogBench0/Leg-0.867__EntryEndgrain",
+      "EntryPlaza/LogBench0/Leg0.867__EntryBark",
+      "EntryPlaza/LogBench0/Leg0.867__EntryEndgrain",
+      "EntryPlaza/LogBench0/Heart__EntryBark",
+      "EntryPlaza/LogBench0/Heart__EntryEndgrain",
+      "EntryPlaza/LogBench0/HandplanedSeat__EntryHeartwood"
+    ],
+    "sourceCollection": "EntryPlaza/LogBench0/",
+    "sourceTranslation": [
+      6.150000095367432,
+      -134.00405883789062,
+      -27.950000762939453
+    ],
+    "preservedMaterials": [
+      "EntryBark",
+      "EntryEndgrain",
+      "EntryHeartwood"
+    ],
+    "replacedMaterials": [],
+    "changes": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+    "embeddedImageSha256": [
+      "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3",
+      "217b158360e76c43e9190804b4b89409ab7cd3c6b13cbce064ee28befa3f861f"
+    ],
+    "sourceScope": "Separate entry-plaza authored staging snapshot, not the baseline v2.19.0 release. Source GLB and generator hashes identify the snapshot."
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho — Entry Plaza",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+      "sourcePaths": [
+        "Preview/EntryPlaza.glb",
+        "Source/build_entry_plaza.py",
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryTimber.png",
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryEndgrain.png"
+      ],
+      "selectors": [
+        "EntryPlaza/LogBench0/Leg-0.867__EntryBark",
+        "EntryPlaza/LogBench0/Leg-0.867__EntryEndgrain",
+        "EntryPlaza/LogBench0/Leg0.867__EntryBark",
+        "EntryPlaza/LogBench0/Leg0.867__EntryEndgrain",
+        "EntryPlaza/LogBench0/Heart__EntryBark",
+        "EntryPlaza/LogBench0/Heart__EntryEndgrain",
+        "EntryPlaza/LogBench0/HandplanedSeat__EntryHeartwood"
+      ],
+      "context": "Authored entry-plaza addition; static source mesh, not proof of deployment."
+    }
+  ]
+}

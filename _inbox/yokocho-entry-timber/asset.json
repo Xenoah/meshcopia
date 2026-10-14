@@ -1,0 +1,69 @@
+{
+  "id": "yokocho-entry-timber",
+  "title": "樹上横丁｜入口広場の木目",
+  "titleEn": "TreeTop Yokocho | Entry Plaza Timber",
+  "description": "入口家具用に生成した落ち着いた縦木目。 ミラー反復専用。隣接タイルを水平・垂直に交互反転する2×2周期。通常のリピートではシームレスではありません。 ベースカラーのみ。",
+  "descriptionEn": "Restrained vertical timber grain authored for entrance furniture. Seamless only under mirrored repeat: alternate horizontal and vertical flips in a 2×2 period. Ordinary repeat is not seamless. Basecolor only.",
+  "category": "wood",
+  "tags": [
+    "yokocho",
+    "entry-plaza",
+    "original",
+    "mirror",
+    "wood"
+  ],
+  "maps": {
+    "baseColor": "EntryTimber.png"
+  },
+  "width": 1024,
+  "height": 1024,
+  "resolution": 1024,
+  "wrapMode": "mirror",
+  "seamless": true,
+  "colorSpaces": {
+    "baseColor": "sRGB"
+  },
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "procedural",
+    "tool": "Python / NumPy / Pillow",
+    "sourcePixelsUnchanged": true,
+    "sourceFiles": {
+      "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryTimber.png": "1f086935451397d15f6c32349eba2478b5afd882c21d10a635b4b8c7338035b3"
+    },
+    "generatorSources": {
+      "Source/build_entry_plaza.py": "677b5c6e0f0e7e8d8dbcb60d2d60c312dd4440a0f169c69eaf476dd362c542c4"
+    },
+    "generator": "Source/build_entry_plaza.py",
+    "sourceGLB": {
+      "path": "Preview/EntryPlaza.glb",
+      "sha256": "954520c4fbb5bd4366f875ce5c555b9db8016111f6d5b09349dded2005c0db53"
+    },
+    "sourceScope": "Separate source-authored entry-plaza-next staging; NOT from the immutable TreeTopYokocho v2.19 baseline commit.",
+    "notes": "Original procedural image, no external scan or AI image. Font binaries excluded. EntryGuideboard rendered text uses Klee One under OFL; font license remains unchanged and rendered artwork is not font software.",
+    "verification": "Original PNG copied byte-for-byte with matching SHA256.",
+    "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "changes": "Original PNG copied byte-for-byte. Separate actual-artwork thumbnail. Mirror surfaces require alternating flipped tiles; clamp artworks retain authored aspect ratio and are not tileable."
+  },
+  "previewDescription": "Original source shown without cropping; alternating flipped 2×2 period.",
+  "type": "texture",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho — Entry Plaza",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza",
+      "sourcePaths": [
+        "Assets/TreeTopYokochoEntrySystems/EntryPlaza/Textures/EntryTimber.png",
+        "Source/build_entry_plaza.py"
+      ],
+      "context": "Authored texture source for entry-plaza furniture and signage; separate staging snapshot."
+    }
+  ]
+}

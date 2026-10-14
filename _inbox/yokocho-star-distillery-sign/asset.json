@@ -1,0 +1,83 @@
+{
+  "id": "yokocho-star-distillery-sign",
+  "type": "model",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "title": "星の蒸留所の立体看板",
+  "titleEn": "Star Distillery Projecting Sign",
+  "description": "樹上横丁のオリジナル形状から切り出した星の蒸留所の立体看板。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。",
+  "descriptionEn": "Star Distillery Projecting Sign extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged.  Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.",
+  "category": "signs",
+  "triangles": 844,
+  "dimensions": [
+    0.2015009969472885,
+    0.4899899959564209,
+    0.7650009989738464
+  ],
+  "unit": "m",
+  "upAxis": "Y",
+  "tags": [
+    "yokocho",
+    "original",
+    "signs",
+    "v2.19.0"
+  ],
+  "thumbnail": "preview.png",
+  "preview": "yokocho-star-distillery-sign.glb",
+  "uv": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+  "provenance": {
+    "method": "Original procedural TreeTop Yokocho mesh extraction; authored materials retained or explicitly substituted",
+    "tool": "Python / NumPy glTF extraction; Blender 4.3.2 Cycles CPU, 48 samples, orthographic camera, area lights; actual exported GLB imported and rendered, no generated concept imagery.",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+    "sourceFiles": {
+      "Source/TreeTopYokocho.glb": "32ec5b383c6586fa3568a4427d1d45dd82d77a24aa9f41e36a56dd647aaea0f1",
+      "Source/venue_projecting_signs.py": "bd87b5c7fe5aae22f96e8b608a63bff56c7f9caadbb568e11c5b02dded3cf6f5"
+    },
+    "sourceObjects": [
+      "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Iron",
+      "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Bronze",
+      "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Night_SmokyGlass",
+      "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Food_TileCream"
+    ],
+    "sourceCollection": "Shops/S06/ProjectingSigns/",
+    "sourceTranslation": [
+      -11.08074951171875,
+      -148.31500244140625,
+      24.032501220703125
+    ],
+    "preservedMaterials": [
+      "Iron",
+      "Bronze",
+      "Night_SmokyGlass",
+      "Food_TileCream"
+    ],
+    "replacedMaterials": [],
+    "changes": "Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.",
+    "embeddedImageSha256": [],
+    "sourceCommit": "97091c96cf66a0f67b952827a753a448768f175a"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+      "sourcePaths": [
+        "Source/TreeTopYokocho.glb",
+        "Source/venue_projecting_signs.py"
+      ],
+      "selectors": [
+        "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Iron",
+        "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Bronze",
+        "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Night_SmokyGlass",
+        "Shops/S06/ProjectingSigns/StarDistilleryAssembly__Food_TileCream"
+      ],
+      "context": "Present in the pinned v2.19.0 source world under Shops/S06/ProjectingSigns/. Static source usage, not proof of a deployed VRChat world.",
+      "sourceRef": "97091c96cf66a0f67b952827a753a448768f175a"
+    }
+  ]
+}

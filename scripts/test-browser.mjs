@@ -81,6 +81,28 @@ try{
    if(asset.id==='commons-warm-oak')await page.screenshot({path:'test-results/commons-mirror-sphere.png',fullPage:false});
   }
  }
+ // Exercise every imported Yokocho GLB and unchanged texture, not just the starter fixtures.
+ for(const asset of catalog.filter(a=>a.id.startsWith('yokocho-'))){
+  await page.goto(home+`assets/${asset.id}/`);
+  if(asset.type==='model'){
+   await page.waitForSelector('.model-viewer-3d[data-loaded="true"]',{timeout:45000});
+   assert.equal(await page.locator('[data-format="glb"]').getAttribute('aria-pressed'),'true');
+  }else{
+   await page.waitForSelector('#texture-surface img');
+   assert.equal(await page.locator('#texture-channel option').count(),1);
+   if(asset.wrapMode==='mirror'){
+    await page.locator('[data-tiling="2"]').click();
+    assert.equal(await page.locator('#texture-surface img').count(),4);
+    assert.equal(await page.locator('#texture-surface img').nth(3).evaluate(el=>el.style.transform),'scale(-1, -1)');
+   }else{
+    assert.equal(await page.locator('[data-tiling="2"],[data-tiling="sphere"]').count(),0);
+    const ratio=await page.locator('#texture-surface').evaluate(el=>el.clientWidth/el.clientHeight);
+    assert.ok(Math.abs(ratio-asset.width/asset.height)<.02);
+   }
+  }
+  await loadImages();
+  await page.screenshot({path:`test-results/${asset.id}.png`,fullPage:false});
+ }
  await page.goto(home+'assets/commons-bar-labels/');await page.locator('.file-list summary').click();
  const pngEvent=page.waitForEvent('download');await page.locator('.file-list a').click();const pngDownload=await pngEvent;
  const png=await readFile(await pngDownload.path());assert.equal(createHash('sha256').update(png).digest('hex'),catalog.find(a=>a.id==='commons-bar-labels').files[0].sha256);

@@ -1,0 +1,66 @@
+{
+  "id": "yokocho-counter-craft",
+  "title": "樹上横丁｜食器と料理の素材アトラス",
+  "titleEn": "TreeTop Yokocho | Tableware and Food Surface Atlas",
+  "description": "陶器・竹・漆・布・料理など32種の小物表面をまとめたアトラス。クランプ用。シームレスではありません。原画像と縦横比を維持。元のUV配置に合わせて使用するベースカラーです。 128pxセルが8列×4行。セルの切り出しや拡大は行っていません。",
+  "descriptionEn": "Atlas of 32 small prop surfaces: glazed ceramics, bamboo, lacquer, linen and food. Clamp to edge; not seamless. Original image and aspect ratio preserved. Use the authored UV layout; basecolor only. 8 columns × 4 rows of 128-pixel cells; no individual cell extraction or enlargement.",
+  "category": "atlas",
+  "tags": [
+    "yokocho",
+    "procedural",
+    "original",
+    "clamp",
+    "atlas"
+  ],
+  "maps": {
+    "baseColor": "counter_craft.png"
+  },
+  "width": 1024,
+  "height": 512,
+  "resolution": 1024,
+  "wrapMode": "clamp",
+  "seamless": false,
+  "colorSpaces": {
+    "baseColor": "sRGB"
+  },
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "procedural",
+    "tool": "Python / NumPy / Pillow",
+    "sourcePixelsUnchanged": true,
+    "sourceFiles": {
+      "Assets/TreeTopYokocho/Textures/counter_craft.png": "467579b38a9026114fd202777ff3acad6fbc04ba6e295252ee19ca4305e76491"
+    },
+    "generatorSources": {
+      "Source/counter_craft.py": "c7b9824484c4d19b97e85be01b61a37ce2f5b4e9802aa0f4b91d54339594d3db"
+    },
+    "generator": "counter_craft.py",
+    "notes": "No font software distributed. Source-derived preview only. Basecolor is copied byte-for-byte; no external PBR scan or AI texture included.",
+    "verification": "Original source PNG SHA256 verified after byte-for-byte copying; generator source reviewed. No claim of exact regeneration for font-dependent historical artwork.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "changes": "Original PNG copied byte-for-byte. Separate actual-artwork thumbnail. Mirror surfaces require alternating flipped tiles; clamp artworks retain authored aspect ratio and are not tileable.",
+    "sourceCommit": "97091c96cf66a0f67b952827a753a448768f175a"
+  },
+  "previewDescription": "Original source image, fitted without cropping; checkerboard behind transparency.",
+  "type": "texture",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+      "sourcePaths": [
+        "Assets/TreeTopYokocho/Textures/counter_craft.png",
+        "Source/counter_craft.py"
+      ],
+      "context": "Original authored texture in the pinned v2.19.0 project; may be a historical source map rather than the current material assignment.",
+      "sourceRef": "97091c96cf66a0f67b952827a753a448768f175a"
+    }
+  ]
+}

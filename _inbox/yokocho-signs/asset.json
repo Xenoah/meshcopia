@@ -1,0 +1,68 @@
+{
+  "id": "yokocho-signs",
+  "title": "樹上横丁｜横丁の案内看板アトラス",
+  "titleEn": "TreeTop Yokocho | Yokocho Wayfinding Sign Atlas",
+  "description": "16段の店名・階層案内・入口案内を収めた縦長の日本語看板アトラス。クランプ用。シームレスではありません。原画像と縦横比を維持。元のUV配置に合わせて使用するベースカラーです。",
+  "descriptionEn": "Tall atlas containing 16 shop, floor, entrance and wayfinding sign strips in Japanese. Clamp to edge; not seamless. Original image and aspect ratio preserved. Use the authored UV layout; basecolor only.",
+  "category": "signage",
+  "tags": [
+    "yokocho",
+    "procedural",
+    "original",
+    "clamp",
+    "signage"
+  ],
+  "maps": {
+    "baseColor": "signs.png"
+  },
+  "width": 1024,
+  "height": 2048,
+  "resolution": 2048,
+  "wrapMode": "clamp",
+  "seamless": false,
+  "colorSpaces": {
+    "baseColor": "sRGB"
+  },
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "procedural",
+    "tool": "Python / NumPy / Pillow",
+    "sourcePixelsUnchanged": true,
+    "sourceFiles": {
+      "Assets/TreeTopYokocho/Textures/signs.png": "02820335f5f2a6efbda17f34a6db5391d43b137508a2b1f9b1c8cd5e92ac3a6e"
+    },
+    "generatorSources": {
+      "Source/create_textures.py": "ab9f403cdec8cc288cb08cc9763b58821d53f12d32dfb63af556ee189785e2c0",
+      "Source/high_detail.py": "a5dff6eb717f112997a03241ce43fb8edf2fa553b8fd8444bb3e9ffd552d202d"
+    },
+    "generator": "create_textures.py + high_detail.py",
+    "notes": "Rendered glyph artwork only. No font binaries or font build files distributed. Source/fonts/OFL.txt states that the font-license requirement does not apply to documents created using the fonts or derivatives. Source-derived preview only. Basecolor is copied byte-for-byte; no external PBR scan or AI texture included.",
+    "verification": "Original source PNG SHA256 verified after byte-for-byte copying; generator source reviewed. No claim of exact regeneration for font-dependent historical artwork.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+    "rights": "Xenoah original authored assets. The owner requested publication of their original models and textures in Meshcopia under its CC BY 4.0 rules. External scan images, font software, third-party SDKs and runtime behaviors are not redistributed.",
+    "changes": "Original PNG copied byte-for-byte. Separate actual-artwork thumbnail. Mirror surfaces require alternating flipped tiles; clamp artworks retain authored aspect ratio and are not tileable.",
+    "sourceCommit": "97091c96cf66a0f67b952827a753a448768f175a"
+  },
+  "previewDescription": "Original source image, fitted without cropping; checkerboard behind transparency.",
+  "type": "texture",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "TreeTop Yokocho",
+      "sourceUrl": "https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a",
+      "sourcePaths": [
+        "Assets/TreeTopYokocho/Textures/signs.png",
+        "Source/create_textures.py",
+        "Source/high_detail.py"
+      ],
+      "context": "Original authored texture in the pinned v2.19.0 project; may be a historical source map rather than the current material assignment.",
+      "sourceRef": "97091c96cf66a0f67b952827a753a448768f175a"
+    }
+  ]
+}
