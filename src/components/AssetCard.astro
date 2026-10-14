@@ -1,0 +1,14 @@
+---
+import Icon from './Icon.astro';
+import {base,local} from '../lib/paths';
+const {asset:a,priority=false}=Astro.props;
+---
+<article class={`asset-card ${a.type}`} data-card data-type={a.type} data-category={a.category} data-search={`${a.title} ${a.titleEn} ${a.tags.join(' ')} ${a.files.map(f=>f.format).join(' ')}`.toLowerCase()} data-title={a.titleEn} data-updated={a.updated} data-bytes={a.downloads.full.bytes}>
+ <div class="card-visual">
+  <a href={`${base}/assets/${a.id}/`} class="card-image-link" aria-label={`${a.title}の詳細`}><img src={local(a.thumbnail)} width="1000" height={a.type==='model'?'800':'1000'} alt={a.title} loading={priority?'eager':'lazy'} decoding="async"/></a>
+  <span class="format-badge"><Icon name={a.type==='model'?'cube':'tile'} size={13}/>{a.type==='model'?'3D MODEL':`${a.resolution/1024}K · SEAMLESS`}</span>
+  <button class="quick-preview" data-preview={a.id} aria-label={`${a.title}をプレビュー`}><Icon name={a.type==='model'?'cube':'tile'} size={16}/><span>{a.type==='model'?'3D':'2 × 2'}</span></button>
+ </div>
+ <div class="card-info"><div><a class="card-title" href={`${base}/assets/${a.id}/`} data-ja={a.title} data-en={a.titleEn}>{a.title}</a><p>{a.type==='model'?`${a.triangles.toLocaleString()} tris · GLB / OBJ / STL`:`${a.resolution} × ${a.resolution} · ${Object.keys(a.maps).length} maps`}</p></div><a href={local(a.downloads.full.url)} download aria-label={`${a.title} ZIPダウンロード`} class="card-download"><Icon name="download" size={19}/></a></div>
+ <div class="card-footer"><span>{a.type==='model'?'LOW POLY':'PBR MATERIAL'}</span><span>CC BY 4.0 <span class="free-dot">●</span></span></div>
+</article>

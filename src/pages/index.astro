@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import AssetCard from '../components/AssetCard.astro';
+import ModelViewer from '../components/ModelViewer.astro';
+import data from '../data/catalog.json';
+import {base,local,categoryNames} from '../lib/paths';
+const assets=data.filter(a=>a.status==='public').sort((a,b)=>a.type.localeCompare(b.type)||a.titleEn.localeCompare(b.titleEn));
+const models=assets.filter(a=>a.type==='model');const textures=assets.filter(a=>a.type==='texture');
+const chair=assets.find(a=>a.id==='studio-chair');const stone=assets.find(a=>a.id==='sage-terrazzo');const lamp=assets.find(a=>a.id==='atelier-lamp');
+---
+<Layout>
+ <section class="hero container">
+  <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> THE OPEN ASSET LIBRARY</div><h1><span data-ja="次の世界を、" data-en="Your next world,">次の世界を、</span><br/><span class="hero-accent" data-ja="ここからつくる。" data-en="starts here.">ここからつくる。</span></h1><p data-ja="AIエージェントと人間のための、3Dモデルとシームレステクスチャ。探して、確かめて、すぐ使える。" data-en="Free 3D models and seamless textures for people and AI agents. Find it. Preview it. Make it yours.">AIエージェントと人間のための、3Dモデルとシームレステクスチャ。探して、確かめて、すぐ使える。</p><div class="hero-facts"><span><Icon name="check" size={15}/><span data-ja="すべて無料" data-en="Always free">すべて無料</span></span><span><Icon name="check" size={15}/><span data-ja="商用利用OK" data-en="Commercial use">商用利用OK</span></span><a href={`${base}/license/`}>CC BY 4.0 <Icon name="arrow" size={14}/></a></div></div>
+  {chair&&lamp&&stone&&<div class="hero-art" aria-label="収録素材のプレビュー"><div class="hero-grid"></div><div class="hero-art-tile"><img src={local(stone.thumbnail)} alt="セージテラゾー"/><span>01 / MATERIAL</span></div><div class="hero-art-main"><img src={local(chair.thumbnail)} alt="スタジオチェア"/><span><i></i> READY TO CREATE</span></div><div class="hero-art-small"><img src={local(lamp.thumbnail)} alt="アトリエランプ"/><span>02 / OBJECT</span></div><span class="art-cross cross-one">+</span><span class="art-cross cross-two">+</span></div>}
+ </section>
+ <section id="catalog" class="catalog-section container">
+  <aside class="catalog-sidebar"><div class="sidebar-label" data-ja="ライブラリ" data-en="LIBRARY">ライブラリ</div><div class="type-buttons" role="group" aria-label="素材タイプ"><button data-type-filter="all" aria-pressed="true"><Icon name="grid"/><span data-ja="すべての素材" data-en="All assets">すべての素材</span><small>{assets.length}</small></button><button data-type-filter="model" aria-pressed="false"><Icon name="cube"/><span data-ja="3Dモデル" data-en="3D models">3Dモデル</span><small>{models.length}</small></button><button data-type-filter="texture" aria-pressed="false"><Icon name="tile"/><span data-ja="テクスチャ" data-en="Textures">テクスチャ</span><small>{textures.length}</small></button></div>
+   <div class="sidebar-label category-label" data-ja="カテゴリー" data-en="CATEGORIES">カテゴリー</div><div class="category-buttons" role="group" aria-label="カテゴリー"><button data-category="all" aria-pressed="true"><span data-ja="すべて" data-en="All categories">すべて</span></button>{Object.entries(categoryNames).map(([id,name])=><button data-category={id} aria-pressed="false"><span data-ja={name} data-en={id[0].toUpperCase()+id.slice(1)}>{name}</span><small>{assets.filter(a=>a.category===id).length}</small></button>)}</div>
+   <a class="agent-callout" href={`${base}/agents/`}><Icon name="code" size={24}/><strong>Built for agents, too.</strong><p data-ja="JSONから探して、そのまま取得。制作の流れを止めない。" data-en="Discover and download directly from a machine-readable catalog.">JSONから探して、そのまま取得。制作の流れを止めない。</p><span>Agent guide <Icon name="arrow" size={15}/></span></a>
+  </aside>
+  <div class="catalog-content"><div class="catalog-heading"><div><span class="eyebrow muted">EXPLORE THE COLLECTION</span><h2 id="collection-title" data-ja="つくりたいものが、見つかる。" data-en="Find your next building block.">つくりたいものが、見つかる。</h2></div><span class="collection-total">{assets.length}<small> ASSETS</small></span></div>
+   <div class="search-toolbar"><div class="search-field"><Icon name="search" size={19}/><input id="asset-search" type="search" aria-label="素材を検索" placeholder="名前、タグ、形式で検索…" data-placeholder-ja="名前、タグ、形式で検索…" data-placeholder-en="Search names, tags, formats…" autocomplete="off"/><kbd>/</kbd></div><select id="asset-sort" aria-label="並び順"><option value="newest" data-ja="新しい順" data-en="Newest">新しい順</option><option value="name" data-ja="名前順" data-en="Name A–Z">名前順</option><option value="size" data-ja="サイズの小さい順" data-en="Smallest size">サイズの小さい順</option></select></div>
+   <div class="results-bar"><p id="result-count" role="status" aria-live="polite">{assets.length} 件の素材</p><button id="clear-filters" class="text-button" data-ja="条件をリセット" data-en="Reset filters">条件をリセット</button></div>
+   <div id="asset-grid" class="asset-grid">{assets.map((asset,i)=><AssetCard asset={asset} priority={i<3}/>)}</div>
+   <div id="empty-state" class="empty-state" hidden><Icon name="search" size={38}/><h3 data-ja="該当する素材がありません" data-en="No assets found">該当する素材がありません</h3><p data-ja="キーワードを短くするか、絞り込みをリセットしてください。" data-en="Try a shorter search or reset your filters.">キーワードを短くするか、絞り込みをリセットしてください。</p><button class="button" data-reset data-ja="すべての素材を表示" data-en="Show all assets">すべての素材を表示</button></div>
+   <div class="library-note"><span class="status-dot"></span><span data-ja="小さなライブラリから、次の世界へ。新しい素材を順次追加。" data-en="A growing library of original, agent-made assets. More to come.">小さなライブラリから、次の世界へ。新しい素材を順次追加。</span></div>
+  </div>
+ </section>
+ <dialog id="quick-dialog" class="quick-dialog"><div class="dialog-heading"><div><span class="eyebrow">QUICK LOOK</span><h2 id="quick-title"></h2></div><button id="quick-close" class="icon-button" aria-label="プレビューを閉じる"><Icon name="close"/></button></div><div id="quick-model"><ModelViewer source={{url:'',type:'glb',name:''}} autoload={false}/></div><div id="quick-texture" class="quick-texture" hidden></div><div class="dialog-footer"><p data-ja="ドラッグで回転・スクロールで拡大" data-en="Drag to orbit · Scroll to zoom">ドラッグで回転・スクロールで拡大</p><a id="quick-details" class="button primary" href="#">詳細・ダウンロード <Icon name="arrow" size={17}/></a></div></dialog>
+ <script id="catalog-data" type="application/json" set:html={JSON.stringify(assets).replace(/</g,'\\u003c')}/>
+ <script>
+  import {initCatalog} from '../lib/catalog-ui';initCatalog();
+ </script>
+</Layout>

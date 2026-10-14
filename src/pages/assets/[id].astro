@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import ModelViewer from '../../components/ModelViewer.astro';
+import AssetCard from '../../components/AssetCard.astro';
+import data from '../../data/catalog.json';
+import {base,local,bytes,categoryNames} from '../../lib/paths';
+export function getStaticPaths(){return data.map(asset=>({params:{id:asset.id},props:{asset}}))}
+const {asset:a}=Astro.props;
+const isModel=a.type==='model';
+const previews=isModel?a.files.filter(f=>['GLB','GLTF','FBX','STL','OBJ','STEP','STP'].includes(f.format)):[];
+const source={url:isModel?local(a.previewUrl):local(a.mapUrls.baseColor),type:isModel?a.preview.split('.').pop().replace('stp','step'):'material',name:a.title};
+const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').slice(0,3);
+---
+<Layout title={`${a.title} — Meshcopia`} description={a.description} image={a.thumbnail} robots={a.status==='hidden'?'noindex,follow':'index,follow'}>
+ <div class="detail-page container"><nav class="breadcrumbs" aria-label="パンくず"><a href={`${base}/#catalog`}><Icon name="back" size={15}/><span data-ja="ライブラリ" data-en="Library">ライブラリ</span></a><span>/</span><a href={`${base}/?type=${a.type}#catalog`}>{isModel?'3Dモデル':'テクスチャ'}</a><span>/</span><span data-ja={a.title} data-en={a.titleEn}>{a.title}</span></nav>
+  <div class="detail-layout"><section class="preview-column" aria-label="素材プレビュー">
+   <div class="detail-viewer-frame">
+    <div class="preview-topbar"><span><span class="status-dot"></span>{isModel?'INTERACTIVE 3D':'MATERIAL PREVIEW'}</span><span>{isModel?a.triangles.toLocaleString()+' TRIANGLES':a.resolution+' PX · SEAMLESS'}</span></div>
+    {isModel ? <ModelViewer source={source} title={`${a.title} 3Dプレビュー`}/> : <><div id="texture-flat" class="texture-flat"><div id="texture-surface" style={`background-image:url('${local(a.mapUrls.baseColor)}')`}></div></div><div id="texture-sphere" hidden><ModelViewer source={source} title={`${a.title} PBRプレビュー`} autoload={false} maps={Object.fromEntries(Object.entries(a.mapUrls).map(([k,url])=>[k,local(url)]))} metalness={a.metalness??0}/></div></>}
+    <div class="preview-caption"><Icon name={isModel?'cube':'tile'} size={15}/><span data-ja={isModel?'ドラッグで回転 · ホイール／ピンチで拡大 · 右ドラッグで移動':'繰り返し表示で、縦横のつなぎ目を確認できます。'} data-en={isModel?'Drag to orbit · Scroll / pinch to zoom · Right-drag to pan':'Repeat the material to inspect seamless tiling in both directions.'}>{isModel?'ドラッグで回転 · ホイール／ピンチで拡大 · 右ドラッグで移動':'繰り返し表示で、縦横のつなぎ目を確認できます。'}</span></div>
+   </div>
+   {isModel ? <div class="preview-tabs" role="group" aria-label="3Dプレビュー形式">{previews.map(f=><button data-source={local(f.url)} data-format={f.format.toLowerCase().replace('stp','step')} aria-pressed={f.name===a.preview?'true':'false'}>{f.format}</button>)}</div> : <div class="texture-controls"><div class="preview-tabs" role="group" aria-label="表示方法"><button data-tiling="1" aria-pressed="true">1 × 1</button><button data-tiling="2" aria-pressed="false">2 × 2</button><button data-tiling="4" aria-pressed="false">4 × 4</button><button data-tiling="sphere" aria-pressed="false" data-ja="PBR球体" data-en="PBR sphere">PBR球体</button></div><select id="texture-channel" aria-label="テクスチャマップ">{Object.entries(a.mapUrls).map(([k,url])=><option value={local(url)}>{k==='baseColor'?'Base Color':k[0].toUpperCase()+k.slice(1)}</option>)}</select></div>}
+   <section class="about-asset"><div class="section-heading"><h2 data-ja="この素材について" data-en="About this asset">この素材について</h2><span>v{a.version}</span></div><p data-ja={a.description} data-en={a.descriptionEn}>{a.description}</p><div class="tag-list">{a.tags.map(tag=><a href={`${base}/?q=${encodeURIComponent(tag)}#catalog`}>#{tag}</a>)}</div>
+   <dl class="spec-grid"><div><dt data-ja="カテゴリー" data-en="Category">カテゴリー</dt><dd>{categoryNames[a.category]||a.category}</dd></div><div><dt data-ja="作者" data-en="Creator">作者</dt><dd>{a.author}</dd></div>{isModel?<><div><dt data-ja="単位 / 上方向" data-en="Unit / up axis">単位 / 上方向</dt><dd>{a.unit} / +{a.upAxis}</dd></div><div><dt data-ja="寸法 (X × Y × Z)" data-en="Dimensions (X × Y × Z)">寸法 (X × Y × Z)</dt><dd>{a.dimensions?.join(' × ')||'—'} {a.unit}</dd></div></>:<><div><dt data-ja="解像度" data-en="Resolution">解像度</dt><dd>{a.resolution} × {a.resolution}</dd></div><div><dt data-ja="法線マップ" data-en="Normal convention">法線マップ</dt><dd>{a.normalConvention||'Not specified'}</dd></div></>}<div><dt data-ja="作成日" data-en="Created">作成日</dt><dd>{a.created}</dd></div><div><dt data-ja="更新日" data-en="Updated">更新日</dt><dd>{a.updated}</dd></div></dl>
+   {isModel&&a.uv&&<p class="technical-note">UV: {a.uv}</p>}
+   <details class="provenance"><summary data-ja="生成方法・出自" data-en="Generation & provenance">生成方法・出自</summary><p>{a.provenance.method}<br/>{a.provenance.tool}</p><p>{a.provenance.rights}</p><a href="https://github.com/Xenoah/meshcopia/blob/main/scripts/create-starter-assets.py">再生成スクリプト <Icon name="external" size={14}/></a></details>
+   </section>
+  </section>
+  <aside class="download-column"><div class="asset-type-label"><Icon name={isModel?'cube':'tile'} size={16}/>{isModel?'3D MODEL':'SEAMLESS TEXTURE'}<span class="license-chip">CC BY 4.0</span></div><h1 data-ja={a.title} data-en={a.titleEn}>{a.title}</h1><p class="english-title">{a.titleEn}</p><p class="byline">by <a href="https://github.com/Xenoah">{a.author}</a><span>ORIGINAL / AI-ASSISTED</span></p>
+   <div class="download-card"><div class="download-price"><span data-ja="無料でダウンロード" data-en="Download for free">無料でダウンロード</span><strong>Free<span> / CC BY</span></strong></div><a class="button primary download-primary" href={local(a.downloads.full.url)} download><Icon name="download"/><span data-ja="ZIPをダウンロード" data-en="Download ZIP">ZIPをダウンロード</span><small>{bytes(a.downloads.full.bytes)}</small></a><p class="download-help" data-ja={isModel?'全モデル形式・プレビュー・メタデータ・クレジット付き':'すべてのPBRマップ・プレビュー・クレジット付き'} data-en={isModel?'All model formats, preview, metadata and credits':'All PBR maps, preview, metadata and credits'}>{isModel?'全モデル形式・プレビュー・メタデータ・クレジット付き':'すべてのPBRマップ・プレビュー・クレジット付き'}</p>
+   {isModel&&<><a class="button secondary" href={local(a.downloads.models.url)} download><Icon name="cube" size={18}/><span data-ja="3Dモデルのみ ZIP" data-en="Models only ZIP">3Dモデルのみ ZIP</span><small>{bytes(a.downloads.models.bytes)}</small></a>{a.downloads.direct&&<a class="direct-download" href={local(a.downloads.direct.url)} download><span>{a.downloads.direct.format}<span data-ja=" 単体ダウンロード" data-en=" file only"> 単体ダウンロード</span></span><Icon name="download" size={15}/></a>}</>}
+   <div class="license-note"><Icon name="check" size={17}/><p data-ja="商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。" data-en="Commercial use, modification and redistribution allowed. Credit the creator, link the license and indicate changes.">商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。</p></div></div>
+   <div class="credit-card"><div><h2 data-ja="クレジット表記" data-en="Attribution">クレジット表記</h2><button class="text-button" data-copy={a.attribution}><Icon name="copy" size={15}/><span data-ja="コピー" data-en="Copy">コピー</span></button></div><pre>{a.attribution}</pre><a href={`${base}/license/`} data-ja="ライセンスを確認 →" data-en="Read the license →">ライセンスを確認 →</a></div>
+   <details class="file-list"><summary><span data-ja="ファイルを個別に取得" data-en="Individual files">ファイルを個別に取得</span><small>{a.files.length}</small></summary>{a.files.map(f=><a href={local(f.url)} download><span>{f.name}</span><small>{bytes(f.bytes)} <Icon name="download" size={13}/></small></a>)}</details>
+   <a class="manifest-link" href={local(a.manifestUrl)}><Icon name="code" size={17}/><span>Asset manifest / JSON</span><Icon name="arrow" size={15}/></a>
+  </aside></div>
+  <section class="related"><div class="section-heading"><h2 data-ja="こちらの素材も" data-en="More to build with">こちらの素材も</h2><a href={`${base}/?type=${a.type}#catalog`} data-ja="すべて見る →" data-en="View all →">すべて見る →</a></div><div class="asset-grid related-grid">{related.map(asset=><AssetCard asset={asset}/>)}</div></section>
+ </div>
+ <script>
+  const viewer=document.querySelector('.preview-column .model-viewer-3d');
+  document.querySelectorAll('[data-source]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-source]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));viewer.dataset.modelSrc=button.dataset.source;viewer.dataset.modelType=button.dataset.format;window.dispatchEvent(new CustomEvent('archive-model-viewer-activate',{detail:{root:viewer}}))}));
+  document.querySelectorAll('[data-tiling]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-tiling]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));const sphere=button.dataset.tiling==='sphere';document.getElementById('texture-flat').hidden=sphere;document.getElementById('texture-sphere').hidden=!sphere;document.getElementById('texture-channel').disabled=sphere;if(sphere)window.dispatchEvent(new CustomEvent('archive-model-viewer-activate',{detail:{root:viewer}}));else{document.getElementById('texture-surface').style.backgroundSize=`${100/Number(button.dataset.tiling)}%`;window.dispatchEvent(new CustomEvent('meshcopia-viewer-pause',{detail:{root:viewer}}))}}));
+  document.getElementById('texture-channel')?.addEventListener('change',event=>{document.getElementById('texture-surface').style.backgroundImage=`url("${event.target.value}")`});
+  // Related cards link directly to their full previews.
+  document.querySelectorAll('.related [data-preview]').forEach(button=>button.addEventListener('click',()=>location.href=button.closest('article').querySelector('.card-title').href));
+ </script>
+</Layout>

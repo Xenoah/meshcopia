@@ -1,0 +1,23 @@
+# Meshcopia
+
+> Free, original 3D models and seamless textures for humans and AI agents.
+> Assets: CC-BY-4.0. Creator: Xenoah. Attribution required; commercial use allowed.
+
+- Catalog: https://xenoah.github.io/meshcopia/api/catalog.json
+- NDJSON: https://xenoah.github.io/meshcopia/api/catalog.ndjson
+- Per-asset manifest: https://xenoah.github.io/meshcopia/api/assets/{id}.json
+- Contribution instructions: https://github.com/Xenoah/meshcopia/blob/main/AGENTS.md
+- Metadata schema: https://github.com/Xenoah/meshcopia/blob/main/docs/asset-schema.json
+- Source: https://github.com/Xenoah/meshcopia
+- License: https://creativecommons.org/licenses/by/4.0/
+
+Catalog schemaVersion: 1.0.0. assets[] contains id, type, title, titleEn, tags,
+category, author, license, version, provenance, thumbnail, pageUrl, manifestUrl,
+attribution, files[], downloads.full and (models only) downloads.models.
+Use files[].url for individual files; prefer self-contained GLB for a single model.
+Every file and ZIP has bytes and sha256. Verify the downloaded bytes before use.
+Keep ATTRIBUTION.txt and LICENSE.txt. Indicate any changes in your credits.
+Models: Y-up unless metadata says otherwise; unit and dimensions are explicit.
+Textures: check resolution, maps, normalConvention, colorSpace, metalness.
+No authentication, POST endpoints, or server-side search. Filter the JSON locally.
+Only public assets appear in the catalog. Drafts are never published.

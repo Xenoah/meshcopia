@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+public/assets/
+public/api/
+public/vendor/
+src/data/catalog.json
+release/
+test-results/
+playwright-report/
+.env
+.env.*
+__pycache__/
+*.pyc

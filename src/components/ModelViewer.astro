@@ -1,0 +1,52 @@
+---
+const { source, title = "3D preview", variant = "detail", autoload = true } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const isThumbnail = variant === "thumbnail";
+---
+
+<div
+  class="model-viewer-3d"
+  data-model-src={source.url}
+  data-model-type={source.type}
+  data-model-name={source.name}
+  data-material-maps={JSON.stringify(Astro.props.maps||{})}
+  data-metalness={Astro.props.metalness||0}
+  data-occt-base={`${base}/vendor/occt-import-js`}
+  data-viewer-variant={variant}
+  data-viewer-autoload={autoload ? "true" : "false"}
+>
+  <canvas aria-label={title} role="img"></canvas>
+  {
+    isThumbnail ? (
+      <span class="model-viewer-status compact">Loading {source.type.toUpperCase()}</span>
+    ) : (
+      <div class="model-viewer-ui">
+        <span class="model-viewer-status" role="status">Loading {source.type.toUpperCase()}</span>
+        <div class="model-viewer-controls" aria-label="3D preview controls">
+          <button type="button" data-action="reset">リセット</button>
+          <button type="button" data-action="spin" aria-pressed="false">自動回転</button>
+          <button type="button" data-action="wire" aria-pressed="false">ワイヤー</button>
+          <select data-setting="material" aria-label="Material style">
+            <option value="original">Original</option>
+            <option value="clay">Clay</option>
+            <option value="metal">Metal</option>
+            <option value="plastic">Plastic</option>
+          </select>
+          <select data-setting="lighting" aria-label="Lighting style">
+            <option value="studio">Studio</option>
+            <option value="soft">Soft</option>
+            <option value="front">Front</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+      </div>
+    )
+  }
+</div>
+
+<script>
+  const start = async (root) => { try { const { startModelViewer } = await import('../lib/viewer.js'); startModelViewer(root); } catch { root.querySelector('.model-viewer-status').textContent='3Dを読み込めません。再読み込みしてください。'; } };
+  window.addEventListener('archive-model-viewer-activate', event => start(event.detail?.root));
+  const observer = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) { start(e.target); observer.unobserve(e.target); } }), {rootMargin:'100px'});
+  document.querySelectorAll('.model-viewer-3d[data-viewer-autoload="true"]').forEach(root=>observer.observe(root));
+</script>

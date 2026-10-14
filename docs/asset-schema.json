@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xenoah.github.io/meshcopia/asset-schema.json",
+  "title": "Meshcopia asset metadata",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "titleEn",
+    "description",
+    "descriptionEn",
+    "category",
+    "tags",
+    "author",
+    "license",
+    "version",
+    "status",
+    "created",
+    "updated",
+    "thumbnail",
+    "provenance"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "titleEn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "descriptionEn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "thumbnail": {
+      "type": "string",
+      "minLength": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "type": {
+      "enum": [
+        "model",
+        "texture"
+      ]
+    },
+    "license": {
+      "const": "CC-BY-4.0"
+    },
+    "status": {
+      "enum": [
+        "public",
+        "draft",
+        "hidden"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "method",
+        "tool",
+        "rights"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tool": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rights": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "unit": {
+      "enum": [
+        "m",
+        "cm",
+        "mm"
+      ]
+    },
+    "upAxis": {
+      "enum": [
+        "Y",
+        "Z"
+      ]
+    },
+    "triangles": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "preview": {
+      "type": "string"
+    },
+    "seamless": {
+      "const": true
+    },
+    "resolution": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "maps": {
+      "type": "object",
+      "required": [
+        "baseColor"
+      ],
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "model"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "unit",
+          "upAxis",
+          "triangles",
+          "preview"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "texture"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "seamless",
+          "resolution",
+          "maps"
+        ]
+      }
+    }
+  ]
+}
