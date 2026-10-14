@@ -25,8 +25,12 @@ direct downloads, machine-readable catalog, and mobile accessibility.
 3. For a model, report actual triangles, unit, up axis, dimensions and UV limits.
    GLB is preferred for a self-contained download. OBJ must include MTL and
    textures. Keep external resources within `source/` using relative paths.
-4. For textures, specify maps, resolution, normal convention and color spaces.
-   Check both edge pairs for all maps and inspect 2×2 tiling.
+4. For textures, specify maps, width/height, resolution (longest edge), wrapMode,
+   normal convention when a normal map exists, and color spaces. Repeat textures
+   must match both edge pairs. Mirror textures need alternating flips in 2×2
+   tiling and must say mirror explicitly. Clamp atlases use seamless:false,
+   retain their aspect ratio, and must never be presented as seamless materials.
+   Inspect each preview and preserve original files when claiming unchanged pixels.
 5. `npm run import:inbox -- <id>` then `--apply`. Existing IDs are rejected;
    edit existing assets deliberately and increment the asset version.
 6. Run `npm run check`. Review changed assets, metadata and generated ZIPs.

@@ -25,7 +25,7 @@ for (const asset of assets) {
   const attribution = attributionFor(asset);
   const license = `${asset.titleEn}\nCopyright (c) ${asset.created.slice(0,4)} ${asset.author}\nLicensed under Creative Commons Attribution 4.0 International (CC BY 4.0).\n${LICENSE_URL}\n${LICENSE_URL}legalcode.en\n\nYou may share and adapt, including commercially. Give appropriate credit, link the license, and indicate changes. No additional restrictions. No warranties. This notice is a summary; the linked legal code controls.\n`;
   const common = [{name:'LICENSE.txt',data:license},{name:'ATTRIBUTION.txt',data:attribution+'\n'}];
-  const readme = `# ${asset.titleEn}\n\n${asset.description}\n\n${asset.descriptionEn}\n\n${attribution}\n\nAsset ID: ${asset.id}\nVersion: ${asset.version}\nType: ${asset.type}\n${asset.type==='model' ? `Unit: ${asset.unit}; up axis: ${asset.upAxis}\n` : `Resolution: ${asset.resolution}px; seamless XY; normal maps: OpenGL (+Y), linear; base color: sRGB\n`}\nProvenance: ${asset.provenance.method} / ${asset.provenance.tool}\n${asset.provenance.rights}\n\nSource and reusable generator: https://github.com/Xenoah/meshcopia\n`;
+  const readme = `# ${asset.titleEn}\n\n${asset.description}\n\n${asset.descriptionEn}\n\n${attribution}\n\nAsset ID: ${asset.id}\nVersion: ${asset.version}\nType: ${asset.type}\n${asset.type==='model' ? `Unit: ${asset.unit}; up axis: ${asset.upAxis}\n` : `Resolution: ${asset.width} x ${asset.height}px; wrap mode (both axes): ${asset.wrapMode}; seamless under this mode: ${asset.seamless}\nMaps: ${Object.keys(asset.maps).join(', ')}; base color: sRGB; normal convention: ${asset.normalConvention||'no normal map'}\n${asset.usageEn||''}\n`}\nProvenance: ${asset.provenance.method} / ${asset.provenance.tool}\n${asset.provenance.rights}\n\nSource and reusable generator: https://github.com/Xenoah/meshcopia\n`;
   const entries = [], files = [];
   for (const file of sources) {
     const data = await readFile(path.join(dir,'source',file));
@@ -54,6 +54,6 @@ for (const asset of assets) {
 }
 await writeFile('src/data/catalog.json',JSON.stringify(catalog,null,2)+'\n');
 const publicAssets = catalog.filter(a=>a.status==='public');
-await writeFile('public/api/catalog.json',JSON.stringify({schemaVersion:'1.0.0',name:'Meshcopia',license:'CC-BY-4.0',count:publicAssets.length,assets:publicAssets},null,2)+'\n');
+await writeFile('public/api/catalog.json',JSON.stringify({schemaVersion:'2.0.0',name:'Meshcopia',license:'CC-BY-4.0',count:publicAssets.length,assets:publicAssets},null,2)+'\n');
 await writeFile('public/api/catalog.ndjson',publicAssets.map(a=>JSON.stringify(a)).join('\n')+'\n');
 console.log(`Generated ${catalog.length} asset pages/manifests and ZIPs; ${publicAssets.length} listed publicly.`);

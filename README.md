@@ -1,19 +1,19 @@
 # Meshcopia
 
-**人間とAIエージェントのための、無料3Dモデルとシームレステクスチャ。**
+**人間とAIエージェントのための、無料3Dモデルとテクスチャ。**
 
 [素材ライブラリ](https://xenoah.github.io/meshcopia/) · [Releases](https://github.com/Xenoah/meshcopia/releases) · [エージェント向けJSON](https://xenoah.github.io/meshcopia/api/catalog.json)
 
-![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.1.0/desktop-catalog-full.png)
+![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.2.0-rc.1/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.1.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.1.0)。3Dモデル20点とシームレステクスチャ6点を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [プレリリース v1.2.0-rc.1](https://github.com/Xenoah/meshcopia/releases/tag/v1.2.0-rc.1)。3Dモデル32点とテクスチャ15点を無料で取得できます。
 
 ## できること
 
 - 大きなサムネイル、名前・タグ・形式検索、カテゴリー、種類、並び替え。検索条件はURLで共有。
 - 一覧からクイック3Dプレビュー。詳細で回転・拡大・ワイヤー・ライティング・材質を切替。
 - GLB / glTF / FBX / STL / OBJ / STEPプレビュー。Three.js / occt-import-js。
-- テクスチャの1×1・2×2・4×4タイル確認とPBR球体、各マップ表示。
+- 通常・鏡像リピートの1×1・2×2・4×4確認と球体表示。アトラスは非タイル素材として元の縦横比で表示。
 - 全体ZIP、モデルのみZIP、単体ファイル。モデルのみZIPにも依存ファイルとライセンスを保持。
 - 全素材 **CC BY 4.0**。商用利用・改変・再配布可。作者名・出典・ライセンス・変更点の表示が必要。
 - 認証不要のJSON/NDJSONカタログ、個別マニフェスト、SHA-256、クレジットコピー。
@@ -23,13 +23,29 @@
 
 **Commons cafeオリジナル12点**: バースツール、ラウンジチェア、ソファ、丸テーブル、ペンダントライト、コーヒーカップ、観葉植物、エスプレッソマシン、グラインダー、PAスピーカー、DJコントローラー、展示台。[元ワールド](https://github.com/Xenoah/vrcworld_tech-tech-cafe)から独立したGLB/STLとして抽出。元の生成テクスチャ、UV、鏡像反復・Clamp設定を保持しています。[選定根拠・出典・再現手順](docs/COMMONS_IMPORT.md)。
 
+**Commons cafe追加メッシュ12点（v1.2）**: ローテーブル、円形ステージ、機材ラック、ワークカウンター、コーヒー袋、ボトル6本セット、本6冊セット、テーブルキャンドル、リング照明、ポスターフレーム、スラットバーカウンター、壁付け本棚。
+
+**Commons cafeテクスチャ9点（v1.2）**: オーク・漆喰・テラゾー・黒皮鋼・真鍮・織布は1254pxの鏡像リピート用ベースカラー。機材操作面・瓶ラベル・小物プリントは非タイルのアトラス。9点とも元PNGを無加工で配布し、元の出典とSHA-256を保持。
+
 **3Dモデル8点**: スタジオチェア、アトリエランプ、ウッドスラットベンチ、テラコッタプランター、マーケット木箱、ガーデンアーチ、フィールドターミナル、ラウンドサイン。
 
-**テクスチャ6点**: ライムストーン、シダーボード、クレイブリック、セージテラゾー、ヘアラインアルミ、コバルトセラミック。各1024px / Base Color・Normal・Roughness・Height。
+**通常リピートのテクスチャ6点**: ライムストーン、シダーボード、クレイブリック、セージテラゾー、ヘアラインアルミ、コバルトセラミック。各1024px / Base Color・Normal・Roughness・Height。
 
 初期8モデル・6テクスチャはMeshcopiaのオリジナルのプロシージャル素材です。Commons cafeの追加素材は元ワールドのオリジナル形状と生成画像を使用。サムネイルは実際の配布メッシュから描画しています。
 
 モデル: 単位m、Y-up。初期モデルはGLB/OBJ/STL、Commons cafe素材はGLB/STL。GLBには色・PBR材質を保持し、Commons cafe素材は画像も埋め込んでいます。OBJにはMTLを同梱。STLは色を持ちません。UVの仕様は各素材に記載しています。ゲーム・VR向けの小道具で、3Dプリントや機構部品としては未検証です。
+
+## テクスチャとAPIの反復方式
+
+カタログの `schemaVersion` は **2.0.0**。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
+
+| wrapMode | 使い方 | seamless |
+| --- | --- | --- |
+| repeat | 通常の繰り返し。対向辺が一致 | true |
+| mirror | 隣り合うタイルを反転。Mirror / MirroredRepeatWrapping | true（指定方式での連続性） |
+| clamp | アトラス。UVで領域を選択し、繰り返さない | false |
+
+鏡像リピート素材を通常Repeatで使用した場合の継ぎ目は保証しません。`maps` が `baseColor` だけなら法線・粗さ・高さの画像は含みません。`roughness` / `metalness` は元の材質に基づく球体表示用の数値です。
 
 ## 開発
 

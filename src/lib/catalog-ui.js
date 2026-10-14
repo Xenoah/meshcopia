@@ -1,3 +1,4 @@
+import {renderTextureTiles,textureWrap,textureSize} from './texture.js';
 export function filterAssets(assets, {query='',type='all',category='all',sort='newest'}={}) {
  const terms=query.trim().toLowerCase().split(/\s+/).filter(Boolean);
  return assets.filter(a=>(type==='all'||a.type===type)&&(category==='all'||a.category===category)&&terms.every(term=>`${a.title} ${a.titleEn} ${(a.tags||[]).join(' ')} ${(a.files||[]).map(f=>f.format).join(' ')}`.toLowerCase().includes(term))).sort((a,b)=>sort==='name'?a.titleEn.localeCompare(b.titleEn):sort==='size'?a.downloads.full.bytes-b.downloads.full.bytes:b.updated.localeCompare(a.updated)||a.type.localeCompare(b.type)||a.titleEn.localeCompare(b.titleEn));
@@ -31,10 +32,11 @@ export function initCatalog(){
   const a=assets.find(a=>a.id===button.dataset.preview);document.getElementById('quick-title').textContent=document.documentElement.lang==='en'?a.titleEn:a.title;
   document.getElementById('quick-details').href=new URL(a.pageUrl).pathname;
   document.getElementById('quick-model').hidden=a.type!=='model';const texture=document.getElementById('quick-texture');texture.hidden=a.type!=='texture';
-  dialog.querySelector('.dialog-footer p').textContent=a.type==='model'?'ドラッグで回転・スクロールで拡大':'2 × 2 タイル — 縦横のつなぎ目を確認';
+  const wrap=textureWrap(a),en=document.documentElement.lang==='en';
+  dialog.querySelector('.dialog-footer p').textContent=a.type==='model'?(en?'Drag to orbit · Scroll to zoom':'ドラッグで回転・スクロールで拡大'):wrap==='clamp'?(en?'Atlas · Clamp · original aspect ratio':'アトラス · Clamp · 元の縦横比'):wrap==='mirror'?(en?'2 × 2 · Mirrored repeat':'2 × 2 · 鏡像リピート'):(en?'2 × 2 · Repeat':'2 × 2 · 通常リピート');
   dialog.showModal();
   if(a.type==='model'){root.dataset.modelSrc=new URL(a.previewUrl).pathname;root.dataset.modelType=a.preview.split('.').pop().replace('stp','step');root.dataset.modelName=a.title;root.querySelector('canvas').setAttribute('aria-label',`${a.title} 3Dプレビュー`);window.dispatchEvent(new CustomEvent('archive-model-viewer-activate',{detail:{root}}));}
-  else {texture.replaceChildren();for(let i=0;i<4;i++){const image=new Image();image.src=new URL(a.mapUrls.baseColor).pathname;image.alt=`${a.title} タイル ${i+1}`;texture.append(image);}}
+  else {const [width,height]=textureSize(a);renderTextureTiles(texture,{url:new URL(a.mapUrls.baseColor).pathname,wrapMode:wrap,count:2,width,height,title:a.title});}
  }));
  document.getElementById('quick-close').addEventListener('click',()=>dialog.close());
  dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});

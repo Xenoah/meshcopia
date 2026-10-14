@@ -4,7 +4,8 @@ Source: [Xenoah/vrcworld_tech-tech-cafe](https://github.com/Xenoah/vrcworld_tech
 
 On 2026-10-14 the repository owner requested reusable original assets from this
 world to be published in the CC-BY-4.0 Meshcopia library. This selection contains
-12 original static models, extracted from the existing Blender scene.
+24 original static models, extracted from the existing Blender scene, and all
+nine original texture PNGs. The v1.2 expansion adds 12 models and nine textures.
 
 ## Evidence and scope
 
@@ -19,8 +20,9 @@ world to be published in the CC-BY-4.0 Meshcopia library. This selection contain
   posters, AudioLink, VRChat SDK, UdonSharp, iwaSync, CVS2, vehicles or drones enter
   the packages. No runtime behavior scripts or sounds are included.
 - Architectural textures are mirrored-repeat materials. Their original pixels
-  are preserved inside GLB; they are not registered as ordinary-repeat seamless
-  texture assets. The existing six periodic texture assets are unchanged.
+  are preserved inside GLB and as standalone base-color PNGs. The six architectural
+  images use explicit mirror sampling; the three print atlases use clamp and
+  seamless:false. The existing six ordinary-repeat periodic textures are unchanged.
 
 ## Selection
 
@@ -38,6 +40,18 @@ world to be published in the CC-BY-4.0 Meshcopia library. This selection contain
 | commons-pa-speaker | PA enclosure and grille | AV_Stage | 15 |
 | commons-dj-controller | Fictional RELAY R2 controller | AV_DJ | 46 |
 | commons-display-plinth | Cylindrical plinth and emissive rim | AV_Stage | 2 |
+| commons-low-table | Commons low table | MODE_Lounge | 4 |
+| commons-round-stage | Commons round stage | AV_Stage | 2 |
+| commons-equipment-rack | Commons equipment rack | AV_BackOfHouse | 46 |
+| commons-dj-desk | Commons work counter | AV_DJ | 4 |
+| commons-coffee-bag | Commons coffee bag | FURN_Bar | 2 |
+| commons-bottle-set | Commons six bottle set | FURN_Bar | 24 |
+| commons-book-set | Commons six book set | FURN_QuietRoom | 6 |
+| commons-table-candle | Commons table candle | FURN_Cafe | 2 |
+| commons-halo-light | Commons halo light | LGT_Main | 2 |
+| commons-poster-frame | Commons poster frame | AV_Gallery | 2 |
+| commons-bar-counter | Commons slatted bar counter | FURN_Bar | 38 |
+| commons-floating-bookshelf | Commons floating bookshelf | FURN_QuietRoom | 75 |
 
 The chair, sofa and controller are rotated to a convenient front orientation.
 Each asset is centered horizontally with its base at Y=0. Units remain meters.
@@ -59,6 +73,8 @@ Use Python 3.11 in a separate environment:
 python -m pip install bpy==4.5.14 numpy==1.26.4 Pillow==11.2.1
 python scripts/import-commons-cafe.py --fetch --inspect
 python scripts/import-commons-cafe.py --fetch
+python scripts/import-commons-cafe.py --fetch --batch expansion
+python scripts/import-commons-textures.py
 npm run import:all-inbox -- --apply
 npm run check
 ```
@@ -67,7 +83,8 @@ The importer refuses existing IDs and checks pinned input hashes before opening
 the Blender scene with scripts disabled. To reproduce in a separate checkout,
 remove only the exported `commons-*` asset folders in that checkout first.
 `--source-root <checkout>` can use a local source checkout instead of fetching.
-CI performs the initial extraction only when `.import-commons-cafe` exists,
+CI performs the first batch only when `.import-commons-cafe` exists, and the
+expansion only when `.import-commons-expansion` exists. It
 removes that marker, validates the assets, and commits the imported collection.
 Subsequent builds use the committed source files and require no Blender install.
 
@@ -82,3 +99,30 @@ Chromium, published the site and created `v1.1.0-rc.1`. The imported asset commi
 is `ad3e370721ce0d575c907ea65783e1d5c8ba55a3`. All 12 Blender thumbnails were
 visually inspected. The final release corrects a catalog card label that had
 assumed every model supplied OBJ; cards now list their actual available formats.
+
+
+## Standalone textures (v1.2)
+
+- **Mirror, 1254 × 1254:** warm oak, mineral plaster, basalt terrazzo, blackened
+  steel, satin brass, teal woven fabric. These are base-color images, not PBR map
+  sets. Scalar roughness and metalness come from the original material settings.
+  Set both axes to Mirror / MirroredRepeatWrapping. Ordinary Repeat is not
+  guaranteed seamless. Mirroring guarantees matching values at tile boundaries;
+  visible mirrored motifs may remain.
+- **Clamp, non-tileable:** RELAY R2 panel (1774 × 887), fictional bottle labels
+  (1536 × 1024), cafe prop prints (1774 × 887). Use mesh UVs to select atlas regions.
+- `import-commons-textures.py` copies original PNG bytes, records hashes and the
+  original generation brief, and makes a separate resized WebP thumbnail. No
+  normal, height or roughness maps are synthesized or implied.
+- Catalog schema 2.0.0 adds explicit width/height and wrapMode. The website's
+  grid, quick preview, detail tiles and material sphere honor these modes.
+  Atlases retain their aspect ratio and do not expose tiling or sphere controls.
+- `check-textures.py` checks ordinary-repeat source edges, mirrored 2×2 period
+  boundaries, image dimensions and original source hashes separately. Browser
+  checks cover tile flips, atlas proportions, mobile layout and exact PNG download.
+
+The twelve added model selectors were verified against the pinned saved scene.
+The saved scene is authoritative: a lectern mentioned in build_world.py is absent
+from that scene and is not included. Books/bottles use explicit height ranges to
+avoid collecting adjacent shelves. The straight counter excludes the corner's
+long return. The poster frame contains only the empty frame and display plane.

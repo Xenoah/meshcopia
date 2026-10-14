@@ -140,11 +140,13 @@
       "type": "string"
     },
     "seamless": {
-      "const": true
+      "type": "boolean",
+      "description": "Continuity under wrapMode, not a claim of ordinary Repeat compatibility. False for clamp atlases."
     },
     "resolution": {
       "type": "integer",
-      "minimum": 1
+      "minimum": 1,
+      "description": "Longest edge in pixels. Legacy square materials may omit width/height."
     },
     "maps": {
       "type": "object",
@@ -154,6 +156,33 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "width": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "height": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "wrapMode": {
+      "enum": [
+        "repeat",
+        "mirror",
+        "clamp"
+      ],
+      "default": "repeat",
+      "description": "Both texture axes. Legacy materials default to repeat."
+    },
+    "roughness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "metalness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
     }
   },
   "allOf": [
@@ -189,6 +218,47 @@
           "maps"
         ]
       }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "texture"
+          },
+          "wrapMode": {
+            "const": "clamp"
+          }
+        },
+        "required": [
+          "wrapMode"
+        ]
+      },
+      "then": {
+        "properties": {
+          "seamless": {
+            "const": false
+          }
+        },
+        "required": [
+          "width",
+          "height"
+        ]
+      },
+      "else": {
+        "properties": {
+          "seamless": {
+            "const": true
+          }
+        }
+      }
     }
-  ]
+  ],
+  "dependentRequired": {
+    "width": [
+      "height"
+    ],
+    "height": [
+      "width"
+    ]
+  }
 }

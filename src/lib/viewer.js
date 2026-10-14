@@ -126,8 +126,10 @@
       if (this.type === "material") {
         const urls=JSON.parse(this.root.dataset.materialMaps||"{}");
         const loader=new THREE.TextureLoader();
-        const textures=Object.fromEntries(await Promise.all(Object.entries(urls).map(async ([key,url])=>{const map=await loader.loadAsync(url);map.wrapS=map.wrapT=THREE.RepeatWrapping;map.repeat.set(2,1);map.colorSpace=key==="baseColor"?THREE.SRGBColorSpace:THREE.NoColorSpace;return [key,map];})));
-        return new THREE.Mesh(new THREE.SphereGeometry(1,64,48), new THREE.MeshStandardMaterial({map:textures.baseColor,normalMap:textures.normal,roughnessMap:textures.roughness,roughness:1,metalness:Number(this.root.dataset.metalness)||0}));
+        const mode=this.root.dataset.wrapMode||'repeat';
+        const wrapping={repeat:THREE.RepeatWrapping,mirror:THREE.MirroredRepeatWrapping,clamp:THREE.ClampToEdgeWrapping}[mode];
+        const textures=Object.fromEntries(await Promise.all(Object.entries(urls).map(async ([key,url])=>{const map=await loader.loadAsync(url);map.wrapS=map.wrapT=wrapping;map.repeat.set(mode==='clamp'?1:2,1);map.colorSpace=key==="baseColor"?THREE.SRGBColorSpace:THREE.NoColorSpace;return [key,map];})));
+        return new THREE.Mesh(new THREE.SphereGeometry(1,64,48), new THREE.MeshStandardMaterial({map:textures.baseColor,normalMap:textures.normal,roughnessMap:textures.roughness,roughness:Number(this.root.dataset.roughness??1),metalness:Number(this.root.dataset.metalness)||0}));
       }
       if (["glb","gltf"].includes(this.type)) return (await new GLTFLoader().loadAsync(this.src)).scene;
       if (this.type === "obj") {

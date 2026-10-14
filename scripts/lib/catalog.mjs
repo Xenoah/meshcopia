@@ -62,7 +62,14 @@ export async function readAsset(dir) {
     if (!['.glb','.gltf','.obj','.fbx','.step','.stp','.stl'].includes(path.extname(a.preview))) fail('Unsupported preview format');
     if (!Number.isInteger(a.triangles) || a.triangles < 1) fail('triangles required');
   } else {
-    if (a.seamless !== true || !Number.isInteger(a.resolution) || a.resolution < 1) fail('seamless and resolution required');
+    a.wrapMode ??= 'repeat';
+    if (!['repeat','mirror','clamp'].includes(a.wrapMode)) fail('wrapMode must be repeat, mirror or clamp');
+    if (a.seamless !== (a.wrapMode !== 'clamp')) fail('seamless must match the declared wrapMode');
+    if (!Number.isInteger(a.resolution) || a.resolution < 1) fail('resolution required');
+    if ((a.width === undefined) !== (a.height === undefined)) fail('width and height must be specified together');
+    a.width ??= a.resolution; a.height ??= a.resolution;
+    if (![a.width,a.height].every(n=>Number.isInteger(n)&&n>0) || a.resolution !== Math.max(a.width,a.height)) fail('width/height must be positive integers; resolution is the longest edge');
+    for (const key of ['roughness','metalness']) if (a[key] !== undefined && (!Number.isFinite(a[key]) || a[key]<0 || a[key]>1)) fail(`Invalid ${key}`);
     if (!a.maps?.baseColor) fail('baseColor map required');
     for (const f of Object.values(a.maps)) if (!sources.includes(safeRelative(f)) || !IMAGE_EXT.has(path.extname(f))) fail(`Missing map: ${f}`);
   }

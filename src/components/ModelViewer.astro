@@ -11,6 +11,8 @@ const isThumbnail = variant === "thumbnail";
   data-model-name={source.name}
   data-material-maps={JSON.stringify(Astro.props.maps||{})}
   data-metalness={Astro.props.metalness||0}
+  data-roughness={Astro.props.roughness??1}
+  data-wrap-mode={Astro.props.wrapMode||'repeat'}
   data-occt-base={`${base}/vendor/occt-import-js`}
   data-viewer-variant={variant}
   data-viewer-autoload={autoload ? "true" : "false"}

@@ -38,7 +38,7 @@ jobs:
             rm .bootstrap-starter
           fi
       - name: Set up original cafe extraction (once)
-        if: hashFiles('.import-commons-cafe') != ''
+        if: hashFiles('.import-commons-cafe', '.import-commons-expansion') != ''
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -50,6 +50,15 @@ jobs:
           python3 -m pip install bpy==4.5.14 numpy==1.26.4 Pillow==11.2.1
           python3 scripts/import-commons-cafe.py --fetch
           rm .import-commons-cafe
+      - name: Import more original cafe meshes and textures (once)
+        if: hashFiles('.import-commons-expansion') != ''
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y libgl1 libxi6 libxrender1 libxfixes3 libxkbcommon0 libxxf86vm1 libsm6
+          python3 -m pip install bpy==4.5.14 numpy==1.26.4 Pillow==11.2.1
+          python3 scripts/import-commons-cafe.py --fetch --batch expansion
+          python3 scripts/import-commons-textures.py
+          rm .import-commons-expansion
       - name: Import inbox
         run: npm run import:all-inbox -- --apply
       - name: Validate, test and build
@@ -74,6 +83,7 @@ jobs:
           git add content/assets _inbox
           if git ls-files --error-unmatch .bootstrap-starter >/dev/null 2>&1; then git add -u .bootstrap-starter; fi
           if git ls-files --error-unmatch .import-commons-cafe >/dev/null 2>&1; then git add -u .import-commons-cafe; fi
+          if git ls-files --error-unmatch .import-commons-expansion >/dev/null 2>&1; then git add -u .import-commons-expansion; fi
           if ! git diff --cached --quiet; then
             git commit -m 'feat(assets): import validated original CC BY collection'
             git push origin HEAD:main

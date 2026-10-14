@@ -16,6 +16,9 @@ INPUTS = {
     'Blender/The_Commons_Compact.blend': 'bae03d811a95dc7b9b91805b90c5109eac8ae08ed3dbf31e1a83afeb1beed778',
     'Blender/build_world.py': 'a9246207facef7f2728df7511ab0c1e81bfe5f3cc94a2048022551a1edf62d7b',
     'Documentation/texture_provenance.json': '143ddf6b50f2d29c7a7b1934f2c87ed979297c1efdeaacc109edd387746493cd',
+    'Unity/Assets/TheCommons/Textures/bar_labels_albedo.png': '6a0d1ffe7da88a68f3e8cd0f9b126bef3b3201f3acbc44f05a713b8e842c1da8',
+    'Unity/Assets/TheCommons/Textures/basalt_terrazzo_albedo.png': 'a7eebda5bbb2404426a9a4a60e3b9434e30274167d7641a3338f426770bded54',
+    'Unity/Assets/TheCommons/Textures/mineral_plaster_albedo.png': '2d835bd37e136fec4cd64709fef9173f554707ea2c28607693018b8cdcc4c1f3',
     'Unity/Assets/TheCommons/Textures/blackened_steel_albedo.png': 'ccb94abc7aeabb72a9398d67a0f6904b1fff755c987ddce7f9d2800172d61b1e',
     'Unity/Assets/TheCommons/Textures/cafe_props_albedo.png': 'bc3f26f6ec15b16436345e5cef34bbf245d22b7d2bcd90fa6fb033177cd99313',
     'Unity/Assets/TheCommons/Textures/relay_controller_albedo.png': 'c3209959d4d66776dc51f78d7b321a0b9359edc313057ac858cc251b4a9c03c6',
@@ -25,10 +28,11 @@ INPUTS = {
 }
 
 
-def asset(slug, title, english, category, collection, center, radius, names, count, description, en, rotation=0):
+def asset(slug, title, english, category, collection, center, radius, names, count, description, en, rotation=0, z_range=None, xy_bounds=None):
     return dict(id='commons-'+slug, title=title, titleEn=english, category=category,
                 collection=collection, center=center, radius=radius, names=names.split(),
-                expected=count, description=description, descriptionEn=en, rotation=rotation)
+                expected=count, description=description, descriptionEn=en, rotation=rotation,
+                z_range=z_range, xy_bounds=xy_bounds)
 
 
 ASSETS = [
@@ -80,6 +84,60 @@ ASSETS = [
           'AV_DemoPedestal AV_DemoRim', 2,
           '黒皮鋼の円柱とシアンの発光リム。展示物や小型作品を載せられる独立した台座。',
           'A blackened-steel cylindrical plinth with a cyan emissive rim for displays and small exhibits.'),
+]
+
+EXPANSION = [
+    asset('low-table', 'コモンズ・ローテーブル', 'Commons low table', 'furniture', 'MODE_Lounge', [10.1,5.6], .1,
+          'FURN_TableTop FURN_TableTrim FURN_TableBase FURN_TableStem', 4,
+          'オーク天板と真鍮の縁を持つ高さ約47cmのローテーブル。ソファ前やラウンジ向け。卓上の小物は含みません。',
+          'A roughly 47 cm low oak table with a brass edge for sofas and lounges, without tabletop props.'),
+    asset('round-stage', 'コモンズ・円形ステージ', 'Commons round stage', 'architecture', 'AV_Stage', [14,13.2], .1,
+          'AV_Stage AV_StageEdge', 2,
+          '直径4.8mの低い円形ステージ。オークの床とシアンの発光リムを保持し、周囲の設備を除いて独立化。',
+          'A low 4.8 m circular stage with an oak floor and cyan emissive rim, without surrounding equipment.'),
+    asset('equipment-rack', 'コモンズ・機材ラック', 'Commons equipment rack', 'technology', 'AV_BackOfHouse', [21,17.1], .4,
+          'AV_Rack AV_RackUnit AV_StatusLED', 46,
+          '9段の操作パネルとシアンの表示灯を備えた架空のAV機材ラック。元の生成パネル画像を同梱。',
+          'A fictional AV rack with nine printed units and cyan indicators. Original panel artwork is embedded; decorative only.'),
+    asset('dj-desk', 'コモンズ・ワークカウンター', 'Commons work counter', 'furniture', 'AV_DJ', [14,13.32], 2.4,
+          'AV_DJDesk AV_DJFascia AV_DJLeg', 4,
+          '幅4.9mのオーク天板、前板、2本脚。DJ機材や文字を除き、受付や作業用のカウンターとして独立化。',
+          'A 4.9 m oak work counter with a front panel and two steel legs. DJ equipment and lettering are excluded.'),
+    asset('coffee-bag', 'コモンズ・コーヒー袋', 'Commons coffee bag', 'props', 'FURN_Bar', [3.36,6.03], .08,
+          'FURN_CoffeeBag FURN_BagFold', 2,
+          '架空ブランドCOMMON GROUNDのコーヒー袋。上部の折り留めと生成オリジナルのパッケージ画像付き。',
+          'A fictional COMMON GROUND coffee package with a top fold and original generated print.'),
+    asset('bottle-set', 'コモンズ・ボトル6本セット', 'Commons six bottle set', 'props', 'FURN_Bar', [.84,7.2375], .65,
+          'FURN_Bottle FURN_BottleNeck FURN_BottleCap FURN_BottleLabel', 24,
+          '形状・高さの異なるボトル6本。架空の6ブランドのラベルを保持し、各部品を別メッシュで収録。',
+          'Six bottles with varied heights, caps and original fictional-brand labels. Parts remain separate meshes.',
+          -math.pi/2, z_range=[1.26,1.7]),
+    asset('book-set', 'コモンズ・本6冊セット', 'Commons six book set', 'props', 'FURN_QuietRoom', [22.3375,1.4], .5,
+          'FURN_Book', 6,
+          'CODE・SOUND・SPACE・FORM・LIGHT・IDEASの背表紙を持つ本6冊。棚や机の装飾に使える独立したメッシュ。',
+          'Six separate books with original CODE, SOUND, SPACE, FORM, LIGHT and IDEAS spine artwork for shelves or desks.',
+          math.pi, z_range=[5.7,6.1]),
+    asset('table-candle', 'コモンズ・テーブルキャンドル', 'Commons table candle', 'props', 'FURN_Cafe', [2,2.4], .05,
+          'LGT_TableCandle LGT_CandleGlow', 2,
+          '陶器色の細いキャンドルと暖色の発光部。テーブルや棚向けの軽量な小物。実ライトは含みません。',
+          'A small ceramic-colored table candle with a warm emissive tip. No runtime light is included.'),
+    asset('halo-light', 'コモンズ・リング照明', 'Commons halo light', 'props', 'LGT_Main', [14,6.4], .1,
+          'LGT_Halo LGT_HaloLight', 2,
+          '真鍮のリングと暖色の発光リングを持つ直径約3.5mの天井照明。吊り具と実ライトは含みません。',
+          'A roughly 3.5 m brass ceiling ring with a warm emissive strip. Suspension and runtime lights are not included.'),
+    asset('poster-frame', 'コモンズ・ポスターフレーム', 'Commons poster frame', 'props', 'AV_Gallery', [24.5,7.3], .1,
+          'AV_PosterFrame_05 AV_PosterFace_05', 2,
+          '真鍮の縁と黒い表示面を持つ縦長フレーム。元の文字や図柄を除き、表示面を別メッシュで保持。',
+          'A portrait brass frame with a separate black display face. Original lettering and poster artwork are excluded.', math.pi),
+    asset('bar-counter', 'コモンズ・スラットバーカウンター', 'Commons slatted bar counter', 'furniture', 'FURN_Bar', [3.95,5.75], 3,
+          'FURN_BarReturn BarTopReturn FURN_BarFlute FURN_BarFootRail', 38,
+          '幅5.3mの直線カウンター。オーク天板、縦スラット、真鍮の足掛けを保持。卓上の機材は含みません。',
+          'A 5.3 m straight bar counter with an oak top, vertical slats and a brass foot rail; no countertop equipment.',
+          xy_bounds=[1.2,5.2,6.7,6.51]),
+    asset('floating-bookshelf', 'コモンズ・壁付け本棚', 'Commons floating bookshelf', 'furniture', 'FURN_QuietRoom', [24,1.4], 2.4,
+          'FURN_ArchiveShelf FURN_Book', 75,
+          'オークの棚板3段と本72冊。元の配置を保った壁付け本棚のセットで、壁や取付金具は含みません。',
+          'Three floating oak shelves with 72 individual books in their original arrangement. No wall or mounting hardware is included.', math.pi),
 ]
 
 
@@ -159,7 +217,7 @@ def run(args):
         material_cache[original.name] = m
         return m
 
-    selected_specs = [a for a in ASSETS if not args.only or a['id'] in args.only]
+    selected_specs = [a for a in (EXPANSION if args.batch == 'expansion' else ASSETS) if not args.only or a['id'] in args.only]
     for spec in selected_specs:
         bpy.context.window.scene = original_scene
         graph = bpy.context.evaluated_depsgraph_get()
@@ -168,6 +226,12 @@ def run(args):
             if o.type != 'MESH' or o.name.split('.')[0] not in spec['names'] or spec['collection'] not in [c.name for c in o.users_collection]:
                 continue
             center = sum((o.matrix_world @ Vector(v) for v in o.bound_box), Vector()) / 8
+            if spec['z_range'] and not spec['z_range'][0] <= center.z <= spec['z_range'][1]:
+                continue
+            if spec['xy_bounds']:
+                x0,y0,x1,y1=spec['xy_bounds']
+                if not (x0 <= center.x <= x1 and y0 <= center.y <= y1):
+                    continue
             if max(abs(center[i]-spec['center'][i]) for i in [0, 1]) < spec['radius']:
                 objects.append(o)
         objects.sort(key=lambda o: o.name)
@@ -283,4 +347,5 @@ if __name__ == '__main__':
     parser.add_argument('--fetch',action='store_true')
     parser.add_argument('--inspect',action='store_true')
     parser.add_argument('--only',nargs='+')
+    parser.add_argument('--batch',choices=['original','expansion'],default='original')
     run(parser.parse_args())

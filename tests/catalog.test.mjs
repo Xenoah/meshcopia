@@ -43,3 +43,18 @@ test('metadata gate rejects unlicensed assets, missing files and symlinks',async
  a.preview='test.glb';await save();await symlink('/etc/hosts',`${dir}/source/escape.png`);await assert.rejects(()=>readAsset(dir),/Symlinks/);
  }finally{await rm(root,{recursive:true,force:true})}
 });
+
+test('texture metadata gate rejects contradictory wrap modes and dimensions',async()=>{
+ const root=await mkdtemp(path.join(os.tmpdir(),'meshcopia-texture-')),dir=`${root}/test-texture`;
+ try{
+  await mkdir(`${dir}/source`,{recursive:true});
+  const a={...(await readCatalog()).find(a=>a.type==='texture'),id:'test-texture',thumbnail:'preview.png',maps:{baseColor:'color.png'},width:1024,height:512,resolution:1024,wrapMode:'clamp',seamless:false};
+  await writeFile(`${dir}/source/color.png`,'fixture');await writeFile(`${dir}/preview.png`,'fixture');
+  const save=()=>writeFile(`${dir}/asset.json`,JSON.stringify(a));
+  await save();assert.equal((await readAsset(dir)).wrapMode,'clamp');
+  a.seamless=true;await save();await assert.rejects(()=>readAsset(dir),/seamless/);
+  a.seamless=false;a.wrapMode='unknown';await save();await assert.rejects(()=>readAsset(dir),/wrapMode/);
+  a.wrapMode='clamp';a.width=2048;await save();await assert.rejects(()=>readAsset(dir),/longest edge/);
+  a.width=1024;delete a.height;await save();await assert.rejects(()=>readAsset(dir),/specified together/);
+ }finally{await rm(root,{recursive:true,force:true})}
+});

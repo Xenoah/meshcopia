@@ -1,6 +1,6 @@
 {
   "name": "meshcopia",
-  "version": "1.1.0",
+  "version": "1.2.0-rc.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -22,7 +22,7 @@
     "occt-import-js": "^0.0.23",
     "three": "^0.184.0"
   },
-  "description": "Free CC BY 3D models and seamless textures for people and AI agents",
+  "description": "Free CC BY 3D models, tileable materials and texture atlases for people and AI agents",
   "engines": {
     "node": ">=22"
   },
