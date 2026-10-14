@@ -1,8 +1,9 @@
 // Executed on the GitHub Actions runner, not the managed authoring environment.
+import {inspectImageDecode} from './lib/browser-image-check.mjs';
 import {testUsagesBrowser} from './test-usages-browser.mjs';
 import {chromium} from '@playwright/test';
 import {createHash} from 'node:crypto';
-import {createServer} from 'node:http';import {readFile,mkdir,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
+import {createServer} from 'node:http';import {readFile,writeFile,mkdir,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
 const root=path.resolve('dist');
 const catalog=JSON.parse(await readFile(path.join(root,'api/catalog.json'),'utf8')).assets;
 const countType=type=>catalog.filter(a=>a.type===type).length;
@@ -11,12 +12,54 @@ const server=createServer(async(req,res)=>{try{const u=new URL(req.url,'http://1
 await new Promise(resolve=>server.listen(4173,'127.0.0.1',resolve));await mkdir('test-results',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
 const context=await browser.newContext({viewport:{width:1440,height:1050},permissions:['clipboard-read','clipboard-write']});
-const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
+const page=await context.newPage();const errors=[];const imageResponses=new Map();const imageDecodeChecks=[];
+page.on('response',r=>{if(r.request().resourceType()==='image')imageResponses.set(r.url(),{status:r.status(),contentType:r.headers()['content-type']??null,contentLength:r.headers()['content-length']??null});});
+page.on('requestfailed',r=>{if(r.resourceType()==='image')imageResponses.set(r.url(),{requestFailure:r.failure()?.errorText??'unknown'});});
+page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
 const home='http://127.0.0.1:4173/meshcopia/';
 async function loadImages(){
- for(const img of await page.locator('img:visible').all()) await img.scrollIntoViewIfNeeded();
- await page.waitForFunction(()=>[...document.images].filter(i=>i.getClientRects().length).every(i=>i.complete&&i.naturalWidth>0));
- await page.evaluate(async()=>{await Promise.all([...document.images].filter(i=>i.getClientRects().length).map(i=>i.decode()));document.activeElement?.blur();window.scrollTo({top:0,behavior:'instant'});await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))});
+ const images=await page.locator('img:visible').all();
+ const batch={page:page.url(),expectedImages:images.length,images:[]};
+ imageDecodeChecks.push(batch);
+ await page.evaluate(()=>{
+  window.__imageCheckTransitions=[];
+  window.__imageCheckObserver?.disconnect();
+  window.__imageCheckObserver=new MutationObserver(records=>{
+   for(const r of records){if(r.target instanceof HTMLImageElement&&window.__imageCheckTransitions.length<1000)window.__imageCheckTransitions.push({attribute:r.attributeName,oldValue:r.oldValue,newValue:r.target.getAttribute(r.attributeName),currentSrc:r.target.currentSrc,complete:r.target.complete,naturalWidth:r.target.naturalWidth,naturalHeight:r.target.naturalHeight});}
+  });
+  window.__imageCheckObserver.observe(document,{subtree:true,attributes:true,attributeOldValue:true,attributeFilter:['src','srcset','sizes','loading']});
+ });
+ let current={};
+ try{
+  // Bound decoded-image pressure without skipping any image or accepting a failed decode.
+  for(let index=0;index<images.length;index++){
+   const img=images[index];current={index};
+   current.beforeWait=(await img.evaluate(inspectImageDecode,{decode:false})).before;
+   await img.scrollIntoViewIfNeeded();
+   const handle=await img.elementHandle();
+   assert.ok(handle,'image disappeared before load wait');
+   try{await page.waitForFunction(el=>el.isConnected&&el.complete&&el.naturalWidth>0&&el.naturalHeight>0,handle,{timeout:30000});}finally{await handle.dispose();}
+   current.decode=await img.evaluate(inspectImageDecode);
+   const url=current.decode.after?.currentSrc||current.decode.before.currentSrc;
+   current.http=imageResponses.get(url)??null;
+   batch.images.push(current);
+   assert.equal(current.decode.ok,true,`Image decode failed: ${JSON.stringify(current)}`);
+  }
+  batch.finalImages=await page.locator('img:visible').count();
+  assert.equal(batch.finalImages,images.length,'Visible image DOM changed while verifying images');
+  batch.domTransitions=await page.evaluate(()=>window.__imageCheckTransitions);
+  await writeFile('test-results/image-decode-checks.json',JSON.stringify(imageDecodeChecks,null,2));
+  await page.evaluate(async()=>{document.activeElement?.blur();window.scrollTo({top:0,behavior:'instant'});await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))});
+ }catch(error){
+  current.afterFailure=images[current.index]?await images[current.index].evaluate(inspectImageDecode,{decode:false}).catch(e=>({inspectionError:e.message})):null;
+  const url=current.afterFailure?.before?.currentSrc||current.beforeWait?.currentSrc;
+  current.http=imageResponses.get(url)??current.http??null;
+  batch.failure={message:error.message,current};
+  batch.domTransitions=await page.evaluate(()=>window.__imageCheckTransitions).catch(()=>[]);
+  await writeFile('test-results/image-decode-failure.json',JSON.stringify(batch,null,2));
+  await writeFile('test-results/image-decode-checks.json',JSON.stringify(imageDecodeChecks,null,2));
+  throw error;
+ }finally{await page.evaluate(()=>window.__imageCheckObserver?.disconnect()).catch(()=>{});}
 }
 try{
  await testUsagesBrowser(page,home);
