@@ -1,0 +1,58 @@
+{
+  "id": "commons-cafe-props",
+  "type": "texture",
+  "title": "コモンズ・カフェ小物プリント",
+  "titleEn": "Commons Cafe prop prints",
+  "description": "機材パネル・本の背表紙・コーヒー袋の4領域アトラス。元の縦横比を保持。 ベースカラー画像のみ。Clampで使用。シームレス反復には対応しません。",
+  "descriptionEn": "An atlas of equipment panels, book spines and coffee packaging in its original aspect ratio. Base color only. Use Clamp. This atlas does not support seamless tiling.",
+  "category": "atlases",
+  "tags": [
+    "commons",
+    "cafe",
+    "オリジナル",
+    "base-color",
+    "clamp",
+    "cafe",
+    "props",
+    "atlas",
+    "アトラス",
+    "non-tileable"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "Original AI-generated cafe texture, copied byte-for-byte from its recorded source",
+    "tool": "Built-in image_gen (original generation); Pillow (thumbnail only)",
+    "rights": "Xenoah original image. On 2026-10-14 the owner authorized its publication in the CC-BY-4.0 Meshcopia library. No third-party photograph or texture is included.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+    "sourceCommit": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+    "sourcePixelsUnchanged": true,
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/import-commons-textures.py",
+    "sourceFiles": {
+      "Unity/Assets/TheCommons/Textures/cafe_props_albedo.png": "bc3f26f6ec15b16436345e5cef34bbf245d22b7d2bcd90fa6fb033177cd99313",
+      "Documentation/texture_provenance.json": "143ddf6b50f2d29c7a7b1934f2c87ed979297c1efdeaacc109edd387746493cd"
+    },
+    "changes": "Original PNG is unchanged. A separate resized WebP thumbnail and metadata were added. Original Clamp sampling is retained.",
+    "generationBrief": "Four-cell prop print atlas: brass ANCHOR ESPRESSO control panel, COMMONS AUDIO rack, six book spines CODE SOUND SPACE FORM LIGHT IDEAS, COMMON GROUND coffee package."
+  },
+  "seamless": false,
+  "wrapMode": "clamp",
+  "width": 1774,
+  "height": 887,
+  "resolution": 1774,
+  "maps": {
+    "baseColor": "cafe_props_albedo.png"
+  },
+  "colorSpace": {
+    "baseColor": "sRGB"
+  },
+  "roughness": 0.73,
+  "metalness": 0,
+  "usage": "Clampで使用。シームレス反復には対応しません。",
+  "usageEn": "Use Clamp. This atlas does not support seamless tiling."
+}

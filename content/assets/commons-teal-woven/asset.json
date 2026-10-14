@@ -1,0 +1,57 @@
+{
+  "id": "commons-teal-woven",
+  "type": "texture",
+  "title": "コモンズ・ティールの織布",
+  "titleEn": "Commons Teal woven fabric",
+  "description": "細密な織り目の深い青緑色の布。椅子やソファの張り地に。 ベースカラー画像のみ。Mirror / MirroredRepeatWrappingを両軸に設定。通常Repeat用の対向辺一致は保証しません。",
+  "descriptionEn": "Deep teal woven upholstery for chairs and sofas. Base color only. Set both axes to Mirror / MirroredRepeatWrapping. Opposite edges are not guaranteed to match under ordinary Repeat.",
+  "category": "materials",
+  "tags": [
+    "commons",
+    "cafe",
+    "オリジナル",
+    "base-color",
+    "mirror",
+    "teal",
+    "woven",
+    "鏡像リピート",
+    "material"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "Original AI-generated cafe texture, copied byte-for-byte from its recorded source",
+    "tool": "Built-in image_gen (original generation); Pillow (thumbnail only)",
+    "rights": "Xenoah original image. On 2026-10-14 the owner authorized its publication in the CC-BY-4.0 Meshcopia library. No third-party photograph or texture is included.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+    "sourceCommit": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+    "sourcePixelsUnchanged": true,
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/import-commons-textures.py",
+    "sourceFiles": {
+      "Unity/Assets/TheCommons/Textures/teal_woven_albedo.png": "9ccf88a755b0ecc9c44e6a44c51b460135395300d59f68e91353471a42d627cd",
+      "Documentation/texture_provenance.json": "143ddf6b50f2d29c7a7b1934f2c87ed979297c1efdeaacc109edd387746493cd"
+    },
+    "changes": "Original PNG is unchanged. A separate resized WebP thumbnail and metadata were added. Original Mirror / mirrored-repeat sampling is retained.",
+    "generationBrief": "Deep desaturated petrol teal upholstery fabric, extremely fine tightly woven basket weave visible across uniform textile surface, soft small interlaced fibers, low contrast. NO folds, no seams, no buttons."
+  },
+  "seamless": true,
+  "wrapMode": "mirror",
+  "width": 1254,
+  "height": 1254,
+  "resolution": 1254,
+  "maps": {
+    "baseColor": "teal_woven_albedo.png"
+  },
+  "colorSpace": {
+    "baseColor": "sRGB"
+  },
+  "roughness": 0.96,
+  "metalness": 0,
+  "usage": "Mirror / MirroredRepeatWrappingを両軸に設定。通常Repeat用の対向辺一致は保証しません。",
+  "usageEn": "Set both axes to Mirror / MirroredRepeatWrapping. Opposite edges are not guaranteed to match under ordinary Repeat."
+}

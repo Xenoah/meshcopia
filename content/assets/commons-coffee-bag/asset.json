@@ -1,0 +1,59 @@
+{
+  "id": "commons-coffee-bag",
+  "title": "コモンズ・コーヒー袋",
+  "titleEn": "Commons coffee bag",
+  "description": "架空ブランドCOMMON GROUNDのコーヒー袋。上部の折り留めと生成オリジナルのパッケージ画像付き。",
+  "descriptionEn": "A fictional COMMON GROUND coffee package with a top fold and original generated print.",
+  "category": "props",
+  "type": "model",
+  "tags": [
+    "commons",
+    "cafe",
+    "オリジナル",
+    "props",
+    "coffee",
+    "bag"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "provenance": {
+    "method": "Original procedural cafe geometry with original AI-generated material images",
+    "tool": "Blender 4.5.14; Meshcopia cafe extraction script",
+    "rights": "Xenoah original assets. On 2026-10-14 the owner requested their publication in the CC-BY-4.0 Meshcopia library. No third-party model, SDK, vehicle, font or poster is included.",
+    "sourceUrl": "https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2",
+    "sourceCommit": "784e040a866c0081d6641c03cbf7f23d48a59dc2",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/import-commons-cafe.py",
+    "sourceObjects": [
+      "FURN_BagFold",
+      "FURN_CoffeeBag"
+    ],
+    "sourceCollection": "FURN_Bar",
+    "sourceFiles": {
+      "Blender/The_Commons_Compact.blend": "bae03d811a95dc7b9b91805b90c5109eac8ae08ed3dbf31e1a83afeb1beed778",
+      "Blender/build_world.py": "a9246207facef7f2728df7511ab0c1e81bfe5f3cc94a2048022551a1edf62d7b",
+      "Documentation/texture_provenance.json": "143ddf6b50f2d29c7a7b1934f2c87ed979297c1efdeaacc109edd387746493cd",
+      "Unity/Assets/TheCommons/Textures/cafe_props_albedo.png": "bc3f26f6ec15b16436345e5cef34bbf245d22b7d2bcd90fa6fb033177cd99313",
+      "Unity/Assets/TheCommons/Textures/satin_brass_albedo.png": "03ac661503ff10aff54d0e881620a714a25aba843293c0580f7a945af9a4269c"
+    },
+    "embeddedImageSha256": [
+      "03ac661503ff10aff54d0e881620a714a25aba843293c0580f7a945af9a4269c",
+      "bc3f26f6ec15b16436345e5cef34bbf245d22b7d2bcd90fa6fb033177cd99313"
+    ],
+    "changes": "Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 120,
+  "dimensions": [
+    0.17,
+    0.302,
+    0.11
+  ],
+  "preview": "commons-coffee-bag.glb",
+  "uv": "Original UVs; architectural materials use mirrored repeat, panel artwork uses clamp. STL has no colors or UVs. Not validated for 3D printing."
+}
