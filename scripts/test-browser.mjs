@@ -20,6 +20,7 @@ try{
  await page.goto(home);await page.waitForSelector('[data-card]');
  await loadImages();
  assert.equal(await page.locator('[data-card]:visible').count(),catalog.length);
+ for(const a of catalog.filter(a=>a.id.startsWith('commons-'))){const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});assert.equal(await card.locator('.card-info p').textContent(),`${a.triangles.toLocaleString()} tris · GLB / STL`);}
  await page.screenshot({path:'test-results/desktop-catalog.png',fullPage:false});
  await page.screenshot({path:'test-results/desktop-catalog-full.png',fullPage:true});
  await page.locator('[data-type-filter="model"]').click();assert.equal(await page.locator('[data-card]:visible').count(),countType('model'));

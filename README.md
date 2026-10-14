@@ -4,9 +4,9 @@
 
 [素材ライブラリ](https://xenoah.github.io/meshcopia/) · [Releases](https://github.com/Xenoah/meshcopia/releases) · [エージェント向けJSON](https://xenoah.github.io/meshcopia/api/catalog.json)
 
-![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.1.0-rc.1/desktop-catalog-full.png)
+![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.1.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [追加素材プレリリース v1.1.0-rc.1](https://github.com/Xenoah/meshcopia/releases/tag/v1.1.0-rc.1)。3Dモデル20点とシームレステクスチャ6点を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.1.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.1.0)。3Dモデル20点とシームレステクスチャ6点を無料で取得できます。
 
 ## できること
 

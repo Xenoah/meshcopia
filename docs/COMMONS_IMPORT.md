@@ -76,3 +76,9 @@ embedded-image hashes, mirror/clamp sampling, GLB/STL triangle consistency,
 archive attribution/dependencies, internal links, and Chromium loading of every
 new model. Browser screenshots are attached to the release. Unity/VRChat runtime
 and physical devices are outside this extraction's verification.
+
+Observed: RC workflow `38554056814` passed all gates, loaded every new GLB in
+Chromium, published the site and created `v1.1.0-rc.1`. The imported asset commit
+is `ad3e370721ce0d575c907ea65783e1d5c8ba55a3`. All 12 Blender thumbnails were
+visually inspected. The final release corrects a catalog card label that had
+assumed every model supplied OBJ; cards now list their actual available formats.
