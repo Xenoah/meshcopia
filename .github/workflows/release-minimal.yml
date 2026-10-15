@@ -1,0 +1,39 @@
+name: Transport reviewed original 173 minimal packages
+on:
+  push:
+    branches: [minimal/release-existing173-v1]
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-minimal-release-minimal-v1.0.0
+  cancel-in-progress: false
+jobs:
+  transport:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && github.ref == 'refs/heads/minimal/release-existing173-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Test transport safeguards without network or release mutation
+        run: python3 -m unittest discover -s scripts/minimal-transport -p 'test_*.py' -v
+      - name: Copy exact reviewed artifact and verify public bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/minimal-transport/transport.py --repo "$GITHUB_WORKSPACE" --work "$RUNNER_TEMP/minimal-transport"
+      - name: Preserve internal transport evidence and consequential-step journal
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: minimal-transport-evidence-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/minimal-transport/T-evidence.json
+            ${{ runner.temp }}/minimal-transport/journal.jsonl
+          if-no-files-found: warn
+          retention-days: 30
