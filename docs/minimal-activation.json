@@ -1,5 +1,15 @@
 {
   "schemaVersion": 1,
   "repository": "Xenoah/meshcopia",
-  "activations": []
+  "activations": [
+    {
+      "cohort": "published173",
+      "releaseTag": "minimal-v1.0.0",
+      "releaseId": 414332464,
+      "verificationCommit": "32f60a0adb144155574136a14476c30010e0d84b",
+      "inventorySha256": "6cd163e6683650a77e52649d8740feb19d614204473269a635789756fd39e463",
+      "transportEvidenceFile": "docs/minimal-publication/minimal-v1.0.0-T-evidence.json",
+      "transportEvidenceSha256": "b81fc4360478a512426ec607b7aac9ef2ae6f536e9b29218bf19507c37004b39"
+    }
+  ]
 }

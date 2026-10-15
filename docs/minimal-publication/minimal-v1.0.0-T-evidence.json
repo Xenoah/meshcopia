@@ -1,0 +1,1406 @@
+{
+  "assets": [
+    {
+      "anonymousReadback": true,
+      "assetId": 645355785,
+      "bytes": 23249,
+      "name": "atelier-lamp-1.0.1-minimal-1.0.0.zip",
+      "sha256": "907bebd45c5195a699131f3c8789d52cb065eb09206c9b22a585be7d3f66f02c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/atelier-lamp-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645355805,
+      "bytes": 92587,
+      "name": "brushed-aluminum-1.0.1-minimal-1.0.0.zip",
+      "sha256": "a4d8c7009dc5d65d053d6f629eb71d3d2d6a4d7a8c11cc5e6f0e8521c017a207",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/brushed-aluminum-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645355822,
+      "bytes": 980982,
+      "name": "cedar-boards-1.0.1-minimal-1.0.0.zip",
+      "sha256": "f0d0fce49350459b840efb229406419e4f27beb88ea24d2577af872638354af3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/cedar-boards-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645355856,
+      "bytes": 68294,
+      "name": "city-aed-cabinet-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e1b8fbd8d199b4a2e7586126c42e83c89a86c287e2bb3b5a9966190991334fcc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-aed-cabinet-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645355889,
+      "bytes": 135917,
+      "name": "city-bicycle-repair-stand-1.0.0-minimal-1.0.0.zip",
+      "sha256": "bde3af55850482b4953b956b6556d9d8aba472c27d0f8157dd8bf54146f0e760",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-bicycle-repair-stand-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645355936,
+      "bytes": 109948,
+      "name": "city-bollard-1.0.0-minimal-1.0.0.zip",
+      "sha256": "cad52fd52060ca33ab809728da6d67020306036c515ef1be3a8d85004e9ec8f2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-bollard-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645355976,
+      "bytes": 424171,
+      "name": "city-bus-shelter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e172eaaa30973b4cad2e0fadbde3833c5fc83603c6566d77bd3304ccb4ab7e07",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-bus-shelter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356012,
+      "bytes": 37891,
+      "name": "city-cable-protector-1.0.0-minimal-1.0.0.zip",
+      "sha256": "4aea7c7b464e5e15dc29c7b569423e8355fc7c8c390d8bb0c9a8e3854b65dbe5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-cable-protector-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356054,
+      "bytes": 93101,
+      "name": "city-cable-tray-elbow-1.0.0-minimal-1.0.0.zip",
+      "sha256": "931db8ee0364531fd818d7033989f91490a34f22f7baa617f371958874e5cf1f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-cable-tray-elbow-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356080,
+      "bytes": 88064,
+      "name": "city-casement-window-1.0.0-minimal-1.0.0.zip",
+      "sha256": "eef6587ee728e15109de7a00fdb78a7d3a72ce2b08b99ec93477127968976e51",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-casement-window-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356097,
+      "bytes": 2084945,
+      "name": "city-commuter-bicycle-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e856d684e1684109003a0ab83cfb18b40de1ea84b9bdc84dd631ed50b03ed012",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-commuter-bicycle-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356135,
+      "bytes": 779302,
+      "name": "city-concrete-mixer-1.0.0-minimal-1.0.0.zip",
+      "sha256": "9c044fa791b1e86beaaad098da7073f9e690831b457b12a4da583b297e7435f5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-concrete-mixer-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356170,
+      "bytes": 317157,
+      "name": "city-construction-wheelbarrow-1.0.0-minimal-1.0.0.zip",
+      "sha256": "de81bdbcb768dc5e0e156a9da27c533b8f5da338afef8ba8a1b043e55550e002",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-construction-wheelbarrow-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356202,
+      "bytes": 484374,
+      "name": "city-convex-mirror-1.0.0-minimal-1.0.0.zip",
+      "sha256": "5d1ebbc5ef6947d0fb23bf568477393ddff415de4634d6d0bb915b1fe1c51545",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-convex-mirror-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356228,
+      "bytes": 425974,
+      "name": "city-crossing-pushbutton-1.0.0-minimal-1.0.0.zip",
+      "sha256": "9e1df44570a6f936ade00571d1f265a8d3f7bed4bc09488a3b99c53c2e52355c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-crossing-pushbutton-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356250,
+      "bytes": 18898,
+      "name": "city-curb-corner-1.0.0-minimal-1.0.0.zip",
+      "sha256": "c66f7db92195b522144fe80cb2170bb13ec41983093953d99aa1fcbfb4a98cc9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-curb-corner-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356275,
+      "bytes": 20158,
+      "name": "city-curb-ramp-1.0.0-minimal-1.0.0.zip",
+      "sha256": "241857bc44fdd1552425d71d1b831659c05be53171a9efcbd3668e0c09100ac1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-curb-ramp-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356295,
+      "bytes": 64750,
+      "name": "city-cycle-rack-1.0.0-minimal-1.0.0.zip",
+      "sha256": "8f889fb41a7edcba3baf6977d4a84a1e625853e45a27e6fd3ccf27cc6b683c8b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-cycle-rack-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356314,
+      "bytes": 452338,
+      "name": "city-downspout-1.0.0-minimal-1.0.0.zip",
+      "sha256": "4b4ff84f219db4f2561d4d1d8be00db7e7e7396fbe94150fdb11db05cf9431b3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-downspout-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356356,
+      "bytes": 393049,
+      "name": "city-drinking-fountain-1.0.0-minimal-1.0.0.zip",
+      "sha256": "afce42eb8b60c4e5b9a1fd76f5aeab29da11163f2e27775a22645c0dbf402287",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-drinking-fountain-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356398,
+      "bytes": 963268,
+      "name": "city-electric-kick-scooter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "81c8b767cb253f306afee4946719460a533a8bf36215834ef33ff2abcd4e8429",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-electric-kick-scooter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356416,
+      "bytes": 313545,
+      "name": "city-ev-charger-1.0.0-minimal-1.0.0.zip",
+      "sha256": "c4ea6b1d6259f2aaf80d3bf02abbfde22bca0eb7693b7db94781ea266026fa3c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-ev-charger-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356446,
+      "bytes": 152233,
+      "name": "city-exterior-clock-1.0.0-minimal-1.0.0.zip",
+      "sha256": "4bd3801a46301da6f088a6bba914abb664ec5bdab74e5dde88825d35a8078a9b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-exterior-clock-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356473,
+      "bytes": 463933,
+      "name": "city-fire-hose-cabinet-1.0.0-minimal-1.0.0.zip",
+      "sha256": "2a6ad2d234704c9fa3dc33225b66a0648b30fa0fd8f190aba2313ec6f4f5958d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-fire-hose-cabinet-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356492,
+      "bytes": 659344,
+      "name": "city-fire-hydrant-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e97eee0aeae7d6750501826ce0ef0132fffd3d6335b8a8e483c1dd610fe3b131",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-fire-hydrant-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356535,
+      "bytes": 115167,
+      "name": "city-glazed-entry-door-1.0.0-minimal-1.0.0.zip",
+      "sha256": "1f0b2d76ffc1880cbabc583cdbfac2ad9dcd9c1b3d67de741f808f2f1e463b4f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-glazed-entry-door-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356586,
+      "bytes": 674772,
+      "name": "city-hvac-condenser-1.0.0-minimal-1.0.0.zip",
+      "sha256": "92cb8ae736c00410f0d429d0f4c63ddf76dcf6f8d344d053633d4f31f33ae882",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-hvac-condenser-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356641,
+      "bytes": 499871,
+      "name": "city-inspection-cover-1.0.0-minimal-1.0.0.zip",
+      "sha256": "360a621371015f079702dfedcd42898eb7a3c03e0fb75a9bda5acdffa634fa24",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-inspection-cover-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356689,
+      "bytes": 168360,
+      "name": "city-lifebuoy-station-1.0.0-minimal-1.0.0.zip",
+      "sha256": "63b43ec491e59a0990fc0735f7d84395fc8cfcd9f807b83cf577e7de30372be7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-lifebuoy-station-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356729,
+      "bytes": 192722,
+      "name": "city-litter-bin-1.0.0-minimal-1.0.0.zip",
+      "sha256": "8b4e10b98f19171d54afc07669052c70bc47227e3a9eb2a474d0e5417a6d6699",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-litter-bin-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356753,
+      "bytes": 105392,
+      "name": "city-maintenance-ladder-1.0.0-minimal-1.0.0.zip",
+      "sha256": "5b8445718b6cbd280e3fb17a69fe94dcb793ea0ffb304826add5ee84a4befa1d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-maintenance-ladder-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356782,
+      "bytes": 608874,
+      "name": "city-pallet-jack-1.0.0-minimal-1.0.0.zip",
+      "sha256": "236929599987c2a852213b94739e1519f8958bf8ba4b654832b8e09112214c95",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-pallet-jack-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356812,
+      "bytes": 330584,
+      "name": "city-parcel-locker-1.0.0-minimal-1.0.0.zip",
+      "sha256": "20203fe34e983e58c90871067a4bfa79c5e5236bf5bb73341b7de5245a29cf8f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-parcel-locker-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356845,
+      "bytes": 343790,
+      "name": "city-parking-boom-gate-1.0.0-minimal-1.0.0.zip",
+      "sha256": "a411b4ab54a6edb6f358747b8118b38a7c8e4a5d2fe9c696e564b90132ced774",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-parking-boom-gate-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356862,
+      "bytes": 305380,
+      "name": "city-parking-meter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "7ac4bf55db3dc94663623c8cbd2725775ebea0ab3231711abe8fd961ea25e1b7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-parking-meter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356882,
+      "bytes": 49922,
+      "name": "city-pedestrian-railing-1.0.0-minimal-1.0.0.zip",
+      "sha256": "2da88e34a1e102a10c629801014b5b313452533a2622a30705e602ff247822b8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-pedestrian-railing-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356904,
+      "bytes": 39392,
+      "name": "city-pet-bag-dispenser-1.0.0-minimal-1.0.0.zip",
+      "sha256": "eedeb0f8ebea6da4831dcea30379e6f4c6971849454f8af869f6c1b1c1a061cb",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-pet-bag-dispenser-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356917,
+      "bytes": 150184,
+      "name": "city-playground-slide-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d055d30f193091b07501e666e1bc29d7f7ed7dcf2e493765dd92733fd471f3f1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-playground-slide-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356945,
+      "bytes": 337566,
+      "name": "city-playground-swing-1.0.0-minimal-1.0.0.zip",
+      "sha256": "9ced2eb6b361c213388c95a3bdff26fd9a2373699c1fce89a62ddde738759474",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-playground-swing-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356972,
+      "bytes": 275267,
+      "name": "city-portable-toilet-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0a775ea9436d8236b70f8e0ea5b14b8cd5099c003652621b086a7519d2db138d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-portable-toilet-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645356996,
+      "bytes": 176974,
+      "name": "city-postal-box-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f4b286063adb9eac53cb19bc894eabfb8cd57457cdc03a4f85b76c39ae1d66fb",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-postal-box-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357011,
+      "bytes": 6591958,
+      "name": "city-pruned-street-tree-1.0.0-minimal-1.0.0.zip",
+      "sha256": "803a04a52d7388925af2cbeedfe8c19144a8e5801b0955942d8afd6f623e7979",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-pruned-street-tree-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357045,
+      "bytes": 315162,
+      "name": "city-public-telephone-1.0.0-minimal-1.0.0.zip",
+      "sha256": "3f4c98e63d675da2c392af784ae8d0b8d4abed7a70aa06d596ad7b5fe17be986",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-public-telephone-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357068,
+      "bytes": 406836,
+      "name": "city-recycling-station-1.0.0-minimal-1.0.0.zip",
+      "sha256": "ba916a6e0e5a8565422e55c6998294d6581815e57b488d795bd08c6ae93d4052",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-recycling-station-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357105,
+      "bytes": 117265,
+      "name": "city-retractable-awning-1.0.0-minimal-1.0.0.zip",
+      "sha256": "09b49be6d0c79b59fae6bbe64c03721ff1b532c34c9a16dc5022084ddab29a11",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-retractable-awning-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357128,
+      "bytes": 145652,
+      "name": "city-road-barrier-1.0.0-minimal-1.0.0.zip",
+      "sha256": "c5f7e42066d0a55d9ed199719a28bbd99981dac098ced366ee4049a6f74f76d3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-road-barrier-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357149,
+      "bytes": 169369,
+      "name": "city-roller-shutter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0b6d45d333a9c1271b4a07e8d4a0cb0341c3c80a517232b9737db0ee843918de",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-roller-shutter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357169,
+      "bytes": 85544,
+      "name": "city-roof-access-hatch-1.0.0-minimal-1.0.0.zip",
+      "sha256": "405f68b4049ad3c27c83902bc34399806c7786386650889622aece20b6ae0a80",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-roof-access-hatch-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357191,
+      "bytes": 405937,
+      "name": "city-roof-exhaust-cowl-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d67b9305bdb1eda0d6b9aeb8f0fed2e57ea62864cf6a00dc9f5cc338030a55f3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-roof-exhaust-cowl-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357202,
+      "bytes": 854348,
+      "name": "city-sack-hand-truck-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d41f93539107a7be7c4ce49e25bc3f25c32d47b06fb0137b8a4a363ed76c0bf6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-sack-hand-truck-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357245,
+      "bytes": 773595,
+      "name": "city-satellite-dish-1.0.0-minimal-1.0.0.zip",
+      "sha256": "10ad2ec5052c4026e613377bdd9377f1fa5297d91bcdf05a493f6897ff3d0d1e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-satellite-dish-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357270,
+      "bytes": 640724,
+      "name": "city-scaffold-bay-1.0.0-minimal-1.0.0.zip",
+      "sha256": "a4d791f80c77dc56427b7a906a4e2ba679e12da10b2a708f52148e9bceef4f19",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-scaffold-bay-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357302,
+      "bytes": 146161,
+      "name": "city-security-camera-1.0.0-minimal-1.0.0.zip",
+      "sha256": "7a51b1d17d1119fc696ecddf7faccbc80aa487b07b175e6b4cffc255dd43f7d3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-security-camera-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357322,
+      "bytes": 974155,
+      "name": "city-shopping-trolley-1.0.0-minimal-1.0.0.zip",
+      "sha256": "aefa9a6ef33194f068f86975d43cdf666ba5da239e806a6b064f9744b3e00e48",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-shopping-trolley-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357348,
+      "bytes": 275931,
+      "name": "city-solar-module-rack-1.0.0-minimal-1.0.0.zip",
+      "sha256": "4e14fe9e30b05102e2af5f27ad9cefcebac8b1b6f90ee94f05889e826dbfc0a1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-solar-module-rack-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357371,
+      "bytes": 45562,
+      "name": "city-speed-cushion-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f675c39e7b245aaf7be733e8e8c66e2b1f336d4c08a97b3e5c12a4bfe5f89969",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-speed-cushion-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357395,
+      "bytes": 106680,
+      "name": "city-storm-drain-1.0.0-minimal-1.0.0.zip",
+      "sha256": "6422473d2c668e6adaa69802ef1769fb8ff5c72852638aae4ce2c0ba7cc28db1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-storm-drain-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357423,
+      "bytes": 210645,
+      "name": "city-streetlight-1.0.0-minimal-1.0.0.zip",
+      "sha256": "2db17a7d6038f75056ea99c1e6183d70f4b7d4819b04f9f2746f3a659e5ee9b3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-streetlight-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357447,
+      "bytes": 37858,
+      "name": "city-tactile-paving-1.0.0-minimal-1.0.0.zip",
+      "sha256": "a9a29e2c06eca999cfdfb2dc79da60f4a86a30c5d1b1e1b2633c7ae223359053",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-tactile-paving-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357462,
+      "bytes": 201450,
+      "name": "city-ticket-validator-1.0.0-minimal-1.0.0.zip",
+      "sha256": "17613e60e57f3ff92d52a96770a55068bd1c6ba29da9736dd354c4b9d89f960d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-ticket-validator-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357501,
+      "bytes": 44953,
+      "name": "city-traffic-cone-1.0.0-minimal-1.0.0.zip",
+      "sha256": "bd84e67738636081192b3b487ac8a7953e002d9c29f5a0e0e166c5cfc196e921",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-traffic-cone-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357531,
+      "bytes": 517137,
+      "name": "city-traffic-signal-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e0cdd51d0d42c8c8452590b54153b00d78536aebee09348b179abda751eb0011",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-traffic-signal-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357551,
+      "bytes": 55209,
+      "name": "city-tree-grate-1.0.0-minimal-1.0.0.zip",
+      "sha256": "fdcafbcf4ff377a75bbad3baab506c5b6ab9fd0edf60ec0a39ee6a200dace295",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-tree-grate-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357573,
+      "bytes": 51869,
+      "name": "city-tree-guard-1.0.0-minimal-1.0.0.zip",
+      "sha256": "b514d4aa212068a530f3965bbec5df7dcf45e878c1d4515d081a00697f058b55",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-tree-guard-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357603,
+      "bytes": 89220,
+      "name": "city-tripod-turnstile-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0dd97b5930f41ff45de4583aaa2bb3f0f77d111bf847a9e6476c549160aa1900",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-tripod-turnstile-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357625,
+      "bytes": 870597,
+      "name": "city-vending-machine-1.0.0-minimal-1.0.0.zip",
+      "sha256": "ac3f58d97b470edaac6a531549eec5d035d5b75bd3323e4ef1cd215686680422",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-vending-machine-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357648,
+      "bytes": 259120,
+      "name": "city-ventilation-outlet-1.0.0-minimal-1.0.0.zip",
+      "sha256": "9cb0c8e78b8a65f6ef0b27d81e20f6b386643c0f1dd7f64e20286dbb74a8870a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-ventilation-outlet-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357675,
+      "bytes": 133437,
+      "name": "city-wall-intercom-1.0.0-minimal-1.0.0.zip",
+      "sha256": "406afce0d6b9e31544fdc39243369902a1470317b8755c202cf4454f555f404e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-wall-intercom-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357692,
+      "bytes": 20265,
+      "name": "city-wheel-stop-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d56471db7e3dc8585c84c77975b311a63b772cbd0b8253379b1eae56dd387fd7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/city-wheel-stop-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357719,
+      "bytes": 731644,
+      "name": "clay-brick-1.0.1-minimal-1.0.0.zip",
+      "sha256": "8e82f9eedba763d726d51efddeddc1c1b356fb90cb77182545deaa686bb61ed5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/clay-brick-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357743,
+      "bytes": 473372,
+      "name": "cobalt-ceramic-1.0.1-minimal-1.0.0.zip",
+      "sha256": "d7751ed8dd351ea3617090ecc7ab1533934ebacae6b56d89ba70a0564552545a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/cobalt-ceramic-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357765,
+      "bytes": 7284376,
+      "name": "commons-bar-counter-1.0.1-minimal-1.0.0.zip",
+      "sha256": "4e96d19f9f222b8fea204b8a8fb49abc80021dfa3d754517d49521b4579478f9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-bar-counter-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357807,
+      "bytes": 3237391,
+      "name": "commons-bar-labels-1.0.1-minimal-1.0.0.zip",
+      "sha256": "d572cd6176912338ad74944688e5e58abf66e969047cf06d9a79431bca67ba1e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-bar-labels-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357841,
+      "bytes": 8222843,
+      "name": "commons-bar-stool-1.0.1-minimal-1.0.0.zip",
+      "sha256": "58ce189134ef35169fd8fea1c2073f2d3c4c7bdfa84d0de7f03fb4f04a16fe4b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-bar-stool-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357881,
+      "bytes": 3355389,
+      "name": "commons-basalt-terrazzo-1.0.1-minimal-1.0.0.zip",
+      "sha256": "6e031ebe8d567c8ae711fa70d9d7a7091b17e1c2b96bca9b615d7fc8b292a27b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-basalt-terrazzo-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357911,
+      "bytes": 2535448,
+      "name": "commons-blackened-steel-1.0.1-minimal-1.0.0.zip",
+      "sha256": "ffe3423a0a0bc8db98a99687f50f6fe75c5c144a6e7895401d4048402ad83b8b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-blackened-steel-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645357965,
+      "bytes": 8444078,
+      "name": "commons-book-set-1.0.1-minimal-1.0.0.zip",
+      "sha256": "36d5c7504ab9c39154579c8445abab372b730689fba0f59fa643ac9a95bfbf7c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-book-set-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358013,
+      "bytes": 5715155,
+      "name": "commons-bottle-set-1.0.1-minimal-1.0.0.zip",
+      "sha256": "1c42e1fb60b85ce370ee53d903decf906dee7717d80ee054c0b38159a4720851",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-bottle-set-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358060,
+      "bytes": 2950344,
+      "name": "commons-cafe-props-1.0.1-minimal-1.0.0.zip",
+      "sha256": "2299dbdac188f5bbcd90f285e9b7bfdfd8bd6e0fa84a156183b08999ea3a9b86",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-cafe-props-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358115,
+      "bytes": 5416192,
+      "name": "commons-coffee-bag-1.0.1-minimal-1.0.0.zip",
+      "sha256": "409664408f5b4338297f7c28bec651ca10ecbda4c9b70d0ea733b952cb2a5e73",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-coffee-bag-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358153,
+      "bytes": 7601,
+      "name": "commons-coffee-cup-1.0.1-minimal-1.0.0.zip",
+      "sha256": "a964acc6054acdd14998e1043d62979fdcb96c472a30ab3c4682c5d7694ca943",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-coffee-cup-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358178,
+      "bytes": 2539540,
+      "name": "commons-coffee-grinder-1.0.1-minimal-1.0.0.zip",
+      "sha256": "3b6ecb82aff096e04196f1355931626e7e496bb1d15695feb171c3aa973cbd96",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-coffee-grinder-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358245,
+      "bytes": 2561776,
+      "name": "commons-display-plinth-1.0.1-minimal-1.0.0.zip",
+      "sha256": "0f896a8a7df11780cac55a3f67b580269ebee9cb743ad0c17f7d4dc06ae1de5e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-display-plinth-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358303,
+      "bytes": 7418995,
+      "name": "commons-dj-controller-1.0.1-minimal-1.0.0.zip",
+      "sha256": "e5b013fcb0893d6fbab457ddf8568786cb0f1a010e153366bbe8a40b0e30faaf",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-dj-controller-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358331,
+      "bytes": 4817594,
+      "name": "commons-dj-desk-1.0.1-minimal-1.0.0.zip",
+      "sha256": "e969c48e52670a6c7a50097f1337d929f0de45445993cdba76075f0c786e4687",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-dj-desk-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358389,
+      "bytes": 5497440,
+      "name": "commons-equipment-rack-1.0.1-minimal-1.0.0.zip",
+      "sha256": "8a327d2ff18c46ca8efbef581d6eee191a83e839c06093e95714fb6fd2d307fe",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-equipment-rack-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358435,
+      "bytes": 7952910,
+      "name": "commons-espresso-machine-1.0.1-minimal-1.0.0.zip",
+      "sha256": "b3a4bb4d25fc8b52e11769997848b9c8f4ddf96658681d5f442c23a04dc48af6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-espresso-machine-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358475,
+      "bytes": 8465150,
+      "name": "commons-floating-bookshelf-1.0.1-minimal-1.0.0.zip",
+      "sha256": "05edda87329e88f8fe480edba4237ffb6d829e1e93477539f94f97a78d5bf167",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-floating-bookshelf-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358538,
+      "bytes": 2513810,
+      "name": "commons-halo-light-1.0.1-minimal-1.0.0.zip",
+      "sha256": "1c6b59db06bf4ead4b9a4b69ebb97c49851fd49117bdff16516b036e5fd92286",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-halo-light-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358571,
+      "bytes": 16655,
+      "name": "commons-leaf-planter-1.0.1-minimal-1.0.0.zip",
+      "sha256": "c499f76da3561c42fbd68ec2e7f1420c9f35f38bec2f47813d656ba793debc40",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-leaf-planter-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358587,
+      "bytes": 5684866,
+      "name": "commons-lounge-chair-1.0.1-minimal-1.0.0.zip",
+      "sha256": "1c71fdf9643f22e60344e563edd5f2f76bcdcf6d1972f20989774910e3e27758",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-lounge-chair-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358616,
+      "bytes": 5688562,
+      "name": "commons-lounge-sofa-1.0.1-minimal-1.0.0.zip",
+      "sha256": "095a26a213152cba90384403d37df399e836a24d05863760f0f70e35ad6af882",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-lounge-sofa-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358654,
+      "bytes": 7290755,
+      "name": "commons-low-table-1.0.1-minimal-1.0.0.zip",
+      "sha256": "e95fb87f867d1e4fb6238cc96063bbee4371db17e567bf4b24fa811a5d549257",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-low-table-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358686,
+      "bytes": 2988890,
+      "name": "commons-mineral-plaster-1.0.1-minimal-1.0.0.zip",
+      "sha256": "e7b9c23005f1a013796d8fc8767bd8d422129c300aca2192a74cbeef80c8a359",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-mineral-plaster-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358712,
+      "bytes": 2543529,
+      "name": "commons-pa-speaker-1.0.1-minimal-1.0.0.zip",
+      "sha256": "930c71dd2aa6bbce95c1d7ed858abc331d1feeb239bdfc003e247992a67eb604",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-pa-speaker-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358732,
+      "bytes": 2541946,
+      "name": "commons-pendant-light-1.0.1-minimal-1.0.0.zip",
+      "sha256": "e0893ecb49a3b6327d9ba2a0ea8fef422a2d1897ed50de62748842ca762153e1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-pendant-light-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358776,
+      "bytes": 2463272,
+      "name": "commons-poster-frame-1.0.1-minimal-1.0.0.zip",
+      "sha256": "d9a108ce3384372b23bdb5a4dc213ab1b1e56152be291ff24057df257f0198e8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-poster-frame-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358814,
+      "bytes": 2351423,
+      "name": "commons-relay-controller-1.0.1-minimal-1.0.0.zip",
+      "sha256": "d7e49d61ab88cee822b397e78fdaf1d6e4b2b6e7ae5005849061b8f77e8b305a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-relay-controller-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358859,
+      "bytes": 4855803,
+      "name": "commons-round-stage-1.0.1-minimal-1.0.0.zip",
+      "sha256": "84c2673dc0c2b5418cfac41c53f4cedf2757eb1ce192bd633ba4ff29d05d8385",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-round-stage-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358896,
+      "bytes": 7290423,
+      "name": "commons-round-table-1.0.1-minimal-1.0.0.zip",
+      "sha256": "58104c9838fb03a7a510078117aeb19c1060891d4302b0cbf3b79176d7e621f6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-round-table-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358923,
+      "bytes": 2461551,
+      "name": "commons-satin-brass-1.0.1-minimal-1.0.0.zip",
+      "sha256": "6a7fd8b9f47d4d35dc90cb2a7fcf5b744c35f546f774ba9ecaf8e2a8597bde93",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-satin-brass-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358949,
+      "bytes": 3751,
+      "name": "commons-table-candle-1.0.1-minimal-1.0.0.zip",
+      "sha256": "fdb5bad503408f19eebc163e46c9047c702939577491f73ce6de9164b456a5f6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-table-candle-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645358966,
+      "bytes": 3214043,
+      "name": "commons-teal-woven-1.0.1-minimal-1.0.0.zip",
+      "sha256": "ac8209b7aad1cef820873611426711f608d61a072bf10aeea4e04ebb4988bec1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-teal-woven-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359001,
+      "bytes": 2277170,
+      "name": "commons-warm-oak-1.0.1-minimal-1.0.0.zip",
+      "sha256": "89fba4d903a885b10ea1b3c38ecac13fbfd0ffd84b66a2fac4971321dca6b7ff",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/commons-warm-oak-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359021,
+      "bytes": 4117,
+      "name": "field-terminal-1.0.1-minimal-1.0.0.zip",
+      "sha256": "c62686d9fb311ddbb23dd97b9a7847294d88d03b6bedd061a5127fa1596ab0a8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/field-terminal-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359043,
+      "bytes": 7475,
+      "name": "garden-arch-1.0.1-minimal-1.0.0.zip",
+      "sha256": "e8ab5e9114b62df609398e9317ca74649c0e9066eed24bf361c00664774d81c7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/garden-arch-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359060,
+      "bytes": 8518,
+      "name": "market-crate-1.0.1-minimal-1.0.0.zip",
+      "sha256": "475482f39ac2e927f75ce3319668b0c4354662333a755bde1d385a62f53b0ba1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/market-crate-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359086,
+      "bytes": 259965,
+      "name": "minimal-inventory.json",
+      "sha256": "6cd163e6683650a77e52649d8740feb19d614204473269a635789756fd39e463",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/minimal-inventory.json"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359100,
+      "bytes": 322343,
+      "name": "sage-terrazzo-1.0.1-minimal-1.0.0.zip",
+      "sha256": "d704e068caaddbc1bca91bf4c631e23edf69323357e4c90399a47b3a690c04d1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/sage-terrazzo-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359122,
+      "bytes": 4747,
+      "name": "slat-bench-1.0.1-minimal-1.0.0.zip",
+      "sha256": "52b157846ce899feeafdbc4a5850b95ed674ab16c419f5b53b1b5dc049c2dfbc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/slat-bench-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359149,
+      "bytes": 4475,
+      "name": "studio-chair-1.0.1-minimal-1.0.0.zip",
+      "sha256": "51e7778865ea5ea419803d774ea484f9d8b1951f3a1dc169f5e6ef45dc38ebca",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/studio-chair-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359191,
+      "bytes": 51804,
+      "name": "terracotta-planter-1.0.1-minimal-1.0.0.zip",
+      "sha256": "c064a8692285754e98f98f67d8b71c677b16ffb618ac0ea13f718bc51f07d612",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/terracotta-planter-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359205,
+      "bytes": 1483794,
+      "name": "warm-limestone-1.0.1-minimal-1.0.0.zip",
+      "sha256": "7b692202b99b1ff5e0da21ee04d1ae51790bba65aa1081b12fe13a0c2410df65",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/warm-limestone-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359228,
+      "bytes": 40988,
+      "name": "wayfinding-sign-1.0.1-minimal-1.0.0.zip",
+      "sha256": "b864b0d364d8d10c3be168d4c2af1ffb35855887d722a20e9ad9c91b415362b9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/wayfinding-sign-1.0.1-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359240,
+      "bytes": 3480445,
+      "name": "yokocho-banquette-1.0.0-minimal-1.0.0.zip",
+      "sha256": "b4a85be59f5d0ec28e3fbf37c6441357c3833d1fe8d14c48f277c56f6aa7bc2c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-banquette-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359281,
+      "bytes": 20478,
+      "name": "yokocho-bard-lyre-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "ebe023bb4c7e89e48ec874fa4ea9f8d67adebd692b514518af216985a8cd7d00",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-bard-lyre-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359311,
+      "bytes": 338828,
+      "name": "yokocho-bark-1.0.0-minimal-1.0.0.zip",
+      "sha256": "5b2d64c09c5c50839e0d866befaeb96b92bf6b2413224a3849324d8afbac02c8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-bark-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359332,
+      "bytes": 109146,
+      "name": "yokocho-booster-pump-skid-1.0.0-minimal-1.0.0.zip",
+      "sha256": "b27124eea87cde267de1c52562a9ff264fd4e8c64a8117fe9ea8c619145fa97a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-booster-pump-skid-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359363,
+      "bytes": 17396,
+      "name": "yokocho-booth-table-1.0.0-minimal-1.0.0.zip",
+      "sha256": "cca14c321c1119d2c3bb0dc3fd714231f33278fd6af00afc41c549cd5bf951d7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-booth-table-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359388,
+      "bytes": 3986586,
+      "name": "yokocho-bottle-keep-wall-1.0.0-minimal-1.0.0.zip",
+      "sha256": "2a2f731d23c8e6acc6914d8a68c9de0480f377c977c678183f229771c592d5df",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-bottle-keep-wall-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359427,
+      "bytes": 79413,
+      "name": "yokocho-charcoal-stool-set-1.0.0-minimal-1.0.0.zip",
+      "sha256": "c616406624f95f49f2078006e1f85cd749166c0d0bd8fb856392882eb59e490d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-charcoal-stool-set-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359468,
+      "bytes": 23187,
+      "name": "yokocho-cloth-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f0c7106611cf0a1146b7b7f01be622ee438a011c2227e7b27dcf1de8c0594f69",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-cloth-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359488,
+      "bytes": 10545,
+      "name": "yokocho-club-armchair-1.0.0-minimal-1.0.0.zip",
+      "sha256": "621890909419d5732596291cc04110ee630dde172263985aa11be040a4705e46",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-club-armchair-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359510,
+      "bytes": 13943,
+      "name": "yokocho-cocktail-stool-1.0.0-minimal-1.0.0.zip",
+      "sha256": "7bf3970eb43aaaccade37b59e548f9f03170fb52e7c539662063d635b054b751",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-cocktail-stool-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359523,
+      "bytes": 38574,
+      "name": "yokocho-confectioner-stool-set-1.0.0-minimal-1.0.0.zip",
+      "sha256": "7d662d050137111b77f3023474574fff77129a468e808a4d598a1fcdfe2b1af7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-confectioner-stool-set-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359544,
+      "bytes": 667908,
+      "name": "yokocho-counter-craft-1.0.0-minimal-1.0.0.zip",
+      "sha256": "bf51eebda28fe65326dc3f5eb32fc13ab0e2b5b513eb1058e0ad7beae46032b1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-counter-craft-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359569,
+      "bytes": 27145,
+      "name": "yokocho-dragon-ember-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f73833bbf458520446f68ed2e5599f2124d6e77af6203a0fb4fb4126f135e24a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-dragon-ember-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359598,
+      "bytes": 1887,
+      "name": "yokocho-entry-control-panel-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0a2bd1ff2f7ca1056fcf7c46e455de53373da64346951457d6ba30e859795eca",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-control-panel-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359624,
+      "bytes": 205158,
+      "name": "yokocho-entry-display-frame-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e3bc400c531f866f59db47fc07894fa8ac17edf753ba8808391825cd4e0edbdd",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-display-frame-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359643,
+      "bytes": 404784,
+      "name": "yokocho-entry-endgrain-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0e06fe5830fa2a3f4c3811c59ec4961ca96cdd6c79306b6fb8b2cd26b0d9be7a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-endgrain-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359664,
+      "bytes": 333387,
+      "name": "yokocho-entry-guideboard-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e87c34c6cfd5b9bad6bbafafce72937fc57f42d6de9c5e2ba5134ce4681a189f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-guideboard-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359676,
+      "bytes": 154068,
+      "name": "yokocho-entry-guideboard-artwork-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f6240196748c52a9f7228ec4791cf2679868ba40bef5306bb6003343fbaf8ea5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-guideboard-artwork-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359698,
+      "bytes": 581217,
+      "name": "yokocho-entry-log-bench-1.0.0-minimal-1.0.0.zip",
+      "sha256": "b6f9ac5dbf596e01ac47be1df8ad36a86386a03f37b433547ff524b3cb686fa4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-log-bench-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359733,
+      "bytes": 577015,
+      "name": "yokocho-entry-stump-table-1.0.0-minimal-1.0.0.zip",
+      "sha256": "1bacae09109767511264fbfed1370b78279e209150c2d7e4c453e07eb7a8d6ec",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-stump-table-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359765,
+      "bytes": 164313,
+      "name": "yokocho-entry-timber-1.0.0-minimal-1.0.0.zip",
+      "sha256": "291f41c81c0959e8fa01120c300e41eb8a0e9f151e359d44d519ba0462f74691",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-entry-timber-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359788,
+      "bytes": 271616,
+      "name": "yokocho-foliage-spray-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0f326c434821719453ef6eb6da9e86c1f8475a99fdbacbf18c877af9f477444a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-foliage-spray-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359819,
+      "bytes": 247338,
+      "name": "yokocho-food-venue-signs-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d56bc3d3f5d4c63d2540daa540abd7e2e5234d39e80935345ed6209b045f580e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-food-venue-signs-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359854,
+      "bytes": 495698,
+      "name": "yokocho-geometric-backbar-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0d0ed2918d92ed0aa649afc0bd44aeaec7ec77a95f2581dff5e38c8f6cb1914a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-geometric-backbar-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359887,
+      "bytes": 494037,
+      "name": "yokocho-lantern-1.0.0-minimal-1.0.0.zip",
+      "sha256": "04f7dc9b3d0b3b1f1cbdbddf6378f434f0b1c44203f1021ac24944099fc70b3e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-lantern-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359913,
+      "bytes": 1585028,
+      "name": "yokocho-leaf-1.0.0-minimal-1.0.0.zip",
+      "sha256": "84a20fd6be24ac85d7c693560211c036ff99e58c23a0da1d84b3df7788652b2f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-leaf-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359953,
+      "bytes": 3440665,
+      "name": "yokocho-listening-chair-1.0.0-minimal-1.0.0.zip",
+      "sha256": "c1e76ab56af9e9ac6205db7cec30ed6b01e65863ab0e6c62b8fef8c4ce43dc50",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-listening-chair-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645359992,
+      "bytes": 18009,
+      "name": "yokocho-listening-counter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "b5c4e588efa5ab3a22e0cfeb07c35bb5c81d1f607fbfd50651e5870cf62edb52",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-listening-counter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360024,
+      "bytes": 11460,
+      "name": "yokocho-lounge-table-1.0.0-minimal-1.0.0.zip",
+      "sha256": "9b5789dff4aa75937f17ede79d27871d852b53934dad0089f072573bc1909c00",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-lounge-table-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360063,
+      "bytes": 21531,
+      "name": "yokocho-medallion-chandelier-1.0.0-minimal-1.0.0.zip",
+      "sha256": "7cad6f0338c18c4a0e3f203ba09f979fb22c07d0d87fa6aede9e465e0edaf845",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-medallion-chandelier-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360090,
+      "bytes": 6719558,
+      "name": "yokocho-menus-1.0.0-minimal-1.0.0.zip",
+      "sha256": "84c064ae2e4a8392a8328fd45dc6dae48b11a12e19914c81c41937f81482c145",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-menus-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360142,
+      "bytes": 17509,
+      "name": "yokocho-mixology-tools-1.0.0-minimal-1.0.0.zip",
+      "sha256": "cc8273ea0c8ddd229d80fd0e72b8aeabf854ee893e30901a8cd58e8f1acb7193",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-mixology-tools-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360172,
+      "bytes": 35769,
+      "name": "yokocho-moon-tea-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "2d6be8b01cb2c379f03db80a6683dab53aa7745fc7cd24c2e91000c17652fa39",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-moon-tea-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360196,
+      "bytes": 369728,
+      "name": "yokocho-nightlife-signs-1.0.0-minimal-1.0.0.zip",
+      "sha256": "5da80b30ca40b79abb1260542b8d43fc9d85fff7f1aba37356ea053f3791ad4f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-nightlife-signs-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360225,
+      "bytes": 6497045,
+      "name": "yokocho-noh-pavilion-1.0.0-minimal-1.0.0.zip",
+      "sha256": "aa00d645fd2c2046f807ec65d7a1160f928acbb9e64bcdc53a3f5c62bd898ef2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-noh-pavilion-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360263,
+      "bytes": 4564711,
+      "name": "yokocho-noodle-guild-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "60839b040e78974d2765a43a901b64460a13a8a791c59bde75c2bd34abac7693",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-noodle-guild-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360302,
+      "bytes": 109812,
+      "name": "yokocho-noodle-stool-set-1.0.0-minimal-1.0.0.zip",
+      "sha256": "01e1afba714cce22d98cf06b7c19e1f55603ae85238e53a5c6d4d175fd3febbe",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-noodle-stool-set-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360318,
+      "bytes": 1640944,
+      "name": "yokocho-oden-bench-set-1.0.0-minimal-1.0.0.zip",
+      "sha256": "eee985ae3b0540af08fdde753e902a36a18b5f5f45b7b4d1316fef3c3fd4b3bc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-oden-bench-set-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360346,
+      "bytes": 35777,
+      "name": "yokocho-pendant-ceiling-1.0.0-minimal-1.0.0.zip",
+      "sha256": "94828c4f689656e3f1ebccce026eb764eed0b1f6e5e3862121721a5eb4f147d1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-pendant-ceiling-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360384,
+      "bytes": 1351440,
+      "name": "yokocho-plaster-1.0.0-minimal-1.0.0.zip",
+      "sha256": "08bedc48946f13f84e4eed34c2e50aa9801282a1c59e9886bfb61acc47464977",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-plaster-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360417,
+      "bytes": 393626,
+      "name": "yokocho-record-library-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e0833787ba1b5f9a1e6296e2332e78b24fb80c6c13ee46aca23906066b151091",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-record-library-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360440,
+      "bytes": 326825,
+      "name": "yokocho-roof-1.0.0-minimal-1.0.0.zip",
+      "sha256": "58f53ca288019430e03edf57c1188edcad030a594fc20da2c3429832d3db2de6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-roof-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360456,
+      "bytes": 4278128,
+      "name": "yokocho-shopfront-identity-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f59658c44b37e032cb2af2530fb4f30a74d8e3ef6c4554af79d0ac1b4c94167c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-shopfront-identity-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360480,
+      "bytes": 3171442,
+      "name": "yokocho-signs-1.0.0-minimal-1.0.0.zip",
+      "sha256": "461bb56447780a96512e12d3a040baeb65a3cb73d62a82fca288f02909c5748b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-signs-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360511,
+      "bytes": 3455546,
+      "name": "yokocho-snack-chair-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d68570c5de02791ac53ad81b14bc636174f03eb4f5dd25ff601f3d8ab299a6b4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-snack-chair-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360557,
+      "bytes": 3464362,
+      "name": "yokocho-snack-counter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e12334e6593c52a88cfcf0a90a78f6873bff05b8cb7a53647948eddb11f158c6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-snack-counter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360609,
+      "bytes": 22930,
+      "name": "yokocho-star-distillery-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "f1905efc1927e95ff23dac35943810c2325a75b74ad2706dbf279a467b4a3af5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-star-distillery-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360648,
+      "bytes": 1676543,
+      "name": "yokocho-tea-furniture-set-1.0.0-minimal-1.0.0.zip",
+      "sha256": "ee1aa4f37a1695ba761dfff387a2b18e7c107be428c984c1744f7650e318f124",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-tea-furniture-set-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360673,
+      "bytes": 56564,
+      "name": "yokocho-telecom-mast-1.0.0-minimal-1.0.0.zip",
+      "sha256": "d9824a346b73aa60766049a73a6994c38dbf8e5a3671c430273770e3d5ed6488",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-telecom-mast-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360715,
+      "bytes": 1323112,
+      "name": "yokocho-tile-clay-1.0.0-minimal-1.0.0.zip",
+      "sha256": "e7b763a32ac6666c2fd24d656e6defb9f14b947f3a07d40990dfaecf7851de16",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-tile-clay-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360770,
+      "bytes": 34070,
+      "name": "yokocho-timber-stair-flight-1.0.0-minimal-1.0.0.zip",
+      "sha256": "35da08326e388054fb2d81f543aad26d6e47554be4dd8fe688bb35bc57dec238",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-timber-stair-flight-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360798,
+      "bytes": 19633,
+      "name": "yokocho-traveler-pot-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "ed20279788e3515af93fd2f892da5489b18d1bb9a892d1c8b417ed2599d51f54",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-traveler-pot-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360822,
+      "bytes": 13879,
+      "name": "yokocho-turntable-amplifier-1.0.0-minimal-1.0.0.zip",
+      "sha256": "baa681922eef836d1492075a4a95a66dc476a579b9467f29b1d7c3fe100a51fe",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-turntable-amplifier-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360837,
+      "bytes": 79832,
+      "name": "yokocho-upper-water-storage-1.0.0-minimal-1.0.0.zip",
+      "sha256": "fa60b34f7a532d28db53929eeebef6728ccf794c647c11cd88b0d0319562bfcc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-upper-water-storage-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360868,
+      "bytes": 48692,
+      "name": "yokocho-utility-service-bank-1.0.0-minimal-1.0.0.zip",
+      "sha256": "8c7ded00a9ff6c72bcfff459685317edd6bdc985cb934d261c24ae22f89e23b8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-utility-service-bank-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360898,
+      "bytes": 27583,
+      "name": "yokocho-walnut-counter-1.0.0-minimal-1.0.0.zip",
+      "sha256": "dc58c1a304cb32118b68089a773b6f61747a999928c1ad059d1295c35f2d5453",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-walnut-counter-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360934,
+      "bytes": 363196,
+      "name": "yokocho-water-1.0.0-minimal-1.0.0.zip",
+      "sha256": "8449e22decc16f66e623e638d6a00156c244aaab5c710173916e11637bfc7554",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-water-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360958,
+      "bytes": 3466638,
+      "name": "yokocho-witch-moon-sign-1.0.0-minimal-1.0.0.zip",
+      "sha256": "ea22352dbfb738cd3ad35a61739b8d225ab0b34939a05e23d35a53b1a5d63dc8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-witch-moon-sign-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645360978,
+      "bytes": 342957,
+      "name": "yokocho-wood-1.0.0-minimal-1.0.0.zip",
+      "sha256": "945eaf8250b18eb2eadea621230f64e22be3f2c8329bf2d52f1b040baefa03b1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-wood-1.0.0-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645361002,
+      "bytes": 1624305,
+      "name": "yokocho-woven-1.0.0-minimal-1.0.0.zip",
+      "sha256": "0b94053ea309680527cd6dcbef2cb391333871df109dfc00b75359663ad3b08f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/minimal-v1.0.0/yokocho-woven-1.0.0-minimal-1.0.0.zip"
+    }
+  ],
+  "attachmentCount": 174,
+  "browserDownloadEvidence": "not-performed-by-transport",
+  "inventorySha256": "6cd163e6683650a77e52649d8740feb19d614204473269a635789756fd39e463",
+  "releaseId": 414332464,
+  "releaseUrl": "https://github.com/Xenoah/meshcopia/releases/tag/minimal-v1.0.0",
+  "repository": "Xenoah/meshcopia",
+  "schemaVersion": 1,
+  "status": "anonymous-byte-readback-passed",
+  "tag": "minimal-v1.0.0",
+  "verificationCommit": "32f60a0adb144155574136a14476c30010e0d84b"
+}

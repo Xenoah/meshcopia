@@ -1,21 +1,21 @@
-name: Verify minimal download UI candidate
+name: Verify activated minimal P candidate
 
 on:
   push:
-    branches: [minimal/verify-ui-v1]
+    branches: [minimal/verify-p-v1]
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: meshcopia-minimal-ui-${{ github.ref }}
+  group: meshcopia-minimal-p-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 120
     permissions:
       contents: read
     steps:
@@ -31,33 +31,33 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install locked development dependencies
-        run: npm ci
-      - name: Verify empty activation and candidate source
-        run: node scripts/check-download-ui-source.mjs
-      - name: Run unit and contract tests
-        run: npm test
+      - name: Install locked dependencies
+        run: |
+          npm ci
+          python3 -m pip install -r scripts/requirements-assets.txt
+      - name: Verify actual activation inputs and pinned F modules
+        run: node scripts/check-full-p-inputs.mjs
+      - name: Preserve immutable archives and canonical runtime
+        run: |
+          node scripts/check-archive-runtime.mjs
+          node scripts/check-archive-lock.mjs --check-history
+      - name: Validate, unit test, verify real releases, build and check dist
+        run: npm run check
+      - name: Verify all texture maps and unchanged Pages budget
+        run: |
+          python3 scripts/check-textures.py
+          node scripts/check-full-p-inputs.mjs --dist
       - name: Install CI Chromium
         run: npx playwright install --with-deps chromium
-      - name: Verify real public source fetches and one combined ZIP
-        run: node tests/live-browser-proof.mjs
-      - name: Exercise desktop and mobile fixture UI
-        run: node tests/batch-download-browser.mjs
-      - name: Record narrowly scoped browser evidence
-        run: node scripts/record-download-browser-evidence.mjs
-      - name: Preserve verification evidence
+      - name: Preserve original viewer and mobile regression
+        run: node scripts/test-browser.mjs
+      - name: Verify activated ordinary and selected downloads
+        run: node scripts/test-minimal-downloads-browser.mjs
+      - name: Preserve exact candidate evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: minimal-ui-proof-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          name: minimal-p-proof-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
           if-no-files-found: error
           retention-days: 14
-          path: |
-            test-results/minimal-ui-source.json
-            test-results/minimal-ui-browser.json
-            live-browser-proof.json
-            live-browser-proof.zip
-            batch-desktop.zip
-            batch-mobile.zip
-            batch-desktop.png
-            batch-mobile.png
+          path: test-results/
