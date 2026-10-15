@@ -1,0 +1,95 @@
+{
+  "binarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+  "exporterFiles": {
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/__init__.py": "8af335ff0daba71b9301e076f8c72836f013c012736d59d9e2b6700885d1eb1f",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/data_types.py": "1697b26e84cdabdebf8cf8c1dbb6e3b303705917aaf84eab835f0cdad6b26e20",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/encode_bin.py": "3322a809e0073947e107de8f7e5839dff0956578271e88506eab7a7627f3323f",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/export_fbx_bin.py": "fd494ffc3d8d01e21b028fa05b8bb7739afecfc09e0c8f2e09ef451b5b0e9e05",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/fbx2json.py": "4fc62f848f7834e2f376838251db2f64ec1a7856578acb6f152ac78ac5e60616",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/fbx_utils.py": "ffabd204b2cce48670b47de6bb77e8dba06daa77b7efab037c4f157f1ffa80b6",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/fbx_utils_threading.py": "ddf8d90b87b51e057212c9b5f3c73caea49fddf2915140eb2e3206f7dad757a3",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/import_fbx.py": "d3a4232dc9bc7599df4058a4f786fa9c2c9c971809185b811439b64986a7ceac",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/json2fbx.py": "d7676c3116e0b16752a6530e42f1b1126ca1e37a61595d0ea84c21d46a97f8c5",
+    "usr/share/blender/scripts/addons_core/io_scene_fbx/parse_fbx.py": "982c7b5071c293184f974dfb362b7c5f950c91a535d5283d656a8934aacfe5ad"
+  },
+  "image": "debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483",
+  "numpyCpuBaseline": {
+    "actualDisabledFeaturesRequired": true,
+    "environment": {
+      "NPY_DISABLE_CPU_FEATURES": "AVX2,FMA3,AVX512F,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL"
+    }
+  },
+  "packages": [
+    {
+      "Filename": "pool/main/b/blender/blender_4.3.2+dfsg-2_amd64.deb",
+      "Package": "blender",
+      "SHA256": "72059c2362953cedf7cce468cfc48b87338358731400cd71fd3d688be119daab",
+      "Size": "25893972",
+      "Version": "4.3.2+dfsg-2"
+    },
+    {
+      "Filename": "pool/main/b/blender/blender-data_4.3.2+dfsg-2_all.deb",
+      "Package": "blender-data",
+      "SHA256": "ab95b1d6f75a7e9e38d251e8720c13a5d45be264ca90d0dfb4658374f6a5d137",
+      "Size": "33711152",
+      "Version": "4.3.2+dfsg-2"
+    },
+    {
+      "Filename": "pool/main/g/glibc/libc6_2.41-12+deb13u4_amd64.deb",
+      "Package": "libc6",
+      "SHA256": "967aa62605721081c3eb2a17650611a792aa802d76a6511d1840242623d204c9",
+      "Size": "2846580",
+      "Version": "2.41-12+deb13u4"
+    },
+    {
+      "Filename": "pool/main/n/numpy/python3-numpy_2.2.4+ds-1_amd64.deb",
+      "Package": "python3-numpy",
+      "SHA256": "eacb51b412e4621e4b6d631a479f6f0589522416e494d8da0e680f1863b5cb44",
+      "Size": "5095572",
+      "Version": "1:2.2.4+ds-1"
+    },
+    {
+      "Filename": "pool/main/p/python3.13/python3.13_3.13.5-2+deb13u5_amd64.deb",
+      "Package": "python3.13",
+      "SHA256": "460c1fd72845516ac3ce9d1686916f3ab2e4c86f8a9746e14d26243a47e2b98d",
+      "Size": "757492",
+      "Version": "3.13.5-2+deb13u5"
+    },
+    {
+      "Filename": "pool/main/z/zlib/zlib1g_1.3.dfsg+really1.3.1-1+b1_amd64.deb",
+      "Package": "zlib1g",
+      "SHA256": "015be740d6236ad114582dea500c1d907f29e16d6db00566ca32fb68d71ac90d",
+      "Size": "88892",
+      "Version": "1:1.3.dfsg+really1.3.1-1+b1"
+    }
+  ],
+  "packaging": {
+    "pythonBinarySha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+    "zipSerializer": "meshcopia-minimal-package/1",
+    "zlibBinarySha256": "85590dd58edf5445e18bc7193e5ebc01ac5841f1ae187e97705a662e90c6421e"
+  },
+  "pipelineSha256": "9c14ed64ff019ef1fc6cdf4d86df1c4504f1cd1a675c4cb1bd4ac3c2f37cb500",
+  "recipe": {
+    "convert_and_audit_fbx.py": "d68cdb63cbf9e390f49799cd4a60bc1aef8c285f0f32b57f534a491cfdca7286",
+    "deterministic_fbx.py": "785b4455a744de287246d3a7b145cb0dd0d901b2356f5f8a56697fd04c82ad21",
+    "normalize_fbx_materials.py": "143824cbbda54ff9678c98416464fefefa3321738dc3b2db05586d20ccde6180"
+  },
+  "supportFiles": {
+    "docs/fbx-verification/schema/fbx-public-qa-schema.json": "ad2128e8c4ee3457d249d8c0d28aeb8d471e14ba120a0707e79ea5a5a19c6689",
+    "docs/fbx-verification/schema/fbx-report-input-schema.json": "dccdd318e9b370f3281d639fc0974801a4a88dcd85f1e4d4b2f7718a16c24858",
+    "scripts/fbx-minimal-verification/setup-runtime.sh": "df39b9dd1f1aea11c10272ce3864fefa31d9babfda190373542c5b9c83bf3249",
+    "scripts/fbx-verification/materialize_imported_images.py": "ea5a2cdcdf11338682d5164d81c66fc183c535d41bc984abd9e3fb2a37822de2",
+    "scripts/fbx-verification/runtime_probe.py": "9b5855ee03cf611b9d52d9ee60573a2f6670ef28ce9172f53f9008d2eb6b0b2a",
+    "scripts/fbx-verification/verify_fbx_report.py": "d04645c3923893bbbb38db5338b3b6a25a8c5b52412c5451c06128019ddf003a",
+    "scripts/minimal_notices.py": "c34060cb003f46ab020f6ec59bf8381ed877298a57769189926a041efbc1bdf2",
+    "scripts/minimal_packages.py": "b358b142f0238535fc3f480e5e2ca54d35991ba2f50072780735e69c075aa34b",
+    "tests/test_minimal_packages.py": "a7b1c7f3fee5f248aa5b66718c861281a81b4a00465bceadf1adef30c3b4d299"
+  },
+  "versions": {
+    "blender": "4.3.2",
+    "glibc": "2.41",
+    "numpy": "2.2.4",
+    "python": "3.13.5",
+    "zlib": "1.3.1"
+  }
+}

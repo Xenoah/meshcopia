@@ -1,0 +1,66 @@
+name: Verify original 137 minimal FBX packages
+on:
+  push:
+    branches: [fbx/verify-minimal137-v1]
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-fbx-verify-minimal137-v1
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && github.ref == 'refs/heads/fbx/verify-minimal137-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Gate baseline, exact additive paths and reviewed minimal inputs before Blender
+        run: python3 scripts/fbx-minimal-verification/verify.py --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/fbx-minimal-preflight" --preflight-only
+      - name: Fresh conversion, independent QA and strict two-entry packaging in pinned runtime
+        shell: bash
+        run: |
+          mkdir "$RUNNER_TEMP/fbx-minimal-runtime-output"
+          docker run --rm --platform linux/amd64 \
+            -e GITHUB_REPOSITORY -e GITHUB_REF -e GITHUB_EVENT_NAME -e GITHUB_SHA -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -v "$GITHUB_WORKSPACE:/src:ro" -v "$RUNNER_TEMP/fbx-minimal-runtime-output:/result" -w /src \
+            debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
+            sh -c 'sh scripts/fbx-minimal-verification/setup-runtime.sh && /usr/bin/python3.13 -m unittest discover -s tests -p "test_minimal_packages.py" -v && /usr/bin/python3.13 -m unittest discover -s scripts/fbx-minimal-verification -p "test_*.py" -v && /usr/bin/python3.13 scripts/fbx-minimal-verification/verify.py --repo /src --output /result/verified'
+      - name: Store exact public payload review artifact, never publish
+        id: payload
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-minimal137-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fbx-minimal-runtime-output/verified/artifact/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+      - name: Store internal QA separately, never in consumer ZIPs or a release
+        id: qa
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-minimal-internal-qa-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/fbx-minimal-runtime-output/verified/internal/qa.json
+            ${{ runner.temp }}/fbx-minimal-runtime-output/verified/internal/runtime.json
+            ${{ runner.temp }}/fbx-minimal-runtime-output/verified/internal/pilot-gate.json
+            ${{ runner.temp }}/fbx-minimal-runtime-output/verified/internal/*/receipt.json
+            ${{ runner.temp }}/fbx-minimal-runtime-output/verified/internal/*/fresh/roundtrip-report.json
+            ${{ runner.temp }}/fbx-minimal-runtime-output/verified/internal/*/fresh/materialized-imported-images.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Record exact payload and QA artifact envelopes
+        env:
+          PAYLOAD_ID: ${{ steps.payload.outputs.artifact-id }}
+          PAYLOAD_DIGEST: ${{ steps.payload.outputs.artifact-digest }}
+          QA_ID: ${{ steps.qa.outputs.artifact-id }}
+          QA_DIGEST: ${{ steps.qa.outputs.artifact-digest }}
+        run: |
+          printf 'F=%s run=%s attempt=%s payloadArtifact=%s payloadDigest=%s qaArtifact=%s qaDigest=%s\n' "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" "$PAYLOAD_ID" "$PAYLOAD_DIGEST" "$QA_ID" "$QA_DIGEST" >> "$GITHUB_STEP_SUMMARY"
+          sha256sum "$RUNNER_TEMP/fbx-minimal-runtime-output/verified/artifact/fbx-minimal-inventory.json" >> "$GITHUB_STEP_SUMMARY"
+      - name: Bounded failure summary, no partial payload upload
+        if: failure()
+        run: echo 'Verification stopped. No availability was enabled. Inspect this exact run; never accept substitute hashes or publish partial payloads.' >> "$GITHUB_STEP_SUMMARY"
