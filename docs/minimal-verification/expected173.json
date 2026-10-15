@@ -1,0 +1,1223 @@
+{
+  "assets": [
+    {
+      "archiveBytes": 23249,
+      "archiveSha256": "907bebd45c5195a699131f3c8789d52cb065eb09206c9b22a585be7d3f66f02c",
+      "filename": "atelier-lamp-1.0.1-minimal-1.0.0.zip",
+      "id": "atelier-lamp",
+      "noticeSha256": "076db23ee4ada01a9644a98ac0161be302440431cc6a35b68c32e740f4b24c93"
+    },
+    {
+      "archiveBytes": 92587,
+      "archiveSha256": "a4d8c7009dc5d65d053d6f629eb71d3d2d6a4d7a8c11cc5e6f0e8521c017a207",
+      "filename": "brushed-aluminum-1.0.1-minimal-1.0.0.zip",
+      "id": "brushed-aluminum",
+      "noticeSha256": "d94e59ff0a3a1cb389ed60e2d2673fbd7fef7e2b73c57668ae619c1c4b18f176"
+    },
+    {
+      "archiveBytes": 980982,
+      "archiveSha256": "f0d0fce49350459b840efb229406419e4f27beb88ea24d2577af872638354af3",
+      "filename": "cedar-boards-1.0.1-minimal-1.0.0.zip",
+      "id": "cedar-boards",
+      "noticeSha256": "8593710ac991fbbe49105e9f16d5222eecedc46cc60b0144e25b8fb7cbf1dc5a"
+    },
+    {
+      "archiveBytes": 68294,
+      "archiveSha256": "e1b8fbd8d199b4a2e7586126c42e83c89a86c287e2bb3b5a9966190991334fcc",
+      "filename": "city-aed-cabinet-1.0.0-minimal-1.0.0.zip",
+      "id": "city-aed-cabinet",
+      "noticeSha256": "d368686e59c0cb142ae860f489c0f7634c285fe32c9287f97e9a558b8defefd3"
+    },
+    {
+      "archiveBytes": 135917,
+      "archiveSha256": "bde3af55850482b4953b956b6556d9d8aba472c27d0f8157dd8bf54146f0e760",
+      "filename": "city-bicycle-repair-stand-1.0.0-minimal-1.0.0.zip",
+      "id": "city-bicycle-repair-stand",
+      "noticeSha256": "bd73f8f671d98346f995599063e7e8828d5d5f8ab3909503a8be513dc25ada0d"
+    },
+    {
+      "archiveBytes": 109948,
+      "archiveSha256": "cad52fd52060ca33ab809728da6d67020306036c515ef1be3a8d85004e9ec8f2",
+      "filename": "city-bollard-1.0.0-minimal-1.0.0.zip",
+      "id": "city-bollard",
+      "noticeSha256": "09b9a1b58856e6412f6909916da8b05035437cfe825dec414ef85e193059dd50"
+    },
+    {
+      "archiveBytes": 424171,
+      "archiveSha256": "e172eaaa30973b4cad2e0fadbde3833c5fc83603c6566d77bd3304ccb4ab7e07",
+      "filename": "city-bus-shelter-1.0.0-minimal-1.0.0.zip",
+      "id": "city-bus-shelter",
+      "noticeSha256": "b0e87f7fda97b9bad7d5f20a7e825d02c8d2527cc93a5128eea01a6e5e34f0c1"
+    },
+    {
+      "archiveBytes": 37891,
+      "archiveSha256": "4aea7c7b464e5e15dc29c7b569423e8355fc7c8c390d8bb0c9a8e3854b65dbe5",
+      "filename": "city-cable-protector-1.0.0-minimal-1.0.0.zip",
+      "id": "city-cable-protector",
+      "noticeSha256": "9d22f13378b9b235f218eb0feede5ed74cf89af250e20e39bd28a083cdf35630"
+    },
+    {
+      "archiveBytes": 93101,
+      "archiveSha256": "931db8ee0364531fd818d7033989f91490a34f22f7baa617f371958874e5cf1f",
+      "filename": "city-cable-tray-elbow-1.0.0-minimal-1.0.0.zip",
+      "id": "city-cable-tray-elbow",
+      "noticeSha256": "8164edc3b66b0cb4e8409eb106870696f1c65b37253b376b27b719fbee8ac89b"
+    },
+    {
+      "archiveBytes": 88064,
+      "archiveSha256": "eef6587ee728e15109de7a00fdb78a7d3a72ce2b08b99ec93477127968976e51",
+      "filename": "city-casement-window-1.0.0-minimal-1.0.0.zip",
+      "id": "city-casement-window",
+      "noticeSha256": "c55f97fbd5759dbf777b002ec7f813ab63e1ab58b6002f79b61361d7b6287fa5"
+    },
+    {
+      "archiveBytes": 2084945,
+      "archiveSha256": "e856d684e1684109003a0ab83cfb18b40de1ea84b9bdc84dd631ed50b03ed012",
+      "filename": "city-commuter-bicycle-1.0.0-minimal-1.0.0.zip",
+      "id": "city-commuter-bicycle",
+      "noticeSha256": "d3c1d425f6806f2252dc47f9d94e49f129b677bfd4d8f7abb0fbcac7cdcf2f88"
+    },
+    {
+      "archiveBytes": 779302,
+      "archiveSha256": "9c044fa791b1e86beaaad098da7073f9e690831b457b12a4da583b297e7435f5",
+      "filename": "city-concrete-mixer-1.0.0-minimal-1.0.0.zip",
+      "id": "city-concrete-mixer",
+      "noticeSha256": "be9520365235396e4e90cbdc6a28b84399a1248e06d4667608fa076332b67e21"
+    },
+    {
+      "archiveBytes": 317157,
+      "archiveSha256": "de81bdbcb768dc5e0e156a9da27c533b8f5da338afef8ba8a1b043e55550e002",
+      "filename": "city-construction-wheelbarrow-1.0.0-minimal-1.0.0.zip",
+      "id": "city-construction-wheelbarrow",
+      "noticeSha256": "d4696a34ec4e36c418db9f68118522b2b0507a5732dd4a2201d01add494df384"
+    },
+    {
+      "archiveBytes": 484374,
+      "archiveSha256": "5d1ebbc5ef6947d0fb23bf568477393ddff415de4634d6d0bb915b1fe1c51545",
+      "filename": "city-convex-mirror-1.0.0-minimal-1.0.0.zip",
+      "id": "city-convex-mirror",
+      "noticeSha256": "8539349dbfcd5a3e57b182bb4cbf89fdad34660fd7e5fea60507a286e99e14b9"
+    },
+    {
+      "archiveBytes": 425974,
+      "archiveSha256": "9e1df44570a6f936ade00571d1f265a8d3f7bed4bc09488a3b99c53c2e52355c",
+      "filename": "city-crossing-pushbutton-1.0.0-minimal-1.0.0.zip",
+      "id": "city-crossing-pushbutton",
+      "noticeSha256": "a40b3b9cfeb48988373444b49edf6c8d1c19a669d118898dc95897b956c6afd3"
+    },
+    {
+      "archiveBytes": 18898,
+      "archiveSha256": "c66f7db92195b522144fe80cb2170bb13ec41983093953d99aa1fcbfb4a98cc9",
+      "filename": "city-curb-corner-1.0.0-minimal-1.0.0.zip",
+      "id": "city-curb-corner",
+      "noticeSha256": "f359c08eaa447e0772682022bddf4ccc1360e085976ffb1dd5b19970b3020bfe"
+    },
+    {
+      "archiveBytes": 20158,
+      "archiveSha256": "241857bc44fdd1552425d71d1b831659c05be53171a9efcbd3668e0c09100ac1",
+      "filename": "city-curb-ramp-1.0.0-minimal-1.0.0.zip",
+      "id": "city-curb-ramp",
+      "noticeSha256": "c57c5493f30913b813278c59d732f63346cd7425f886c07931539cc414813c46"
+    },
+    {
+      "archiveBytes": 64750,
+      "archiveSha256": "8f889fb41a7edcba3baf6977d4a84a1e625853e45a27e6fd3ccf27cc6b683c8b",
+      "filename": "city-cycle-rack-1.0.0-minimal-1.0.0.zip",
+      "id": "city-cycle-rack",
+      "noticeSha256": "2e63bc8c1a55637894f6dad8f26258c45fbd4454181aa3d1d10401ad95e81c75"
+    },
+    {
+      "archiveBytes": 452338,
+      "archiveSha256": "4b4ff84f219db4f2561d4d1d8be00db7e7e7396fbe94150fdb11db05cf9431b3",
+      "filename": "city-downspout-1.0.0-minimal-1.0.0.zip",
+      "id": "city-downspout",
+      "noticeSha256": "97987820f0018556024da1473af39d3924f6d842cbbf002bc5ce6be7ab479313"
+    },
+    {
+      "archiveBytes": 393049,
+      "archiveSha256": "afce42eb8b60c4e5b9a1fd76f5aeab29da11163f2e27775a22645c0dbf402287",
+      "filename": "city-drinking-fountain-1.0.0-minimal-1.0.0.zip",
+      "id": "city-drinking-fountain",
+      "noticeSha256": "1d1e31647d93b3f324dba6e2b7cf7ea26ad4f95148b40088cca5d0c9ffb7d650"
+    },
+    {
+      "archiveBytes": 963268,
+      "archiveSha256": "81c8b767cb253f306afee4946719460a533a8bf36215834ef33ff2abcd4e8429",
+      "filename": "city-electric-kick-scooter-1.0.0-minimal-1.0.0.zip",
+      "id": "city-electric-kick-scooter",
+      "noticeSha256": "976e6ed15a265e31728f711fba6c0856fbb058560d82f0a234c7252b8b862857"
+    },
+    {
+      "archiveBytes": 313545,
+      "archiveSha256": "c4ea6b1d6259f2aaf80d3bf02abbfde22bca0eb7693b7db94781ea266026fa3c",
+      "filename": "city-ev-charger-1.0.0-minimal-1.0.0.zip",
+      "id": "city-ev-charger",
+      "noticeSha256": "57222c6316584922f6260f90adf5851e1fe04a6a3ab4599e8d327970ca9da6dc"
+    },
+    {
+      "archiveBytes": 152233,
+      "archiveSha256": "4bd3801a46301da6f088a6bba914abb664ec5bdab74e5dde88825d35a8078a9b",
+      "filename": "city-exterior-clock-1.0.0-minimal-1.0.0.zip",
+      "id": "city-exterior-clock",
+      "noticeSha256": "3ed432203ea66031ebae04b53174c13b077bfe16fc7602042411f50a81efb94b"
+    },
+    {
+      "archiveBytes": 463933,
+      "archiveSha256": "2a6ad2d234704c9fa3dc33225b66a0648b30fa0fd8f190aba2313ec6f4f5958d",
+      "filename": "city-fire-hose-cabinet-1.0.0-minimal-1.0.0.zip",
+      "id": "city-fire-hose-cabinet",
+      "noticeSha256": "4c2557a38d7010591255d8828ac04c2b2efed38413aabb3168657428ec7fa715"
+    },
+    {
+      "archiveBytes": 659344,
+      "archiveSha256": "e97eee0aeae7d6750501826ce0ef0132fffd3d6335b8a8e483c1dd610fe3b131",
+      "filename": "city-fire-hydrant-1.0.0-minimal-1.0.0.zip",
+      "id": "city-fire-hydrant",
+      "noticeSha256": "e300946c0eefdca372e970e6c846acd13349e00fd7927e0f4a186d710ce14fb4"
+    },
+    {
+      "archiveBytes": 115167,
+      "archiveSha256": "1f0b2d76ffc1880cbabc583cdbfac2ad9dcd9c1b3d67de741f808f2f1e463b4f",
+      "filename": "city-glazed-entry-door-1.0.0-minimal-1.0.0.zip",
+      "id": "city-glazed-entry-door",
+      "noticeSha256": "747d60a3aaa4735010933cdb157212e0bcacc6f5123f436b7be4eb4679551a07"
+    },
+    {
+      "archiveBytes": 674772,
+      "archiveSha256": "92cb8ae736c00410f0d429d0f4c63ddf76dcf6f8d344d053633d4f31f33ae882",
+      "filename": "city-hvac-condenser-1.0.0-minimal-1.0.0.zip",
+      "id": "city-hvac-condenser",
+      "noticeSha256": "f1ff7b45fdb779ca6355ba0400fe097b316c48b4b980a8793cc7213deedadb13"
+    },
+    {
+      "archiveBytes": 499871,
+      "archiveSha256": "360a621371015f079702dfedcd42898eb7a3c03e0fb75a9bda5acdffa634fa24",
+      "filename": "city-inspection-cover-1.0.0-minimal-1.0.0.zip",
+      "id": "city-inspection-cover",
+      "noticeSha256": "c0588a4a3c626959e7ba1488d5ff53afe586579a953eee9cfaa5f44808c12e9b"
+    },
+    {
+      "archiveBytes": 168360,
+      "archiveSha256": "63b43ec491e59a0990fc0735f7d84395fc8cfcd9f807b83cf577e7de30372be7",
+      "filename": "city-lifebuoy-station-1.0.0-minimal-1.0.0.zip",
+      "id": "city-lifebuoy-station",
+      "noticeSha256": "633aa84e3c52f8a7028c55a38c9232aa4d7f2fcd27fa5f70868ef4e0709b6597"
+    },
+    {
+      "archiveBytes": 192722,
+      "archiveSha256": "8b4e10b98f19171d54afc07669052c70bc47227e3a9eb2a474d0e5417a6d6699",
+      "filename": "city-litter-bin-1.0.0-minimal-1.0.0.zip",
+      "id": "city-litter-bin",
+      "noticeSha256": "423cc6f1bd9cb6a59be3a63a43a2cc5da3828d6e3244d9ca691a4462c9f02693"
+    },
+    {
+      "archiveBytes": 105392,
+      "archiveSha256": "5b8445718b6cbd280e3fb17a69fe94dcb793ea0ffb304826add5ee84a4befa1d",
+      "filename": "city-maintenance-ladder-1.0.0-minimal-1.0.0.zip",
+      "id": "city-maintenance-ladder",
+      "noticeSha256": "b1a82c56d237b1ad852dead7964051531a046e4af9d40d59cc3202614b6feb77"
+    },
+    {
+      "archiveBytes": 608874,
+      "archiveSha256": "236929599987c2a852213b94739e1519f8958bf8ba4b654832b8e09112214c95",
+      "filename": "city-pallet-jack-1.0.0-minimal-1.0.0.zip",
+      "id": "city-pallet-jack",
+      "noticeSha256": "5001f3678da460fc8396b4273c5f496b4054784a7ce80af5626a865aeec88d1f"
+    },
+    {
+      "archiveBytes": 330584,
+      "archiveSha256": "20203fe34e983e58c90871067a4bfa79c5e5236bf5bb73341b7de5245a29cf8f",
+      "filename": "city-parcel-locker-1.0.0-minimal-1.0.0.zip",
+      "id": "city-parcel-locker",
+      "noticeSha256": "927f96ae9446538f58a721658e706cfdb43e5acb4dea8b7fb05bf5cb0009bca3"
+    },
+    {
+      "archiveBytes": 343790,
+      "archiveSha256": "a411b4ab54a6edb6f358747b8118b38a7c8e4a5d2fe9c696e564b90132ced774",
+      "filename": "city-parking-boom-gate-1.0.0-minimal-1.0.0.zip",
+      "id": "city-parking-boom-gate",
+      "noticeSha256": "5500e2d73c083c52d69a9139d655e8f5038982aadfefb1c5219eba48a009890d"
+    },
+    {
+      "archiveBytes": 305380,
+      "archiveSha256": "7ac4bf55db3dc94663623c8cbd2725775ebea0ab3231711abe8fd961ea25e1b7",
+      "filename": "city-parking-meter-1.0.0-minimal-1.0.0.zip",
+      "id": "city-parking-meter",
+      "noticeSha256": "aa997b97348393af8837e63e2b3b5d4b6bb2ed07912e21d5503dbd0b2a70ef65"
+    },
+    {
+      "archiveBytes": 49922,
+      "archiveSha256": "2da88e34a1e102a10c629801014b5b313452533a2622a30705e602ff247822b8",
+      "filename": "city-pedestrian-railing-1.0.0-minimal-1.0.0.zip",
+      "id": "city-pedestrian-railing",
+      "noticeSha256": "cfff839f11be2910f5b813b65d5a938b8414cbd0a199b1f73abc1aa91d5660af"
+    },
+    {
+      "archiveBytes": 39392,
+      "archiveSha256": "eedeb0f8ebea6da4831dcea30379e6f4c6971849454f8af869f6c1b1c1a061cb",
+      "filename": "city-pet-bag-dispenser-1.0.0-minimal-1.0.0.zip",
+      "id": "city-pet-bag-dispenser",
+      "noticeSha256": "30bfb3f9002343f58c6559893ff51df92af08d9944303223af5748b2f5e6f19b"
+    },
+    {
+      "archiveBytes": 150184,
+      "archiveSha256": "d055d30f193091b07501e666e1bc29d7f7ed7dcf2e493765dd92733fd471f3f1",
+      "filename": "city-playground-slide-1.0.0-minimal-1.0.0.zip",
+      "id": "city-playground-slide",
+      "noticeSha256": "d7c1b591e22924109990f989f5329aa50cebd9c06300e56a50716e479250a38d"
+    },
+    {
+      "archiveBytes": 337566,
+      "archiveSha256": "9ced2eb6b361c213388c95a3bdff26fd9a2373699c1fce89a62ddde738759474",
+      "filename": "city-playground-swing-1.0.0-minimal-1.0.0.zip",
+      "id": "city-playground-swing",
+      "noticeSha256": "ba43740b46255c1abad3687b675e66f8f54ca35b288aa43de3c67620bad43a9a"
+    },
+    {
+      "archiveBytes": 275267,
+      "archiveSha256": "0a775ea9436d8236b70f8e0ea5b14b8cd5099c003652621b086a7519d2db138d",
+      "filename": "city-portable-toilet-1.0.0-minimal-1.0.0.zip",
+      "id": "city-portable-toilet",
+      "noticeSha256": "61566fe07f3df73861edbd8e25a9b119fa781bf92f09b4e870304484478f73f9"
+    },
+    {
+      "archiveBytes": 176974,
+      "archiveSha256": "f4b286063adb9eac53cb19bc894eabfb8cd57457cdc03a4f85b76c39ae1d66fb",
+      "filename": "city-postal-box-1.0.0-minimal-1.0.0.zip",
+      "id": "city-postal-box",
+      "noticeSha256": "9105460811a1fb24820edc68cb61172000a677e3b864a143ef9fd002f097f352"
+    },
+    {
+      "archiveBytes": 6591958,
+      "archiveSha256": "803a04a52d7388925af2cbeedfe8c19144a8e5801b0955942d8afd6f623e7979",
+      "filename": "city-pruned-street-tree-1.0.0-minimal-1.0.0.zip",
+      "id": "city-pruned-street-tree",
+      "noticeSha256": "b18fcd694a815f5347b7d5635438e897b6a623279832ad9c4361ed78b00fd485"
+    },
+    {
+      "archiveBytes": 315162,
+      "archiveSha256": "3f4c98e63d675da2c392af784ae8d0b8d4abed7a70aa06d596ad7b5fe17be986",
+      "filename": "city-public-telephone-1.0.0-minimal-1.0.0.zip",
+      "id": "city-public-telephone",
+      "noticeSha256": "60c578f415d54d846badd8306d81d59923d259dd545774ddce03936e50227f18"
+    },
+    {
+      "archiveBytes": 406836,
+      "archiveSha256": "ba916a6e0e5a8565422e55c6998294d6581815e57b488d795bd08c6ae93d4052",
+      "filename": "city-recycling-station-1.0.0-minimal-1.0.0.zip",
+      "id": "city-recycling-station",
+      "noticeSha256": "ad2f50916f9ccf02677276a99a729006d1b51d008bc2d5c70afba5ac1015c9f0"
+    },
+    {
+      "archiveBytes": 117265,
+      "archiveSha256": "09b49be6d0c79b59fae6bbe64c03721ff1b532c34c9a16dc5022084ddab29a11",
+      "filename": "city-retractable-awning-1.0.0-minimal-1.0.0.zip",
+      "id": "city-retractable-awning",
+      "noticeSha256": "af043f5aea709da1a48c3b2ce2ef0c0c03a9a3cca31413c44a355fbfd9b20d69"
+    },
+    {
+      "archiveBytes": 145652,
+      "archiveSha256": "c5f7e42066d0a55d9ed199719a28bbd99981dac098ced366ee4049a6f74f76d3",
+      "filename": "city-road-barrier-1.0.0-minimal-1.0.0.zip",
+      "id": "city-road-barrier",
+      "noticeSha256": "d3df058aa4247bf0bbc88bea5993bca457417783808485b510047b88d184fd9b"
+    },
+    {
+      "archiveBytes": 169369,
+      "archiveSha256": "0b6d45d333a9c1271b4a07e8d4a0cb0341c3c80a517232b9737db0ee843918de",
+      "filename": "city-roller-shutter-1.0.0-minimal-1.0.0.zip",
+      "id": "city-roller-shutter",
+      "noticeSha256": "5b33d954ef50da446a7c7d14daba2e059194bda5d38b7d067e078e1fb45d7b18"
+    },
+    {
+      "archiveBytes": 85544,
+      "archiveSha256": "405f68b4049ad3c27c83902bc34399806c7786386650889622aece20b6ae0a80",
+      "filename": "city-roof-access-hatch-1.0.0-minimal-1.0.0.zip",
+      "id": "city-roof-access-hatch",
+      "noticeSha256": "b5cd66c069baa8c3f10ce3bb903fee16efcd9ebf367d8436a69d76b30c7aff3c"
+    },
+    {
+      "archiveBytes": 405937,
+      "archiveSha256": "d67b9305bdb1eda0d6b9aeb8f0fed2e57ea62864cf6a00dc9f5cc338030a55f3",
+      "filename": "city-roof-exhaust-cowl-1.0.0-minimal-1.0.0.zip",
+      "id": "city-roof-exhaust-cowl",
+      "noticeSha256": "d761abde7930105a32ab8adab503e2b64de7799e466a35ea3b94217f5f019f63"
+    },
+    {
+      "archiveBytes": 854348,
+      "archiveSha256": "d41f93539107a7be7c4ce49e25bc3f25c32d47b06fb0137b8a4a363ed76c0bf6",
+      "filename": "city-sack-hand-truck-1.0.0-minimal-1.0.0.zip",
+      "id": "city-sack-hand-truck",
+      "noticeSha256": "268693dccaf7516d3571238173e71d8b3ae705270115bc54bf0082722c489334"
+    },
+    {
+      "archiveBytes": 773595,
+      "archiveSha256": "10ad2ec5052c4026e613377bdd9377f1fa5297d91bcdf05a493f6897ff3d0d1e",
+      "filename": "city-satellite-dish-1.0.0-minimal-1.0.0.zip",
+      "id": "city-satellite-dish",
+      "noticeSha256": "9b72ede73656f8a516161490664e94da3f2d5fa36aa38204e79140948022170e"
+    },
+    {
+      "archiveBytes": 640724,
+      "archiveSha256": "a4d791f80c77dc56427b7a906a4e2ba679e12da10b2a708f52148e9bceef4f19",
+      "filename": "city-scaffold-bay-1.0.0-minimal-1.0.0.zip",
+      "id": "city-scaffold-bay",
+      "noticeSha256": "59f69d6e5af887d767937478da022e48542fdc05278c6e75636400c8a09227a4"
+    },
+    {
+      "archiveBytes": 146161,
+      "archiveSha256": "7a51b1d17d1119fc696ecddf7faccbc80aa487b07b175e6b4cffc255dd43f7d3",
+      "filename": "city-security-camera-1.0.0-minimal-1.0.0.zip",
+      "id": "city-security-camera",
+      "noticeSha256": "3897487e065e74c4a36fd7c9d5bb26375255093a9887e2b395b99b973dad35ef"
+    },
+    {
+      "archiveBytes": 974155,
+      "archiveSha256": "aefa9a6ef33194f068f86975d43cdf666ba5da239e806a6b064f9744b3e00e48",
+      "filename": "city-shopping-trolley-1.0.0-minimal-1.0.0.zip",
+      "id": "city-shopping-trolley",
+      "noticeSha256": "558466d70a03c45d53f7260892ffc9e3f69fe3a1223a355e81fc6312df0e9d83"
+    },
+    {
+      "archiveBytes": 275931,
+      "archiveSha256": "4e14fe9e30b05102e2af5f27ad9cefcebac8b1b6f90ee94f05889e826dbfc0a1",
+      "filename": "city-solar-module-rack-1.0.0-minimal-1.0.0.zip",
+      "id": "city-solar-module-rack",
+      "noticeSha256": "6a43a5a6e8c81c61ec0bffb1786123cc733d189d8b7591a7d354af61cc411ac9"
+    },
+    {
+      "archiveBytes": 45562,
+      "archiveSha256": "f675c39e7b245aaf7be733e8e8c66e2b1f336d4c08a97b3e5c12a4bfe5f89969",
+      "filename": "city-speed-cushion-1.0.0-minimal-1.0.0.zip",
+      "id": "city-speed-cushion",
+      "noticeSha256": "7c29e3f4f562d6d71c860f2e2a008edd6506a96581909254ba573ed79039d889"
+    },
+    {
+      "archiveBytes": 106680,
+      "archiveSha256": "6422473d2c668e6adaa69802ef1769fb8ff5c72852638aae4ce2c0ba7cc28db1",
+      "filename": "city-storm-drain-1.0.0-minimal-1.0.0.zip",
+      "id": "city-storm-drain",
+      "noticeSha256": "09ad5f8ea36751197c15b8122fb6c4f5960bf02b7458fb3f3fdcbe4809c2f878"
+    },
+    {
+      "archiveBytes": 210645,
+      "archiveSha256": "2db17a7d6038f75056ea99c1e6183d70f4b7d4819b04f9f2746f3a659e5ee9b3",
+      "filename": "city-streetlight-1.0.0-minimal-1.0.0.zip",
+      "id": "city-streetlight",
+      "noticeSha256": "9216416e9b2dbc7e33e8015377e59360356816c12425abd00e9e7402de7f50d9"
+    },
+    {
+      "archiveBytes": 37858,
+      "archiveSha256": "a9a29e2c06eca999cfdfb2dc79da60f4a86a30c5d1b1e1b2633c7ae223359053",
+      "filename": "city-tactile-paving-1.0.0-minimal-1.0.0.zip",
+      "id": "city-tactile-paving",
+      "noticeSha256": "657f53883a4e477dba791e8e541627ce6addbe4138b7a6d91bade4cd4f8ebeb5"
+    },
+    {
+      "archiveBytes": 201450,
+      "archiveSha256": "17613e60e57f3ff92d52a96770a55068bd1c6ba29da9736dd354c4b9d89f960d",
+      "filename": "city-ticket-validator-1.0.0-minimal-1.0.0.zip",
+      "id": "city-ticket-validator",
+      "noticeSha256": "144e664b6f62a8b0bb70f2b194ed3c364d84e47799ee0f1edb01055d87c31d30"
+    },
+    {
+      "archiveBytes": 44953,
+      "archiveSha256": "bd84e67738636081192b3b487ac8a7953e002d9c29f5a0e0e166c5cfc196e921",
+      "filename": "city-traffic-cone-1.0.0-minimal-1.0.0.zip",
+      "id": "city-traffic-cone",
+      "noticeSha256": "53e68e15daa7643eee253971652c4c60470f88b0dfc356f913c01c993fb23323"
+    },
+    {
+      "archiveBytes": 517137,
+      "archiveSha256": "e0cdd51d0d42c8c8452590b54153b00d78536aebee09348b179abda751eb0011",
+      "filename": "city-traffic-signal-1.0.0-minimal-1.0.0.zip",
+      "id": "city-traffic-signal",
+      "noticeSha256": "3be685d65dcc55e6fc7745edf4d970bf5843d02e9c40a22f2bc47756d42d8e12"
+    },
+    {
+      "archiveBytes": 55209,
+      "archiveSha256": "fdcafbcf4ff377a75bbad3baab506c5b6ab9fd0edf60ec0a39ee6a200dace295",
+      "filename": "city-tree-grate-1.0.0-minimal-1.0.0.zip",
+      "id": "city-tree-grate",
+      "noticeSha256": "d863d829237b916e846157f810e5fc485b6b3d6c7eea72abda929d4b75194d66"
+    },
+    {
+      "archiveBytes": 51869,
+      "archiveSha256": "b514d4aa212068a530f3965bbec5df7dcf45e878c1d4515d081a00697f058b55",
+      "filename": "city-tree-guard-1.0.0-minimal-1.0.0.zip",
+      "id": "city-tree-guard",
+      "noticeSha256": "feff05c92ae461781ec95f0c7d6d765b70c9f3e76556e0fefd6fa2c876ae0b10"
+    },
+    {
+      "archiveBytes": 89220,
+      "archiveSha256": "0dd97b5930f41ff45de4583aaa2bb3f0f77d111bf847a9e6476c549160aa1900",
+      "filename": "city-tripod-turnstile-1.0.0-minimal-1.0.0.zip",
+      "id": "city-tripod-turnstile",
+      "noticeSha256": "bf3b42d3222a5a2e38144896543155b2d58823dbee3a18ce6e36ac2d6bfceaf9"
+    },
+    {
+      "archiveBytes": 870597,
+      "archiveSha256": "ac3f58d97b470edaac6a531549eec5d035d5b75bd3323e4ef1cd215686680422",
+      "filename": "city-vending-machine-1.0.0-minimal-1.0.0.zip",
+      "id": "city-vending-machine",
+      "noticeSha256": "fb715edf4b8fa98143617f67dd63a00d1ecfc8863a409c1073fb7120b8b05991"
+    },
+    {
+      "archiveBytes": 259120,
+      "archiveSha256": "9cb0c8e78b8a65f6ef0b27d81e20f6b386643c0f1dd7f64e20286dbb74a8870a",
+      "filename": "city-ventilation-outlet-1.0.0-minimal-1.0.0.zip",
+      "id": "city-ventilation-outlet",
+      "noticeSha256": "9e838b9bc717d831e89cc6f2b77ae2da154a3944e26a88612e29800101cbf985"
+    },
+    {
+      "archiveBytes": 133437,
+      "archiveSha256": "406afce0d6b9e31544fdc39243369902a1470317b8755c202cf4454f555f404e",
+      "filename": "city-wall-intercom-1.0.0-minimal-1.0.0.zip",
+      "id": "city-wall-intercom",
+      "noticeSha256": "36f228d5ef33d71d88597fc42e097c129a3b39294868d80aebe1914ddf8951c2"
+    },
+    {
+      "archiveBytes": 20265,
+      "archiveSha256": "d56471db7e3dc8585c84c77975b311a63b772cbd0b8253379b1eae56dd387fd7",
+      "filename": "city-wheel-stop-1.0.0-minimal-1.0.0.zip",
+      "id": "city-wheel-stop",
+      "noticeSha256": "e7bb6941083ae366fd74bd24f0c0f00270d392b94dd94a7f07db5b0fca0cd288"
+    },
+    {
+      "archiveBytes": 731644,
+      "archiveSha256": "8e82f9eedba763d726d51efddeddc1c1b356fb90cb77182545deaa686bb61ed5",
+      "filename": "clay-brick-1.0.1-minimal-1.0.0.zip",
+      "id": "clay-brick",
+      "noticeSha256": "ea650910683339ab5cd2f88a60f2565ab97824b8fc5f76423620ef13d8d78238"
+    },
+    {
+      "archiveBytes": 473372,
+      "archiveSha256": "d7751ed8dd351ea3617090ecc7ab1533934ebacae6b56d89ba70a0564552545a",
+      "filename": "cobalt-ceramic-1.0.1-minimal-1.0.0.zip",
+      "id": "cobalt-ceramic",
+      "noticeSha256": "5e8ec8b2bf533c8ac3eb198ed0277160f5543a87488e2dad9a168898c053e30c"
+    },
+    {
+      "archiveBytes": 7284376,
+      "archiveSha256": "4e96d19f9f222b8fea204b8a8fb49abc80021dfa3d754517d49521b4579478f9",
+      "filename": "commons-bar-counter-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-bar-counter",
+      "noticeSha256": "56827f5ff2ee4664c0ad2f4b66e7fd7add9ed263a340a62ca1de014bcb29631b"
+    },
+    {
+      "archiveBytes": 3237391,
+      "archiveSha256": "d572cd6176912338ad74944688e5e58abf66e969047cf06d9a79431bca67ba1e",
+      "filename": "commons-bar-labels-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-bar-labels",
+      "noticeSha256": "ca4905c5af15222f27a576b81a7c81ee8429d0398c38b9527b8905d703046927"
+    },
+    {
+      "archiveBytes": 8222843,
+      "archiveSha256": "58ce189134ef35169fd8fea1c2073f2d3c4c7bdfa84d0de7f03fb4f04a16fe4b",
+      "filename": "commons-bar-stool-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-bar-stool",
+      "noticeSha256": "244a4d863406e564897a90507106eea8e956a0ffd7b7d05249733c772c1a4b39"
+    },
+    {
+      "archiveBytes": 3355389,
+      "archiveSha256": "6e031ebe8d567c8ae711fa70d9d7a7091b17e1c2b96bca9b615d7fc8b292a27b",
+      "filename": "commons-basalt-terrazzo-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-basalt-terrazzo",
+      "noticeSha256": "d8f8b73ce9f7f45c3370f5d2d493ebdeb208f2e3152a36f74e683204c627723f"
+    },
+    {
+      "archiveBytes": 2535448,
+      "archiveSha256": "ffe3423a0a0bc8db98a99687f50f6fe75c5c144a6e7895401d4048402ad83b8b",
+      "filename": "commons-blackened-steel-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-blackened-steel",
+      "noticeSha256": "dcdf726f86566f4098f70725ac88963bf48203a759dca6d07de884279b4033a0"
+    },
+    {
+      "archiveBytes": 8444078,
+      "archiveSha256": "36d5c7504ab9c39154579c8445abab372b730689fba0f59fa643ac9a95bfbf7c",
+      "filename": "commons-book-set-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-book-set",
+      "noticeSha256": "c4aaa371c1e59757eef85f2cc89e7d65ce183545e3187c178a0097ab9dc3aacd"
+    },
+    {
+      "archiveBytes": 5715155,
+      "archiveSha256": "1c42e1fb60b85ce370ee53d903decf906dee7717d80ee054c0b38159a4720851",
+      "filename": "commons-bottle-set-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-bottle-set",
+      "noticeSha256": "9e5e2e552e3cb3c58c380b75caea58619835701864e1e4a031693bf839604f7b"
+    },
+    {
+      "archiveBytes": 2950344,
+      "archiveSha256": "2299dbdac188f5bbcd90f285e9b7bfdfd8bd6e0fa84a156183b08999ea3a9b86",
+      "filename": "commons-cafe-props-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-cafe-props",
+      "noticeSha256": "e883dcd71b0d9588b34d2793f917088d268d5f875303a830f205579f5a458e4f"
+    },
+    {
+      "archiveBytes": 5416192,
+      "archiveSha256": "409664408f5b4338297f7c28bec651ca10ecbda4c9b70d0ea733b952cb2a5e73",
+      "filename": "commons-coffee-bag-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-coffee-bag",
+      "noticeSha256": "4e2fca37daf49baae8bebaa241d46c345bb32510ecc62cc5ef0567866c243985"
+    },
+    {
+      "archiveBytes": 7601,
+      "archiveSha256": "a964acc6054acdd14998e1043d62979fdcb96c472a30ab3c4682c5d7694ca943",
+      "filename": "commons-coffee-cup-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-coffee-cup",
+      "noticeSha256": "11e62e63d571c95eac9e0e4301d80272cb3bf9dd741a3cd4aa85c1b3f7dedcaa"
+    },
+    {
+      "archiveBytes": 2539540,
+      "archiveSha256": "3b6ecb82aff096e04196f1355931626e7e496bb1d15695feb171c3aa973cbd96",
+      "filename": "commons-coffee-grinder-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-coffee-grinder",
+      "noticeSha256": "9d59da77168e958aec3797126c5d4e93b2b5dcf3034b73ddf8b1ff70c2369245"
+    },
+    {
+      "archiveBytes": 2561776,
+      "archiveSha256": "0f896a8a7df11780cac55a3f67b580269ebee9cb743ad0c17f7d4dc06ae1de5e",
+      "filename": "commons-display-plinth-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-display-plinth",
+      "noticeSha256": "1afc7dc81a155fc360abba8f0bf53a2e37dd5eeb5f9991ae64647ab1f765d318"
+    },
+    {
+      "archiveBytes": 7418995,
+      "archiveSha256": "e5b013fcb0893d6fbab457ddf8568786cb0f1a010e153366bbe8a40b0e30faaf",
+      "filename": "commons-dj-controller-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-dj-controller",
+      "noticeSha256": "c36709cd1f7fbe1d2e59f72613b462a2541ac62f2e339244389e79ce117818da"
+    },
+    {
+      "archiveBytes": 4817594,
+      "archiveSha256": "e969c48e52670a6c7a50097f1337d929f0de45445993cdba76075f0c786e4687",
+      "filename": "commons-dj-desk-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-dj-desk",
+      "noticeSha256": "b08e2fffe99390b87ad1fb0025d9c5654261412571956fa1aa93d9ae08fc3c32"
+    },
+    {
+      "archiveBytes": 5497440,
+      "archiveSha256": "8a327d2ff18c46ca8efbef581d6eee191a83e839c06093e95714fb6fd2d307fe",
+      "filename": "commons-equipment-rack-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-equipment-rack",
+      "noticeSha256": "87bba1a8b3a22f8ce6f782837b6cdba40e73d9b0ca210a6b67f1603cf566d63e"
+    },
+    {
+      "archiveBytes": 7952910,
+      "archiveSha256": "b3a4bb4d25fc8b52e11769997848b9c8f4ddf96658681d5f442c23a04dc48af6",
+      "filename": "commons-espresso-machine-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-espresso-machine",
+      "noticeSha256": "7fe1c788149a17d16e55837550d284c9aeb08f5ae318c8443fe91be255a5ca9c"
+    },
+    {
+      "archiveBytes": 8465150,
+      "archiveSha256": "05edda87329e88f8fe480edba4237ffb6d829e1e93477539f94f97a78d5bf167",
+      "filename": "commons-floating-bookshelf-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-floating-bookshelf",
+      "noticeSha256": "6325a8097b071e8e8d32a3be244097b48638b1449eed2bc60f999188617dbb92"
+    },
+    {
+      "archiveBytes": 2513810,
+      "archiveSha256": "1c6b59db06bf4ead4b9a4b69ebb97c49851fd49117bdff16516b036e5fd92286",
+      "filename": "commons-halo-light-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-halo-light",
+      "noticeSha256": "dcef82cacda6a88928b826c09ff7a02827ec6ae4a0bbabd266d591fbf781333e"
+    },
+    {
+      "archiveBytes": 16655,
+      "archiveSha256": "c499f76da3561c42fbd68ec2e7f1420c9f35f38bec2f47813d656ba793debc40",
+      "filename": "commons-leaf-planter-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-leaf-planter",
+      "noticeSha256": "3661272cbfda09a9483079b354807df7d70ec2d135a627a6656e9a73214c3328"
+    },
+    {
+      "archiveBytes": 5684866,
+      "archiveSha256": "1c71fdf9643f22e60344e563edd5f2f76bcdcf6d1972f20989774910e3e27758",
+      "filename": "commons-lounge-chair-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-lounge-chair",
+      "noticeSha256": "e57ec50b8ff7086cb8d692474dbb218938af6cef33fe8195e6a66973889c9479"
+    },
+    {
+      "archiveBytes": 5688562,
+      "archiveSha256": "095a26a213152cba90384403d37df399e836a24d05863760f0f70e35ad6af882",
+      "filename": "commons-lounge-sofa-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-lounge-sofa",
+      "noticeSha256": "eef061ad1d0857b1e5eaf88e24288282a9f9854fb7bcae6ce52713778e39d132"
+    },
+    {
+      "archiveBytes": 7290755,
+      "archiveSha256": "e95fb87f867d1e4fb6238cc96063bbee4371db17e567bf4b24fa811a5d549257",
+      "filename": "commons-low-table-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-low-table",
+      "noticeSha256": "bc28ff1b4d9a51c3e9e70584db9a00f11912eded188cb44951512a417144963a"
+    },
+    {
+      "archiveBytes": 2988890,
+      "archiveSha256": "e7b9c23005f1a013796d8fc8767bd8d422129c300aca2192a74cbeef80c8a359",
+      "filename": "commons-mineral-plaster-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-mineral-plaster",
+      "noticeSha256": "ba21a9b61486ca1ff7a4636f68caf84b8dd92b9b2d2fc0fe0f82a47cad02fa2c"
+    },
+    {
+      "archiveBytes": 2543529,
+      "archiveSha256": "930c71dd2aa6bbce95c1d7ed858abc331d1feeb239bdfc003e247992a67eb604",
+      "filename": "commons-pa-speaker-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-pa-speaker",
+      "noticeSha256": "950d71e2f5542fbe04184b5b999e0e9872c5c91f44c4b871d0ab9c092bbcd738"
+    },
+    {
+      "archiveBytes": 2541946,
+      "archiveSha256": "e0893ecb49a3b6327d9ba2a0ea8fef422a2d1897ed50de62748842ca762153e1",
+      "filename": "commons-pendant-light-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-pendant-light",
+      "noticeSha256": "09669c50be10584906c32aac1bd08209a4f5f967e593c1c29b0fc375d41b1cc6"
+    },
+    {
+      "archiveBytes": 2463272,
+      "archiveSha256": "d9a108ce3384372b23bdb5a4dc213ab1b1e56152be291ff24057df257f0198e8",
+      "filename": "commons-poster-frame-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-poster-frame",
+      "noticeSha256": "7eeddfff41dc4d9a04af597d854cbd6e78e732ef25535db3f1566a93425c8d1e"
+    },
+    {
+      "archiveBytes": 2351423,
+      "archiveSha256": "d7e49d61ab88cee822b397e78fdaf1d6e4b2b6e7ae5005849061b8f77e8b305a",
+      "filename": "commons-relay-controller-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-relay-controller",
+      "noticeSha256": "8eb555a2b953e82920dc21e76c2f747c54d1d138ded48a22efcf3183c0a0567c"
+    },
+    {
+      "archiveBytes": 4855803,
+      "archiveSha256": "84c2673dc0c2b5418cfac41c53f4cedf2757eb1ce192bd633ba4ff29d05d8385",
+      "filename": "commons-round-stage-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-round-stage",
+      "noticeSha256": "39c3622fbc3c5587aa14fa8361cdf5fe0804da0594a7e0b8a0ba19e5b9362f4f"
+    },
+    {
+      "archiveBytes": 7290423,
+      "archiveSha256": "58104c9838fb03a7a510078117aeb19c1060891d4302b0cbf3b79176d7e621f6",
+      "filename": "commons-round-table-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-round-table",
+      "noticeSha256": "9f78f68481a1a7c3fb1ace414791837bc6edf2954bf385db7dbbcf614c46e307"
+    },
+    {
+      "archiveBytes": 2461551,
+      "archiveSha256": "6a7fd8b9f47d4d35dc90cb2a7fcf5b744c35f546f774ba9ecaf8e2a8597bde93",
+      "filename": "commons-satin-brass-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-satin-brass",
+      "noticeSha256": "d13ff1d1a797a2196775edbebbf4da2617cb81cb25e0b87133480a41cc958fef"
+    },
+    {
+      "archiveBytes": 3751,
+      "archiveSha256": "fdb5bad503408f19eebc163e46c9047c702939577491f73ce6de9164b456a5f6",
+      "filename": "commons-table-candle-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-table-candle",
+      "noticeSha256": "e0bc4f8f6337a298794ca4643c40089c496c71559ee2574b0264c348466efa54"
+    },
+    {
+      "archiveBytes": 3214043,
+      "archiveSha256": "ac8209b7aad1cef820873611426711f608d61a072bf10aeea4e04ebb4988bec1",
+      "filename": "commons-teal-woven-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-teal-woven",
+      "noticeSha256": "b9f5eaa965c89b25244f65e85f59735f2dde80abd2a1b628b7fb7a31e2e74101"
+    },
+    {
+      "archiveBytes": 2277170,
+      "archiveSha256": "89fba4d903a885b10ea1b3c38ecac13fbfd0ffd84b66a2fac4971321dca6b7ff",
+      "filename": "commons-warm-oak-1.0.1-minimal-1.0.0.zip",
+      "id": "commons-warm-oak",
+      "noticeSha256": "5a95f0e71691de435ffd8d6b75b5f02e9f1397b33503ba3f6909c89885bbf2c3"
+    },
+    {
+      "archiveBytes": 4117,
+      "archiveSha256": "c62686d9fb311ddbb23dd97b9a7847294d88d03b6bedd061a5127fa1596ab0a8",
+      "filename": "field-terminal-1.0.1-minimal-1.0.0.zip",
+      "id": "field-terminal",
+      "noticeSha256": "c687441f1ab8701451061f94ebd1371d6f7a8bc4dbd42a3cfa27dfde10be2f6d"
+    },
+    {
+      "archiveBytes": 7475,
+      "archiveSha256": "e8ab5e9114b62df609398e9317ca74649c0e9066eed24bf361c00664774d81c7",
+      "filename": "garden-arch-1.0.1-minimal-1.0.0.zip",
+      "id": "garden-arch",
+      "noticeSha256": "a071b73db67c944ab5456c895e49e3c9ef71d2603c78322c4f241485ed370ef2"
+    },
+    {
+      "archiveBytes": 8518,
+      "archiveSha256": "475482f39ac2e927f75ce3319668b0c4354662333a755bde1d385a62f53b0ba1",
+      "filename": "market-crate-1.0.1-minimal-1.0.0.zip",
+      "id": "market-crate",
+      "noticeSha256": "17fa6de8bfc0e8ee19c3dd0865ebcf0e6b64a05094c52d17078107b0eba0cb8b"
+    },
+    {
+      "archiveBytes": 322343,
+      "archiveSha256": "d704e068caaddbc1bca91bf4c631e23edf69323357e4c90399a47b3a690c04d1",
+      "filename": "sage-terrazzo-1.0.1-minimal-1.0.0.zip",
+      "id": "sage-terrazzo",
+      "noticeSha256": "d6611b5c8e7a5d0f0f7fdba8ebb5d76bc6ab734fb14836e8844ad2fbb46d504b"
+    },
+    {
+      "archiveBytes": 4747,
+      "archiveSha256": "52b157846ce899feeafdbc4a5850b95ed674ab16c419f5b53b1b5dc049c2dfbc",
+      "filename": "slat-bench-1.0.1-minimal-1.0.0.zip",
+      "id": "slat-bench",
+      "noticeSha256": "08b709e2c1165398d8a422af2382832e222a664d9aba3bac63956ce637ea30f7"
+    },
+    {
+      "archiveBytes": 4475,
+      "archiveSha256": "51e7778865ea5ea419803d774ea484f9d8b1951f3a1dc169f5e6ef45dc38ebca",
+      "filename": "studio-chair-1.0.1-minimal-1.0.0.zip",
+      "id": "studio-chair",
+      "noticeSha256": "73118123caf17885c1d3df6eab139fa90288faf88db01e497b017d82af1bd2c3"
+    },
+    {
+      "archiveBytes": 51804,
+      "archiveSha256": "c064a8692285754e98f98f67d8b71c677b16ffb618ac0ea13f718bc51f07d612",
+      "filename": "terracotta-planter-1.0.1-minimal-1.0.0.zip",
+      "id": "terracotta-planter",
+      "noticeSha256": "5f2816afa8ec4d60de45c6917e15b3d9e1dcc6c7267d701b27b38bbd9e7fa89f"
+    },
+    {
+      "archiveBytes": 1483794,
+      "archiveSha256": "7b692202b99b1ff5e0da21ee04d1ae51790bba65aa1081b12fe13a0c2410df65",
+      "filename": "warm-limestone-1.0.1-minimal-1.0.0.zip",
+      "id": "warm-limestone",
+      "noticeSha256": "3733ed91e3d8c10e2e9f1cb8f3084bf5c100c0413ddd7e628fe7ba9a69498b16"
+    },
+    {
+      "archiveBytes": 40988,
+      "archiveSha256": "b864b0d364d8d10c3be168d4c2af1ffb35855887d722a20e9ad9c91b415362b9",
+      "filename": "wayfinding-sign-1.0.1-minimal-1.0.0.zip",
+      "id": "wayfinding-sign",
+      "noticeSha256": "70964f357b40ddd10a95d691e31b7ed9574211da034eb243bfbc97894580cfa6"
+    },
+    {
+      "archiveBytes": 3480445,
+      "archiveSha256": "b4a85be59f5d0ec28e3fbf37c6441357c3833d1fe8d14c48f277c56f6aa7bc2c",
+      "filename": "yokocho-banquette-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-banquette",
+      "noticeSha256": "7ffd5db8b2ac2c250cb059e3da377b66da72b3c97be976365c63e4741e734e84"
+    },
+    {
+      "archiveBytes": 20478,
+      "archiveSha256": "ebe023bb4c7e89e48ec874fa4ea9f8d67adebd692b514518af216985a8cd7d00",
+      "filename": "yokocho-bard-lyre-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-bard-lyre-sign",
+      "noticeSha256": "09c483800e9a86705d169711faf1ad452a3a4d82c80d9099407e3b94052800ac"
+    },
+    {
+      "archiveBytes": 338828,
+      "archiveSha256": "5b2d64c09c5c50839e0d866befaeb96b92bf6b2413224a3849324d8afbac02c8",
+      "filename": "yokocho-bark-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-bark",
+      "noticeSha256": "30cfd1f1bb7a5afd183b56ff520579ca756d4b3528009f7abfebec2c5b105088"
+    },
+    {
+      "archiveBytes": 109146,
+      "archiveSha256": "b27124eea87cde267de1c52562a9ff264fd4e8c64a8117fe9ea8c619145fa97a",
+      "filename": "yokocho-booster-pump-skid-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-booster-pump-skid",
+      "noticeSha256": "1f03b1db39dc929badc11a25f7fe338ab8db86f56b5f0d272dbe1e2b0730c323"
+    },
+    {
+      "archiveBytes": 17396,
+      "archiveSha256": "cca14c321c1119d2c3bb0dc3fd714231f33278fd6af00afc41c549cd5bf951d7",
+      "filename": "yokocho-booth-table-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-booth-table",
+      "noticeSha256": "0cc68808a8f74bf2b5d21ae0127a6fbb3f4cd45ce9866ad374827d3bc4321b87"
+    },
+    {
+      "archiveBytes": 3986586,
+      "archiveSha256": "2a2f731d23c8e6acc6914d8a68c9de0480f377c977c678183f229771c592d5df",
+      "filename": "yokocho-bottle-keep-wall-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-bottle-keep-wall",
+      "noticeSha256": "35046210835807d59521328b587846995c08fc73d648d737d7596776a3702dfc"
+    },
+    {
+      "archiveBytes": 79413,
+      "archiveSha256": "c616406624f95f49f2078006e1f85cd749166c0d0bd8fb856392882eb59e490d",
+      "filename": "yokocho-charcoal-stool-set-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-charcoal-stool-set",
+      "noticeSha256": "c09a35f531654eb83dbd7eee53d4cfdc4789a63157220ad065b3b4b92d92301d"
+    },
+    {
+      "archiveBytes": 23187,
+      "archiveSha256": "f0c7106611cf0a1146b7b7f01be622ee438a011c2227e7b27dcf1de8c0594f69",
+      "filename": "yokocho-cloth-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-cloth",
+      "noticeSha256": "ec71593e47342c4ee4c7f42984cd8c7b9d29af000605c450a922a44e680d66e1"
+    },
+    {
+      "archiveBytes": 10545,
+      "archiveSha256": "621890909419d5732596291cc04110ee630dde172263985aa11be040a4705e46",
+      "filename": "yokocho-club-armchair-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-club-armchair",
+      "noticeSha256": "ddbb3f790af60c946cac702388eb504054e27b5102c82243dca281c6a26e1746"
+    },
+    {
+      "archiveBytes": 13943,
+      "archiveSha256": "7bf3970eb43aaaccade37b59e548f9f03170fb52e7c539662063d635b054b751",
+      "filename": "yokocho-cocktail-stool-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-cocktail-stool",
+      "noticeSha256": "09eb2c868ad4f5b9d4796db7a1f09c4592873eb0ec55b37be6e90c4fd490404c"
+    },
+    {
+      "archiveBytes": 38574,
+      "archiveSha256": "7d662d050137111b77f3023474574fff77129a468e808a4d598a1fcdfe2b1af7",
+      "filename": "yokocho-confectioner-stool-set-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-confectioner-stool-set",
+      "noticeSha256": "1aff14b925efd0b7d74008cc501646304b7fd84f6195080b49d237906874792c"
+    },
+    {
+      "archiveBytes": 667908,
+      "archiveSha256": "bf51eebda28fe65326dc3f5eb32fc13ab0e2b5b513eb1058e0ad7beae46032b1",
+      "filename": "yokocho-counter-craft-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-counter-craft",
+      "noticeSha256": "4bdcb1e33adb5b674da97a6b73d33661d5e3f18edd4d3e02d6d196c2eb002713"
+    },
+    {
+      "archiveBytes": 27145,
+      "archiveSha256": "f73833bbf458520446f68ed2e5599f2124d6e77af6203a0fb4fb4126f135e24a",
+      "filename": "yokocho-dragon-ember-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-dragon-ember-sign",
+      "noticeSha256": "98ffcc539ab6abe05e3e303e8f6418e3106f4b7d0c751d352b62ec1b229c5969"
+    },
+    {
+      "archiveBytes": 1887,
+      "archiveSha256": "0a2bd1ff2f7ca1056fcf7c46e455de53373da64346951457d6ba30e859795eca",
+      "filename": "yokocho-entry-control-panel-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-control-panel",
+      "noticeSha256": "13c09097c92fc7a0cfeea8d2e4d0d71cd0ee3bdb38632774b20715fa962f3a2d"
+    },
+    {
+      "archiveBytes": 205158,
+      "archiveSha256": "e3bc400c531f866f59db47fc07894fa8ac17edf753ba8808391825cd4e0edbdd",
+      "filename": "yokocho-entry-display-frame-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-display-frame",
+      "noticeSha256": "6541024a3e865f4bcfac041d442b47858eaa72dd8cac259e83b050d2b19b3027"
+    },
+    {
+      "archiveBytes": 404784,
+      "archiveSha256": "0e06fe5830fa2a3f4c3811c59ec4961ca96cdd6c79306b6fb8b2cd26b0d9be7a",
+      "filename": "yokocho-entry-endgrain-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-endgrain",
+      "noticeSha256": "544161c92f0d9c58bb41ef3f2d48b3781701b5245df0940fe4fbb6ce8d1be19b"
+    },
+    {
+      "archiveBytes": 333387,
+      "archiveSha256": "e87c34c6cfd5b9bad6bbafafce72937fc57f42d6de9c5e2ba5134ce4681a189f",
+      "filename": "yokocho-entry-guideboard-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-guideboard",
+      "noticeSha256": "2376d7ba89d2492a20291e0f13f7c4c44110e34c2e09aafe2fdfd5d563739753"
+    },
+    {
+      "archiveBytes": 154068,
+      "archiveSha256": "f6240196748c52a9f7228ec4791cf2679868ba40bef5306bb6003343fbaf8ea5",
+      "filename": "yokocho-entry-guideboard-artwork-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-guideboard-artwork",
+      "noticeSha256": "6d84e709b85f610545a02003cb55b8d655b86baf59d13782f397086d05c022d9"
+    },
+    {
+      "archiveBytes": 581217,
+      "archiveSha256": "b6f9ac5dbf596e01ac47be1df8ad36a86386a03f37b433547ff524b3cb686fa4",
+      "filename": "yokocho-entry-log-bench-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-log-bench",
+      "noticeSha256": "b5e1331d6067fa19ebb20e4677d36f062827bdf4f8e45551515a2a333540b62a"
+    },
+    {
+      "archiveBytes": 577015,
+      "archiveSha256": "1bacae09109767511264fbfed1370b78279e209150c2d7e4c453e07eb7a8d6ec",
+      "filename": "yokocho-entry-stump-table-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-stump-table",
+      "noticeSha256": "7b8b0c7d6db0404e938d0139c0801901ddb12bb126e6932074121e026ea6b8f5"
+    },
+    {
+      "archiveBytes": 164313,
+      "archiveSha256": "291f41c81c0959e8fa01120c300e41eb8a0e9f151e359d44d519ba0462f74691",
+      "filename": "yokocho-entry-timber-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-entry-timber",
+      "noticeSha256": "108088699e8d4b4119651b0795647b9cc046e514097eb01a14f3f4259b2aec93"
+    },
+    {
+      "archiveBytes": 271616,
+      "archiveSha256": "0f326c434821719453ef6eb6da9e86c1f8475a99fdbacbf18c877af9f477444a",
+      "filename": "yokocho-foliage-spray-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-foliage-spray",
+      "noticeSha256": "33f852e0c6e5e87f6338384e571956c25d72f9cf8056d5bb0981928191cf6bc6"
+    },
+    {
+      "archiveBytes": 247338,
+      "archiveSha256": "d56bc3d3f5d4c63d2540daa540abd7e2e5234d39e80935345ed6209b045f580e",
+      "filename": "yokocho-food-venue-signs-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-food-venue-signs",
+      "noticeSha256": "745b4d32511623291644089fb8467303aa87aa9883ed2d9775bc8265242fa2bc"
+    },
+    {
+      "archiveBytes": 495698,
+      "archiveSha256": "0d0ed2918d92ed0aa649afc0bd44aeaec7ec77a95f2581dff5e38c8f6cb1914a",
+      "filename": "yokocho-geometric-backbar-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-geometric-backbar",
+      "noticeSha256": "1b6e216b88cd3170b3d818be697fa3e7e7cf9c6fe8f6826940598f46865ff117"
+    },
+    {
+      "archiveBytes": 494037,
+      "archiveSha256": "04f7dc9b3d0b3b1f1cbdbddf6378f434f0b1c44203f1021ac24944099fc70b3e",
+      "filename": "yokocho-lantern-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-lantern",
+      "noticeSha256": "9e43c41d80603bdb50b619ee4a77b96f690638b06d5e8a0f34dea15ed6f4f228"
+    },
+    {
+      "archiveBytes": 1585028,
+      "archiveSha256": "84a20fd6be24ac85d7c693560211c036ff99e58c23a0da1d84b3df7788652b2f",
+      "filename": "yokocho-leaf-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-leaf",
+      "noticeSha256": "c8ce603c48ce19af724ed79c10d4a5736f8347637c778feca9079db7af08818a"
+    },
+    {
+      "archiveBytes": 3440665,
+      "archiveSha256": "c1e76ab56af9e9ac6205db7cec30ed6b01e65863ab0e6c62b8fef8c4ce43dc50",
+      "filename": "yokocho-listening-chair-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-listening-chair",
+      "noticeSha256": "06ed9a4bced092d90d50087998f5a286962058c5092eee91fba5baec1fb73cab"
+    },
+    {
+      "archiveBytes": 18009,
+      "archiveSha256": "b5c4e588efa5ab3a22e0cfeb07c35bb5c81d1f607fbfd50651e5870cf62edb52",
+      "filename": "yokocho-listening-counter-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-listening-counter",
+      "noticeSha256": "58904941bad8dc3484b22a3802765fbcbaa75a16f87a129efd0fd5be1b852a24"
+    },
+    {
+      "archiveBytes": 11460,
+      "archiveSha256": "9b5789dff4aa75937f17ede79d27871d852b53934dad0089f072573bc1909c00",
+      "filename": "yokocho-lounge-table-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-lounge-table",
+      "noticeSha256": "7f9f0980951b473136a096014b39f9c9702f1f476f1da4a017a40e18cfaddbee"
+    },
+    {
+      "archiveBytes": 21531,
+      "archiveSha256": "7cad6f0338c18c4a0e3f203ba09f979fb22c07d0d87fa6aede9e465e0edaf845",
+      "filename": "yokocho-medallion-chandelier-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-medallion-chandelier",
+      "noticeSha256": "b337595ec991b2e7dd13cde03936a1a689524c192f4d6614ebb6fefce7111268"
+    },
+    {
+      "archiveBytes": 6719558,
+      "archiveSha256": "84c064ae2e4a8392a8328fd45dc6dae48b11a12e19914c81c41937f81482c145",
+      "filename": "yokocho-menus-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-menus",
+      "noticeSha256": "74cf8f85a50ac9f53fe72fc6d4d874b9f06382d27260804402819d803dddb314"
+    },
+    {
+      "archiveBytes": 17509,
+      "archiveSha256": "cc8273ea0c8ddd229d80fd0e72b8aeabf854ee893e30901a8cd58e8f1acb7193",
+      "filename": "yokocho-mixology-tools-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-mixology-tools",
+      "noticeSha256": "0ce9d85abf78ed6186d295b59a9abe9c3cf15a86bc4cdc610e46c3baa44da71d"
+    },
+    {
+      "archiveBytes": 35769,
+      "archiveSha256": "2d6be8b01cb2c379f03db80a6683dab53aa7745fc7cd24c2e91000c17652fa39",
+      "filename": "yokocho-moon-tea-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-moon-tea-sign",
+      "noticeSha256": "37bea17d99302191119b0ab7354de1d3df225312ad7fa162b4bf752a05f32786"
+    },
+    {
+      "archiveBytes": 369728,
+      "archiveSha256": "5da80b30ca40b79abb1260542b8d43fc9d85fff7f1aba37356ea053f3791ad4f",
+      "filename": "yokocho-nightlife-signs-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-nightlife-signs",
+      "noticeSha256": "0ef698b1d14e5643db06dc718ce07161f265840511d568549b727bfae29eca51"
+    },
+    {
+      "archiveBytes": 6497045,
+      "archiveSha256": "aa00d645fd2c2046f807ec65d7a1160f928acbb9e64bcdc53a3f5c62bd898ef2",
+      "filename": "yokocho-noh-pavilion-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-noh-pavilion",
+      "noticeSha256": "54bca139768b4e1b94f309a9d838ab8caba946389028e20811602a9b5d28d03a"
+    },
+    {
+      "archiveBytes": 4564711,
+      "archiveSha256": "60839b040e78974d2765a43a901b64460a13a8a791c59bde75c2bd34abac7693",
+      "filename": "yokocho-noodle-guild-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-noodle-guild-sign",
+      "noticeSha256": "317b51a42af78dc872efee4a0f5055806b684726fbf565cf518a837286eff6da"
+    },
+    {
+      "archiveBytes": 109812,
+      "archiveSha256": "01e1afba714cce22d98cf06b7c19e1f55603ae85238e53a5c6d4d175fd3febbe",
+      "filename": "yokocho-noodle-stool-set-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-noodle-stool-set",
+      "noticeSha256": "e35569900dd8969c2a04f3109cc88ec12e0daf45125d710ba22c27f517ee8629"
+    },
+    {
+      "archiveBytes": 1640944,
+      "archiveSha256": "eee985ae3b0540af08fdde753e902a36a18b5f5f45b7b4d1316fef3c3fd4b3bc",
+      "filename": "yokocho-oden-bench-set-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-oden-bench-set",
+      "noticeSha256": "fcb4d2e4c6c7a15f4d251a785c0187c454d9d159b7c7d6aa8bc1b59a342666f0"
+    },
+    {
+      "archiveBytes": 35777,
+      "archiveSha256": "94828c4f689656e3f1ebccce026eb764eed0b1f6e5e3862121721a5eb4f147d1",
+      "filename": "yokocho-pendant-ceiling-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-pendant-ceiling",
+      "noticeSha256": "2d5ee1bff9391ec2cc0ab9b43af7e3f1ddceb97912955117e60145ca28d27053"
+    },
+    {
+      "archiveBytes": 1351440,
+      "archiveSha256": "08bedc48946f13f84e4eed34c2e50aa9801282a1c59e9886bfb61acc47464977",
+      "filename": "yokocho-plaster-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-plaster",
+      "noticeSha256": "75c1a6c766e88a3f736351acc5ff38967f3cc50be0e6c6dbfc65ef7ef6b7b240"
+    },
+    {
+      "archiveBytes": 393626,
+      "archiveSha256": "e0833787ba1b5f9a1e6296e2332e78b24fb80c6c13ee46aca23906066b151091",
+      "filename": "yokocho-record-library-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-record-library",
+      "noticeSha256": "7fddedc7eebe811bf079df07064c8b01d1e5bab57e0a3835d8caf74a34fcb4ec"
+    },
+    {
+      "archiveBytes": 326825,
+      "archiveSha256": "58f53ca288019430e03edf57c1188edcad030a594fc20da2c3429832d3db2de6",
+      "filename": "yokocho-roof-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-roof",
+      "noticeSha256": "a09b61fdf8c0870461e04d05e663fb418f03ab0061fad16fd9128ddb02ddc655"
+    },
+    {
+      "archiveBytes": 4278128,
+      "archiveSha256": "f59658c44b37e032cb2af2530fb4f30a74d8e3ef6c4554af79d0ac1b4c94167c",
+      "filename": "yokocho-shopfront-identity-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-shopfront-identity",
+      "noticeSha256": "1f66c13e4bc85e991bbff2dc56052f2a1d3945fdc157a1a513fb20ac2a5cc84e"
+    },
+    {
+      "archiveBytes": 3171442,
+      "archiveSha256": "461bb56447780a96512e12d3a040baeb65a3cb73d62a82fca288f02909c5748b",
+      "filename": "yokocho-signs-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-signs",
+      "noticeSha256": "e7677c4f0ab1f072658ba7777e52c7106ce99043a618b5c3a2246ff0a0f34755"
+    },
+    {
+      "archiveBytes": 3455546,
+      "archiveSha256": "d68570c5de02791ac53ad81b14bc636174f03eb4f5dd25ff601f3d8ab299a6b4",
+      "filename": "yokocho-snack-chair-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-snack-chair",
+      "noticeSha256": "5d7273d1e60982a88042ca64e43aa22463a1893c971230385de5d9a83df2051d"
+    },
+    {
+      "archiveBytes": 3464362,
+      "archiveSha256": "e12334e6593c52a88cfcf0a90a78f6873bff05b8cb7a53647948eddb11f158c6",
+      "filename": "yokocho-snack-counter-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-snack-counter",
+      "noticeSha256": "02612fa876f8e8044d285f3ce7089f430007c8ee6ddafac1591837b18505d1ce"
+    },
+    {
+      "archiveBytes": 22930,
+      "archiveSha256": "f1905efc1927e95ff23dac35943810c2325a75b74ad2706dbf279a467b4a3af5",
+      "filename": "yokocho-star-distillery-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-star-distillery-sign",
+      "noticeSha256": "685d5b5e19831708587aaa38770df2622f3d6f7d04cb0ec3a706a91538b3486c"
+    },
+    {
+      "archiveBytes": 1676543,
+      "archiveSha256": "ee1aa4f37a1695ba761dfff387a2b18e7c107be428c984c1744f7650e318f124",
+      "filename": "yokocho-tea-furniture-set-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-tea-furniture-set",
+      "noticeSha256": "b79813e4d328eaf97e158badf71b7b4965b058d131171303d8b679ed86865b9c"
+    },
+    {
+      "archiveBytes": 56564,
+      "archiveSha256": "d9824a346b73aa60766049a73a6994c38dbf8e5a3671c430273770e3d5ed6488",
+      "filename": "yokocho-telecom-mast-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-telecom-mast",
+      "noticeSha256": "42f2d0dd3fefd0a878785bac16594920886027a8c10d7b0905d6f6f4925c88e3"
+    },
+    {
+      "archiveBytes": 1323112,
+      "archiveSha256": "e7b763a32ac6666c2fd24d656e6defb9f14b947f3a07d40990dfaecf7851de16",
+      "filename": "yokocho-tile-clay-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-tile-clay",
+      "noticeSha256": "d2fcebad45f8db7938138b111e56e49545c33666fe7a7beef3e17d3c226be1e1"
+    },
+    {
+      "archiveBytes": 34070,
+      "archiveSha256": "35da08326e388054fb2d81f543aad26d6e47554be4dd8fe688bb35bc57dec238",
+      "filename": "yokocho-timber-stair-flight-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-timber-stair-flight",
+      "noticeSha256": "d9fa8196c0a86b0c52f29549ab00123d5a02d0c5a0d152d130f765b3c3bbf70b"
+    },
+    {
+      "archiveBytes": 19633,
+      "archiveSha256": "ed20279788e3515af93fd2f892da5489b18d1bb9a892d1c8b417ed2599d51f54",
+      "filename": "yokocho-traveler-pot-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-traveler-pot-sign",
+      "noticeSha256": "3eb8737163c112ffa9d441a588971ffb8a896ce4a8a918be9d0cd528f4830934"
+    },
+    {
+      "archiveBytes": 13879,
+      "archiveSha256": "baa681922eef836d1492075a4a95a66dc476a579b9467f29b1d7c3fe100a51fe",
+      "filename": "yokocho-turntable-amplifier-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-turntable-amplifier",
+      "noticeSha256": "bc4544548e7039619eeb8823975c74c71ff2dcd2e8252a78b31f453b678d5b6e"
+    },
+    {
+      "archiveBytes": 79832,
+      "archiveSha256": "fa60b34f7a532d28db53929eeebef6728ccf794c647c11cd88b0d0319562bfcc",
+      "filename": "yokocho-upper-water-storage-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-upper-water-storage",
+      "noticeSha256": "6f34dadb9b9fbf75f256b0383cf74310c503dc3e4af7cd7278eadfbde26d1889"
+    },
+    {
+      "archiveBytes": 48692,
+      "archiveSha256": "8c7ded00a9ff6c72bcfff459685317edd6bdc985cb934d261c24ae22f89e23b8",
+      "filename": "yokocho-utility-service-bank-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-utility-service-bank",
+      "noticeSha256": "4500c51923c095a1f5a2822cd718b5ca70cb665d176fc6c769c582f004582bf9"
+    },
+    {
+      "archiveBytes": 27583,
+      "archiveSha256": "dc58c1a304cb32118b68089a773b6f61747a999928c1ad059d1295c35f2d5453",
+      "filename": "yokocho-walnut-counter-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-walnut-counter",
+      "noticeSha256": "6d2a78549a6bb9b1bcda3c99cc1934256d4e63318ca382ac98a22203eaf2ec6c"
+    },
+    {
+      "archiveBytes": 363196,
+      "archiveSha256": "8449e22decc16f66e623e638d6a00156c244aaab5c710173916e11637bfc7554",
+      "filename": "yokocho-water-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-water",
+      "noticeSha256": "13c6084ea849615110bc63eab0ecbdd6a3e0a4bb959f0519f90092c28a64c32d"
+    },
+    {
+      "archiveBytes": 3466638,
+      "archiveSha256": "ea22352dbfb738cd3ad35a61739b8d225ab0b34939a05e23d35a53b1a5d63dc8",
+      "filename": "yokocho-witch-moon-sign-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-witch-moon-sign",
+      "noticeSha256": "1ea199a54c689e4e6e40d4f9a3f647aef9a599980aad2354375a3eae710ecd39"
+    },
+    {
+      "archiveBytes": 342957,
+      "archiveSha256": "945eaf8250b18eb2eadea621230f64e22be3f2c8329bf2d52f1b040baefa03b1",
+      "filename": "yokocho-wood-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-wood",
+      "noticeSha256": "4fefc2478e640ad38fd3f410c38141cf29dd152207173dfb2b2b1b38d5e08099"
+    },
+    {
+      "archiveBytes": 1624305,
+      "archiveSha256": "0b94053ea309680527cd6dcbef2cb391333871df109dfc00b75359663ad3b08f",
+      "filename": "yokocho-woven-1.0.0-minimal-1.0.0.zip",
+      "id": "yokocho-woven",
+      "noticeSha256": "18e4192c20ecb44b1ee09424046dec531c914c9b3740d21c10f636fd387d77d2"
+    }
+  ],
+  "cohort": "published173",
+  "noticeGeneratorSha256": "c34060cb003f46ab020f6ec59bf8381ed877298a57769189926a041efbc1bdf2",
+  "packagerSha256": "b358b142f0238535fc3f480e5e2ca54d35991ba2f50072780735e69c075aa34b",
+  "reviewStatus": "final-reviewed",
+  "runtimeSha256": "5d6c07a1d6dbcf73a54f809d0fa08e21d9477d4440d9a0f281b9bda30efb03ab",
+  "schemaVersion": 1,
+  "sourceCommit": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "sourceInventorySha256": "675bc14feaca359ef6543c2d691f56cb2012abf135f7a1dd14b85cfedebe26ab"
+}

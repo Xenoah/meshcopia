@@ -1,0 +1,16 @@
+[
+  ".github/workflows/verify-minimal.yml",
+  "docs/minimal-verification/README.md",
+  "docs/minimal-verification/allowed-f-paths.json",
+  "docs/minimal-verification/expected173.json",
+  "docs/minimal-verification/runtime.json",
+  "docs/minimal-verification/source173.json",
+  "scripts/minimal-verification/common.py",
+  "scripts/minimal-verification/prepare_manifests.py",
+  "scripts/minimal-verification/setup-runtime.sh",
+  "scripts/minimal-verification/test_verification.py",
+  "scripts/minimal-verification/verify.py",
+  "scripts/minimal_notices.py",
+  "scripts/minimal_packages.py",
+  "tests/test_minimal_packages.py"
+]

@@ -1,0 +1,54 @@
+name: Verify original 173 minimal packages
+on:
+  push:
+    branches: [minimal/verify-existing173-v1]
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-minimal-verify-existing173-v1
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && github.ref == 'refs/heads/minimal/verify-existing173-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Validate exact baseline, additive paths, source and reviewed hash bindings
+        run: python3 scripts/minimal-verification/verify.py --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/minimal-verify" --preflight-only
+      - name: Reproduce and verify inside pinned official Debian runtime
+        shell: bash
+        run: |
+          mkdir "$RUNNER_TEMP/minimal-runtime-output"
+          docker run --rm --platform linux/amd64 \
+            -e GITHUB_REPOSITORY -e GITHUB_REF -e GITHUB_EVENT_NAME -e GITHUB_SHA -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -v "$GITHUB_WORKSPACE:/src:ro" -v "$RUNNER_TEMP/minimal-runtime-output:/result" -w /src \
+            debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
+            sh -c 'sh scripts/minimal-verification/setup-runtime.sh && /usr/bin/python3.13 -m unittest discover -s tests -p "test_minimal_packages.py" -v && /usr/bin/python3.13 -m unittest discover -s scripts/minimal-verification -p "test_*.py" -v && /usr/bin/python3.13 scripts/minimal-verification/verify.py --repo /src --output /result/verified'
+      - name: Store exact public payload review artifact; never publish
+        id: upload
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: minimal-existing173-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/minimal-runtime-output/verified/artifact/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+      - name: Store internal QA separately from consumer payloads
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: minimal-internal-qa-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/minimal-runtime-output/verified/internal/qa.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Record exact review envelope
+        env:
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+          ARTIFACT_DIGEST: ${{ steps.upload.outputs.artifact-digest }}
+        run: |
+          printf 'verification=%s run=%s attempt=%s artifact=%s artifactDigest=%s\n' "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" "$ARTIFACT_ID" "$ARTIFACT_DIGEST" >> "$GITHUB_STEP_SUMMARY"
+          sha256sum "$RUNNER_TEMP/minimal-runtime-output/verified/artifact/minimal-inventory.json" >> "$GITHUB_STEP_SUMMARY"

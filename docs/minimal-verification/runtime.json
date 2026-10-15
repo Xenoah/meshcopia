@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "image": "debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483",
+  "python": "3.13.5",
+  "zlib": "1.3.1",
+  "pythonBinarySha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+  "zlibBinarySha256": "85590dd58edf5445e18bc7193e5ebc01ac5841f1ae187e97705a662e90c6421e",
+  "pythonPackage": "python3.13=3.13.5-2+deb13u5",
+  "pythonPackageSha256": "460c1fd72845516ac3ce9d1686916f3ab2e4c86f8a9746e14d26243a47e2b98d",
+  "zlibPackage": "zlib1g=1:1.3.dfsg+really1.3.1-1+b1",
+  "zlibPackageSha256": "015be740d6236ad114582dea500c1d907f29e16d6db00566ca32fb68d71ac90d",
+  "zipSerializer": "meshcopia-minimal-package/1"
+}
