@@ -153,6 +153,7 @@ def main():
   if sha(fbx)!=ex['fbxSha256'] or len(fbx)!=ex['fbxBytes']:
    if identity==PILOTS[0]:
     from fbx_diagnostic import compare
+    print('FBX_RUNTIME_LIBRARIES '+json.dumps({path:sha(Path(path).read_bytes()) for path in ['/lib/x86_64-linux-gnu/libm.so.6','/lib/x86_64-linux-gnu/libc.so.6','/lib/x86_64-linux-gnu/libz.so.1','/usr/lib/python3/dist-packages/numpy/_core/_multiarray_umath.cpython-313-x86_64-linux-gnu.so']}),flush=True)
     print('FBX_BOUNDED_DIAGNOSTIC '+json.dumps(compare(fbx,read(docs/'diagnostic-first-pilot.json')),sort_keys=True),flush=True)
    need(False,'Reviewed FBX bytes differ: '+identity)
   raw=(trial/'roundtrip-report.json').read_bytes();fresh={'id':identity,'qaSha256':sha(raw),'sourceGlbSha256':row['sourceSha256'],'fbxSha256':ex['fbxSha256'],'fbxBytes':ex['fbxBytes']}

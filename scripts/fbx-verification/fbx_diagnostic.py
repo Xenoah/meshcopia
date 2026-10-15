@@ -21,7 +21,15 @@ def signatures(data):
     if len(semantic)!=n*arrays[t]:raise ValueError('Array size mismatch')
    else:raise ValueError('Unsupported property type')
    if pos>end:raise ValueError('Property exceeds bounds')
-   props.append({'type':t,'bytes':len(semantic),'semanticSha256':sha(semantic),'encodedSha256':sha(data[begin:pos])})
+   summary={'type':t,'bytes':len(semantic),'semanticSha256':sha(semantic),'encodedSha256':sha(data[begin:pos])}
+   if t=='R' and semantic.startswith(b'\x89PNG\r\n\x1a\n'):
+    q=8;packed=b'';header=None
+    while q<len(semantic):
+     n=struct.unpack_from('>I',semantic,q)[0];kind=semantic[q+4:q+8];chunk=semantic[q+8:q+8+n];q+=n+12
+     if kind==b'IHDR':header=chunk.hex()
+     if kind==b'IDAT':packed+=chunk
+    summary['png']={'headerHex':header,'decodedFilteredSha256':sha(zlib.decompress(packed))}
+   props.append(summary)
   out[path]=props;i=0
   while pos<end-13:pos=node(pos,path,i);i+=1
   return end
