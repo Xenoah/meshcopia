@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {expect} from '@playwright/test';
 export async function testUsagesBrowser(page, home) {
  await page.goto(home+'assets/commons-bar-stool/');
  const section=page.locator('.asset-usages');
@@ -9,8 +10,10 @@ export async function testUsagesBrowser(page, home) {
  await section.locator('summary').click();
  assert.ok(await section.getByText('FURN_StoolSeat',{exact:true}).isVisible());
  await section.locator('a').last().click();
+ await page.waitForURL(url=>url.searchParams.get('q')==='Commons cafe');
  await page.waitForSelector('[data-card]');
- assert.equal(await page.locator('#asset-search').inputValue(),'Commons cafe');
+ // SSR cards can appear before the catalog module applies the URL query.
+ await expect(page.locator('#asset-search')).toHaveValue('Commons cafe',{timeout:30000});
  assert.ok(await page.locator('[data-preview="commons-bar-stool"]').isVisible());
  assert.equal(await page.locator('[data-preview="studio-chair"]').isVisible(),false);
  await page.locator('#asset-search').fill('FURN_StoolSeat');
