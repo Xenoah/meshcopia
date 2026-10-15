@@ -1,3 +1,5 @@
+import {assertCompleteModelDeliveries} from './lib/model-delivery-policy.mjs';
+import {prepareMinimalDownloads,bindMinimalDownload} from './lib/minimal-downloads.mjs';
 import { mkdir, rm, cp, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { readCatalog, attributionFor, sha256, SITE, LICENSE_URL, MODEL_EXT } from './lib/catalog.mjs';
@@ -7,6 +9,8 @@ import { assertArchiveRuntime } from './lib/archive-runtime.mjs';
 import { verifyArchiveLock, archiveLockPath } from './lib/archive-lock.mjs';
 
 const assets = await readCatalog(); // Validate before changing generated output.
+await assertCompleteModelDeliveries(assets,{baseline:JSON.parse(await readFile('docs/model-delivery-baseline.json','utf8'))});
+const minimalDownloads = await prepareMinimalDownloads(assets); // Verify public bytes before cleanup.
 if (assets.some(a => a.status !== 'draft' && zipOptionsForPackage(a).compress)) assertArchiveRuntime();
 await rm('public/assets', {recursive:true,force:true});
 await rm('public/api', {recursive:true,force:true});
@@ -51,7 +55,7 @@ for (const asset of assets) {
     const direct = files.find(f => f.name===asset.preview && ['GLB','STL','STEP','STP'].includes(f.format));
     if (direct) downloads.direct = direct;
   }
-  const item = {...metadata,thumbnail:`${url}/thumbnail${path.extname(asset.thumbnail)}`,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads};
+  const item = bindMinimalDownload({...metadata,thumbnail:`${url}/thumbnail${path.extname(asset.thumbnail)}`,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads},minimalDownloads);
   if (asset.preview) item.previewUrl = files.find(f=>f.name===asset.preview).url;
   if (asset.maps) item.mapUrls = Object.fromEntries(Object.entries(asset.maps).map(([k,f])=>[k, files.find(item=>item.name===f).url]));
   catalog.push(item);

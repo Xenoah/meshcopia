@@ -1,8 +1,10 @@
 import {readFile,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
-import {filesIn,sha256} from './lib/catalog.mjs';
+import {filesIn,sha256,readCatalog} from './lib/catalog.mjs';
+import {prepareMinimalDownloads,minimalIdentity} from './lib/minimal-downloads.mjs';
 import {readZipEntries} from './lib/zip-read.mjs';
 import {verifyArchiveLock,archiveLockPath} from './lib/archive-lock.mjs';
 const base=process.env.PUBLIC_BASE_PATH??'/meshcopia';
+const verifiedMinimal=await prepareMinimalDownloads(await readCatalog());
 const catalog=JSON.parse(await readFile('dist/api/catalog.json','utf8'));
 const ndjson=(await readFile('dist/api/catalog.ndjson','utf8')).trim().split('\n').map(line=>JSON.parse(line));
 assert.deepEqual(ndjson,catalog.assets);
@@ -15,10 +17,12 @@ for(const a of catalog.assets){
  assert.deepEqual(a.usages,original.usages??[]);
  const manifest=JSON.parse(await readFile(await resolveFile(a.manifestUrl),'utf8'));assert.deepEqual(manifest.usages,a.usages);
  const html=await readFile(await resolveFile(a.pageUrl),'utf8');assert.ok(html.includes('id="usage-heading"'));
+ assert.deepEqual(a.downloads.minimal,verifiedMinimal.get(minimalIdentity(a)),'Minimal binding differs from current verified public Release');
+ assert.deepEqual(manifest.downloads.minimal,a.downloads.minimal,'Per-asset minimal binding mismatch');
  assert.equal(a.status,'public');await resolveFile(a.pageUrl);await resolveFile(a.thumbnail);await resolveFile(a.manifestUrl);
- for(const f of [...a.files,...Object.values(a.downloads)]){const data=await readFile(await resolveFile(f.url));assert.equal(data.length,f.bytes);assert.equal(sha256(data),f.sha256);count++;}
+ for(const f of [...a.files,...Object.entries(a.downloads).filter(([kind])=>kind!=='minimal').map(([,file])=>file)]){const data=await readFile(await resolveFile(f.url));assert.equal(data.length,f.bytes);assert.equal(sha256(data),f.sha256);count++;}
  for(const [kind,f] of Object.entries(a.downloads)){
-  if(kind==='direct')continue;
+  if(kind==='direct'||kind==='minimal')continue; // Minimal public bytes/entries were independently verified above.
   const entries=readZipEntries(await readFile(await resolveFile(f.url)));
   assert.ok(entries.has('LICENSE.txt'));assert.ok(entries.has('ATTRIBUTION.txt'));
   assert.ok(entries.get('LICENSE.txt').toString().includes('CC BY 4.0'));
@@ -38,8 +42,9 @@ for(const a of catalog.assets){
   }
  }
 }
+assert.equal(catalog.assets.filter(a=>a.downloads.minimal).length,verifiedMinimal.size,'Verified minimal cohort omitted from public catalog');
 let links=0;
 for(const file of (await filesIn('dist')).filter(f=>f.endsWith('.html'))){const html=await readFile(path.join('dist',file),'utf8');for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){const value=match[1].replace(/&amp;/g,'&');if(value.startsWith(base+'/')){await resolveFile(value);links++;}}}
 assert.ok((await readFile('dist/sitemap.xml','utf8')).includes(base+'/assets/studio-chair/'));
 await verifyArchiveLock({catalog:JSON.parse(await readFile('src/data/catalog.json','utf8')),lock:JSON.parse(await readFile(archiveLockPath,'utf8'))});
-console.log(`Verified ${catalog.assets.length} public assets, ${count} file/ZIP hashes, ZIP contents, immutable archive locks and ${links} internal links.`);
+console.log(`Verified ${catalog.assets.length} public assets, ${count} file/ZIP hashes, ZIP contents, immutable archive locks, ${verifiedMinimal.size} verified Release minimal ZIPs and ${links} internal links.`);

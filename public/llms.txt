@@ -11,12 +11,19 @@
 - Source: https://github.com/Xenoah/meshcopia
 - License: https://creativecommons.org/licenses/by/4.0/
 
-Catalog schemaVersion: 2.0.0. assets[] contains id, type, title, titleEn, tags,
+Catalog schemaVersion: 2.1.0. assets[] contains id, type, title, titleEn, tags,
 category, author, license, version, provenance, thumbnail, pageUrl, manifestUrl,
 attribution, files[], downloads.full and (models only) downloads.models.
+When present, publisher-verified downloads.minimal is the ordinary ZIP for either
+asset type. It contains asset files, required dependencies, and one LICENSE.txt
+with license and attribution. It is hosted at a pinned GitHub Release URL; keep
+the URL host. Match its id, assetVersion and sourceFiles to the current asset.
+Absent a valid minimal binding, downloads.models / downloads.full remain legacy
+archives with their original contents, URLs and hashes. Do not relabel them minimal.
 Use files[].url for individual files; prefer self-contained GLB for a single model.
 Every file and ZIP has bytes and sha256. Verify the downloaded bytes before use.
-Keep ATTRIBUTION.txt and LICENSE.txt. Indicate any changes in your credits.
+Keep LICENSE.txt from minimal ZIPs. For legacy ZIPs, keep both ATTRIBUTION.txt
+and LICENSE.txt. Indicate any changes in your credits.
 Models: Y-up unless metadata says otherwise; unit and dimensions are explicit.
 Textures: width/height are exact pixel dimensions; resolution is the longest edge.
 wrapMode applies to both axes: repeat, mirror, or clamp. seamless means continuity

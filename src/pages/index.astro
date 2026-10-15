@@ -30,6 +30,8 @@ const chair=assets.find(a=>a.id==='studio-chair');const stone=assets.find(a=>a.i
  <dialog id="quick-dialog" class="quick-dialog"><div class="dialog-heading"><div><span class="eyebrow">QUICK LOOK</span><h2 id="quick-title"></h2></div><button id="quick-close" class="icon-button" aria-label="プレビューを閉じる"><Icon name="close"/></button></div><div id="quick-model"><ModelViewer source={{url:'',type:'glb',name:''}} autoload={false}/></div><div id="quick-texture" class="quick-texture" hidden></div><div class="dialog-footer"><p data-ja="ドラッグで回転・スクロールで拡大" data-en="Drag to orbit · Scroll to zoom">ドラッグで回転・スクロールで拡大</p><a id="quick-details" class="button primary" href="#">詳細・ダウンロード <Icon name="arrow" size={17}/></a></div></dialog>
  <script id="catalog-data" type="application/json" set:html={JSON.stringify(assets).replace(/</g,'\\u003c')}/>
  <script>
-  import {initCatalog} from '../lib/catalog-ui';initCatalog();
+  import {initCatalog} from '../lib/catalog-ui';
+  import {initBatchDownload} from '../lib/batch-download-ui';
+  initCatalog();initBatchDownload();
  </script>
 </Layout>

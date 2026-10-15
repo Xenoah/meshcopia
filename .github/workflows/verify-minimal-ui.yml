@@ -1,0 +1,63 @@
+name: Verify minimal download UI candidate
+
+on:
+  push:
+    branches: [minimal/verify-ui-v1]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: meshcopia-minimal-ui-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          architecture: x64
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install locked development dependencies
+        run: npm ci
+      - name: Verify empty activation and candidate source
+        run: node scripts/check-download-ui-source.mjs
+      - name: Run unit and contract tests
+        run: npm test
+      - name: Install CI Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Verify real public source fetches and one combined ZIP
+        run: node tests/live-browser-proof.mjs
+      - name: Exercise desktop and mobile fixture UI
+        run: node tests/batch-download-browser.mjs
+      - name: Record narrowly scoped browser evidence
+        run: node scripts/record-download-browser-evidence.mjs
+      - name: Preserve verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: minimal-ui-proof-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+          retention-days: 14
+          path: |
+            test-results/minimal-ui-source.json
+            test-results/minimal-ui-browser.json
+            live-browser-proof.json
+            live-browser-proof.zip
+            batch-desktop.zip
+            batch-mobile.zip
+            batch-desktop.png
+            batch-mobile.png

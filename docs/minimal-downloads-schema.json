@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Optional publisher-verified minimal download binding",
+  "description": "Requires independent publisher verification before projection. No real binding is supplied by this schema. The UI additionally validates identity, source inventory, exact URL and legacy-archive exclusion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "assetVersion",
+    "packageVersion",
+    "contentPolicy",
+    "noticeFile",
+    "notice",
+    "url",
+    "bytes",
+    "sha256",
+    "sourceFiles",
+    "verification"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "assetVersion": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "packageVersion": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "contentPolicy": {
+      "const": "asset-files-required-dependencies-single-notice-v1"
+    },
+    "noticeFile": {
+      "const": "LICENSE.txt"
+    },
+    "notice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "filename",
+        "text",
+        "bytes",
+        "sha256"
+      ],
+      "properties": {
+        "filename": {
+          "const": "LICENSE.txt"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://github\\.com/Xenoah/meshcopia/releases/download/[A-Za-z0-9][A-Za-z0-9._-]*/[a-z0-9][a-z0-9.-]*-minimal-[0-9]+\\.[0-9]+\\.[0-9]+\\.zip$"
+    },
+    "bytes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sourceFiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "bytes",
+          "sha256"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Safe relative filename, exactly as in current catalog files[].name; no added wrapper."
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "releaseTag",
+        "archiveSha256"
+      ],
+      "properties": {
+        "state": {
+          "const": "published-verified"
+        },
+        "releaseTag": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+        },
+        "archiveSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    }
+  }
+}

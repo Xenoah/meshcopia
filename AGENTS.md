@@ -42,8 +42,11 @@ direct downloads, machine-readable catalog, and mobile accessibility.
 - `public`: included in UI, JSON, sitemap, ZIPs and release collections.
 - `draft`: excluded entirely from generated downloads and pages.
 - `hidden`: not listed; public by URL. Never use it for private content.
-- Every ZIP includes LICENSE.txt and ATTRIBUTION.txt.
-- Models-only ZIP retains dependencies and license, omits presentation files.
+- Follow docs/ASSET_PRODUCTION_RULES.md for production, format QA and consumer
+  ZIP layout. New consumer ZIPs use one short LICENSE.txt with attribution;
+  historical immutable ZIPs keep their original bytes and notice layout.
+- Minimal ZIP activation requires the verified binding in
+  docs/MINIMAL_DOWNLOADS.md. Keep legacy full/models API fields compatible.
 - Individual file downloads show attribution beside the button; the raw model
   itself may not embed the license, so downstream consumers must preserve it.
 

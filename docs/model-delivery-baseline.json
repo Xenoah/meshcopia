@@ -1,0 +1,2416 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "purpose": "Exact unchanged historical public-model exception; never append new models to bypass complete FBX delivery",
+  "models": [
+    {
+      "id": "atelier-lamp",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "c5a677047b4c3d4fb1ef81ea60124f2476ae0d3ce02ee72cf4649e0156435d03",
+      "sources": [
+        {
+          "name": "atelier-lamp.glb",
+          "bytes": 77372,
+          "sha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc"
+        },
+        {
+          "name": "atelier-lamp.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "atelier-lamp.obj",
+          "bytes": 30328,
+          "sha256": "d76a60516fa198973655c9c8938256561e57bc5785572979e157707b3ef4fc96"
+        },
+        {
+          "name": "atelier-lamp.stl",
+          "bytes": 38484,
+          "sha256": "a8005684aee6c036b4556ef51863ff431bcba0357f7e0f44b4760fdfdd39f36a"
+        }
+      ]
+    },
+    {
+      "id": "city-aed-cabinet",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "03d76b60b855ba4f6aec8ee39a25274b6563424783d4b85376aad574fd57cb1e",
+      "sources": [
+        {
+          "name": "city-aed-cabinet.glb",
+          "bytes": 135196,
+          "sha256": "ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79"
+        },
+        {
+          "name": "city-aed-cabinet.stl",
+          "bytes": 172484,
+          "sha256": "73b56ac1df37a40439f1348d5be472f3214769a77eb82dfcb9345faedb6313a4"
+        }
+      ]
+    },
+    {
+      "id": "city-bicycle-repair-stand",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "50f22149fddcb54ee22c0857fdf0c41c57acf8091befe8ad540d4c5a4c230643",
+      "sources": [
+        {
+          "name": "city-bicycle-repair-stand.glb",
+          "bytes": 213392,
+          "sha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71"
+        },
+        {
+          "name": "city-bicycle-repair-stand.stl",
+          "bytes": 284284,
+          "sha256": "0387acbcc1c7a16fce164e85e93dd88c19cf48ac0a44b6f676d2c14ce4f3606b"
+        }
+      ]
+    },
+    {
+      "id": "city-bollard",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2e27ba104837d1a5aa4abb93d4e70c27ffec2daec250a76befb6f6a1f76c33e3",
+      "sources": [
+        {
+          "name": "city-bollard.glb",
+          "bytes": 167892,
+          "sha256": "333fae75f6d6eac1b305ff7d19d3962edc71224cd408fb439b58ffad1ccd9dc5"
+        },
+        {
+          "name": "city-bollard.stl",
+          "bytes": 241484,
+          "sha256": "828967cf2f7570abcc0e056cb1186c6f53ed688868fc9e231ab90f183472743c"
+        }
+      ]
+    },
+    {
+      "id": "city-bus-shelter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "4c5b21da91bdc2cf14fc364d64125bc36147449688280e7f7d6794c976e08932",
+      "sources": [
+        {
+          "name": "city-bus-shelter.glb",
+          "bytes": 747896,
+          "sha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb"
+        },
+        {
+          "name": "city-bus-shelter.stl",
+          "bytes": 1329884,
+          "sha256": "683f043366f37c2e86873b9f444c910651066fb41d18d3cc50736a11f7a32423"
+        }
+      ]
+    },
+    {
+      "id": "city-cable-protector",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "c0654eb43c8d0bf1ce383977dd148637aab0f62ca7d84aa1517c34831488dc6d",
+      "sources": [
+        {
+          "name": "city-cable-protector.glb",
+          "bytes": 120528,
+          "sha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406"
+        },
+        {
+          "name": "city-cable-protector.stl",
+          "bytes": 134884,
+          "sha256": "a536841457f4b279fc0eb6da81a44e51b2bb970cd718699dd0290f64bcce5640"
+        }
+      ]
+    },
+    {
+      "id": "city-cable-tray-elbow",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "d344b0a6a8fe9d7c5dab5ef67e4cf90f8d9618ed4a4b4e4d65885a2c57a42e9f",
+      "sources": [
+        {
+          "name": "city-cable-tray-elbow.glb",
+          "bytes": 212116,
+          "sha256": "5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e"
+        },
+        {
+          "name": "city-cable-tray-elbow.stl",
+          "bytes": 175884,
+          "sha256": "25485b0dbaa8942cebabca5a8c49ad92f6a3a77d1d6feec6ae1ff3a6b9689b26"
+        }
+      ]
+    },
+    {
+      "id": "city-casement-window",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "927ef76229e159546d4bd8990e4e8bebe3f33eb4ab2260a0d3103e301555f7bb",
+      "sources": [
+        {
+          "name": "city-casement-window.glb",
+          "bytes": 262272,
+          "sha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e"
+        },
+        {
+          "name": "city-casement-window.stl",
+          "bytes": 242484,
+          "sha256": "119b3e8af591589af1835d162508e5131e78e3796d59775d147f9c3eaffb3313"
+        }
+      ]
+    },
+    {
+      "id": "city-commuter-bicycle",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "f90e47bf8e2de0a45aa6c3559d7b421067bcc433dc41831bd7c17d304a786fe1",
+      "sources": [
+        {
+          "name": "city-commuter-bicycle.glb",
+          "bytes": 2463908,
+          "sha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896"
+        },
+        {
+          "name": "city-commuter-bicycle.stl",
+          "bytes": 3909484,
+          "sha256": "aeea7938637fb25af5f43f4b90d4781a91d5471b60f51cfe5d1e7e3f9733dd04"
+        }
+      ]
+    },
+    {
+      "id": "city-concrete-mixer",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "349e2268c681877da4a7d24b07048e804eb74bd84fb91753222b0548ad47de2a",
+      "sources": [
+        {
+          "name": "city-concrete-mixer.glb",
+          "bytes": 883336,
+          "sha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2"
+        },
+        {
+          "name": "city-concrete-mixer.stl",
+          "bytes": 1515884,
+          "sha256": "82eb252901938420d3b20f4c8245421c96113fe6ae6b36dcfb38f3892d72dc46"
+        }
+      ]
+    },
+    {
+      "id": "city-construction-wheelbarrow",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2edc9d66278cd9b6de70780a900cca2c766626ceef4e5d7d7ad7eb48747ecf77",
+      "sources": [
+        {
+          "name": "city-construction-wheelbarrow.glb",
+          "bytes": 490960,
+          "sha256": "45c1cc1137cea956e8b2012c7dbb5f5cb01934f53de5d4a56a0cb813d06d61bb"
+        },
+        {
+          "name": "city-construction-wheelbarrow.stl",
+          "bytes": 711484,
+          "sha256": "ee296de2b810bd332cea307c77cfc3220913b12922d921a07864248b04deac99"
+        }
+      ]
+    },
+    {
+      "id": "city-convex-mirror",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "b08d99e9e5f8cbb25e45c37c6e3ef0dfb1514bdafd3aeb3f4efee08313eac8a4",
+      "sources": [
+        {
+          "name": "city-convex-mirror.glb",
+          "bytes": 562044,
+          "sha256": "c6cdaed8bc1f62a3a92eb20df4ea907fe4cf5e3650185c1c010c66ae6d4812af"
+        },
+        {
+          "name": "city-convex-mirror.stl",
+          "bytes": 1013684,
+          "sha256": "a99119ef07aec212dc7f4ee4e65c7a80f31cd2195685f0da1b30130cd01e008e"
+        }
+      ]
+    },
+    {
+      "id": "city-crossing-pushbutton",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2e5872f4daacd7287eb4c748b32e333c4e3c4f556a833889d9aefc16498b1036",
+      "sources": [
+        {
+          "name": "city-crossing-pushbutton.glb",
+          "bytes": 855536,
+          "sha256": "9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f"
+        },
+        {
+          "name": "city-crossing-pushbutton.stl",
+          "bytes": 761884,
+          "sha256": "73af6e64f5c8b828447c4f5599cb24aebac8365a266707ea2cee857628a1d603"
+        }
+      ]
+    },
+    {
+      "id": "city-curb-corner",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "b6d482345f5d71f8c6d163bb5a8a619f5db39e61a9c740ab9d037c9827c502c6",
+      "sources": [
+        {
+          "name": "city-curb-corner.glb",
+          "bytes": 29264,
+          "sha256": "61a7ff739811d7f340bb69c861f9a3e19fa18b69d58fcfcc4b8e3daf35ee8327"
+        },
+        {
+          "name": "city-curb-corner.stl",
+          "bytes": 31884,
+          "sha256": "43c0c5bf225e10f59935b45a4a83f28fcdb9ff503c197db472fa7674c4ff2e00"
+        }
+      ]
+    },
+    {
+      "id": "city-curb-ramp",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "7ef6dc542c17f8401540d876ccd1c7a611b4bcd6de64f9fdcb692b809b0d046c",
+      "sources": [
+        {
+          "name": "city-curb-ramp.glb",
+          "bytes": 51768,
+          "sha256": "8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b"
+        },
+        {
+          "name": "city-curb-ramp.stl",
+          "bytes": 51684,
+          "sha256": "69ef49409a5cee7e563d9643c1af3c3767d54fd566260a8c8ad5e48c9fcb4be0"
+        }
+      ]
+    },
+    {
+      "id": "city-cycle-rack",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "5fc314638bd9fee4d3cc1e25ab2767801d9c9a4b81e473825c44fa4206a77432",
+      "sources": [
+        {
+          "name": "city-cycle-rack.glb",
+          "bytes": 116344,
+          "sha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557"
+        },
+        {
+          "name": "city-cycle-rack.stl",
+          "bytes": 175884,
+          "sha256": "5fac7965b0fd3734a973397ad1710f5382f76582e596bf0710bcffb83615aca8"
+        }
+      ]
+    },
+    {
+      "id": "city-downspout",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2fe0c715f0284677aeb7b75bcdc36f3275074f21e23e828ca7c93470f1753f15",
+      "sources": [
+        {
+          "name": "city-downspout.glb",
+          "bytes": 831252,
+          "sha256": "ea6a62bc2f926e90bcf9c26cb23a072d3e030f8ed65fcaa51a7f3de9ad21c8bf"
+        },
+        {
+          "name": "city-downspout.stl",
+          "bytes": 745084,
+          "sha256": "56cf192bd47b3d7249aadb2c9785d285289975a9d216e344fb016666dd477304"
+        }
+      ]
+    },
+    {
+      "id": "city-drinking-fountain",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "289f446135f395db91c824549a1e924210b55ace2b494a662cdface9679aeccd",
+      "sources": [
+        {
+          "name": "city-drinking-fountain.glb",
+          "bytes": 429592,
+          "sha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8"
+        },
+        {
+          "name": "city-drinking-fountain.stl",
+          "bytes": 830084,
+          "sha256": "603070e8c1fa048f8eb093320969226db47f78d439af99ce0c1c8f177198ae9e"
+        }
+      ]
+    },
+    {
+      "id": "city-electric-kick-scooter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "7c6ec35ce128d5d7d2de645b50fd950b430971a879f00315e22572917239f216",
+      "sources": [
+        {
+          "name": "city-electric-kick-scooter.glb",
+          "bytes": 1590528,
+          "sha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8"
+        },
+        {
+          "name": "city-electric-kick-scooter.stl",
+          "bytes": 1603484,
+          "sha256": "37081f35831093e16f241f7ebef6394d80a658f297d38406e16b0de20921855a"
+        }
+      ]
+    },
+    {
+      "id": "city-ev-charger",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "c7394e35ea077005a10bdb73ef6678c04f50ce4bc6b9f6129d2c715bae50f2fb",
+      "sources": [
+        {
+          "name": "city-ev-charger.glb",
+          "bytes": 425696,
+          "sha256": "b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5"
+        },
+        {
+          "name": "city-ev-charger.stl",
+          "bytes": 706484,
+          "sha256": "b36ea133ceae90ebdc34d53a0b278cc727823643b479890156802ead2aa1d924"
+        }
+      ]
+    },
+    {
+      "id": "city-exterior-clock",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2f173c000dfbb75b952ce73c63565e1f1582f745471503e4e433d2967f01af1c",
+      "sources": [
+        {
+          "name": "city-exterior-clock.glb",
+          "bytes": 253260,
+          "sha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63"
+        },
+        {
+          "name": "city-exterior-clock.stl",
+          "bytes": 315884,
+          "sha256": "5a713933bdc5d39a924b52b70a2bdcd60fd96487e29f998a9f005cb5fa5faaec"
+        }
+      ]
+    },
+    {
+      "id": "city-fire-hose-cabinet",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "716828bb30327e59e1489def8b7ba8f638d8f3f46120eb4bc02f0a4539d7bdf8",
+      "sources": [
+        {
+          "name": "city-fire-hose-cabinet.glb",
+          "bytes": 574852,
+          "sha256": "c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929"
+        },
+        {
+          "name": "city-fire-hose-cabinet.stl",
+          "bytes": 1005084,
+          "sha256": "a07cb43f335f5ef7fc3b2c818ff65c48c139ba6d0ea3425e929c9cbc1d9aa6cf"
+        }
+      ]
+    },
+    {
+      "id": "city-fire-hydrant",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "9c0b0003aab90232430ece9827beb4a1ffdf931bda8e648f8eb3080f6ff3fc01",
+      "sources": [
+        {
+          "name": "city-fire-hydrant.glb",
+          "bytes": 837636,
+          "sha256": "d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe"
+        },
+        {
+          "name": "city-fire-hydrant.stl",
+          "bytes": 1844084,
+          "sha256": "f19f9aa9df2d5c02879c65abbdf6c8a6995a79aa468a00d0e57aead6496832cb"
+        }
+      ]
+    },
+    {
+      "id": "city-glazed-entry-door",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "049e0a49942871d20b73704648650d9439c64107b6793dfde14861dc2ad33d91",
+      "sources": [
+        {
+          "name": "city-glazed-entry-door.glb",
+          "bytes": 327880,
+          "sha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f"
+        },
+        {
+          "name": "city-glazed-entry-door.stl",
+          "bytes": 312284,
+          "sha256": "76d195a3dea8fee4db281ee0c42b40a2206e043f9067fbeaf406129cc76f770d"
+        }
+      ]
+    },
+    {
+      "id": "city-hvac-condenser",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "9d65626a7e59830720d8ea264a5cd9822dac757e5b28b544ce4927796cb3e243",
+      "sources": [
+        {
+          "name": "city-hvac-condenser.glb",
+          "bytes": 1685364,
+          "sha256": "fd3dfb184b40cbd680671454a7c1482091105f55dae99f9cb249a9f07f9a5cdf"
+        },
+        {
+          "name": "city-hvac-condenser.stl",
+          "bytes": 1492484,
+          "sha256": "5ad340f714bc2ef0c4044e7e273a890dccd2e14c5e35409ab7ea051f6997c070"
+        }
+      ]
+    },
+    {
+      "id": "city-inspection-cover",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3f14ea25789677bd70d790730a6043df277643d9a140427c97de7348c7c6158e",
+      "sources": [
+        {
+          "name": "city-inspection-cover.glb",
+          "bytes": 1327768,
+          "sha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69"
+        },
+        {
+          "name": "city-inspection-cover.stl",
+          "bytes": 1007784,
+          "sha256": "b5a6db4de816203ed4df0f4fa32231f7e4c7af459746c478b248b9e3206e3f4e"
+        }
+      ]
+    },
+    {
+      "id": "city-lifebuoy-station",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "85a27a3915bc006e533408e100c8162d15cb173fbd3251433a2e67da01769880",
+      "sources": [
+        {
+          "name": "city-lifebuoy-station.glb",
+          "bytes": 211220,
+          "sha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d"
+        },
+        {
+          "name": "city-lifebuoy-station.stl",
+          "bytes": 344284,
+          "sha256": "e0dc95975073e86463f7ae8f6bf474d90ace0ad06cd705c76a5738af9c5759c4"
+        }
+      ]
+    },
+    {
+      "id": "city-litter-bin",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "f6265f9df2f4a2945dcfdc693d1192dfd8e53617eb1196b18f31acc6b5e080ef",
+      "sources": [
+        {
+          "name": "city-litter-bin.glb",
+          "bytes": 280776,
+          "sha256": "b07c0cc79cf33c2777c1395e3d0ef60aac98d216f4717d8573ee31e365d64c78"
+        },
+        {
+          "name": "city-litter-bin.stl",
+          "bytes": 545284,
+          "sha256": "b46d52527324ad55ae1b517fa9fe237e5a97e0c04b548fdf8d408dd66fd4a84d"
+        }
+      ]
+    },
+    {
+      "id": "city-maintenance-ladder",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "7fe814aba139cbae599be3d272de87b1f6655294fc2d7739d0ba257c09d7f237",
+      "sources": [
+        {
+          "name": "city-maintenance-ladder.glb",
+          "bytes": 289400,
+          "sha256": "d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb"
+        },
+        {
+          "name": "city-maintenance-ladder.stl",
+          "bytes": 362484,
+          "sha256": "030ba2fcafdbd2a9a05f4409dee02e2fd6db8bc9610ce226ded8d17ab73f5ad5"
+        }
+      ]
+    },
+    {
+      "id": "city-pallet-jack",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2b5927bc767e0b235669b83d0ff1159a7d743ec9893b31d6b5af1e43a746cde3",
+      "sources": [
+        {
+          "name": "city-pallet-jack.glb",
+          "bytes": 798052,
+          "sha256": "a00adcb2b67ae2e9096db94ea99f398162065406dbbb7a6442b852633d11aa4c"
+        },
+        {
+          "name": "city-pallet-jack.stl",
+          "bytes": 1309484,
+          "sha256": "10a4dc336392b5f5e35184ea5b09ee91aa5f3d6c6aa81a7b89659e700f2a64ca"
+        }
+      ]
+    },
+    {
+      "id": "city-parcel-locker",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2a264a7d061ddcc704db961b2415e26537911c0bef2eb900f152300865d5bcfa",
+      "sources": [
+        {
+          "name": "city-parcel-locker.glb",
+          "bytes": 558664,
+          "sha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4"
+        },
+        {
+          "name": "city-parcel-locker.stl",
+          "bytes": 1110484,
+          "sha256": "24b92fbd46122f5ae238faa089128b83b689383562df6817edf3f6b0e38eaca7"
+        }
+      ]
+    },
+    {
+      "id": "city-parking-boom-gate",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "dc5722d3150251de2ea13f027fbc996625fd74a2b85b8eb9405fb3349e09d282",
+      "sources": [
+        {
+          "name": "city-parking-boom-gate.glb",
+          "bytes": 595452,
+          "sha256": "e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230"
+        },
+        {
+          "name": "city-parking-boom-gate.stl",
+          "bytes": 984884,
+          "sha256": "9d615e366e89c79c2a93855aed4e5e904aa2dfa3664ed8d3c4dfb6aae309fb5d"
+        }
+      ]
+    },
+    {
+      "id": "city-parking-meter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "79e4433d8de385904d3c986c3aaff0590b172c50e2cde103922f3c52df5a6513",
+      "sources": [
+        {
+          "name": "city-parking-meter.glb",
+          "bytes": 442888,
+          "sha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739"
+        },
+        {
+          "name": "city-parking-meter.stl",
+          "bytes": 886284,
+          "sha256": "aa5b34a01e2d67ae05592a5f9f8adae5f83916b1b0eac2c71faf9a3491448d3b"
+        }
+      ]
+    },
+    {
+      "id": "city-pedestrian-railing",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "5dbfeb897b5167836fd6cc2af2e7a551320fc77d0cc510de26d1d680ffb9c923",
+      "sources": [
+        {
+          "name": "city-pedestrian-railing.glb",
+          "bytes": 135328,
+          "sha256": "172339ddad310eec488bee984faacc113707f3bfd8c93ace10e989def0211a83"
+        },
+        {
+          "name": "city-pedestrian-railing.stl",
+          "bytes": 184284,
+          "sha256": "1f7a2e07a6c2228be40b8653ff35d2d45762c1104a8ed93bb06ee00c2262c95c"
+        }
+      ]
+    },
+    {
+      "id": "city-pet-bag-dispenser",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "c0bf90536e833fb613b0b8ddbbf73bd95443e8d87ae1ce9b8a665c37e9b23300",
+      "sources": [
+        {
+          "name": "city-pet-bag-dispenser.glb",
+          "bytes": 72928,
+          "sha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0"
+        },
+        {
+          "name": "city-pet-bag-dispenser.stl",
+          "bytes": 95884,
+          "sha256": "af72c33bf42ad0e6dc2ec786309ec894a038d1d99166c7c66d6d6cfde8e4452b"
+        }
+      ]
+    },
+    {
+      "id": "city-playground-slide",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "69c8ea96f5eb3a3f98ba2df0b77df0eb548449c7f5c767434a88466621a6d302",
+      "sources": [
+        {
+          "name": "city-playground-slide.glb",
+          "bytes": 270568,
+          "sha256": "0e264f4f4908c4d8a0eca1441ad46529da70c9f17ec5a15e6204874decad3d56"
+        },
+        {
+          "name": "city-playground-slide.stl",
+          "bytes": 365684,
+          "sha256": "8b6701a5eacedf6507f8e4783ca26e143b85348722b1c6bd70839f399808980d"
+        }
+      ]
+    },
+    {
+      "id": "city-playground-swing",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "b91bf84c3130f69ac0b63f8269f26204eaa6bb5f48499e40235b78d9e0a304e6",
+      "sources": [
+        {
+          "name": "city-playground-swing.glb",
+          "bytes": 527644,
+          "sha256": "bbcea804a0718a0b8cd9ce229cde42838f9239501244287c06845fc6634ed645"
+        },
+        {
+          "name": "city-playground-swing.stl",
+          "bytes": 754484,
+          "sha256": "e7fa9e2460373d85121f9b5f5e3bee8c0cde740cfce9dd4f02198bd0142d30a6"
+        }
+      ]
+    },
+    {
+      "id": "city-portable-toilet",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2f2312666281b2deb3f9ec94a5c5ad2a3fb8c6980969b4e6fa2c91b3c1e73c40",
+      "sources": [
+        {
+          "name": "city-portable-toilet.glb",
+          "bytes": 819288,
+          "sha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098"
+        },
+        {
+          "name": "city-portable-toilet.stl",
+          "bytes": 609084,
+          "sha256": "6d971c4e7d57f3cbf6458cc0fc09d3c6b60a5593b9480b1be1e6b80d0d226405"
+        }
+      ]
+    },
+    {
+      "id": "city-postal-box",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "04e6f3477d1be9f7aaf2d1bf9cc17f5f02b9f07f784a8b1c240002fb1cda4299",
+      "sources": [
+        {
+          "name": "city-postal-box.glb",
+          "bytes": 295880,
+          "sha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22"
+        },
+        {
+          "name": "city-postal-box.stl",
+          "bytes": 475584,
+          "sha256": "a52223d3d43e3848c3cea3d2fe6b37bb9246ac7d7c6586438f7a7dcdbf48d4e9"
+        }
+      ]
+    },
+    {
+      "id": "city-pruned-street-tree",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "a2388410ad98acf0152ce8e92afd1af72090b85d1da32f5b89962c7ce3a4ec9f",
+      "sources": [
+        {
+          "name": "city-pruned-street-tree.glb",
+          "bytes": 6975348,
+          "sha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696"
+        },
+        {
+          "name": "city-pruned-street-tree.stl",
+          "bytes": 4215884,
+          "sha256": "cb2abb1e52ac617bd0b5aeee0683841f116fbcab2d6bd9ffe5026b5c92c4c8eb"
+        }
+      ]
+    },
+    {
+      "id": "city-public-telephone",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "e8e6406a596d263c732b7e80c4ccbb30a2cd0c193af6a786eedf3805d10dfad4",
+      "sources": [
+        {
+          "name": "city-public-telephone.glb",
+          "bytes": 817692,
+          "sha256": "890b7dc561c322f97e1ed30ecf390c72e7de84c485571e553dfb5d70326d1c78"
+        },
+        {
+          "name": "city-public-telephone.stl",
+          "bytes": 879284,
+          "sha256": "865052fbf8a1f638bdf899f371e750d8b3818a8fb1911635b37eebd6a22ddabc"
+        }
+      ]
+    },
+    {
+      "id": "city-recycling-station",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "766b50aab7f0ceb62164407716385a7ba9a09400548f151ccf8cb209cde90919",
+      "sources": [
+        {
+          "name": "city-recycling-station.glb",
+          "bytes": 541568,
+          "sha256": "b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2"
+        },
+        {
+          "name": "city-recycling-station.stl",
+          "bytes": 1120084,
+          "sha256": "05cef273e3ec691dec9e1f503b6fc26e4ef0d5d794f01d9dcb5265fa2913aeff"
+        }
+      ]
+    },
+    {
+      "id": "city-retractable-awning",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "4261c60a20552f44e78b6155df772899843c6c74218b27aee8ddd8f879f63fd4",
+      "sources": [
+        {
+          "name": "city-retractable-awning.glb",
+          "bytes": 385972,
+          "sha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a"
+        },
+        {
+          "name": "city-retractable-awning.stl",
+          "bytes": 320284,
+          "sha256": "a82e96a8ca40384a709a26f79597d5b2e744da411755bd52b26551f5a7755691"
+        }
+      ]
+    },
+    {
+      "id": "city-road-barrier",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "a5d192f0b39f72580e8cf5f635196b70b7e5a5f67260566524bd68490f095faa",
+      "sources": [
+        {
+          "name": "city-road-barrier.glb",
+          "bytes": 274236,
+          "sha256": "dad16a9cbedc900fef29cfff31b42dc943bc6a37ddaf2bcc85ca141539945671"
+        },
+        {
+          "name": "city-road-barrier.stl",
+          "bytes": 403684,
+          "sha256": "7c876522b5119cdcd35bf852e2a32e7edd7fc101ff3fb2a358767e1676b65539"
+        }
+      ]
+    },
+    {
+      "id": "city-roller-shutter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2400757dd597a887ce94a0e317460cedfcbad1a97aa158c16ea13e274249bd1d",
+      "sources": [
+        {
+          "name": "city-roller-shutter.glb",
+          "bytes": 494732,
+          "sha256": "8033643e7de8c047b06146d892bfcd962bfdc5119fa0262681951d1ce8d34c48"
+        },
+        {
+          "name": "city-roller-shutter.stl",
+          "bytes": 359884,
+          "sha256": "f0208aefc087aceeb77fda5a08163c984913bec833d2620b769dc6f337259fc8"
+        }
+      ]
+    },
+    {
+      "id": "city-roof-access-hatch",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "4a47b74d286e621d40cbcf5767df779c3816118b16f774ea5a8b98d103c11a71",
+      "sources": [
+        {
+          "name": "city-roof-access-hatch.glb",
+          "bytes": 141336,
+          "sha256": "2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5"
+        },
+        {
+          "name": "city-roof-access-hatch.stl",
+          "bytes": 186484,
+          "sha256": "5ed0e336083914b48472ae186434c932f1fcfeddbcc3a11bf47dcd530190901b"
+        }
+      ]
+    },
+    {
+      "id": "city-roof-exhaust-cowl",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "5946eef5c01db5d6fe0dc2df412e29a7d19ba2c8e2347103b5300a723a62d986",
+      "sources": [
+        {
+          "name": "city-roof-exhaust-cowl.glb",
+          "bytes": 927708,
+          "sha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593"
+        },
+        {
+          "name": "city-roof-exhaust-cowl.stl",
+          "bytes": 828284,
+          "sha256": "256fa6ef2b392b3820dfb435257a938d6973e8e053f4694a31a2ff99a636471d"
+        }
+      ]
+    },
+    {
+      "id": "city-sack-hand-truck",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "bbaef1267e4273cbda2e339f0409174169e38f2078f670d71a6088e220ec9fd1",
+      "sources": [
+        {
+          "name": "city-sack-hand-truck.glb",
+          "bytes": 1202476,
+          "sha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead"
+        },
+        {
+          "name": "city-sack-hand-truck.stl",
+          "bytes": 1438484,
+          "sha256": "26e35b492a20f5e77764612e7a20e9cbc832c83968204608b2784cc8983e3bfc"
+        }
+      ]
+    },
+    {
+      "id": "city-satellite-dish",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3ce79ddc31ea9b9cee324fb386b9dd62f3ad70a92a1db0f2b00628cbb3551caf",
+      "sources": [
+        {
+          "name": "city-satellite-dish.glb",
+          "bytes": 1372212,
+          "sha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f"
+        },
+        {
+          "name": "city-satellite-dish.stl",
+          "bytes": 1359284,
+          "sha256": "6a7077e13e636d57c3dcfc2d9fcccd441674248dbd481814ae9c72b5331a05e1"
+        }
+      ]
+    },
+    {
+      "id": "city-scaffold-bay",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "d86d5391235afd4d523e79f7b7878950534302d195426ae382bb0ab69bc0060e",
+      "sources": [
+        {
+          "name": "city-scaffold-bay.glb",
+          "bytes": 1651424,
+          "sha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc"
+        },
+        {
+          "name": "city-scaffold-bay.stl",
+          "bytes": 1625684,
+          "sha256": "7228ffb11c1069f33753853a1c870083c5d5a99bf19f44b63249e0b36a3b4307"
+        }
+      ]
+    },
+    {
+      "id": "city-security-camera",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "30208984fc21e219604f3d827a01d132fac794adc1833c0a36de3f7d28d6a431",
+      "sources": [
+        {
+          "name": "city-security-camera.glb",
+          "bytes": 339000,
+          "sha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82"
+        },
+        {
+          "name": "city-security-camera.stl",
+          "bytes": 280084,
+          "sha256": "60b696b9374d90df133bc700e3143390fb2656b197a247bb2c4e7639651a6f0b"
+        }
+      ]
+    },
+    {
+      "id": "city-shopping-trolley",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "638a7686cdc3f70d0c0af725aa4f2822e758fe559e4ed31a963464e1c127869d",
+      "sources": [
+        {
+          "name": "city-shopping-trolley.glb",
+          "bytes": 1291504,
+          "sha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28"
+        },
+        {
+          "name": "city-shopping-trolley.stl",
+          "bytes": 1931484,
+          "sha256": "c8385e50377f8da0806b28350774c6b0f1f18a5ffc2ca18aed868cd84f7e9b05"
+        }
+      ]
+    },
+    {
+      "id": "city-solar-module-rack",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "02e03472162fb7a9a87dce03518b2facc8d0d9920c56df7a306787c3ab792850",
+      "sources": [
+        {
+          "name": "city-solar-module-rack.glb",
+          "bytes": 1090868,
+          "sha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06"
+        },
+        {
+          "name": "city-solar-module-rack.stl",
+          "bytes": 725484,
+          "sha256": "34e5a4da41114c0c151bfc765c5eea31ebd1f4b8a6575eb9e57849676f6d6357"
+        }
+      ]
+    },
+    {
+      "id": "city-speed-cushion",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "53e4f9e8491729d646177ddb3d3c5ee483fc6f593dc36e571f7f75cdcc6e048a",
+      "sources": [
+        {
+          "name": "city-speed-cushion.glb",
+          "bytes": 164884,
+          "sha256": "57d5b53192f7ce4ceaaa4f1bb11e3f88466e518f7381a60e1a12957863bb02c0"
+        },
+        {
+          "name": "city-speed-cushion.stl",
+          "bytes": 183084,
+          "sha256": "bb2f0dd732ade91fb860ca93bfcb814e01f6af9dfc8672593ab7585140abd90d"
+        }
+      ]
+    },
+    {
+      "id": "city-storm-drain",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "9092a44dc75fc42b27517c2901fcf9237448122818e7967f1cc6e07b4000812d",
+      "sources": [
+        {
+          "name": "city-storm-drain.glb",
+          "bytes": 473916,
+          "sha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b"
+        },
+        {
+          "name": "city-storm-drain.stl",
+          "bytes": 371684,
+          "sha256": "fafaf7c612b9f4eb14d9ebfcd48598055297750895eba66563260eb9e9cb3dc9"
+        }
+      ]
+    },
+    {
+      "id": "city-streetlight",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "cc3183b4666273df26968da0c9e76515c69a83633ca68a5563e39d7cdf152ba9",
+      "sources": [
+        {
+          "name": "city-streetlight.glb",
+          "bytes": 674200,
+          "sha256": "34259d4e18e74ff72f3d1f2897f2fea56d34158af24e3f9ad5c5dbbefd3f4c9a"
+        },
+        {
+          "name": "city-streetlight.stl",
+          "bytes": 620284,
+          "sha256": "e88b911b61b81e7ee3c31fcda140e2c82b7aa6d702654e52eb7da60002d9499b"
+        }
+      ]
+    },
+    {
+      "id": "city-tactile-paving",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "11e269476486f0b557b52d207fd1bc2d3904d7d0c21a9b42229fe9b280564890",
+      "sources": [
+        {
+          "name": "city-tactile-paving.glb",
+          "bytes": 102472,
+          "sha256": "c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295"
+        },
+        {
+          "name": "city-tactile-paving.stl",
+          "bytes": 110284,
+          "sha256": "45c2bff93152630478e247797f68bb264aa27fbe8b7f89e06c880d1d96661cf8"
+        }
+      ]
+    },
+    {
+      "id": "city-ticket-validator",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "ce256a080d6ffcbe4b1cd3ba94ee75351ff3404073857f535b57760e2efdb38d",
+      "sources": [
+        {
+          "name": "city-ticket-validator.glb",
+          "bytes": 273108,
+          "sha256": "6901988cbd199a3455698887c8510939fd858d5e1bf654368be4f724a705039f"
+        },
+        {
+          "name": "city-ticket-validator.stl",
+          "bytes": 458084,
+          "sha256": "4d7f975e4433a56c824898391e58a9dd6fa324b5031ba8e4976947d995ba03ea"
+        }
+      ]
+    },
+    {
+      "id": "city-traffic-cone",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "6a5798578fd0333f45b61ad22bf8a786061711f4e49aa6f21bfce32cf057606b",
+      "sources": [
+        {
+          "name": "city-traffic-cone.glb",
+          "bytes": 74348,
+          "sha256": "a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4"
+        },
+        {
+          "name": "city-traffic-cone.stl",
+          "bytes": 100084,
+          "sha256": "75098b67530a5d6cb5adffd8ed731826873ae0d44336361d1baa03c336ed0389"
+        }
+      ]
+    },
+    {
+      "id": "city-traffic-signal",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "acc52b98ef2626297ebff4342ba91585dfcf683bac72e362021ba8ae690d37da",
+      "sources": [
+        {
+          "name": "city-traffic-signal.glb",
+          "bytes": 971388,
+          "sha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217"
+        },
+        {
+          "name": "city-traffic-signal.stl",
+          "bytes": 1190484,
+          "sha256": "1f39b3e1010e1915fc3474b2457e02dfdd93d30ed4440a1638587d7bf116205d"
+        }
+      ]
+    },
+    {
+      "id": "city-tree-grate",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "7bf2fd635dbef4b158d732f34d96aebdbbb8b936ab4d6f4b7eb03b5bf0eb9b0f",
+      "sources": [
+        {
+          "name": "city-tree-grate.glb",
+          "bytes": 136552,
+          "sha256": "63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b"
+        },
+        {
+          "name": "city-tree-grate.stl",
+          "bytes": 148084,
+          "sha256": "5895a52b2f7bbc30f137e0539f2a7ec04e931ffce041fce53d65e91c6f8dc73c"
+        }
+      ]
+    },
+    {
+      "id": "city-tree-guard",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "23790bda0f41849ede812c64f387b3c8d5d0d22fa1eac39ac8a61daa1582a2fd",
+      "sources": [
+        {
+          "name": "city-tree-guard.glb",
+          "bytes": 179664,
+          "sha256": "5b0d434cd45fdfc84eba930ee49e729b4a9c9d6be19672c6a198f0a5b196a5e4"
+        },
+        {
+          "name": "city-tree-guard.stl",
+          "bytes": 213684,
+          "sha256": "ad09e57713aed35e929560c0abc0b0884afd00ad953a711aac05caab1eaf72c5"
+        }
+      ]
+    },
+    {
+      "id": "city-tripod-turnstile",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "4aed82e2004adbd415a8d07afea27e10828ddb37109ea8c4d714288f2cbdfd02",
+      "sources": [
+        {
+          "name": "city-tripod-turnstile.glb",
+          "bytes": 131612,
+          "sha256": "f21475df2d9cd18ec1157bc15298a4aa650e0737e856d49a2fe2a66b50867006"
+        },
+        {
+          "name": "city-tripod-turnstile.stl",
+          "bytes": 176284,
+          "sha256": "d93ee39a85a1afc64248c74a12e42151f1b1bf194b018b915cf9f61693a63cfa"
+        }
+      ]
+    },
+    {
+      "id": "city-vending-machine",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3e879e89e3a203385ec262f940c603f61738d4323247ec109d2b4e8ba32fbf94",
+      "sources": [
+        {
+          "name": "city-vending-machine.glb",
+          "bytes": 1421680,
+          "sha256": "c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b"
+        },
+        {
+          "name": "city-vending-machine.stl",
+          "bytes": 2281684,
+          "sha256": "f8be27489e8b5b15cf364d16aa1f257b75dd951330cf94ee06e869ec04a41557"
+        }
+      ]
+    },
+    {
+      "id": "city-ventilation-outlet",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "a567fc67fb610b9c4a2adcd4dabaf445085ff28fd1f17b36e4a68b60bc81e72f",
+      "sources": [
+        {
+          "name": "city-ventilation-outlet.glb",
+          "bytes": 685036,
+          "sha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc"
+        },
+        {
+          "name": "city-ventilation-outlet.stl",
+          "bytes": 659484,
+          "sha256": "b2d5cce26cd2c37c2b0d52f41b4a5c9309ce1c84ddda36ecdd13d053e37c3dca"
+        }
+      ]
+    },
+    {
+      "id": "city-wall-intercom",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "6c23d14b525f6535887e64c447024c4414945953b5802132551fdcbd6a1c1c41",
+      "sources": [
+        {
+          "name": "city-wall-intercom.glb",
+          "bytes": 348028,
+          "sha256": "70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb"
+        },
+        {
+          "name": "city-wall-intercom.stl",
+          "bytes": 271284,
+          "sha256": "d88e612a7c30d08d9b36b783c28940a13b782ef62820df7ef6ddb1c99f0d890b"
+        }
+      ]
+    },
+    {
+      "id": "city-wheel-stop",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "087004e10ef327ab67b311a89d45d6ce9ab2689361e73c01207908bcca5d45ee",
+      "sources": [
+        {
+          "name": "city-wheel-stop.glb",
+          "bytes": 39608,
+          "sha256": "c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654"
+        },
+        {
+          "name": "city-wheel-stop.stl",
+          "bytes": 46284,
+          "sha256": "9a0f98a127e9d08087201af60b664dcdada0b923de6e07c5c4a06d01c30c8372"
+        }
+      ]
+    },
+    {
+      "id": "commons-bar-counter",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "1c8be6ba95cb78b5626c45d498bb248d311202cc3baa1bc989a37af0504b337b",
+      "sources": [
+        {
+          "name": "commons-bar-counter.glb",
+          "bytes": 7391604,
+          "sha256": "eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2"
+        },
+        {
+          "name": "commons-bar-counter.stl",
+          "bytes": 23684,
+          "sha256": "9e39037bcb96c8ef49d86172738d69bcd0b09bae52c2841e13592b7699215fa1"
+        }
+      ]
+    },
+    {
+      "id": "commons-bar-stool",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "9537db5460a620ac1b62ffcf06d893a4c76f86041e3d1305906826d276fe1a5e",
+      "sources": [
+        {
+          "name": "commons-bar-stool.glb",
+          "bytes": 8301196,
+          "sha256": "65f0305aa2a8b2c67e27f1e9c0cfa004bcd0b6b71d90712da678c10cf0e32909"
+        },
+        {
+          "name": "commons-bar-stool.stl",
+          "bytes": 20684,
+          "sha256": "bc83ad6fff8a447c49add7a84b32732889582fb7a9f4e810891f9d5743f90a08"
+        }
+      ]
+    },
+    {
+      "id": "commons-book-set",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "3cd16b287ec74701e340d5b7a62c9959254f8fc183a0afe13645a96bce261f9f",
+      "sources": [
+        {
+          "name": "commons-book-set.glb",
+          "bytes": 8497636,
+          "sha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70"
+        },
+        {
+          "name": "commons-book-set.stl",
+          "bytes": 3684,
+          "sha256": "b3897a532713516864005988489e617ff060a1573cc2e01b39d56c7d34343361"
+        }
+      ]
+    },
+    {
+      "id": "commons-bottle-set",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "9f8055fa5a21635cc564b23ff4c447388d639f0447071bda7495bfee7f4f16e5",
+      "sources": [
+        {
+          "name": "commons-bottle-set.glb",
+          "bytes": 5832752,
+          "sha256": "594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297"
+        },
+        {
+          "name": "commons-bottle-set.stl",
+          "bytes": 36084,
+          "sha256": "74cf6010e998f246a48be1db3c07b99621fdff1c7dcbd4ff3d80b5986d0b1247"
+        }
+      ]
+    },
+    {
+      "id": "commons-coffee-bag",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "016ed58bc4578049d4616352254f44407c2fd37727ed7c6d285d1ec3eebae8b6",
+      "sources": [
+        {
+          "name": "commons-coffee-bag.glb",
+          "bytes": 5459584,
+          "sha256": "b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe"
+        },
+        {
+          "name": "commons-coffee-bag.stl",
+          "bytes": 6084,
+          "sha256": "dbc7855b1d5b91b11c21620c7cc1b7ff837fb7c50e089232e22803f75f4c0fac"
+        }
+      ]
+    },
+    {
+      "id": "commons-coffee-cup",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "2d1021aeb03974b804baa007efc1e15ed8eb3b7f9fe24817ec74cff37b763064",
+      "sources": [
+        {
+          "name": "commons-coffee-cup.glb",
+          "bytes": 16832,
+          "sha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22"
+        },
+        {
+          "name": "commons-coffee-cup.stl",
+          "bytes": 10884,
+          "sha256": "0b7861d70cafaa8a15dd5979ba5097f74d5b3d8f6ab64ebe8d488361a8fa9a5f"
+        }
+      ]
+    },
+    {
+      "id": "commons-coffee-grinder",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "b3a92faa6466497f0d99dcd8f228589fa2bd019902e336e46b7dd388c1941e81",
+      "sources": [
+        {
+          "name": "commons-coffee-grinder.glb",
+          "bytes": 2568112,
+          "sha256": "f4a9ee51508b79bf56efcd2e4d20c056fe57b59ee0b5616ea6128caa0c5084bd"
+        },
+        {
+          "name": "commons-coffee-grinder.stl",
+          "bytes": 6084,
+          "sha256": "e2dc83d675f6c9da123006e983155d2fff6a9254d56d91b834f9f98701c2eac8"
+        }
+      ]
+    },
+    {
+      "id": "commons-display-plinth",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "0f2d394af9765fe3abce2cf89bd9299dc1fba4ca8b2cb2f7ec8d7e06ffc86f7f",
+      "sources": [
+        {
+          "name": "commons-display-plinth.glb",
+          "bytes": 2614372,
+          "sha256": "f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d"
+        },
+        {
+          "name": "commons-display-plinth.stl",
+          "bytes": 44684,
+          "sha256": "da6788f2f71b0bff0f41162e9cd9a1d36a5e4ad29bdf7aee2cba0f60aad9997a"
+        }
+      ]
+    },
+    {
+      "id": "commons-dj-controller",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "0bb9371a8353a4290abdb947e31b93921b014e321fb885dc886496023cec7deb",
+      "sources": [
+        {
+          "name": "commons-dj-controller.glb",
+          "bytes": 7635592,
+          "sha256": "f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5"
+        },
+        {
+          "name": "commons-dj-controller.stl",
+          "bytes": 138484,
+          "sha256": "bfa6fc94616b8128a07c08da8368eba5a05ecec30d6f430490c9828146c438c3"
+        }
+      ]
+    },
+    {
+      "id": "commons-dj-desk",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "4253b1585dd0f89b1105bff34a95c7cd8dba8d6b3d1be2cf50c214f95cbd44fa",
+      "sources": [
+        {
+          "name": "commons-dj-desk.glb",
+          "bytes": 4864184,
+          "sha256": "0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa"
+        },
+        {
+          "name": "commons-dj-desk.stl",
+          "bytes": 7284,
+          "sha256": "87891176b799ff103bcda0b336009703b72ea4663ae49396fbbbc7474d77e7fe"
+        }
+      ]
+    },
+    {
+      "id": "commons-equipment-rack",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "235f2099532b498ad2894a8970cf663f2820244266286ef90b8cf32da70477cf",
+      "sources": [
+        {
+          "name": "commons-equipment-rack.glb",
+          "bytes": 5598264,
+          "sha256": "67e262e4a7b7cfdb1a4f6f81c66976b09323f3425f76e67261d1fe0d214c1f7a"
+        },
+        {
+          "name": "commons-equipment-rack.stl",
+          "bytes": 27684,
+          "sha256": "0a330532857cc80136a0ed16617768416d46e015f1dfcf280724d00176b3a26f"
+        }
+      ]
+    },
+    {
+      "id": "commons-espresso-machine",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "180dff363efd03e19952cc68135af22a2713b8d8b9341e3547cc052090ee29bd",
+      "sources": [
+        {
+          "name": "commons-espresso-machine.glb",
+          "bytes": 8023892,
+          "sha256": "23b8ddd1375e1f3f9d7e253edb64e234e4939edb8972dddd79bc9d297200e3e6"
+        },
+        {
+          "name": "commons-espresso-machine.stl",
+          "bytes": 8884,
+          "sha256": "76b51f3de6513bfa5b0fb49bf153089582e720280fbbb8ab79327b1a4d713559"
+        }
+      ]
+    },
+    {
+      "id": "commons-floating-bookshelf",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "81736f2a613b07313a5462d3632cee198e7933bdea47d958951546251f92a5e1",
+      "sources": [
+        {
+          "name": "commons-floating-bookshelf.glb",
+          "bytes": 8637644,
+          "sha256": "a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5"
+        },
+        {
+          "name": "commons-floating-bookshelf.stl",
+          "bytes": 45084,
+          "sha256": "7ae3ab6b5e880ac51b25d3126a6b6384bea6c7c7c1366e3d073b4f334d3d2b83"
+        }
+      ]
+    },
+    {
+      "id": "commons-halo-light",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "eede77e6697e597a6e1e244c1cf0929c637538b0d9c0c4960328a14185ca6303",
+      "sources": [
+        {
+          "name": "commons-halo-light.glb",
+          "bytes": 2598924,
+          "sha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac"
+        },
+        {
+          "name": "commons-halo-light.stl",
+          "bytes": 88084,
+          "sha256": "1df7d84dc7208839655c969fd89e3482f00dd30e9586ce305b4806dd4be8f7d6"
+        }
+      ]
+    },
+    {
+      "id": "commons-leaf-planter",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "72994810f4d99db1c197a085f37165a4f6299a84a84337736237bcb64864c5f7",
+      "sources": [
+        {
+          "name": "commons-leaf-planter.glb",
+          "bytes": 35536,
+          "sha256": "fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c"
+        },
+        {
+          "name": "commons-leaf-planter.stl",
+          "bytes": 15084,
+          "sha256": "023d2c0282269b03beb2fe1c26117946ef185efb65b5cf8222bb71356e4b765f"
+        }
+      ]
+    },
+    {
+      "id": "commons-lounge-chair",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "7050ab9d47968192435bf839d96697ffb0f4701903b98ec74a72f679146fb520",
+      "sources": [
+        {
+          "name": "commons-lounge-chair.glb",
+          "bytes": 5737468,
+          "sha256": "80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b"
+        },
+        {
+          "name": "commons-lounge-chair.stl",
+          "bytes": 16484,
+          "sha256": "bbb999c8e828ebd1da84a78b2f50b79c89b63161bf02354f83a363ee21f07822"
+        }
+      ]
+    },
+    {
+      "id": "commons-lounge-sofa",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "a43443107a18054e6c287a77b011b91874e4c3743d2b80fe392848f3e8a0d9e0",
+      "sources": [
+        {
+          "name": "commons-lounge-sofa.glb",
+          "bytes": 5752624,
+          "sha256": "b5ef4bb0bb41ce2a5cecf90fb34c037817e9f2ce85da67b0bbd7f24fbfff88ac"
+        },
+        {
+          "name": "commons-lounge-sofa.stl",
+          "bytes": 27284,
+          "sha256": "1f95c3889a747a0aea196d4e87330020e02e2e96310c2b087d25047e0d9d285a"
+        }
+      ]
+    },
+    {
+      "id": "commons-low-table",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "373b96fac2d4f123d73affe40165e7826ad637f8a1fa24368af9693096e77ae9",
+      "sources": [
+        {
+          "name": "commons-low-table.glb",
+          "bytes": 7374364,
+          "sha256": "be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09"
+        },
+        {
+          "name": "commons-low-table.stl",
+          "bytes": 28284,
+          "sha256": "139031266e1535bdc72ed0975bb8238db96bf35d4360a6242944aeb0ea84f2da"
+        }
+      ]
+    },
+    {
+      "id": "commons-pa-speaker",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "738e28548018b12b741f35d0946969995109815a9b1049896af141330985c574",
+      "sources": [
+        {
+          "name": "commons-pa-speaker.glb",
+          "bytes": 2589024,
+          "sha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9"
+        },
+        {
+          "name": "commons-pa-speaker.stl",
+          "bytes": 13884,
+          "sha256": "0888102f8658bcb2321d148c0a0c57c27c176699ecc1fa8eb4af17936b2e317d"
+        }
+      ]
+    },
+    {
+      "id": "commons-pendant-light",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "21c797a5ec5b6a9510418d29895abf3a35b349852df7590af9839f911c313482",
+      "sources": [
+        {
+          "name": "commons-pendant-light.glb",
+          "bytes": 2574080,
+          "sha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6"
+        },
+        {
+          "name": "commons-pendant-light.stl",
+          "bytes": 10684,
+          "sha256": "a3a0299818817dbf71c84fda9210cc3d87a74ada90fa61f2734656a3da9ac118"
+        }
+      ]
+    },
+    {
+      "id": "commons-poster-frame",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "521d9cbc23041794d820303f03d87a7ae9bd26870eaefbd8920244eb2018b471",
+      "sources": [
+        {
+          "name": "commons-poster-frame.glb",
+          "bytes": 2487240,
+          "sha256": "49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee"
+        },
+        {
+          "name": "commons-poster-frame.stl",
+          "bytes": 1284,
+          "sha256": "7340aea8e2e42d5e729fe09e17070ef5b26b4bdc618d67427e3c033823c9eed4"
+        }
+      ]
+    },
+    {
+      "id": "commons-round-stage",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "e4694299e68c0d9daac09a4ba36caf0dbf12fa094257f9876a18dc7a2aae0478",
+      "sources": [
+        {
+          "name": "commons-round-stage.glb",
+          "bytes": 4943124,
+          "sha256": "4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13"
+        },
+        {
+          "name": "commons-round-stage.stl",
+          "bytes": 76684,
+          "sha256": "ecfa82ace79b8ff3adb98cfff8a38bc6709c7e3f4b886a5e54e428d096bf7391"
+        }
+      ]
+    },
+    {
+      "id": "commons-round-table",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "a1155f5bf0556c831958387554072dae217c32c9b4d93ffb7c6778153f2bd651",
+      "sources": [
+        {
+          "name": "commons-round-table.glb",
+          "bytes": 7374360,
+          "sha256": "72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048"
+        },
+        {
+          "name": "commons-round-table.stl",
+          "bytes": 28284,
+          "sha256": "b5912c318b5f6a05ca6a45c2e0ecc59682805290c72582cf56c7bf67fdd6db22"
+        }
+      ]
+    },
+    {
+      "id": "commons-table-candle",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "2c36822ac82b711d4cc2ecd55bacbd763883401c1f4f6958e756dc097f2e1e0c",
+      "sources": [
+        {
+          "name": "commons-table-candle.glb",
+          "bytes": 7204,
+          "sha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7"
+        },
+        {
+          "name": "commons-table-candle.stl",
+          "bytes": 4084,
+          "sha256": "e4b51c6c400dfc68760ade317ed8af66dcc809978d0f0952759ae99b29de04cb"
+        }
+      ]
+    },
+    {
+      "id": "field-terminal",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "a51769415db35efd636e2156aa445ce8cf66d60c5446cc6754f99573910f8d71",
+      "sources": [
+        {
+          "name": "field-terminal.glb",
+          "bytes": 13332,
+          "sha256": "fa34860230fb45295547c7157655cad09d2534961753c5291d590da01612f32f"
+        },
+        {
+          "name": "field-terminal.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "field-terminal.obj",
+          "bytes": 2701,
+          "sha256": "6d3ce5a4c9e273073531caf0509b26a4aaff2c7fd73ffab99a745fdff8897baa"
+        },
+        {
+          "name": "field-terminal.stl",
+          "bytes": 4284,
+          "sha256": "a758850f14e7edfec67943ddb9302b275b1fdcef9cc119e354fd475fcaaf7117"
+        }
+      ]
+    },
+    {
+      "id": "garden-arch",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "dbab6658eca0cb8d97984b10e29dd78aab51aa6c9abf02df52b2996282601677",
+      "sources": [
+        {
+          "name": "garden-arch.glb",
+          "bytes": 23768,
+          "sha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c"
+        },
+        {
+          "name": "garden-arch.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "garden-arch.obj",
+          "bytes": 5972,
+          "sha256": "63f5c1f5210296623c6fc1b4fadd628a18b6e6b1e56eac7e0774f45b99e14261"
+        },
+        {
+          "name": "garden-arch.stl",
+          "bytes": 10884,
+          "sha256": "9956d99d2f312af56df8b37c3bdd4cb8bdafa245fbd55a27a4bb9db768b92578"
+        }
+      ]
+    },
+    {
+      "id": "market-crate",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "45830d59f7a3612d95a1a643d7a81b84739455904be158a96f9ddc5f890fe226",
+      "sources": [
+        {
+          "name": "market-crate.glb",
+          "bytes": 42340,
+          "sha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55"
+        },
+        {
+          "name": "market-crate.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "market-crate.obj",
+          "bytes": 9624,
+          "sha256": "49727d591f4ca453abe7e44df619d4d979d0c974a4bb82c6eed64d5a080cf488"
+        },
+        {
+          "name": "market-crate.stl",
+          "bytes": 14484,
+          "sha256": "19bcc6c4e9a3f7776e4464646fd0c9e0701b961a4427e8cc2563e4350014bb43"
+        }
+      ]
+    },
+    {
+      "id": "slat-bench",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "2ea3467e35f56701a7f2944cbd1d7d7902e9a320989c14269530af45d7047898",
+      "sources": [
+        {
+          "name": "slat-bench.glb",
+          "bytes": 18344,
+          "sha256": "bb07fdd60b6f6068ac1a27b98f4cfd16ce2a1f78439b332257e4920a8152e4eb"
+        },
+        {
+          "name": "slat-bench.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "slat-bench.obj",
+          "bytes": 3835,
+          "sha256": "5a072c17e7f4e791e338e7aee76d8c822817db508766b6a37184040915e1fbec"
+        },
+        {
+          "name": "slat-bench.stl",
+          "bytes": 6084,
+          "sha256": "3229a4f3726aab08a713a88b40d8cf6d1fb5b52c84168d93ed8b4ef23d2b8b94"
+        }
+      ]
+    },
+    {
+      "id": "studio-chair",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "b0c86adcb56322a978e5254e98aef89aa425b0eabbd16babaefd55e90f3a00c3",
+      "sources": [
+        {
+          "name": "studio-chair.glb",
+          "bytes": 14912,
+          "sha256": "f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5"
+        },
+        {
+          "name": "studio-chair.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "studio-chair.obj",
+          "bytes": 3036,
+          "sha256": "a526829bfb2851e626335e070eaba5de1169332cbcc261ab769d632cdad456fb"
+        },
+        {
+          "name": "studio-chair.stl",
+          "bytes": 4884,
+          "sha256": "7427155381a4db3fab3bc2fb630b5cf61ff34d848c7299a01d32623778478f3a"
+        }
+      ]
+    },
+    {
+      "id": "terracotta-planter",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "6b45fbdb5dc2a91b1f949906fa663b2602249c906fa7677cb64d4dff08b094f9",
+      "sources": [
+        {
+          "name": "terracotta-planter.glb",
+          "bytes": 172052,
+          "sha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a"
+        },
+        {
+          "name": "terracotta-planter.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "terracotta-planter.obj",
+          "bytes": 55500,
+          "sha256": "1ffd00dc58f12077ec928953e0090bfb27e0980b3985528472dc3edf69504856"
+        },
+        {
+          "name": "terracotta-planter.stl",
+          "bytes": 88084,
+          "sha256": "918906d4b0101348d2db6fd6fa1ac909050e1a1cbc3aa8f45513602567fba739"
+        }
+      ]
+    },
+    {
+      "id": "wayfinding-sign",
+      "assetVersion": "1.0.1",
+      "metadataSha256": "2f6db74bdfddfea2f0c3eab5dab4fd0d0f5a82786e3cf808c1552c146edc9c5d",
+      "sources": [
+        {
+          "name": "wayfinding-sign.glb",
+          "bytes": 139968,
+          "sha256": "7f44eeba72405af280222526f34e3ae1a62ac67f97516438c580899e01bcd44b"
+        },
+        {
+          "name": "wayfinding-sign.mtl",
+          "bytes": 306,
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a"
+        },
+        {
+          "name": "wayfinding-sign.obj",
+          "bytes": 44617,
+          "sha256": "f084773796e0ac99ae2607a900db408e51268d35d724ace8ff9137aabd73eed8"
+        },
+        {
+          "name": "wayfinding-sign.stl",
+          "bytes": 71084,
+          "sha256": "ca9267eda5b27a9a38f94ee4955f7a10725e47768a25684acd078694a77f2f50"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-banquette",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "ee57ae6dbade8bc50352c52c014a9297362a26a2e5169657ad79adc4b370d5a1",
+      "sources": [
+        {
+          "name": "yokocho-banquette.glb",
+          "bytes": 3527088,
+          "sha256": "e86a62614cd4ca8275c37bb805a9709baff1ff59a4b7ed7be08adaa4de62525b"
+        },
+        {
+          "name": "yokocho-banquette.stl",
+          "bytes": 73284,
+          "sha256": "a7470dd5daaf1d77c521cf606b2c2271dd2068a76df046d8ea8ba390921e456c"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-bard-lyre-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "e694d37b257e5162c5d87ea365cbfd19a6dd730c6ff24493b1e1356652b92431",
+      "sources": [
+        {
+          "name": "yokocho-bard-lyre-sign.glb",
+          "bytes": 64860,
+          "sha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc"
+        },
+        {
+          "name": "yokocho-bard-lyre-sign.stl",
+          "bytes": 38284,
+          "sha256": "49311fd81780846ea258496f877fb992cb43c091e65e49b6d2b000628fa0759b"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-booster-pump-skid",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "1a645cc2e1d28db8a75df7e76afea48205d6a0be5dc5c9f887ea694f8b5e168f",
+      "sources": [
+        {
+          "name": "yokocho-booster-pump-skid.glb",
+          "bytes": 227136,
+          "sha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7"
+        },
+        {
+          "name": "yokocho-booster-pump-skid.stl",
+          "bytes": 266684,
+          "sha256": "cab75848b6e5bd7aeb69f495029564014711fc240d011a0e0a273f40e5183c4d"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-booth-table",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "6d571b195c0e361b68f893f552d137ac196d1650f26215bc903893ef516e9b65",
+      "sources": [
+        {
+          "name": "yokocho-booth-table.glb",
+          "bytes": 51180,
+          "sha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a"
+        },
+        {
+          "name": "yokocho-booth-table.stl",
+          "bytes": 38684,
+          "sha256": "4333899da759ef63de57e9a689809413a8eb0526cecf1ad9ce1d9f80266246e3"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-bottle-keep-wall",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "e19f37c8a2cd3a296afb815676fb83f3823d41c67389f863407a89d10852701f",
+      "sources": [
+        {
+          "name": "yokocho-bottle-keep-wall.glb",
+          "bytes": 4136436,
+          "sha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2"
+        },
+        {
+          "name": "yokocho-bottle-keep-wall.stl",
+          "bytes": 440984,
+          "sha256": "b5d7b5e79b3b971ce9c51195319c9948112798f673eabc741b158c3f0d695b77"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-charcoal-stool-set",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "0878a339bfefcba6b6026893f28a310d38d8bdba740625d11f0b5235eff3c9db",
+      "sources": [
+        {
+          "name": "yokocho-charcoal-stool-set.glb",
+          "bytes": 196300,
+          "sha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7"
+        },
+        {
+          "name": "yokocho-charcoal-stool-set.stl",
+          "bytes": 105684,
+          "sha256": "ce157807d684bb269a241f06a3d5f47a5ece39892f1fa3d2226531cfc488b202"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-club-armchair",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "5e73fe714062f9a9720a143eb844f1b38564ae83fcb8df2e01191394442ceebc",
+      "sources": [
+        {
+          "name": "yokocho-club-armchair.glb",
+          "bytes": 33028,
+          "sha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53"
+        },
+        {
+          "name": "yokocho-club-armchair.stl",
+          "bytes": 15684,
+          "sha256": "136616872079af6b75818804f8f573be45757fb2a664c09ce01a2cd58cd3898b"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-cocktail-stool",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "6dde00d310f2e3b386545c26660580a5a5b411efc8333be8740d27eefc556390",
+      "sources": [
+        {
+          "name": "yokocho-cocktail-stool.glb",
+          "bytes": 33496,
+          "sha256": "75aedc315176f2431a992d52275530b9fb201f6c8c258f5a183e3be07364a5b2"
+        },
+        {
+          "name": "yokocho-cocktail-stool.stl",
+          "bytes": 16884,
+          "sha256": "e311dd8d3e2b2615d2efa81db0453aab8a7869dc53e13a20370b8d1a063d4d51"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-confectioner-stool-set",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "dbc44c9949a439e21b5ef0732a566f3eb309e07c47488f3a53570001a45f0786",
+      "sources": [
+        {
+          "name": "yokocho-confectioner-stool-set.glb",
+          "bytes": 77688,
+          "sha256": "0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d"
+        },
+        {
+          "name": "yokocho-confectioner-stool-set.stl",
+          "bytes": 115284,
+          "sha256": "141315dc22f6f60d46cab09aa6234aaec21adf53218ff031228129122042a67f"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-dragon-ember-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3dfd621d956a511f28d09d46fe347d64b933e6bec6be90377d8f8b475f9b3a9c",
+      "sources": [
+        {
+          "name": "yokocho-dragon-ember-sign.glb",
+          "bytes": 69308,
+          "sha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0"
+        },
+        {
+          "name": "yokocho-dragon-ember-sign.stl",
+          "bytes": 33884,
+          "sha256": "94cca53dd1e884656012833f65c83f18b63c6fa7af347e5caaf716aa0b83b807"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-display-frame",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "666f8f7131e875d75890ef1e9c5958fc0066d319d37bdd6d449ea4cfea3cc1e0",
+      "sources": [
+        {
+          "name": "yokocho-entry-display-frame.glb",
+          "bytes": 250552,
+          "sha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2"
+        },
+        {
+          "name": "yokocho-entry-display-frame.stl",
+          "bytes": 30284,
+          "sha256": "8d826cac92fb5223e2276d0f8b83aef8e8adc861f6e4a7e2cfa35c0bae5ccaa4"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-guideboard",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "691bf4e9a7c6af8022a52ab67d95482fad0e75ac7f62c8ca92cf2fff0fa7a744",
+      "sources": [
+        {
+          "name": "yokocho-entry-guideboard.glb",
+          "bytes": 381596,
+          "sha256": "82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4"
+        },
+        {
+          "name": "yokocho-entry-guideboard.stl",
+          "bytes": 30184,
+          "sha256": "af6fdb9a61ad0cd80addf0b109b5c8658b4d6b227e777bb16f85d692fe6b0ec2"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-log-bench",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "b52d28780bd6b04cacb8c2024c879d8e0f903d14ecc6d5a1ec6e99c6a366984e",
+      "sources": [
+        {
+          "name": "yokocho-entry-log-bench.glb",
+          "bytes": 590152,
+          "sha256": "b3efdc9cc7f12a43b859993caf0b661e3b341210666ac17cc367c0f9ced1616b"
+        },
+        {
+          "name": "yokocho-entry-log-bench.stl",
+          "bytes": 20284,
+          "sha256": "20b41ea12eae4ca04a0575df9e8ef797608d1d226f3513c5cb58dfe8a75fff98"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-stump-table",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "1af43f6fa7750cc97f5e35fd838327cb9768c1a91329b48aee6c686956909421",
+      "sources": [
+        {
+          "name": "yokocho-entry-stump-table.glb",
+          "bytes": 581456,
+          "sha256": "95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9"
+        },
+        {
+          "name": "yokocho-entry-stump-table.stl",
+          "bytes": 12484,
+          "sha256": "332c52fe09a66f7e1a8b3dfc982ac7b43b9771ac9dfcda05741bb59d460a0aec"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-geometric-backbar",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "5379a687c83d424711665e60d69989665d90de030fd379883cc55ed368e88d6d",
+      "sources": [
+        {
+          "name": "yokocho-geometric-backbar.glb",
+          "bytes": 617008,
+          "sha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d"
+        },
+        {
+          "name": "yokocho-geometric-backbar.stl",
+          "bytes": 317584,
+          "sha256": "ebe6352a7bc779c8989b5cef3e724f90993797c1747636e4d41d9aebe8f938c3"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-listening-chair",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "d32ce2b3cb09eb05e9a4d7cd484edbd5e4425c136a646e619de3c70f88b496c8",
+      "sources": [
+        {
+          "name": "yokocho-listening-chair.glb",
+          "bytes": 3468912,
+          "sha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557"
+        },
+        {
+          "name": "yokocho-listening-chair.stl",
+          "bytes": 11084,
+          "sha256": "8943a9c5af4269ed3357d077addc0fe3217565ef57f7c05d5b11f3d195af6e0e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-listening-counter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "57462ed3f4530f70ac727fe637da6ae7264212007d61467d1acc187ee37130f4",
+      "sources": [
+        {
+          "name": "yokocho-listening-counter.glb",
+          "bytes": 64168,
+          "sha256": "83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868"
+        },
+        {
+          "name": "yokocho-listening-counter.stl",
+          "bytes": 45284,
+          "sha256": "8b685c21f7bb74d424615af719f889438686b6f63e2ba97e4f19dea1e8961b6f"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-lounge-table",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "d75bdc0234235248522968c6359cd3e776cef0551df76fbdd4c910f4a9a082c0",
+      "sources": [
+        {
+          "name": "yokocho-lounge-table.glb",
+          "bytes": 27400,
+          "sha256": "eacd273d7c5a05999bc890e7c4bb4dc4c7040cbc3e26ca558faecd99d55c0f4b"
+        },
+        {
+          "name": "yokocho-lounge-table.stl",
+          "bytes": 24084,
+          "sha256": "d9a0b17acedc5a73350ca6fba5d976c6aaed67044631f2e022f53615b8e05c43"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-medallion-chandelier",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3863a3efcf186d2542a8ac3664457e72c18226733c367b913ea4aecb73bb0ba1",
+      "sources": [
+        {
+          "name": "yokocho-medallion-chandelier.glb",
+          "bytes": 36376,
+          "sha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0"
+        },
+        {
+          "name": "yokocho-medallion-chandelier.stl",
+          "bytes": 47884,
+          "sha256": "4b8542490f9ab3a4dbd37799d10e573b4eead1e2ccd45f922e699d15439ab7d8"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-mixology-tools",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "06e664a0452729de57bd2d571457a9fe103ce3a8a5796fd3df46ecdab81376da",
+      "sources": [
+        {
+          "name": "yokocho-mixology-tools.glb",
+          "bytes": 30248,
+          "sha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3"
+        },
+        {
+          "name": "yokocho-mixology-tools.stl",
+          "bytes": 32284,
+          "sha256": "464d221dcea925fe326e1d41a2c85ea57f5d60ae1800c40397a87456eff0ba2b"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-moon-tea-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "cd6804a9bfbd09004f06c52025bde67f4aeb56afc9f1a6fb9e616cc216f90521",
+      "sources": [
+        {
+          "name": "yokocho-moon-tea-sign.glb",
+          "bytes": 134404,
+          "sha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2"
+        },
+        {
+          "name": "yokocho-moon-tea-sign.stl",
+          "bytes": 71684,
+          "sha256": "2c56d28c0fd8ef75946f9a8a7dedc3c93e549960eb29f59b980f96e6ee4cde06"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-noh-pavilion",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "403689e80500b77af382165c3bf798f3200c20aa25226160b4eee0f0adc1610f",
+      "sources": [
+        {
+          "name": "yokocho-noh-pavilion.glb",
+          "bytes": 7688928,
+          "sha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a"
+        },
+        {
+          "name": "yokocho-noh-pavilion.stl",
+          "bytes": 1689084,
+          "sha256": "f9f4582ff38e16904ecc491a726b7f0525b42b658bfbc6b64a45353883b1af40"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-noodle-guild-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "707af0858954f63b1435e9802f2790cc8d4e10b8c1ec207241d40a25b13aec72",
+      "sources": [
+        {
+          "name": "yokocho-noodle-guild-sign.glb",
+          "bytes": 4619736,
+          "sha256": "28e9e28a43a1ceb37730cfe3be778b295468367a109e02227f6b1701f8a8270e"
+        },
+        {
+          "name": "yokocho-noodle-guild-sign.stl",
+          "bytes": 47884,
+          "sha256": "318be2f5d029e6225efb71adb49e79980ece3cd558230d8f39cfda824b39e70f"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-noodle-stool-set",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "89d1c1a36adc4a672ff421ed85551f0bcc72a79c301769133b1a4209fe6b6cde",
+      "sources": [
+        {
+          "name": "yokocho-noodle-stool-set.glb",
+          "bytes": 145792,
+          "sha256": "594837b9aa9a1a54ee3c47122c752da78530591ccb82281cdeb1423e6d1f0d2a"
+        },
+        {
+          "name": "yokocho-noodle-stool-set.stl",
+          "bytes": 216084,
+          "sha256": "d1d28bb9f2bc50adc804c60c477211fed5db28332b3f5bf722e87513467d5819"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-oden-bench-set",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "7cd5c7b30e05f194745d21b76c4edec9a1829635548561677f11f966aef61332",
+      "sources": [
+        {
+          "name": "yokocho-oden-bench-set.glb",
+          "bytes": 1679528,
+          "sha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261"
+        },
+        {
+          "name": "yokocho-oden-bench-set.stl",
+          "bytes": 35684,
+          "sha256": "ba59c25b4e925146c830b7e507673750bf984d3aa13f2d66609569dda0756c50"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-pendant-ceiling",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "b0b489f1e61c71a8550b96684de6a18a0745bb4325681c87679908cc6d0c20ab",
+      "sources": [
+        {
+          "name": "yokocho-pendant-ceiling.glb",
+          "bytes": 80468,
+          "sha256": "766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c"
+        },
+        {
+          "name": "yokocho-pendant-ceiling.stl",
+          "bytes": 66684,
+          "sha256": "1cbe8379f6066e3554333f0480b4ec58994816575f1f349232b9cfbe723554ef"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-record-library",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "ef32e9f2a0119e45805a8df13ac917f4e934460377b2ac1bc52f9c1873521e3e",
+      "sources": [
+        {
+          "name": "yokocho-record-library.glb",
+          "bytes": 453728,
+          "sha256": "94d87bd5beee4b41550767ad9ce6a6dc4b767381586787eb67c8f1960c14d651"
+        },
+        {
+          "name": "yokocho-record-library.stl",
+          "bytes": 42784,
+          "sha256": "304c6c1df3502f606a4b07f01c8423d581078fc5ced92913ea1c6cb431487849"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-snack-chair",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "4004a3e39fe00af7734e8c3a4e8913ac5104fe3fe632cff45dc94242e9de823f",
+      "sources": [
+        {
+          "name": "yokocho-snack-chair.glb",
+          "bytes": 3480380,
+          "sha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb"
+        },
+        {
+          "name": "yokocho-snack-chair.stl",
+          "bytes": 29084,
+          "sha256": "7569e9075819fc9a624ae1bb5c682dad9cfbc5779c6e4d2ae47261e8027e5757"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-snack-counter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "8a5b4ae7c0b1022abb4b51098c428b95f2d8e8ad6fd689645d95ebbb41ea4ced",
+      "sources": [
+        {
+          "name": "yokocho-snack-counter.glb",
+          "bytes": 3536912,
+          "sha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42"
+        },
+        {
+          "name": "yokocho-snack-counter.stl",
+          "bytes": 65884,
+          "sha256": "5af1753d34bf68036c5dd2e3813954d7fe07ef8356df15b8ca46cfcc9d625c7e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-star-distillery-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "93a70f2bdcf265ad01f68415106b98f3201cab0aa8e7b68352f6956ca1873f76",
+      "sources": [
+        {
+          "name": "yokocho-star-distillery-sign.glb",
+          "bytes": 89020,
+          "sha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b"
+        },
+        {
+          "name": "yokocho-star-distillery-sign.stl",
+          "bytes": 42284,
+          "sha256": "233bb8108df3c49900a66e03dc980a683e90a36c6ec68ba3b7b603ab16fb1819"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-tea-furniture-set",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "ac050d332ba8186d22c9edd6ddd77762118385cd6c0cb9587949484f359899b7",
+      "sources": [
+        {
+          "name": "yokocho-tea-furniture-set.glb",
+          "bytes": 1784796,
+          "sha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5"
+        },
+        {
+          "name": "yokocho-tea-furniture-set.stl",
+          "bytes": 98884,
+          "sha256": "2bbe96cfa73b3d3b4277c3f42c4ffbc88e9b44246bc30922d619b9fa1c579bb9"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-telecom-mast",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "79a9402b04b1d6478643ae07411530dfa9e9223cdf2b07c5a91148f15e6db1a8",
+      "sources": [
+        {
+          "name": "yokocho-telecom-mast.glb",
+          "bytes": 136092,
+          "sha256": "e0fe0d1aebe2692f597e5f73c438385c2d19d1ed4d5dac75721ec3cc130f8b54"
+        },
+        {
+          "name": "yokocho-telecom-mast.stl",
+          "bytes": 107884,
+          "sha256": "e7354ffcdceec84cd9a944b697a0e54b612351d2645e9b428249112bfb0a4dac"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-timber-stair-flight",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "6eaf3c8caf8d4dede407a58b561ccd057a5b99a9bbd7ccc3e33d24cf3e16af1d",
+      "sources": [
+        {
+          "name": "yokocho-timber-stair-flight.glb",
+          "bytes": 167492,
+          "sha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9"
+        },
+        {
+          "name": "yokocho-timber-stair-flight.stl",
+          "bytes": 97884,
+          "sha256": "6badeec859c4e7d72c23810fcb712f0d1544c4a37901eaeb9c2c606da3fd7a60"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-traveler-pot-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "b851319fbe515a23d19f8c049ec991ab238c26eae5a3b2c36a7051fdffc67286",
+      "sources": [
+        {
+          "name": "yokocho-traveler-pot-sign.glb",
+          "bytes": 65236,
+          "sha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818"
+        },
+        {
+          "name": "yokocho-traveler-pot-sign.stl",
+          "bytes": 32284,
+          "sha256": "54adca1d89404f7901200cf8234d6c5b320f37f3eb0668974b924095b1f3b383"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-turntable-amplifier",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "9a37bf5df67a24aefae02b37bf48e8b0b66927be832751aaa4b39b13735842b1",
+      "sources": [
+        {
+          "name": "yokocho-turntable-amplifier.glb",
+          "bytes": 29064,
+          "sha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7"
+        },
+        {
+          "name": "yokocho-turntable-amplifier.stl",
+          "bytes": 24884,
+          "sha256": "dfb539b6c08d6c4030635be45264825b9ea46a6866a3232e6756711841715006"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-upper-water-storage",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "fa30f05bc2d74f087e44052ad4fd78f677510ab3c86ee0ba80fa9bae30464e0f",
+      "sources": [
+        {
+          "name": "yokocho-upper-water-storage.glb",
+          "bytes": 130156,
+          "sha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f"
+        },
+        {
+          "name": "yokocho-upper-water-storage.stl",
+          "bytes": 141684,
+          "sha256": "0bdf410e83217bf268ea98bd01f08e7c8e14bc9dda5030b87b3614232f2c2a8d"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-utility-service-bank",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "4865f94f4dba95908d3a7fcc4661d93b89a97520a7d5958f627bfbbad4f2fab5",
+      "sources": [
+        {
+          "name": "yokocho-utility-service-bank.glb",
+          "bytes": 87036,
+          "sha256": "8a4de5792558b07549db1286d936e964e6c9e0c62f6cf80a1c227d8cd67388a8"
+        },
+        {
+          "name": "yokocho-utility-service-bank.stl",
+          "bytes": 85484,
+          "sha256": "166c6b601d2ee0d7d4bf88c06ac6a8502a7e0421e7a42416e537fd4819fcde2e"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-walnut-counter",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "2ab42578b8dc4bbcc2c970bea10dace5b303d1c3c699e5effb30ecbc15b9e2fc",
+      "sources": [
+        {
+          "name": "yokocho-walnut-counter.glb",
+          "bytes": 70084,
+          "sha256": "17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9"
+        },
+        {
+          "name": "yokocho-walnut-counter.stl",
+          "bytes": 69084,
+          "sha256": "f462c2385615739cc4ed9a82d39b97daf2cfa53c313fc7f4812e837c8a3717bf"
+        }
+      ]
+    },
+    {
+      "id": "yokocho-witch-moon-sign",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "7f064342f2427f44cb83a79b4d78ae3d1a4791fd880e37db4fb1f31a14480dc7",
+      "sources": [
+        {
+          "name": "yokocho-witch-moon-sign.glb",
+          "bytes": 3518664,
+          "sha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657"
+        },
+        {
+          "name": "yokocho-witch-moon-sign.stl",
+          "bytes": 39284,
+          "sha256": "262f0d8e1e0e0883368b0b42c8380d78787fcf4bb12f1a44254d1704a8668d25"
+        }
+      ]
+    }
+  ]
+}

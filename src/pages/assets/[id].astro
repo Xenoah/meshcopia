@@ -6,9 +6,12 @@ import AssetCard from '../../components/AssetCard.astro';
 import {textureSize,textureWrap,textureLabel,textureWrapLabel,textureWrapLabelEn} from '../../lib/texture';
 import data from '../../data/catalog.json';
 import {base,local,bytes,categoryNames} from '../../lib/paths';
+import {primaryDownload,directModelFiles,downloadHref} from '../../lib/downloads.mjs';
 export function getStaticPaths(){return data.map(asset=>({params:{id:asset.id},props:{asset}}))}
 const {asset:a}=Astro.props;
 const isModel=a.type==='model';
+const download=primaryDownload(a);
+const directFiles=directModelFiles(a);
 const [width,height]=textureSize(a);
 const wrap=textureWrap(a);
 const captionJa=isModel?'ドラッグで回転 · ホイール／ピンチで拡大 · 右ドラッグで移動':wrap==='mirror'?'鏡像リピートで表示。隣り合うタイルを交互に反転します。':wrap==='clamp'?'元の縦横比で表示。繰り返さず、UVで使う領域を指定します。':'通常リピートで、縦横のつなぎ目を確認できます。';
@@ -48,11 +51,15 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
    </section>
   </section>
   <aside class="download-column"><div class="asset-type-label"><Icon name={isModel?'cube':'tile'} size={16}/>{isModel?'3D MODEL':textureLabel(a)+' TEXTURE'}<span class="license-chip">CC BY 4.0</span></div><h1 data-ja={a.title} data-en={a.titleEn}>{a.title}</h1><p class="english-title">{a.titleEn}</p><p class="byline">by <a href="https://github.com/Xenoah">{a.author}</a><span>ORIGINAL / AI-ASSISTED</span></p>
-   <div class="download-card"><div class="download-price"><span data-ja="無料でダウンロード" data-en="Download for free">無料でダウンロード</span><strong>Free<span> / CC BY</span></strong></div><a class="button primary download-primary" href={local(a.downloads.full.url)} download><Icon name="download"/><span data-ja="ZIPをダウンロード" data-en="Download ZIP">ZIPをダウンロード</span><small>{bytes(a.downloads.full.bytes)}</small></a><p class="download-help" data-ja={isModel?'全モデル形式・プレビュー・メタデータ・クレジット付き':'収録画像・プレビュー・メタデータ・クレジット付き'} data-en={isModel?'All model formats, preview, metadata and credits':'Included images, preview, metadata and credits'}>{isModel?'全モデル形式・プレビュー・メタデータ・クレジット付き':'収録画像・プレビュー・メタデータ・クレジット付き'}</p>
-   {isModel&&<><a class="button secondary" href={local(a.downloads.models.url)} download><Icon name="cube" size={18}/><span data-ja="3Dモデルのみ ZIP" data-en="Models only ZIP">3Dモデルのみ ZIP</span><small>{bytes(a.downloads.models.bytes)}</small></a>{a.downloads.direct&&<a class="direct-download" href={local(a.downloads.direct.url)} download><span>{a.downloads.direct.format}<span data-ja=" 単体ダウンロード" data-en=" file only"> 単体ダウンロード</span></span><Icon name="download" size={15}/></a>}</>}
+   <div class="download-card"><div class="download-price"><span data-ja="無料でダウンロード" data-en="Download for free">無料でダウンロード</span><strong>Free<span> / CC BY</span></strong></div>
+   {download?<><a class="button primary download-primary" href={downloadHref(download.url)} download data-download-kind={download.kind}><Icon name="download"/><span data-ja={download.labelJa} data-en={download.labelEn}>{download.labelJa}</span><small>{bytes(download.bytes)}</small></a><p class="download-help" data-ja={download.contentsJa} data-en={download.contentsEn}>{download.contentsJa}</p></>:<p class="download-help" data-ja="ZIPは準備中です。個別ファイルをご利用ください。" data-en="ZIP unavailable. Individual files are available below.">ZIPは準備中です。個別ファイルをご利用ください。</p>}
+   {directFiles.length>0&&<section class="direct-formats" aria-labelledby="direct-formats-heading"><h2 id="direct-formats-heading" data-ja="形式別ファイル" data-en="Individual formats">形式別ファイル</h2>
+    {directFiles.map(file=><a class="direct-download" href={downloadHref(file.url)} download title={file.name}><span>{file.format}<span data-ja=" ファイル" data-en=" file"> ファイル</span>{directFiles.filter(f=>f.format===file.format).length>1&&<small> · {file.name}</small>}</span><small>{bytes(file.bytes)} <Icon name="download" size={15}/></small></a>)}
+    <p class="download-help" data-ja="関連ファイルが必要な形式はZIPをご利用ください。個別ファイルにもクレジット表記が必要です。" data-en="Use the ZIP for formats that need companion files. Individual files still require attribution.">関連ファイルが必要な形式はZIPをご利用ください。個別ファイルにもクレジット表記が必要です。</p>
+   </section>}
    <div class="license-note"><Icon name="check" size={17}/><p data-ja="商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。" data-en="Commercial use, modification and redistribution allowed. Credit the creator, link the license and indicate changes.">商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。</p></div></div>
    <div class="credit-card"><div><h2 data-ja="クレジット表記" data-en="Attribution">クレジット表記</h2><button class="text-button" data-copy={a.attribution}><Icon name="copy" size={15}/><span data-ja="コピー" data-en="Copy">コピー</span></button></div><pre>{a.attribution}</pre><a href={`${base}/license/`} data-ja="ライセンスを確認 →" data-en="Read the license →">ライセンスを確認 →</a></div>
-   <details class="file-list"><summary><span data-ja="ファイルを個別に取得" data-en="Individual files">ファイルを個別に取得</span><small>{a.files.length}</small></summary>{a.files.map(f=><a href={local(f.url)} download><span>{f.name}</span><small>{bytes(f.bytes)} <Icon name="download" size={13}/></small></a>)}</details>
+   <details class="file-list"><summary><span data-ja="ファイルを個別に取得" data-en="Individual files">ファイルを個別に取得</span><small>{a.files.length}</small></summary>{isModel&&<p class="download-help" data-ja="OBJにはMTLと参照画像、glTFには参照バッファ・画像も必要です。まとめて取得する場合はZIPをご利用ください。" data-en="OBJ needs its MTL and referenced images; glTF needs its referenced buffers and images. Use the ZIP to keep these together.">OBJにはMTLと参照画像、glTFには参照バッファ・画像も必要です。まとめて取得する場合はZIPをご利用ください。</p>}{a.files.map(f=><a href={downloadHref(f.url)} download><span>{f.name}</span><small>{bytes(f.bytes)} <Icon name="download" size={13}/></small></a>)}</details>
    <a class="manifest-link" href={local(a.manifestUrl)}><Icon name="code" size={17}/><span>Asset manifest / JSON</span><Icon name="arrow" size={15}/></a>
   </aside></div>
   <section class="related"><div class="section-heading"><h2 data-ja="こちらの素材も" data-en="More to build with">こちらの素材も</h2><a href={`${base}/?type=${a.type}#catalog`} data-ja="すべて見る →" data-en="View all →">すべて見る →</a></div><div class="asset-grid related-grid">{related.map(asset=><AssetCard asset={asset}/>)}</div></section>
@@ -80,6 +87,9 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
 </Layout>
 
 <style>
+.direct-formats { margin-top: 1.25rem; }
+.direct-formats h2 { font-size: .9rem; }
+.direct-formats .direct-download { gap: .75rem; overflow-wrap: anywhere; }
 .asset-usages { margin-block: 2rem; overflow-wrap: anywhere; }
 .asset-usages > ul { padding-left: 1.2rem; }
 .asset-usages li { margin-block: .75rem; }
