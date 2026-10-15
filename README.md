@@ -6,7 +6,7 @@
 
 ![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.3.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.7.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.7.0)。合計155素材（3Dモデル119点とテクスチャ36点）を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.8.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.8.0)。合計167素材（3Dモデル131点とテクスチャ36点）を無料で取得できます。
 
 ## できること
 
