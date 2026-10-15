@@ -1,6 +1,6 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "prerelease": false,
-  "name": "Meshcopia 1.6.0 - Transit and storefront fixtures",
-  "notes": "docs/releases/v1.6.0.md"
+  "name": "Meshcopia 1.7.0 - Building and service structures",
+  "notes": "docs/releases/v1.7.0.md"
 }

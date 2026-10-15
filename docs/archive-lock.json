@@ -128,6 +128,42 @@
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
+      "id": "city-casement-window",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-casement-window/city-casement-window-1.0.0.zip",
+      "bytes": 716039,
+      "sha256": "ab1366ed7bab5179b987ef4a3eef4aefdf1f2e642ef6ba30e3c2e866fbc20fde",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-casement-window",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-casement-window/city-casement-window-1.0.0-models.zip",
+      "bytes": 91152,
+      "sha256": "56e76fe6b6848bdbd66cb18790a71c6088cb888e2f614db57caeeead48b54685",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-curb-corner",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-curb-corner/city-curb-corner-1.0.0.zip",
+      "bytes": 378214,
+      "sha256": "b5352ad3a5b4550db0b554fe833d06edbbba3c74521f37c5da060d6072cb31c9",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-curb-corner",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-curb-corner/city-curb-corner-1.0.0-models.zip",
+      "bytes": 19953,
+      "sha256": "020c130864ceee8f72b4b396a4cd9c14ae90da8c1c5e5a6adce3cfeb086233ac",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
       "id": "city-curb-ramp",
       "version": "1.0.0",
       "kind": "full",
@@ -218,6 +254,24 @@
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
+      "id": "city-exterior-clock",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-exterior-clock/city-exterior-clock-1.0.0.zip",
+      "bytes": 683069,
+      "sha256": "e7ff94f60a9583125f11e09009122737852dfeb836e3a5cc2c069878d7cb668e",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-exterior-clock",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-exterior-clock/city-exterior-clock-1.0.0-models.zip",
+      "bytes": 160059,
+      "sha256": "c24c16c7da947913526e652fb538400ef637e0e08d8760cda565a9e19f0f4802",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
       "id": "city-fire-hose-cabinet",
       "version": "1.0.0",
       "kind": "full",
@@ -252,6 +306,24 @@
       "bytes": 2682901,
       "sha256": "3e5f788e70285e6485139377ca2d17d4caa3ce60a544cf88ef4f48c6f81f6365",
       "profile": "store-v1"
+    },
+    {
+      "id": "city-glazed-entry-door",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-glazed-entry-door/city-glazed-entry-door-1.0.0.zip",
+      "bytes": 595596,
+      "sha256": "337580c13f3fdbaa3ccaade1c80a838c9eea6316799605a313d3cee40739e89f",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-glazed-entry-door",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-glazed-entry-door/city-glazed-entry-door-1.0.0-models.zip",
+      "bytes": 119028,
+      "sha256": "3cde19e535803459fc906bdda65ae782657f54498ce308d74251eec616de3dfa",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
       "id": "city-hvac-condenser",
@@ -308,6 +380,24 @@
       "profile": "store-v1"
     },
     {
+      "id": "city-maintenance-ladder",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-maintenance-ladder/city-maintenance-ladder-1.0.0.zip",
+      "bytes": 511312,
+      "sha256": "92f1661b9889b82fc79f742c254b670050b6545bdb88262b86a9cb47a7ee0292",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-maintenance-ladder",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-maintenance-ladder/city-maintenance-ladder-1.0.0-models.zip",
+      "bytes": 108406,
+      "sha256": "eb38a46152ea2946d362c02f6b3ba3ddca4c0587c26f8424162d5ccae5e9af63",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
       "id": "city-parcel-locker",
       "version": "1.0.0",
       "kind": "full",
@@ -360,6 +450,24 @@
       "bytes": 320825,
       "sha256": "d5b9d8ec4a4536bc26ba57bc7d6c970f2b7b184ca810e9e77ea7ca1a15338821",
       "profile": "store-v1"
+    },
+    {
+      "id": "city-portable-toilet",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-portable-toilet/city-portable-toilet-1.0.0.zip",
+      "bytes": 823944,
+      "sha256": "34a12b75fd1a7ae61d38b13480fddc248e11277cbde2202b6dd81d402159f896",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-portable-toilet",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-portable-toilet/city-portable-toilet-1.0.0-models.zip",
+      "bytes": 283213,
+      "sha256": "3660744792ffaf8f0276b9e3efd589795ed2e55c9593ffeb79669e9fce36ef0b",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
       "id": "city-postal-box",
@@ -452,6 +560,24 @@
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
+      "id": "city-roof-access-hatch",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-roof-access-hatch/city-roof-access-hatch-1.0.0.zip",
+      "bytes": 611499,
+      "sha256": "a94b691b1f03f813b79e75ff5e4ade31452baebf348a165b083c89363fa8ff13",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-roof-access-hatch",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-roof-access-hatch/city-roof-access-hatch-1.0.0-models.zip",
+      "bytes": 88984,
+      "sha256": "7fd036f95a94710f19693bcb6fa8a5bf87bf1b1dc71fc64d4bea8d2e3fc15730",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
       "id": "city-roof-exhaust-cowl",
       "version": "1.0.0",
       "kind": "full",
@@ -470,6 +596,24 @@
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
+      "id": "city-scaffold-bay",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-scaffold-bay/city-scaffold-bay-1.0.0.zip",
+      "bytes": 1184157,
+      "sha256": "6efc3b9c59faf286a3585755736a0a21467b26ba3f36d47ab779e78dd7253409",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-scaffold-bay",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-scaffold-bay/city-scaffold-bay-1.0.0-models.zip",
+      "bytes": 674847,
+      "sha256": "e2a609e20d9fa1bb1c6df30e8fd01df4c8681f44430a249ef607c255bff632a2",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
       "id": "city-security-camera",
       "version": "1.0.0",
       "kind": "full",
@@ -485,6 +629,24 @@
       "url": "https://xenoah.github.io/meshcopia/assets/city-security-camera/city-security-camera-1.0.0-models.zip",
       "bytes": 152092,
       "sha256": "2a5f7f43223ecdcb7a6d0ff68f75051e01b52ca66d5e551bb4c2bc558e8483dc",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-solar-module-rack",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-solar-module-rack/city-solar-module-rack-1.0.0.zip",
+      "bytes": 842705,
+      "sha256": "b79298abf6722f8b2e39b0cbc5a46154c67e24d66b6ba461e6bfc17cb7fd171e",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-solar-module-rack",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-solar-module-rack/city-solar-module-rack-1.0.0-models.zip",
+      "bytes": 283243,
+      "sha256": "d5491bb52b4cc2a6059b8292128e067ae85386466871afe01ccab8e51ddf5eee",
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
@@ -614,6 +776,24 @@
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
+      "id": "city-tree-grate",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tree-grate/city-tree-grate-1.0.0.zip",
+      "bytes": 502921,
+      "sha256": "375874a6c74b5d52814dbe4e6e106c8b16e7e0856d383353bb8eba940b6cb50a",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tree-grate",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tree-grate/city-tree-grate-1.0.0-models.zip",
+      "bytes": 56987,
+      "sha256": "7d2b45564297cb05eed68e7179f178915a767245e980bc95d7610eba45fd4fcc",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
       "id": "city-tree-guard",
       "version": "1.0.0",
       "kind": "full",
@@ -629,6 +809,24 @@
       "url": "https://xenoah.github.io/meshcopia/assets/city-tree-guard/city-tree-guard-1.0.0-models.zip",
       "bytes": 53611,
       "sha256": "4591214109d6f48ed077de1a9deec7e4c2e1f2eee2b550c27a898cda44a43191",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tripod-turnstile",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tripod-turnstile/city-tripod-turnstile-1.0.0.zip",
+      "bytes": 622991,
+      "sha256": "902346107d34904715578e9e0c271238c543283f894456fe346bf11f94268035",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-tripod-turnstile",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-tripod-turnstile/city-tripod-turnstile-1.0.0-models.zip",
+      "bytes": 93304,
+      "sha256": "6329dc6d39dcafe4b7d4a5ee79988c11ac5b7a3b5e711a8d78443ce0d7f969ff",
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
@@ -665,6 +863,24 @@
       "url": "https://xenoah.github.io/meshcopia/assets/city-ventilation-outlet/city-ventilation-outlet-1.0.0-models.zip",
       "bytes": 270935,
       "sha256": "782ce458f0234aa899a778bb6e2098590fa93bbae41be24cf4c6df88f4e8fcdb",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-wall-intercom",
+      "version": "1.0.0",
+      "kind": "full",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-wall-intercom/city-wall-intercom-1.0.0.zip",
+      "bytes": 645363,
+      "sha256": "2f3c158e87a817eb9e48667aa21fdd87ae8b7863ebc8d6a2f3f7dcb67be01d12",
+      "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
+    },
+    {
+      "id": "city-wall-intercom",
+      "version": "1.0.0",
+      "kind": "models",
+      "url": "https://xenoah.github.io/meshcopia/assets/city-wall-intercom/city-wall-intercom-1.0.0-models.zip",
+      "bytes": 139056,
+      "sha256": "ecd618bd85a92e6fcd58101d75125950eb9d67b32ec5e71ef0c77383014f5d22",
       "profile": "node-22.23.3-linux-x64-zlib-1.3.1-e00f703-deflate6-v1"
     },
     {
