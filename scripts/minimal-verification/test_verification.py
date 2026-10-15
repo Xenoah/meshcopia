@@ -20,6 +20,19 @@ class VerificationTests(unittest.TestCase):
         raw = c.canonical(self.source); self.expected['sourceInventorySha256'] = c.sha(raw)
         return c.check_manifests(self.source, self.expected, raw)
 
+    def test_exact_repair_parent_and_paths(self):
+        delta = ''.join('M\0' + p + '\0' for p in sorted(v.REPAIR_PATHS)).encode()
+        with patch.object(v, 'git', side_effect=[v.REPAIR_PARENT.encode(), c.BASE.encode(), delta]):
+            v.check_lineage(Path('.'), '7' * 40)
+    def test_repair_cannot_change_expectations(self):
+        paths = (v.REPAIR_PATHS - {'docs/minimal-verification/README.md'}) | {'docs/minimal-verification/expected173.json'}
+        delta = ''.join('M\0' + p + '\0' for p in sorted(paths)).encode()
+        with patch.object(v, 'git', side_effect=[v.REPAIR_PARENT.encode(), c.BASE.encode(), delta]):
+            with self.assertRaisesRegex(ValueError, 'exact reviewed paths'): v.check_lineage(Path('.'), '7' * 40)
+    def test_repair_parent_must_itself_follow_baseline(self):
+        with patch.object(v, 'git', side_effect=[v.REPAIR_PARENT.encode(), b'8' * 40]):
+            with self.assertRaisesRegex(ValueError, 'lineage'): v.check_lineage(Path('.'), '7' * 40)
+
     def test_valid_exact_173_contract(self): self.assertEqual(len(self.check()), 173)
     def test_pending_never_verifies(self):
         self.expected['reviewStatus'] = 'pending-review'

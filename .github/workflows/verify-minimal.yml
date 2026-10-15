@@ -28,7 +28,7 @@ jobs:
             -e GITHUB_REPOSITORY -e GITHUB_REF -e GITHUB_EVENT_NAME -e GITHUB_SHA -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
             -v "$GITHUB_WORKSPACE:/src:ro" -v "$RUNNER_TEMP/minimal-runtime-output:/result" -w /src \
             debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
-            sh -c 'sh scripts/minimal-verification/setup-runtime.sh && /usr/bin/python3.13 -m unittest discover -s tests -p "test_minimal_packages.py" -v && /usr/bin/python3.13 -m unittest discover -s scripts/minimal-verification -p "test_*.py" -v && /usr/bin/python3.13 scripts/minimal-verification/verify.py --repo /src --output /result/verified'
+            sh -c 'sh scripts/minimal-verification/setup-runtime.sh && /usr/bin/python3.13 -m unittest discover -s tests -p "test_minimal_packages.py" -v && /usr/bin/python3.13 -m unittest discover -s scripts/minimal-verification -p "test_*.py" -v && /usr/bin/python3.13 scripts/minimal-verification/verify.py --repo /src --output /result/verified && chmod 644 /result/verified/artifact/*.zip'
       - name: Store exact public payload review artifact; never publish
         id: upload
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

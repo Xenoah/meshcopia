@@ -10,13 +10,28 @@ import minimal_packages as packages
 import minimal_notices as notices
 
 
+REPAIR_PARENT = 'edab3c5dad80dc327dc34c398693a3fbff71219c'
+REPAIR_PATHS = {'.github/workflows/verify-minimal.yml', 'scripts/minimal-verification/verify.py',
+                'scripts/minimal-verification/test_verification.py', 'docs/minimal-verification/README.md'}
+
+
+def check_lineage(repo, f):
+    parent = git(repo, 'show', '-s', '--format=%P', f).decode().strip()
+    need(parent in (BASE, REPAIR_PARENT), 'Verification must directly follow baseline or exact reviewed repair parent')
+    if parent == REPAIR_PARENT:
+        need(git(repo, 'show', '-s', '--format=%P', parent).decode().strip() == BASE, 'Repair parent lineage differs')
+        delta = git(repo, 'diff-tree', '--no-commit-id', '--name-status', '-r', '-z', parent, f).decode().split('\0')[:-1]
+        need(len(delta) == 2 * len(REPAIR_PATHS) and all(s == 'M' for s in delta[::2]) and set(delta[1::2]) == REPAIR_PATHS,
+             'Repair changes exceed exact reviewed paths')
+
+
 def preflight(repo, source, expected, docs, f):
     commit(f)
     need(git(repo, 'rev-parse', 'HEAD').decode().strip() == f, 'Checkout is not verification commit')
     need(git(repo, 'rev-parse', '--is-shallow-repository').strip() == b'false', 'Shallow checkout prohibited')
     need(git(repo, 'status', '--porcelain', '--untracked-files=no') == b'', 'Dirty tracked checkout')
-    # Exactly one independent, additive verification commit. Repairs need new review.
-    need(git(repo, 'show', '-s', '--format=%P', f).decode().strip() == BASE, 'Verification must directly follow baseline')
+    # The sole reviewed repair preserves the cumulative additive baseline boundary.
+    check_lineage(repo, f)
     allowed = read(docs / 'allowed-f-paths.json')
     fixed = {'.github/workflows/verify-minimal.yml', 'scripts/minimal_packages.py', 'scripts/minimal_notices.py', 'tests/test_minimal_packages.py'} | {'scripts/minimal-verification/' + name for name in ('common.py', 'verify.py', 'prepare_manifests.py', 'setup-runtime.sh', 'test_verification.py')} | {'docs/minimal-verification/' + name for name in ('README.md', 'runtime.json', 'source173.json', 'expected173.json', 'allowed-f-paths.json')}
     need(isinstance(allowed, list) and len(allowed) == len(set(allowed)) and set(allowed) == fixed, 'Invalid/excessive verification path allowlist')
