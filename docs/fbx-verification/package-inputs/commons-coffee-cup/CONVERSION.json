@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-coffee-cup",
+  "sourceGlbSha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22",
+  "fbxSha256": "125313a106dc02ed6ae1908ee7a92bdd0a37227d5bbba4b98412d4ccc0360c6e",
+  "fbxBytes": 26732,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 1.4901161193847656e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 2.2351741790771484e-08,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.0009861281499842002,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "FURN_Coffee.039",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "FURN_CoffeeCup.039",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "FURN_Saucer.039",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "MAT_BottleAmber_Meshcopia",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "MAT_BottleAmber_Meshcopia",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.25,
+              0.07699999958276749,
+              0.02199999988079071,
+              1
+            ],
+            "metallicFactor": 0.11999999731779099,
+            "roughnessFactor": 0.25999999046325684
+          }
+        }
+      },
+      {
+        "name": "MAT_Ceramic_Meshcopia",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "MAT_Ceramic_Meshcopia",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6299999952316284,
+              0.5899999737739563,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.699999988079071
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

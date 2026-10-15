@@ -1,0 +1,7 @@
+菓子店のペデスタルスツールセット / Confectioner Pedestal Stool Set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d

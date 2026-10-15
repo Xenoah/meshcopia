@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "id": "city-playground-slide",
+  "sourceGlbSha256": "0e264f4f4908c4d8a0eca1441ad46529da70c9f17ec5a15e6204874decad3d56",
+  "fbxSha256": "2f73132a526695c9e24b96936d82a507487323206dc800bfdde176f4e4152455",
+  "fbxBytes": 355788,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 1.30336559323041e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 3.5762786865234375e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.019355967426028797,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Chute exit support",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Continuous curved chute and raised sides",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ground fastener",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ground fastener.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ground fastener.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ground fastener.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder anchoring foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder anchoring foot.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder climbing rung",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder climbing rung.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder climbing rung.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder climbing rung.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder climbing rung.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder climbing rung.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder entry handhold",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Ladder entry handhold.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mid-chute ground support",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mid-chute ground support.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mid-support foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mid-support foot.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform guard picket",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform guard picket.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform guard picket.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform guard picket.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform lower brace",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform lower brace.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform structural upright",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform structural upright.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform structural upright.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Platform structural upright.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear ladder stile",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear ladder stile.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side handrail",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side handrail.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side mid rail",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side mid rail.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support foot.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support foot.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support foot.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Under-chute cross support",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Upper platform deck",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Molded slide chute",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Molded slide chute",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.800000011920929,
+              0.20000000298023224,
+              0.03500000014901161,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.4399999976158142
+          }
+        }
+      },
+      {
+        "name": "Graphite powder coat",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Graphite powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03799999877810478,
+              0.05299999937415123,
+              0.061000000685453415,
+              1
+            ],
+            "metallicFactor": 0.550000011920929,
+            "roughnessFactor": 0.33000001311302185
+          }
+        }
+      },
+      {
+        "name": "Slide frame blue coating",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Slide frame blue coating",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.15000000596046448,
+              0.2199999988079071,
+              1
+            ],
+            "metallicFactor": 0.3499999940395355,
+            "roughnessFactor": 0.4699999988079071
+          }
+        }
+      },
+      {
+        "name": "Satin stainless steel",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Satin stainless steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.47999998927116394,
+              0.5400000214576721,
+              0.5699999928474426,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

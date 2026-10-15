@@ -1,0 +1,7 @@
+街路自動販売機 / Street vending machine
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b

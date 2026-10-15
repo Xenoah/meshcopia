@@ -1,0 +1,25 @@
+{
+  "id": "commons-equipment-rack",
+  "title": "コモンズ・機材ラック",
+  "titleEn": "Commons equipment rack",
+  "description": "9段の操作パネルとシアンの表示灯を備えた架空のAV機材ラック。元の生成パネル画像を同梱。",
+  "descriptionEn": "A fictional AV rack with nine printed units and cyan indicators. Original panel artwork is embedded; decorative only.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.72,
+    2.1,
+    0.685
+  ],
+  "triangles": 552,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "67e262e4a7b7cfdb1a4f6f81c66976b09323f3425f76e67261d1fe0d214c1f7a",
+  "fbxSha256": "c710c77c5f129a965b82aa601bef48f2e61dfcb6d59bd0ba029a6d5a607f698a",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

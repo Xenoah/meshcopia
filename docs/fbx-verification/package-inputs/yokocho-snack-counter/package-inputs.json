@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-snack-counter",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "12d4fa872438d1b974421c09575e97906251a5b790347e8823b1f822b0c3fecd",
+  "archiveSha256": "a6ae33f9572c52038257b27b22618040dd0764eb05574ce19d481742a68e97f6",
+  "originalGlbSha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 401,
+      "sha256": "5f0a3cc514f4dee2f1968ebc3562c34d6702f96fabdf9181882ad5b6ed187aaa"
+    },
+    "CONVERSION.json": {
+      "bytes": 12744,
+      "sha256": "6741cfd2a841b727758747f008304d7d85eb810cd1dd86433f358896d9f72e6d"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "390505e6d96aa557cc76fb5a259054beb0812b0be62993ca3b0983553e82c5de"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1837,
+      "sha256": "58dd1c05d67c9ad44998a2f24e3700eb71be244525f0625f9eae1536bf991255"
+    },
+    "asset.json": {
+      "bytes": 2040,
+      "sha256": "15dae7b2c65e7b992c6f9901171b0b8975190acc4f7e6f2a8cbc08002ff73a5f"
+    }
+  }
+}

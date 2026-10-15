@@ -1,0 +1,3652 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "modelCount": 137,
+  "textureCount": 36,
+  "protectedArchiveCount": 310,
+  "protectedArchiveLockSha256": "6cb342e1b615a081f8541f6081e598aa0fb493d29d8bf0a509ec8abaad7cbd8c",
+  "models": [
+    {
+      "id": "atelier-lamp",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/atelier-lamp/source/atelier-lamp.glb",
+      "sourceSha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc",
+      "assetMetadata": "content/assets/atelier-lamp/asset.json",
+      "metadataSha256": "c5a677047b4c3d4fb1ef81ea60124f2476ae0d3ce02ee72cf4649e0156435d03",
+      "files": [
+        {
+          "path": "content/assets/atelier-lamp/source/atelier-lamp.glb",
+          "sha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc",
+          "bytes": 77372
+        },
+        {
+          "path": "content/assets/atelier-lamp/source/atelier-lamp.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/atelier-lamp/source/atelier-lamp.obj",
+          "sha256": "d76a60516fa198973655c9c8938256561e57bc5785572979e157707b3ef4fc96",
+          "bytes": 30328
+        },
+        {
+          "path": "content/assets/atelier-lamp/source/atelier-lamp.stl",
+          "sha256": "a8005684aee6c036b4556ef51863ff431bcba0357f7e0f44b4760fdfdd39f36a",
+          "bytes": 38484
+        },
+        {
+          "path": "content/assets/atelier-lamp/asset.json",
+          "sha256": "c5a677047b4c3d4fb1ef81ea60124f2476ae0d3ce02ee72cf4649e0156435d03",
+          "bytes": 1478
+        }
+      ]
+    },
+    {
+      "id": "city-aed-cabinet",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-aed-cabinet/source/city-aed-cabinet.glb",
+      "sourceSha256": "ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79",
+      "assetMetadata": "content/assets/city-aed-cabinet/asset.json",
+      "metadataSha256": "03d76b60b855ba4f6aec8ee39a25274b6563424783d4b85376aad574fd57cb1e",
+      "files": [
+        {
+          "path": "content/assets/city-aed-cabinet/source/city-aed-cabinet.glb",
+          "sha256": "ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79",
+          "bytes": 135196
+        },
+        {
+          "path": "content/assets/city-aed-cabinet/source/city-aed-cabinet.stl",
+          "sha256": "73b56ac1df37a40439f1348d5be472f3214769a77eb82dfcb9345faedb6313a4",
+          "bytes": 172484
+        },
+        {
+          "path": "content/assets/city-aed-cabinet/asset.json",
+          "sha256": "03d76b60b855ba4f6aec8ee39a25274b6563424783d4b85376aad574fd57cb1e",
+          "bytes": 2538
+        }
+      ]
+    },
+    {
+      "id": "city-bicycle-repair-stand",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-bicycle-repair-stand/source/city-bicycle-repair-stand.glb",
+      "sourceSha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71",
+      "assetMetadata": "content/assets/city-bicycle-repair-stand/asset.json",
+      "metadataSha256": "50f22149fddcb54ee22c0857fdf0c41c57acf8091befe8ad540d4c5a4c230643",
+      "files": [
+        {
+          "path": "content/assets/city-bicycle-repair-stand/source/city-bicycle-repair-stand.glb",
+          "sha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71",
+          "bytes": 213392
+        },
+        {
+          "path": "content/assets/city-bicycle-repair-stand/source/city-bicycle-repair-stand.stl",
+          "sha256": "0387acbcc1c7a16fce164e85e93dd88c19cf48ac0a44b6f676d2c14ce4f3606b",
+          "bytes": 284284
+        },
+        {
+          "path": "content/assets/city-bicycle-repair-stand/asset.json",
+          "sha256": "50f22149fddcb54ee22c0857fdf0c41c57acf8091befe8ad540d4c5a4c230643",
+          "bytes": 2439
+        }
+      ]
+    },
+    {
+      "id": "city-bollard",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-bollard/source/city-bollard.glb",
+      "sourceSha256": "333fae75f6d6eac1b305ff7d19d3962edc71224cd408fb439b58ffad1ccd9dc5",
+      "assetMetadata": "content/assets/city-bollard/asset.json",
+      "metadataSha256": "2e27ba104837d1a5aa4abb93d4e70c27ffec2daec250a76befb6f6a1f76c33e3",
+      "files": [
+        {
+          "path": "content/assets/city-bollard/source/city-bollard.glb",
+          "sha256": "333fae75f6d6eac1b305ff7d19d3962edc71224cd408fb439b58ffad1ccd9dc5",
+          "bytes": 167892
+        },
+        {
+          "path": "content/assets/city-bollard/source/city-bollard.stl",
+          "sha256": "828967cf2f7570abcc0e056cb1186c6f53ed688868fc9e231ab90f183472743c",
+          "bytes": 241484
+        },
+        {
+          "path": "content/assets/city-bollard/asset.json",
+          "sha256": "2e27ba104837d1a5aa4abb93d4e70c27ffec2daec250a76befb6f6a1f76c33e3",
+          "bytes": 2238
+        }
+      ]
+    },
+    {
+      "id": "city-bus-shelter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-bus-shelter/source/city-bus-shelter.glb",
+      "sourceSha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb",
+      "assetMetadata": "content/assets/city-bus-shelter/asset.json",
+      "metadataSha256": "4c5b21da91bdc2cf14fc364d64125bc36147449688280e7f7d6794c976e08932",
+      "files": [
+        {
+          "path": "content/assets/city-bus-shelter/source/city-bus-shelter.glb",
+          "sha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb",
+          "bytes": 747896
+        },
+        {
+          "path": "content/assets/city-bus-shelter/source/city-bus-shelter.stl",
+          "sha256": "683f043366f37c2e86873b9f444c910651066fb41d18d3cc50736a11f7a32423",
+          "bytes": 1329884
+        },
+        {
+          "path": "content/assets/city-bus-shelter/asset.json",
+          "sha256": "4c5b21da91bdc2cf14fc364d64125bc36147449688280e7f7d6794c976e08932",
+          "bytes": 2389
+        }
+      ]
+    },
+    {
+      "id": "city-cable-protector",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-cable-protector/source/city-cable-protector.glb",
+      "sourceSha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406",
+      "assetMetadata": "content/assets/city-cable-protector/asset.json",
+      "metadataSha256": "c0654eb43c8d0bf1ce383977dd148637aab0f62ca7d84aa1517c34831488dc6d",
+      "files": [
+        {
+          "path": "content/assets/city-cable-protector/source/city-cable-protector.glb",
+          "sha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406",
+          "bytes": 120528
+        },
+        {
+          "path": "content/assets/city-cable-protector/source/city-cable-protector.stl",
+          "sha256": "a536841457f4b279fc0eb6da81a44e51b2bb970cd718699dd0290f64bcce5640",
+          "bytes": 134884
+        },
+        {
+          "path": "content/assets/city-cable-protector/asset.json",
+          "sha256": "c0654eb43c8d0bf1ce383977dd148637aab0f62ca7d84aa1517c34831488dc6d",
+          "bytes": 2404
+        }
+      ]
+    },
+    {
+      "id": "city-cable-tray-elbow",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-cable-tray-elbow/source/city-cable-tray-elbow.glb",
+      "sourceSha256": "5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e",
+      "assetMetadata": "content/assets/city-cable-tray-elbow/asset.json",
+      "metadataSha256": "d344b0a6a8fe9d7c5dab5ef67e4cf90f8d9618ed4a4b4e4d65885a2c57a42e9f",
+      "files": [
+        {
+          "path": "content/assets/city-cable-tray-elbow/source/city-cable-tray-elbow.glb",
+          "sha256": "5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e",
+          "bytes": 212116
+        },
+        {
+          "path": "content/assets/city-cable-tray-elbow/source/city-cable-tray-elbow.stl",
+          "sha256": "25485b0dbaa8942cebabca5a8c49ad92f6a3a77d1d6feec6ae1ff3a6b9689b26",
+          "bytes": 175884
+        },
+        {
+          "path": "content/assets/city-cable-tray-elbow/asset.json",
+          "sha256": "d344b0a6a8fe9d7c5dab5ef67e4cf90f8d9618ed4a4b4e4d65885a2c57a42e9f",
+          "bytes": 3545
+        }
+      ]
+    },
+    {
+      "id": "city-casement-window",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-casement-window/source/city-casement-window.glb",
+      "sourceSha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e",
+      "assetMetadata": "content/assets/city-casement-window/asset.json",
+      "metadataSha256": "927ef76229e159546d4bd8990e4e8bebe3f33eb4ab2260a0d3103e301555f7bb",
+      "files": [
+        {
+          "path": "content/assets/city-casement-window/source/city-casement-window.glb",
+          "sha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e",
+          "bytes": 262272
+        },
+        {
+          "path": "content/assets/city-casement-window/source/city-casement-window.stl",
+          "sha256": "119b3e8af591589af1835d162508e5131e78e3796d59775d147f9c3eaffb3313",
+          "bytes": 242484
+        },
+        {
+          "path": "content/assets/city-casement-window/asset.json",
+          "sha256": "927ef76229e159546d4bd8990e4e8bebe3f33eb4ab2260a0d3103e301555f7bb",
+          "bytes": 2628
+        }
+      ]
+    },
+    {
+      "id": "city-commuter-bicycle",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-commuter-bicycle/source/city-commuter-bicycle.glb",
+      "sourceSha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+      "assetMetadata": "content/assets/city-commuter-bicycle/asset.json",
+      "metadataSha256": "f90e47bf8e2de0a45aa6c3559d7b421067bcc433dc41831bd7c17d304a786fe1",
+      "files": [
+        {
+          "path": "content/assets/city-commuter-bicycle/source/city-commuter-bicycle.glb",
+          "sha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+          "bytes": 2463908
+        },
+        {
+          "path": "content/assets/city-commuter-bicycle/source/city-commuter-bicycle.stl",
+          "sha256": "aeea7938637fb25af5f43f4b90d4781a91d5471b60f51cfe5d1e7e3f9733dd04",
+          "bytes": 3909484
+        },
+        {
+          "path": "content/assets/city-commuter-bicycle/asset.json",
+          "sha256": "f90e47bf8e2de0a45aa6c3559d7b421067bcc433dc41831bd7c17d304a786fe1",
+          "bytes": 3956
+        }
+      ]
+    },
+    {
+      "id": "city-concrete-mixer",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-concrete-mixer/source/city-concrete-mixer.glb",
+      "sourceSha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2",
+      "assetMetadata": "content/assets/city-concrete-mixer/asset.json",
+      "metadataSha256": "349e2268c681877da4a7d24b07048e804eb74bd84fb91753222b0548ad47de2a",
+      "files": [
+        {
+          "path": "content/assets/city-concrete-mixer/source/city-concrete-mixer.glb",
+          "sha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2",
+          "bytes": 883336
+        },
+        {
+          "path": "content/assets/city-concrete-mixer/source/city-concrete-mixer.stl",
+          "sha256": "82eb252901938420d3b20f4c8245421c96113fe6ae6b36dcfb38f3892d72dc46",
+          "bytes": 1515884
+        },
+        {
+          "path": "content/assets/city-concrete-mixer/asset.json",
+          "sha256": "349e2268c681877da4a7d24b07048e804eb74bd84fb91753222b0548ad47de2a",
+          "bytes": 2425
+        }
+      ]
+    },
+    {
+      "id": "city-construction-wheelbarrow",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-construction-wheelbarrow/source/city-construction-wheelbarrow.glb",
+      "sourceSha256": "45c1cc1137cea956e8b2012c7dbb5f5cb01934f53de5d4a56a0cb813d06d61bb",
+      "assetMetadata": "content/assets/city-construction-wheelbarrow/asset.json",
+      "metadataSha256": "2edc9d66278cd9b6de70780a900cca2c766626ceef4e5d7d7ad7eb48747ecf77",
+      "files": [
+        {
+          "path": "content/assets/city-construction-wheelbarrow/source/city-construction-wheelbarrow.glb",
+          "sha256": "45c1cc1137cea956e8b2012c7dbb5f5cb01934f53de5d4a56a0cb813d06d61bb",
+          "bytes": 490960
+        },
+        {
+          "path": "content/assets/city-construction-wheelbarrow/source/city-construction-wheelbarrow.stl",
+          "sha256": "ee296de2b810bd332cea307c77cfc3220913b12922d921a07864248b04deac99",
+          "bytes": 711484
+        },
+        {
+          "path": "content/assets/city-construction-wheelbarrow/asset.json",
+          "sha256": "2edc9d66278cd9b6de70780a900cca2c766626ceef4e5d7d7ad7eb48747ecf77",
+          "bytes": 2562
+        }
+      ]
+    },
+    {
+      "id": "city-convex-mirror",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-convex-mirror/source/city-convex-mirror.glb",
+      "sourceSha256": "c6cdaed8bc1f62a3a92eb20df4ea907fe4cf5e3650185c1c010c66ae6d4812af",
+      "assetMetadata": "content/assets/city-convex-mirror/asset.json",
+      "metadataSha256": "b08d99e9e5f8cbb25e45c37c6e3ef0dfb1514bdafd3aeb3f4efee08313eac8a4",
+      "files": [
+        {
+          "path": "content/assets/city-convex-mirror/source/city-convex-mirror.glb",
+          "sha256": "c6cdaed8bc1f62a3a92eb20df4ea907fe4cf5e3650185c1c010c66ae6d4812af",
+          "bytes": 562044
+        },
+        {
+          "path": "content/assets/city-convex-mirror/source/city-convex-mirror.stl",
+          "sha256": "a99119ef07aec212dc7f4ee4e65c7a80f31cd2195685f0da1b30130cd01e008e",
+          "bytes": 1013684
+        },
+        {
+          "path": "content/assets/city-convex-mirror/asset.json",
+          "sha256": "b08d99e9e5f8cbb25e45c37c6e3ef0dfb1514bdafd3aeb3f4efee08313eac8a4",
+          "bytes": 2407
+        }
+      ]
+    },
+    {
+      "id": "city-crossing-pushbutton",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-crossing-pushbutton/source/city-crossing-pushbutton.glb",
+      "sourceSha256": "9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f",
+      "assetMetadata": "content/assets/city-crossing-pushbutton/asset.json",
+      "metadataSha256": "2e5872f4daacd7287eb4c748b32e333c4e3c4f556a833889d9aefc16498b1036",
+      "files": [
+        {
+          "path": "content/assets/city-crossing-pushbutton/source/city-crossing-pushbutton.glb",
+          "sha256": "9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f",
+          "bytes": 855536
+        },
+        {
+          "path": "content/assets/city-crossing-pushbutton/source/city-crossing-pushbutton.stl",
+          "sha256": "73af6e64f5c8b828447c4f5599cb24aebac8365a266707ea2cee857628a1d603",
+          "bytes": 761884
+        },
+        {
+          "path": "content/assets/city-crossing-pushbutton/asset.json",
+          "sha256": "2e5872f4daacd7287eb4c748b32e333c4e3c4f556a833889d9aefc16498b1036",
+          "bytes": 3738
+        }
+      ]
+    },
+    {
+      "id": "city-curb-corner",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-curb-corner/source/city-curb-corner.glb",
+      "sourceSha256": "61a7ff739811d7f340bb69c861f9a3e19fa18b69d58fcfcc4b8e3daf35ee8327",
+      "assetMetadata": "content/assets/city-curb-corner/asset.json",
+      "metadataSha256": "b6d482345f5d71f8c6d163bb5a8a619f5db39e61a9c740ab9d037c9827c502c6",
+      "files": [
+        {
+          "path": "content/assets/city-curb-corner/source/city-curb-corner.glb",
+          "sha256": "61a7ff739811d7f340bb69c861f9a3e19fa18b69d58fcfcc4b8e3daf35ee8327",
+          "bytes": 29264
+        },
+        {
+          "path": "content/assets/city-curb-corner/source/city-curb-corner.stl",
+          "sha256": "43c0c5bf225e10f59935b45a4a83f28fcdb9ff503c197db472fa7674c4ff2e00",
+          "bytes": 31884
+        },
+        {
+          "path": "content/assets/city-curb-corner/asset.json",
+          "sha256": "b6d482345f5d71f8c6d163bb5a8a619f5db39e61a9c740ab9d037c9827c502c6",
+          "bytes": 2320
+        }
+      ]
+    },
+    {
+      "id": "city-curb-ramp",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-curb-ramp/source/city-curb-ramp.glb",
+      "sourceSha256": "8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b",
+      "assetMetadata": "content/assets/city-curb-ramp/asset.json",
+      "metadataSha256": "7ef6dc542c17f8401540d876ccd1c7a611b4bcd6de64f9fdcb692b809b0d046c",
+      "files": [
+        {
+          "path": "content/assets/city-curb-ramp/source/city-curb-ramp.glb",
+          "sha256": "8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b",
+          "bytes": 51768
+        },
+        {
+          "path": "content/assets/city-curb-ramp/source/city-curb-ramp.stl",
+          "sha256": "69ef49409a5cee7e563d9643c1af3c3767d54fd566260a8c8ad5e48c9fcb4be0",
+          "bytes": 51684
+        },
+        {
+          "path": "content/assets/city-curb-ramp/asset.json",
+          "sha256": "7ef6dc542c17f8401540d876ccd1c7a611b4bcd6de64f9fdcb692b809b0d046c",
+          "bytes": 2285
+        }
+      ]
+    },
+    {
+      "id": "city-cycle-rack",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-cycle-rack/source/city-cycle-rack.glb",
+      "sourceSha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+      "assetMetadata": "content/assets/city-cycle-rack/asset.json",
+      "metadataSha256": "5fc314638bd9fee4d3cc1e25ab2767801d9c9a4b81e473825c44fa4206a77432",
+      "files": [
+        {
+          "path": "content/assets/city-cycle-rack/source/city-cycle-rack.glb",
+          "sha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+          "bytes": 116344
+        },
+        {
+          "path": "content/assets/city-cycle-rack/source/city-cycle-rack.stl",
+          "sha256": "5fac7965b0fd3734a973397ad1710f5382f76582e596bf0710bcffb83615aca8",
+          "bytes": 175884
+        },
+        {
+          "path": "content/assets/city-cycle-rack/asset.json",
+          "sha256": "5fc314638bd9fee4d3cc1e25ab2767801d9c9a4b81e473825c44fa4206a77432",
+          "bytes": 2323
+        }
+      ]
+    },
+    {
+      "id": "city-downspout",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-downspout/source/city-downspout.glb",
+      "sourceSha256": "ea6a62bc2f926e90bcf9c26cb23a072d3e030f8ed65fcaa51a7f3de9ad21c8bf",
+      "assetMetadata": "content/assets/city-downspout/asset.json",
+      "metadataSha256": "2fe0c715f0284677aeb7b75bcdc36f3275074f21e23e828ca7c93470f1753f15",
+      "files": [
+        {
+          "path": "content/assets/city-downspout/source/city-downspout.glb",
+          "sha256": "ea6a62bc2f926e90bcf9c26cb23a072d3e030f8ed65fcaa51a7f3de9ad21c8bf",
+          "bytes": 831252
+        },
+        {
+          "path": "content/assets/city-downspout/source/city-downspout.stl",
+          "sha256": "56cf192bd47b3d7249aadb2c9785d285289975a9d216e344fb016666dd477304",
+          "bytes": 745084
+        },
+        {
+          "path": "content/assets/city-downspout/asset.json",
+          "sha256": "2fe0c715f0284677aeb7b75bcdc36f3275074f21e23e828ca7c93470f1753f15",
+          "bytes": 2423
+        }
+      ]
+    },
+    {
+      "id": "city-drinking-fountain",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-drinking-fountain/source/city-drinking-fountain.glb",
+      "sourceSha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8",
+      "assetMetadata": "content/assets/city-drinking-fountain/asset.json",
+      "metadataSha256": "289f446135f395db91c824549a1e924210b55ace2b494a662cdface9679aeccd",
+      "files": [
+        {
+          "path": "content/assets/city-drinking-fountain/source/city-drinking-fountain.glb",
+          "sha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8",
+          "bytes": 429592
+        },
+        {
+          "path": "content/assets/city-drinking-fountain/source/city-drinking-fountain.stl",
+          "sha256": "603070e8c1fa048f8eb093320969226db47f78d439af99ce0c1c8f177198ae9e",
+          "bytes": 830084
+        },
+        {
+          "path": "content/assets/city-drinking-fountain/asset.json",
+          "sha256": "289f446135f395db91c824549a1e924210b55ace2b494a662cdface9679aeccd",
+          "bytes": 2526
+        }
+      ]
+    },
+    {
+      "id": "city-electric-kick-scooter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-electric-kick-scooter/source/city-electric-kick-scooter.glb",
+      "sourceSha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8",
+      "assetMetadata": "content/assets/city-electric-kick-scooter/asset.json",
+      "metadataSha256": "7c6ec35ce128d5d7d2de645b50fd950b430971a879f00315e22572917239f216",
+      "files": [
+        {
+          "path": "content/assets/city-electric-kick-scooter/source/city-electric-kick-scooter.glb",
+          "sha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8",
+          "bytes": 1590528
+        },
+        {
+          "path": "content/assets/city-electric-kick-scooter/source/city-electric-kick-scooter.stl",
+          "sha256": "37081f35831093e16f241f7ebef6394d80a658f297d38406e16b0de20921855a",
+          "bytes": 1603484
+        },
+        {
+          "path": "content/assets/city-electric-kick-scooter/asset.json",
+          "sha256": "7c6ec35ce128d5d7d2de645b50fd950b430971a879f00315e22572917239f216",
+          "bytes": 3769
+        }
+      ]
+    },
+    {
+      "id": "city-ev-charger",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-ev-charger/source/city-ev-charger.glb",
+      "sourceSha256": "b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5",
+      "assetMetadata": "content/assets/city-ev-charger/asset.json",
+      "metadataSha256": "c7394e35ea077005a10bdb73ef6678c04f50ce4bc6b9f6129d2c715bae50f2fb",
+      "files": [
+        {
+          "path": "content/assets/city-ev-charger/source/city-ev-charger.glb",
+          "sha256": "b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5",
+          "bytes": 425696
+        },
+        {
+          "path": "content/assets/city-ev-charger/source/city-ev-charger.stl",
+          "sha256": "b36ea133ceae90ebdc34d53a0b278cc727823643b479890156802ead2aa1d924",
+          "bytes": 706484
+        },
+        {
+          "path": "content/assets/city-ev-charger/asset.json",
+          "sha256": "c7394e35ea077005a10bdb73ef6678c04f50ce4bc6b9f6129d2c715bae50f2fb",
+          "bytes": 2398
+        }
+      ]
+    },
+    {
+      "id": "city-exterior-clock",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-exterior-clock/source/city-exterior-clock.glb",
+      "sourceSha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63",
+      "assetMetadata": "content/assets/city-exterior-clock/asset.json",
+      "metadataSha256": "2f173c000dfbb75b952ce73c63565e1f1582f745471503e4e433d2967f01af1c",
+      "files": [
+        {
+          "path": "content/assets/city-exterior-clock/source/city-exterior-clock.glb",
+          "sha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63",
+          "bytes": 253260
+        },
+        {
+          "path": "content/assets/city-exterior-clock/source/city-exterior-clock.stl",
+          "sha256": "5a713933bdc5d39a924b52b70a2bdcd60fd96487e29f998a9f005cb5fa5faaec",
+          "bytes": 315884
+        },
+        {
+          "path": "content/assets/city-exterior-clock/asset.json",
+          "sha256": "2f173c000dfbb75b952ce73c63565e1f1582f745471503e4e433d2967f01af1c",
+          "bytes": 2452
+        }
+      ]
+    },
+    {
+      "id": "city-fire-hose-cabinet",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-fire-hose-cabinet/source/city-fire-hose-cabinet.glb",
+      "sourceSha256": "c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929",
+      "assetMetadata": "content/assets/city-fire-hose-cabinet/asset.json",
+      "metadataSha256": "716828bb30327e59e1489def8b7ba8f638d8f3f46120eb4bc02f0a4539d7bdf8",
+      "files": [
+        {
+          "path": "content/assets/city-fire-hose-cabinet/source/city-fire-hose-cabinet.glb",
+          "sha256": "c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929",
+          "bytes": 574852
+        },
+        {
+          "path": "content/assets/city-fire-hose-cabinet/source/city-fire-hose-cabinet.stl",
+          "sha256": "a07cb43f335f5ef7fc3b2c818ff65c48c139ba6d0ea3425e929c9cbc1d9aa6cf",
+          "bytes": 1005084
+        },
+        {
+          "path": "content/assets/city-fire-hose-cabinet/asset.json",
+          "sha256": "716828bb30327e59e1489def8b7ba8f638d8f3f46120eb4bc02f0a4539d7bdf8",
+          "bytes": 2388
+        }
+      ]
+    },
+    {
+      "id": "city-fire-hydrant",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-fire-hydrant/source/city-fire-hydrant.glb",
+      "sourceSha256": "d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe",
+      "assetMetadata": "content/assets/city-fire-hydrant/asset.json",
+      "metadataSha256": "9c0b0003aab90232430ece9827beb4a1ffdf931bda8e648f8eb3080f6ff3fc01",
+      "files": [
+        {
+          "path": "content/assets/city-fire-hydrant/source/city-fire-hydrant.glb",
+          "sha256": "d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe",
+          "bytes": 837636
+        },
+        {
+          "path": "content/assets/city-fire-hydrant/source/city-fire-hydrant.stl",
+          "sha256": "f19f9aa9df2d5c02879c65abbdf6c8a6995a79aa468a00d0e57aead6496832cb",
+          "bytes": 1844084
+        },
+        {
+          "path": "content/assets/city-fire-hydrant/asset.json",
+          "sha256": "9c0b0003aab90232430ece9827beb4a1ffdf931bda8e648f8eb3080f6ff3fc01",
+          "bytes": 2470
+        }
+      ]
+    },
+    {
+      "id": "city-glazed-entry-door",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-glazed-entry-door/source/city-glazed-entry-door.glb",
+      "sourceSha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+      "assetMetadata": "content/assets/city-glazed-entry-door/asset.json",
+      "metadataSha256": "049e0a49942871d20b73704648650d9439c64107b6793dfde14861dc2ad33d91",
+      "files": [
+        {
+          "path": "content/assets/city-glazed-entry-door/source/city-glazed-entry-door.glb",
+          "sha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+          "bytes": 327880
+        },
+        {
+          "path": "content/assets/city-glazed-entry-door/source/city-glazed-entry-door.stl",
+          "sha256": "76d195a3dea8fee4db281ee0c42b40a2206e043f9067fbeaf406129cc76f770d",
+          "bytes": 312284
+        },
+        {
+          "path": "content/assets/city-glazed-entry-door/asset.json",
+          "sha256": "049e0a49942871d20b73704648650d9439c64107b6793dfde14861dc2ad33d91",
+          "bytes": 2669
+        }
+      ]
+    },
+    {
+      "id": "city-hvac-condenser",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-hvac-condenser/source/city-hvac-condenser.glb",
+      "sourceSha256": "fd3dfb184b40cbd680671454a7c1482091105f55dae99f9cb249a9f07f9a5cdf",
+      "assetMetadata": "content/assets/city-hvac-condenser/asset.json",
+      "metadataSha256": "9d65626a7e59830720d8ea264a5cd9822dac757e5b28b544ce4927796cb3e243",
+      "files": [
+        {
+          "path": "content/assets/city-hvac-condenser/source/city-hvac-condenser.glb",
+          "sha256": "fd3dfb184b40cbd680671454a7c1482091105f55dae99f9cb249a9f07f9a5cdf",
+          "bytes": 1685364
+        },
+        {
+          "path": "content/assets/city-hvac-condenser/source/city-hvac-condenser.stl",
+          "sha256": "5ad340f714bc2ef0c4044e7e273a890dccd2e14c5e35409ab7ea051f6997c070",
+          "bytes": 1492484
+        },
+        {
+          "path": "content/assets/city-hvac-condenser/asset.json",
+          "sha256": "9d65626a7e59830720d8ea264a5cd9822dac757e5b28b544ce4927796cb3e243",
+          "bytes": 3521
+        }
+      ]
+    },
+    {
+      "id": "city-inspection-cover",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-inspection-cover/source/city-inspection-cover.glb",
+      "sourceSha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+      "assetMetadata": "content/assets/city-inspection-cover/asset.json",
+      "metadataSha256": "3f14ea25789677bd70d790730a6043df277643d9a140427c97de7348c7c6158e",
+      "files": [
+        {
+          "path": "content/assets/city-inspection-cover/source/city-inspection-cover.glb",
+          "sha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+          "bytes": 1327768
+        },
+        {
+          "path": "content/assets/city-inspection-cover/source/city-inspection-cover.stl",
+          "sha256": "b5a6db4de816203ed4df0f4fa32231f7e4c7af459746c478b248b9e3206e3f4e",
+          "bytes": 1007784
+        },
+        {
+          "path": "content/assets/city-inspection-cover/asset.json",
+          "sha256": "3f14ea25789677bd70d790730a6043df277643d9a140427c97de7348c7c6158e",
+          "bytes": 3471
+        }
+      ]
+    },
+    {
+      "id": "city-lifebuoy-station",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-lifebuoy-station/source/city-lifebuoy-station.glb",
+      "sourceSha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d",
+      "assetMetadata": "content/assets/city-lifebuoy-station/asset.json",
+      "metadataSha256": "85a27a3915bc006e533408e100c8162d15cb173fbd3251433a2e67da01769880",
+      "files": [
+        {
+          "path": "content/assets/city-lifebuoy-station/source/city-lifebuoy-station.glb",
+          "sha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d",
+          "bytes": 211220
+        },
+        {
+          "path": "content/assets/city-lifebuoy-station/source/city-lifebuoy-station.stl",
+          "sha256": "e0dc95975073e86463f7ae8f6bf474d90ace0ad06cd705c76a5738af9c5759c4",
+          "bytes": 344284
+        },
+        {
+          "path": "content/assets/city-lifebuoy-station/asset.json",
+          "sha256": "85a27a3915bc006e533408e100c8162d15cb173fbd3251433a2e67da01769880",
+          "bytes": 2458
+        }
+      ]
+    },
+    {
+      "id": "city-litter-bin",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-litter-bin/source/city-litter-bin.glb",
+      "sourceSha256": "b07c0cc79cf33c2777c1395e3d0ef60aac98d216f4717d8573ee31e365d64c78",
+      "assetMetadata": "content/assets/city-litter-bin/asset.json",
+      "metadataSha256": "f6265f9df2f4a2945dcfdc693d1192dfd8e53617eb1196b18f31acc6b5e080ef",
+      "files": [
+        {
+          "path": "content/assets/city-litter-bin/source/city-litter-bin.glb",
+          "sha256": "b07c0cc79cf33c2777c1395e3d0ef60aac98d216f4717d8573ee31e365d64c78",
+          "bytes": 280776
+        },
+        {
+          "path": "content/assets/city-litter-bin/source/city-litter-bin.stl",
+          "sha256": "b46d52527324ad55ae1b517fa9fe237e5a97e0c04b548fdf8d408dd66fd4a84d",
+          "bytes": 545284
+        },
+        {
+          "path": "content/assets/city-litter-bin/asset.json",
+          "sha256": "f6265f9df2f4a2945dcfdc693d1192dfd8e53617eb1196b18f31acc6b5e080ef",
+          "bytes": 2428
+        }
+      ]
+    },
+    {
+      "id": "city-maintenance-ladder",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-maintenance-ladder/source/city-maintenance-ladder.glb",
+      "sourceSha256": "d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb",
+      "assetMetadata": "content/assets/city-maintenance-ladder/asset.json",
+      "metadataSha256": "7fe814aba139cbae599be3d272de87b1f6655294fc2d7739d0ba257c09d7f237",
+      "files": [
+        {
+          "path": "content/assets/city-maintenance-ladder/source/city-maintenance-ladder.glb",
+          "sha256": "d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb",
+          "bytes": 289400
+        },
+        {
+          "path": "content/assets/city-maintenance-ladder/source/city-maintenance-ladder.stl",
+          "sha256": "030ba2fcafdbd2a9a05f4409dee02e2fd6db8bc9610ce226ded8d17ab73f5ad5",
+          "bytes": 362484
+        },
+        {
+          "path": "content/assets/city-maintenance-ladder/asset.json",
+          "sha256": "7fe814aba139cbae599be3d272de87b1f6655294fc2d7739d0ba257c09d7f237",
+          "bytes": 2450
+        }
+      ]
+    },
+    {
+      "id": "city-pallet-jack",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-pallet-jack/source/city-pallet-jack.glb",
+      "sourceSha256": "a00adcb2b67ae2e9096db94ea99f398162065406dbbb7a6442b852633d11aa4c",
+      "assetMetadata": "content/assets/city-pallet-jack/asset.json",
+      "metadataSha256": "2b5927bc767e0b235669b83d0ff1159a7d743ec9893b31d6b5af1e43a746cde3",
+      "files": [
+        {
+          "path": "content/assets/city-pallet-jack/source/city-pallet-jack.glb",
+          "sha256": "a00adcb2b67ae2e9096db94ea99f398162065406dbbb7a6442b852633d11aa4c",
+          "bytes": 798052
+        },
+        {
+          "path": "content/assets/city-pallet-jack/source/city-pallet-jack.stl",
+          "sha256": "10a4dc336392b5f5e35184ea5b09ee91aa5f3d6c6aa81a7b89659e700f2a64ca",
+          "bytes": 1309484
+        },
+        {
+          "path": "content/assets/city-pallet-jack/asset.json",
+          "sha256": "2b5927bc767e0b235669b83d0ff1159a7d743ec9893b31d6b5af1e43a746cde3",
+          "bytes": 2398
+        }
+      ]
+    },
+    {
+      "id": "city-parcel-locker",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-parcel-locker/source/city-parcel-locker.glb",
+      "sourceSha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4",
+      "assetMetadata": "content/assets/city-parcel-locker/asset.json",
+      "metadataSha256": "2a264a7d061ddcc704db961b2415e26537911c0bef2eb900f152300865d5bcfa",
+      "files": [
+        {
+          "path": "content/assets/city-parcel-locker/source/city-parcel-locker.glb",
+          "sha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4",
+          "bytes": 558664
+        },
+        {
+          "path": "content/assets/city-parcel-locker/source/city-parcel-locker.stl",
+          "sha256": "24b92fbd46122f5ae238faa089128b83b689383562df6817edf3f6b0e38eaca7",
+          "bytes": 1110484
+        },
+        {
+          "path": "content/assets/city-parcel-locker/asset.json",
+          "sha256": "2a264a7d061ddcc704db961b2415e26537911c0bef2eb900f152300865d5bcfa",
+          "bytes": 2438
+        }
+      ]
+    },
+    {
+      "id": "city-parking-boom-gate",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-parking-boom-gate/source/city-parking-boom-gate.glb",
+      "sourceSha256": "e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230",
+      "assetMetadata": "content/assets/city-parking-boom-gate/asset.json",
+      "metadataSha256": "dc5722d3150251de2ea13f027fbc996625fd74a2b85b8eb9405fb3349e09d282",
+      "files": [
+        {
+          "path": "content/assets/city-parking-boom-gate/source/city-parking-boom-gate.glb",
+          "sha256": "e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230",
+          "bytes": 595452
+        },
+        {
+          "path": "content/assets/city-parking-boom-gate/source/city-parking-boom-gate.stl",
+          "sha256": "9d615e366e89c79c2a93855aed4e5e904aa2dfa3664ed8d3c4dfb6aae309fb5d",
+          "bytes": 984884
+        },
+        {
+          "path": "content/assets/city-parking-boom-gate/asset.json",
+          "sha256": "dc5722d3150251de2ea13f027fbc996625fd74a2b85b8eb9405fb3349e09d282",
+          "bytes": 2400
+        }
+      ]
+    },
+    {
+      "id": "city-parking-meter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-parking-meter/source/city-parking-meter.glb",
+      "sourceSha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739",
+      "assetMetadata": "content/assets/city-parking-meter/asset.json",
+      "metadataSha256": "79e4433d8de385904d3c986c3aaff0590b172c50e2cde103922f3c52df5a6513",
+      "files": [
+        {
+          "path": "content/assets/city-parking-meter/source/city-parking-meter.glb",
+          "sha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739",
+          "bytes": 442888
+        },
+        {
+          "path": "content/assets/city-parking-meter/source/city-parking-meter.stl",
+          "sha256": "aa5b34a01e2d67ae05592a5f9f8adae5f83916b1b0eac2c71faf9a3491448d3b",
+          "bytes": 886284
+        },
+        {
+          "path": "content/assets/city-parking-meter/asset.json",
+          "sha256": "79e4433d8de385904d3c986c3aaff0590b172c50e2cde103922f3c52df5a6513",
+          "bytes": 2494
+        }
+      ]
+    },
+    {
+      "id": "city-pedestrian-railing",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-pedestrian-railing/source/city-pedestrian-railing.glb",
+      "sourceSha256": "172339ddad310eec488bee984faacc113707f3bfd8c93ace10e989def0211a83",
+      "assetMetadata": "content/assets/city-pedestrian-railing/asset.json",
+      "metadataSha256": "5dbfeb897b5167836fd6cc2af2e7a551320fc77d0cc510de26d1d680ffb9c923",
+      "files": [
+        {
+          "path": "content/assets/city-pedestrian-railing/source/city-pedestrian-railing.glb",
+          "sha256": "172339ddad310eec488bee984faacc113707f3bfd8c93ace10e989def0211a83",
+          "bytes": 135328
+        },
+        {
+          "path": "content/assets/city-pedestrian-railing/source/city-pedestrian-railing.stl",
+          "sha256": "1f7a2e07a6c2228be40b8653ff35d2d45762c1104a8ed93bb06ee00c2262c95c",
+          "bytes": 184284
+        },
+        {
+          "path": "content/assets/city-pedestrian-railing/asset.json",
+          "sha256": "5dbfeb897b5167836fd6cc2af2e7a551320fc77d0cc510de26d1d680ffb9c923",
+          "bytes": 2297
+        }
+      ]
+    },
+    {
+      "id": "city-pet-bag-dispenser",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-pet-bag-dispenser/source/city-pet-bag-dispenser.glb",
+      "sourceSha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+      "assetMetadata": "content/assets/city-pet-bag-dispenser/asset.json",
+      "metadataSha256": "c0bf90536e833fb613b0b8ddbbf73bd95443e8d87ae1ce9b8a665c37e9b23300",
+      "files": [
+        {
+          "path": "content/assets/city-pet-bag-dispenser/source/city-pet-bag-dispenser.glb",
+          "sha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+          "bytes": 72928
+        },
+        {
+          "path": "content/assets/city-pet-bag-dispenser/source/city-pet-bag-dispenser.stl",
+          "sha256": "af72c33bf42ad0e6dc2ec786309ec894a038d1d99166c7c66d6d6cfde8e4452b",
+          "bytes": 95884
+        },
+        {
+          "path": "content/assets/city-pet-bag-dispenser/asset.json",
+          "sha256": "c0bf90536e833fb613b0b8ddbbf73bd95443e8d87ae1ce9b8a665c37e9b23300",
+          "bytes": 2520
+        }
+      ]
+    },
+    {
+      "id": "city-playground-slide",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-playground-slide/source/city-playground-slide.glb",
+      "sourceSha256": "0e264f4f4908c4d8a0eca1441ad46529da70c9f17ec5a15e6204874decad3d56",
+      "assetMetadata": "content/assets/city-playground-slide/asset.json",
+      "metadataSha256": "69c8ea96f5eb3a3f98ba2df0b77df0eb548449c7f5c767434a88466621a6d302",
+      "files": [
+        {
+          "path": "content/assets/city-playground-slide/source/city-playground-slide.glb",
+          "sha256": "0e264f4f4908c4d8a0eca1441ad46529da70c9f17ec5a15e6204874decad3d56",
+          "bytes": 270568
+        },
+        {
+          "path": "content/assets/city-playground-slide/source/city-playground-slide.stl",
+          "sha256": "8b6701a5eacedf6507f8e4783ca26e143b85348722b1c6bd70839f399808980d",
+          "bytes": 365684
+        },
+        {
+          "path": "content/assets/city-playground-slide/asset.json",
+          "sha256": "69c8ea96f5eb3a3f98ba2df0b77df0eb548449c7f5c767434a88466621a6d302",
+          "bytes": 2519
+        }
+      ]
+    },
+    {
+      "id": "city-playground-swing",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-playground-swing/source/city-playground-swing.glb",
+      "sourceSha256": "bbcea804a0718a0b8cd9ce229cde42838f9239501244287c06845fc6634ed645",
+      "assetMetadata": "content/assets/city-playground-swing/asset.json",
+      "metadataSha256": "b91bf84c3130f69ac0b63f8269f26204eaa6bb5f48499e40235b78d9e0a304e6",
+      "files": [
+        {
+          "path": "content/assets/city-playground-swing/source/city-playground-swing.glb",
+          "sha256": "bbcea804a0718a0b8cd9ce229cde42838f9239501244287c06845fc6634ed645",
+          "bytes": 527644
+        },
+        {
+          "path": "content/assets/city-playground-swing/source/city-playground-swing.stl",
+          "sha256": "e7fa9e2460373d85121f9b5f5e3bee8c0cde740cfce9dd4f02198bd0142d30a6",
+          "bytes": 754484
+        },
+        {
+          "path": "content/assets/city-playground-swing/asset.json",
+          "sha256": "b91bf84c3130f69ac0b63f8269f26204eaa6bb5f48499e40235b78d9e0a304e6",
+          "bytes": 2512
+        }
+      ]
+    },
+    {
+      "id": "city-portable-toilet",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-portable-toilet/source/city-portable-toilet.glb",
+      "sourceSha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098",
+      "assetMetadata": "content/assets/city-portable-toilet/asset.json",
+      "metadataSha256": "2f2312666281b2deb3f9ec94a5c5ad2a3fb8c6980969b4e6fa2c91b3c1e73c40",
+      "files": [
+        {
+          "path": "content/assets/city-portable-toilet/source/city-portable-toilet.glb",
+          "sha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098",
+          "bytes": 819288
+        },
+        {
+          "path": "content/assets/city-portable-toilet/source/city-portable-toilet.stl",
+          "sha256": "6d971c4e7d57f3cbf6458cc0fc09d3c6b60a5593b9480b1be1e6b80d0d226405",
+          "bytes": 609084
+        },
+        {
+          "path": "content/assets/city-portable-toilet/asset.json",
+          "sha256": "2f2312666281b2deb3f9ec94a5c5ad2a3fb8c6980969b4e6fa2c91b3c1e73c40",
+          "bytes": 2646
+        }
+      ]
+    },
+    {
+      "id": "city-postal-box",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-postal-box/source/city-postal-box.glb",
+      "sourceSha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+      "assetMetadata": "content/assets/city-postal-box/asset.json",
+      "metadataSha256": "04e6f3477d1be9f7aaf2d1bf9cc17f5f02b9f07f784a8b1c240002fb1cda4299",
+      "files": [
+        {
+          "path": "content/assets/city-postal-box/source/city-postal-box.glb",
+          "sha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+          "bytes": 295880
+        },
+        {
+          "path": "content/assets/city-postal-box/source/city-postal-box.stl",
+          "sha256": "a52223d3d43e3848c3cea3d2fe6b37bb9246ac7d7c6586438f7a7dcdbf48d4e9",
+          "bytes": 475584
+        },
+        {
+          "path": "content/assets/city-postal-box/asset.json",
+          "sha256": "04e6f3477d1be9f7aaf2d1bf9cc17f5f02b9f07f784a8b1c240002fb1cda4299",
+          "bytes": 2316
+        }
+      ]
+    },
+    {
+      "id": "city-pruned-street-tree",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-pruned-street-tree/source/city-pruned-street-tree.glb",
+      "sourceSha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696",
+      "assetMetadata": "content/assets/city-pruned-street-tree/asset.json",
+      "metadataSha256": "a2388410ad98acf0152ce8e92afd1af72090b85d1da32f5b89962c7ce3a4ec9f",
+      "files": [
+        {
+          "path": "content/assets/city-pruned-street-tree/source/city-pruned-street-tree.glb",
+          "sha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696",
+          "bytes": 6975348
+        },
+        {
+          "path": "content/assets/city-pruned-street-tree/source/city-pruned-street-tree.stl",
+          "sha256": "cb2abb1e52ac617bd0b5aeee0683841f116fbcab2d6bd9ffe5026b5c92c4c8eb",
+          "bytes": 4215884
+        },
+        {
+          "path": "content/assets/city-pruned-street-tree/asset.json",
+          "sha256": "a2388410ad98acf0152ce8e92afd1af72090b85d1da32f5b89962c7ce3a4ec9f",
+          "bytes": 3169
+        }
+      ]
+    },
+    {
+      "id": "city-public-telephone",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-public-telephone/source/city-public-telephone.glb",
+      "sourceSha256": "890b7dc561c322f97e1ed30ecf390c72e7de84c485571e553dfb5d70326d1c78",
+      "assetMetadata": "content/assets/city-public-telephone/asset.json",
+      "metadataSha256": "e8e6406a596d263c732b7e80c4ccbb30a2cd0c193af6a786eedf3805d10dfad4",
+      "files": [
+        {
+          "path": "content/assets/city-public-telephone/source/city-public-telephone.glb",
+          "sha256": "890b7dc561c322f97e1ed30ecf390c72e7de84c485571e553dfb5d70326d1c78",
+          "bytes": 817692
+        },
+        {
+          "path": "content/assets/city-public-telephone/source/city-public-telephone.stl",
+          "sha256": "865052fbf8a1f638bdf899f371e750d8b3818a8fb1911635b37eebd6a22ddabc",
+          "bytes": 879284
+        },
+        {
+          "path": "content/assets/city-public-telephone/asset.json",
+          "sha256": "e8e6406a596d263c732b7e80c4ccbb30a2cd0c193af6a786eedf3805d10dfad4",
+          "bytes": 2499
+        }
+      ]
+    },
+    {
+      "id": "city-recycling-station",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-recycling-station/source/city-recycling-station.glb",
+      "sourceSha256": "b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2",
+      "assetMetadata": "content/assets/city-recycling-station/asset.json",
+      "metadataSha256": "766b50aab7f0ceb62164407716385a7ba9a09400548f151ccf8cb209cde90919",
+      "files": [
+        {
+          "path": "content/assets/city-recycling-station/source/city-recycling-station.glb",
+          "sha256": "b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2",
+          "bytes": 541568
+        },
+        {
+          "path": "content/assets/city-recycling-station/source/city-recycling-station.stl",
+          "sha256": "05cef273e3ec691dec9e1f503b6fc26e4ef0d5d794f01d9dcb5265fa2913aeff",
+          "bytes": 1120084
+        },
+        {
+          "path": "content/assets/city-recycling-station/asset.json",
+          "sha256": "766b50aab7f0ceb62164407716385a7ba9a09400548f151ccf8cb209cde90919",
+          "bytes": 2488
+        }
+      ]
+    },
+    {
+      "id": "city-retractable-awning",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-retractable-awning/source/city-retractable-awning.glb",
+      "sourceSha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a",
+      "assetMetadata": "content/assets/city-retractable-awning/asset.json",
+      "metadataSha256": "4261c60a20552f44e78b6155df772899843c6c74218b27aee8ddd8f879f63fd4",
+      "files": [
+        {
+          "path": "content/assets/city-retractable-awning/source/city-retractable-awning.glb",
+          "sha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a",
+          "bytes": 385972
+        },
+        {
+          "path": "content/assets/city-retractable-awning/source/city-retractable-awning.stl",
+          "sha256": "a82e96a8ca40384a709a26f79597d5b2e744da411755bd52b26551f5a7755691",
+          "bytes": 320284
+        },
+        {
+          "path": "content/assets/city-retractable-awning/asset.json",
+          "sha256": "4261c60a20552f44e78b6155df772899843c6c74218b27aee8ddd8f879f63fd4",
+          "bytes": 2506
+        }
+      ]
+    },
+    {
+      "id": "city-road-barrier",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-road-barrier/source/city-road-barrier.glb",
+      "sourceSha256": "dad16a9cbedc900fef29cfff31b42dc943bc6a37ddaf2bcc85ca141539945671",
+      "assetMetadata": "content/assets/city-road-barrier/asset.json",
+      "metadataSha256": "a5d192f0b39f72580e8cf5f635196b70b7e5a5f67260566524bd68490f095faa",
+      "files": [
+        {
+          "path": "content/assets/city-road-barrier/source/city-road-barrier.glb",
+          "sha256": "dad16a9cbedc900fef29cfff31b42dc943bc6a37ddaf2bcc85ca141539945671",
+          "bytes": 274236
+        },
+        {
+          "path": "content/assets/city-road-barrier/source/city-road-barrier.stl",
+          "sha256": "7c876522b5119cdcd35bf852e2a32e7edd7fc101ff3fb2a358767e1676b65539",
+          "bytes": 403684
+        },
+        {
+          "path": "content/assets/city-road-barrier/asset.json",
+          "sha256": "a5d192f0b39f72580e8cf5f635196b70b7e5a5f67260566524bd68490f095faa",
+          "bytes": 2306
+        }
+      ]
+    },
+    {
+      "id": "city-roller-shutter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-roller-shutter/source/city-roller-shutter.glb",
+      "sourceSha256": "8033643e7de8c047b06146d892bfcd962bfdc5119fa0262681951d1ce8d34c48",
+      "assetMetadata": "content/assets/city-roller-shutter/asset.json",
+      "metadataSha256": "2400757dd597a887ce94a0e317460cedfcbad1a97aa158c16ea13e274249bd1d",
+      "files": [
+        {
+          "path": "content/assets/city-roller-shutter/source/city-roller-shutter.glb",
+          "sha256": "8033643e7de8c047b06146d892bfcd962bfdc5119fa0262681951d1ce8d34c48",
+          "bytes": 494732
+        },
+        {
+          "path": "content/assets/city-roller-shutter/source/city-roller-shutter.stl",
+          "sha256": "f0208aefc087aceeb77fda5a08163c984913bec833d2620b769dc6f337259fc8",
+          "bytes": 359884
+        },
+        {
+          "path": "content/assets/city-roller-shutter/asset.json",
+          "sha256": "2400757dd597a887ce94a0e317460cedfcbad1a97aa158c16ea13e274249bd1d",
+          "bytes": 3504
+        }
+      ]
+    },
+    {
+      "id": "city-roof-access-hatch",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-roof-access-hatch/source/city-roof-access-hatch.glb",
+      "sourceSha256": "2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5",
+      "assetMetadata": "content/assets/city-roof-access-hatch/asset.json",
+      "metadataSha256": "4a47b74d286e621d40cbcf5767df779c3816118b16f774ea5a8b98d103c11a71",
+      "files": [
+        {
+          "path": "content/assets/city-roof-access-hatch/source/city-roof-access-hatch.glb",
+          "sha256": "2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5",
+          "bytes": 141336
+        },
+        {
+          "path": "content/assets/city-roof-access-hatch/source/city-roof-access-hatch.stl",
+          "sha256": "5ed0e336083914b48472ae186434c932f1fcfeddbcc3a11bf47dcd530190901b",
+          "bytes": 186484
+        },
+        {
+          "path": "content/assets/city-roof-access-hatch/asset.json",
+          "sha256": "4a47b74d286e621d40cbcf5767df779c3816118b16f774ea5a8b98d103c11a71",
+          "bytes": 2410
+        }
+      ]
+    },
+    {
+      "id": "city-roof-exhaust-cowl",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-roof-exhaust-cowl/source/city-roof-exhaust-cowl.glb",
+      "sourceSha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593",
+      "assetMetadata": "content/assets/city-roof-exhaust-cowl/asset.json",
+      "metadataSha256": "5946eef5c01db5d6fe0dc2df412e29a7d19ba2c8e2347103b5300a723a62d986",
+      "files": [
+        {
+          "path": "content/assets/city-roof-exhaust-cowl/source/city-roof-exhaust-cowl.glb",
+          "sha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593",
+          "bytes": 927708
+        },
+        {
+          "path": "content/assets/city-roof-exhaust-cowl/source/city-roof-exhaust-cowl.stl",
+          "sha256": "256fa6ef2b392b3820dfb435257a938d6973e8e053f4694a31a2ff99a636471d",
+          "bytes": 828284
+        },
+        {
+          "path": "content/assets/city-roof-exhaust-cowl/asset.json",
+          "sha256": "5946eef5c01db5d6fe0dc2df412e29a7d19ba2c8e2347103b5300a723a62d986",
+          "bytes": 2471
+        }
+      ]
+    },
+    {
+      "id": "city-sack-hand-truck",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-sack-hand-truck/source/city-sack-hand-truck.glb",
+      "sourceSha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+      "assetMetadata": "content/assets/city-sack-hand-truck/asset.json",
+      "metadataSha256": "bbaef1267e4273cbda2e339f0409174169e38f2078f670d71a6088e220ec9fd1",
+      "files": [
+        {
+          "path": "content/assets/city-sack-hand-truck/source/city-sack-hand-truck.glb",
+          "sha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+          "bytes": 1202476
+        },
+        {
+          "path": "content/assets/city-sack-hand-truck/source/city-sack-hand-truck.stl",
+          "sha256": "26e35b492a20f5e77764612e7a20e9cbc832c83968204608b2784cc8983e3bfc",
+          "bytes": 1438484
+        },
+        {
+          "path": "content/assets/city-sack-hand-truck/asset.json",
+          "sha256": "bbaef1267e4273cbda2e339f0409174169e38f2078f670d71a6088e220ec9fd1",
+          "bytes": 3625
+        }
+      ]
+    },
+    {
+      "id": "city-satellite-dish",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-satellite-dish/source/city-satellite-dish.glb",
+      "sourceSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+      "assetMetadata": "content/assets/city-satellite-dish/asset.json",
+      "metadataSha256": "3ce79ddc31ea9b9cee324fb386b9dd62f3ad70a92a1db0f2b00628cbb3551caf",
+      "files": [
+        {
+          "path": "content/assets/city-satellite-dish/source/city-satellite-dish.glb",
+          "sha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+          "bytes": 1372212
+        },
+        {
+          "path": "content/assets/city-satellite-dish/source/city-satellite-dish.stl",
+          "sha256": "6a7077e13e636d57c3dcfc2d9fcccd441674248dbd481814ae9c72b5331a05e1",
+          "bytes": 1359284
+        },
+        {
+          "path": "content/assets/city-satellite-dish/asset.json",
+          "sha256": "3ce79ddc31ea9b9cee324fb386b9dd62f3ad70a92a1db0f2b00628cbb3551caf",
+          "bytes": 3341
+        }
+      ]
+    },
+    {
+      "id": "city-scaffold-bay",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-scaffold-bay/source/city-scaffold-bay.glb",
+      "sourceSha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+      "assetMetadata": "content/assets/city-scaffold-bay/asset.json",
+      "metadataSha256": "d86d5391235afd4d523e79f7b7878950534302d195426ae382bb0ab69bc0060e",
+      "files": [
+        {
+          "path": "content/assets/city-scaffold-bay/source/city-scaffold-bay.glb",
+          "sha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+          "bytes": 1651424
+        },
+        {
+          "path": "content/assets/city-scaffold-bay/source/city-scaffold-bay.stl",
+          "sha256": "7228ffb11c1069f33753853a1c870083c5d5a99bf19f44b63249e0b36a3b4307",
+          "bytes": 1625684
+        },
+        {
+          "path": "content/assets/city-scaffold-bay/asset.json",
+          "sha256": "d86d5391235afd4d523e79f7b7878950534302d195426ae382bb0ab69bc0060e",
+          "bytes": 3629
+        }
+      ]
+    },
+    {
+      "id": "city-security-camera",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-security-camera/source/city-security-camera.glb",
+      "sourceSha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82",
+      "assetMetadata": "content/assets/city-security-camera/asset.json",
+      "metadataSha256": "30208984fc21e219604f3d827a01d132fac794adc1833c0a36de3f7d28d6a431",
+      "files": [
+        {
+          "path": "content/assets/city-security-camera/source/city-security-camera.glb",
+          "sha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82",
+          "bytes": 339000
+        },
+        {
+          "path": "content/assets/city-security-camera/source/city-security-camera.stl",
+          "sha256": "60b696b9374d90df133bc700e3143390fb2656b197a247bb2c4e7639651a6f0b",
+          "bytes": 280084
+        },
+        {
+          "path": "content/assets/city-security-camera/asset.json",
+          "sha256": "30208984fc21e219604f3d827a01d132fac794adc1833c0a36de3f7d28d6a431",
+          "bytes": 2500
+        }
+      ]
+    },
+    {
+      "id": "city-shopping-trolley",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-shopping-trolley/source/city-shopping-trolley.glb",
+      "sourceSha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28",
+      "assetMetadata": "content/assets/city-shopping-trolley/asset.json",
+      "metadataSha256": "638a7686cdc3f70d0c0af725aa4f2822e758fe559e4ed31a963464e1c127869d",
+      "files": [
+        {
+          "path": "content/assets/city-shopping-trolley/source/city-shopping-trolley.glb",
+          "sha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28",
+          "bytes": 1291504
+        },
+        {
+          "path": "content/assets/city-shopping-trolley/source/city-shopping-trolley.stl",
+          "sha256": "c8385e50377f8da0806b28350774c6b0f1f18a5ffc2ca18aed868cd84f7e9b05",
+          "bytes": 1931484
+        },
+        {
+          "path": "content/assets/city-shopping-trolley/asset.json",
+          "sha256": "638a7686cdc3f70d0c0af725aa4f2822e758fe559e4ed31a963464e1c127869d",
+          "bytes": 3836
+        }
+      ]
+    },
+    {
+      "id": "city-solar-module-rack",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-solar-module-rack/source/city-solar-module-rack.glb",
+      "sourceSha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06",
+      "assetMetadata": "content/assets/city-solar-module-rack/asset.json",
+      "metadataSha256": "02e03472162fb7a9a87dce03518b2facc8d0d9920c56df7a306787c3ab792850",
+      "files": [
+        {
+          "path": "content/assets/city-solar-module-rack/source/city-solar-module-rack.glb",
+          "sha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06",
+          "bytes": 1090868
+        },
+        {
+          "path": "content/assets/city-solar-module-rack/source/city-solar-module-rack.stl",
+          "sha256": "34e5a4da41114c0c151bfc765c5eea31ebd1f4b8a6575eb9e57849676f6d6357",
+          "bytes": 725484
+        },
+        {
+          "path": "content/assets/city-solar-module-rack/asset.json",
+          "sha256": "02e03472162fb7a9a87dce03518b2facc8d0d9920c56df7a306787c3ab792850",
+          "bytes": 3647
+        }
+      ]
+    },
+    {
+      "id": "city-speed-cushion",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-speed-cushion/source/city-speed-cushion.glb",
+      "sourceSha256": "57d5b53192f7ce4ceaaa4f1bb11e3f88466e518f7381a60e1a12957863bb02c0",
+      "assetMetadata": "content/assets/city-speed-cushion/asset.json",
+      "metadataSha256": "53e4f9e8491729d646177ddb3d3c5ee483fc6f593dc36e571f7f75cdcc6e048a",
+      "files": [
+        {
+          "path": "content/assets/city-speed-cushion/source/city-speed-cushion.glb",
+          "sha256": "57d5b53192f7ce4ceaaa4f1bb11e3f88466e518f7381a60e1a12957863bb02c0",
+          "bytes": 164884
+        },
+        {
+          "path": "content/assets/city-speed-cushion/source/city-speed-cushion.stl",
+          "sha256": "bb2f0dd732ade91fb860ca93bfcb814e01f6af9dfc8672593ab7585140abd90d",
+          "bytes": 183084
+        },
+        {
+          "path": "content/assets/city-speed-cushion/asset.json",
+          "sha256": "53e4f9e8491729d646177ddb3d3c5ee483fc6f593dc36e571f7f75cdcc6e048a",
+          "bytes": 2324
+        }
+      ]
+    },
+    {
+      "id": "city-storm-drain",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-storm-drain/source/city-storm-drain.glb",
+      "sourceSha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
+      "assetMetadata": "content/assets/city-storm-drain/asset.json",
+      "metadataSha256": "9092a44dc75fc42b27517c2901fcf9237448122818e7967f1cc6e07b4000812d",
+      "files": [
+        {
+          "path": "content/assets/city-storm-drain/source/city-storm-drain.glb",
+          "sha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
+          "bytes": 473916
+        },
+        {
+          "path": "content/assets/city-storm-drain/source/city-storm-drain.stl",
+          "sha256": "fafaf7c612b9f4eb14d9ebfcd48598055297750895eba66563260eb9e9cb3dc9",
+          "bytes": 371684
+        },
+        {
+          "path": "content/assets/city-storm-drain/asset.json",
+          "sha256": "9092a44dc75fc42b27517c2901fcf9237448122818e7967f1cc6e07b4000812d",
+          "bytes": 2313
+        }
+      ]
+    },
+    {
+      "id": "city-streetlight",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-streetlight/source/city-streetlight.glb",
+      "sourceSha256": "34259d4e18e74ff72f3d1f2897f2fea56d34158af24e3f9ad5c5dbbefd3f4c9a",
+      "assetMetadata": "content/assets/city-streetlight/asset.json",
+      "metadataSha256": "cc3183b4666273df26968da0c9e76515c69a83633ca68a5563e39d7cdf152ba9",
+      "files": [
+        {
+          "path": "content/assets/city-streetlight/source/city-streetlight.glb",
+          "sha256": "34259d4e18e74ff72f3d1f2897f2fea56d34158af24e3f9ad5c5dbbefd3f4c9a",
+          "bytes": 674200
+        },
+        {
+          "path": "content/assets/city-streetlight/source/city-streetlight.stl",
+          "sha256": "e88b911b61b81e7ee3c31fcda140e2c82b7aa6d702654e52eb7da60002d9499b",
+          "bytes": 620284
+        },
+        {
+          "path": "content/assets/city-streetlight/asset.json",
+          "sha256": "cc3183b4666273df26968da0c9e76515c69a83633ca68a5563e39d7cdf152ba9",
+          "bytes": 2322
+        }
+      ]
+    },
+    {
+      "id": "city-tactile-paving",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-tactile-paving/source/city-tactile-paving.glb",
+      "sourceSha256": "c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295",
+      "assetMetadata": "content/assets/city-tactile-paving/asset.json",
+      "metadataSha256": "11e269476486f0b557b52d207fd1bc2d3904d7d0c21a9b42229fe9b280564890",
+      "files": [
+        {
+          "path": "content/assets/city-tactile-paving/source/city-tactile-paving.glb",
+          "sha256": "c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295",
+          "bytes": 102472
+        },
+        {
+          "path": "content/assets/city-tactile-paving/source/city-tactile-paving.stl",
+          "sha256": "45c2bff93152630478e247797f68bb264aa27fbe8b7f89e06c880d1d96661cf8",
+          "bytes": 110284
+        },
+        {
+          "path": "content/assets/city-tactile-paving/asset.json",
+          "sha256": "11e269476486f0b557b52d207fd1bc2d3904d7d0c21a9b42229fe9b280564890",
+          "bytes": 2372
+        }
+      ]
+    },
+    {
+      "id": "city-ticket-validator",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-ticket-validator/source/city-ticket-validator.glb",
+      "sourceSha256": "6901988cbd199a3455698887c8510939fd858d5e1bf654368be4f724a705039f",
+      "assetMetadata": "content/assets/city-ticket-validator/asset.json",
+      "metadataSha256": "ce256a080d6ffcbe4b1cd3ba94ee75351ff3404073857f535b57760e2efdb38d",
+      "files": [
+        {
+          "path": "content/assets/city-ticket-validator/source/city-ticket-validator.glb",
+          "sha256": "6901988cbd199a3455698887c8510939fd858d5e1bf654368be4f724a705039f",
+          "bytes": 273108
+        },
+        {
+          "path": "content/assets/city-ticket-validator/source/city-ticket-validator.stl",
+          "sha256": "4d7f975e4433a56c824898391e58a9dd6fa324b5031ba8e4976947d995ba03ea",
+          "bytes": 458084
+        },
+        {
+          "path": "content/assets/city-ticket-validator/asset.json",
+          "sha256": "ce256a080d6ffcbe4b1cd3ba94ee75351ff3404073857f535b57760e2efdb38d",
+          "bytes": 2364
+        }
+      ]
+    },
+    {
+      "id": "city-traffic-cone",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-traffic-cone/source/city-traffic-cone.glb",
+      "sourceSha256": "a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4",
+      "assetMetadata": "content/assets/city-traffic-cone/asset.json",
+      "metadataSha256": "6a5798578fd0333f45b61ad22bf8a786061711f4e49aa6f21bfce32cf057606b",
+      "files": [
+        {
+          "path": "content/assets/city-traffic-cone/source/city-traffic-cone.glb",
+          "sha256": "a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4",
+          "bytes": 74348
+        },
+        {
+          "path": "content/assets/city-traffic-cone/source/city-traffic-cone.stl",
+          "sha256": "75098b67530a5d6cb5adffd8ed731826873ae0d44336361d1baa03c336ed0389",
+          "bytes": 100084
+        },
+        {
+          "path": "content/assets/city-traffic-cone/asset.json",
+          "sha256": "6a5798578fd0333f45b61ad22bf8a786061711f4e49aa6f21bfce32cf057606b",
+          "bytes": 2303
+        }
+      ]
+    },
+    {
+      "id": "city-traffic-signal",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-traffic-signal/source/city-traffic-signal.glb",
+      "sourceSha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217",
+      "assetMetadata": "content/assets/city-traffic-signal/asset.json",
+      "metadataSha256": "acc52b98ef2626297ebff4342ba91585dfcf683bac72e362021ba8ae690d37da",
+      "files": [
+        {
+          "path": "content/assets/city-traffic-signal/source/city-traffic-signal.glb",
+          "sha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217",
+          "bytes": 971388
+        },
+        {
+          "path": "content/assets/city-traffic-signal/source/city-traffic-signal.stl",
+          "sha256": "1f39b3e1010e1915fc3474b2457e02dfdd93d30ed4440a1638587d7bf116205d",
+          "bytes": 1190484
+        },
+        {
+          "path": "content/assets/city-traffic-signal/asset.json",
+          "sha256": "acc52b98ef2626297ebff4342ba91585dfcf683bac72e362021ba8ae690d37da",
+          "bytes": 2547
+        }
+      ]
+    },
+    {
+      "id": "city-tree-grate",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-tree-grate/source/city-tree-grate.glb",
+      "sourceSha256": "63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b",
+      "assetMetadata": "content/assets/city-tree-grate/asset.json",
+      "metadataSha256": "7bf2fd635dbef4b158d732f34d96aebdbbb8b936ab4d6f4b7eb03b5bf0eb9b0f",
+      "files": [
+        {
+          "path": "content/assets/city-tree-grate/source/city-tree-grate.glb",
+          "sha256": "63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b",
+          "bytes": 136552
+        },
+        {
+          "path": "content/assets/city-tree-grate/source/city-tree-grate.stl",
+          "sha256": "5895a52b2f7bbc30f137e0539f2a7ec04e931ffce041fce53d65e91c6f8dc73c",
+          "bytes": 148084
+        },
+        {
+          "path": "content/assets/city-tree-grate/asset.json",
+          "sha256": "7bf2fd635dbef4b158d732f34d96aebdbbb8b936ab4d6f4b7eb03b5bf0eb9b0f",
+          "bytes": 2416
+        }
+      ]
+    },
+    {
+      "id": "city-tree-guard",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-tree-guard/source/city-tree-guard.glb",
+      "sourceSha256": "5b0d434cd45fdfc84eba930ee49e729b4a9c9d6be19672c6a198f0a5b196a5e4",
+      "assetMetadata": "content/assets/city-tree-guard/asset.json",
+      "metadataSha256": "23790bda0f41849ede812c64f387b3c8d5d0d22fa1eac39ac8a61daa1582a2fd",
+      "files": [
+        {
+          "path": "content/assets/city-tree-guard/source/city-tree-guard.glb",
+          "sha256": "5b0d434cd45fdfc84eba930ee49e729b4a9c9d6be19672c6a198f0a5b196a5e4",
+          "bytes": 179664
+        },
+        {
+          "path": "content/assets/city-tree-guard/source/city-tree-guard.stl",
+          "sha256": "ad09e57713aed35e929560c0abc0b0884afd00ad953a711aac05caab1eaf72c5",
+          "bytes": 213684
+        },
+        {
+          "path": "content/assets/city-tree-guard/asset.json",
+          "sha256": "23790bda0f41849ede812c64f387b3c8d5d0d22fa1eac39ac8a61daa1582a2fd",
+          "bytes": 2356
+        }
+      ]
+    },
+    {
+      "id": "city-tripod-turnstile",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-tripod-turnstile/source/city-tripod-turnstile.glb",
+      "sourceSha256": "f21475df2d9cd18ec1157bc15298a4aa650e0737e856d49a2fe2a66b50867006",
+      "assetMetadata": "content/assets/city-tripod-turnstile/asset.json",
+      "metadataSha256": "4aed82e2004adbd415a8d07afea27e10828ddb37109ea8c4d714288f2cbdfd02",
+      "files": [
+        {
+          "path": "content/assets/city-tripod-turnstile/source/city-tripod-turnstile.glb",
+          "sha256": "f21475df2d9cd18ec1157bc15298a4aa650e0737e856d49a2fe2a66b50867006",
+          "bytes": 131612
+        },
+        {
+          "path": "content/assets/city-tripod-turnstile/source/city-tripod-turnstile.stl",
+          "sha256": "d93ee39a85a1afc64248c74a12e42151f1b1bf194b018b915cf9f61693a63cfa",
+          "bytes": 176284
+        },
+        {
+          "path": "content/assets/city-tripod-turnstile/asset.json",
+          "sha256": "4aed82e2004adbd415a8d07afea27e10828ddb37109ea8c4d714288f2cbdfd02",
+          "bytes": 2385
+        }
+      ]
+    },
+    {
+      "id": "city-vending-machine",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-vending-machine/source/city-vending-machine.glb",
+      "sourceSha256": "c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b",
+      "assetMetadata": "content/assets/city-vending-machine/asset.json",
+      "metadataSha256": "3e879e89e3a203385ec262f940c603f61738d4323247ec109d2b4e8ba32fbf94",
+      "files": [
+        {
+          "path": "content/assets/city-vending-machine/source/city-vending-machine.glb",
+          "sha256": "c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b",
+          "bytes": 1421680
+        },
+        {
+          "path": "content/assets/city-vending-machine/source/city-vending-machine.stl",
+          "sha256": "f8be27489e8b5b15cf364d16aa1f257b75dd951330cf94ee06e869ec04a41557",
+          "bytes": 2281684
+        },
+        {
+          "path": "content/assets/city-vending-machine/asset.json",
+          "sha256": "3e879e89e3a203385ec262f940c603f61738d4323247ec109d2b4e8ba32fbf94",
+          "bytes": 3762
+        }
+      ]
+    },
+    {
+      "id": "city-ventilation-outlet",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-ventilation-outlet/source/city-ventilation-outlet.glb",
+      "sourceSha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc",
+      "assetMetadata": "content/assets/city-ventilation-outlet/asset.json",
+      "metadataSha256": "a567fc67fb610b9c4a2adcd4dabaf445085ff28fd1f17b36e4a68b60bc81e72f",
+      "files": [
+        {
+          "path": "content/assets/city-ventilation-outlet/source/city-ventilation-outlet.glb",
+          "sha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc",
+          "bytes": 685036
+        },
+        {
+          "path": "content/assets/city-ventilation-outlet/source/city-ventilation-outlet.stl",
+          "sha256": "b2d5cce26cd2c37c2b0d52f41b4a5c9309ce1c84ddda36ecdd13d053e37c3dca",
+          "bytes": 659484
+        },
+        {
+          "path": "content/assets/city-ventilation-outlet/asset.json",
+          "sha256": "a567fc67fb610b9c4a2adcd4dabaf445085ff28fd1f17b36e4a68b60bc81e72f",
+          "bytes": 3409
+        }
+      ]
+    },
+    {
+      "id": "city-wall-intercom",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-wall-intercom/source/city-wall-intercom.glb",
+      "sourceSha256": "70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb",
+      "assetMetadata": "content/assets/city-wall-intercom/asset.json",
+      "metadataSha256": "6c23d14b525f6535887e64c447024c4414945953b5802132551fdcbd6a1c1c41",
+      "files": [
+        {
+          "path": "content/assets/city-wall-intercom/source/city-wall-intercom.glb",
+          "sha256": "70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb",
+          "bytes": 348028
+        },
+        {
+          "path": "content/assets/city-wall-intercom/source/city-wall-intercom.stl",
+          "sha256": "d88e612a7c30d08d9b36b783c28940a13b782ef62820df7ef6ddb1c99f0d890b",
+          "bytes": 271284
+        },
+        {
+          "path": "content/assets/city-wall-intercom/asset.json",
+          "sha256": "6c23d14b525f6535887e64c447024c4414945953b5802132551fdcbd6a1c1c41",
+          "bytes": 2545
+        }
+      ]
+    },
+    {
+      "id": "city-wheel-stop",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/city-wheel-stop/source/city-wheel-stop.glb",
+      "sourceSha256": "c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654",
+      "assetMetadata": "content/assets/city-wheel-stop/asset.json",
+      "metadataSha256": "087004e10ef327ab67b311a89d45d6ce9ab2689361e73c01207908bcca5d45ee",
+      "files": [
+        {
+          "path": "content/assets/city-wheel-stop/source/city-wheel-stop.glb",
+          "sha256": "c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654",
+          "bytes": 39608
+        },
+        {
+          "path": "content/assets/city-wheel-stop/source/city-wheel-stop.stl",
+          "sha256": "9a0f98a127e9d08087201af60b664dcdada0b923de6e07c5c4a06d01c30c8372",
+          "bytes": 46284
+        },
+        {
+          "path": "content/assets/city-wheel-stop/asset.json",
+          "sha256": "087004e10ef327ab67b311a89d45d6ce9ab2689361e73c01207908bcca5d45ee",
+          "bytes": 2311
+        }
+      ]
+    },
+    {
+      "id": "commons-bar-counter",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-bar-counter/source/commons-bar-counter.glb",
+      "sourceSha256": "eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2",
+      "assetMetadata": "content/assets/commons-bar-counter/asset.json",
+      "metadataSha256": "1c8be6ba95cb78b5626c45d498bb248d311202cc3baa1bc989a37af0504b337b",
+      "files": [
+        {
+          "path": "content/assets/commons-bar-counter/source/commons-bar-counter.glb",
+          "sha256": "eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2",
+          "bytes": 7391604
+        },
+        {
+          "path": "content/assets/commons-bar-counter/source/commons-bar-counter.stl",
+          "sha256": "9e39037bcb96c8ef49d86172738d69bcd0b09bae52c2841e13592b7699215fa1",
+          "bytes": 23684
+        },
+        {
+          "path": "content/assets/commons-bar-counter/asset.json",
+          "sha256": "1c8be6ba95cb78b5626c45d498bb248d311202cc3baa1bc989a37af0504b337b",
+          "bytes": 5546
+        }
+      ]
+    },
+    {
+      "id": "commons-bar-stool",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-bar-stool/source/commons-bar-stool.glb",
+      "sourceSha256": "65f0305aa2a8b2c67e27f1e9c0cfa004bcd0b6b71d90712da678c10cf0e32909",
+      "assetMetadata": "content/assets/commons-bar-stool/asset.json",
+      "metadataSha256": "9537db5460a620ac1b62ffcf06d893a4c76f86041e3d1305906826d276fe1a5e",
+      "files": [
+        {
+          "path": "content/assets/commons-bar-stool/source/commons-bar-stool.glb",
+          "sha256": "65f0305aa2a8b2c67e27f1e9c0cfa004bcd0b6b71d90712da678c10cf0e32909",
+          "bytes": 8301196
+        },
+        {
+          "path": "content/assets/commons-bar-stool/source/commons-bar-stool.stl",
+          "sha256": "bc83ad6fff8a447c49add7a84b32732889582fb7a9f4e810891f9d5743f90a08",
+          "bytes": 20684
+        },
+        {
+          "path": "content/assets/commons-bar-stool/asset.json",
+          "sha256": "9537db5460a620ac1b62ffcf06d893a4c76f86041e3d1305906826d276fe1a5e",
+          "bytes": 3588
+        }
+      ]
+    },
+    {
+      "id": "commons-book-set",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-book-set/source/commons-book-set.glb",
+      "sourceSha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70",
+      "assetMetadata": "content/assets/commons-book-set/asset.json",
+      "metadataSha256": "3cd16b287ec74701e340d5b7a62c9959254f8fc183a0afe13645a96bce261f9f",
+      "files": [
+        {
+          "path": "content/assets/commons-book-set/source/commons-book-set.glb",
+          "sha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70",
+          "bytes": 8497636
+        },
+        {
+          "path": "content/assets/commons-book-set/source/commons-book-set.stl",
+          "sha256": "b3897a532713516864005988489e617ff060a1573cc2e01b39d56c7d34343361",
+          "bytes": 3684
+        },
+        {
+          "path": "content/assets/commons-book-set/asset.json",
+          "sha256": "3cd16b287ec74701e340d5b7a62c9959254f8fc183a0afe13645a96bce261f9f",
+          "bytes": 3683
+        }
+      ]
+    },
+    {
+      "id": "commons-bottle-set",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-bottle-set/source/commons-bottle-set.glb",
+      "sourceSha256": "594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297",
+      "assetMetadata": "content/assets/commons-bottle-set/asset.json",
+      "metadataSha256": "9f8055fa5a21635cc564b23ff4c447388d639f0447071bda7495bfee7f4f16e5",
+      "files": [
+        {
+          "path": "content/assets/commons-bottle-set/source/commons-bottle-set.glb",
+          "sha256": "594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297",
+          "bytes": 5832752
+        },
+        {
+          "path": "content/assets/commons-bottle-set/source/commons-bottle-set.stl",
+          "sha256": "74cf6010e998f246a48be1db3c07b99621fdff1c7dcbd4ff3d80b5986d0b1247",
+          "bytes": 36084
+        },
+        {
+          "path": "content/assets/commons-bottle-set/asset.json",
+          "sha256": "9f8055fa5a21635cc564b23ff4c447388d639f0447071bda7495bfee7f4f16e5",
+          "bytes": 4556
+        }
+      ]
+    },
+    {
+      "id": "commons-coffee-bag",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-coffee-bag/source/commons-coffee-bag.glb",
+      "sourceSha256": "b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe",
+      "assetMetadata": "content/assets/commons-coffee-bag/asset.json",
+      "metadataSha256": "016ed58bc4578049d4616352254f44407c2fd37727ed7c6d285d1ec3eebae8b6",
+      "files": [
+        {
+          "path": "content/assets/commons-coffee-bag/source/commons-coffee-bag.glb",
+          "sha256": "b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe",
+          "bytes": 5459584
+        },
+        {
+          "path": "content/assets/commons-coffee-bag/source/commons-coffee-bag.stl",
+          "sha256": "dbc7855b1d5b91b11c21620c7cc1b7ff837fb7c50e089232e22803f75f4c0fac",
+          "bytes": 6084
+        },
+        {
+          "path": "content/assets/commons-coffee-bag/asset.json",
+          "sha256": "016ed58bc4578049d4616352254f44407c2fd37727ed7c6d285d1ec3eebae8b6",
+          "bytes": 3258
+        }
+      ]
+    },
+    {
+      "id": "commons-coffee-cup",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-coffee-cup/source/commons-coffee-cup.glb",
+      "sourceSha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22",
+      "assetMetadata": "content/assets/commons-coffee-cup/asset.json",
+      "metadataSha256": "2d1021aeb03974b804baa007efc1e15ed8eb3b7f9fe24817ec74cff37b763064",
+      "files": [
+        {
+          "path": "content/assets/commons-coffee-cup/source/commons-coffee-cup.glb",
+          "sha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22",
+          "bytes": 16832
+        },
+        {
+          "path": "content/assets/commons-coffee-cup/source/commons-coffee-cup.stl",
+          "sha256": "0b7861d70cafaa8a15dd5979ba5097f74d5b3d8f6ab64ebe8d488361a8fa9a5f",
+          "bytes": 10884
+        },
+        {
+          "path": "content/assets/commons-coffee-cup/asset.json",
+          "sha256": "2d1021aeb03974b804baa007efc1e15ed8eb3b7f9fe24817ec74cff37b763064",
+          "bytes": 2905
+        }
+      ]
+    },
+    {
+      "id": "commons-coffee-grinder",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-coffee-grinder/source/commons-coffee-grinder.glb",
+      "sourceSha256": "f4a9ee51508b79bf56efcd2e4d20c056fe57b59ee0b5616ea6128caa0c5084bd",
+      "assetMetadata": "content/assets/commons-coffee-grinder/asset.json",
+      "metadataSha256": "b3a92faa6466497f0d99dcd8f228589fa2bd019902e336e46b7dd388c1941e81",
+      "files": [
+        {
+          "path": "content/assets/commons-coffee-grinder/source/commons-coffee-grinder.glb",
+          "sha256": "f4a9ee51508b79bf56efcd2e4d20c056fe57b59ee0b5616ea6128caa0c5084bd",
+          "bytes": 2568112
+        },
+        {
+          "path": "content/assets/commons-coffee-grinder/source/commons-coffee-grinder.stl",
+          "sha256": "e2dc83d675f6c9da123006e983155d2fff6a9254d56d91b834f9f98701c2eac8",
+          "bytes": 6084
+        },
+        {
+          "path": "content/assets/commons-coffee-grinder/asset.json",
+          "sha256": "b3a92faa6466497f0d99dcd8f228589fa2bd019902e336e46b7dd388c1941e81",
+          "bytes": 3075
+        }
+      ]
+    },
+    {
+      "id": "commons-display-plinth",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-display-plinth/source/commons-display-plinth.glb",
+      "sourceSha256": "f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d",
+      "assetMetadata": "content/assets/commons-display-plinth/asset.json",
+      "metadataSha256": "0f2d394af9765fe3abce2cf89bd9299dc1fba4ca8b2cb2f7ec8d7e06ffc86f7f",
+      "files": [
+        {
+          "path": "content/assets/commons-display-plinth/source/commons-display-plinth.glb",
+          "sha256": "f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d",
+          "bytes": 2614372
+        },
+        {
+          "path": "content/assets/commons-display-plinth/source/commons-display-plinth.stl",
+          "sha256": "da6788f2f71b0bff0f41162e9cd9a1d36a5e4ad29bdf7aee2cba0f60aad9997a",
+          "bytes": 44684
+        },
+        {
+          "path": "content/assets/commons-display-plinth/asset.json",
+          "sha256": "0f2d394af9765fe3abce2cf89bd9299dc1fba4ca8b2cb2f7ec8d7e06ffc86f7f",
+          "bytes": 3063
+        }
+      ]
+    },
+    {
+      "id": "commons-dj-controller",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-dj-controller/source/commons-dj-controller.glb",
+      "sourceSha256": "f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5",
+      "assetMetadata": "content/assets/commons-dj-controller/asset.json",
+      "metadataSha256": "0bb9371a8353a4290abdb947e31b93921b014e321fb885dc886496023cec7deb",
+      "files": [
+        {
+          "path": "content/assets/commons-dj-controller/source/commons-dj-controller.glb",
+          "sha256": "f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5",
+          "bytes": 7635592
+        },
+        {
+          "path": "content/assets/commons-dj-controller/source/commons-dj-controller.stl",
+          "sha256": "bfa6fc94616b8128a07c08da8368eba5a05ecec30d6f430490c9828146c438c3",
+          "bytes": 138484
+        },
+        {
+          "path": "content/assets/commons-dj-controller/asset.json",
+          "sha256": "0bb9371a8353a4290abdb947e31b93921b014e321fb885dc886496023cec7deb",
+          "bytes": 5935
+        }
+      ]
+    },
+    {
+      "id": "commons-dj-desk",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-dj-desk/source/commons-dj-desk.glb",
+      "sourceSha256": "0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa",
+      "assetMetadata": "content/assets/commons-dj-desk/asset.json",
+      "metadataSha256": "4253b1585dd0f89b1105bff34a95c7cd8dba8d6b3d1be2cf50c214f95cbd44fa",
+      "files": [
+        {
+          "path": "content/assets/commons-dj-desk/source/commons-dj-desk.glb",
+          "sha256": "0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa",
+          "bytes": 4864184
+        },
+        {
+          "path": "content/assets/commons-dj-desk/source/commons-dj-desk.stl",
+          "sha256": "87891176b799ff103bcda0b336009703b72ea4663ae49396fbbbc7474d77e7fe",
+          "bytes": 7284
+        },
+        {
+          "path": "content/assets/commons-dj-desk/asset.json",
+          "sha256": "4253b1585dd0f89b1105bff34a95c7cd8dba8d6b3d1be2cf50c214f95cbd44fa",
+          "bytes": 3355
+        }
+      ]
+    },
+    {
+      "id": "commons-equipment-rack",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-equipment-rack/source/commons-equipment-rack.glb",
+      "sourceSha256": "67e262e4a7b7cfdb1a4f6f81c66976b09323f3425f76e67261d1fe0d214c1f7a",
+      "assetMetadata": "content/assets/commons-equipment-rack/asset.json",
+      "metadataSha256": "235f2099532b498ad2894a8970cf663f2820244266286ef90b8cf32da70477cf",
+      "files": [
+        {
+          "path": "content/assets/commons-equipment-rack/source/commons-equipment-rack.glb",
+          "sha256": "67e262e4a7b7cfdb1a4f6f81c66976b09323f3425f76e67261d1fe0d214c1f7a",
+          "bytes": 5598264
+        },
+        {
+          "path": "content/assets/commons-equipment-rack/source/commons-equipment-rack.stl",
+          "sha256": "0a330532857cc80136a0ed16617768416d46e015f1dfcf280724d00176b3a26f",
+          "bytes": 27684
+        },
+        {
+          "path": "content/assets/commons-equipment-rack/asset.json",
+          "sha256": "235f2099532b498ad2894a8970cf663f2820244266286ef90b8cf32da70477cf",
+          "bytes": 5662
+        }
+      ]
+    },
+    {
+      "id": "commons-espresso-machine",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-espresso-machine/source/commons-espresso-machine.glb",
+      "sourceSha256": "23b8ddd1375e1f3f9d7e253edb64e234e4939edb8972dddd79bc9d297200e3e6",
+      "assetMetadata": "content/assets/commons-espresso-machine/asset.json",
+      "metadataSha256": "180dff363efd03e19952cc68135af22a2713b8d8b9341e3547cc052090ee29bd",
+      "files": [
+        {
+          "path": "content/assets/commons-espresso-machine/source/commons-espresso-machine.glb",
+          "sha256": "23b8ddd1375e1f3f9d7e253edb64e234e4939edb8972dddd79bc9d297200e3e6",
+          "bytes": 8023892
+        },
+        {
+          "path": "content/assets/commons-espresso-machine/source/commons-espresso-machine.stl",
+          "sha256": "76b51f3de6513bfa5b0fb49bf153089582e720280fbbb8ab79327b1a4d713559",
+          "bytes": 8884
+        },
+        {
+          "path": "content/assets/commons-espresso-machine/asset.json",
+          "sha256": "180dff363efd03e19952cc68135af22a2713b8d8b9341e3547cc052090ee29bd",
+          "bytes": 3672
+        }
+      ]
+    },
+    {
+      "id": "commons-floating-bookshelf",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-floating-bookshelf/source/commons-floating-bookshelf.glb",
+      "sourceSha256": "a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5",
+      "assetMetadata": "content/assets/commons-floating-bookshelf/asset.json",
+      "metadataSha256": "81736f2a613b07313a5462d3632cee198e7933bdea47d958951546251f92a5e1",
+      "files": [
+        {
+          "path": "content/assets/commons-floating-bookshelf/source/commons-floating-bookshelf.glb",
+          "sha256": "a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5",
+          "bytes": 8637644
+        },
+        {
+          "path": "content/assets/commons-floating-bookshelf/source/commons-floating-bookshelf.stl",
+          "sha256": "7ae3ab6b5e880ac51b25d3126a6b6384bea6c7c7c1366e3d073b4f334d3d2b83",
+          "bytes": 45084
+        },
+        {
+          "path": "content/assets/commons-floating-bookshelf/asset.json",
+          "sha256": "81736f2a613b07313a5462d3632cee198e7933bdea47d958951546251f92a5e1",
+          "bytes": 7090
+        }
+      ]
+    },
+    {
+      "id": "commons-halo-light",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-halo-light/source/commons-halo-light.glb",
+      "sourceSha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac",
+      "assetMetadata": "content/assets/commons-halo-light/asset.json",
+      "metadataSha256": "eede77e6697e597a6e1e244c1cf0929c637538b0d9c0c4960328a14185ca6303",
+      "files": [
+        {
+          "path": "content/assets/commons-halo-light/source/commons-halo-light.glb",
+          "sha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac",
+          "bytes": 2598924
+        },
+        {
+          "path": "content/assets/commons-halo-light/source/commons-halo-light.stl",
+          "sha256": "1df7d84dc7208839655c969fd89e3482f00dd30e9586ce305b4806dd4be8f7d6",
+          "bytes": 88084
+        },
+        {
+          "path": "content/assets/commons-halo-light/asset.json",
+          "sha256": "eede77e6697e597a6e1e244c1cf0929c637538b0d9c0c4960328a14185ca6303",
+          "bytes": 3069
+        }
+      ]
+    },
+    {
+      "id": "commons-leaf-planter",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-leaf-planter/source/commons-leaf-planter.glb",
+      "sourceSha256": "fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c",
+      "assetMetadata": "content/assets/commons-leaf-planter/asset.json",
+      "metadataSha256": "72994810f4d99db1c197a085f37165a4f6299a84a84337736237bcb64864c5f7",
+      "files": [
+        {
+          "path": "content/assets/commons-leaf-planter/source/commons-leaf-planter.glb",
+          "sha256": "fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c",
+          "bytes": 35536
+        },
+        {
+          "path": "content/assets/commons-leaf-planter/source/commons-leaf-planter.stl",
+          "sha256": "023d2c0282269b03beb2fe1c26117946ef185efb65b5cf8222bb71356e4b765f",
+          "bytes": 15084
+        },
+        {
+          "path": "content/assets/commons-leaf-planter/asset.json",
+          "sha256": "72994810f4d99db1c197a085f37165a4f6299a84a84337736237bcb64864c5f7",
+          "bytes": 3816
+        }
+      ]
+    },
+    {
+      "id": "commons-lounge-chair",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-lounge-chair/source/commons-lounge-chair.glb",
+      "sourceSha256": "80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b",
+      "assetMetadata": "content/assets/commons-lounge-chair/asset.json",
+      "metadataSha256": "7050ab9d47968192435bf839d96697ffb0f4701903b98ec74a72f679146fb520",
+      "files": [
+        {
+          "path": "content/assets/commons-lounge-chair/source/commons-lounge-chair.glb",
+          "sha256": "80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b",
+          "bytes": 5737468
+        },
+        {
+          "path": "content/assets/commons-lounge-chair/source/commons-lounge-chair.stl",
+          "sha256": "bbb999c8e828ebd1da84a78b2f50b79c89b63161bf02354f83a363ee21f07822",
+          "bytes": 16484
+        },
+        {
+          "path": "content/assets/commons-lounge-chair/asset.json",
+          "sha256": "7050ab9d47968192435bf839d96697ffb0f4701903b98ec74a72f679146fb520",
+          "bytes": 3449
+        }
+      ]
+    },
+    {
+      "id": "commons-lounge-sofa",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-lounge-sofa/source/commons-lounge-sofa.glb",
+      "sourceSha256": "b5ef4bb0bb41ce2a5cecf90fb34c037817e9f2ce85da67b0bbd7f24fbfff88ac",
+      "assetMetadata": "content/assets/commons-lounge-sofa/asset.json",
+      "metadataSha256": "a43443107a18054e6c287a77b011b91874e4c3743d2b80fe392848f3e8a0d9e0",
+      "files": [
+        {
+          "path": "content/assets/commons-lounge-sofa/source/commons-lounge-sofa.glb",
+          "sha256": "b5ef4bb0bb41ce2a5cecf90fb34c037817e9f2ce85da67b0bbd7f24fbfff88ac",
+          "bytes": 5752624
+        },
+        {
+          "path": "content/assets/commons-lounge-sofa/source/commons-lounge-sofa.stl",
+          "sha256": "1f95c3889a747a0aea196d4e87330020e02e2e96310c2b087d25047e0d9d285a",
+          "bytes": 27284
+        },
+        {
+          "path": "content/assets/commons-lounge-sofa/asset.json",
+          "sha256": "a43443107a18054e6c287a77b011b91874e4c3743d2b80fe392848f3e8a0d9e0",
+          "bytes": 3619
+        }
+      ]
+    },
+    {
+      "id": "commons-low-table",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-low-table/source/commons-low-table.glb",
+      "sourceSha256": "be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09",
+      "assetMetadata": "content/assets/commons-low-table/asset.json",
+      "metadataSha256": "373b96fac2d4f123d73affe40165e7826ad637f8a1fa24368af9693096e77ae9",
+      "files": [
+        {
+          "path": "content/assets/commons-low-table/source/commons-low-table.glb",
+          "sha256": "be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09",
+          "bytes": 7374364
+        },
+        {
+          "path": "content/assets/commons-low-table/source/commons-low-table.stl",
+          "sha256": "139031266e1535bdc72ed0975bb8238db96bf35d4360a6242944aeb0ea84f2da",
+          "bytes": 28284
+        },
+        {
+          "path": "content/assets/commons-low-table/asset.json",
+          "sha256": "373b96fac2d4f123d73affe40165e7826ad637f8a1fa24368af9693096e77ae9",
+          "bytes": 3643
+        }
+      ]
+    },
+    {
+      "id": "commons-pa-speaker",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-pa-speaker/source/commons-pa-speaker.glb",
+      "sourceSha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9",
+      "assetMetadata": "content/assets/commons-pa-speaker/asset.json",
+      "metadataSha256": "738e28548018b12b741f35d0946969995109815a9b1049896af141330985c574",
+      "files": [
+        {
+          "path": "content/assets/commons-pa-speaker/source/commons-pa-speaker.glb",
+          "sha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9",
+          "bytes": 2589024
+        },
+        {
+          "path": "content/assets/commons-pa-speaker/source/commons-pa-speaker.stl",
+          "sha256": "0888102f8658bcb2321d148c0a0c57c27c176699ecc1fa8eb4af17936b2e317d",
+          "bytes": 13884
+        },
+        {
+          "path": "content/assets/commons-pa-speaker/asset.json",
+          "sha256": "738e28548018b12b741f35d0946969995109815a9b1049896af141330985c574",
+          "bytes": 3669
+        }
+      ]
+    },
+    {
+      "id": "commons-pendant-light",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-pendant-light/source/commons-pendant-light.glb",
+      "sourceSha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+      "assetMetadata": "content/assets/commons-pendant-light/asset.json",
+      "metadataSha256": "21c797a5ec5b6a9510418d29895abf3a35b349852df7590af9839f911c313482",
+      "files": [
+        {
+          "path": "content/assets/commons-pendant-light/source/commons-pendant-light.glb",
+          "sha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+          "bytes": 2574080
+        },
+        {
+          "path": "content/assets/commons-pendant-light/source/commons-pendant-light.stl",
+          "sha256": "a3a0299818817dbf71c84fda9210cc3d87a74ada90fa61f2734656a3da9ac118",
+          "bytes": 10684
+        },
+        {
+          "path": "content/assets/commons-pendant-light/asset.json",
+          "sha256": "21c797a5ec5b6a9510418d29895abf3a35b349852df7590af9839f911c313482",
+          "bytes": 3119
+        }
+      ]
+    },
+    {
+      "id": "commons-poster-frame",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-poster-frame/source/commons-poster-frame.glb",
+      "sourceSha256": "49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee",
+      "assetMetadata": "content/assets/commons-poster-frame/asset.json",
+      "metadataSha256": "521d9cbc23041794d820303f03d87a7ae9bd26870eaefbd8920244eb2018b471",
+      "files": [
+        {
+          "path": "content/assets/commons-poster-frame/source/commons-poster-frame.glb",
+          "sha256": "49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee",
+          "bytes": 2487240
+        },
+        {
+          "path": "content/assets/commons-poster-frame/source/commons-poster-frame.stl",
+          "sha256": "7340aea8e2e42d5e729fe09e17070ef5b26b4bdc618d67427e3c033823c9eed4",
+          "bytes": 1284
+        },
+        {
+          "path": "content/assets/commons-poster-frame/asset.json",
+          "sha256": "521d9cbc23041794d820303f03d87a7ae9bd26870eaefbd8920244eb2018b471",
+          "bytes": 3112
+        }
+      ]
+    },
+    {
+      "id": "commons-round-stage",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-round-stage/source/commons-round-stage.glb",
+      "sourceSha256": "4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13",
+      "assetMetadata": "content/assets/commons-round-stage/asset.json",
+      "metadataSha256": "e4694299e68c0d9daac09a4ba36caf0dbf12fa094257f9876a18dc7a2aae0478",
+      "files": [
+        {
+          "path": "content/assets/commons-round-stage/source/commons-round-stage.glb",
+          "sha256": "4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13",
+          "bytes": 4943124
+        },
+        {
+          "path": "content/assets/commons-round-stage/source/commons-round-stage.stl",
+          "sha256": "ecfa82ace79b8ff3adb98cfff8a38bc6709c7e3f4b886a5e54e428d096bf7391",
+          "bytes": 76684
+        },
+        {
+          "path": "content/assets/commons-round-stage/asset.json",
+          "sha256": "e4694299e68c0d9daac09a4ba36caf0dbf12fa094257f9876a18dc7a2aae0478",
+          "bytes": 3289
+        }
+      ]
+    },
+    {
+      "id": "commons-round-table",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-round-table/source/commons-round-table.glb",
+      "sourceSha256": "72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048",
+      "assetMetadata": "content/assets/commons-round-table/asset.json",
+      "metadataSha256": "a1155f5bf0556c831958387554072dae217c32c9b4d93ffb7c6778153f2bd651",
+      "files": [
+        {
+          "path": "content/assets/commons-round-table/source/commons-round-table.glb",
+          "sha256": "72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048",
+          "bytes": 7374360
+        },
+        {
+          "path": "content/assets/commons-round-table/source/commons-round-table.stl",
+          "sha256": "b5912c318b5f6a05ca6a45c2e0ecc59682805290c72582cf56c7bf67fdd6db22",
+          "bytes": 28284
+        },
+        {
+          "path": "content/assets/commons-round-table/asset.json",
+          "sha256": "a1155f5bf0556c831958387554072dae217c32c9b4d93ffb7c6778153f2bd651",
+          "bytes": 3570
+        }
+      ]
+    },
+    {
+      "id": "commons-table-candle",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/commons-table-candle/source/commons-table-candle.glb",
+      "sourceSha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7",
+      "assetMetadata": "content/assets/commons-table-candle/asset.json",
+      "metadataSha256": "2c36822ac82b711d4cc2ecd55bacbd763883401c1f4f6958e756dc097f2e1e0c",
+      "files": [
+        {
+          "path": "content/assets/commons-table-candle/source/commons-table-candle.glb",
+          "sha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7",
+          "bytes": 7204
+        },
+        {
+          "path": "content/assets/commons-table-candle/source/commons-table-candle.stl",
+          "sha256": "e4b51c6c400dfc68760ade317ed8af66dcc809978d0f0952759ae99b29de04cb",
+          "bytes": 4084
+        },
+        {
+          "path": "content/assets/commons-table-candle/asset.json",
+          "sha256": "2c36822ac82b711d4cc2ecd55bacbd763883401c1f4f6958e756dc097f2e1e0c",
+          "bytes": 2881
+        }
+      ]
+    },
+    {
+      "id": "field-terminal",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/field-terminal/source/field-terminal.glb",
+      "sourceSha256": "fa34860230fb45295547c7157655cad09d2534961753c5291d590da01612f32f",
+      "assetMetadata": "content/assets/field-terminal/asset.json",
+      "metadataSha256": "a51769415db35efd636e2156aa445ce8cf66d60c5446cc6754f99573910f8d71",
+      "files": [
+        {
+          "path": "content/assets/field-terminal/source/field-terminal.glb",
+          "sha256": "fa34860230fb45295547c7157655cad09d2534961753c5291d590da01612f32f",
+          "bytes": 13332
+        },
+        {
+          "path": "content/assets/field-terminal/source/field-terminal.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/field-terminal/source/field-terminal.obj",
+          "sha256": "6d3ce5a4c9e273073531caf0509b26a4aaff2c7fd73ffab99a745fdff8897baa",
+          "bytes": 2701
+        },
+        {
+          "path": "content/assets/field-terminal/source/field-terminal.stl",
+          "sha256": "a758850f14e7edfec67943ddb9302b275b1fdcef9cc119e354fd475fcaaf7117",
+          "bytes": 4284
+        },
+        {
+          "path": "content/assets/field-terminal/asset.json",
+          "sha256": "a51769415db35efd636e2156aa445ce8cf66d60c5446cc6754f99573910f8d71",
+          "bytes": 1546
+        }
+      ]
+    },
+    {
+      "id": "garden-arch",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/garden-arch/source/garden-arch.glb",
+      "sourceSha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c",
+      "assetMetadata": "content/assets/garden-arch/asset.json",
+      "metadataSha256": "dbab6658eca0cb8d97984b10e29dd78aab51aa6c9abf02df52b2996282601677",
+      "files": [
+        {
+          "path": "content/assets/garden-arch/source/garden-arch.glb",
+          "sha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c",
+          "bytes": 23768
+        },
+        {
+          "path": "content/assets/garden-arch/source/garden-arch.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/garden-arch/source/garden-arch.obj",
+          "sha256": "63f5c1f5210296623c6fc1b4fadd628a18b6e6b1e56eac7e0774f45b99e14261",
+          "bytes": 5972
+        },
+        {
+          "path": "content/assets/garden-arch/source/garden-arch.stl",
+          "sha256": "9956d99d2f312af56df8b37c3bdd4cb8bdafa245fbd55a27a4bb9db768b92578",
+          "bytes": 10884
+        },
+        {
+          "path": "content/assets/garden-arch/asset.json",
+          "sha256": "dbab6658eca0cb8d97984b10e29dd78aab51aa6c9abf02df52b2996282601677",
+          "bytes": 1487
+        }
+      ]
+    },
+    {
+      "id": "market-crate",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/market-crate/source/market-crate.glb",
+      "sourceSha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55",
+      "assetMetadata": "content/assets/market-crate/asset.json",
+      "metadataSha256": "45830d59f7a3612d95a1a643d7a81b84739455904be158a96f9ddc5f890fe226",
+      "files": [
+        {
+          "path": "content/assets/market-crate/source/market-crate.glb",
+          "sha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55",
+          "bytes": 42340
+        },
+        {
+          "path": "content/assets/market-crate/source/market-crate.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/market-crate/source/market-crate.obj",
+          "sha256": "49727d591f4ca453abe7e44df619d4d979d0c974a4bb82c6eed64d5a080cf488",
+          "bytes": 9624
+        },
+        {
+          "path": "content/assets/market-crate/source/market-crate.stl",
+          "sha256": "19bcc6c4e9a3f7776e4464646fd0c9e0701b961a4427e8cc2563e4350014bb43",
+          "bytes": 14484
+        },
+        {
+          "path": "content/assets/market-crate/asset.json",
+          "sha256": "45830d59f7a3612d95a1a643d7a81b84739455904be158a96f9ddc5f890fe226",
+          "bytes": 1495
+        }
+      ]
+    },
+    {
+      "id": "slat-bench",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/slat-bench/source/slat-bench.glb",
+      "sourceSha256": "bb07fdd60b6f6068ac1a27b98f4cfd16ce2a1f78439b332257e4920a8152e4eb",
+      "assetMetadata": "content/assets/slat-bench/asset.json",
+      "metadataSha256": "2ea3467e35f56701a7f2944cbd1d7d7902e9a320989c14269530af45d7047898",
+      "files": [
+        {
+          "path": "content/assets/slat-bench/source/slat-bench.glb",
+          "sha256": "bb07fdd60b6f6068ac1a27b98f4cfd16ce2a1f78439b332257e4920a8152e4eb",
+          "bytes": 18344
+        },
+        {
+          "path": "content/assets/slat-bench/source/slat-bench.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/slat-bench/source/slat-bench.obj",
+          "sha256": "5a072c17e7f4e791e338e7aee76d8c822817db508766b6a37184040915e1fbec",
+          "bytes": 3835
+        },
+        {
+          "path": "content/assets/slat-bench/source/slat-bench.stl",
+          "sha256": "3229a4f3726aab08a713a88b40d8cf6d1fb5b52c84168d93ed8b4ef23d2b8b94",
+          "bytes": 6084
+        },
+        {
+          "path": "content/assets/slat-bench/asset.json",
+          "sha256": "2ea3467e35f56701a7f2944cbd1d7d7902e9a320989c14269530af45d7047898",
+          "bytes": 1509
+        }
+      ]
+    },
+    {
+      "id": "studio-chair",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/studio-chair/source/studio-chair.glb",
+      "sourceSha256": "f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5",
+      "assetMetadata": "content/assets/studio-chair/asset.json",
+      "metadataSha256": "b0c86adcb56322a978e5254e98aef89aa425b0eabbd16babaefd55e90f3a00c3",
+      "files": [
+        {
+          "path": "content/assets/studio-chair/source/studio-chair.glb",
+          "sha256": "f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5",
+          "bytes": 14912
+        },
+        {
+          "path": "content/assets/studio-chair/source/studio-chair.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/studio-chair/source/studio-chair.obj",
+          "sha256": "a526829bfb2851e626335e070eaba5de1169332cbcc261ab769d632cdad456fb",
+          "bytes": 3036
+        },
+        {
+          "path": "content/assets/studio-chair/source/studio-chair.stl",
+          "sha256": "7427155381a4db3fab3bc2fb630b5cf61ff34d848c7299a01d32623778478f3a",
+          "bytes": 4884
+        },
+        {
+          "path": "content/assets/studio-chair/asset.json",
+          "sha256": "b0c86adcb56322a978e5254e98aef89aa425b0eabbd16babaefd55e90f3a00c3",
+          "bytes": 1533
+        }
+      ]
+    },
+    {
+      "id": "terracotta-planter",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/terracotta-planter/source/terracotta-planter.glb",
+      "sourceSha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a",
+      "assetMetadata": "content/assets/terracotta-planter/asset.json",
+      "metadataSha256": "6b45fbdb5dc2a91b1f949906fa663b2602249c906fa7677cb64d4dff08b094f9",
+      "files": [
+        {
+          "path": "content/assets/terracotta-planter/source/terracotta-planter.glb",
+          "sha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a",
+          "bytes": 172052
+        },
+        {
+          "path": "content/assets/terracotta-planter/source/terracotta-planter.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/terracotta-planter/source/terracotta-planter.obj",
+          "sha256": "1ffd00dc58f12077ec928953e0090bfb27e0980b3985528472dc3edf69504856",
+          "bytes": 55500
+        },
+        {
+          "path": "content/assets/terracotta-planter/source/terracotta-planter.stl",
+          "sha256": "918906d4b0101348d2db6fd6fa1ac909050e1a1cbc3aa8f45513602567fba739",
+          "bytes": 88084
+        },
+        {
+          "path": "content/assets/terracotta-planter/asset.json",
+          "sha256": "6b45fbdb5dc2a91b1f949906fa663b2602249c906fa7677cb64d4dff08b094f9",
+          "bytes": 1542
+        }
+      ]
+    },
+    {
+      "id": "wayfinding-sign",
+      "version": "1.0.1",
+      "status": "public",
+      "sourceGLB": "content/assets/wayfinding-sign/source/wayfinding-sign.glb",
+      "sourceSha256": "7f44eeba72405af280222526f34e3ae1a62ac67f97516438c580899e01bcd44b",
+      "assetMetadata": "content/assets/wayfinding-sign/asset.json",
+      "metadataSha256": "2f6db74bdfddfea2f0c3eab5dab4fd0d0f5a82786e3cf808c1552c146edc9c5d",
+      "files": [
+        {
+          "path": "content/assets/wayfinding-sign/source/wayfinding-sign.glb",
+          "sha256": "7f44eeba72405af280222526f34e3ae1a62ac67f97516438c580899e01bcd44b",
+          "bytes": 139968
+        },
+        {
+          "path": "content/assets/wayfinding-sign/source/wayfinding-sign.mtl",
+          "sha256": "496a32308921c00b1b7e69919587bb24d83a6159585fb7e2b3317bc7c2c0823a",
+          "bytes": 306
+        },
+        {
+          "path": "content/assets/wayfinding-sign/source/wayfinding-sign.obj",
+          "sha256": "f084773796e0ac99ae2607a900db408e51268d35d724ace8ff9137aabd73eed8",
+          "bytes": 44617
+        },
+        {
+          "path": "content/assets/wayfinding-sign/source/wayfinding-sign.stl",
+          "sha256": "ca9267eda5b27a9a38f94ee4955f7a10725e47768a25684acd078694a77f2f50",
+          "bytes": 71084
+        },
+        {
+          "path": "content/assets/wayfinding-sign/asset.json",
+          "sha256": "2f6db74bdfddfea2f0c3eab5dab4fd0d0f5a82786e3cf808c1552c146edc9c5d",
+          "bytes": 1521
+        }
+      ]
+    },
+    {
+      "id": "yokocho-banquette",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-banquette/source/yokocho-banquette.glb",
+      "sourceSha256": "e86a62614cd4ca8275c37bb805a9709baff1ff59a4b7ed7be08adaa4de62525b",
+      "assetMetadata": "content/assets/yokocho-banquette/asset.json",
+      "metadataSha256": "ee57ae6dbade8bc50352c52c014a9297362a26a2e5169657ad79adc4b370d5a1",
+      "files": [
+        {
+          "path": "content/assets/yokocho-banquette/source/yokocho-banquette.glb",
+          "sha256": "e86a62614cd4ca8275c37bb805a9709baff1ff59a4b7ed7be08adaa4de62525b",
+          "bytes": 3527088
+        },
+        {
+          "path": "content/assets/yokocho-banquette/source/yokocho-banquette.stl",
+          "sha256": "a7470dd5daaf1d77c521cf606b2c2271dd2068a76df046d8ea8ba390921e456c",
+          "bytes": 73284
+        },
+        {
+          "path": "content/assets/yokocho-banquette/asset.json",
+          "sha256": "ee57ae6dbade8bc50352c52c014a9297362a26a2e5169657ad79adc4b370d5a1",
+          "bytes": 5689
+        }
+      ]
+    },
+    {
+      "id": "yokocho-bard-lyre-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-bard-lyre-sign/source/yokocho-bard-lyre-sign.glb",
+      "sourceSha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc",
+      "assetMetadata": "content/assets/yokocho-bard-lyre-sign/asset.json",
+      "metadataSha256": "e694d37b257e5162c5d87ea365cbfd19a6dd730c6ff24493b1e1356652b92431",
+      "files": [
+        {
+          "path": "content/assets/yokocho-bard-lyre-sign/source/yokocho-bard-lyre-sign.glb",
+          "sha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc",
+          "bytes": 64860
+        },
+        {
+          "path": "content/assets/yokocho-bard-lyre-sign/source/yokocho-bard-lyre-sign.stl",
+          "sha256": "49311fd81780846ea258496f877fb992cb43c091e65e49b6d2b000628fa0759b",
+          "bytes": 38284
+        },
+        {
+          "path": "content/assets/yokocho-bard-lyre-sign/asset.json",
+          "sha256": "e694d37b257e5162c5d87ea365cbfd19a6dd730c6ff24493b1e1356652b92431",
+          "bytes": 5117
+        }
+      ]
+    },
+    {
+      "id": "yokocho-booster-pump-skid",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-booster-pump-skid/source/yokocho-booster-pump-skid.glb",
+      "sourceSha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7",
+      "assetMetadata": "content/assets/yokocho-booster-pump-skid/asset.json",
+      "metadataSha256": "1a645cc2e1d28db8a75df7e76afea48205d6a0be5dc5c9f887ea694f8b5e168f",
+      "files": [
+        {
+          "path": "content/assets/yokocho-booster-pump-skid/source/yokocho-booster-pump-skid.glb",
+          "sha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7",
+          "bytes": 227136
+        },
+        {
+          "path": "content/assets/yokocho-booster-pump-skid/source/yokocho-booster-pump-skid.stl",
+          "sha256": "cab75848b6e5bd7aeb69f495029564014711fc240d011a0e0a273f40e5183c4d",
+          "bytes": 266684
+        },
+        {
+          "path": "content/assets/yokocho-booster-pump-skid/asset.json",
+          "sha256": "1a645cc2e1d28db8a75df7e76afea48205d6a0be5dc5c9f887ea694f8b5e168f",
+          "bytes": 5671
+        }
+      ]
+    },
+    {
+      "id": "yokocho-booth-table",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-booth-table/source/yokocho-booth-table.glb",
+      "sourceSha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a",
+      "assetMetadata": "content/assets/yokocho-booth-table/asset.json",
+      "metadataSha256": "6d571b195c0e361b68f893f552d137ac196d1650f26215bc903893ef516e9b65",
+      "files": [
+        {
+          "path": "content/assets/yokocho-booth-table/source/yokocho-booth-table.glb",
+          "sha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a",
+          "bytes": 51180
+        },
+        {
+          "path": "content/assets/yokocho-booth-table/source/yokocho-booth-table.stl",
+          "sha256": "4333899da759ef63de57e9a689809413a8eb0526cecf1ad9ce1d9f80266246e3",
+          "bytes": 38684
+        },
+        {
+          "path": "content/assets/yokocho-booth-table/asset.json",
+          "sha256": "6d571b195c0e361b68f893f552d137ac196d1650f26215bc903893ef516e9b65",
+          "bytes": 5336
+        }
+      ]
+    },
+    {
+      "id": "yokocho-bottle-keep-wall",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-bottle-keep-wall/source/yokocho-bottle-keep-wall.glb",
+      "sourceSha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2",
+      "assetMetadata": "content/assets/yokocho-bottle-keep-wall/asset.json",
+      "metadataSha256": "e19f37c8a2cd3a296afb815676fb83f3823d41c67389f863407a89d10852701f",
+      "files": [
+        {
+          "path": "content/assets/yokocho-bottle-keep-wall/source/yokocho-bottle-keep-wall.glb",
+          "sha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2",
+          "bytes": 4136436
+        },
+        {
+          "path": "content/assets/yokocho-bottle-keep-wall/source/yokocho-bottle-keep-wall.stl",
+          "sha256": "b5d7b5e79b3b971ce9c51195319c9948112798f673eabc741b158c3f0d695b77",
+          "bytes": 440984
+        },
+        {
+          "path": "content/assets/yokocho-bottle-keep-wall/asset.json",
+          "sha256": "e19f37c8a2cd3a296afb815676fb83f3823d41c67389f863407a89d10852701f",
+          "bytes": 6316
+        }
+      ]
+    },
+    {
+      "id": "yokocho-charcoal-stool-set",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-charcoal-stool-set/source/yokocho-charcoal-stool-set.glb",
+      "sourceSha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7",
+      "assetMetadata": "content/assets/yokocho-charcoal-stool-set/asset.json",
+      "metadataSha256": "0878a339bfefcba6b6026893f28a310d38d8bdba740625d11f0b5235eff3c9db",
+      "files": [
+        {
+          "path": "content/assets/yokocho-charcoal-stool-set/source/yokocho-charcoal-stool-set.glb",
+          "sha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7",
+          "bytes": 196300
+        },
+        {
+          "path": "content/assets/yokocho-charcoal-stool-set/source/yokocho-charcoal-stool-set.stl",
+          "sha256": "ce157807d684bb269a241f06a3d5f47a5ece39892f1fa3d2226531cfc488b202",
+          "bytes": 105684
+        },
+        {
+          "path": "content/assets/yokocho-charcoal-stool-set/asset.json",
+          "sha256": "0878a339bfefcba6b6026893f28a310d38d8bdba740625d11f0b5235eff3c9db",
+          "bytes": 5132
+        }
+      ]
+    },
+    {
+      "id": "yokocho-club-armchair",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-club-armchair/source/yokocho-club-armchair.glb",
+      "sourceSha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53",
+      "assetMetadata": "content/assets/yokocho-club-armchair/asset.json",
+      "metadataSha256": "5e73fe714062f9a9720a143eb844f1b38564ae83fcb8df2e01191394442ceebc",
+      "files": [
+        {
+          "path": "content/assets/yokocho-club-armchair/source/yokocho-club-armchair.glb",
+          "sha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53",
+          "bytes": 33028
+        },
+        {
+          "path": "content/assets/yokocho-club-armchair/source/yokocho-club-armchair.stl",
+          "sha256": "136616872079af6b75818804f8f573be45757fb2a664c09ce01a2cd58cd3898b",
+          "bytes": 15684
+        },
+        {
+          "path": "content/assets/yokocho-club-armchair/asset.json",
+          "sha256": "5e73fe714062f9a9720a143eb844f1b38564ae83fcb8df2e01191394442ceebc",
+          "bytes": 5138
+        }
+      ]
+    },
+    {
+      "id": "yokocho-cocktail-stool",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-cocktail-stool/source/yokocho-cocktail-stool.glb",
+      "sourceSha256": "75aedc315176f2431a992d52275530b9fb201f6c8c258f5a183e3be07364a5b2",
+      "assetMetadata": "content/assets/yokocho-cocktail-stool/asset.json",
+      "metadataSha256": "6dde00d310f2e3b386545c26660580a5a5b411efc8333be8740d27eefc556390",
+      "files": [
+        {
+          "path": "content/assets/yokocho-cocktail-stool/source/yokocho-cocktail-stool.glb",
+          "sha256": "75aedc315176f2431a992d52275530b9fb201f6c8c258f5a183e3be07364a5b2",
+          "bytes": 33496
+        },
+        {
+          "path": "content/assets/yokocho-cocktail-stool/source/yokocho-cocktail-stool.stl",
+          "sha256": "e311dd8d3e2b2615d2efa81db0453aab8a7869dc53e13a20370b8d1a063d4d51",
+          "bytes": 16884
+        },
+        {
+          "path": "content/assets/yokocho-cocktail-stool/asset.json",
+          "sha256": "6dde00d310f2e3b386545c26660580a5a5b411efc8333be8740d27eefc556390",
+          "bytes": 5041
+        }
+      ]
+    },
+    {
+      "id": "yokocho-confectioner-stool-set",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-confectioner-stool-set/source/yokocho-confectioner-stool-set.glb",
+      "sourceSha256": "0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d",
+      "assetMetadata": "content/assets/yokocho-confectioner-stool-set/asset.json",
+      "metadataSha256": "dbc44c9949a439e21b5ef0732a566f3eb309e07c47488f3a53570001a45f0786",
+      "files": [
+        {
+          "path": "content/assets/yokocho-confectioner-stool-set/source/yokocho-confectioner-stool-set.glb",
+          "sha256": "0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d",
+          "bytes": 77688
+        },
+        {
+          "path": "content/assets/yokocho-confectioner-stool-set/source/yokocho-confectioner-stool-set.stl",
+          "sha256": "141315dc22f6f60d46cab09aa6234aaec21adf53218ff031228129122042a67f",
+          "bytes": 115284
+        },
+        {
+          "path": "content/assets/yokocho-confectioner-stool-set/asset.json",
+          "sha256": "dbc44c9949a439e21b5ef0732a566f3eb309e07c47488f3a53570001a45f0786",
+          "bytes": 5217
+        }
+      ]
+    },
+    {
+      "id": "yokocho-dragon-ember-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-dragon-ember-sign/source/yokocho-dragon-ember-sign.glb",
+      "sourceSha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0",
+      "assetMetadata": "content/assets/yokocho-dragon-ember-sign/asset.json",
+      "metadataSha256": "3dfd621d956a511f28d09d46fe347d64b933e6bec6be90377d8f8b475f9b3a9c",
+      "files": [
+        {
+          "path": "content/assets/yokocho-dragon-ember-sign/source/yokocho-dragon-ember-sign.glb",
+          "sha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0",
+          "bytes": 69308
+        },
+        {
+          "path": "content/assets/yokocho-dragon-ember-sign/source/yokocho-dragon-ember-sign.stl",
+          "sha256": "94cca53dd1e884656012833f65c83f18b63c6fa7af347e5caaf716aa0b83b807",
+          "bytes": 33884
+        },
+        {
+          "path": "content/assets/yokocho-dragon-ember-sign/asset.json",
+          "sha256": "3dfd621d956a511f28d09d46fe347d64b933e6bec6be90377d8f8b475f9b3a9c",
+          "bytes": 5468
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-display-frame",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-entry-display-frame/source/yokocho-entry-display-frame.glb",
+      "sourceSha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2",
+      "assetMetadata": "content/assets/yokocho-entry-display-frame/asset.json",
+      "metadataSha256": "666f8f7131e875d75890ef1e9c5958fc0066d319d37bdd6d449ea4cfea3cc1e0",
+      "files": [
+        {
+          "path": "content/assets/yokocho-entry-display-frame/source/yokocho-entry-display-frame.glb",
+          "sha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2",
+          "bytes": 250552
+        },
+        {
+          "path": "content/assets/yokocho-entry-display-frame/source/yokocho-entry-display-frame.stl",
+          "sha256": "8d826cac92fb5223e2276d0f8b83aef8e8adc861f6e4a7e2cfa35c0bae5ccaa4",
+          "bytes": 30284
+        },
+        {
+          "path": "content/assets/yokocho-entry-display-frame/asset.json",
+          "sha256": "666f8f7131e875d75890ef1e9c5958fc0066d319d37bdd6d449ea4cfea3cc1e0",
+          "bytes": 7029
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-guideboard",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-entry-guideboard/source/yokocho-entry-guideboard.glb",
+      "sourceSha256": "82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4",
+      "assetMetadata": "content/assets/yokocho-entry-guideboard/asset.json",
+      "metadataSha256": "691bf4e9a7c6af8022a52ab67d95482fad0e75ac7f62c8ca92cf2fff0fa7a744",
+      "files": [
+        {
+          "path": "content/assets/yokocho-entry-guideboard/source/yokocho-entry-guideboard.glb",
+          "sha256": "82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4",
+          "bytes": 381596
+        },
+        {
+          "path": "content/assets/yokocho-entry-guideboard/source/yokocho-entry-guideboard.stl",
+          "sha256": "af6fdb9a61ad0cd80addf0b109b5c8658b4d6b227e777bb16f85d692fe6b0ec2",
+          "bytes": 30184
+        },
+        {
+          "path": "content/assets/yokocho-entry-guideboard/asset.json",
+          "sha256": "691bf4e9a7c6af8022a52ab67d95482fad0e75ac7f62c8ca92cf2fff0fa7a744",
+          "bytes": 6227
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-log-bench",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-entry-log-bench/source/yokocho-entry-log-bench.glb",
+      "sourceSha256": "b3efdc9cc7f12a43b859993caf0b661e3b341210666ac17cc367c0f9ced1616b",
+      "assetMetadata": "content/assets/yokocho-entry-log-bench/asset.json",
+      "metadataSha256": "b52d28780bd6b04cacb8c2024c879d8e0f903d14ecc6d5a1ec6e99c6a366984e",
+      "files": [
+        {
+          "path": "content/assets/yokocho-entry-log-bench/source/yokocho-entry-log-bench.glb",
+          "sha256": "b3efdc9cc7f12a43b859993caf0b661e3b341210666ac17cc367c0f9ced1616b",
+          "bytes": 590152
+        },
+        {
+          "path": "content/assets/yokocho-entry-log-bench/source/yokocho-entry-log-bench.stl",
+          "sha256": "20b41ea12eae4ca04a0575df9e8ef797608d1d226f3513c5cb58dfe8a75fff98",
+          "bytes": 20284
+        },
+        {
+          "path": "content/assets/yokocho-entry-log-bench/asset.json",
+          "sha256": "b52d28780bd6b04cacb8c2024c879d8e0f903d14ecc6d5a1ec6e99c6a366984e",
+          "bytes": 6050
+        }
+      ]
+    },
+    {
+      "id": "yokocho-entry-stump-table",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-entry-stump-table/source/yokocho-entry-stump-table.glb",
+      "sourceSha256": "95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9",
+      "assetMetadata": "content/assets/yokocho-entry-stump-table/asset.json",
+      "metadataSha256": "1af43f6fa7750cc97f5e35fd838327cb9768c1a91329b48aee6c686956909421",
+      "files": [
+        {
+          "path": "content/assets/yokocho-entry-stump-table/source/yokocho-entry-stump-table.glb",
+          "sha256": "95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9",
+          "bytes": 581456
+        },
+        {
+          "path": "content/assets/yokocho-entry-stump-table/source/yokocho-entry-stump-table.stl",
+          "sha256": "332c52fe09a66f7e1a8b3dfc982ac7b43b9771ac9dfcda05741bb59d460a0aec",
+          "bytes": 12484
+        },
+        {
+          "path": "content/assets/yokocho-entry-stump-table/asset.json",
+          "sha256": "1af43f6fa7750cc97f5e35fd838327cb9768c1a91329b48aee6c686956909421",
+          "bytes": 5540
+        }
+      ]
+    },
+    {
+      "id": "yokocho-geometric-backbar",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-geometric-backbar/source/yokocho-geometric-backbar.glb",
+      "sourceSha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d",
+      "assetMetadata": "content/assets/yokocho-geometric-backbar/asset.json",
+      "metadataSha256": "5379a687c83d424711665e60d69989665d90de030fd379883cc55ed368e88d6d",
+      "files": [
+        {
+          "path": "content/assets/yokocho-geometric-backbar/source/yokocho-geometric-backbar.glb",
+          "sha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d",
+          "bytes": 617008
+        },
+        {
+          "path": "content/assets/yokocho-geometric-backbar/source/yokocho-geometric-backbar.stl",
+          "sha256": "ebe6352a7bc779c8989b5cef3e724f90993797c1747636e4d41d9aebe8f938c3",
+          "bytes": 317584
+        },
+        {
+          "path": "content/assets/yokocho-geometric-backbar/asset.json",
+          "sha256": "5379a687c83d424711665e60d69989665d90de030fd379883cc55ed368e88d6d",
+          "bytes": 5708
+        }
+      ]
+    },
+    {
+      "id": "yokocho-listening-chair",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-listening-chair/source/yokocho-listening-chair.glb",
+      "sourceSha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557",
+      "assetMetadata": "content/assets/yokocho-listening-chair/asset.json",
+      "metadataSha256": "d32ce2b3cb09eb05e9a4d7cd484edbd5e4425c136a646e619de3c70f88b496c8",
+      "files": [
+        {
+          "path": "content/assets/yokocho-listening-chair/source/yokocho-listening-chair.glb",
+          "sha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557",
+          "bytes": 3468912
+        },
+        {
+          "path": "content/assets/yokocho-listening-chair/source/yokocho-listening-chair.stl",
+          "sha256": "8943a9c5af4269ed3357d077addc0fe3217565ef57f7c05d5b11f3d195af6e0e",
+          "bytes": 11084
+        },
+        {
+          "path": "content/assets/yokocho-listening-chair/asset.json",
+          "sha256": "d32ce2b3cb09eb05e9a4d7cd484edbd5e4425c136a646e619de3c70f88b496c8",
+          "bytes": 5698
+        }
+      ]
+    },
+    {
+      "id": "yokocho-listening-counter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-listening-counter/source/yokocho-listening-counter.glb",
+      "sourceSha256": "83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868",
+      "assetMetadata": "content/assets/yokocho-listening-counter/asset.json",
+      "metadataSha256": "57462ed3f4530f70ac727fe637da6ae7264212007d61467d1acc187ee37130f4",
+      "files": [
+        {
+          "path": "content/assets/yokocho-listening-counter/source/yokocho-listening-counter.glb",
+          "sha256": "83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868",
+          "bytes": 64168
+        },
+        {
+          "path": "content/assets/yokocho-listening-counter/source/yokocho-listening-counter.stl",
+          "sha256": "8b685c21f7bb74d424615af719f889438686b6f63e2ba97e4f19dea1e8961b6f",
+          "bytes": 45284
+        },
+        {
+          "path": "content/assets/yokocho-listening-counter/asset.json",
+          "sha256": "57462ed3f4530f70ac727fe637da6ae7264212007d61467d1acc187ee37130f4",
+          "bytes": 5660
+        }
+      ]
+    },
+    {
+      "id": "yokocho-lounge-table",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-lounge-table/source/yokocho-lounge-table.glb",
+      "sourceSha256": "eacd273d7c5a05999bc890e7c4bb4dc4c7040cbc3e26ca558faecd99d55c0f4b",
+      "assetMetadata": "content/assets/yokocho-lounge-table/asset.json",
+      "metadataSha256": "d75bdc0234235248522968c6359cd3e776cef0551df76fbdd4c910f4a9a082c0",
+      "files": [
+        {
+          "path": "content/assets/yokocho-lounge-table/source/yokocho-lounge-table.glb",
+          "sha256": "eacd273d7c5a05999bc890e7c4bb4dc4c7040cbc3e26ca558faecd99d55c0f4b",
+          "bytes": 27400
+        },
+        {
+          "path": "content/assets/yokocho-lounge-table/source/yokocho-lounge-table.stl",
+          "sha256": "d9a0b17acedc5a73350ca6fba5d976c6aaed67044631f2e022f53615b8e05c43",
+          "bytes": 24084
+        },
+        {
+          "path": "content/assets/yokocho-lounge-table/asset.json",
+          "sha256": "d75bdc0234235248522968c6359cd3e776cef0551df76fbdd4c910f4a9a082c0",
+          "bytes": 5306
+        }
+      ]
+    },
+    {
+      "id": "yokocho-medallion-chandelier",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-medallion-chandelier/source/yokocho-medallion-chandelier.glb",
+      "sourceSha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0",
+      "assetMetadata": "content/assets/yokocho-medallion-chandelier/asset.json",
+      "metadataSha256": "3863a3efcf186d2542a8ac3664457e72c18226733c367b913ea4aecb73bb0ba1",
+      "files": [
+        {
+          "path": "content/assets/yokocho-medallion-chandelier/source/yokocho-medallion-chandelier.glb",
+          "sha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0",
+          "bytes": 36376
+        },
+        {
+          "path": "content/assets/yokocho-medallion-chandelier/source/yokocho-medallion-chandelier.stl",
+          "sha256": "4b8542490f9ab3a4dbd37799d10e573b4eead1e2ccd45f922e699d15439ab7d8",
+          "bytes": 47884
+        },
+        {
+          "path": "content/assets/yokocho-medallion-chandelier/asset.json",
+          "sha256": "3863a3efcf186d2542a8ac3664457e72c18226733c367b913ea4aecb73bb0ba1",
+          "bytes": 5421
+        }
+      ]
+    },
+    {
+      "id": "yokocho-mixology-tools",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-mixology-tools/source/yokocho-mixology-tools.glb",
+      "sourceSha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3",
+      "assetMetadata": "content/assets/yokocho-mixology-tools/asset.json",
+      "metadataSha256": "06e664a0452729de57bd2d571457a9fe103ce3a8a5796fd3df46ecdab81376da",
+      "files": [
+        {
+          "path": "content/assets/yokocho-mixology-tools/source/yokocho-mixology-tools.glb",
+          "sha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3",
+          "bytes": 30248
+        },
+        {
+          "path": "content/assets/yokocho-mixology-tools/source/yokocho-mixology-tools.stl",
+          "sha256": "464d221dcea925fe326e1d41a2c85ea57f5d60ae1800c40397a87456eff0ba2b",
+          "bytes": 32284
+        },
+        {
+          "path": "content/assets/yokocho-mixology-tools/asset.json",
+          "sha256": "06e664a0452729de57bd2d571457a9fe103ce3a8a5796fd3df46ecdab81376da",
+          "bytes": 5307
+        }
+      ]
+    },
+    {
+      "id": "yokocho-moon-tea-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-moon-tea-sign/source/yokocho-moon-tea-sign.glb",
+      "sourceSha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2",
+      "assetMetadata": "content/assets/yokocho-moon-tea-sign/asset.json",
+      "metadataSha256": "cd6804a9bfbd09004f06c52025bde67f4aeb56afc9f1a6fb9e616cc216f90521",
+      "files": [
+        {
+          "path": "content/assets/yokocho-moon-tea-sign/source/yokocho-moon-tea-sign.glb",
+          "sha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2",
+          "bytes": 134404
+        },
+        {
+          "path": "content/assets/yokocho-moon-tea-sign/source/yokocho-moon-tea-sign.stl",
+          "sha256": "2c56d28c0fd8ef75946f9a8a7dedc3c93e549960eb29f59b980f96e6ee4cde06",
+          "bytes": 71684
+        },
+        {
+          "path": "content/assets/yokocho-moon-tea-sign/asset.json",
+          "sha256": "cd6804a9bfbd09004f06c52025bde67f4aeb56afc9f1a6fb9e616cc216f90521",
+          "bytes": 5319
+        }
+      ]
+    },
+    {
+      "id": "yokocho-noh-pavilion",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-noh-pavilion/source/yokocho-noh-pavilion.glb",
+      "sourceSha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+      "assetMetadata": "content/assets/yokocho-noh-pavilion/asset.json",
+      "metadataSha256": "403689e80500b77af382165c3bf798f3200c20aa25226160b4eee0f0adc1610f",
+      "files": [
+        {
+          "path": "content/assets/yokocho-noh-pavilion/source/yokocho-noh-pavilion.glb",
+          "sha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+          "bytes": 7688928
+        },
+        {
+          "path": "content/assets/yokocho-noh-pavilion/source/yokocho-noh-pavilion.stl",
+          "sha256": "f9f4582ff38e16904ecc491a726b7f0525b42b658bfbc6b64a45353883b1af40",
+          "bytes": 1689084
+        },
+        {
+          "path": "content/assets/yokocho-noh-pavilion/asset.json",
+          "sha256": "403689e80500b77af382165c3bf798f3200c20aa25226160b4eee0f0adc1610f",
+          "bytes": 7362
+        }
+      ]
+    },
+    {
+      "id": "yokocho-noodle-guild-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-noodle-guild-sign/source/yokocho-noodle-guild-sign.glb",
+      "sourceSha256": "28e9e28a43a1ceb37730cfe3be778b295468367a109e02227f6b1701f8a8270e",
+      "assetMetadata": "content/assets/yokocho-noodle-guild-sign/asset.json",
+      "metadataSha256": "707af0858954f63b1435e9802f2790cc8d4e10b8c1ec207241d40a25b13aec72",
+      "files": [
+        {
+          "path": "content/assets/yokocho-noodle-guild-sign/source/yokocho-noodle-guild-sign.glb",
+          "sha256": "28e9e28a43a1ceb37730cfe3be778b295468367a109e02227f6b1701f8a8270e",
+          "bytes": 4619736
+        },
+        {
+          "path": "content/assets/yokocho-noodle-guild-sign/source/yokocho-noodle-guild-sign.stl",
+          "sha256": "318be2f5d029e6225efb71adb49e79980ece3cd558230d8f39cfda824b39e70f",
+          "bytes": 47884
+        },
+        {
+          "path": "content/assets/yokocho-noodle-guild-sign/asset.json",
+          "sha256": "707af0858954f63b1435e9802f2790cc8d4e10b8c1ec207241d40a25b13aec72",
+          "bytes": 6586
+        }
+      ]
+    },
+    {
+      "id": "yokocho-noodle-stool-set",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-noodle-stool-set/source/yokocho-noodle-stool-set.glb",
+      "sourceSha256": "594837b9aa9a1a54ee3c47122c752da78530591ccb82281cdeb1423e6d1f0d2a",
+      "assetMetadata": "content/assets/yokocho-noodle-stool-set/asset.json",
+      "metadataSha256": "89d1c1a36adc4a672ff421ed85551f0bcc72a79c301769133b1a4209fe6b6cde",
+      "files": [
+        {
+          "path": "content/assets/yokocho-noodle-stool-set/source/yokocho-noodle-stool-set.glb",
+          "sha256": "594837b9aa9a1a54ee3c47122c752da78530591ccb82281cdeb1423e6d1f0d2a",
+          "bytes": 145792
+        },
+        {
+          "path": "content/assets/yokocho-noodle-stool-set/source/yokocho-noodle-stool-set.stl",
+          "sha256": "d1d28bb9f2bc50adc804c60c477211fed5db28332b3f5bf722e87513467d5819",
+          "bytes": 216084
+        },
+        {
+          "path": "content/assets/yokocho-noodle-stool-set/asset.json",
+          "sha256": "89d1c1a36adc4a672ff421ed85551f0bcc72a79c301769133b1a4209fe6b6cde",
+          "bytes": 5097
+        }
+      ]
+    },
+    {
+      "id": "yokocho-oden-bench-set",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-oden-bench-set/source/yokocho-oden-bench-set.glb",
+      "sourceSha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261",
+      "assetMetadata": "content/assets/yokocho-oden-bench-set/asset.json",
+      "metadataSha256": "7cd5c7b30e05f194745d21b76c4edec9a1829635548561677f11f966aef61332",
+      "files": [
+        {
+          "path": "content/assets/yokocho-oden-bench-set/source/yokocho-oden-bench-set.glb",
+          "sha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261",
+          "bytes": 1679528
+        },
+        {
+          "path": "content/assets/yokocho-oden-bench-set/source/yokocho-oden-bench-set.stl",
+          "sha256": "ba59c25b4e925146c830b7e507673750bf984d3aa13f2d66609569dda0756c50",
+          "bytes": 35684
+        },
+        {
+          "path": "content/assets/yokocho-oden-bench-set/asset.json",
+          "sha256": "7cd5c7b30e05f194745d21b76c4edec9a1829635548561677f11f966aef61332",
+          "bytes": 5536
+        }
+      ]
+    },
+    {
+      "id": "yokocho-pendant-ceiling",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-pendant-ceiling/source/yokocho-pendant-ceiling.glb",
+      "sourceSha256": "766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c",
+      "assetMetadata": "content/assets/yokocho-pendant-ceiling/asset.json",
+      "metadataSha256": "b0b489f1e61c71a8550b96684de6a18a0745bb4325681c87679908cc6d0c20ab",
+      "files": [
+        {
+          "path": "content/assets/yokocho-pendant-ceiling/source/yokocho-pendant-ceiling.glb",
+          "sha256": "766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c",
+          "bytes": 80468
+        },
+        {
+          "path": "content/assets/yokocho-pendant-ceiling/source/yokocho-pendant-ceiling.stl",
+          "sha256": "1cbe8379f6066e3554333f0480b4ec58994816575f1f349232b9cfbe723554ef",
+          "bytes": 66684
+        },
+        {
+          "path": "content/assets/yokocho-pendant-ceiling/asset.json",
+          "sha256": "b0b489f1e61c71a8550b96684de6a18a0745bb4325681c87679908cc6d0c20ab",
+          "bytes": 5309
+        }
+      ]
+    },
+    {
+      "id": "yokocho-record-library",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-record-library/source/yokocho-record-library.glb",
+      "sourceSha256": "94d87bd5beee4b41550767ad9ce6a6dc4b767381586787eb67c8f1960c14d651",
+      "assetMetadata": "content/assets/yokocho-record-library/asset.json",
+      "metadataSha256": "ef32e9f2a0119e45805a8df13ac917f4e934460377b2ac1bc52f9c1873521e3e",
+      "files": [
+        {
+          "path": "content/assets/yokocho-record-library/source/yokocho-record-library.glb",
+          "sha256": "94d87bd5beee4b41550767ad9ce6a6dc4b767381586787eb67c8f1960c14d651",
+          "bytes": 453728
+        },
+        {
+          "path": "content/assets/yokocho-record-library/source/yokocho-record-library.stl",
+          "sha256": "304c6c1df3502f606a4b07f01c8423d581078fc5ced92913ea1c6cb431487849",
+          "bytes": 42784
+        },
+        {
+          "path": "content/assets/yokocho-record-library/asset.json",
+          "sha256": "ef32e9f2a0119e45805a8df13ac917f4e934460377b2ac1bc52f9c1873521e3e",
+          "bytes": 5565
+        }
+      ]
+    },
+    {
+      "id": "yokocho-snack-chair",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-snack-chair/source/yokocho-snack-chair.glb",
+      "sourceSha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb",
+      "assetMetadata": "content/assets/yokocho-snack-chair/asset.json",
+      "metadataSha256": "4004a3e39fe00af7734e8c3a4e8913ac5104fe3fe632cff45dc94242e9de823f",
+      "files": [
+        {
+          "path": "content/assets/yokocho-snack-chair/source/yokocho-snack-chair.glb",
+          "sha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb",
+          "bytes": 3480380
+        },
+        {
+          "path": "content/assets/yokocho-snack-chair/source/yokocho-snack-chair.stl",
+          "sha256": "7569e9075819fc9a624ae1bb5c682dad9cfbc5779c6e4d2ae47261e8027e5757",
+          "bytes": 29084
+        },
+        {
+          "path": "content/assets/yokocho-snack-chair/asset.json",
+          "sha256": "4004a3e39fe00af7734e8c3a4e8913ac5104fe3fe632cff45dc94242e9de823f",
+          "bytes": 5661
+        }
+      ]
+    },
+    {
+      "id": "yokocho-snack-counter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-snack-counter/source/yokocho-snack-counter.glb",
+      "sourceSha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42",
+      "assetMetadata": "content/assets/yokocho-snack-counter/asset.json",
+      "metadataSha256": "8a5b4ae7c0b1022abb4b51098c428b95f2d8e8ad6fd689645d95ebbb41ea4ced",
+      "files": [
+        {
+          "path": "content/assets/yokocho-snack-counter/source/yokocho-snack-counter.glb",
+          "sha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42",
+          "bytes": 3536912
+        },
+        {
+          "path": "content/assets/yokocho-snack-counter/source/yokocho-snack-counter.stl",
+          "sha256": "5af1753d34bf68036c5dd2e3813954d7fe07ef8356df15b8ca46cfcc9d625c7e",
+          "bytes": 65884
+        },
+        {
+          "path": "content/assets/yokocho-snack-counter/asset.json",
+          "sha256": "8a5b4ae7c0b1022abb4b51098c428b95f2d8e8ad6fd689645d95ebbb41ea4ced",
+          "bytes": 6235
+        }
+      ]
+    },
+    {
+      "id": "yokocho-star-distillery-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-star-distillery-sign/source/yokocho-star-distillery-sign.glb",
+      "sourceSha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b",
+      "assetMetadata": "content/assets/yokocho-star-distillery-sign/asset.json",
+      "metadataSha256": "93a70f2bdcf265ad01f68415106b98f3201cab0aa8e7b68352f6956ca1873f76",
+      "files": [
+        {
+          "path": "content/assets/yokocho-star-distillery-sign/source/yokocho-star-distillery-sign.glb",
+          "sha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b",
+          "bytes": 89020
+        },
+        {
+          "path": "content/assets/yokocho-star-distillery-sign/source/yokocho-star-distillery-sign.stl",
+          "sha256": "233bb8108df3c49900a66e03dc980a683e90a36c6ec68ba3b7b603ab16fb1819",
+          "bytes": 42284
+        },
+        {
+          "path": "content/assets/yokocho-star-distillery-sign/asset.json",
+          "sha256": "93a70f2bdcf265ad01f68415106b98f3201cab0aa8e7b68352f6956ca1873f76",
+          "bytes": 5365
+        }
+      ]
+    },
+    {
+      "id": "yokocho-tea-furniture-set",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-tea-furniture-set/source/yokocho-tea-furniture-set.glb",
+      "sourceSha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5",
+      "assetMetadata": "content/assets/yokocho-tea-furniture-set/asset.json",
+      "metadataSha256": "ac050d332ba8186d22c9edd6ddd77762118385cd6c0cb9587949484f359899b7",
+      "files": [
+        {
+          "path": "content/assets/yokocho-tea-furniture-set/source/yokocho-tea-furniture-set.glb",
+          "sha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5",
+          "bytes": 1784796
+        },
+        {
+          "path": "content/assets/yokocho-tea-furniture-set/source/yokocho-tea-furniture-set.stl",
+          "sha256": "2bbe96cfa73b3d3b4277c3f42c4ffbc88e9b44246bc30922d619b9fa1c579bb9",
+          "bytes": 98884
+        },
+        {
+          "path": "content/assets/yokocho-tea-furniture-set/asset.json",
+          "sha256": "ac050d332ba8186d22c9edd6ddd77762118385cd6c0cb9587949484f359899b7",
+          "bytes": 5480
+        }
+      ]
+    },
+    {
+      "id": "yokocho-telecom-mast",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-telecom-mast/source/yokocho-telecom-mast.glb",
+      "sourceSha256": "e0fe0d1aebe2692f597e5f73c438385c2d19d1ed4d5dac75721ec3cc130f8b54",
+      "assetMetadata": "content/assets/yokocho-telecom-mast/asset.json",
+      "metadataSha256": "79a9402b04b1d6478643ae07411530dfa9e9223cdf2b07c5a91148f15e6db1a8",
+      "files": [
+        {
+          "path": "content/assets/yokocho-telecom-mast/source/yokocho-telecom-mast.glb",
+          "sha256": "e0fe0d1aebe2692f597e5f73c438385c2d19d1ed4d5dac75721ec3cc130f8b54",
+          "bytes": 136092
+        },
+        {
+          "path": "content/assets/yokocho-telecom-mast/source/yokocho-telecom-mast.stl",
+          "sha256": "e7354ffcdceec84cd9a944b697a0e54b612351d2645e9b428249112bfb0a4dac",
+          "bytes": 107884
+        },
+        {
+          "path": "content/assets/yokocho-telecom-mast/asset.json",
+          "sha256": "79a9402b04b1d6478643ae07411530dfa9e9223cdf2b07c5a91148f15e6db1a8",
+          "bytes": 4946
+        }
+      ]
+    },
+    {
+      "id": "yokocho-timber-stair-flight",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-timber-stair-flight/source/yokocho-timber-stair-flight.glb",
+      "sourceSha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9",
+      "assetMetadata": "content/assets/yokocho-timber-stair-flight/asset.json",
+      "metadataSha256": "6eaf3c8caf8d4dede407a58b561ccd057a5b99a9bbd7ccc3e33d24cf3e16af1d",
+      "files": [
+        {
+          "path": "content/assets/yokocho-timber-stair-flight/source/yokocho-timber-stair-flight.glb",
+          "sha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9",
+          "bytes": 167492
+        },
+        {
+          "path": "content/assets/yokocho-timber-stair-flight/source/yokocho-timber-stair-flight.stl",
+          "sha256": "6badeec859c4e7d72c23810fcb712f0d1544c4a37901eaeb9c2c606da3fd7a60",
+          "bytes": 97884
+        },
+        {
+          "path": "content/assets/yokocho-timber-stair-flight/asset.json",
+          "sha256": "6eaf3c8caf8d4dede407a58b561ccd057a5b99a9bbd7ccc3e33d24cf3e16af1d",
+          "bytes": 4783
+        }
+      ]
+    },
+    {
+      "id": "yokocho-traveler-pot-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-traveler-pot-sign/source/yokocho-traveler-pot-sign.glb",
+      "sourceSha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818",
+      "assetMetadata": "content/assets/yokocho-traveler-pot-sign/asset.json",
+      "metadataSha256": "b851319fbe515a23d19f8c049ec991ab238c26eae5a3b2c36a7051fdffc67286",
+      "files": [
+        {
+          "path": "content/assets/yokocho-traveler-pot-sign/source/yokocho-traveler-pot-sign.glb",
+          "sha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818",
+          "bytes": 65236
+        },
+        {
+          "path": "content/assets/yokocho-traveler-pot-sign/source/yokocho-traveler-pot-sign.stl",
+          "sha256": "54adca1d89404f7901200cf8234d6c5b320f37f3eb0668974b924095b1f3b383",
+          "bytes": 32284
+        },
+        {
+          "path": "content/assets/yokocho-traveler-pot-sign/asset.json",
+          "sha256": "b851319fbe515a23d19f8c049ec991ab238c26eae5a3b2c36a7051fdffc67286",
+          "bytes": 5477
+        }
+      ]
+    },
+    {
+      "id": "yokocho-turntable-amplifier",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-turntable-amplifier/source/yokocho-turntable-amplifier.glb",
+      "sourceSha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+      "assetMetadata": "content/assets/yokocho-turntable-amplifier/asset.json",
+      "metadataSha256": "9a37bf5df67a24aefae02b37bf48e8b0b66927be832751aaa4b39b13735842b1",
+      "files": [
+        {
+          "path": "content/assets/yokocho-turntable-amplifier/source/yokocho-turntable-amplifier.glb",
+          "sha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+          "bytes": 29064
+        },
+        {
+          "path": "content/assets/yokocho-turntable-amplifier/source/yokocho-turntable-amplifier.stl",
+          "sha256": "dfb539b6c08d6c4030635be45264825b9ea46a6866a3232e6756711841715006",
+          "bytes": 24884
+        },
+        {
+          "path": "content/assets/yokocho-turntable-amplifier/asset.json",
+          "sha256": "9a37bf5df67a24aefae02b37bf48e8b0b66927be832751aaa4b39b13735842b1",
+          "bytes": 5193
+        }
+      ]
+    },
+    {
+      "id": "yokocho-upper-water-storage",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-upper-water-storage/source/yokocho-upper-water-storage.glb",
+      "sourceSha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f",
+      "assetMetadata": "content/assets/yokocho-upper-water-storage/asset.json",
+      "metadataSha256": "fa30f05bc2d74f087e44052ad4fd78f677510ab3c86ee0ba80fa9bae30464e0f",
+      "files": [
+        {
+          "path": "content/assets/yokocho-upper-water-storage/source/yokocho-upper-water-storage.glb",
+          "sha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f",
+          "bytes": 130156
+        },
+        {
+          "path": "content/assets/yokocho-upper-water-storage/source/yokocho-upper-water-storage.stl",
+          "sha256": "0bdf410e83217bf268ea98bd01f08e7c8e14bc9dda5030b87b3614232f2c2a8d",
+          "bytes": 141684
+        },
+        {
+          "path": "content/assets/yokocho-upper-water-storage/asset.json",
+          "sha256": "fa30f05bc2d74f087e44052ad4fd78f677510ab3c86ee0ba80fa9bae30464e0f",
+          "bytes": 5616
+        }
+      ]
+    },
+    {
+      "id": "yokocho-utility-service-bank",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-utility-service-bank/source/yokocho-utility-service-bank.glb",
+      "sourceSha256": "8a4de5792558b07549db1286d936e964e6c9e0c62f6cf80a1c227d8cd67388a8",
+      "assetMetadata": "content/assets/yokocho-utility-service-bank/asset.json",
+      "metadataSha256": "4865f94f4dba95908d3a7fcc4661d93b89a97520a7d5958f627bfbbad4f2fab5",
+      "files": [
+        {
+          "path": "content/assets/yokocho-utility-service-bank/source/yokocho-utility-service-bank.glb",
+          "sha256": "8a4de5792558b07549db1286d936e964e6c9e0c62f6cf80a1c227d8cd67388a8",
+          "bytes": 87036
+        },
+        {
+          "path": "content/assets/yokocho-utility-service-bank/source/yokocho-utility-service-bank.stl",
+          "sha256": "166c6b601d2ee0d7d4bf88c06ac6a8502a7e0421e7a42416e537fd4819fcde2e",
+          "bytes": 85484
+        },
+        {
+          "path": "content/assets/yokocho-utility-service-bank/asset.json",
+          "sha256": "4865f94f4dba95908d3a7fcc4661d93b89a97520a7d5958f627bfbbad4f2fab5",
+          "bytes": 5656
+        }
+      ]
+    },
+    {
+      "id": "yokocho-walnut-counter",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-walnut-counter/source/yokocho-walnut-counter.glb",
+      "sourceSha256": "17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9",
+      "assetMetadata": "content/assets/yokocho-walnut-counter/asset.json",
+      "metadataSha256": "2ab42578b8dc4bbcc2c970bea10dace5b303d1c3c699e5effb30ecbc15b9e2fc",
+      "files": [
+        {
+          "path": "content/assets/yokocho-walnut-counter/source/yokocho-walnut-counter.glb",
+          "sha256": "17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9",
+          "bytes": 70084
+        },
+        {
+          "path": "content/assets/yokocho-walnut-counter/source/yokocho-walnut-counter.stl",
+          "sha256": "f462c2385615739cc4ed9a82d39b97daf2cfa53c313fc7f4812e837c8a3717bf",
+          "bytes": 69084
+        },
+        {
+          "path": "content/assets/yokocho-walnut-counter/asset.json",
+          "sha256": "2ab42578b8dc4bbcc2c970bea10dace5b303d1c3c699e5effb30ecbc15b9e2fc",
+          "bytes": 5499
+        }
+      ]
+    },
+    {
+      "id": "yokocho-witch-moon-sign",
+      "version": "1.0.0",
+      "status": "public",
+      "sourceGLB": "content/assets/yokocho-witch-moon-sign/source/yokocho-witch-moon-sign.glb",
+      "sourceSha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657",
+      "assetMetadata": "content/assets/yokocho-witch-moon-sign/asset.json",
+      "metadataSha256": "7f064342f2427f44cb83a79b4d78ae3d1a4791fd880e37db4fb1f31a14480dc7",
+      "files": [
+        {
+          "path": "content/assets/yokocho-witch-moon-sign/source/yokocho-witch-moon-sign.glb",
+          "sha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657",
+          "bytes": 3518664
+        },
+        {
+          "path": "content/assets/yokocho-witch-moon-sign/source/yokocho-witch-moon-sign.stl",
+          "sha256": "262f0d8e1e0e0883368b0b42c8380d78787fcf4bb12f1a44254d1704a8668d25",
+          "bytes": 39284
+        },
+        {
+          "path": "content/assets/yokocho-witch-moon-sign/asset.json",
+          "sha256": "7f064342f2427f44cb83a79b4d78ae3d1a4791fd880e37db4fb1f31a14480dc7",
+          "bytes": 6021
+        }
+      ]
+    }
+  ]
+}

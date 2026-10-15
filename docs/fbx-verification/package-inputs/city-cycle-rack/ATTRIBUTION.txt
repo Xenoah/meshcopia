@@ -1,0 +1,7 @@
+逆U字型自転車ラック / Inverted-U cycle rack
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557

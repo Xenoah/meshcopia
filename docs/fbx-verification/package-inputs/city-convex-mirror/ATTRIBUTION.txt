@@ -1,0 +1,7 @@
+街路凸面ミラー / Street convex safety mirror
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c6cdaed8bc1f62a3a92eb20df4ea907fe4cf5e3650185c1c010c66ae6d4812af

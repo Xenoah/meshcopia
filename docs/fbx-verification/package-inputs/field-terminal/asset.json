@@ -1,0 +1,25 @@
+{
+  "id": "field-terminal",
+  "title": "フィールドターミナル",
+  "titleEn": "Field terminal",
+  "description": "独立したスクリーンとボタンを持つレトロ端末。研究室・工場風シーンに。",
+  "descriptionEn": "A compact retro terminal with separate screen and buttons for lab and industrial scenes.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.72,
+    0.66,
+    0.4755
+  ],
+  "triangles": 84,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "fa34860230fb45295547c7157655cad09d2534961753c5291d590da01612f32f",
+  "fbxSha256": "b76b630060fefe08e991cfd0523fd56602c9553261076f4b9871ea8310e83efe",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

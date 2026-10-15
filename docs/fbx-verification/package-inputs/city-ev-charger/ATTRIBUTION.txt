@@ -1,0 +1,7 @@
+街路EV充電ポスト / Street EV charging post
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5

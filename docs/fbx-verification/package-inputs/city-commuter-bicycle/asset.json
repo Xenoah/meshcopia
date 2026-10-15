@@ -1,0 +1,25 @@
+{
+  "id": "city-commuter-bicycle",
+  "title": "シティコミューターバイク",
+  "titleEn": "City commuter bicycle",
+  "description": "ダイヤモンドフレーム、スポーク車輪、連続したリンクチェーン、クランク、ブレーキ、泥よけと荷台を備えた街乗り自転車。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 繰り返し部品は材質と構成単位ごとに統合済み。",
+  "descriptionEn": "Unbranded commuter bicycle with diamond frame, cross-laced spokes, linked chain drive, cranks, pedals, rim brakes and cables, fenders, rear rack and lights. Static visualization assembly, not a rideable or engineering-validated design. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Repeated static details are grouped by material and assembly; the procedural source retains the editable construction.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.825677,
+    1.064924,
+    0.647
+  ],
+  "triangles": 78188,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+  "fbxSha256": "d44753c8300514439259c9da91c92aa1e42fd26de031bf8cf869190c34bfe0b7",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

@@ -1,0 +1,7 @@
+月のお茶の木製看板 / Moon Tea Timber Sign
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2

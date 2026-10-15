@@ -1,0 +1,7 @@
+取付マスト付き小型衛星アンテナ / Compact satellite dish
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f

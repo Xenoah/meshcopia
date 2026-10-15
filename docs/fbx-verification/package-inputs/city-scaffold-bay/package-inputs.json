@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-scaffold-bay",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "83d7f36c2b36c8a351f65ac7fa683960266b3b41085b8e297a0e864b3af02103",
+  "archiveSha256": "ddf55360f20de9906f6b6cdcbfe9b121253ca3171c5954bfbde6e86add21a5db",
+  "originalGlbSha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 374,
+      "sha256": "0813959ac2ea2e8880629e197907192a25e57d60bb23365d14e1fd0f119feb71"
+    },
+    "CONVERSION.json": {
+      "bytes": 9611,
+      "sha256": "f437428ac4b4274fab248333f289d7dbec003e0d7756b0e276b78731c67c8998"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 569,
+      "sha256": "929b0c2ffbb4cc9e35f2114c5733c14b1273d273b86e5fa66ba8a9fd49ffcbb1"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1258,
+      "sha256": "c0f6caba978344b5199d3b59b42fd238c687a08c45bf46978bbd108683e50241"
+    },
+    "asset.json": {
+      "bytes": 1433,
+      "sha256": "ce9cf154c8970c19b2179e7aa3480c84364ddfb94f507bac781d3660381f560b"
+    }
+  }
+}

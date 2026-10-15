@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-traveler-pot-sign",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "54d9440c1427add99c50a7278c86d9b39a0b254390e83e33dbc499358a0e7f0d",
+  "archiveSha256": "78aa229e3be8938a7916f032f570214fdd5c5a8b60482e519c76ea441c4e46c5",
+  "originalGlbSha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 392,
+      "sha256": "e72801c6a3639da4b97dca0a5176995e9e84da2ad127f6b99eb9870777a1a122"
+    },
+    "CONVERSION.json": {
+      "bytes": 9387,
+      "sha256": "a6654bd88c5b42669baf919b103147e6bbd46678e36eadb318e3f3ffd28f1e71"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 577,
+      "sha256": "18f6e75b155173138e4d7005aa585434d89f21ca778ef228d6536974eee493c6"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1816,
+      "sha256": "b0a77f71e98c03012e22a418610bd6abbc7cd7cc53d8837efa1424ba6cdf7977"
+    },
+    "asset.json": {
+      "bytes": 2028,
+      "sha256": "3d5ea20dc6a658df0e1f7768da029d0007c203da7e956fe5a7072b1398b2ecb6"
+    }
+  }
+}

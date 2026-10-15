@@ -1,0 +1,7 @@
+道路排水グレーチング / Road storm drain grate
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b

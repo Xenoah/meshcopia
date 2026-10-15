@@ -1,0 +1,7 @@
+コモンズ・展示台 / Commons display plinth
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d

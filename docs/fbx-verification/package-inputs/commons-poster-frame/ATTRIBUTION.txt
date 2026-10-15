@@ -1,0 +1,7 @@
+コモンズ・ポスターフレーム / Commons poster frame
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee

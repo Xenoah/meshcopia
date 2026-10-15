@@ -1,0 +1,25 @@
+{
+  "id": "commons-pendant-light",
+  "title": "コモンズ・ペンダントライト",
+  "titleEn": "Commons pendant light",
+  "description": "黒皮鋼のシェードと暖色の発光面を持つ吊り下げ照明。発光材質付きの装飾モデル。",
+  "descriptionEn": "A blackened-steel shade, suspension and warm emissive diffuser. Decorative geometry, no runtime light.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.48,
+    0.774,
+    0.48
+  ],
+  "triangles": 212,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+  "fbxSha256": "fe829a83980f0c1b8fb0f79cba5dba2c6341ad7ee6772aa7cf4cb008e81fe969",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

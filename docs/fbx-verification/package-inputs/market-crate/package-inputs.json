@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "market-crate",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "90a502adc99df0bc652dcc8fd7e52d4b07411a328b47db567df51298e708b5c8",
+  "archiveSha256": "983e8758f07e41bcfbc072c4622b33e5295318e92cb763f616c9b95a7fc141ce",
+  "originalGlbSha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 370,
+      "sha256": "332566cd4e1967bc590c3c0aa5312f6314de5a320fe630e2b153ec784b5c1a70"
+    },
+    "CONVERSION.json": {
+      "bytes": 5781,
+      "sha256": "070a15dc45a2ff45cdf53dfea645982a1fd4c8a2f31813c3bf8ab3e2d2976673"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 564,
+      "sha256": "110a714df1e52a2ddecedf97811df80a098903ae45b533f7b3cee8362bcc1ebd"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 857,
+      "sha256": "ef886ac36ffef6b47e185ba4f7a0c640b171f6e20a834f9e425f2b5fec0bd3d1"
+    },
+    "asset.json": {
+      "bytes": 1032,
+      "sha256": "23f321348edc17c254216033615b5678f9d0edd1042e124e79d673f705111329"
+    }
+  }
+}

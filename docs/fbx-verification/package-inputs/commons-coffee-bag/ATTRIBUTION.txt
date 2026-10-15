@@ -1,0 +1,7 @@
+コモンズ・コーヒー袋 / Commons coffee bag
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe

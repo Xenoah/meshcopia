@@ -1,0 +1,7 @@
+コモンズ・カフェ丸テーブル / Commons round cafe table
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048

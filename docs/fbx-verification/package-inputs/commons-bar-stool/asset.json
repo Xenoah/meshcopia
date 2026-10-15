@@ -1,0 +1,25 @@
+{
+  "id": "commons-bar-stool",
+  "title": "コモンズ・バースツール",
+  "titleEn": "Commons bar stool",
+  "description": "青緑の布張り座面、真鍮の支柱と足掛けを持つバースツール。元ワールドの1脚を独立化。",
+  "descriptionEn": "A teal upholstered bar stool with a brass stem and footrest, extracted as one standalone seat.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.48,
+    0.8025,
+    0.48
+  ],
+  "triangles": 412,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "65f0305aa2a8b2c67e27f1e9c0cfa004bcd0b6b71d90712da678c10cf0e32909",
+  "fbxSha256": "d24abb2b86eb150f2f41aa4e9081add2941c50209676719b2f6e3fede6a489a2",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

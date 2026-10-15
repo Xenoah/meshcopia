@@ -1,0 +1,7 @@
+壁付け雨どい縦管 / Offset rainwater downspout
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: ea6a62bc2f926e90bcf9c26cb23a072d3e030f8ed65fcaa51a7f3de9ad21c8bf

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-vending-machine",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "17276741b59b0fbb4d0381c87df6c916503ec6fdcaf8fe104b528087eae39fa6",
+  "archiveSha256": "251c4205f8b32826a1fcfefd688c15d9d55a99cea3d3ef5f2c88fe9e31e45685",
+  "originalGlbSha256": "c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 380,
+      "sha256": "8eefb86a7583f6bbbe6f84dfbeb4024c1591024e1df22c3f877183645d571988"
+    },
+    "CONVERSION.json": {
+      "bytes": 17228,
+      "sha256": "f0d116e7ff78aec08d1f52021160ec38af127d5cdf0b5e9c91bf3607480025c6"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "b4da98a2bd0b24764e02e685133fc454e845b129d939e1e3329998d21ac0dca1"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1337,
+      "sha256": "86801ac501331322d13d0d5456efd982214a19bc7a496836c95d60dd6f8ebd71"
+    },
+    "asset.json": {
+      "bytes": 1512,
+      "sha256": "2b2240ae60eb22fb704085d79536427ee79d04d1b1bad337c9e22b74c41deb67"
+    }
+  }
+}

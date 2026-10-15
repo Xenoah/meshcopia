@@ -1,0 +1,25 @@
+{
+  "id": "commons-round-stage",
+  "title": "コモンズ・円形ステージ",
+  "titleEn": "Commons round stage",
+  "description": "直径4.8mの低い円形ステージ。オークの床とシアンの発光リムを保持し、周囲の設備を除いて独立化。",
+  "descriptionEn": "A low 4.8 m circular stage with an oak floor and cyan emissive rim, without surrounding equipment.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    4.814,
+    0.25,
+    4.814
+  ],
+  "triangles": 1532,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13",
+  "fbxSha256": "e11c443cfb3fa2ef2a184bc1b109b4a2663fe3a7271b8dc57163aaea716a3910",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

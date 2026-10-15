@@ -1,0 +1,25 @@
+{
+  "id": "commons-poster-frame",
+  "title": "コモンズ・ポスターフレーム",
+  "titleEn": "Commons poster frame",
+  "description": "真鍮の縁と黒い表示面を持つ縦長フレーム。元の文字や図柄を除き、表示面を別メッシュで保持。",
+  "descriptionEn": "A portrait brass frame with a separate black display face. Original lettering and poster artwork are excluded.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.2,
+    1.84,
+    0.1435
+  ],
+  "triangles": 24,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee",
+  "fbxSha256": "1648a2d9fc86ae45bf4ead3f080ceb8df642c78bce964f2aa9c9de9fa39663f7",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

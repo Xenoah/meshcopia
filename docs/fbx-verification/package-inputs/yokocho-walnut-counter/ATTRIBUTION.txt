@@ -1,0 +1,7 @@
+段付きウォールナットカウンター / Stepped Walnut Bar Counter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9

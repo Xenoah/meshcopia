@@ -1,0 +1,25 @@
+{
+  "id": "commons-floating-bookshelf",
+  "title": "コモンズ・壁付け本棚",
+  "titleEn": "Commons floating bookshelf",
+  "description": "オークの棚板3段と本72冊。元の配置を保った壁付け本棚のセットで、壁や取付金具は含みません。",
+  "descriptionEn": "Three floating oak shelves with 72 individual books in their original arrangement. No wall or mounting hardware is included.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    4.5,
+    2.01751,
+    0.48
+  ],
+  "triangles": 900,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5",
+  "fbxSha256": "47cea7cd5264348b6d069531ceb5354eb261111dfe25f84c7741250bc74f4390",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

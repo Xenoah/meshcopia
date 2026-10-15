@@ -1,0 +1,7 @@
+歩行者横断用押しボタン筐体 / Pedestrian crossing pushbutton enclosure
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f

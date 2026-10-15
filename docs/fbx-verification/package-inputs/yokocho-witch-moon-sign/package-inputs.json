@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-witch-moon-sign",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "1fcd9bad0dd3275e32d199a39653f2f8b16c9117de0ce28733030687d56d151e",
+  "archiveSha256": "9f2c788e932cdc27b78e8bd2f4a8058b9f4dd6eb8d99ac07c018f6ba085d5ba2",
+  "originalGlbSha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 421,
+      "sha256": "27c82a8c6c05281cd3cc25f2fd59212cc2e54674e435695cf74c2be9d64fb936"
+    },
+    "CONVERSION.json": {
+      "bytes": 9587,
+      "sha256": "00db3f05e216e66e889cf604a458946c250c258679a5999da714372eb53f6467"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 575,
+      "sha256": "89d834e86826424c51b7a5d5048eee5bad948653dc941dc38642395553518750"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 2022,
+      "sha256": "5fe11f9d59c265d5757ee303a9b3e7c695c96059da70e06a8b1e1494e9c32f61"
+    },
+    "asset.json": {
+      "bytes": 2227,
+      "sha256": "2f73bdad8447f13f1682f147c5b1fcd84ed83328cdcc3106bb6936212c8aedb0"
+    }
+  }
+}

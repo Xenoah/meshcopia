@@ -1,0 +1,7 @@
+屋上換気ベンチレーター / Mushroom roof exhaust cowl
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593

@@ -1,0 +1,25 @@
+{
+  "id": "city-postal-box",
+  "title": "街路郵便ポスト",
+  "titleEn": "Street postal drop box",
+  "description": "アーチ状の雨よけ、深い投函口、回収扉と無地の案内欄を持つブランドのない郵便ポスト。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Unbranded postal drop box with arched rain canopy, deep mail slot, hinged collection door and a blank ruled notice panel. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.6,
+    1.445,
+    0.542
+  ],
+  "triangles": 9510,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+  "fbxSha256": "bae62619296e5597aa1fdc1353d73050db9cee8c923b16136c435a77c974d35e",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

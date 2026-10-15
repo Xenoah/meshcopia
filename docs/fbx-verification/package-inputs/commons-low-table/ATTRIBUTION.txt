@@ -1,0 +1,7 @@
+コモンズ・ローテーブル / Commons low table
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-playground-swing",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "4beed6f5ff72288c194c8c2cd36b6751d0a63cc1e79de4de6a78d8e48459949e",
+  "archiveSha256": "6f951f04d714fa6de7a20995e3089db50c4c5c7b106a24bf5456479818452a5e",
+  "originalGlbSha256": "bbcea804a0718a0b8cd9ce229cde42838f9239501244287c06845fc6634ed645",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 374,
+      "sha256": "22b9e17dc21b2f2cdc3c9406a9490afa7668b8844bd16b4b31ef5288c834e9e6"
+    },
+    "CONVERSION.json": {
+      "bytes": 10699,
+      "sha256": "04bf50538b016b8d7e06b9d3c4e0b7e75f553c494263786fd3f54e6455d0197e"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "c7c3c7ac40c35f0f26a4638a3a751380970b18d5905b380b9f5ce8a44c5520d9"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1213,
+      "sha256": "076f4f96cc3b85cc2e36560d348bce397799329a70fa94fbe7e46fe5ec131870"
+    },
+    "asset.json": {
+      "bytes": 1388,
+      "sha256": "18185c3d502115c4dada65702744a7e5778123013facaadf0b6a128c25e503d3"
+    }
+  }
+}

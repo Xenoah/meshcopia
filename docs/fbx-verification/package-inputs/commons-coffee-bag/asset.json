@@ -1,0 +1,25 @@
+{
+  "id": "commons-coffee-bag",
+  "title": "コモンズ・コーヒー袋",
+  "titleEn": "Commons coffee bag",
+  "description": "架空ブランドCOMMON GROUNDのコーヒー袋。上部の折り留めと生成オリジナルのパッケージ画像付き。",
+  "descriptionEn": "A fictional COMMON GROUND coffee package with a top fold and original generated print.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.17,
+    0.302,
+    0.11
+  ],
+  "triangles": 120,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe",
+  "fbxSha256": "a09a9077538c96510104de42438f058c24c6f87749d6993ea59538939bfb33e6",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

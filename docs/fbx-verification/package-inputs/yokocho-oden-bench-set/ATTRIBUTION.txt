@@ -1,0 +1,7 @@
+おでん屋のベンチ二脚セット / Oden Nook Two-Bench Set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261

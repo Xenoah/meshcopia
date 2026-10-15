@@ -1,0 +1,7 @@
+コモンズ・ワークカウンター / Commons work counter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa

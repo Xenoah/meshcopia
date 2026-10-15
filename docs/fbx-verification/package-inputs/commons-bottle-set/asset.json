@@ -1,0 +1,25 @@
+{
+  "id": "commons-bottle-set",
+  "title": "コモンズ・ボトル6本セット",
+  "titleEn": "Commons six bottle set",
+  "description": "形状・高さの異なるボトル6本。架空の6ブランドのラベルを保持し、各部品を別メッシュで収録。",
+  "descriptionEn": "Six bottles with varied heights, caps and original fictional-brand labels. Parts remain separate meshes.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.27391,
+    0.391,
+    0.107
+  ],
+  "triangles": 720,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297",
+  "fbxSha256": "bddf07d284c3f26055aea0ad19db1cb8f8113ffffe1dec7f7a508ddcd0b3558e",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

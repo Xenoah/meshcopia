@@ -1,0 +1,7 @@
+AED収納キャビネット / AED storage cabinet
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79

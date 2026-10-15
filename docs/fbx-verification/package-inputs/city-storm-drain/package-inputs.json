@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-storm-drain",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "db906728ebc0408d375020aa132d59f4fd3dbabe6ce55c1284651266eddc46ae",
+  "archiveSha256": "8a23ba7e83279a2d783795e9f353462f26914b082fa6b9cda05962db117f647c",
+  "originalGlbSha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 389,
+      "sha256": "9070ef7d328569d0af3e1a5cfaa8b33b2ecd1f31a7b9865da6d53dd5527a8de4"
+    },
+    "CONVERSION.json": {
+      "bytes": 10015,
+      "sha256": "a83310c6026b3350de404636703deaa64a13428bef98e3bcabb9ad31b3c48dfc"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 568,
+      "sha256": "b8d8f3a50a42353921c580c085fc026e25fd7f4b598d1179cef5e6ff3c06a85f"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1130,
+      "sha256": "6c8decdb0cdc2bea0921738b8c12ab08d5cb2d54e98fa65d3f9c8239cece9154"
+    },
+    "asset.json": {
+      "bytes": 1305,
+      "sha256": "adcfafa2745d4b6deff891430b07965d20b5d443162b3e0d177c700d4a786a43"
+    }
+  }
+}

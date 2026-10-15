@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-tree-grate",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "821aa3156a85df3e53717e87ebb8dae9b439b89483668ee446b9362e6ea4b818",
+  "archiveSha256": "a4756b31eb7c3637c08afb19a63992ec9c34742fe105304f7587aa8f0ffe3234",
+  "originalGlbSha256": "63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 396,
+      "sha256": "2d726d86ebfe5a0232c63898feb73d8faebfa5f0937153c03a5e598e5002bc5e"
+    },
+    "CONVERSION.json": {
+      "bytes": 9125,
+      "sha256": "6689f77816461c7f75c5f16f44f919dc95adc79c3697adfbf631ef4d4106d13d"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 567,
+      "sha256": "d2676dfffc7181e6929e9fe6d6b66cfd6a5b21f1707e1b226b0a4e74ed14be6f"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1167,
+      "sha256": "efb62e9fc02578b9e024e7380158fdef8b8d001acaa28fdb822978b9e467a70a"
+    },
+    "asset.json": {
+      "bytes": 1342,
+      "sha256": "adcbbb87789a8e6c9d786b1f43dd253305755aab9fcf23126e857b9b11b55598"
+    }
+  }
+}

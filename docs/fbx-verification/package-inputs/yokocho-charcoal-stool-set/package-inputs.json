@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-charcoal-stool-set",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "415c392b7deb80333795a9e52d957f5ab9c301e8b66a190f9752e74c58487761",
+  "archiveSha256": "a4147f7cbbeae61a861000fc158243cfe2cab869b63936371fb0939c3680ddf1",
+  "originalGlbSha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 405,
+      "sha256": "db70c95d7c17079186696d28062976f466a3dc2ddfc411202dc3c9e2c719a20b"
+    },
+    "CONVERSION.json": {
+      "bytes": 6753,
+      "sha256": "40c894a84278c69e746c0a4498d9417f0c9b30b28b95d2147e549ca33f01a3ed"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 578,
+      "sha256": "f79255c06cc47748b60abe4bfecb9388253c99708df105f97329f15b57d15977"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1850,
+      "sha256": "09022f0bf098a9d6e2a954290ec8d2e8ada81ec1e0c12996d4d5abf8b79fb32d"
+    },
+    "asset.json": {
+      "bytes": 2054,
+      "sha256": "15325b52b4922ac1221cdee4d77c85e7246cd2ef836a10b8ebc98f0d5cb8be8e"
+    }
+  }
+}

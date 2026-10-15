@@ -1,0 +1,25 @@
+{
+  "id": "commons-low-table",
+  "title": "コモンズ・ローテーブル",
+  "titleEn": "Commons low table",
+  "description": "オーク天板と真鍮の縁を持つ高さ約47cmのローテーブル。ソファ前やラウンジ向け。卓上の小物は含みません。",
+  "descriptionEn": "A roughly 47 cm low oak table with a brass edge for sofas and lounges, without tabletop props.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.864,
+    0.4625,
+    0.864
+  ],
+  "triangles": 564,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09",
+  "fbxSha256": "d497a2a56af2a1f2249b5239283377ba368f130255703458cf02084dfe654975",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-medallion-chandelier",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "182a43802bb2e7f3f309d86117cb4fd7f27433cd044e4199e63a2cb4c73cfc48",
+  "archiveSha256": "65341cd0d2bf0905a7a90ce4a38fd325dc8374873f3c30e4065177238ce06d1f",
+  "originalGlbSha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 410,
+      "sha256": "05e296dc3dfdf5ce9c8abc7fb017c18ec356df98b82f93974e0be6ccd4f11035"
+    },
+    "CONVERSION.json": {
+      "bytes": 8331,
+      "sha256": "80af47ec22039db05ad2d8965905b4c299ab6d4bbd4227912d145eacc1616501"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 580,
+      "sha256": "d0302c596f26d1cd3501f8c9c8c69e412a583853a611848d76e09cd8c2e6c3ae"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1861,
+      "sha256": "f9c0aaa638bfc8286f4f20d7758240ea07547be5e6c5e7f15fe9ab4314a6eef4"
+    },
+    "asset.json": {
+      "bytes": 2066,
+      "sha256": "5b19d6b58de7ed2550a7607a313d9c6831136bc39c48cd6dd95b999c23bed35c"
+    }
+  }
+}

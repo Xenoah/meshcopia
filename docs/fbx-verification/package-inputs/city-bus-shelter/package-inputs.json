@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-bus-shelter",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "1b9b4b2a0aafec80f984db6cc120c136350f9882656cee10814b41371268197a",
+  "archiveSha256": "99b2a176457686c5f32fe28e5935b08a46d6e5d111b3c6d86b3c050c2f518ef3",
+  "originalGlbSha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 392,
+      "sha256": "be87c9e5b6d7d004f7a25c69e807351c7956daa7b4086dcbd59d2e0a378364ca"
+    },
+    "CONVERSION.json": {
+      "bytes": 17644,
+      "sha256": "e607f6c99b491533637e79518d3bb4204b860b464c0f5d5d83c561b46c869dcb"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 568,
+      "sha256": "ed4ffaf9d6f583c98b6f2a24c1b07deedd39cfa563351e790055d4fa434ff8f4"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1188,
+      "sha256": "d608ea0d4ba3675b0ec756af698cff39c509e877495f10b2881ff024e5bf7fa8"
+    },
+    "asset.json": {
+      "bytes": 1363,
+      "sha256": "c852e1a1ba647144e756b04e0a47bbc2b030f5170f7c39ebfb1b1aa06de73ed1"
+    }
+  }
+}

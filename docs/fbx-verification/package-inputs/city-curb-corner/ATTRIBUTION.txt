@@ -1,0 +1,7 @@
+曲線縁石と側溝 / Curved curb corner
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 61a7ff739811d7f340bb69c861f9a3e19fa18b69d58fcfcc4b8e3daf35ee8327

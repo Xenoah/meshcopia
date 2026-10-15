@@ -1,0 +1,25 @@
+{
+  "id": "city-ventilation-outlet",
+  "title": "壁面換気ルーバー",
+  "titleEn": "Wall ventilation louver",
+  "description": "7枚の傾斜羽根、水切り端部、奥行きのある枠とメッシュ防虫網を備えた金属製換気口。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A folded-metal wall outlet with seven sloping louvers, drip lips, deep frame and a fully modeled rear insect screen. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.6,
+    0.45,
+    0.172
+  ],
+  "triangles": 13188,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc",
+  "fbxSha256": "42fde0e58fdfe077baba1678490bcfe1b625b757962991cd745eae7e06271707",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

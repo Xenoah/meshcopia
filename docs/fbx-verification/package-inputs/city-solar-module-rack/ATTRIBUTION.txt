@@ -1,0 +1,7 @@
+架台付き太陽電池モジュール / Solar module on ballast rack
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06

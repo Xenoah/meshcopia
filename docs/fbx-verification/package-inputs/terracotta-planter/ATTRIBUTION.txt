@@ -1,0 +1,7 @@
+テラコッタプランター / Terracotta planter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a

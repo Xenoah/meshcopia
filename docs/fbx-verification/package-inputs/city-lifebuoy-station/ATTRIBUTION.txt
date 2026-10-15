@@ -1,0 +1,7 @@
+救命浮環ステーション / Lifebuoy station
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d

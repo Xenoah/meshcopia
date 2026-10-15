@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-club-armchair",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "bb9fda637e44406a65bfd8756ff16215e4e3b5fe20656ab1e8675da9a41affe7",
+  "archiveSha256": "1fde74e67d9f0320048bcb5cabc5103dc143d05bdf43587e04e3be812c81ded4",
+  "originalGlbSha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 387,
+      "sha256": "da0f3bc5a1bd2c278292710cdb97c61306b5c5c946c73ed2413e931bb7e1952b"
+    },
+    "CONVERSION.json": {
+      "bytes": 7103,
+      "sha256": "4098647a61ac8d05c40109f63b3c1ab513da7bcad669fcf62f97771af586c75a"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "e6dc4c7281ee5278b35ee9ff14b411167cdb3b7c92682ae8043db11b7c5f6bcf"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1801,
+      "sha256": "f141f1ccca101427f40a96e4bb344a522cacf72371ec5cd5c7d989066961e16c"
+    },
+    "asset.json": {
+      "bytes": 2013,
+      "sha256": "681b125ff32e61a8ee09623ecb21a6df1540949258105d07f6ade37496e6019c"
+    }
+  }
+}

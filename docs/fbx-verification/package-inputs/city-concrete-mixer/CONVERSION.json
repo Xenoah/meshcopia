@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "id": "city-concrete-mixer",
+  "sourceGlbSha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2",
+  "fbxSha256": "9c77a68e1f5441d44ba3e0992328b756406f30ed428ca96b4c57ec4282c69df4",
+  "fbxBytes": 1220716,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 5.702224470383044e-09,
+    "maxCorrespondingCornerPositionDeltaMeters": 1.4901161193847656e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.033027888224875034,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Cast ring gear tooth",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.012",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.013",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.014",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.015",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.016",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.017",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.018",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.019",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.020",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.021",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.022",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.023",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.024",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.025",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.026",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.027",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.028",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.029",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.030",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.031",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.032",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.033",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.034",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.035",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.036",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.037",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.038",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cast ring gear tooth.039",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Drum rear spindle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Drum ring gear backing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "External drum stiffening rib",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Frame front crossbar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Frame rear crossbar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front tripod leg",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front tripod leg.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hollow concrete mixing drum",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Internal mixing paddle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Internal mixing paddle.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Internal mixing paddle.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Lower chassis rail",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Lower chassis rail.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer fixed front foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer fixed front foot.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt hex head",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt hex head.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt hex head.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt hex head.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt washer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt washer.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt washer.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle bolt washer.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel axle.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel opposite rim",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel opposite rim.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel rim",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel rim.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel rubber wheel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mixer transport wheel rubber wheel.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor cooling fin",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor cooling fin.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor cooling fin.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor cooling fin.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor cooling fin.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor stop button",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Motor switch",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear motor housing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reinforced drum mouth",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt handwheel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt handwheel spoke",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt handwheel spoke.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt handwheel spoke.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index plate",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt index recess.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt locking lever",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilt wheel spindle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilting yoke upright",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tilting yoke upright.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Transport wheel axle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Yoke bearing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Yoke bearing.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Yoke lower crossbar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Yoke support leg",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Yoke support leg.001",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "tire",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "tire",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.024000000208616257,
+              0.028999999165534973,
+              0.03200000151991844,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      },
+      {
+        "name": "steel",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4699999988079071,
+              0.5299999713897705,
+              0.550000011920929,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "graphite",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "graphite",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.07500000298023224,
+              0.10499999672174454,
+              0.11999999731779099,
+              1
+            ],
+            "metallicFactor": 0.6499999761581421,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      },
+      {
+        "name": "frame-green",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "frame-green",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.07500000298023224,
+              0.1899999976158142,
+              0.15000000596046448,
+              1
+            ],
+            "metallicFactor": 0.5,
+            "roughnessFactor": 0.4000000059604645
+          }
+        }
+      },
+      {
+        "name": "rubber",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.027000000700354576,
+              0.02800000086426735,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      },
+      {
+        "name": "orange",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "orange",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6299999952316284,
+              0.18000000715255737,
+              0.03500000014901161,
+              1
+            ],
+            "metallicFactor": 0.30000001192092896,
+            "roughnessFactor": 0.3799999952316284
+          }
+        }
+      },
+      {
+        "name": "red",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "red",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.550000011920929,
+              0.07500000298023224,
+              0.04500000178813934,
+              1
+            ],
+            "metallicFactor": 0.550000011920929,
+            "roughnessFactor": 0.36000001430511475
+          }
+        }
+      },
+      {
+        "name": "dark",
+        "sourceMaterialIndex": 7,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "dark",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.029999999329447746,
+              1
+            ],
+            "metallicFactor": 0.15000000596046448,
+            "roughnessFactor": 0.6000000238418579
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

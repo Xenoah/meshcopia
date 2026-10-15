@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-streetlight",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "84b4454cd3cd32c77df2598b86a93a28b0a84828745304e3d9bcabc687892d1f",
+  "archiveSha256": "d5f88241b63288de4cfbd605c69d264b51013314899bc2333f0a344d12124106",
+  "originalGlbSha256": "34259d4e18e74ff72f3d1f2897f2fea56d34158af24e3f9ad5c5dbbefd3f4c9a",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 380,
+      "sha256": "33cf2c19e12d36479d44d5f02622d1326d2c2f8d1e17a13f5e6e61bb145c737b"
+    },
+    "CONVERSION.json": {
+      "bytes": 12627,
+      "sha256": "11d3f0651bdc4828e9e786b9aeefe2b32cb41b380053a6d7b5d683a8fb7c879a"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 568,
+      "sha256": "c7ff9c66f17c7b173b5999c003dedad4c838e61d2046bdbe8e589a8035e1731c"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1138,
+      "sha256": "20087e68ea6fe3f9132207dc1348cb35afe356ca1ebb476f5b262ec890b21273"
+    },
+    "asset.json": {
+      "bytes": 1313,
+      "sha256": "11ba24a2d0972ba85af8eb6fd6678fbf315cc9deba622de15038ea86bf53cfa8"
+    }
+  }
+}

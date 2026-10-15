@@ -1,0 +1,25 @@
+{
+  "id": "city-drinking-fountain",
+  "title": "二段式街路飲水台",
+  "titleEn": "Dual-height drinking fountain",
+  "description": "高さの異なる2つのボウル、押しボタン、排水グリル、点検扉を持つ公共空間向け飲水台。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Public-space fountain with two bowl heights, push buttons, drain grilles, curved bubblers and a service hatch. Visual prop, not certified accessibility hardware. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.912,
+    1.107346,
+    0.41
+  ],
+  "triangles": 16600,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8",
+  "fbxSha256": "aa3ac57af81e2f9fe234170813829c106d7a2ce68a65e24dcd33d871b8139ca0",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

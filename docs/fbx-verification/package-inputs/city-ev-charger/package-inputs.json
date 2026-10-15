@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-ev-charger",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "57dec548ce3d3426254f749907ad437147f46193333184bba124fcf6da0e0d90",
+  "archiveSha256": "5f8c707c02b44a6ec0aa6c22aaeee2609d79cb95c1228a89b8e9f77e7d9f23b8",
+  "originalGlbSha256": "b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 383,
+      "sha256": "156eefc36b2316b8f63ef1afb46b261d8d50630358f8284482f8b3bee25fbb6a"
+    },
+    "CONVERSION.json": {
+      "bytes": 13700,
+      "sha256": "52fdd7301c33f548aec1976a4b045469d3eb780afcdf040daf714ebe63ca1201"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 567,
+      "sha256": "1367b3d4e83e63bfd87b9aecc9ec5b4e85a6aab2714d43d690861139b905d746"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1202,
+      "sha256": "e35273cc7398e0e61ac5854199cdbd5523e608e62e9572f1fa90367892c9903a"
+    },
+    "asset.json": {
+      "bytes": 1377,
+      "sha256": "50439b87958244d5de51a4e76c6f218a76de382a5bf469c07f27cd352c770cea"
+    }
+  }
+}

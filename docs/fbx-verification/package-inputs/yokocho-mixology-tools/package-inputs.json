@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-mixology-tools",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "b9535a2d472a665f1b1607da730c3bfa866cf3f52a362a45954bec7ae780d018",
+  "archiveSha256": "a76a29c9650ce56b432e7f418ea7b840d7a34a5774cbe4d4b403af85124fef52",
+  "originalGlbSha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 426,
+      "sha256": "423498654b7fe584f9aabc233e2bef132c5b2094915ff6f4a91e55ef0ad1197d"
+    },
+    "CONVERSION.json": {
+      "bytes": 8327,
+      "sha256": "f56579052bbf88ed973378d6d2c8c91682cfa2465ac1a8dfab1fef2de248e01b"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "ec89fd91139afe4fb34d4406b02164c07a6fa4b3bd8a4196b0eca38717fe1795"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1884,
+      "sha256": "83c49f3c64f6686f329e4a1fb075c8f101827f2c5d53098470553709aa116c2b"
+    },
+    "asset.json": {
+      "bytes": 2094,
+      "sha256": "873a15efcd341408d47072ef84d02eb8bd5753ef0785f8afa17e3c10b4ee6c86"
+    }
+  }
+}

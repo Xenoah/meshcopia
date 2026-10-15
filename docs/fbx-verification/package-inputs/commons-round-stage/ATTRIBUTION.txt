@@ -1,0 +1,7 @@
+コモンズ・円形ステージ / Commons round stage
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13

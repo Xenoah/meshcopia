@@ -1,0 +1,2618 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "final-reviewed",
+  "baseCommit": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "cohort": "published137",
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "sourceInventorySha256": "5297ddedc5d9e431abde6be5ebbbb637b580d938376867411e4f594ade36482c",
+  "finalInputManifestSha256": {
+    "cohort-manifest.json": "35ab040c6bf6f85031fffb30bb68122fe199f5277a3717e0cfcd733698a5a7a7",
+    "archive-manifest.json": "44de5591f42c48398b22e435e5c5f00455087478a745ab8d0942b1f006be48e3",
+    "package-provenance.json": "e9abf72ddb821c377325a4399e63e2afa66a25efd85e9bbc40800fe5502bf862"
+  },
+  "models": [
+    {
+      "id": "atelier-lamp",
+      "sourceGlbSha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc",
+      "fbxBytes": 44108,
+      "fbxSha256": "f713bee1847049cb68eaa6f2041c7341ebc97347d25c45a52ed0adbaf0dd2a8c",
+      "archiveBytes": 36440,
+      "archiveSha256": "665b68dfbd14483ded146f4610f8f9ea5bf65495ab7282a1468b2cad5db2d1b5",
+      "reviewedQaSha256": "4f704465ae46b63eddd0c73e34606a110ee9bbf38f0218d2a3922f652e654955",
+      "packageInputManifestSha256": "a2fe644dc31375d9fde00839a5eac67bb47195c45adb42aa716bf64de70471ff",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "be95674782e483dc668ce0e9df45e83f3c00b381bdd6a4257dec9c1ed59650c7",
+        "CONVERSION.json": "bc1b8f85577ee3340b38b4974d56e98ba31ba200b43bb3fa3c6b92894af73e0f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "701dd81865c66065980971596d48e67902ce1c2e21c6a48db9403872480ec0e9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f162f863b5a4a5a339cf8aa2c21dee551cd52e12120a3505fa7d461dc770f73b",
+        "asset.json": "73a5d48893485d3aaa7d8f893f1340b2dd60cc29bcc81c46ca2d4b06b3988c53"
+      }
+    },
+    {
+      "id": "city-aed-cabinet",
+      "sourceGlbSha256": "ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79",
+      "fbxBytes": 223628,
+      "fbxSha256": "6d9ee89f2ede1040ee719961bb142adef7db64a51b46ca15e01f9902af3880a6",
+      "archiveBytes": 99005,
+      "archiveSha256": "7e6b4b36acd69b8b88782f1ff303ce67a0bd16f84a3d4564cf5e4413e47a91e1",
+      "reviewedQaSha256": "0d4bf745e63c9f8cfe23cbf76ae676d6f692b5fc609feb410a1eb7f0897c5140",
+      "packageInputManifestSha256": "81638c3ea097ca95e6ddbccebeb8693d7979ea5e7f232030afdb8b6bd309247a",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "107f4cbb0fc51fb1d649a15adaf91171502907e6c133f9f3b6fc6189e0ac1303",
+        "CONVERSION.json": "3a4feb028536bb636d87dd5ac9c979f95f1adfab17fe9b47c1b6044704e039f7",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "07a6e65bbd26793757fb21932c1df54e28dc16e109bd26373b71fd5f03c2630d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "567e846fa47b05bb920c03e63e345a9f444ad932d5fd1807c7a5699ce585ea36",
+        "asset.json": "7c9eb4dd00cff9a738e643f5d4e885988cfd5bd64975fb64d14d861fe3d657bf"
+      }
+    },
+    {
+      "id": "city-bicycle-repair-stand",
+      "sourceGlbSha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71",
+      "fbxBytes": 283196,
+      "fbxSha256": "b98439ce34cc835617b1a35f021eebda28ea28b59ddacb98bfc63d4cc5a066f9",
+      "archiveBytes": 169558,
+      "archiveSha256": "b85af115037ac8fb808c0ae327325ed283f84aea13abde0aa392411a14ce307e",
+      "reviewedQaSha256": "290cfb6bbf3ff33e2e4fae11e1e329f3f6e9acf671e375dda89e08e575946a0d",
+      "packageInputManifestSha256": "b393457360e7d6f5e0ea5014b63db62b624a1ce76513407310c2059b1073ea9b",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "b381bc52b19b45f4401a133950aadb6231ab2a3d502433915245fc38636dfd8a",
+        "CONVERSION.json": "3688395cecc77a2ba8592754dec2120518bc95601eac196053295e6b831fcfec",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d3b1f88b1cce2d573027e2e545a7cc617567e6bd88e74aa0958642e08cc665d8",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "c3fcaceee7f4bbdced35697ba2fecfa60413cb3957a6e3f90f3898240cb42d33",
+        "asset.json": "ebc23de0da21e25fd91495ba30235a9590746f4bf88359bec5f7c4c28e17aad9"
+      }
+    },
+    {
+      "id": "city-bollard",
+      "sourceGlbSha256": "333fae75f6d6eac1b305ff7d19d3962edc71224cd408fb439b58ffad1ccd9dc5",
+      "fbxBytes": 199612,
+      "fbxSha256": "08f6a6604e24f85817bd09c6f6c53a5cc9503e49ed97045b85cd1742010aff62",
+      "archiveBytes": 143205,
+      "archiveSha256": "816f77f17fb3e76a92d05a2c31dec61f0968f19e7df29ece379e8e2aee5cc6e7",
+      "reviewedQaSha256": "35325aa7c0572842a882d2cd10018fd037e6e6123d5d5d25251d4c3e8d72e2fd",
+      "packageInputManifestSha256": "5c07014649a01160fb84bbc02aa7b9d8c1c821b15ad2d89049323d683aee3d73",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "cb8935c75979d9fd2e0b68cd241607e5ea0e68e2698754eda86b48560fc5dcc0",
+        "CONVERSION.json": "93f7bd461d3cd4455b4600e7d22811c4dd96ae9b3ad0752aded21a469026ed4b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "458a6fa10b40f8de8e3a9dcb7d004016cc556186a5b1108613d5b709f24df6dd",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "db51df18a2dddc2a136ff468be90db9f102cd0ba114cd4ff19f8e1c7e3422c3e",
+        "asset.json": "b43ca962a1246027424d20f6e70d3ee2a3b2460b92a9cf9a3ab18ad6eb00411c"
+      }
+    },
+    {
+      "id": "city-bus-shelter",
+      "sourceGlbSha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb",
+      "fbxBytes": 1021548,
+      "fbxSha256": "1b9b4b2a0aafec80f984db6cc120c136350f9882656cee10814b41371268197a",
+      "archiveBytes": 229699,
+      "archiveSha256": "99b2a176457686c5f32fe28e5935b08a46d6e5d111b3c6d86b3c050c2f518ef3",
+      "reviewedQaSha256": "bd2db7ca1712624eb47a0ffb02d242bb799c483bffa748982367aec551407c24",
+      "packageInputManifestSha256": "33332c8a82a747803f210329e993ee2c4c33220958532560baa63dc4fa57ad7e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "be87c9e5b6d7d004f7a25c69e807351c7956daa7b4086dcbd59d2e0a378364ca",
+        "CONVERSION.json": "e607f6c99b491533637e79518d3bb4204b860b464c0f5d5d83c561b46c869dcb",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ed4ffaf9d6f583c98b6f2a24c1b07deedd39cfa563351e790055d4fa434ff8f4",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d608ea0d4ba3675b0ec756af698cff39c509e877495f10b2881ff024e5bf7fa8",
+        "asset.json": "c852e1a1ba647144e756b04e0a47bbc2b030f5170f7c39ebfb1b1aa06de73ed1"
+      }
+    },
+    {
+      "id": "city-cable-protector",
+      "sourceGlbSha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406",
+      "fbxBytes": 208668,
+      "fbxSha256": "11474013b2600492d009b81877d057acc7cf97045d8deb96b64cbb3c7e7f7330",
+      "archiveBytes": 50493,
+      "archiveSha256": "cfbc90a0a43f28da6a8dd0024ff855294cb2ca9c912b52a05acf2f85bd315585",
+      "reviewedQaSha256": "20af8e38fe10cfd229d66495165c0a93e6870c1e13f99e998135fa3a34606da1",
+      "packageInputManifestSha256": "1adcbb9d5a6fedb495c524b20ab785ba248f020e05b037adf5d280ff00e734f0",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "2d6dc8e10e7ebfd8fa8aa3613c0e21c4d688fc6429c50161b068163f5eddf5c2",
+        "CONVERSION.json": "b3b48a5862091150ded820b9b9dfaef1e49b1a6e9ceef551b6aa8a23aab38867",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "65afb627d1ab42c455f87ae28301e15742701cd010e8e8aa68f3e45b99cddd33",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "49ea1e2a7e3c4f31c45e6ae97c0e7c7f10843faab0a5cb419252fa858674e5f0",
+        "asset.json": "b49b1d3600a8828478177ba8d1a52ef1362b7816633744481fc0ccff57532ee8"
+      }
+    },
+    {
+      "id": "city-cable-tray-elbow",
+      "sourceGlbSha256": "5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e",
+      "fbxBytes": 124300,
+      "fbxSha256": "dc523139e7d809229c46a40a78e6860e7735528f85de74879fb4abf2e119dab5",
+      "archiveBytes": 111204,
+      "archiveSha256": "da9b658a29592fd79aaca491a3ef2130bec46fdd569f7b5bcc503ac1029feaf7",
+      "reviewedQaSha256": "f373817596a183892ede28721a435cb91adc95628c16fe6cccec5687ff603dcc",
+      "packageInputManifestSha256": "6db05b35c2058a4f26cbf9517e44a5a0dd498b3c26bf85f53e980e0e9ff4dd1c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "6970120163e228a74f928959fc019d4315a59b7514cae1c0be827a20276e4537",
+        "CONVERSION.json": "12146ff0ee7d78a1b4b9149574a29bc9eca2569f7c4f2b987ffecf0e9439e396",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5552da3dcf0b107f2c099b520329f2b9f8622927a31e40d5150d1305036814a9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "5902a51ad1812ecb969336c934f844fe165367641e485bd31cc9117fbebc31e7",
+        "asset.json": "8f0477e8c6b86adaf5c6b67269befea414dac78969a2def08da73f2e17e611e9"
+      }
+    },
+    {
+      "id": "city-casement-window",
+      "sourceGlbSha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e",
+      "fbxBytes": 258876,
+      "fbxSha256": "867cdddebae1bc34cb83a81b78a07936faf56b7d609f19fc570f5574ee57b993",
+      "archiveBytes": 81153,
+      "archiveSha256": "083ff2f120423989376b8731ee1c286b93ec0b62b80316edc03beeafe4ec4333",
+      "reviewedQaSha256": "719c9ce87a8639762b10bbd319335d407d89006c4fc321e9c6ed948853736589",
+      "packageInputManifestSha256": "d63e6fc84133bb2fc871ac189bee7f585ea0ec5ea78841ddf3c404c33ef435cc",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "38a4a34827f10c9fbf2b3b6d2ffe64499ba64d96a083ad52e7f7f2124b248db1",
+        "CONVERSION.json": "af8e09ce9f0b3f755dcebe60f1bfd64eb7596fd8998264f6ff5b41089d7d00ff",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "33f930cd49ed5a0cb2de44a189471af59f77227b39df6cd3e9d438ba02ae676c",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "44f96ef0122c1f465de600ed43845f75708f6fdefaa50d2e370e11860bf7b452",
+        "asset.json": "eedfe3447d054698ab1380aeaa2c2922dd1b15cc1de0d41a64362658492ca481"
+      }
+    },
+    {
+      "id": "city-commuter-bicycle",
+      "sourceGlbSha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+      "fbxBytes": 2444236,
+      "fbxSha256": "d44753c8300514439259c9da91c92aa1e42fd26de031bf8cf869190c34bfe0b7",
+      "archiveBytes": 2053855,
+      "archiveSha256": "5a61ae70dea8c6a601410a1919d188fb08569a445be621ff96b15e4ab5b6153f",
+      "reviewedQaSha256": "e6e1b7d4b6e48c4190a51ac4569c76b461b305c51f8921f8fe7226582bc8f26c",
+      "packageInputManifestSha256": "64b1411c8bdd676d6b9f9c6c8f2e36d168e78e4099d536553b1793df496bc0cb",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "57f8320e98048be00b4939f5cb60b8a9c9928e67db40a918f7c3957e0280a746",
+        "CONVERSION.json": "5dcf0f4586773aabf1a4781c5829caa3faa9fc06a005b405e5d2b14ec69874fc",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c7480ed70e5e970278a7da16b6c9b2becaf362874d2ecc66deaa23a88fe05ab3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "93764f66c34d557234c6209421f80dfd78f7df2e5da031e80f298f2af34b7647",
+        "asset.json": "b27633744446752f4f9fd4719fdead7297cd0fd0ab6d25bb00664a692a94a883"
+      }
+    },
+    {
+      "id": "city-concrete-mixer",
+      "sourceGlbSha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2",
+      "fbxBytes": 1220716,
+      "fbxSha256": "9c77a68e1f5441d44ba3e0992328b756406f30ed428ca96b4c57ec4282c69df4",
+      "archiveBytes": 628604,
+      "archiveSha256": "e934b38ed0c34b17cdf8f0456cfc532184e6687b99f86b07d0d401bc45b5dbd3",
+      "reviewedQaSha256": "c3d0deba53e9fb701cc668e9eb37005d0d37c1b775c8fdc6152ca738028d5f1f",
+      "packageInputManifestSha256": "d03cd5bfda0f5b88bd439750150e64c0ad30df50944da8d18e91887f32ca7254",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "c1728d2d7e098c3f60a43e21fb546701491946cc8f32e12b578936765efa2772",
+        "CONVERSION.json": "1a447ee2f9b15b894fa0f146979d4c62087a8839fb62ec2720ac5176bb4c6aa1",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ac220c7d8102815e726839f1389fa568d03da613cb202ae99bc5d9bd32b6c4c5",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "447abb35eeea554eb8d64fa426e0a78cc3802f71026abeabf565a8b21e9ef0aa",
+        "asset.json": "1257cd19c6bbc73cd5b01ea9fb83e5da67a0b67482cb88b7e8fa9818ed4cea56"
+      }
+    },
+    {
+      "id": "city-construction-wheelbarrow",
+      "sourceGlbSha256": "45c1cc1137cea956e8b2012c7dbb5f5cb01934f53de5d4a56a0cb813d06d61bb",
+      "fbxBytes": 527692,
+      "fbxSha256": "9c7c032fd21616923ea6d0b71d856f13a871e308c2b5d70943dac69cb8c81623",
+      "archiveBytes": 224142,
+      "archiveSha256": "669dcd23239838d02737b7c108fcd2db558c05caa52037ff23bf51c71edd1f6e",
+      "reviewedQaSha256": "5e9aca615a8cf1caa5ff5544844fe7df93b52bc869a33e18b8a9ed3d1b11282e",
+      "packageInputManifestSha256": "b7912189d4f799cd25f093428aa2133ab0bc1672d88ce6274425e86a595ea577",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "33e0d1ee0b4738451fab94ea874ad635056cf7d38174dd873e32ef565c9d39c5",
+        "CONVERSION.json": "1667265b3591b6dade17495b24a17828048346d4db2f93f4e54390935292ef03",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "9ca14b8bd6519cb1ebf8b2e2c357f0e1f57b94d318863dce89f7dfa41e8a098d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3321b40513542744995f92544c822f2a5eb70b07168b3d2fb571f62de0c6978d",
+        "asset.json": "7270c99e9db05edcfab1a7043c76ba908aa8aad5566276180045ceaef0801466"
+      }
+    },
+    {
+      "id": "city-convex-mirror",
+      "sourceGlbSha256": "c6cdaed8bc1f62a3a92eb20df4ea907fe4cf5e3650185c1c010c66ae6d4812af",
+      "fbxBytes": 686556,
+      "fbxSha256": "c1f1d49e90f556d933342a25ae3aab31eb69cad4d5ed207416d15b12b1b660cc",
+      "archiveBytes": 422402,
+      "archiveSha256": "10270a3a2e706e390652c7e14abebf9cf59786ffc7565064c924b9bc37252619",
+      "reviewedQaSha256": "19f33e36e635a82730f1d37a7537ccd67248db98124d93e525d8ca67fba54c54",
+      "packageInputManifestSha256": "3215848cbbdb462633bea448bf14c87a42d5070a9794e4253df19f39e7ce84b2",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "ede7d34e1cff0615e23a4d68ddc3c09c96c74df016dd596f4f7b75d1a425ef73",
+        "CONVERSION.json": "70063d1accde7b88f59d51465fc6dd4d7a5ee304b974c6246b63dd0492803ffc",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "409ac3f47ef1548e033ec578f2bf69d715671b85d9642bd68a760f72204a6ffb",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "b87c6060a66a418012fb896e0cfcbedc00db9fbf5fc1fc46cc6d1a43ccbbe403",
+        "asset.json": "d563d362422ab5d3881525f8f9ad71ed4357e8164c3a615a483b735ce94402e0"
+      }
+    },
+    {
+      "id": "city-crossing-pushbutton",
+      "sourceGlbSha256": "9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f",
+      "fbxBytes": 552668,
+      "fbxSha256": "0591f9386d845c2c3817157a918a7e692ac73bba02e8f0d240eb5508d48464ba",
+      "archiveBytes": 503412,
+      "archiveSha256": "f31be55b0359ed9202f045e16d69c282f5fb1bac51676149d5f30d8acab109bd",
+      "reviewedQaSha256": "a6972b37d818a242be72f3ffe1b60b8b8bf1bf914270e59df1aef1931c5a9d25",
+      "packageInputManifestSha256": "7b98a18769eec24225fb173a49ad22243ca3b8b0aaf26237047eefdd6c0f636d",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "d8107ed60c41222e14fa5c76877079781dd64863f0bb380d4da8e957c88e949b",
+        "CONVERSION.json": "14312e4a0c51900b263f4014e8138c6ec04c3b83f2c0681786d1ce3d19b9be31",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "88571e798c91351a027e75858dccc987ab04513add90b8a6aeda244aae6ee3b9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "e59e34c073171839d015bfdce7a3bfa9dcf5a5c8e4ce9801af80adb35cddc28f",
+        "asset.json": "4720dd151b337f5ac10beae78e5d9befbddf49acc413d7818bd72b0b3e7cf7a5"
+      }
+    },
+    {
+      "id": "city-curb-corner",
+      "sourceGlbSha256": "61a7ff739811d7f340bb69c861f9a3e19fa18b69d58fcfcc4b8e3daf35ee8327",
+      "fbxBytes": 45148,
+      "fbxSha256": "5e3f779f9f239099ecdd7137fc2f329f3bfd6a5e26363621b86971d9d0356e05",
+      "archiveBytes": 33701,
+      "archiveSha256": "645337d834722cfc0d6e4e9909c19ceded46d36953b1b2f5c0cf28f1c026a26f",
+      "reviewedQaSha256": "478d8ba2e5c4793bb9212a9dbc7868fc2ef401e0642a14317b0c2362b63f6ec5",
+      "packageInputManifestSha256": "cc8eaf9f3f7f8f8426c39fee74b6680d1afdce6f62e382f4ff5d8f20ab8b49f1",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "934553e85994e90a67233578411ea546cdb3978d76ceb4120d9ce0c2cb40cbf1",
+        "CONVERSION.json": "d6ed85ff0e7915619fe056a841afa8d0a47c2163df417b888bbc0e74ce963e88",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "478590926c50fa52ed13e96d63cc6a7d36ebd3777ceb61199bcbf373702c0f1b",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a47b047361c0d5613931f737aa6fe352c8af80f75b8ad656f2bd4142f5d5d0e5",
+        "asset.json": "d4717e9c5c750d4ad09916056d3cfd948ce56a6655a92ff9fe27f4af507b9dca"
+      }
+    },
+    {
+      "id": "city-curb-ramp",
+      "sourceGlbSha256": "8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b",
+      "fbxBytes": 97836,
+      "fbxSha256": "071ed9d6f71397678ae8f9326b9a64f432363f68da1a197b3a9215ac2a9ce636",
+      "archiveBytes": 33674,
+      "archiveSha256": "b92da06729bd616d9917755c10021e4536173b8912f58efe472f63e2f0f23e44",
+      "reviewedQaSha256": "e647dd759a341c8d2e44c39f59ed53deb873622796bce23ad3f0147be75deab1",
+      "packageInputManifestSha256": "82aca0b6b2af16cd2d6518882750b2ab45a8a075903f818d150ac769aabd17a9",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "e09cab5a6d48ae9187b97a6fed12ee10e0bd7335fb3854493b276916115dffaa",
+        "CONVERSION.json": "419189ec385474a0daed80153fbc38c1b1e795074f525b2e2924439188f6f4b7",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "58b578ccb9597f517e2169faa07bd156379d14eb432a685f34abf573db140293",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f090cd1c9da55eb11830eb7602c2b37b66a3c49c068d9097e7065f6eb77ad705",
+        "asset.json": "b7d900087cf654bf0b3a7785abe0aaf0a76237d74aed17d19dbe86b8c78dfbbf"
+      }
+    },
+    {
+      "id": "city-cycle-rack",
+      "sourceGlbSha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+      "fbxBytes": 168764,
+      "fbxSha256": "6952b492c85796ac37d810463985a400e608271b69c700d13ddb362e2e2ed65d",
+      "archiveBytes": 60967,
+      "archiveSha256": "bb7acc02b94a2c28f69366d01e37805afb1866d65fbf7b257720186d0496fb72",
+      "reviewedQaSha256": "409c42b797cddc9f09a6e381d2a23368965fc9bce9daf642d32d865141600423",
+      "packageInputManifestSha256": "1a2902a2aef839e18e4e149c92490ded8b8d14ffc1d6b2cafcda98031ac39e8e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "0c490809ee0333d8c27e2f656fb06af91c39be43fc58d2de3bce3c43755d159c",
+        "CONVERSION.json": "f08f2bb0ab3496471e6ba61eb2d16122f036787515fd44a16f42e39af85a6968",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "9bed6c46f2c08aa494512c7802f76484287151e81d79270579a4b83bc459da70",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f49979b0e72cc5ee34a25ac9fe2ac5351ba4f443758d5e5f0d59c7f701f812d0",
+        "asset.json": "bb09b62703ae073f90da2772a7d5aa99af448302eae2d3f2b4acc76781a41297"
+      }
+    },
+    {
+      "id": "city-downspout",
+      "sourceGlbSha256": "ea6a62bc2f926e90bcf9c26cb23a072d3e030f8ed65fcaa51a7f3de9ad21c8bf",
+      "fbxBytes": 595900,
+      "fbxSha256": "9216e60f2db58fb632ada288e7338796e32d3a5d7399de5f7269a50628235fe3",
+      "archiveBytes": 466241,
+      "archiveSha256": "51c3ed019a99373d0ba39be73ce8ad5f5d35645d82f6fd2ac012b1353b78ae5b",
+      "reviewedQaSha256": "9cbfdf37ddf3c7985bf058db045e2917f599c78a6bdde1c4f3991333c1aad8c1",
+      "packageInputManifestSha256": "bcbda404725ec9decee2036d0f2dc71499cfdd34ccd78c2e983abcedd66a498a",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "7bad6358f88febedde87a66b71136563c52b1f126553157bd1ac243be272b7d3",
+        "CONVERSION.json": "6c89f79b9d3d7b54d7b16a7a0c5a8e7df133b35434416912e730149226bf2e76",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "095e4fb18a0a6beaa044832b935cd5331984229b64f9475fe29b02a724f78456",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "2f3a7f34b440a7a741c4326982f55fc373f584df86c41760146f4dc71b50e4c3",
+        "asset.json": "6cabdc0cf7dad4bf32025748de7aa6e6e12c456ba0659505f78c736752a00fbb"
+      }
+    },
+    {
+      "id": "city-drinking-fountain",
+      "sourceGlbSha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8",
+      "fbxBytes": 549596,
+      "fbxSha256": "aa3ac57af81e2f9fe234170813829c106d7a2ce68a65e24dcd33d871b8139ca0",
+      "archiveBytes": 315992,
+      "archiveSha256": "670e29fe2465a10040dda655c12f4a70dd1eab899c026807bf4ab665b916f4c3",
+      "reviewedQaSha256": "34e5cf6ffe5be9cff899463af5acacf4097663ba513f0fa493c612f61611b97f",
+      "packageInputManifestSha256": "3e54dfc31a978a39231c42e0273dcb6dd2a53584cb94535fb4cf10819777c3d4",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "8d798053788dabdf1bc73e81377a7490b71867ebd683d2b03fbbfdc25a90f797",
+        "CONVERSION.json": "696dcdb26472ff04c13a762a60dce9265f4c80abc3ce02225f729a15e9150556",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "1df52b98e33f34b482f97872c4ab7a42b03c1fb357fe30dae3dd3f6b97a20c38",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "01722f39de4eb6f53a7555be96fb242ce2d7c40cfbf4f783a638462e33dee267",
+        "asset.json": "71c7d71d4714bead0f26fd13d6cdd75d711e63a86f5151ed9d468b7bfedb650e"
+      }
+    },
+    {
+      "id": "city-electric-kick-scooter",
+      "sourceGlbSha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8",
+      "fbxBytes": 1207356,
+      "fbxSha256": "f34b912c8daf853b1c7a02713b184e3df82ff8591c93954215e0f6ade73f4374",
+      "archiveBytes": 1085757,
+      "archiveSha256": "099bcb1200c909de049104b15533bbca3bd80b72c2d5b65bb6e75568035279d1",
+      "reviewedQaSha256": "3af694656fad710454201bdff451d0593f3925bd716a0899d15ad1cb1ac09121",
+      "packageInputManifestSha256": "28ebb13f31fa123aa7321d4a06618cae65ca3a27765f3553c59a6e3c82c1ab01",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "3abcc80a9c459e3817921619ecd0fd14c5dba1c51551f708730b9a48836bdb52",
+        "CONVERSION.json": "fa39ab0e0ffda51bfd673522a372d9d23329da5e6ffa9074fbda6720a41f6316",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "92e6dff8093936166ff67092431383f4761a0ae99b1046a7b69b5ea277341d76",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "e32bdb8d502ba613dd126e90158c969fe897782e487f9c5b0a0c78b4762dce58",
+        "asset.json": "fa9539f250bdc512c1ff4370e7068997d7c8c098cc8d5a320449b77906b706b8"
+      }
+    },
+    {
+      "id": "city-ev-charger",
+      "sourceGlbSha256": "b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5",
+      "fbxBytes": 529132,
+      "fbxSha256": "57dec548ce3d3426254f749907ad437147f46193333184bba124fcf6da0e0d90",
+      "archiveBytes": 275726,
+      "archiveSha256": "5f8c707c02b44a6ec0aa6c22aaeee2609d79cb95c1228a89b8e9f77e7d9f23b8",
+      "reviewedQaSha256": "157873b4e7a4f2988592b1cdd23e74d1169877569c6195110c4ed9582e4cf27a",
+      "packageInputManifestSha256": "b88d8407c814e2d0f39d4b723581047835fa6070ca412def5696ac15dc66253d",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "156eefc36b2316b8f63ef1afb46b261d8d50630358f8284482f8b3bee25fbb6a",
+        "CONVERSION.json": "52fdd7301c33f548aec1976a4b045469d3eb780afcdf040daf714ebe63ca1201",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "1367b3d4e83e63bfd87b9aecc9ec5b4e85a6aab2714d43d690861139b905d746",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "e35273cc7398e0e61ac5854199cdbd5523e608e62e9572f1fa90367892c9903a",
+        "asset.json": "50439b87958244d5de51a4e76c6f218a76de382a5bf469c07f27cd352c770cea"
+      }
+    },
+    {
+      "id": "city-exterior-clock",
+      "sourceGlbSha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63",
+      "fbxBytes": 386252,
+      "fbxSha256": "59ede804e8ada26d1f89dcae1116f2c6bd2579fc3e3e479ca69486badebe2d20",
+      "archiveBytes": 194569,
+      "archiveSha256": "215d20b4212ab7860e5b91b7701bfb171fa1d65ccdec1d8c6be8a2d0e21c6519",
+      "reviewedQaSha256": "bca167beb6c18c7f683c759776904c308470850a31b9f3a6b6d1cd2da79a281f",
+      "packageInputManifestSha256": "54a7f0b62341a6e96cff077e02b7e3524aba9ad95a5cfa6810a6017798780ae6",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "29b04e2db8709bd31fcf1bab6dd86227206e9d5eb59b0ca307f3cdee1f3381b4",
+        "CONVERSION.json": "43104c1f5e742dff4dad883cebfa166ccd92aefd9abfddda91656696bb9dcee8",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "a60b385f00c26307b59e68cc9f98fa92a9d7b4623074be0ff09d86108b117178",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d9b6897e62cbd7081ccce58d2d7259e0406091fadfa5c0f90cf8a9fc6f7ca2ec",
+        "asset.json": "3ffce8215368b3f94c336ef0ddbc1c590359573b7e9904ae171b307d0cfe71a5"
+      }
+    },
+    {
+      "id": "city-fire-hose-cabinet",
+      "sourceGlbSha256": "c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929",
+      "fbxBytes": 687148,
+      "fbxSha256": "c199031881e5fbd03c75c431f03820ebf2eb52b1fa2c79fa4d9fdefbdfdcdef8",
+      "archiveBytes": 387947,
+      "archiveSha256": "f2e25709f34622759dce355b8e49732595e98c392885e0d1508dcc7cf3f98558",
+      "reviewedQaSha256": "700df6a5a0ef50eed561b5e59756c6949945b707009af1cc53e72a95a383dcde",
+      "packageInputManifestSha256": "54e5910aa5c79a2c055875a5dded87ad47c815a8da96467209ece9145fd0501d",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "1e277ad4ebe54ea8cda6c3606f891f2795250239ecafc3297c722357036f0e83",
+        "CONVERSION.json": "0fa327dd4d23dd8804d339fc9ec859b911d49488a7f9531a40086d67d48059c4",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "4e7ce75fad3eea438fbe4661442cca25c011e34998bd11de90505ee04a87ebde",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "2794c7a02c86cd0146290e2b46f9594248210b077789259692228932f60aabcd",
+        "asset.json": "333342d8a526db73ddb99f7469015ddb4eca0d96b4ad882351f022f7b09e676b"
+      }
+    },
+    {
+      "id": "city-fire-hydrant",
+      "sourceGlbSha256": "d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe",
+      "fbxBytes": 1131596,
+      "fbxSha256": "eb05902ed7585caf137674c083a0ba2a2b67c430ff2e09adc9ca09a1bf4121da",
+      "archiveBytes": 286236,
+      "archiveSha256": "282dae50f34f9ca16d8f26dca8ba86eebada94ccb6d65d261d811ed97a02c4b4",
+      "reviewedQaSha256": "2975a10f621580ec0ba8d75302e76efc586ff73d6de336d4deb5998f11e8ec96",
+      "packageInputManifestSha256": "1e177d7c16308a1276fed9fd7c8d76f3e65e84bb217c32d4fef2ca5b0cd9a1d5",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "98562f93fda050ab9c4acd9f3b9c2ec1280557250f05acd5221b7a68b3bb4e1b",
+        "CONVERSION.json": "20d9ca10b68a7c6078cb8123974845aa4209b54a0decd8167fd5916fbc6d748a",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "8dd4f064c7750365ffe67aab679f7f4d540ac5d570ab3bebec3af56c148612e1",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "dfc64e39861828c6bbfaee8218ea3b2ec509b806804d3156cb640768074396eb",
+        "asset.json": "18cb5c283ce67b71e6a3c7e4b55e140fd07156203eec74e4810af649f298e430"
+      }
+    },
+    {
+      "id": "city-glazed-entry-door",
+      "sourceGlbSha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+      "fbxBytes": 322732,
+      "fbxSha256": "550da6fbf7dad0973bc346b2f638d58bdc930653239da67369de8aced5a2bfcb",
+      "archiveBytes": 112631,
+      "archiveSha256": "2d75a7077aec878a8c287807db2e6f4016dad6f6e4be4d764e1fc9f50a5e59e8",
+      "reviewedQaSha256": "1708dc55f9cb464a91a56af935b48040a215dc854739481fdbd8e445133546c4",
+      "packageInputManifestSha256": "460432b11a12b096516aec9af18bde83388ceb23baff44fd08966a29a2878ec9",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "96e12a20002fc4736062591bcc79cfc23b41e2ae5a6efd55c4c113e51cd23ae7",
+        "CONVERSION.json": "eb4075b38cf5a5b0e075b62addac943f4b5163b562af9d344bd901df1e359f05",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "bdefc3a54bea07b7478e6cd270a79d81737f82d1835ba4e206f26e7429858ca2",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "1833f789c3c7af815725d1eaad3892b07523ad8c9cb8a7d6ed459841d498e022",
+        "asset.json": "19fa1a5c07ddc2e48babb9e34258491513cf033323ac2ab2ac7c5470151d5840"
+      }
+    },
+    {
+      "id": "city-hvac-condenser",
+      "sourceGlbSha256": "fd3dfb184b40cbd680671454a7c1482091105f55dae99f9cb249a9f07f9a5cdf",
+      "fbxBytes": 956556,
+      "fbxSha256": "f983dd4d37e733c9a8e12c847eac7e3cb7512d86b1e264257651002afe56997e",
+      "archiveBytes": 762408,
+      "archiveSha256": "8215b8f172c0e4b66e36a0b82670350cce2ca386faf098c3607cf9fbcf33638a",
+      "reviewedQaSha256": "40ae3a37b26f7d9a2594190f67b498d5853cb6c1789a3a476bdecbb05370662c",
+      "packageInputManifestSha256": "2fdc9dbd5189d810389b58f7a0337b9211823b963d44d3a6ae092b1255164505",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "677a035a07735470810bac862d0334279ce72b30574520b0f849d7a186350da0",
+        "CONVERSION.json": "477e72baeb7d2700c4f59ab115f03620de1445b97a26679e77267b33d895d849",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ca18f33065c1d6432b3d5eb2a8736a709b42a0202d3384ef4b162e013d709ff9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ac1b1020907077be37daaf355c66eb2334ca97f0f382c1322ec2b3923a918549",
+        "asset.json": "d0a757504f50f4fc4fac1efd4b8960aeb9bdf3148aa6183ab805871facc1d28a"
+      }
+    },
+    {
+      "id": "city-inspection-cover",
+      "sourceGlbSha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+      "fbxBytes": 674204,
+      "fbxSha256": "843f5082e766491bc4f40da2151c907afe1a8da35d7b7c55b1c287d5295e57a7",
+      "archiveBytes": 545724,
+      "archiveSha256": "93a21d3caebae9409c68544608e36ead2181187f41a3839d4265c9fb3ccc41de",
+      "reviewedQaSha256": "521479a59e83fc46b136c488be44e7cd990d30657984a67edf6c43848fd64c7f",
+      "packageInputManifestSha256": "09db65b016eb7ebe418faf4a074f5546e0579f20d258dec8d0677fad12dfca0f",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "480e8101a1ac9cc711aa65cd8794c082f4269fc5fd6b070da3f479504caf760e",
+        "CONVERSION.json": "6238c6dbacdfb7bd5524cd7a8d0ba665e09e059864b597cf779e07288a3fa350",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "629dc423595fddd277ce6c20a56cedffb29db40fbc57c254de0a05e9f0bf88bc",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d93057002a4ad3364c40da61e9b186dc1988664834bbdb405e8bd2a840ec19a1",
+        "asset.json": "594c3a3586b63d016b9b7239031a26385f7954e2ec8387c86e3c7084df36c55d"
+      }
+    },
+    {
+      "id": "city-lifebuoy-station",
+      "sourceGlbSha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d",
+      "fbxBytes": 261980,
+      "fbxSha256": "500d80fb88977363a7c04b5374780d0c965e2cde47d0614c34f092d6e9526852",
+      "archiveBytes": 160644,
+      "archiveSha256": "d09474ede487caf72147310bd4ae1bbde13b5c204f3a8f117c540732ae9d9896",
+      "reviewedQaSha256": "9df8d6a77f68ca2fdfbd034c67e829801a9607e6d724a8b8cc02ffb869e93554",
+      "packageInputManifestSha256": "e64bea447f67d233a299312295139bbf091530d9339a6e684086d181ec2413f1",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "d2d7fdd0d142a6defa3faaec47a3348a1347b8808eaecc61905ee65f3e4f6347",
+        "CONVERSION.json": "4f10a459b687e1c6bd8ef2af1b4bb1c57a8a4af8c7bab3f8652014315f239d7c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "dd25e44253120b3c9240dea10991127a9be978a6c0e44dff2137acfe44b951b9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "bb42b9d6bd678f785b2a72e11015bdd04a9971acd0690906d4ea768855a391d1",
+        "asset.json": "70e1f97a1a6440b4bebf1661f676dfa806932707f8a192423b43ddf0ab6b6e3e"
+      }
+    },
+    {
+      "id": "city-litter-bin",
+      "sourceGlbSha256": "b07c0cc79cf33c2777c1395e3d0ef60aac98d216f4717d8573ee31e365d64c78",
+      "fbxBytes": 401276,
+      "fbxSha256": "f1dadf4903c64f6faddfc892ae89c17618ab8f2d347056478c31f9d3c8ddb1fe",
+      "archiveBytes": 184707,
+      "archiveSha256": "07cfb1dc34fc3f36852ef9169ad821f38bca99e0b812fc393e88f8bf684d3edd",
+      "reviewedQaSha256": "09ca1f96bc057e43c771932a33508a3ba6b54e10ef420a4517c4353db40cdda7",
+      "packageInputManifestSha256": "5dada66dc7023bc98f45d50e45015443b8b56caf1088f0c8ca9b2bea3c21d1df",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "8ecf000e0caa1b5d272ae906da89686b959b7eb546bee8914d68339793710d19",
+        "CONVERSION.json": "b04f62278438ffeea00305dd8fa8a2bdb1906d3bd700654895a305361b3a5c31",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f4d9e7786b9e034631b6eb61a6cbbbdb9b71d140fb85e73ad1edfc7688b9b835",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "faf9aa57ab6aa7c1d287525c21ee5dfa27d38e019a2dbf2e1be566ba35c570f9",
+        "asset.json": "4eb084264075c76207efd460ff7072f20d681f7b4102cd608398595d622d5ea2"
+      }
+    },
+    {
+      "id": "city-maintenance-ladder",
+      "sourceGlbSha256": "d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb",
+      "fbxBytes": 428620,
+      "fbxSha256": "edcaa29111e911d90267d695ab38340de52971e573b9db972d3f70f3d3ed75ce",
+      "archiveBytes": 104308,
+      "archiveSha256": "796f51ae02788698741998a0fb751633744e4324b2122308e186ce274498d321",
+      "reviewedQaSha256": "ca47469d2d305baf08432a9caeb18921c46219136138f62dc0545bd8fc6582b6",
+      "packageInputManifestSha256": "97bc93719de74731aba04cb35ba3bf11a7960bbf25013b470d73bf4a92d555c8",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "185b517df5c902f42d982e2eb953c6f53b070cd3349606c626742ad58411076f",
+        "CONVERSION.json": "3f1abd23ba063b93cecc554a0f4f64b1c54dfb95136b975e99ba5a8f169cdcfe",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "2ff4daee2d457d117ccf58cfab0c1b7a86c875754452b2a175d050eb53255daf",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f773ea3255ebac98b64f9b8473ceffb8d0121421c3a57eba73a9aa619a6b6969",
+        "asset.json": "a717bdcbf7fa886d8e9d4365928e2c11de9fc4cd9c3e1256c72d7564de11a7ab"
+      }
+    },
+    {
+      "id": "city-pallet-jack",
+      "sourceGlbSha256": "a00adcb2b67ae2e9096db94ea99f398162065406dbbb7a6442b852633d11aa4c",
+      "fbxBytes": 1015580,
+      "fbxSha256": "42e7d14f3afb0158f1ea241e4cdc6f455c88a1f6e869d2a5bdedac4464675d95",
+      "archiveBytes": 408666,
+      "archiveSha256": "4d2d10924a06eb4105709117bc99add49a4dae5f03969353f11d952746907535",
+      "reviewedQaSha256": "471faa30b14595361d784f8765aaf495c64c8d7ac52fbf037873d41bc6a626ef",
+      "packageInputManifestSha256": "1d72078304442c3224ba5533810e2ae86cdd2e233df1e220628e0728a7270c38",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "36127f2881281223a870b96bd5a47ac1cf23922ebb33729730506c993fc4b1c9",
+        "CONVERSION.json": "2c69009b4712f43b6795671bf0f6c5e8bb07a5f3fcd2726e066cf24b73eecadd",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b457b8c18a29b4494c1e1bc5634d12136fc877d0a1983470492feeb16a2a4c19",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "c6b494014a71b370c6d04fadacedf2e6630a1f151714e1a658af099ac196468c",
+        "asset.json": "62ef22eab19e4c61cd3d9a37b49397184842a1ca55f8b8c9d678ad04cbb9c1d0"
+      }
+    },
+    {
+      "id": "city-parcel-locker",
+      "sourceGlbSha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4",
+      "fbxBytes": 869404,
+      "fbxSha256": "a5670c504c54f1745c01704e70d473a7451d5336de177cd038fac4f16a4c2bef",
+      "archiveBytes": 296913,
+      "archiveSha256": "b5c2ffa6c4c5a3245815712d60f613eb078013bc51f88b3004e15f3386bbd89a",
+      "reviewedQaSha256": "fdabae8ea96b9828d83b3d199b020f795291a80d7c7c4637e01de56bb8e3e14f",
+      "packageInputManifestSha256": "50f90377501e320186a8edc2b913aa7dcc5dae0c3577087a54d850c7787fe545",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5c3e624921f4743952cc0245df634dc176e1766d5e34ac10d0e43909c6518da4",
+        "CONVERSION.json": "d1e322ac1ecdabb25723067b309377d325388adeb5a1d1d590fdd2ce01e5572e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "fbe40ccab43998eb8251538e822f3aa914778a6160330500990993a26daf7210",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "970604efd0f273451265051cc5a246cc7bce4cedf26b4c4e5f1c647a2618da66",
+        "asset.json": "22d82e13de7f4652c7999debab19f46e6a7c94aec49323f2c993b566054303d4"
+      }
+    },
+    {
+      "id": "city-parking-boom-gate",
+      "sourceGlbSha256": "e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230",
+      "fbxBytes": 761852,
+      "fbxSha256": "a352e43f9487986898a91f26ab565658952767540d6295d7d44466f17050a8b9",
+      "archiveBytes": 310814,
+      "archiveSha256": "9ef9837af3c77ea7f877a4c74ca9adf9803501e9a4665d7af5b6424d2771c557",
+      "reviewedQaSha256": "7bd046535d0c71bab31b2dac418dfae9718686029375e584733a5a84b66e4bb8",
+      "packageInputManifestSha256": "9effd1893ccc3c8b2d4c3cbd3192d33fdb9cc96566d5e88cb7e398c85a968310",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "e3a2cf6e7c8d50df3bbbc9266835817638365c737bd7fa6f9b186279d694780e",
+        "CONVERSION.json": "65fc1108a999a88f10400372894f9aca70366447875d932a7929fd1528d47335",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "519a4cbf828562068c091a08bfe98d2b8d784b8c400d2397dd2a4f5ded0b6f07",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "5adc59a4f112c043d57c729a427ce553f4d3213c2a410d23835f0ec5a7837ca5",
+        "asset.json": "1070bdd69ac894526f8f467bcce91a16d87f86d136ea6744248626dccc368a8e"
+      }
+    },
+    {
+      "id": "city-parking-meter",
+      "sourceGlbSha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739",
+      "fbxBytes": 636684,
+      "fbxSha256": "55afa7b1821d0b1e958c1d5f08f7dd3ca728cf9b66edfb6af21d0331642e75ae",
+      "archiveBytes": 261033,
+      "archiveSha256": "182ee8a919a009fa5056dd64f404b3013100120e2c9a81f7ab147bbe82e8f5e1",
+      "reviewedQaSha256": "52b103eaef84d29028265917234e0487e134d548dc51336797e3cc9992cdb9e9",
+      "packageInputManifestSha256": "65aef0efcbc7481974ea784072356fe65f3c7b1218c0c8c9f7da2e57b79c250e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "dd902782f9ab6ffc9e4a4d6f4d243f5f21f31f840716bc48a30d0205398d26b4",
+        "CONVERSION.json": "71ae0bb858efae5e2a3c7b6acb475d83751059a80810dd10c35573fc97af2617",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "73c46a762f23b806d8e7c1757e38418de4fb2557b83d9ba0dc31179ef8f57d7c",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "96bdddfd55bd9243467419430873f7aab826438108a0dff6bbabacc6527fae5f",
+        "asset.json": "e8a26e60c8a55fd2f1ec5e4a23c71f2ae00487319348fddd64180db91af466db"
+      }
+    },
+    {
+      "id": "city-pedestrian-railing",
+      "sourceGlbSha256": "172339ddad310eec488bee984faacc113707f3bfd8c93ace10e989def0211a83",
+      "fbxBytes": 227404,
+      "fbxSha256": "7e19d02b36d52839933091451aa60dd062890e102dd507123aaf368c779dc6df",
+      "archiveBytes": 52110,
+      "archiveSha256": "b5a2b0e6dfa878a1f858e4b7d5297514a20a94959a60741a9064501c0e6ec48d",
+      "reviewedQaSha256": "d7a5313c051a80a5fadd6a33d8845fc1f200f30cb781ca961e9f65acbf22a45c",
+      "packageInputManifestSha256": "db9d8bdf88871f35c3124ad4602b6cd6333159e3250350f7824d6c2f32c83a59",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a5f2622b152075acb3e2c6fad5bb6268c85a0e8c6e73b00afcb9b954d71085a6",
+        "CONVERSION.json": "20dc7de6c2730cce757b43808f3cd47a39e76a4ce54a09311c04f60f4ecbf2d9",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ad85331af3202e4a20a03a89aa11eef27d1a4c73b9e217204f69c335babc7047",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d93165d3935e90c4c30c92d7098787bfd73c18c54c8b7e6ae6991871839c7f54",
+        "asset.json": "82959bdf1ad67dc9dea65347a5e3f3cf1249ba494033ba2ef3f89db0b0c8f48e"
+      }
+    },
+    {
+      "id": "city-pet-bag-dispenser",
+      "sourceGlbSha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+      "fbxBytes": 129564,
+      "fbxSha256": "d8ae4acbce6a58a28054c64094a7931f3fb8e462884639df0430bc87ead82b23",
+      "archiveBytes": 59232,
+      "archiveSha256": "8a1fd96aed64f19a00fc16d74316ee3c6d649dd357725036b1160586f9ab1421",
+      "reviewedQaSha256": "625a5bdea3db22300a30a67d84f771498ddf015aa0e4f32b6ccbd70958f07dbe",
+      "packageInputManifestSha256": "e61ac023b8469fba628bb65e09a3af28a93952074b4f5069e71979c0d8759355",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "e0b68f705a58da56ff82b4e7c683f0849fc44335487e5ff30425ba1fbea6a80d",
+        "CONVERSION.json": "207f1e3cd90a647836bbbd7a99d1808d581c6b338b3352087498968f98d651f2",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "4113679b90627a97fdb441f236c3a5704977a7334f7f57682da265389d2a1d5e",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3cc80136aa002f8d7b0a6ccc0c89a8f6e5b768f52c4a4f6490b05b887f1baed3",
+        "asset.json": "c91ae955ab724a0582ddfa8741810cbb0ea607421b3a306d2581a55ed50a7cab"
+      }
+    },
+    {
+      "id": "city-playground-slide",
+      "sourceGlbSha256": "0e264f4f4908c4d8a0eca1441ad46529da70c9f17ec5a15e6204874decad3d56",
+      "fbxBytes": 355788,
+      "fbxSha256": "2f73132a526695c9e24b96936d82a507487323206dc800bfdde176f4e4152455",
+      "archiveBytes": 133056,
+      "archiveSha256": "5125b5fc2c4bec22bf07b744c0e6ed53dca0bc00c0d8b0c59fc31672b0a4e1ec",
+      "reviewedQaSha256": "ef0b00bfb3612029aa6e1a019c4c2475edc937d00b0526a13d072be776aefeeb",
+      "packageInputManifestSha256": "48899485624d20b1e41912d7c3b35e14d1cf19d069e58152b0ea303b4cd1a569",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a441002487e75b5e0c4cfcca564304d4c7b0ad6a09be099beb295850dd449dbb",
+        "CONVERSION.json": "9deedd18681ca3319e9262056926c4ac3e16095ec65728a9c17904fe08ca53b2",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "8cdfd5f6333c2ba10bb7610883afed9a9fba1382915d1f5718bbd96e2635815c",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "5dc0c6898cea0c31c55328d0bf039ff88da2271b5444090667267d82d739a21d",
+        "asset.json": "187fd90276b6072c05136eb941d01380fe4ebc757a2a9d9ba5c94a33dfcb0f5b"
+      }
+    },
+    {
+      "id": "city-playground-swing",
+      "sourceGlbSha256": "bbcea804a0718a0b8cd9ce229cde42838f9239501244287c06845fc6634ed645",
+      "fbxBytes": 545964,
+      "fbxSha256": "4beed6f5ff72288c194c8c2cd36b6751d0a63cc1e79de4de6a78d8e48459949e",
+      "archiveBytes": 340520,
+      "archiveSha256": "6f951f04d714fa6de7a20995e3089db50c4c5c7b106a24bf5456479818452a5e",
+      "reviewedQaSha256": "443735ba50d4a7aa44fd2bc07858824a7c1599d374dc5348c25bb6df9b45d48c",
+      "packageInputManifestSha256": "4fb13447daa78bdde5d302c712fee4ee2e367d35a222a313da95824f7609bf4b",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "22b9e17dc21b2f2cdc3c9406a9490afa7668b8844bd16b4b31ef5288c834e9e6",
+        "CONVERSION.json": "04bf50538b016b8d7e06b9d3c4e0b7e75f553c494263786fd3f54e6455d0197e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c7c3c7ac40c35f0f26a4638a3a751380970b18d5905b380b9f5ce8a44c5520d9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "076f4f96cc3b85cc2e36560d348bce397799329a70fa94fbe7e46fe5ec131870",
+        "asset.json": "18185c3d502115c4dada65702744a7e5778123013facaadf0b6a128c25e503d3"
+      }
+    },
+    {
+      "id": "city-portable-toilet",
+      "sourceGlbSha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098",
+      "fbxBytes": 646076,
+      "fbxSha256": "20b56316d102906e96ae42fc7163655e9351f72e23f487901249e211ff0f12f2",
+      "archiveBytes": 305169,
+      "archiveSha256": "3bc4e87749552ae1989ab03608d85df7158909e9c5fb1a4953ba46b1921ec57d",
+      "reviewedQaSha256": "771d298655319e116e589115686e157d760776da59e7c4a51b69dbe2b2959368",
+      "packageInputManifestSha256": "23f2b1f0cbb9eb0e9c5cf2398b21f2eb83b34a290f82c8120c2c0dad4bd8643e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a3d8694f235ebc424f260902f0b8fce87acfadf9a5976235353abd538c5e95e1",
+        "CONVERSION.json": "ac2726f574dc9a054b972944fc46cc5e99f2f662a47db2b50147b54f198c975a",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "7fb625cc9f2da709f0e8cd3c28d6201c68292812c81b3437af6d8b4e6a5c7f8e",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "6fcdd83cfdb465d620483ad0bf0265ee1773e42977a2692e31efba694ed666d6",
+        "asset.json": "0e1782430defa2b171f77a62843120d1a0a2fcd9d2ca6f2f6a32a517d0b42898"
+      }
+    },
+    {
+      "id": "city-postal-box",
+      "sourceGlbSha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+      "fbxBytes": 378204,
+      "fbxSha256": "bae62619296e5597aa1fdc1353d73050db9cee8c923b16136c435a77c974d35e",
+      "archiveBytes": 168426,
+      "archiveSha256": "f12fa8895d4dbf9970440a5ef26f89774b5c48803232b32bf848603feb1c857a",
+      "reviewedQaSha256": "379355dc80f3c239ef7dc589029c674c3d94b27a36129079a3642e05d7594557",
+      "packageInputManifestSha256": "9b30f491545c4420c2c383f33e54310b8faf590923ee71591954798565373787",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a2502bcc8b33c255a61c9e0724ca038ed9f486258f929b56fa8baec7afd4eb82",
+        "CONVERSION.json": "ad3d9ef86a1db30f057d6550289afd1ddb1a17ec63fc5f1b3e4ded27b64d1804",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b9c880ea510c69a3d4ae38b336d9d0d1baa83d2e605d2cbcd6e5eefbd5a8db8d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d263c6954effadbe469fac848a8341c73334a13860efb603971ee0ef34834018",
+        "asset.json": "9ea1d4da2ff37aba1ed4260624271771b8104be0a93085d492cd28e0c623d459"
+      }
+    },
+    {
+      "id": "city-pruned-street-tree",
+      "sourceGlbSha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696",
+      "fbxBytes": 23102844,
+      "fbxSha256": "8b69617a3722ba66759aa499cf3d58ff31c68a4c68ba4fb5ad46e041161e3fd1",
+      "archiveBytes": 21837057,
+      "archiveSha256": "6bc5473bf007555b51efe9ad3a8e1ec9242380f2654db02ba1ce29f9d7cf9813",
+      "reviewedQaSha256": "0fc8971323f395f876904ac2d21f4c638c42419beaae756cbec3eb46e8ddb303",
+      "packageInputManifestSha256": "be99d9f7f450c3bb615e667bd79c17725780d43b5a5c7befcf615747aec5206b",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "1c5b021dc7a944011fd592b7433e76806142c0feb7ff2e97334321385e26d443",
+        "CONVERSION.json": "65c42783e9161aa8ce8f2b9d009246031feed2ce5e7fa24f306d4dddbc45ad0c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "bd0b0945e841888a04f92cbb602addc10b04352f4c2723c6f02eace4e4c3a2ee",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f62f5c355c1e76f67553c0d94a159a3dcd19d8d0f087f4e69fae8cdd3d863146",
+        "asset.json": "416e23ecf5da3ffe51377433bbb3c079f229481c2a03b55142a1f13673a8d363"
+      }
+    },
+    {
+      "id": "city-public-telephone",
+      "sourceGlbSha256": "890b7dc561c322f97e1ed30ecf390c72e7de84c485571e553dfb5d70326d1c78",
+      "fbxBytes": 734716,
+      "fbxSha256": "ee046fad0b86c259f093d2d3b4839b5869b311958d2c5a02c68bb4b95bc4d2a7",
+      "archiveBytes": 240308,
+      "archiveSha256": "27725adf6000eed226d7e0d8aae5dacc5be4999cd9e4746d1f3785b27bdb99fa",
+      "reviewedQaSha256": "7a37053c428b13e5d2e674c05513eca340c675d09fa844b83136c64133600f1a",
+      "packageInputManifestSha256": "20ec237fa31c2d75f1b29b13fd259ec44648763f1652bd5ed230f678a6a0afe6",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "ea2ce89185c08f03d53f406f7315ab1894a3ff7054ad271e563d4f12b67752a3",
+        "CONVERSION.json": "114cf2c4aed7b7b945b6b2bc4db48273e8cfb82d2d8da08e6ad6fad294b72f08",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "61960ce9de464412e9c36158ac74b794e90e63dd7c83abd583e52b445e0e52d8",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d1b0c755ad54d9acdfa68365ba5e8f0ecd572bb0142eb2b9e3c5feaef4e0e0fb",
+        "asset.json": "ff25dca0114f68ef0364685c614d23be9ed40465711386f85ad65bf278bfaa5c"
+      }
+    },
+    {
+      "id": "city-recycling-station",
+      "sourceGlbSha256": "b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2",
+      "fbxBytes": 795580,
+      "fbxSha256": "0b262642feb31110aa20aca85a3e35fc6a14f796934ec498baf4ec10ab529d1c",
+      "archiveBytes": 331901,
+      "archiveSha256": "c5a1bf4c1d23af3e1be9aa796f8880129a99511ffb3c725385f4bc6078d564bd",
+      "reviewedQaSha256": "dd09243666cfaac40512c4f7b9ae1b4e17a91a773bc405233e8d8fa93a2cf994",
+      "packageInputManifestSha256": "bfcde156d708c9c7c90d1f2158219abe35950c6908e4e391c939a3f7b980765e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "ffaa3890cc69df8d5173440255cabc7cd9850b147f17db141b55bb25f576392f",
+        "CONVERSION.json": "469408b9576945e5396a1647d3f628e2dcfc23c8206f69a76d0eaa9816fd58cc",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5f454f3a1dfaaa0f73782ab2b277ea688c9b7a39f72ab2dd710fc28e246d8800",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "0579d31acc1abe3ff132a5af64ac1692997dc56a63c14484903780161276779a",
+        "asset.json": "f4bcff1a2ed052e2804c81ecc45326d567df278643ee221562a5f00a7f94493b"
+      }
+    },
+    {
+      "id": "city-retractable-awning",
+      "sourceGlbSha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a",
+      "fbxBytes": 355148,
+      "fbxSha256": "21741495da00269fe7533bc621c1fd091cb167530b736c397f512562fb8f0c5b",
+      "archiveBytes": 100778,
+      "archiveSha256": "943b584f64b1ebe140dab9f247987af0c62f33bcd4ff87b0a86e11b53453d8c7",
+      "reviewedQaSha256": "e0f44fa2cafbbdb611041c42cc3db22e8ff54c3ae5fbfcbf7467b4806a2341ed",
+      "packageInputManifestSha256": "903d012d7615c91382f8b217427010248ecd5013ba5bab32346025834b9b5e89",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "aa175a74f29a09b5918e2fe241cff5174890d7494b4a3f5f4bcffc3a07d00eaf",
+        "CONVERSION.json": "043dd667f725aca9032666ce867ff1d6607869386e0d8ccf30d10d10622e5595",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f5ba6c0509e905cc5726e461229649f85c5274e3b03b4a1297cf7efd690921be",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a8e1cf5be6a05b42637703af562392c5161944d54c350c4ca7436f4dbd21ee20",
+        "asset.json": "1755057f51eb3732fcbae23036e32aab5b29e9b9284a928a8cb019da6a3a5f7d"
+      }
+    },
+    {
+      "id": "city-road-barrier",
+      "sourceGlbSha256": "dad16a9cbedc900fef29cfff31b42dc943bc6a37ddaf2bcc85ca141539945671",
+      "fbxBytes": 386924,
+      "fbxSha256": "308ae0ecc8bf60d30284086f728c3a85795e37e92b4c9f7c363e03e45e78b193",
+      "archiveBytes": 139002,
+      "archiveSha256": "9bd488b2aee447e43db7e4f898794db712f6e6ff4978294889031f2f2fe91fd7",
+      "reviewedQaSha256": "96d20d6098c30fea3384d10376fb8b92924f5f07d543c8ccb9e162c2da674a46",
+      "packageInputManifestSha256": "1897ded0e1aa489e93c9a5134634c32b46c7e44eedf98993f282a577278fe49e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "139e7888390e59bb3972d6b6c426f129e1b3e38f9c72be37f2e8492322ad41f9",
+        "CONVERSION.json": "71ba3e9fe433c5649f3721b88ffd8a4c9ab73d9d298ec7f75c00df0aa8691c24",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "da077961e0c8dd777d50fee280b4bdfb28d38a7e080b00de3cd2204eb7dd2e74",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "0d1b90bb367f01641ebc0fad782000d9f2e16344f4a85b30698f1cd8f347f568",
+        "asset.json": "f7bec5633b96b2bfee46554800576d5f73facf58d828405fc512897f16a69e74"
+      }
+    },
+    {
+      "id": "city-roller-shutter",
+      "sourceGlbSha256": "8033643e7de8c047b06146d892bfcd962bfdc5119fa0262681951d1ce8d34c48",
+      "fbxBytes": 262604,
+      "fbxSha256": "cd2510691ae4c0508e07fb8442c7001199628106c6c1262e2f9880a9c7042f37",
+      "archiveBytes": 205676,
+      "archiveSha256": "39a3dd1203a9f2ec17af16445450996c17a23c3998b52c1d84a329d2ede35682",
+      "reviewedQaSha256": "c9a7a6ae3d0fc5268a2ea231b46014bbe0f5f4b2aec012a913ac309b00728da2",
+      "packageInputManifestSha256": "9569d9c8df246ab7e8aef7b50535a4ec917be0201b9f27505e62df8290ba29bf",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "40ec423d6f06cf5be0d65b5fa34be0028f8f2601af0e3a3a992594bbe8580e9a",
+        "CONVERSION.json": "a510eea30bc1c8da5b68d8cb27b6b4d54fcd2d24dbc582d542d9d9958e777311",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "78b113db9598422120c30394c7676974f320b6250981626d98effc592e5f0074",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "0823c30cf17b6da578ce377bf30ae8e68a1e17a8f6dfeb3fc5bf3444d8787795",
+        "asset.json": "8c3f8c89e7397565a351e4c0677e48775dac64a08fc2033ca6e5f3552e138b66"
+      }
+    },
+    {
+      "id": "city-roof-access-hatch",
+      "sourceGlbSha256": "2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5",
+      "fbxBytes": 213500,
+      "fbxSha256": "f1b2a162b651bf64aef92152c06eb63d196650b5947fb6cf90fd83e20703b042",
+      "archiveBytes": 90010,
+      "archiveSha256": "4abfb6852cc8b7a3f0055c40c78232f6916397e94407e07278e83d39681718ed",
+      "reviewedQaSha256": "f98c8f46f18e03d09bb06784b1d6ed1137901d9fca8615c884ec09e3498b5919",
+      "packageInputManifestSha256": "ce9857f8aa82f10fdc9ea852705f3ff3c15a09222d8643c94809f67fa6ebc25d",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "14ea1cb9c4f4347a73c0d324aa080dc7f2753dfc95a1cee1b07a9f395874964f",
+        "CONVERSION.json": "f23d71f38e463b8350a8d9beaedd407b58ccab453ae9fab6a49003785b45990e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "0b98e4b4f1b922893db6dfcf27db6beb9036f7d0173dd831b68189823615cf39",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "332834399209c62ec4203fc88ca0432dc25e31001a0063252fd6170058fccbaa",
+        "asset.json": "f14daa8adc941a59fa29a0bee2d6cae31fbbc3871fdcb50586563e00533c60f0"
+      }
+    },
+    {
+      "id": "city-roof-exhaust-cowl",
+      "sourceGlbSha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593",
+      "fbxBytes": 635836,
+      "fbxSha256": "078e0d534e917e8512c69465030a8550938f6953c38bf1d96a0209c9419bd327",
+      "archiveBytes": 432296,
+      "archiveSha256": "7d760eec5f9eb31fc5fc834e4bd51d56e80b1b5cd5e101a5ea3b0ed8e070f132",
+      "reviewedQaSha256": "e7f6ce99d33bdb9e1ce7304468a915dddd2d60990d4c9d4ec31975d12a5827ff",
+      "packageInputManifestSha256": "056e5b192b25363872f6d82aa9b9ec99685a32c0fa01056442302f12b6e7d088",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "b58883cc416bd9ba04b93b3f0f68eb6e641bfa2f44ab260f505f04c41d8f9edf",
+        "CONVERSION.json": "fca897b9072cac8ab48fe3044c6932e73f0a5c204c34c0f2c3f2d01330bd1980",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "7c10204eea4e665d72632780a02d197e0cdb15ffec1fb8969073a2ec076cf923",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "541fcd3d8ba5f776f6eff0254b2b0c78d2123ff66eb5eb2a778e3e6860bcced8",
+        "asset.json": "58918970319974d5e15b75192570903ce63ec60aa638b1f8e48cf90a35735e25"
+      }
+    },
+    {
+      "id": "city-sack-hand-truck",
+      "sourceGlbSha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+      "fbxBytes": 1032876,
+      "fbxSha256": "c6ac53f9e6e3110677483c137fa70d53dd16ad53c0963442189104d95a98b517",
+      "archiveBytes": 920265,
+      "archiveSha256": "d4c1a6a32604c6cf2136cf394daea8f70c20ab852cb05788ed677244f4b0450b",
+      "reviewedQaSha256": "08892eb577fa5e0d4651165e92b8e9db065a7d8f197e30f8b17331af0efcc280",
+      "packageInputManifestSha256": "6d272be3861a3f181e7cc5e70d84bd6078fd887f2a5610df942c16e4377aa7cb",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5b5a0812624e6118288e6c49ee6ba24ab44e629d0fffe5a51518060173431078",
+        "CONVERSION.json": "a608c13a9243c5d1502a3137750157a08e8b833adeb9f1d69d7d7523bd402124",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "e6cd6a7261479ab865aae36022a0b18c27e9da8bf5c33cc8c22459a9c9980e22",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "19bdae01881a5e4acfb9866d41b922ca9c65ae67ee74a778c833bd58cb3ada45",
+        "asset.json": "6ed5f91246cb52cc9a77405fa0f27eb9708ea80baef8e80b19ae4004f02cb41b"
+      }
+    },
+    {
+      "id": "city-satellite-dish",
+      "sourceGlbSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+      "fbxBytes": 920412,
+      "fbxSha256": "2625e5c59d03560f89c9d2393f8abbcf462d6d2957c18ac4d07772f49e0d5fc8",
+      "archiveBytes": 831373,
+      "archiveSha256": "e479b252504735f997ad3b312d11a1cd62fdf41c544a7ed9f7f4f9a4f160067e",
+      "reviewedQaSha256": "7b399faf886358b12896acf3850bf61232fdcf433f6b59899c0ed633e27c7baf",
+      "packageInputManifestSha256": "f550b7b653e94e5b6a8b798a2973736894a18bc0287cd94c8db7d5a8a899fa24",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "39378c43be5f74d2d3b765cb51b2d3dcef67f7369ae4b8fab190f2d3c5313c02",
+        "CONVERSION.json": "25b674bb099a49c59109356771025d7a623d3cd2b48f98075f7a24ad6ad56f1d",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "71da7bfc8f7fc3fad2e324c3157eba59f0e8bffdad77f238a168c7e5a7f5ff57",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "c55f8eb6a2e2a28223b6ddc014b99413f84453320e81391e72c6d1afb86b4d02",
+        "asset.json": "8c9758ffc43b9f4e59ed7ceaaa411cba35e60bd6fac9fded8fa157aa8c38ed18"
+      }
+    },
+    {
+      "id": "city-scaffold-bay",
+      "sourceGlbSha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+      "fbxBytes": 959212,
+      "fbxSha256": "83d7f36c2b36c8a351f65ac7fa683960266b3b41085b8e297a0e864b3af02103",
+      "archiveBytes": 733024,
+      "archiveSha256": "ddf55360f20de9906f6b6cdcbfe9b121253ca3171c5954bfbde6e86add21a5db",
+      "reviewedQaSha256": "3896f5bb71e644d204b2385df7b7eaada43b6a7b29d97661fffa8e16667f0439",
+      "packageInputManifestSha256": "f716dcc0870e8f1750162951338dcb8a0bc7d1321956bf75929a749b699aa03d",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "0813959ac2ea2e8880629e197907192a25e57d60bb23365d14e1fd0f119feb71",
+        "CONVERSION.json": "f437428ac4b4274fab248333f289d7dbec003e0d7756b0e276b78731c67c8998",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "929b0c2ffbb4cc9e35f2114c5733c14b1273d273b86e5fa66ba8a9fd49ffcbb1",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "c0f6caba978344b5199d3b59b42fd238c687a08c45bf46978bbd108683e50241",
+        "asset.json": "ce9cf154c8970c19b2179e7aa3480c84364ddfb94f507bac781d3660381f560b"
+      }
+    },
+    {
+      "id": "city-security-camera",
+      "sourceGlbSha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82",
+      "fbxBytes": 267164,
+      "fbxSha256": "7bfbe64b4f05764de09aa607ce78933ec9db0e7f5a0babc6a6bbb2d94f45e4b5",
+      "archiveBytes": 170441,
+      "archiveSha256": "0604b8a05a8de19d381a2eded8cc5f19a2fd105db82d05958ac705d353efcd5e",
+      "reviewedQaSha256": "273fac203a74c1242248691d8beb52bd28510f000792194eeff202a5bd35abd8",
+      "packageInputManifestSha256": "93fdd7dce67dc8695ca75bda930e8d9991a79ede6be4dc8e43849024493bfce1",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "60e15fceec357532bff79eabfa62df5e15cc6359231c60a21c546578ddaea48d",
+        "CONVERSION.json": "fee682bcea39787fe0d1e4f6c50892b8a1f3714a853229352471b2f4ce2a9ef2",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b0c0ff6d729224e4f2b8707b79f722c8a233652bcbe15cfa3c2bdc061dacd2cf",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f6395d6309365a0bccb71ad69eb0b8a776b03af1e5adea189f4b680319e7d9eb",
+        "asset.json": "7688596dfcc78a0160de49798f960a37e2aeeb6d9ef083bc3f312290dbc1646e"
+      }
+    },
+    {
+      "id": "city-shopping-trolley",
+      "sourceGlbSha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28",
+      "fbxBytes": 1243436,
+      "fbxSha256": "8555fc6c42f43e5120c18f8ce651b4a869ce446c8770f6c23849292031388bc0",
+      "archiveBytes": 1098431,
+      "archiveSha256": "5d32dbf4a9cf50bd3b7320835f54ac5d58e51c9afc2b9f20dff79def022cfc6e",
+      "reviewedQaSha256": "870b4c77f00e62fba4b08e8cc0abf1b9186b7cb0ab7f802c710a40e5ef0c69f1",
+      "packageInputManifestSha256": "d979dac66fab274d80f0949e46d757968997ab9adc0d8d84e8e6d827c10ee467",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "7a3f9d7fa183d841ca55e6b4e3ad0d50f7e23f21c4d7e642dbb83ffd06712029",
+        "CONVERSION.json": "9a95c76b3cfc7b9daa8b409b153a881c559000bc832a4edabf4920820250aca7",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "fe941260eab3192d4c4bb224510428494b15147a29d2b96b2ada9f1cc4a1ded4",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "8e83943c254dd4ec0dd2b0255d62365547554d69c71a8b250b93201f27170929",
+        "asset.json": "9bb7e9bf3360a5961570f8c2d245bae7a9a6f9022b5e4a14c9bdc7f15e62bbfe"
+      }
+    },
+    {
+      "id": "city-solar-module-rack",
+      "sourceGlbSha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06",
+      "fbxBytes": 526940,
+      "fbxSha256": "1945f16664b62b5c4ed78b532e9842d0892f23add7939188be2db20e7f1fc165",
+      "archiveBytes": 336784,
+      "archiveSha256": "8da616ad9d50d6fd084151953a5b3185772b66dc84dc0e23380372508502c48c",
+      "reviewedQaSha256": "aaa738bc42563bcb11a5a4eea2cbb1795142e0d025a08dbed9b05f861d47a931",
+      "packageInputManifestSha256": "0c4aa3f9812aa7ca4d1d28be3ab0eecd05af2d3a55716d4d3e6da010c5f7bd13",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "3d2b9b57572b25fcd629d38f681c814ac9e7e0c0b4c76e5294a7244f6786308f",
+        "CONVERSION.json": "c5b7d0a33dfedeb9ccabba50b8a8aae3ea38f3215451b71d97d7a507eb48d3a6",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "8366b9772a527f77b9a8e05807d4c5c32321659bbd1e872b2f2cdb5290bdd3d8",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a148553b9a5b46d6ad895d66037f4b8347ac3010af907d754878869b3dda7e34",
+        "asset.json": "7e828107af52f8ef6de1f3a4cf6ede8eef13391a8aee9a25d7b4e65856b0008a"
+      }
+    },
+    {
+      "id": "city-speed-cushion",
+      "sourceGlbSha256": "57d5b53192f7ce4ceaaa4f1bb11e3f88466e518f7381a60e1a12957863bb02c0",
+      "fbxBytes": 283532,
+      "fbxSha256": "716158fc405b8c2a8ed3456e84342e02a5adb1f74c27cb7dfc36036e77853b7f",
+      "archiveBytes": 50110,
+      "archiveSha256": "6c2097e7db49eca59ccd0478061b45c7b1ef023aec9472929a223c535d83c78a",
+      "reviewedQaSha256": "13b1633d1ed16001bdff3f79ca54161650f8b892bef80553463737c58c992d2b",
+      "packageInputManifestSha256": "87704fc348551be7e2d8168d831d4240d967fa3badfda45309b115cbfde51645",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "c64201ed2b79831ad4e1cdbc9de2f0a505afbbf2dcf3102cb51e49648dd4ccdd",
+        "CONVERSION.json": "54472a5dc6b6ac29376439119d03935d359ed09f6772a9b14d722cb66de8b18f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ad6231ac4c8533bb9fb1da89f1ebd19db5203a98501d2eda10e81692096ea51b",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "e0ce4f159175c20950bef203ffd40388603e2888b0b42a491eacdc9edd241a7a",
+        "asset.json": "803f24b75fc76b0f7f65f66e326b4c70e9acf2d42c75a8c6b6e69327dd888048"
+      }
+    },
+    {
+      "id": "city-storm-drain",
+      "sourceGlbSha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
+      "fbxBytes": 339372,
+      "fbxSha256": "db906728ebc0408d375020aa132d59f4fd3dbabe6ce55c1284651266eddc46ae",
+      "archiveBytes": 103499,
+      "archiveSha256": "8a23ba7e83279a2d783795e9f353462f26914b082fa6b9cda05962db117f647c",
+      "reviewedQaSha256": "af80a96f2c849eaf566ca47a0256f1700f810efad1372e7e2c1aa9747416f5b5",
+      "packageInputManifestSha256": "23e9050a61f2ccf9eb7d70b46e8c5b18b498d7d3fb542fecc9c169d0b4c9fc0a",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "9070ef7d328569d0af3e1a5cfaa8b33b2ecd1f31a7b9865da6d53dd5527a8de4",
+        "CONVERSION.json": "a83310c6026b3350de404636703deaa64a13428bef98e3bcabb9ad31b3c48dfc",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b8d8f3a50a42353921c580c085fc026e25fd7f4b598d1179cef5e6ff3c06a85f",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "6c8decdb0cdc2bea0921738b8c12ab08d5cb2d54e98fa65d3f9c8239cece9154",
+        "asset.json": "adcfafa2745d4b6deff891430b07965d20b5d443162b3e0d177c700d4a786a43"
+      }
+    },
+    {
+      "id": "city-streetlight",
+      "sourceGlbSha256": "34259d4e18e74ff72f3d1f2897f2fea56d34158af24e3f9ad5c5dbbefd3f4c9a",
+      "fbxBytes": 523676,
+      "fbxSha256": "84b4454cd3cd32c77df2598b86a93a28b0a84828745304e3d9bcabc687892d1f",
+      "archiveBytes": 208991,
+      "archiveSha256": "d5f88241b63288de4cfbd605c69d264b51013314899bc2333f0a344d12124106",
+      "reviewedQaSha256": "e32cc067d6aea05bba66e8871e37419944aa122cd7776c97f2e4c5859844c6d4",
+      "packageInputManifestSha256": "4b0886b88a2607ad0814db825abcff5d2194f1c6590c38856e3981f7e78b24b4",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "33cf2c19e12d36479d44d5f02622d1326d2c2f8d1e17a13f5e6e61bb145c737b",
+        "CONVERSION.json": "11d3f0651bdc4828e9e786b9aeefe2b32cb41b380053a6d7b5d683a8fb7c879a",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c7ff9c66f17c7b173b5999c003dedad4c838e61d2046bdbe8e589a8035e1731c",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "20087e68ea6fe3f9132207dc1348cb35afe356ca1ebb476f5b262ec890b21273",
+        "asset.json": "11ba24a2d0972ba85af8eb6fd6678fbf315cc9deba622de15038ea86bf53cfa8"
+      }
+    },
+    {
+      "id": "city-tactile-paving",
+      "sourceGlbSha256": "c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295",
+      "fbxBytes": 169532,
+      "fbxSha256": "6fd34c4a0023c5927fd4cd8291126c4ebfc8d6c0f3e3332539210d88040e6219",
+      "archiveBytes": 84593,
+      "archiveSha256": "09b012fa49c70a43f661f388ba300fff3a34fd116c9f9dd3e0aeaac700babf4d",
+      "reviewedQaSha256": "1c718c7ac1eb1854ee36a4665d646a4de48d0d1aa4c4e207fd87a2395fb92731",
+      "packageInputManifestSha256": "7e388f1a204bc8d420ed3ba55108b41d2b8ac7bd571518177dbaf112412e00b7",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "887daec69f22cfef585cc6e66436c6ed7608bf94b1ba071091c698ffb9bf01ac",
+        "CONVERSION.json": "865e7e6a44831dd7ed7e6eeb7be6d9fce4bdb4510cf606e3a563d63e0eabea31",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "3077af65bdad7e7ccb7aa6f4f6cc28550e67b1ed70ab60caa600fdb62e5f621f",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "0c9d2b47d002ed58a83a4d814e648511d7b8cf73c350733d39e0fd64f70b4ca1",
+        "asset.json": "294f4187ff712409d6bcb720b043e03e89d7538f7296c4bf12f07e0bbf1302f2"
+      }
+    },
+    {
+      "id": "city-ticket-validator",
+      "sourceGlbSha256": "6901988cbd199a3455698887c8510939fd858d5e1bf654368be4f724a705039f",
+      "fbxBytes": 384892,
+      "fbxSha256": "2dcbc8948b66b03f34f204634ffa3dc66657f60d7b27c23aa554f8a5c72b39dd",
+      "archiveBytes": 167760,
+      "archiveSha256": "86733e4c539545dc1a76e1470c6b0dcf173602af3736d9302b59137cdb6d498f",
+      "reviewedQaSha256": "ae1418db87c45b14ab84a08758781a8e2897c86d778d34c062f0b153af6967fa",
+      "packageInputManifestSha256": "1555df01b6011bbb941fee4feffbe5e8b892873b1927b94647c178eed99d8450",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "89f4de1f8c37852a39d6372acf09fe18853a453d135e7f10f485b5c9d5708474",
+        "CONVERSION.json": "5067ab021a8dc4aa56c2c3ca1028d81c5878b10be915dc928fe611bdb103c7d5",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "471ee8b6430ca3ddbf097937d24423be45d822d72131df7aff2a871a08d7aeaf",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "426482cff3a1315803dac2ea653c00be84d2a8917cd3e70ca2e78a643755e138",
+        "asset.json": "2f01c1438766d08fef3f8d624edfc2fdfaa900e0cdd1622371cc4e8ce4ca6d7f"
+      }
+    },
+    {
+      "id": "city-traffic-cone",
+      "sourceGlbSha256": "a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4",
+      "fbxBytes": 95532,
+      "fbxSha256": "dce6e3d960a3bbc6dee8e5433b40eb67944a4993224bb81ebb9e31a87673a6f9",
+      "archiveBytes": 63878,
+      "archiveSha256": "2d823a19cc7cd165bb06ae6a4f366547019eb25508a339fb1ad5632eec791ea4",
+      "reviewedQaSha256": "5652a03fbf52ab1f0216336ae91c0a9de39d767335424b8105dae6b6df47c7b8",
+      "packageInputManifestSha256": "7f7769ad15fffa53a74ced7400e834924d34acedbd332a994e5068792bf4d9eb",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5bbd29a56a7a437d79e1451dba5bbec6c01a4057f31584e2ead4611b4a2f155e",
+        "CONVERSION.json": "b15be4b88c23c90d61f7a26bb869558a95c41993926f302283781fddf4e17912",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "4e716dbd6294118330ea896c15dd3b1ad61eb451055bb3be40ec40b22915cdff",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "fba1d1672131cfad277ee8690390f0ba1a24a799a0832b382f503596fe702661",
+        "asset.json": "363759b3aa50f7498a26767b083b40aa5eaf3c7361702bdc0a476bf3690fca5d"
+      }
+    },
+    {
+      "id": "city-traffic-signal",
+      "sourceGlbSha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217",
+      "fbxBytes": 825356,
+      "fbxSha256": "70a4ab51a11e1d98f3bd5e03ce683ff743dc2ada8456de204170b8aa28c53518",
+      "archiveBytes": 498023,
+      "archiveSha256": "1e195fe41dd468bd4d4e5386948b4eac7a81136229e12e592bb7ea17ee3254b4",
+      "reviewedQaSha256": "dd1e832283845a00287b4e9f72e62f86ec82a5042efd52f8ec86b850d21f9e4e",
+      "packageInputManifestSha256": "a55ef75bff80e3592ab84900f38dbd3e8f7af5cf1a05ac0acb0d52c60c0a2da3",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "3edd46ca7f470897c04badb4c4e4406a91bae66a925f14577d8c303cfdff7991",
+        "CONVERSION.json": "fce35f74109cb3c264716418135c6f9bef4b205cac2c5b5941e4edd5d92ed44b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "4b712b5a265641bc3794f632474a8f7726e6a5b66faff0293e25174df397ebac",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "885baf7f0f292c96be632b8d17427f83cb16cdb7ccac80d6d3a13cb34f1d7e5a",
+        "asset.json": "e0164b27d1841540712306aab940e96369231f5e010e1565300d4bde524120f4"
+      }
+    },
+    {
+      "id": "city-tree-grate",
+      "sourceGlbSha256": "63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b",
+      "fbxBytes": 202348,
+      "fbxSha256": "821aa3156a85df3e53717e87ebb8dae9b439b89483668ee446b9362e6ea4b818",
+      "archiveBytes": 85736,
+      "archiveSha256": "a4756b31eb7c3637c08afb19a63992ec9c34742fe105304f7587aa8f0ffe3234",
+      "reviewedQaSha256": "8d1f82dcd8b7380d428319c89429980b4fc0a40a44e5fbca4e6bf267b5f92ef7",
+      "packageInputManifestSha256": "1e1862c7c53d3d675f03fffc9c9875b49af6bbd347338da66b9e4c6de4084b1a",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "2d726d86ebfe5a0232c63898feb73d8faebfa5f0937153c03a5e598e5002bc5e",
+        "CONVERSION.json": "6689f77816461c7f75c5f16f44f919dc95adc79c3697adfbf631ef4d4106d13d",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d2676dfffc7181e6929e9fe6d6b66cfd6a5b21f1707e1b226b0a4e74ed14be6f",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "efb62e9fc02578b9e024e7380158fdef8b8d001acaa28fdb822978b9e467a70a",
+        "asset.json": "adcbbb87789a8e6c9d786b1f43dd253305755aab9fcf23126e857b9b11b55598"
+      }
+    },
+    {
+      "id": "city-tree-guard",
+      "sourceGlbSha256": "5b0d434cd45fdfc84eba930ee49e729b4a9c9d6be19672c6a198f0a5b196a5e4",
+      "fbxBytes": 308300,
+      "fbxSha256": "4e5048ce74848404e78a60c79534c2295dd251bbe1503c57cb44685cc5320daa",
+      "archiveBytes": 56643,
+      "archiveSha256": "bedeb8135cb1624618588c0063275647dfb34712381b0986dbea4c99dcf5e2e8",
+      "reviewedQaSha256": "0d86be930310a7ac22bc080ca8c8547e5d5b249b01c427a52b4165df51d8efec",
+      "packageInputManifestSha256": "dfd55d41c8f93cd2c419a04131ad446802552e14a500c29f929a73f02c17c20f",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "812731af33a0034f53ba4dba61e2375fc99e89f4491f0d99b5662c628fa3694f",
+        "CONVERSION.json": "5ea98df2ec564e54021b6304d2131b01292c16a75cc5ddbe452c03ff85b54b6f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "126a7cdb02720641fede21fabd1b5d2d4eb92aca777bcbfaefee7d6222b80d75",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "9eb2521af257d791896c8d35fb69f5ee140046bcef620a851b770abb1d08e1ff",
+        "asset.json": "0fdc8d45658c129f3b2731be95f910186897ed328c58713cda59330ca0eac32d"
+      }
+    },
+    {
+      "id": "city-tripod-turnstile",
+      "sourceGlbSha256": "f21475df2d9cd18ec1157bc15298a4aa650e0737e856d49a2fe2a66b50867006",
+      "fbxBytes": 181836,
+      "fbxSha256": "cc217225b6bb6f1eb742bc8a1ad419209d897dc670c0283ccb496dcf50f6b9f0",
+      "archiveBytes": 113430,
+      "archiveSha256": "1a62c7d5953775d6c3781abec77bd40bdb36fd1030d629323316f8c4bfa79c8c",
+      "reviewedQaSha256": "c05327545091461659a8b27434636eae79c269f0f879df9463603137f94032e3",
+      "packageInputManifestSha256": "d1fd5d440bbe48dba513d4fdf94a7ba3dcef68a0b1903477604a9f06d9621657",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "eff0c920e79ea9e49db206c8c344c914dd61c74d4612b1d7a496734e186fd33b",
+        "CONVERSION.json": "2ace1d1cda5a226051c8cb4d3b436cb63accc4be79c65fc3bc344d070e13174c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5ee4e5a6b1e7444db8e466c5d5b464038de2826794f93fd824d28bddaaacc4e9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "9a989969ebf7319a968a7cb1f18d10de8f625275271b882b7d3555ab5b627175",
+        "asset.json": "24220615fa95bff48d6890b63986984e574fe9efee5f3d1a61b356a760b38be0"
+      }
+    },
+    {
+      "id": "city-vending-machine",
+      "sourceGlbSha256": "c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b",
+      "fbxBytes": 1315900,
+      "fbxSha256": "17276741b59b0fbb4d0381c87df6c916503ec6fdcaf8fe104b528087eae39fa6",
+      "archiveBytes": 1100865,
+      "archiveSha256": "251c4205f8b32826a1fcfefd688c15d9d55a99cea3d3ef5f2c88fe9e31e45685",
+      "reviewedQaSha256": "d8d5cb09425ddd51ac835d5508134310d047e7be3f8b7adf50d679890ef85471",
+      "packageInputManifestSha256": "5c60d687fde815a1386f405d2bd0547623e5b2449238f1618a579644862ce8e3",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "8eefb86a7583f6bbbe6f84dfbeb4024c1591024e1df22c3f877183645d571988",
+        "CONVERSION.json": "f0d116e7ff78aec08d1f52021160ec38af127d5cdf0b5e9c91bf3607480025c6",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b4da98a2bd0b24764e02e685133fc454e845b129d939e1e3329998d21ac0dca1",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "86801ac501331322d13d0d5456efd982214a19bc7a496836c95d60dd6f8ebd71",
+        "asset.json": "2b2240ae60eb22fb704085d79536427ee79d04d1b1bad337c9e22b74c41deb67"
+      }
+    },
+    {
+      "id": "city-ventilation-outlet",
+      "sourceGlbSha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc",
+      "fbxBytes": 423804,
+      "fbxSha256": "42fde0e58fdfe077baba1678490bcfe1b625b757962991cd745eae7e06271707",
+      "archiveBytes": 344047,
+      "archiveSha256": "c667f4a6490565565e6abf942cfa26b4120042c67f1243a0e4b6cbe1e2151996",
+      "reviewedQaSha256": "aebcf34f6b064be22ba1cc1d62b9733e8394ee1004b83f981f0bead04ad1e2de",
+      "packageInputManifestSha256": "67aa398b4c196c6cd36b88019d986ea519637403e4191fd02fa0004d310acbc7",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "0b5dbe524e53dcb2c1791cd2d6155b6cb177122749bb8106cfa07f52ba3a397c",
+        "CONVERSION.json": "53d72eb6ff81185efcbdfb0d5172953ca0d97ec01c016785decb901636654863",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "9d96cc4aa6822a0fe8dd3119d808561ba18a6a47cea1c9f72f698584a0630968",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3a04484bcbe9ebf94dccad9c497f6ce168d40dc1adaa20439e6db79ec1d3db6c",
+        "asset.json": "dd8aa93a7792740dba31071524b0a9d780c982d0f1d3b7f53709c199eb8ce58c"
+      }
+    },
+    {
+      "id": "city-wall-intercom",
+      "sourceGlbSha256": "70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb",
+      "fbxBytes": 291724,
+      "fbxSha256": "952ac10c14cd1eee78ab360d3cace84d228fb0e53aea216091458e734531470a",
+      "archiveBytes": 155132,
+      "archiveSha256": "d8461fa4d5388669277061a4b4419b855be3131dbe6402dd8c4249e87639cbcb",
+      "reviewedQaSha256": "424cf444817581901c1fff2f0fe942f246bf1d978c4db3e82592cb138ab5fcbd",
+      "packageInputManifestSha256": "f2d8b78768083e90819941357f6cb3889415d0841076ea29ed119417e45b5a7a",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "ebe947860fc783bf99f1cae70980a29f3c2e81463863004e4fe3e456efb8088e",
+        "CONVERSION.json": "2108c0480251e7eeb10d0ff146e1fc55a339436a897d71230c0d429c0bcbce7b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "978f834e62f4035e702ebe90bfa578f20560a8fd287e223ab243a7b94906594f",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a501d769858a358265384879529249700830deaecdbab3900179631aac88cf5d",
+        "asset.json": "0fe82c091b443f04a41d145522cf59927fe36e5477b47898ce8cf2dd39d66b02"
+      }
+    },
+    {
+      "id": "city-wheel-stop",
+      "sourceGlbSha256": "c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654",
+      "fbxBytes": 59420,
+      "fbxSha256": "de63dd1ff7e7fa8ba40297db8e5ce66d58fd30638321978ebea703a3ce7d0a8c",
+      "archiveBytes": 40025,
+      "archiveSha256": "15699c34ede11618e5fdce3ffdab2178cdcabb584bfedcbd19045a1d0c879564",
+      "reviewedQaSha256": "636bcb585cdeb49c9926dd2020cecc49338ab931536ce899c52bf99ace5b6856",
+      "packageInputManifestSha256": "eb226d9c2f692013602165655c1b8853a64f39182637bbda72f326ee5e05fa82",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "1e4b50c2c0f109d144377a9a8a490cd30704c67fd368b2c446f65b8a11cadd53",
+        "CONVERSION.json": "71c9129fb6ecc7c9dee5b4387dceff1f920edb1f07549e5c0055987f079c3d6b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "dc7940377eb283e122aa73ad12831f60095e5bb3a51154ed87d3fd0fbb402a83",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "0402b022e51bb7f3ddbb0bdb4127d50400b6a140aa33ce45f0bba6cc0b1d3f65",
+        "asset.json": "9759847a58d70637aa119536b8b1b86731717985a64b62fb2e8d76d227c83813"
+      }
+    },
+    {
+      "id": "commons-bar-counter",
+      "sourceGlbSha256": "eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2",
+      "fbxBytes": 38554396,
+      "fbxSha256": "3818cc666f17a8b319e6c8a83a96e551b097765552da320b54ed9cb102be4f74",
+      "archiveBytes": 37937262,
+      "archiveSha256": "bca3995c347dcc6df27b125672bb0f87451d68285c499c794d312d73ade82e6c",
+      "reviewedQaSha256": "f48d7c1f1ba402378e2d478550d9835bd7dc42132512bf3275e62fce1bb697d0",
+      "packageInputManifestSha256": "542aaa5c27fc185be3e2a7056e6ff1b1e17976577bf50d39e9dbd421d0730020",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "dc32f53a75862ea86cbe4330cf7c639634cd1cbd7f763218f03ffdb9a21e5e44",
+        "CONVERSION.json": "f69a0000d749aa8c9b9dfa3f4711ec742fa1a2b07ad199b4b561d485932653f6",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "18ab57cb2aa6f58526fc967eaa27c6477d06fc2d566581571e9bb51e972cab3b",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "75e1d74d4de4a2fc94d3f686a462a3201203e6366aef8f82bb05dc3b8b578e59",
+        "asset.json": "513b9904a90a754272fe4b726c420ed7f9442781e2681d953e1a68c0d5f6a184"
+      }
+    },
+    {
+      "id": "commons-bar-stool",
+      "sourceGlbSha256": "65f0305aa2a8b2c67e27f1e9c0cfa004bcd0b6b71d90712da678c10cf0e32909",
+      "fbxBytes": 38918540,
+      "fbxSha256": "d24abb2b86eb150f2f41aa4e9081add2941c50209676719b2f6e3fede6a489a2",
+      "archiveBytes": 38239855,
+      "archiveSha256": "be8f78c48d6b6a188ee97f971e2acb2480e090c1d3bd30db794c72dcf44121cb",
+      "reviewedQaSha256": "a55fbf21f497b8328712b8f7278c6c77a99b249445094aec17c811c00e6f70c6",
+      "packageInputManifestSha256": "185de3b0c8d795fb5234bc78d012703f70ffb3df0e023d0d3a861f3a0a037a01",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "2a06020723c133e4df21cf7bc0927e7bc19051a8e4b3afc127a389ace96650bb",
+        "CONVERSION.json": "9188fa8679da654f48485ffd6fc442c30b3f8f6915d2e1212a5fba62cf257f61",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f1e4df95c52f2b1a5ae2ee84c5a103f286728bd7cb97c35efffd1ae0692c769f",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "1225df094955e21ff9973c88ea33e746de63476a57f868c1954997beeb84a783",
+        "asset.json": "4c41cfb6c4748321ae14f26f82aa17f1082037422801db625f9fba2381172bc4"
+      }
+    },
+    {
+      "id": "commons-book-set",
+      "sourceGlbSha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70",
+      "fbxBytes": 30844748,
+      "fbxSha256": "d04a94df701172e6f871d545226ce109890f934d1fa44703a74a4807a9af2609",
+      "archiveBytes": 29781631,
+      "archiveSha256": "ffed8202b0e0e8fbe7ffb449c3f4cb8e4bfcb7e2117095982aec96d410322db6",
+      "reviewedQaSha256": "ed45f3d238e8364134ec8ca4fd0db8c9e82f2e8af6467ad03c4c69ded46d2d7c",
+      "packageInputManifestSha256": "ced9d6e3c329ca810fc70f4bc9badf670838371b6b2d236162562d545af0c150",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5dd0a7ee9d027df896f66e5ae8e9812d3abc76581ca83a6845355b9fe25c9eb0",
+        "CONVERSION.json": "e764323c3dcdf8468c399cd2c01eadf0ee6df8d8e7704af151ef36c566e7602c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b44b752a293e4d38e7978df889c3629f5bdf9ba2e484d16296ad9cf91433d6e3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3f230cfea1ef81c5ce4262e4f92a1fb3b299136feb1d703fac7cd81aa505f682",
+        "asset.json": "a63b08f1bebfd13a5c059d24bb810c01fc577fbd42b67eb75710f2dc7d5ae205"
+      }
+    },
+    {
+      "id": "commons-bottle-set",
+      "sourceGlbSha256": "594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297",
+      "fbxBytes": 16296908,
+      "fbxSha256": "bddf07d284c3f26055aea0ad19db1cb8f8113ffffe1dec7f7a508ddcd0b3558e",
+      "archiveBytes": 16103698,
+      "archiveSha256": "e86653c9a8e522b877f131916de888b5e32a3ded30a0534aa3c77b84441e76d4",
+      "reviewedQaSha256": "80ff33a3c26b3f5d124fd8dfc103f81f16159de0c3f800233ae9fe72b1719520",
+      "packageInputManifestSha256": "b76336018a618f018c35f3604bf840da72b96fb77532556c77465689a3a135e7",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a23899a69273cc863d888faea2cab3da70546b9fd99c30eff68b57d112efb74f",
+        "CONVERSION.json": "9e78ab0abcc975083dc49b146c146d77a86cf14e8183e67b6fe3a8495de7320a",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "082e36981523ce037ff152216a5fc4dd8f65375d8b1fbd730d5766e25abc73c3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "036830d39d69c2c86c8e6b434ff865fe178c8edc488211d2094a3224669f1ff0",
+        "asset.json": "f0824138dc1c2ac877d668e310e761251e43cc4f57a2ca441d725ad8dc83db68"
+      }
+    },
+    {
+      "id": "commons-coffee-bag",
+      "sourceGlbSha256": "b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe",
+      "fbxBytes": 15904268,
+      "fbxSha256": "a09a9077538c96510104de42438f058c24c6f87749d6993ea59538939bfb33e6",
+      "archiveBytes": 15800310,
+      "archiveSha256": "ee9a868fcfe29c4a497e674b50d5c1e02f7383629768d2a4e102a0c1ecf9ec59",
+      "reviewedQaSha256": "acb6cc94f44c42fe06378adb4dedb71e32ec7726d555c1e11ffcb0e2d6f89c04",
+      "packageInputManifestSha256": "473d2211f0c42841e0fec82480a6569b7336cf5a70444f10d0a081d663eaf1f5",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "cde08cdba714ba7ce79b9407247c0fc1e2adfeb109c1f75f4f4ed9b510a2daa7",
+        "CONVERSION.json": "bdb6496e7c7ab9a37a714013fe4c264040aec0627776e55ef68515d02c6a3a0d",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "023763c23c44b7b30279483327825fb9d9528e9a27d45cf58563445b376bb89c",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "0ab21bced2902e521fed0e3f293fbc1ad926310f432c95bc91e34c9f3a2fb2d4",
+        "asset.json": "a3bf00233b27ec8ebf3868ee83b319423a21361d94e34eb55db53c7306f4ca45"
+      }
+    },
+    {
+      "id": "commons-coffee-cup",
+      "sourceGlbSha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22",
+      "fbxBytes": 26732,
+      "fbxSha256": "125313a106dc02ed6ae1908ee7a92bdd0a37227d5bbba4b98412d4ccc0360c6e",
+      "archiveBytes": 19951,
+      "archiveSha256": "30ddf0924eefc39690bce517fce31b0a8f254b1c7590616794b5011fb90222ba",
+      "reviewedQaSha256": "6e4660ab03f53c2cbc5855e516c73eca0addfb1fc95788b8b95022582f8b523f",
+      "packageInputManifestSha256": "7d91dacb61cb498bc4dd58d524cfe20fb743ee809573386ba0e78652d092d625",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "6d7ee9bb54d96c794f8531867d22fb084aaabfd99173bcb799d4ac0aaf27e0a5",
+        "CONVERSION.json": "bb5cc1fc735e7dc8a0cd54e35ce1ad8e7a8120cb964b456e5908c0a7e12ce2b0",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ac0707bd7047ad4d23b1b3aa5e544776060917e4834b64abe2c65b72c6954fe2",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3f7c420dc442813304f47bf311575f3f704bf08e2a1219d4b041bcb2f5ad2d5f",
+        "asset.json": "de176107322933aeb3a0958b52c59226a4c338fa11b025b9947c4c73ff06373b"
+      }
+    },
+    {
+      "id": "commons-coffee-grinder",
+      "sourceGlbSha256": "f4a9ee51508b79bf56efcd2e4d20c056fe57b59ee0b5616ea6128caa0c5084bd",
+      "fbxBytes": 11849212,
+      "fbxSha256": "64f39e40bbbcf1c83a2fe6eb58a15e2fea7f25561bf41b26bc572cd1b2e3b5c6",
+      "archiveBytes": 11838340,
+      "archiveSha256": "49911d1dc9b891a2df8e5c26329b2f18533d87cb8d447063eeedf76aeff8640b",
+      "reviewedQaSha256": "379ae6a6d321498fc912315201dbdee9d2945ae0a14086a56e6578f5843f1c0f",
+      "packageInputManifestSha256": "f84affc0983a7bf11ea5ebefc611dbde9036e59b5a6d2ff50074f4428d5aa610",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "d154a2d28f1112150d0f6a97bbb7fa8d0eb69cca38fba3e38964273b0978324a",
+        "CONVERSION.json": "82a25241bf141680b7c7f6e574148f7bbccb10a796be6d241db812628deea00d",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5069b442101d4d37e573502884a240c94fbd2a5f70103c517a8c7aeb78a96586",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "2efeddbe7fb2194a9f619c8d53f0387d29cff31e1581f75f8da2af0cc9e5920e",
+        "asset.json": "030043f7a020744d8dfe2c28fa31d0d2e19ea70040af9113268252d49b19d807"
+      }
+    },
+    {
+      "id": "commons-display-plinth",
+      "sourceGlbSha256": "f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d",
+      "fbxBytes": 11871212,
+      "fbxSha256": "d1c015441cdd671972e02284072c11784b7cad9576c3daa4119cc2df28f98d14",
+      "archiveBytes": 11859794,
+      "archiveSha256": "0599cbf44e0e7571bec061b421acfb42033b0ac3a3d95981dbc082047e385561",
+      "reviewedQaSha256": "dceda719c346975fcaf4156b59aebfa637e44e6bc35597010589628450bbd9e1",
+      "packageInputManifestSha256": "e76c582ab780c920c2e8a706b19fc9eedcbdc5f3173d4f50e72adb03bd50d20e",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "ebad51ecd38fe4c9260966357517354fcbc8c75d147d06c68d7deaca668e5461",
+        "CONVERSION.json": "94d5478f040f120876789e5ad957392a990033bc5ab94ae80775c023c9966818",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b527204cd122533837562b00d6686e725b5e4b3393b7690dc2b0bf590e894280",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "53c3f32dd03c91cc6d824749a7e3821bd0e2d2489aa6a994330ada04a82cfeda",
+        "asset.json": "cd8abede832802c2fd2cd49536d38855f5b67fe87accea5deeda671943f9f309"
+      }
+    },
+    {
+      "id": "commons-dj-controller",
+      "sourceGlbSha256": "f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5",
+      "fbxBytes": 27309484,
+      "fbxSha256": "6c65383fabb37bed27b77a20501bf6d57877db5bdaefd216212cd7fd59ee4db6",
+      "archiveBytes": 27099201,
+      "archiveSha256": "046b7bfe6ec2d30454ce2495eddd0b0612b41e39c2ae3325d31cb11eb119f6bc",
+      "reviewedQaSha256": "19d5d302c6c45500abe9a9160c8ee33636b706e88e40ca941bb36a18bce93240",
+      "packageInputManifestSha256": "56222d5d26dc234227e4936845097f44635dbfb216357ed2e1861d139cd92171",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "20867d62a6c5178553c2e90d4c2334aa1d727f5c1d8d20537dd4437befb641a1",
+        "CONVERSION.json": "846d5ec97a52eccb36cdbcfd32646acaa68576f7b775a6266ca21bf063f55d45",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "2af437df3bd9d0f08f71ebbfc6d80b1b048b839dde34ab519c34d4c17f1ad932",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d4ff8adbc35011ba18a1fddfdae921e060cd4a2068a8a91664706e32a92656c2",
+        "asset.json": "6cdbe1ed46768163dfb6291283b460465d3f96b670dcaeea874aa6ff229fd310"
+      }
+    },
+    {
+      "id": "commons-dj-desk",
+      "sourceGlbSha256": "0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa",
+      "fbxBytes": 25557020,
+      "fbxSha256": "ce2f258a4bc8c8d7eaabc01f709238c7fed4b8aca0e5eafb14ff5c95477d6cf5",
+      "archiveBytes": 25095903,
+      "archiveSha256": "d4653ed67771691c5b1b6fca5fcc74f841812766569667a0ff3ad3606992de15",
+      "reviewedQaSha256": "2716d10700b7dcfdc9258d3bc3c53416c74a562647a3b3d854c18c837d3e10fb",
+      "packageInputManifestSha256": "85b4187753bf164c1bec9b1a4608820f5388d76d0185e2be58194c06f3e89108",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "c24df5dfc814358da4fd571220997426177b9de35294e3eb6564c8b4b88b1c0a",
+        "CONVERSION.json": "6c463fb632988120f1a39f8df078ebcb11788433535532d3ac198b0b23a47f83",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5f2e7fe235d5f4c5805403f01bcadd7803b1975f2e6103e349eb2ab8b91470c1",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "aeafb5ba13065dfb125f54034605a2406ec98459a0cb56c80f23ed3cf1cf1c18",
+        "asset.json": "1816faf0feed89b91dee690f00d733a7c22ab1f30013c7e997f06e797be40570"
+      }
+    },
+    {
+      "id": "commons-equipment-rack",
+      "sourceGlbSha256": "67e262e4a7b7cfdb1a4f6f81c66976b09323f3425f76e67261d1fe0d214c1f7a",
+      "fbxBytes": 14926044,
+      "fbxSha256": "c710c77c5f129a965b82aa601bef48f2e61dfcb6d59bd0ba029a6d5a607f698a",
+      "archiveBytes": 14802664,
+      "archiveSha256": "06ccb3e3933f2f8078c360b4275ce1b09ba374376fa11f760e962bcfa2a0d10f",
+      "reviewedQaSha256": "dfe71b40fa9b8b1a92f2a2fffcc60a2592d38eeb48b81a22d9a063cfb3b6275b",
+      "packageInputManifestSha256": "3ef4d224342bd1fe9643f24efc6b79c3b2c791fec91abaf80b3269c2bf92edb5",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "39188ccd4e01d77db67f02262583e7d93fa4f2e98fbeb4e2792dee3ad2fc2e43",
+        "CONVERSION.json": "8ab2c3d9c9f31121323568fdfe03f471e3c705b82294cc42336ceb7b52c31b9c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "faa9d1df566aa5aa524b1c641234817dc28f31a0aeb7188a44a3547cf57d1472",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "df3794b637939641791b696152db8a1d836eddf621778f25321b08805e2f73d6",
+        "asset.json": "fcd08dcb9bb24e6affa9f2859e3e25151f0ecd821e9125293b0a136f5377af5f"
+      }
+    },
+    {
+      "id": "commons-espresso-machine",
+      "sourceGlbSha256": "23b8ddd1375e1f3f9d7e253edb64e234e4939edb8972dddd79bc9d297200e3e6",
+      "fbxBytes": 27736844,
+      "fbxSha256": "78fa99744241e0040aa45114afa3fce3b4d16175e3555c00175923745d201b7b",
+      "archiveBytes": 27624401,
+      "archiveSha256": "8ad9cadc33997846486f33a98bd48cbb2f96d251f6e597e77ce241deabae3d49",
+      "reviewedQaSha256": "51fac7351298b5ce1a73b74fdac92311f10d60fc628ff0cc1e9e0941f31da907",
+      "packageInputManifestSha256": "f7d78164d5a01b1ef35add16f4fb7435eb72816432ba243bee2f50033057047b",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "732a4fe9876d782ac814cedfd4663cb23ce47fd928f8eff698bd92e0c94238de",
+        "CONVERSION.json": "154968626bcc592b80ed2b45db6ee46de61076d0b0ed55a8a32d76994cfa1db3",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "020f34f43004530950a054f20fe0f9ba98ed620766b0a99a4e78a32d88730adc",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "90e0569b2b8bf186411306679527a1883a526230b858bc344e2a2acf08a84334",
+        "asset.json": "9fa0263f0399554b65c7a3f3caf1fa09b233af3848901bbec1af4a129bbb93b2"
+      }
+    },
+    {
+      "id": "commons-floating-bookshelf",
+      "sourceGlbSha256": "a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5",
+      "fbxBytes": 31026620,
+      "fbxSha256": "47cea7cd5264348b6d069531ceb5354eb261111dfe25f84c7741250bc74f4390",
+      "archiveBytes": 29810678,
+      "archiveSha256": "06e41e00c304502fbecbc784643351a37cf9b4b295e4b894992daf383e6c6be3",
+      "reviewedQaSha256": "351066423f4f20dd86b293220b90a0466201eccae04f85b79ccfe72517dcfcc7",
+      "packageInputManifestSha256": "b1552e3f0b36ffbf84b3ee3ea8d21b22ee25a0d45319fbadb6f3e0005b6b0b85",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "b76a8891a910d40b147397b383223252a7a0908826568e2b7bce11fe278fef33",
+        "CONVERSION.json": "6bbe22073969145003f6c6eba794739c7f341767e10831fa184fc50ecfcf9e31",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "6bc1e273e2099a4e412be29cf71c219bf9c4eb6a1aa56af9c2f491144d4a6846",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "4cdf6c740e56568c42ec36c4b1dcf8b0bb8d6ff59fec85d143924cf9aad04329",
+        "asset.json": "58dbf7ff9a206b5b5ff908050898e3e8638ea5e726fffd7262979cccf8d547ab"
+      }
+    },
+    {
+      "id": "commons-halo-light",
+      "sourceGlbSha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac",
+      "fbxBytes": 12986204,
+      "fbxSha256": "910a957216555e3db73976689ff5d2504a4508fcc7ced5d3642f127ed5962094",
+      "archiveBytes": 12894851,
+      "archiveSha256": "3b8a45619a61496106a784a6b4d5eb4d6280a4c7aaa6d509d94b7e8e25f296f2",
+      "reviewedQaSha256": "37898ab4f64495add12b00d5957d808cf9047a6e626a2d80507cc5bf9472f694",
+      "packageInputManifestSha256": "ee11d3b322acb4f6762bcd6eb337cc70f8196b3f47960bf729a080b7268eddbf",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5b5c2934a045cc994cac9d390faefb9396d84aad7544137a8456369df075f592",
+        "CONVERSION.json": "1d0017a0870cff4d713f4db521d65fab6282626d27aef3e555ab7b1bd146481f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "2da90fc99a933ce4c7f7765bf11b01cde37bf0663319c4d740612960c3161a6b",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "47850adc7e3a02e57061ffae95de29e0e1dc9b419a174202f138f10c1d28b035",
+        "asset.json": "973b6fe8c7b9feae82cb40dc00e69d9e47227b81d3e16da433369b7ec5181319"
+      }
+    },
+    {
+      "id": "commons-leaf-planter",
+      "sourceGlbSha256": "fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c",
+      "fbxBytes": 72364,
+      "fbxSha256": "3e16b21c9a2d5b362aad38e3b3a9e8617ed9c887a6cab4a7205e1de83354987c",
+      "archiveBytes": 31976,
+      "archiveSha256": "cb9a4dd2dfaec620bfa401e22e73dd096485d852c7e5593b9f49014b6ed485d9",
+      "reviewedQaSha256": "3e1c05e2acd18fcb109bd990d2bcc6aa343e770892b5767668b35f2f2ddb6757",
+      "packageInputManifestSha256": "c9019668a808a506cf6d5dbebe79dd618ecc3224226aa1f5d3919e8aef5fee08",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "c110276423a471fe7223cfaad43393c73d69bea0e70bc848bef81d2a561bd2e7",
+        "CONVERSION.json": "7c6059f32ffaef32dfcdf6dc2d0dc62aa805533aeb28e9b4694660e35ec67f4b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "b3bcb0b7327cdbd3432a980a6479dc24ca54819fa51e8a444c6c857b19df94e9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "6843d31c439fa058a702bfeeb0e00a661da2d6778f858d0da144eb1846bfcf2a",
+        "asset.json": "0263cfaa926381f5f14b19462eb109b58c7f1576aee1cf62656b9ba43b395277"
+      }
+    },
+    {
+      "id": "commons-lounge-chair",
+      "sourceGlbSha256": "80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b",
+      "fbxBytes": 27095404,
+      "fbxSha256": "b3bb7ef406e19fbaa5adbad3d2e6474d23280c15c9dc62da98e52104bf74cbac",
+      "archiveBytes": 26415674,
+      "archiveSha256": "c4d52f67c2dff99a6dcbc507a1c8f0eb8f65673818fdba757d933cfaab22642c",
+      "reviewedQaSha256": "ec2795022f72cdc9263f43ae9026e08f7e557306bc1d922e37193dae8b7bcdfb",
+      "packageInputManifestSha256": "ef3234b4498bf92a9b22df7895d87ad8bdfd0f5a495fc5faa98d94e591911bf4",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "aba312f9cff7de1f8118cd12ef435c3964227e99c7b071d3a313d0f101d087b1",
+        "CONVERSION.json": "2979cd4cd6937cfc750efff0e95434b065795db078057f43cdc75063f5582496",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "9833506e8262b3d44881d14356e03e3277a65f998d220964bbf517f70a7c05f9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "59673954c4202681e4b89f6d3c0d39a784f98eaec2321c0538f8ea7bc58de689",
+        "asset.json": "29416b05cf38644f3f44dd492f8552879d6eb4dbd9038ad7aae1377fdf6cd78c"
+      }
+    },
+    {
+      "id": "commons-lounge-sofa",
+      "sourceGlbSha256": "b5ef4bb0bb41ce2a5cecf90fb34c037817e9f2ce85da67b0bbd7f24fbfff88ac",
+      "fbxBytes": 27106892,
+      "fbxSha256": "1a206560c98f896c391d6b6042eeb0cbb2109470864313919e8858e964c8ad50",
+      "archiveBytes": 26422083,
+      "archiveSha256": "90cccb434290953e336da4e2a1b3f9886619f23d5c616b15b9f3f23d589dcbc6",
+      "reviewedQaSha256": "5731ea309be2ed28453289f1625318811dc06c16f1f190608c816f4776b75b5e",
+      "packageInputManifestSha256": "9f96a5b728dd8a591f94a94ffcb614168f8e61497ba32b7452243b12406ba3d2",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a03b58e464c098067aa2d5e98e40945137a313eaec99c9cfc43aaf570684bdc6",
+        "CONVERSION.json": "7c1919b9ad8f3d2fdfd1a5f61ed1a5337e5bf9b9dbaca65b77c023f0a7f2ca94",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "165153c55b11552addb7487336749700854694193c2d003fc70dc0d19aa8f865",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "b148997798198e0c920be47f7ac64739877b8bd3d532b38540aeee9919c2d403",
+        "asset.json": "369ce46559acdaeeb5d15f94971433777343401c3eb19e55e2dcf3718952f760"
+      }
+    },
+    {
+      "id": "commons-low-table",
+      "sourceGlbSha256": "be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09",
+      "fbxBytes": 38482780,
+      "fbxSha256": "d497a2a56af2a1f2249b5239283377ba368f130255703458cf02084dfe654975",
+      "archiveBytes": 37939931,
+      "archiveSha256": "eeba4020981dc302cce93f914a5e3963f0749a8c0b2ebaa8c7f1743b67d2801e",
+      "reviewedQaSha256": "b7d38c4464b7c7febfa6428ec6e7cf31473f36da945c7553725efb798f6e6def",
+      "packageInputManifestSha256": "31a2f718ebab89a1318b2ac5fe21fee6a591ad8b7c9a51e79f1c1bb170fc4086",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "f9c5436e74ddb69eb0d796761f1c2cd0a40a5e94e315d5a2df249edbac7a011d",
+        "CONVERSION.json": "ab4350eb38b638f70f3b393e3cbc414be76182978d5bb24c919d2052a34ba9f4",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f06fa704bcf87fdfbfdf55589ca46b4952ff4e254123738b3c22cdd7080df7c9",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "9fba94dd9d2247ab888cf98dc2eeafad7de4f84c4d6f3480b1e700aa89040c63",
+        "asset.json": "9fc88763502a51c78d31e85577b7b4eb442d784cb9022e1020c507da44b626a8"
+      }
+    },
+    {
+      "id": "commons-pa-speaker",
+      "sourceGlbSha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9",
+      "fbxBytes": 11882716,
+      "fbxSha256": "80d527a931e731202b3a11a957b4973c174a0c1730e9aeaee203c372f52d9ae6",
+      "archiveBytes": 11844994,
+      "archiveSha256": "5d74167bd3f102b9a7379c5ca065a780b3b560c947e62c941649d3d831d0d156",
+      "reviewedQaSha256": "75c90c68400b978fe3fc4091c87d29e9f86f1efdb27d14e26c7ab3ccb1770a0d",
+      "packageInputManifestSha256": "7832be9398c73348b672fd98fee603c385c1097757a69b4a016d34f476bf980c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "b7d6a815df09664ccf9891e36bebaeb428fb2aa37b1175148c6136b9707ab28a",
+        "CONVERSION.json": "6aff4610618446a906b47ea0930813dc308de8c093f2c25191703f206872cdcb",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5cb7e75dcb898d7ec740cb1a86bbf590fa0ccef41f374a2cf2249349da2ad5e4",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "cb310ce6401985e0e9d4814857283e5d4b9243daab778dcd3bcf92a95fcb303e",
+        "asset.json": "44af50a3cdcfb0684ec9022fecdaa0aee669191293005b685d017c6744779abd"
+      }
+    },
+    {
+      "id": "commons-pendant-light",
+      "sourceGlbSha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+      "fbxBytes": 11853836,
+      "fbxSha256": "fe829a83980f0c1b8fb0f79cba5dba2c6341ad7ee6772aa7cf4cb008e81fe969",
+      "archiveBytes": 11841276,
+      "archiveSha256": "40acbea31215e78f1530ed07389d162db65b89bbac3e21bbc2577e98c74b38a7",
+      "reviewedQaSha256": "f589869f3fb81de4bb192e85b93e8bbebeb9aca3a0a6edd28519e664a35f7979",
+      "packageInputManifestSha256": "24419258ca058211872cda420ad380f2c71885e9c9443f5ad10418ddf695345b",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a7ae259b40a68840b83ee5c7a6c3aca48652441e2e364afe5e857acbf553df97",
+        "CONVERSION.json": "6b25337ec706693fc51f2a5cd0d256b0b7b8531c5a41a86300e00793d28b7a4d",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d61bb2adc8724fe58270cd92eb18e006e9ba30597cefcc6a146800bde5c7f32a",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "c0758b336252526d89ce4bccc18325bd149047c1506b3a2a6b51dcfae3833faa",
+        "asset.json": "5c3df10b80309165afa4c1ef9906768a333069d9bec8ec0186c13c9bdff73877"
+      }
+    },
+    {
+      "id": "commons-poster-frame",
+      "sourceGlbSha256": "49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee",
+      "fbxBytes": 12933996,
+      "fbxSha256": "1648a2d9fc86ae45bf4ead3f080ceb8df642c78bce964f2aa9c9de9fa39663f7",
+      "archiveBytes": 12846034,
+      "archiveSha256": "81fea345cb147c1e01ac9ed5c7a12b9bd049c0aadebb9f88d031c1c558f908d8",
+      "reviewedQaSha256": "a1107ba97a9a98d0c2a55789420bcd9dce68fffe30033d7fe5ecc5cd4f89a497",
+      "packageInputManifestSha256": "e6aac662b76b92f2d0bc7d1a657fb42dae90cbd9ddf5cf5cb56e5404655f6ff9",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "3719f02e390c518dc1a0ff3e47cc6f2cfd0407718de6b75b45af12d22063c433",
+        "CONVERSION.json": "137faf076642a40dcf9b14154032353e2be6d860f96f67df909afa19f7b4fd51",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "3cf8a914cbe7799672f74b65dbc2c7fa31fd1ace2d603b99935ab05433711ead",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "730eaa8faa727bdaee9b06c710acc8c762e743d44902723b3bfdd8824626fd04",
+        "asset.json": "67710ecec908ada6c290149ecf0c23952fe0660fc8c056fb2678fb30ddd87623"
+      }
+    },
+    {
+      "id": "commons-round-stage",
+      "sourceGlbSha256": "4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13",
+      "fbxBytes": 25591852,
+      "fbxSha256": "e11c443cfb3fa2ef2a184bc1b109b4a2663fe3a7271b8dc57163aaea716a3910",
+      "archiveBytes": 25131054,
+      "archiveSha256": "f05bee8114ada7e2d5e564b06a98e6786c8ae7218d896ccd12d05ed197c4a420",
+      "reviewedQaSha256": "33065e7ee14ff468f9b1a7d3073b15e3dc689b2208fadbefd03dcb7a812ef1dc",
+      "packageInputManifestSha256": "c7cf3cd3b0775229f5ac695f6f6e254ae363ae03f5aa33b2874280cec3941d99",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "70e1c2b3a5f71a4512ef1d2457d45e463aa9f1d05f6f7af8633f9425113d0de8",
+        "CONVERSION.json": "66d781e565303e06c19c5b0eb98bc032f7838c566022960500ea019fe5ee221e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d628708203e24094b63a70b8cb973bda58904dddb768d8ac89ff0e007d8fc829",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "4829aafc3bf2d9ca4512377a16999b4dd22f5cfa0c21beed266f80d4f2b156f6",
+        "asset.json": "85206fbe88a8f767ebbca8c3fba45d59553f83800dfa5984c0287958b701b005"
+      }
+    },
+    {
+      "id": "commons-round-table",
+      "sourceGlbSha256": "72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048",
+      "fbxBytes": 38483020,
+      "fbxSha256": "5afb547d2e909d620287643ef0f81631ab229dc16e4c62514df556885019b36b",
+      "archiveBytes": 37940333,
+      "archiveSha256": "8fabf1387c7e2bc890f4e0341ffd3e63279827e071c813443d39b83a806e3257",
+      "reviewedQaSha256": "489bb2a179f12d6b30d8abefd5c607923a9be3c7086412bb33423673acffbdb1",
+      "packageInputManifestSha256": "37fc3143c278a585cc470e355576232623c23a6c1ed3206a912c025f3c196516",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5eb78827eae1b84b20050d56caf7cfbd0d488e15075adfab8d1c85d1af45cd90",
+        "CONVERSION.json": "2561499b68cb6b0929aa1d1cc8facd5170206d3aa2529d04aa8dcaa5c4521925",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c0f6f28f4459062d9a925337520f256b9b64291fe4bc1a616ccd3ae60989c700",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "1411120dbc224e30a9c70681ca184a5324281da1ca2222982ca621e0cf0fe1c1",
+        "asset.json": "6567f1e453c3678f5f16516f5afe59ec0cdb1a29b1d1d91a45efcbf9c3648f90"
+      }
+    },
+    {
+      "id": "commons-table-candle",
+      "sourceGlbSha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7",
+      "fbxBytes": 20220,
+      "fbxSha256": "86bf5ebbe5b5aea90f84cd7becfa99bfb03f47f80a4b8651592509e710fd2da4",
+      "archiveBytes": 15515,
+      "archiveSha256": "291d1152fa4e02cffccf7327dfb5f260f48ae8d277577b56f6cc397208a1fabb",
+      "reviewedQaSha256": "cea700a48b83662e3254836bd10d47f5aa5c946565cd47d25b5178457493271f",
+      "packageInputManifestSha256": "1a1fd762af4c265465bacc2f98ab40076604317c5ead3db127399dbd9a08b2a8",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "064519fc55977714f137b529f3a133b2f48c8396a84cb566dba38fc46bbb109e",
+        "CONVERSION.json": "45bafd618b68c3802d5cbe0d8db93e92fcac2000aa8828163d431e373ead09a2",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "96a2af41f0d664d15ffa2a96d09ed7476fd7ba0f31b6cae848e08d5ab0c510e0",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "11eb011105eaece770ef5db229939a1cbaec76a6fe73c6e5e10b0edb9590cae3",
+        "asset.json": "14af1b534abbc9dfe5f948a0c8c428702c806410a2e289592cca7f4f867e8752"
+      }
+    },
+    {
+      "id": "field-terminal",
+      "sourceGlbSha256": "fa34860230fb45295547c7157655cad09d2534961753c5291d590da01612f32f",
+      "fbxBytes": 19996,
+      "fbxSha256": "b76b630060fefe08e991cfd0523fd56602c9553261076f4b9871ea8310e83efe",
+      "archiveBytes": 14990,
+      "archiveSha256": "64811219c911b121e8c704920bf6387d1293663541e2033551e65e64cb753850",
+      "reviewedQaSha256": "d43e4a0fb1b2b7e1f3899727c5ce4b4a8001ec46fc3ed2c69ba7e68bb498e828",
+      "packageInputManifestSha256": "23446362e0000d476f22215ad6331c9df729bcc6ce1e39c459b0750865aec247",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "41b6d651cef40f8d40323224bb5721d519c9cc6e25c3e8b23b922a6681b9682d",
+        "CONVERSION.json": "74589429f9befb6521d354730ab09a87ada0c79a41871699483a46faf60bf987",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5cb9f8d8a09f2fb17b72a3a362cfd0be97861b6a30973e664bfb2fbb407374ee",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "16fe4f47b183e58c8e1758356599aebe2fc97ee1dfbc98d1b77ad2d7d8b9f43f",
+        "asset.json": "4b1ac639cf4e8910fb45007786828097e70acb80a66b69b048e2a24a96f5da49"
+      }
+    },
+    {
+      "id": "garden-arch",
+      "sourceGlbSha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c",
+      "fbxBytes": 22044,
+      "fbxSha256": "d084442a54ab731073bdec10bde83071d3c01eac3518d2b45210b6d44157814f",
+      "archiveBytes": 19327,
+      "archiveSha256": "6d31c50cd917a1f1896b6d78e294428f565383e3d6897c24525a1cc18174587f",
+      "reviewedQaSha256": "9b3f242613323aacb5ebdc28418f11242c597df0a8fb924a47e1c314ecb38793",
+      "packageInputManifestSha256": "0004226811042f03c200401539dea934fc59b0caf9add34fc0456a790a00700f",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a8570cfc45e9a813dfefacdefaea5adb331fb213199906d1635637c104d9e162",
+        "CONVERSION.json": "f9239961a85877f00485b2e1aa384691ebdeb45e2fd4575fb65997902ff7f714",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c8537b19a5d3d45839358ec24d222df352a27a45a867a3fcf35ffa4bab9c4d27",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "951cfb889ab43d44dd7a69c051ca8451572261bc90ef27c483518d9842cda7fb",
+        "asset.json": "f46106f65b83bcb41500464217b6085253b802ee043f58f6825436e760a39db4"
+      }
+    },
+    {
+      "id": "market-crate",
+      "sourceGlbSha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55",
+      "fbxBytes": 21612,
+      "fbxSha256": "90a502adc99df0bc652dcc8fd7e52d4b07411a328b47db567df51298e708b5c8",
+      "archiveBytes": 18594,
+      "archiveSha256": "983e8758f07e41bcfbc072c4622b33e5295318e92cb763f616c9b95a7fc141ce",
+      "reviewedQaSha256": "d4ae48762f37c9397ec20d9624c16e1e97bc1f271bb319ca0825864b3dcd9fd3",
+      "packageInputManifestSha256": "e356989a9077b3fdfc6cb34d0cf8837af850f753186f2741dc15442deafa8de6",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "332566cd4e1967bc590c3c0aa5312f6314de5a320fe630e2b153ec784b5c1a70",
+        "CONVERSION.json": "070a15dc45a2ff45cdf53dfea645982a1fd4c8a2f31813c3bf8ab3e2d2976673",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "110a714df1e52a2ddecedf97811df80a098903ae45b533f7b3cee8362bcc1ebd",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ef886ac36ffef6b47e185ba4f7a0c640b171f6e20a834f9e425f2b5fec0bd3d1",
+        "asset.json": "23f321348edc17c254216033615b5678f9d0edd1042e124e79d673f705111329"
+      }
+    },
+    {
+      "id": "slat-bench",
+      "sourceGlbSha256": "bb07fdd60b6f6068ac1a27b98f4cfd16ce2a1f78439b332257e4920a8152e4eb",
+      "fbxBytes": 18812,
+      "fbxSha256": "d40c597d1efd6813c9158ab7877a5c233397349183d51f3ed3daba77f99b852b",
+      "archiveBytes": 15413,
+      "archiveSha256": "6d499fde1e5ecf545867ed54e07fc2d6c2a0591be8f6d6c7a56571548f3af1ec",
+      "reviewedQaSha256": "660d52685a1ee236af195f4b9c7a7d7ea7fb8556b107bc0fc69fedd39b2b8485",
+      "packageInputManifestSha256": "e6f5d6d6e9db25bea41006e6fdafc3bfe975a579fff91862851fd159da880276",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "d2eb0a9ef7f3f639ea7a6fe2dbb874e24ced5a26ccc9b56494f8fc75c9c6769f",
+        "CONVERSION.json": "d08c2faeaf2789238725a979e5f9e41cc738cc8f56b7ee930a14b430a38b5852",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "0aeeb2a01f21668be80de82b7db7d38f7a1faf8595a265ddf3101e40a0d8410f",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "887933bedf9b405c9f7ceb80f86c45dbbc4e16fd1a8fb71cdf679ca320b692bd",
+        "asset.json": "304b6efa8dfa96c1c69f86d725dc35b2d5425531d4611afe39752403d8799cd0"
+      }
+    },
+    {
+      "id": "studio-chair",
+      "sourceGlbSha256": "f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5",
+      "fbxBytes": 18684,
+      "fbxSha256": "74de5d046e7d38fa0f900bcda9d03694a1fac83aafc187102029b231562cb2df",
+      "archiveBytes": 15407,
+      "archiveSha256": "f97c725dabb5391556f3bb10d96a2fc7e8a500ba28c8bab71dfbf3ffc5a511b8",
+      "reviewedQaSha256": "cbb8409f9313d9701b7a995fb90d62d4f613db1868c11b7fbd4b1712a91f62af",
+      "packageInputManifestSha256": "0d910c812c46c884e0beda12cda89924a1c46da857faed9abebdcf7b217a9efd",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "aeca6c4b30c60af8b79e9ed9131d2f698a0291da637da98dbc61f0e822f058a2",
+        "CONVERSION.json": "826de72f41199be83c58ab44c3b77f5b72763583a40fa0a7abdc0acad213222f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d8082226313dc07c08d6d4c3c9f74fe9d77fee9aead575d391ddcc109a765ecf",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "2db823d56d3481610155d0cfad84898217c8f73c9434312112827ff63195fd0b",
+        "asset.json": "2345763d897d31fe8b6abb6acffa01dcf10698e3087202ddee95751988520adb"
+      }
+    },
+    {
+      "id": "terracotta-planter",
+      "sourceGlbSha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a",
+      "fbxBytes": 79388,
+      "fbxSha256": "5cd90f996d5246a11e660e15978da2f3689c568d6fee6ed8cd0fb7b7805f9d91",
+      "archiveBytes": 66752,
+      "archiveSha256": "708d045ca8ad48cbf80bf141bdb20a43b8627da572f4083108d0f8c6365cf700",
+      "reviewedQaSha256": "25057b8e9acf30abdd4c1a9c1581380d5bb457620db801368030c2b0a73dbc0e",
+      "packageInputManifestSha256": "a5968c77c94829083088ff394c6fe0be0da93feab1a630163bf15cc40134c17f",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "20bf7c94837c7889704e1d87e21b935e19d6d8208d24b25f600aa560ef35cf44",
+        "CONVERSION.json": "05473db926b3b42ee1c7bccab54a7257a78f9d19e1ba19af617c1f42f0f4bd18",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "99fd71adb50544f4333fec3c5ae6fb22ab0268bbda4aacef6abe17a427a64cab",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "2079576e6d4b1a50b52277b5aaea9d3846f204cddd6009b3ee52cefb7fbbfa5b",
+        "asset.json": "0fc267be8445a040a8bcbdfb5bc3980f5ea9cbde5b976fac9f27579fc9400c08"
+      }
+    },
+    {
+      "id": "wayfinding-sign",
+      "sourceGlbSha256": "7f44eeba72405af280222526f34e3ae1a62ac67f97516438c580899e01bcd44b",
+      "fbxBytes": 68604,
+      "fbxSha256": "e53d12ec142fac6f3118a4272fa44376cc3710aadb121acd79c1516c6c0d7252",
+      "archiveBytes": 56696,
+      "archiveSha256": "0f6addaf83bb9fdc0c72d3a7e26148443294cddfe078e76909c4b7e70ceacdfb",
+      "reviewedQaSha256": "c39bd38c7e660f7e35a314999be8ba7e9d435e59b72cec364d95b42e71cab220",
+      "packageInputManifestSha256": "9cc9d81ac89941213f406ddedc1d29a317cdb1b64193fa843c298e36ca83f2cd",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "df5c2a74e1f12b232571670f45951d0b11addc8f3bd3c4f082c0eafebf489a34",
+        "CONVERSION.json": "20cd88c222f1a71ad7336d9aadb7525c9b86b28665aeb4e33906f8d2d5538f9c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5f8a3b2c841c210883648bc3b48f732df78b295a27f537bd1f89a7ec4d625584",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "2320487eb9cccd16061068cbf6ae06968405564c13b96d2a0297c13c7852e400",
+        "asset.json": "beb13a3ddc5a7d68a0e8e8de88cf0e44a1131386d67f0ccfb218a51a1db60631"
+      }
+    },
+    {
+      "id": "yokocho-banquette",
+      "sourceGlbSha256": "e86a62614cd4ca8275c37bb805a9709baff1ff59a4b7ed7be08adaa4de62525b",
+      "fbxBytes": 3624908,
+      "fbxSha256": "31588f4e045f00bdb096156eba8ceef8b056b3540985a122c743766197b9539b",
+      "archiveBytes": 3596549,
+      "archiveSha256": "2df2e02c19af4a70041e05879804d671bbff23e4671e606ed610b6eee345ab2c",
+      "reviewedQaSha256": "be5e68b32386610b0dad33f026a0ec13d13c768924906d6dafd87e8b7366c296",
+      "packageInputManifestSha256": "3debe2507ba1d4c7fb1cfa5a36a7a9bc049dfcfa80ea27174c328f45884255dc",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "26293f50bd095eca1e6305a1b574d513ffef03367e09f926b5697394965bf204",
+        "CONVERSION.json": "42915fa9be97ef4312114307d26f668fccda33dc1a7fc5537f325a5581ca9e16",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "1b39af5c4b96ca53041fe0d6daebd91b7dec681be6c8b9e0a78800ba1d6be469",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "28c274fae61da5e6c4147653ef68b2ea61135142ed15340b509081ad0115013d",
+        "asset.json": "4c571593cc84bc539873417001c6a69c5090a7180e67fa317ed077e6c9d6da5e"
+      }
+    },
+    {
+      "id": "yokocho-bard-lyre-sign",
+      "sourceGlbSha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc",
+      "fbxBytes": 46588,
+      "fbxSha256": "4d3c66e77aa8f3f611a2dbe24778ed7174b3e570ea05a03c39b7c85a6b0de87e",
+      "archiveBytes": 37914,
+      "archiveSha256": "9c0067ceca37ad8003f2137b6169bad82fb6483013a42e75b7916d2fb0b97238",
+      "reviewedQaSha256": "0d65881a141f1516e3ce57a3372fe45cca6ca5770680dd15652723bcfe74f418",
+      "packageInputManifestSha256": "ee58f79aa0f0ce62297c27a56e24d08158b65abcfaa02bbee58186fc5cb1d9cc",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "2b9146de57c78a27bb5c9db50879be6d96eeed6836040d920833b8983d1f27c0",
+        "CONVERSION.json": "8c762f8d0c37cefa7a5e7caa9e769a13f03c2000886f8d200f397b124d84c116",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "bc73770466fe00080939813a1dde30c1abddcdd70333e0f26cda6b4d10a944e5",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ea33847b85f13840b1ec760e433d7ef7342e3e468f3815ca22f484defaa4b750",
+        "asset.json": "a5e1045dd928835e2ea929ab2226ed05dd657701e2d794ba00c39cf2c00fd953"
+      }
+    },
+    {
+      "id": "yokocho-booster-pump-skid",
+      "sourceGlbSha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7",
+      "fbxBytes": 157100,
+      "fbxSha256": "18e8530c1c0cacaefc66584ff7345bd7032946557e67aa2a22760c4fb97ed532",
+      "archiveBytes": 126444,
+      "archiveSha256": "220ba5faf6ae78c81a16695ad79fb47d85f598180782b10aa1911ed000379a49",
+      "reviewedQaSha256": "cd48c6569dcabf6eabb717353b1ad955c54f2db14b085649ae6a9cec9a4e145d",
+      "packageInputManifestSha256": "838f6ae01ae331bbe4c916b8c12d95ec519fd2cfc1ca08d8abbc581e0fed2014",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "446439cd5afc7562f8e13849fad32809b72afcb27f34350a7be12450c4b47fbb",
+        "CONVERSION.json": "05f114545eef33409ab2e3d3a0de4f0ab0385dca3e3803cd60a59c4a5416dc93",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "0ac0c14635977758c2d614828e75712f9bc71afa5b4a4c80826b2ba94e9a09d3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3ecc2864e2965604a1a5e35850d8bcaa8fa01e4e61ff653cd4631ab6d0514c8f",
+        "asset.json": "43c88403d5599f3b76d0e454862c8bce0f5b5f34693f34613e00498b1c8b934b"
+      }
+    },
+    {
+      "id": "yokocho-booth-table",
+      "sourceGlbSha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a",
+      "fbxBytes": 49404,
+      "fbxSha256": "752214e9166e7103df5e010528b07078a62b668811fd4ee0e527f5bd620cc2c0",
+      "archiveBytes": 33250,
+      "archiveSha256": "31d0ada1b089ee0b411cc353f6a02dcd5170799b86b0aa01cad9ecc516f139e7",
+      "reviewedQaSha256": "94ad5c32930c7e5fe1ead0345dbfd4b8cc2943375a9110164d33a7161e3a7485",
+      "packageInputManifestSha256": "2e92d23416eebc2d0b46a79ad9ed8a6a51a4140b7f7b782e8c8186b6c01ecdea",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "8284119bfa1536e433596fb863fe690251977b56f82a1fffb615129cb41d714d",
+        "CONVERSION.json": "a0ec7715ae7c0bc23f17fb6928dd2ea89f4c774d17ccf967062105ea19a2f7dd",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "2520c7117a46039f02013949c63f098d44c7fbbb4babb2082645d587b014c4a2",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "cbdcd7b4da0f007138040e65f7aa1c58fded8453bf577a58518d3e224294d07e",
+        "asset.json": "efeda90d3e2b6e81a239dcf3ebbe6067bef8f6ada5cb759c72d454b190fe17e8"
+      }
+    },
+    {
+      "id": "yokocho-bottle-keep-wall",
+      "sourceGlbSha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2",
+      "fbxBytes": 4177020,
+      "fbxSha256": "07bd674a85f0979df02b678e3cabe45dcd17b653caa2404d4d245f69ec1bbfa1",
+      "archiveBytes": 4083421,
+      "archiveSha256": "51f82af570b605e16ab0e621aa80b6330ab1354b47c12a1b83d94843710d5ac4",
+      "reviewedQaSha256": "b2c557e1fe1b50468a447f846f7dedd3818fc3afed08aac75006089d5de72bb1",
+      "packageInputManifestSha256": "537b92e32fa7f936b13ba68ea44136f90d7023191da94af0772b27dfbd22d1fe",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "dc3d78672777f7bc6c3c363e3d7cd656b5f90a2241ead6f6029466dffb1cf915",
+        "CONVERSION.json": "7bf029b019a710e90a8488fe582f69f55088e97de5fa510ebcb1bc9e7c08b2d5",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "bb0ce97a3873209cc74f04aeb608809faa408f0b4a409cdf8e303a2bf27324cc",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f66ed46dee0bbf83794e32dc6e2a9660b973a414618b4a2adee6e366d0772c85",
+        "asset.json": "044d5500e4bec6c0fd0078aab8f67b8085e8967bd09237e81321322a4247129b"
+      }
+    },
+    {
+      "id": "yokocho-charcoal-stool-set",
+      "sourceGlbSha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7",
+      "fbxBytes": 117196,
+      "fbxSha256": "415c392b7deb80333795a9e52d957f5ab9c301e8b66a190f9752e74c58487761",
+      "archiveBytes": 103748,
+      "archiveSha256": "a4147f7cbbeae61a861000fc158243cfe2cab869b63936371fb0939c3680ddf1",
+      "reviewedQaSha256": "2e0a85c55ea4627c7b4ee08047a69310b4a571f6fc3d1b9b72928af51fe18512",
+      "packageInputManifestSha256": "9e2e4d2cda7c171de45b42beadc13cb2079ca0e970e010262f86cd933f20a34c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "db70c95d7c17079186696d28062976f466a3dc2ddfc411202dc3c9e2c719a20b",
+        "CONVERSION.json": "40c894a84278c69e746c0a4498d9417f0c9b30b28b95d2147e549ca33f01a3ed",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f79255c06cc47748b60abe4bfecb9388253c99708df105f97329f15b57d15977",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "09022f0bf098a9d6e2a954290ec8d2e8ada81ec1e0c12996d4d5abf8b79fb32d",
+        "asset.json": "15325b52b4922ac1221cdee4d77c85e7246cd2ef836a10b8ebc98f0d5cb8be8e"
+      }
+    },
+    {
+      "id": "yokocho-club-armchair",
+      "sourceGlbSha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53",
+      "fbxBytes": 34828,
+      "fbxSha256": "bb9fda637e44406a65bfd8756ff16215e4e3b5fe20656ab1e8675da9a41affe7",
+      "archiveBytes": 27125,
+      "archiveSha256": "1fde74e67d9f0320048bcb5cabc5103dc143d05bdf43587e04e3be812c81ded4",
+      "reviewedQaSha256": "1090cb61cb673139b502b43fcef60f5fac09041d401ff0412ff5e28d94095bce",
+      "packageInputManifestSha256": "d9204ed91e600e503ba956661233a6061e4dcaaeb4b04d6b93c49b658194fce4",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "da0f3bc5a1bd2c278292710cdb97c61306b5c5c946c73ed2413e931bb7e1952b",
+        "CONVERSION.json": "4098647a61ac8d05c40109f63b3c1ab513da7bcad669fcf62f97771af586c75a",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "e6dc4c7281ee5278b35ee9ff14b411167cdb3b7c92682ae8043db11b7c5f6bcf",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f141f1ccca101427f40a96e4bb344a522cacf72371ec5cd5c7d989066961e16c",
+        "asset.json": "681b125ff32e61a8ee09623ecb21a6df1540949258105d07f6ade37496e6019c"
+      }
+    },
+    {
+      "id": "yokocho-cocktail-stool",
+      "sourceGlbSha256": "75aedc315176f2431a992d52275530b9fb201f6c8c258f5a183e3be07364a5b2",
+      "fbxBytes": 33804,
+      "fbxSha256": "bff37b09d6418d6f128d467567963b653eefc255109208c6f79362167f629dba",
+      "archiveBytes": 28731,
+      "archiveSha256": "dd857b1ca8b1a17b10a9870bd04034aad88deb756b845c77218833b7c11eb8f2",
+      "reviewedQaSha256": "a6c78bab7186ee88abf35aac3e5641af99ed18094b03d5c177118ab2addb1b07",
+      "packageInputManifestSha256": "0fa9667d58cb8910ad04d96ab40efcda4b6814450bfd46a16f874ea13f2e4bd6",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "e8b6200bd913946b15295257521cfd8f8556e066d85f9b087627500dbcefa9a3",
+        "CONVERSION.json": "b2e4ec373568f6740fa8098547b5b450bff0858a07f71db3fe0c3d1c48d1f63f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "fbe8fd62d1e3a36337b383eef73c9cadfce2ebb4d779fdcea1f865daaa099eb4",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "130f0eee44ee69deea89736c04082b7a4f22841d93f5ca9ee071c08e0c6aa8e9",
+        "asset.json": "2847da5c5311ccefe8fe06bbcc0e0bf42e998f530b423d1ac64959b0cf50a71a"
+      }
+    },
+    {
+      "id": "yokocho-confectioner-stool-set",
+      "sourceGlbSha256": "0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d",
+      "fbxBytes": 71164,
+      "fbxSha256": "2449dbf8207d1a936087417c1b705fc369bb378d9a879a0f4e4a0f2bbdb11944",
+      "archiveBytes": 60432,
+      "archiveSha256": "6b0a07e78d506e8e7b12474d7635b878a7c9ba0af603deea81e385fcfc6c0488",
+      "reviewedQaSha256": "c98ac66f5f997050c636c80603056a3c6a4ff9d086b65f892efbba3fa51c2799",
+      "packageInputManifestSha256": "7726743e3f9da6959fd0721a0177cb9a34175ae4cc97bd198c486bc0fb0b0aa8",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "71a0be0248a99d94174bc3da30cfb9b9128f6de4523625896932d58fb86d40d3",
+        "CONVERSION.json": "3fcc4e8e737ca229277fb40acedb2bbfc2e662f17985e84c1c0d42681b137721",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "efc75cbd31b88f4294d25ee397935c5a77e6febf59dae7419e45852150ecd888",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "130e024a22d1d3a684e0652726e9d88cf41f154acc8dbfd546dd9d414dec97ef",
+        "asset.json": "a052bd49fe9a5dacb7a190c9eec3910ef5512a9ba1c9f8537b70463f6384ed7d"
+      }
+    },
+    {
+      "id": "yokocho-dragon-ember-sign",
+      "sourceGlbSha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0",
+      "fbxBytes": 59820,
+      "fbxSha256": "7df4fd49cfbbcbe250d640ce73cca0be3501cb198ced8b4939149d188a02f885",
+      "archiveBytes": 46519,
+      "archiveSha256": "26a4eb3abc016c3784f83db88201023492d960fc3ea0a9e28b03c08ea89aa2b6",
+      "reviewedQaSha256": "47e469fa12be9f825a5d062abf541ca008a91f989f2a4b6a6040e0e31b418ad2",
+      "packageInputManifestSha256": "a3471aae88a42ac93b47f3cab1d5beb249a8020694c555efc73558b168b799cb",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "2cd9560bf1984ada44e32a61c067895af466ead6cde381b9d1ecb44f00f8c174",
+        "CONVERSION.json": "2141b29feca494e75637f9d16066fd59289516a752a4cafaec063b5ed0b95ca1",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "4d7e73903b3e0ddd2d77d89d5584b944b0147849ea0d137b7d35f055f9c666c3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "add5478ca87f10c2cdbe1e3186b466d259ce1779920c9fdc98bd1f9a8cb10025",
+        "asset.json": "463abd8a1632071bf062c933c072198428ad8b167a731689d4ff77eee10d47d6"
+      }
+    },
+    {
+      "id": "yokocho-entry-display-frame",
+      "sourceGlbSha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2",
+      "fbxBytes": 713996,
+      "fbxSha256": "d9cb754815ca19b7be56d4e16ef5f6e0435a05990250ecd61cdbbe530eb1bacc",
+      "archiveBytes": 623586,
+      "archiveSha256": "f7185def05e2f55431123d7f3790d6e8ac5ab1329896787abc4d5d7e56ff152e",
+      "reviewedQaSha256": "9528068c1102eff087da3cdb945be630f2214dfbd4177fc3938dad044feaf6f6",
+      "packageInputManifestSha256": "9b545267144fb2bfabfaf2b68afac10a768fec6007cd800f2e8e66c6dc5bf056",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "d763849b1b443498690fb374dd75dac74123a2ebfba48526bccc2c0b0761c6b4",
+        "CONVERSION.json": "1957db56b1cf2536767703d69c4ddb8e242297f6498c2e11a4783090609dbf2e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f92b8ac563549a19afcdc907a766cdbc798d08a23fd79f95b1b4861a8f88d7de",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a7f92339379ca9fd5988170648571362254ea90dd7153080df44172ff353bc82",
+        "asset.json": "e26f9694767f8cabd170652ad1be6ef27372d8108479e1f04a4671cb723dc097"
+      }
+    },
+    {
+      "id": "yokocho-entry-guideboard",
+      "sourceGlbSha256": "82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4",
+      "fbxBytes": 841996,
+      "fbxSha256": "d32eaa59c6da634f99bd67de1212fe8e0f16fcc72709302cba4bd8a09e2d4e40",
+      "archiveBytes": 751729,
+      "archiveSha256": "28ff359774b2d091103866d7195f301d6a6a07cd4c0c4aadba019837f33d0f8a",
+      "reviewedQaSha256": "99662e56a5856d32dab71baa9758285b953119714b1d2454cafbff666c6d2449",
+      "packageInputManifestSha256": "18c09fb60412e804f01115c2a54c6dfe68d18ab75280c9c9887fbed2237ad331",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "ee0d58d0a15ac898d9343b5f0b494e36b9a7b3e4f87e99a07c31c36958006580",
+        "CONVERSION.json": "aa1c77f5abed251275356a0233bed47018e510f1705692ad6d013d30dfa3e01b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "8510c5456804a4a7ac09f1a7a1a45b80b39c1e3956273da7f6d5af2a92afeeec",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "97a35977b6fd7802d9e09b1d4a5290f538f976759a7a0b2358174eeac61e8928",
+        "asset.json": "5fd7a137d129f9382d309c384ec29aa673b17df88e9283b8aaf1000d25ca772d"
+      }
+    },
+    {
+      "id": "yokocho-entry-log-bench",
+      "sourceGlbSha256": "b3efdc9cc7f12a43b859993caf0b661e3b341210666ac17cc367c0f9ced1616b",
+      "fbxBytes": 912988,
+      "fbxSha256": "8f34f5a56f1eb497c6ee8167e18e303ec3babc551fc4f20bee375695e89c496a",
+      "archiveBytes": 834723,
+      "archiveSha256": "ee314a73b00307e07081c7d067121491045d0a061292a98742303f811a9af31e",
+      "reviewedQaSha256": "c1a4ec543f9a7cb78c6f5cb20fddd5a32d812c2ae250667aaabaa66c2db952fb",
+      "packageInputManifestSha256": "83ca8766831f7368d0eb2d4d827c448cf2f142918df3f83e156068912843bbed",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "b4fc6a2b54118e9b9171ba150afc35b3a6ba180e469f10b063895a1437bf3a16",
+        "CONVERSION.json": "34431b8ae70ae516cf873f8ade089f46c29c9bc6e28750f0536239fe34de6bae",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "097449f2f1753241bd6185c1b332a7d6c4ca4aac99491be65ad7159ad4e45302",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f0c58a800892a13ebe453a06c38ade3e6dc892704955b11edfa1be873f35dee0",
+        "asset.json": "dcc9d39b6fde8183ad019046964f72e53fa0d2fa86557d44fb715d8b8b86393b"
+      }
+    },
+    {
+      "id": "yokocho-entry-stump-table",
+      "sourceGlbSha256": "95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9",
+      "fbxBytes": 583932,
+      "fbxSha256": "0da06b76ad7201b799cdfde3cc6aa00af06f41867b4a76ddd1c6fbaf637e53c4",
+      "archiveBytes": 544323,
+      "archiveSha256": "22bf8b6af635e396a59b3e6e293f9270a54dffc241e2c4cea34ee14f45088c5b",
+      "reviewedQaSha256": "714c49fe168638f5ed535f85986b5db235fedaf865e559430fd0a4e9d6bfbc13",
+      "packageInputManifestSha256": "55a3b50406e16627efa3a2bf604398d9b075540b35c6c2c40bd4c70047ce0170",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "740c2f07d103f420f58bdca4ae246a093c4826307131f959dac6abda978423ef",
+        "CONVERSION.json": "3cf9708349e09258f6e54437fe93a9ac94c959ba559615aefbbacebc23805194",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d6e1089d66b1c5c3ef18ab01657eb3b7ce49a18f43673d2b30b743ad4f851ae5",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f8231d91e0020f82cadbe72eedfe8b833346ff2ef6124654e496753353115f63",
+        "asset.json": "2b5f10a170026d3b56736775362af50545f4e491cf9aee01e8b8bbc0c0e1b04c"
+      }
+    },
+    {
+      "id": "yokocho-geometric-backbar",
+      "sourceGlbSha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d",
+      "fbxBytes": 570924,
+      "fbxSha256": "bf3a1a40940ce62f67cfa88ac3373130e305876dd3904f0cb249b7e6c4e7ed13",
+      "archiveBytes": 506224,
+      "archiveSha256": "ba914b4a20e331c6dc63deb7fb4868abef8738c9b644e5568d66bac579b239c7",
+      "reviewedQaSha256": "646718d45c1cc3b19c8c86082770c3f6a41d252c536d697d535d2f7b9ba209e2",
+      "packageInputManifestSha256": "6aecdfe5116a506afc7254c6941092e5e8e9c6daf779ad21cbd91e4b97416869",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "b896497641d31edb4c8175300b7f778071d138d0369460a41e41ae30386eb9ff",
+        "CONVERSION.json": "9b418f727f453e4dc9899a695bd39fdecdd16d4dea74df45c7e6a6389c9f553f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "2b67e3717fcdda729c6f520ee9a9ec47e6bc5a4470de615cb6b925552d2df68d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "b7d1dfb8cd66a5473830381f7d2561f67625e2ba84562fbcd3d44ae3cf8b3313",
+        "asset.json": "a49ec8a01b1ab53a2ce65971db6c7be323131b64507e02c53cccf88abaec2100"
+      }
+    },
+    {
+      "id": "yokocho-listening-chair",
+      "sourceGlbSha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557",
+      "fbxBytes": 3617868,
+      "fbxSha256": "70f2607d9de580e7b2ab3286ba13fb88e77e2daac0eae98b49b7560559ab680d",
+      "archiveBytes": 3593878,
+      "archiveSha256": "9809e2a7fc5cdb7545620c8588762c555bbd4e81f32b9ca57ea8a3b519af5592",
+      "reviewedQaSha256": "f7ea3d21f3a3e47591e54928fd6e5e33c5220702ad5a5f6a24a23dd6104f5406",
+      "packageInputManifestSha256": "8af96440e2a7c2ba6f6e5f38da477e9baefd9191b4ad1cbf6ff0c335a345b5fa",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "921778c69623dd05362f9fa74d1123b822ce019da610d7c79b28a521557ef257",
+        "CONVERSION.json": "49fdf4ba7fdb5979cdc1345edde4de5636664e57de48a7bfae907da93ad8542b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "5964c80ae063a0c61f48de9ada0f0e7fe8b15aa39f425837bd8ee0ac9313d6a7",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f835892d908a4074b890606d9c434b8994445d44d91ecd2d96fa1c1ff7f9dad6",
+        "asset.json": "46e1f2e1887b313b91cd878013f3913bc5ec2e1f5a560e783673dbd36aeaf3a2"
+      }
+    },
+    {
+      "id": "yokocho-listening-counter",
+      "sourceGlbSha256": "83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868",
+      "fbxBytes": 53084,
+      "fbxSha256": "0b16e992a22dc715b43d073a4e2afdf2e4377eee662c0328dcc784ef22cdc3f8",
+      "archiveBytes": 34155,
+      "archiveSha256": "65aee763e2cfe698ba67421a3546725437ab8a658546736381b4620afaa43754",
+      "reviewedQaSha256": "61b54408be9cfc8baf89360fa21fc4b4fe1dccd91aaa8ac8bbf0f49bda613e30",
+      "packageInputManifestSha256": "7b1f70995c72ed95752bc195b1f11e80a2840774dd09171cc6cfc7efb36a158c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "1c02c05e573f103f11fa3475498ca2a5df7f455bc9cc5604bc98c1321091a866",
+        "CONVERSION.json": "994f57d98ae3cece6d1035f7685fb50e89fce6cdb2cb67ffeb2ed20a8a4a4e73",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "894f2f96a1a0db97c3fd93076d2c21c126ed6156d21196deab739dd54df9784d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "d489b91f5a3383e95ad3cde62c6cf8425c6917f44ab53f2230b17a24c2359b11",
+        "asset.json": "faf28bf6d6ad273a8c989983de91412396f6f920f2b5594523bdfa3d578bc1f8"
+      }
+    },
+    {
+      "id": "yokocho-lounge-table",
+      "sourceGlbSha256": "eacd273d7c5a05999bc890e7c4bb4dc4c7040cbc3e26ca558faecd99d55c0f4b",
+      "fbxBytes": 41996,
+      "fbxSha256": "d7daa3f072548fd00020df03bfb9522caef693bc36687a9e8389a49b39a91efc",
+      "archiveBytes": 27723,
+      "archiveSha256": "1a2f9578e9cd528da1c1db6be5afc312da31d2f6c2ba168668291b379e9b54d1",
+      "reviewedQaSha256": "4373ca3060632c5ec6a1f8fc181146596f191e861c7614d6634ca03792c0a320",
+      "packageInputManifestSha256": "0de95e3665cb720a30fd7d6d7351bf1f3f9a3ff0c75bd4f80970ebb76b6d32e5",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "a9a193ac2604d0fa1c0db927ecd123354ad4eb74a24f49f32ab6114e54b099bb",
+        "CONVERSION.json": "5b7452e48eda891f84cc690de763841682880f0e9a6e0aca9d67059e7f00522c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "6a0ea5d337dec11721977f18638d95780db14737ecc129ea1c60ca50ae02c86c",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "fe561612c6a23a79eb735f491e8a6042a0ea2016637d10496b3b853f32dbe520",
+        "asset.json": "37e3f98e02bb98523da0691fbab18dafeced0489e7db15dd115c7568c81994df"
+      }
+    },
+    {
+      "id": "yokocho-medallion-chandelier",
+      "sourceGlbSha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0",
+      "fbxBytes": 50988,
+      "fbxSha256": "182a43802bb2e7f3f309d86117cb4fd7f27433cd044e4199e63a2cb4c73cfc48",
+      "archiveBytes": 37182,
+      "archiveSha256": "65341cd0d2bf0905a7a90ce4a38fd325dc8374873f3c30e4065177238ce06d1f",
+      "reviewedQaSha256": "c2b28f43815e96472ca41e192eb06fe8d360e26e6b6820e836606e05d3825794",
+      "packageInputManifestSha256": "7e4d78c2117bc042b57bd8ab6032a30aba010f7b224472a69575e74e38fbbbdd",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "05e296dc3dfdf5ce9c8abc7fb017c18ec356df98b82f93974e0be6ccd4f11035",
+        "CONVERSION.json": "80af47ec22039db05ad2d8965905b4c299ab6d4bbd4227912d145eacc1616501",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "d0302c596f26d1cd3501f8c9c8c69e412a583853a611848d76e09cd8c2e6c3ae",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "f9c0aaa638bfc8286f4f20d7758240ea07547be5e6c5e7f15fe9ab4314a6eef4",
+        "asset.json": "5b19d6b58de7ed2550a7607a313d9c6831136bc39c48cd6dd95b999c23bed35c"
+      }
+    },
+    {
+      "id": "yokocho-mixology-tools",
+      "sourceGlbSha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3",
+      "fbxBytes": 43804,
+      "fbxSha256": "b9535a2d472a665f1b1607da730c3bfa866cf3f52a362a45954bec7ae780d018",
+      "archiveBytes": 32660,
+      "archiveSha256": "a76a29c9650ce56b432e7f418ea7b840d7a34a5774cbe4d4b403af85124fef52",
+      "reviewedQaSha256": "654c9b71c3b2ec5cc2496661e8e72ec193657b35a1708b22f4c4404e6e22bdea",
+      "packageInputManifestSha256": "5fbde69a148de17898de83214d53c3fa9fdb9f7de34e72aa5bc68633a216f135",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "423498654b7fe584f9aabc233e2bef132c5b2094915ff6f4a91e55ef0ad1197d",
+        "CONVERSION.json": "f56579052bbf88ed973378d6d2c8c91682cfa2465ac1a8dfab1fef2de248e01b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "ec89fd91139afe4fb34d4406b02164c07a6fa4b3bd8a4196b0eca38717fe1795",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "83c49f3c64f6686f329e4a1fb075c8f101827f2c5d53098470553709aa116c2b",
+        "asset.json": "873a15efcd341408d47072ef84d02eb8bd5753ef0785f8afa17e3c10b4ee6c86"
+      }
+    },
+    {
+      "id": "yokocho-moon-tea-sign",
+      "sourceGlbSha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2",
+      "fbxBytes": 72348,
+      "fbxSha256": "99a691be16e257bdfe74bc2b70149e269d6f3abbdd06355d114e8d27b8e39df5",
+      "archiveBytes": 59373,
+      "archiveSha256": "db0522e49a86cea53ae1f04b20efc52539ed8277251bf0801d586ee2b32cd794",
+      "reviewedQaSha256": "4e48da8c25be14df7669262d10815b2b746986f1c674aabf07323b93f3b81e27",
+      "packageInputManifestSha256": "f9cfbdac576f5d61cba3fedb5a8e54319ed54663a04c27b2d04a5198838b16d1",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "d90ed5885a930f11cece2147938880dfc06e39d665e6da94eb0a7616479c696e",
+        "CONVERSION.json": "cedd474da6c14c33d183fbe163615e9a4cf3a715fa560708ff3f038c5b296d50",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "48a72ff70f0504351282d5f600664c23debec60604d146a8be6215e00fc92088",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "88b6cd2566241a2bb09826ba1db1dfad1116c66c761766f1b3540c50c3b4ba2c",
+        "asset.json": "2aa2a66444e3c11d8429e441d7565cb3d91d74db24e6ff2b93fd3113129aa494"
+      }
+    },
+    {
+      "id": "yokocho-noh-pavilion",
+      "sourceGlbSha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+      "fbxBytes": 6883804,
+      "fbxSha256": "22d761cb09b0e9106a2da8ad1d41e21719ddde6cf1db3e851722ac56a7ea9065",
+      "archiveBytes": 6644565,
+      "archiveSha256": "1453cc11d9a7ac2c1469af1de4c5011bde63f0e25c8ba303246a853399963520",
+      "reviewedQaSha256": "aeba28edf6ba83dfc486ad7c0c82d586a421209124f446c12019423dfaf8ddd5",
+      "packageInputManifestSha256": "73d865b202c212af1003cd183fae812be39b74f967bba730d69d274add094aae",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "9e1d70dcb69b58ebed6633dff548a68c1ba2348788fe5a8d1b52c83e7acf1501",
+        "CONVERSION.json": "dc718815acfd381c0124d665692a331b6e8b2330337787f74eaf77f45beefaa2",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "6d11162709d677ba6e82801b4e739d398e6cd97340d1c5a467acac019106d13d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ffcd0b121126a788095499da080c5f8c7446427fd52017b8d25f1a3e86bcb3cb",
+        "asset.json": "b6e6c352368939cdc469c1d9f0fa7bb93e33d064b966272367ed8aff9a92593b"
+      }
+    },
+    {
+      "id": "yokocho-noodle-guild-sign",
+      "sourceGlbSha256": "28e9e28a43a1ceb37730cfe3be778b295468367a109e02227f6b1701f8a8270e",
+      "fbxBytes": 4486748,
+      "fbxSha256": "8f25a496c7dc23fca0da55871ae8abd31313aa86bf8a637c1f04779ebf344b17",
+      "archiveBytes": 4410038,
+      "archiveSha256": "3a4679ecf7ecb426eaebbd0d96a15c51fcb0a453f166d70857edb9d1c380c503",
+      "reviewedQaSha256": "97d7d3b4443e957ffb57ce9146e7fafa1112fdb01aa35efb2699fec5bb18e197",
+      "packageInputManifestSha256": "c2c9fd7f79d995a4cb9cb141fb13f248971aac5cc3820085458a69f5577a7c8d",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "090f4849330a9b91c548b95231aa93a7f40f1cc11553794fcb0bc312da2910d0",
+        "CONVERSION.json": "6572e0bc2c16055ff2759a1c7ab8b17781632d6660b6e2314d51ee5ab80718b2",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "9853ae13664fab631507b4b22609e9b11066c8a4c7b5e4b370fb5a6ec43db6b1",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a20606c399947b96c2ef7c05db9f7dff01df5ac1c68ecb27ae6620463c93f1c8",
+        "asset.json": "f2ccd51329ee4860feb6c3cbfe9763b227e565b16dec0e4abcfc848496030cae"
+      }
+    },
+    {
+      "id": "yokocho-noodle-stool-set",
+      "sourceGlbSha256": "594837b9aa9a1a54ee3c47122c752da78530591ccb82281cdeb1423e6d1f0d2a",
+      "fbxBytes": 122892,
+      "fbxSha256": "3c7ac1e9f002e649e4c1b42c1e44f1c258dd102de5a295ab757c16a443d128aa",
+      "archiveBytes": 101710,
+      "archiveSha256": "a98af14335f8884c45212104a03a54817ed720a51fbf2ff1bfdd9ef9d9d9b929",
+      "reviewedQaSha256": "cd56b44a220e0bf8c8d678b0549ffb407b5dcee4f9e2f07a5c09f66391eb1f20",
+      "packageInputManifestSha256": "ed05e51836a7afc5ae588bd974ee8997dd518c2700215c5e9d04c5fdc28d912c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "e242f74ce2c7b813394ea6a0ca34db3b91859355690847745178b227f0cf30ef",
+        "CONVERSION.json": "f74f7a3b8d9491b450d53c761970534822a0a54daf73473ab015b5e32db3352e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "af416d9fad8d50e51cd41af3a3e60013688ec666f2dded3df9dae489059622f3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ef03ab68774716b30075b5342c3d836103f37f771cad9f4ab4f9b3ee1139ccb1",
+        "asset.json": "89e748c721394e0fc0d9b636fcb4316eb37e0f33ded1cb11ba1117eecb83bf22"
+      }
+    },
+    {
+      "id": "yokocho-oden-bench-set",
+      "sourceGlbSha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261",
+      "fbxBytes": 1789212,
+      "fbxSha256": "d0d3230445152bc5b63dd1ba6fda0edeed46596183600ca1e027e8af23f2ac2e",
+      "archiveBytes": 1760776,
+      "archiveSha256": "7d7e96a56982aba71d4ce8825b0a7f69b0bedace703c72c5064f4684d1e873ea",
+      "reviewedQaSha256": "37fef00a99c591a2689f706070b37995b1efc9a8a3d0bd58e01dcd1fba9a0966",
+      "packageInputManifestSha256": "7064736c65aa4dce7c4e7dabbad1cd0b73944d562dfab1caf3022a297f3eea42",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "417db6e55f1c2828c567067f72f84dc441cfcc81295ffafdb4b9323dda1319af",
+        "CONVERSION.json": "2ad0cacfd10d59bf0691eafdc0848880be850fc6ad4327db6c74c6055d38c4b9",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "e3f0ddc9df6629d2c3870e4168066569d47d061486d4decbdc039d843c55dd41",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "3d0efcaf516077bb359f7801342f0d3f39b9c2940be0b5a8767f0c0f33dc8f11",
+        "asset.json": "6831f2e41aa1b728ad78cff591f87a1596cae8b60e9ec741736dabef707cfe67"
+      }
+    },
+    {
+      "id": "yokocho-pendant-ceiling",
+      "sourceGlbSha256": "766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c",
+      "fbxBytes": 66508,
+      "fbxSha256": "0fe88f38853372a66f869ea3e671cd5cf3aa7b1f8ae7cf57647a4df08431d7d3",
+      "archiveBytes": 54659,
+      "archiveSha256": "f668fbdb820b27122b2f267ca950cf4074462aaa715f45d8323fadedf502f559",
+      "reviewedQaSha256": "4e9db050d33d9324be882179e7afdb772822c227fe7b6b76dc53c4bfbfbd5c60",
+      "packageInputManifestSha256": "27f56b9342a2aefd0058c3e7542db165f4d349270390678ec50f447f160263c5",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "878473e735d0ee049bafc49250b5a1d3ec72313c8373e4e6d7cf123ddb907bc7",
+        "CONVERSION.json": "8d0f0ce379f255a7f06fc19e6e262d0906a7209f0090ae1df0a4dd28f2cd67ff",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "48e3cad28236b7ac8c9c85a4c07fd2710d8586fcec1720898e19440a8e9b69fd",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "915636ceed2d7acd7c8b012e89e64dde0c65cb992e83bfef26cb9a7baaf92978",
+        "asset.json": "888d756cd0ce44a1818a8a0ee77762df2112d9ba9fa0bc006dfc4d8094b1dfe6"
+      }
+    },
+    {
+      "id": "yokocho-record-library",
+      "sourceGlbSha256": "94d87bd5beee4b41550767ad9ce6a6dc4b767381586787eb67c8f1960c14d651",
+      "fbxBytes": 440732,
+      "fbxSha256": "89333716f47e6a6dafe478931f3eb9d883fe18f81cada3101df3eb501f9a4786",
+      "archiveBytes": 408206,
+      "archiveSha256": "fb95fee81f419017cf37f43930feb14904579232ded6da8dc536b763c5e231a1",
+      "reviewedQaSha256": "91af4f57944ac1aef55cc5812d6fa7f2ef455f43347001068c90b4bba1f93c3f",
+      "packageInputManifestSha256": "7f78432e5ac78563a2c5dd1269370f77760c218e2a0e73fd1dffd998222dda53",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5bc9762ce13c607f29e5e09347085717fa015a0cc2a7c0a6bb56d84cbe431661",
+        "CONVERSION.json": "e837c35902e8446bef05014cf61465d1319d07b4d5893cebda6cbd9a03115e4b",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c1462245e700208f904404361d002b9a83959f4925d84c46141afaa3b5908d72",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "277e7fa4eeda67431d0bc99103db88d4edfc81b31a90493fef7de3e160a062c7",
+        "asset.json": "f3742771cacae345ff64f1fd70301ef0e3a323ff4d864a1cf479f949017b8857"
+      }
+    },
+    {
+      "id": "yokocho-snack-chair",
+      "sourceGlbSha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb",
+      "fbxBytes": 3598812,
+      "fbxSha256": "929de64837b4536577fae3a1b56a4fc026263dd0dc0f9e3296260eba9666127e",
+      "archiveBytes": 3573036,
+      "archiveSha256": "4ba8a39ea480f8f3b6c2738a0e2b61d3118a2c0e38a86f49ad448da54b5d5a57",
+      "reviewedQaSha256": "ef98360a47b85e743e4317f14b3e9b3dfd874f73b4647de6e3efa111e1730ded",
+      "packageInputManifestSha256": "6beb5d9c18b41962b9a4394fae89ef9befe14553d8fbf4e15ffd97db7bf7aa7c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "78917b2e4ea3f28f12f35fe008ca6afb45f613ea91d25e819a9a69c127996993",
+        "CONVERSION.json": "de832bf4d65580e2626396f7f32a4ff5153a8696dba752d37810ff68be0a847e",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "099511a551eb1478092691b0f04d54ef7fb418611dd21e67e775589162679eb3",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "7414c75be1bde5e6f531ee6936a30c3f461a14cd1d437b5dd6de8e57781e2286",
+        "asset.json": "0070fcc3664bd94c05d1dcffa874e7c610351d4231d72123416537e52830ac1d"
+      }
+    },
+    {
+      "id": "yokocho-snack-counter",
+      "sourceGlbSha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42",
+      "fbxBytes": 3627212,
+      "fbxSha256": "12d4fa872438d1b974421c09575e97906251a5b790347e8823b1f822b0c3fecd",
+      "archiveBytes": 3587539,
+      "archiveSha256": "a6ae33f9572c52038257b27b22618040dd0764eb05574ce19d481742a68e97f6",
+      "reviewedQaSha256": "37d5a84fd9940e0dd3ab04d19c33688450669257d7be16d5bb0604b064961206",
+      "packageInputManifestSha256": "d3de93dea93af12865a77d66b657b66bfca1fef2ba27d23fdde3d18b47889a39",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "5f0a3cc514f4dee2f1968ebc3562c34d6702f96fabdf9181882ad5b6ed187aaa",
+        "CONVERSION.json": "6741cfd2a841b727758747f008304d7d85eb810cd1dd86433f358896d9f72e6d",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "390505e6d96aa557cc76fb5a259054beb0812b0be62993ca3b0983553e82c5de",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "58dd1c05d67c9ad44998a2f24e3700eb71be244525f0625f9eae1536bf991255",
+        "asset.json": "15dae7b2c65e7b992c6f9901171b0b8975190acc4f7e6f2a8cbc08002ff73a5f"
+      }
+    },
+    {
+      "id": "yokocho-star-distillery-sign",
+      "sourceGlbSha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b",
+      "fbxBytes": 53916,
+      "fbxSha256": "c6860522a76685467d87d8362231c8bc84f318ae9674847a2f41ce45608a47e5",
+      "archiveBytes": 42344,
+      "archiveSha256": "6656be9645831d62bec1ef87b33ae73e39926700a7019d12c49fdd0e355fe0be",
+      "reviewedQaSha256": "70f3a6528a5e91c0a6e5624a3eb0d85252a2647537b3640de037c982de975993",
+      "packageInputManifestSha256": "29fdbbeafe5ab36fb0243df91381ecd91b0301afa0bde156ff6b68f0e9123d21",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "eec8d2d984b353c501d85c489a76bd373b1ca8acfffb16a804bb88796095de88",
+        "CONVERSION.json": "8e39a2e732cbabbb7af86dcc2a3f6f4606e7dfd65658c75c0943da2e7f475822",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "605e16e485e052a37ec47daa0f354294c717ccb428ad347ea696ffba4c6d9d05",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "31d5fabc301361150236f76cf1a0ccb15a5a145a1740b4020b4ecc5d7ce68d2b",
+        "asset.json": "4703ec386c8415182a541e3ee6a723dd9b0326bfd0b645a4e99b1225865c465c"
+      }
+    },
+    {
+      "id": "yokocho-tea-furniture-set",
+      "sourceGlbSha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5",
+      "fbxBytes": 1823468,
+      "fbxSha256": "b532e5b3e0cd1a3d48673902e3a0c31b0d0d1bd6586762cd7e1a4b5b8eb024d3",
+      "archiveBytes": 1793598,
+      "archiveSha256": "4e81c011fa97d75659a03e12663810323283bebda19d0d61d84726b659b35f0a",
+      "reviewedQaSha256": "09fef6e46f1a1172d93299eea7040a45e494a7aa2e04202f9b00da3d1663c538",
+      "packageInputManifestSha256": "c26625eb1d99442cca2a5deb13cdc1eafcf4bca93bd5aa4173950e54dbb2e6da",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "adb2edbaaf4d277ad9963dc789e47ca481c032041bc0133c6ef9003253b01131",
+        "CONVERSION.json": "7fecb44a32298de65d77f41cfde0136667b6d65e671205f63ffe10928af26e09",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "f227560dac01ef5da5c4f97e57b7c4607c69d16fef46dee9c333400eea73e64b",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "73d29ab6fbaa5b7aed704a769f07388fbc919c9d3cacf0c49a06c33523e194aa",
+        "asset.json": "6cbcabeb22a619b51018ccfa0c2df684e0001656ed85a976f4f03a8b86299fa3"
+      }
+    },
+    {
+      "id": "yokocho-telecom-mast",
+      "sourceGlbSha256": "e0fe0d1aebe2692f597e5f73c438385c2d19d1ed4d5dac75721ec3cc130f8b54",
+      "fbxBytes": 83084,
+      "fbxSha256": "3a355248e24eb44a8ec4e9650f128863890e826da61e2b5406bae4acbceff3d9",
+      "archiveBytes": 70467,
+      "archiveSha256": "d7811db9d7c0a31bd5dff0d070c201ca7e7b45467857ccbba6a4e1c16505df73",
+      "reviewedQaSha256": "f4b1a9350676b82faaf28e64e552962ebf02b7ae99cfa8dc3e11f27634ef7461",
+      "packageInputManifestSha256": "f279bb9ee41edf93275fbf20a750fe0a598edeb52c3923915c3d1ae84708ba20",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "707fb7ca031ae1e852310c1ce4d55057b6b8a8003e6917b4972e9fd779b1cb59",
+        "CONVERSION.json": "daaf409ae4dbb0b7d74b8541557d01efb1ad946f65a4399b7087868af5c8ef4c",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "34b8d20cd409817308e81638f36e0dd5c80c55a918091e70d17bd6fb4d4a7872",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "8abe04d05986f3c3ff18f7b6b4d717137a2b4a5e26f0aebce56d01f719122a24",
+        "asset.json": "e80a4e4779843097494d212666fb80a2d6530eb5e9744097b81f949a2b8a0ab8"
+      }
+    },
+    {
+      "id": "yokocho-timber-stair-flight",
+      "sourceGlbSha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9",
+      "fbxBytes": 57452,
+      "fbxSha256": "c9918be5746a86b42c6375155fd220725b6b27c5eed62a443f85cb493334061e",
+      "archiveBytes": 39863,
+      "archiveSha256": "e6ae0cb88822a97c25b9734499a555b22fd68e426baf383c36df343036a69e7b",
+      "reviewedQaSha256": "818381b04a8d01e4e62d06cb399be8d84a94afbe6f79bf3478b492f3d36df62f",
+      "packageInputManifestSha256": "2bebfb0c861704974d94f233f8eb6436b3bb7d59103b811da1c4a24a328dabf1",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "25d529c13ef89e8ecc6ee29ecb43aeba0cf331fd9986f3f618b556a3affa040a",
+        "CONVERSION.json": "c4698f0786cfdbafd7f03a4e20e0aa7b67a7674107b2dbdb3dc2ae1b37529ed5",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "a208c8279c9988ee2399c1003eb9ed92c2cefd4b04a272b59a8ae91288831210",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "cc0e043196029d19dcac5b6f70494491258a6cb8d5febdc3358b49b6cae6d588",
+        "asset.json": "cfe75b1d711386b49f75782f06c7c8d800f7a7c8e53e1a3960ca403432abe9b6"
+      }
+    },
+    {
+      "id": "yokocho-traveler-pot-sign",
+      "sourceGlbSha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818",
+      "fbxBytes": 52764,
+      "fbxSha256": "54d9440c1427add99c50a7278c86d9b39a0b254390e83e33dbc499358a0e7f0d",
+      "archiveBytes": 39276,
+      "archiveSha256": "78aa229e3be8938a7916f032f570214fdd5c5a8b60482e519c76ea441c4e46c5",
+      "reviewedQaSha256": "eeb549061034ba173e37249b57618afca7b6a7fb67cd66c39195ddab7284d64c",
+      "packageInputManifestSha256": "2196897d02d145b0800b09bc58ff5b6dd9d4e52c6c1334b27ef23535de12751c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "e72801c6a3639da4b97dca0a5176995e9e84da2ad127f6b99eb9870777a1a122",
+        "CONVERSION.json": "a6654bd88c5b42669baf919b103147e6bbd46678e36eadb318e3f3ffd28f1e71",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "18f6e75b155173138e4d7005aa585434d89f21ca778ef228d6536974eee493c6",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "b0a77f71e98c03012e22a418610bd6abbc7cd7cc53d8837efa1424ba6cdf7977",
+        "asset.json": "3d5ea20dc6a658df0e1f7768da029d0007c203da7e956fe5a7072b1398b2ecb6"
+      }
+    },
+    {
+      "id": "yokocho-turntable-amplifier",
+      "sourceGlbSha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+      "fbxBytes": 37932,
+      "fbxSha256": "16398cd485952d77d808dd3acde599b05e3c107968ab8addb7851d8e6bb582cd",
+      "archiveBytes": 30189,
+      "archiveSha256": "490dd5c094c12e03610e7ef83cce9b8e66f9d7dba29bd723b42cbd3c611e5d81",
+      "reviewedQaSha256": "5faf8cb387a4ea13471a13280a75cc2609fe80abdf7d07e0a3fc66e3e528a04e",
+      "packageInputManifestSha256": "d2c76ff33d5537c2ae44158d11719b360964e38f1a0c4b13b05b846b2d00d59c",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "fd1a41a1177db1356cee8a9e6915454c87abf226f450792bdb715698aaf95c68",
+        "CONVERSION.json": "856582ca0b4506e235e50b617f3b7aa19946ff33624ef619407aec6be162b5ec",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "2253f29c7652b5f61f8fecb0356f8095a47025bc15118b10958a35ebdb02cb0d",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "47535309de61d5bccda4ccef3c0e519b7705d8f146896e99d54a151568ecc520",
+        "asset.json": "8eeaedcc33f7dc85b6d7b10ba7f595fd9691e0b043dffb21f19ecd072753cac0"
+      }
+    },
+    {
+      "id": "yokocho-upper-water-storage",
+      "sourceGlbSha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f",
+      "fbxBytes": 113308,
+      "fbxSha256": "b32f65974cda265210a1859d0db76fde40157892e72a1ad0f59e031d73ec06d7",
+      "archiveBytes": 92793,
+      "archiveSha256": "b90fc4c9213eaa0fa005bcfafd604ca35d8e99453ed3515b5b7732287b17a005",
+      "reviewedQaSha256": "f8580a1467aeb0dff70f1affa04f055b0ea2276d2c916a1c1fd8b865afaddec6",
+      "packageInputManifestSha256": "cf1052010bfbeefea03fb9437ff5940314c5f3a5f8d83dffe28549ed663021e1",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "da14b06529d41d7859bca9497bb491ed6af378731b07f2fbf97a151e1d57226a",
+        "CONVERSION.json": "214c9a2fcab9b4a79d5b81e4ff75102db21105d30f1539a969b5ac9ac82b2cad",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "4a06157379622dc251953af251ebc3e04d2d37d3da28690aa603617914eba741",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ae1244b41eb937a95236b167177a4c96c9acd09026823ecabffea1ec5c181eed",
+        "asset.json": "280b959fc35e5f93fbe95cc0f8a552f578f4f8f1223ae788229eb2f487fb74fa"
+      }
+    },
+    {
+      "id": "yokocho-utility-service-bank",
+      "sourceGlbSha256": "8a4de5792558b07549db1286d936e964e6c9e0c62f6cf80a1c227d8cd67388a8",
+      "fbxBytes": 80828,
+      "fbxSha256": "4cab5027ca497cc24374d5bb88dc7bd04f782af803e06a90dd03c09d5fb30ee0",
+      "archiveBytes": 59983,
+      "archiveSha256": "224adb4b3f19ac424b57a8151cfd20509bf71628ae57f500104984785cc09c1d",
+      "reviewedQaSha256": "cd4be856d926de9d7880a2537fbe2638ac3f8b443f5a199e502f9fe14bda54d3",
+      "packageInputManifestSha256": "a0ae0fcf5f8897c1c5c7ecde1c68792d51bf21831d30af4cf7c5c06d1d3efda9",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "4163361db85036deefe6976e79f32297f79a32a146ccd4f8a61cd175c340ccd7",
+        "CONVERSION.json": "1a6dbded7c3fe1d86bf1c5e71bd984fa75123af66ab1d98e1d4d2d053ea5837f",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "94136ac9f257bd41c714c89687e6a1d9f956ebc8d122b546e9a813d5bb950086",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "ddfcb543175832e824c6b5e331832e149401caa60c7a5ef204e046f9e1fa0d38",
+        "asset.json": "17e0afe0af2770f8a4b109b71789ecdb5fa0e866e29adaecbe8907a110c768c5"
+      }
+    },
+    {
+      "id": "yokocho-walnut-counter",
+      "sourceGlbSha256": "17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9",
+      "fbxBytes": 60604,
+      "fbxSha256": "b51cd4b35b853d84429e1118365a332b8b40eb64718ed62e2f59d3dbced97acf",
+      "archiveBytes": 45892,
+      "archiveSha256": "99edb48ae6447f7704ff290edc08c096f722853492b5927aed8b0bae1242fa66",
+      "reviewedQaSha256": "5683e389803f07fc7482459e7dcd1ed8407e1806fabbf33f6e93bd7953ecca7a",
+      "packageInputManifestSha256": "aefcf7f9bc32a6cbf67b575d6fae87365f72f8431775c2b87ffc8abf94a9a598",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "70b9c680c3eee4550787df06c3dcc6c3c62cf6dfd32c6be6a89d5286d838eed1",
+        "CONVERSION.json": "e117ea587fe84deff7ca4a3c5112c243550eee7817540dfad72e2f4155242830",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "c9db54ff0a1729e140a01df39774e6c032c6603dfecbb9657da5f42f06e92f22",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "a7ff982c30d8a1cecaec0db0156203e48dda282aa241398d46c652dff0ef60a0",
+        "asset.json": "066bed61676a367128637cf6c3f7f9a0663f5687186dec7313e1f4b7b84db456"
+      }
+    },
+    {
+      "id": "yokocho-witch-moon-sign",
+      "sourceGlbSha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657",
+      "fbxBytes": 3618764,
+      "fbxSha256": "1fcd9bad0dd3275e32d199a39653f2f8b16c9117de0ce28733030687d56d151e",
+      "archiveBytes": 3590902,
+      "archiveSha256": "9f2c788e932cdc27b78e8bd2f4a8058b9f4dd6eb8d99ac07c018f6ba085d5ba2",
+      "reviewedQaSha256": "8e91f96b1da0f93781fd2e6b98c680bccf9c68e69566b0d66731aedea5fb6679",
+      "packageInputManifestSha256": "551dab7344af7232d7319db51ee51691d4c960a74e725cd8897980946ec8bc54",
+      "packageInputs": {
+        "ATTRIBUTION.txt": "27c82a8c6c05281cd3cc25f2fd59212cc2e54674e435695cf74c2be9d64fb936",
+        "CONVERSION.json": "00db3f05e216e66e889cf604a458946c250c258679a5999da714372eb53f6467",
+        "CONVERSION_NOTES.md": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0",
+        "FILES.sha256": "89d834e86826424c51b7a5d5048eee5bad948653dc941dc38642395553518750",
+        "LICENSE.txt": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709",
+        "README.md": "5fe11f9d59c265d5757ee303a9b3e7c695c96059da70e06a8b1e1494e9c32f61",
+        "asset.json": "2f73bdad8447f13f1682f147c5b1fcd84ed83328cdcc3106bb6936212c8aedb0"
+      }
+    }
+  ]
+}

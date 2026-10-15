@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-speed-cushion",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "716158fc405b8c2a8ed3456e84342e02a5adb1f74c27cb7dfc36036e77853b7f",
+  "archiveSha256": "6c2097e7db49eca59ccd0478061b45c7b1ef023aec9472929a223c535d83c78a",
+  "originalGlbSha256": "57d5b53192f7ce4ceaaa4f1bb11e3f88466e518f7381a60e1a12957863bb02c0",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 385,
+      "sha256": "c64201ed2b79831ad4e1cdbc9de2f0a505afbbf2dcf3102cb51e49648dd4ccdd"
+    },
+    "CONVERSION.json": {
+      "bytes": 12558,
+      "sha256": "54472a5dc6b6ac29376439119d03935d359ed09f6772a9b14d722cb66de8b18f"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 570,
+      "sha256": "ad6231ac4c8533bb9fb1da89f1ebd19db5203a98501d2eda10e81692096ea51b"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1162,
+      "sha256": "e0ce4f159175c20950bef203ffd40388603e2888b0b42a491eacdc9edd241a7a"
+    },
+    "asset.json": {
+      "bytes": 1339,
+      "sha256": "803f24b75fc76b0f7f65f66e326b4c70e9acf2d42c75a8c6b6e69327dd888048"
+    }
+  }
+}

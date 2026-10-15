@@ -1,0 +1,7 @@
+コモンズ・本6冊セット / Commons six book set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70

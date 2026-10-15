@@ -1,0 +1,7 @@
+バーのペンダント照明セット / Bar Pendant Lighting Set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c

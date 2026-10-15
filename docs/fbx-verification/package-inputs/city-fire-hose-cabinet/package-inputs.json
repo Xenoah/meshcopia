@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-fire-hose-cabinet",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "c199031881e5fbd03c75c431f03820ebf2eb52b1fa2c79fa4d9fdefbdfdcdef8",
+  "archiveSha256": "f2e25709f34622759dce355b8e49732595e98c392885e0d1508dcc7cf3f98558",
+  "originalGlbSha256": "c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 400,
+      "sha256": "1e277ad4ebe54ea8cda6c3606f891f2795250239ecafc3297c722357036f0e83"
+    },
+    "CONVERSION.json": {
+      "bytes": 13951,
+      "sha256": "0fa327dd4d23dd8804d339fc9ec859b911d49488a7f9531a40086d67d48059c4"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "4e7ce75fad3eea438fbe4661442cca25c011e34998bd11de90505ee04a87ebde"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1180,
+      "sha256": "2794c7a02c86cd0146290e2b46f9594248210b077789259692228932f60aabcd"
+    },
+    "asset.json": {
+      "bytes": 1355,
+      "sha256": "333342d8a526db73ddb99f7469015ddb4eca0d96b4ad882351f022f7b09e676b"
+    }
+  }
+}

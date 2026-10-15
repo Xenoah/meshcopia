@@ -1,0 +1,25 @@
+{
+  "id": "wayfinding-sign",
+  "title": "ラウンドサイン",
+  "titleEn": "Round wayfinding sign",
+  "description": "丸いフレームと無地の看板。文字やロゴを追加できる案内用プロップ。",
+  "descriptionEn": "A round frame and blank sign face, ready for your lettering or original logo.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.54,
+    1.218,
+    0.54
+  ],
+  "triangles": 1420,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "7f44eeba72405af280222526f34e3ae1a62ac67f97516438c580899e01bcd44b",
+  "fbxSha256": "e53d12ec142fac6f3118a4272fa44376cc3710aadb121acd79c1516c6c0d7252",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

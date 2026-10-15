@@ -1,0 +1,7 @@
+ワイヤー買い物カート / Wire shopping trolley
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28

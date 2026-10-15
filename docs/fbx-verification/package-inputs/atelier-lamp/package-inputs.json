@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "atelier-lamp",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "f713bee1847049cb68eaa6f2041c7341ebc97347d25c45a52ed0adbaf0dd2a8c",
+  "archiveSha256": "665b68dfbd14483ded146f4610f8f9ea5bf65495ab7282a1468b2cad5db2d1b5",
+  "originalGlbSha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 370,
+      "sha256": "be95674782e483dc668ce0e9df45e83f3c00b381bdd6a4257dec9c1ed59650c7"
+    },
+    "CONVERSION.json": {
+      "bytes": 6872,
+      "sha256": "bc1b8f85577ee3340b38b4974d56e98ba31ba200b43bb3fa3c6b92894af73e0f"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 564,
+      "sha256": "701dd81865c66065980971596d48e67902ce1c2e21c6a48db9403872480ec0e9"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 842,
+      "sha256": "f162f863b5a4a5a339cf8aa2c21dee551cd52e12120a3505fa7d461dc770f73b"
+    },
+    "asset.json": {
+      "bytes": 1017,
+      "sha256": "73a5d48893485d3aaa7d8f893f1340b2dd60cc29bcc81c46ca2d4b06b3988c53"
+    }
+  }
+}

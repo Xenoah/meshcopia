@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-wall-intercom",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "952ac10c14cd1eee78ab360d3cace84d228fb0e53aea216091458e734531470a",
+  "archiveSha256": "d8461fa4d5388669277061a4b4419b855be3131dbe6402dd8c4249e87639cbcb",
+  "originalGlbSha256": "70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 383,
+      "sha256": "ebe947860fc783bf99f1cae70980a29f3c2e81463863004e4fe3e456efb8088e"
+    },
+    "CONVERSION.json": {
+      "bytes": 12747,
+      "sha256": "2108c0480251e7eeb10d0ff146e1fc55a339436a897d71230c0d429c0bcbce7b"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 570,
+      "sha256": "978f834e62f4035e702ebe90bfa578f20560a8fd287e223ab243a7b94906594f"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1213,
+      "sha256": "a501d769858a358265384879529249700830deaecdbab3900179631aac88cf5d"
+    },
+    "asset.json": {
+      "bytes": 1388,
+      "sha256": "0fe82c091b443f04a41d145522cf59927fe36e5477b47898ce8cf2dd39d66b02"
+    }
+  }
+}

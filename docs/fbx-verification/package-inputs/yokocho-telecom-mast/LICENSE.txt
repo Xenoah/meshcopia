@@ -1,0 +1,15 @@
+Meshcopia original assets, documentation and original implementation
+Copyright (c) 2026 Xenoah
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+You may share and adapt this material, including commercially, subject to the
+license. Give appropriate credit to the credited creator, link the license and
+source, indicate changes, and retain supplied notices. No additional legal or
+technological restrictions may be imposed on the licensed freedoms.
+
+Provided as-is, without warranties. This notice summarizes but does not replace
+the linked legal code. Third-party software keeps its own license; see
+THIRD_PARTY_NOTICES.md. Check per-asset metadata for attribution.

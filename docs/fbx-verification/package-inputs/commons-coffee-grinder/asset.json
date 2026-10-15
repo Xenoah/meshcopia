@@ -1,0 +1,25 @@
+{
+  "id": "commons-coffee-grinder",
+  "title": "コモンズ・コーヒーグラインダー",
+  "titleEn": "Commons coffee grinder",
+  "description": "スチールの本体とアンバー色の豆ホッパー。カフェカウンター向けの装飾モデル。",
+  "descriptionEn": "A steel body with an amber-colored bean hopper for cafe counters. Decorative only.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.28,
+    0.62,
+    0.28
+  ],
+  "triangles": 120,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "f4a9ee51508b79bf56efcd2e4d20c056fe57b59ee0b5616ea6128caa0c5084bd",
+  "fbxSha256": "64f39e40bbbcf1c83a2fe6eb58a15e2fea7f25561bf41b26bc572cd1b2e3b5c6",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

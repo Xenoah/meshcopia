@@ -1,0 +1,7 @@
+コモンズ・ラウンジチェア / Commons lounge chair
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b

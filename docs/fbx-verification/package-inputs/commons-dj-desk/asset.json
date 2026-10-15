@@ -1,0 +1,25 @@
+{
+  "id": "commons-dj-desk",
+  "title": "コモンズ・ワークカウンター",
+  "titleEn": "Commons work counter",
+  "description": "幅4.9mのオーク天板、前板、2本脚。DJ機材や文字を除き、受付や作業用のカウンターとして独立化。",
+  "descriptionEn": "A 4.9 m oak work counter with a front panel and two steel legs. DJ equipment and lettering are excluded.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    4.9,
+    1.11,
+    1.12
+  ],
+  "triangles": 144,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa",
+  "fbxSha256": "ce2f258a4bc8c8d7eaabc01f709238c7fed4b8aca0e5eafb14ff5c95477d6cf5",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

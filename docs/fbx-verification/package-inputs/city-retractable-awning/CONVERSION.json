@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "id": "city-retractable-awning",
+  "sourceGlbSha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a",
+  "fbxSha256": "21741495da00269fe7533bc621c1fd091cb167530b736c397f512562fb8f0c5b",
+  "fbxBytes": 355148,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 2.9081340358061425e-07,
+    "maxCorrespondingCornerPositionDeltaMeters": 5.364418029785156e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.008838167103445958,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Cassette end cap",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cassette end cap.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Fabric roller",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front tension bar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Inner folding support arm",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Inner folding support arm.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Outer folding support arm",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Outer folding support arm.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 00",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 01",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 02",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 03",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 04",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 05",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 06",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 07",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 08",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 09",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 10",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scalloped fabric valance 11",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support pivot axle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support pivot axle.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support pivot axle.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support pivot axle.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support pivot axle.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Support pivot axle.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tension spring housing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Tension spring housing.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor hex head.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall anchor washer.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall cassette top",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall mounting foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall mounting foot.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 00",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 01",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 02",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 03",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 04",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 05",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 06",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 07",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 08",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 09",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 10",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Woven canopy stripe 11",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Awning matte aluminum",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Awning matte aluminum",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.0949999988079071,
+              0.11999999731779099,
+              0.12999999523162842,
+              1
+            ],
+            "metallicFactor": 0.47999998927116394,
+            "roughnessFactor": 0.47999998927116394
+          }
+        }
+      },
+      {
+        "name": "Warm powder coated steel",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Warm powder coated steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.7200000286102295,
+              0.7350000143051147,
+              0.6899999976158142,
+              1
+            ],
+            "metallicFactor": 0.25,
+            "roughnessFactor": 0.4300000071525574
+          }
+        }
+      },
+      {
+        "name": "Canvas muted sage",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Canvas muted sage",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.18000000715255737,
+              0.27000001072883606,
+              0.2199999988079071,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8799999952316284
+          }
+        }
+      },
+      {
+        "name": "Canvas warm linen",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Canvas warm linen",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6600000262260437,
+              0.6100000143051147,
+              0.4699999988079071,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      },
+      {
+        "name": "Zinc coated steel",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Zinc coated steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.41999998688697815,
+              0.49000000953674316,
+              0.5299999713897705,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.3799999952316284
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

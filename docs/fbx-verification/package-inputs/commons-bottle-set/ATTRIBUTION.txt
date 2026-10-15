@@ -1,0 +1,7 @@
+コモンズ・ボトル6本セット / Commons six bottle set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297

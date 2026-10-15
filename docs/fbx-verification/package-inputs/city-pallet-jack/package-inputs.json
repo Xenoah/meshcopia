@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-pallet-jack",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "42e7d14f3afb0158f1ea241e4cdc6f455c88a1f6e869d2a5bdedac4464675d95",
+  "archiveSha256": "4d2d10924a06eb4105709117bc99add49a4dae5f03969353f11d952746907535",
+  "originalGlbSha256": "a00adcb2b67ae2e9096db94ea99f398162065406dbbb7a6442b852633d11aa4c",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 388,
+      "sha256": "36127f2881281223a870b96bd5a47ac1cf23922ebb33729730506c993fc4b1c9"
+    },
+    "CONVERSION.json": {
+      "bytes": 15284,
+      "sha256": "2c69009b4712f43b6795671bf0f6c5e8bb07a5f3fcd2726e066cf24b73eecadd"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 568,
+      "sha256": "b457b8c18a29b4494c1e1bc5634d12136fc877d0a1983470492feeb16a2a4c19"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1192,
+      "sha256": "c6b494014a71b370c6d04fadacedf2e6630a1f151714e1a658af099ac196468c"
+    },
+    "asset.json": {
+      "bytes": 1367,
+      "sha256": "62ef22eab19e4c61cd3d9a37b49397184842a1ca55f8b8c9d678ad04cbb9c1d0"
+    }
+  }
+}

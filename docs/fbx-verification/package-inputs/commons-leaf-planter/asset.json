@@ -1,0 +1,25 @@
+{
+  "id": "commons-leaf-planter",
+  "title": "コモンズ・観葉植物",
+  "titleEn": "Commons leafy planter",
+  "description": "陶器色の鉢、土、9本の茎と立体的な葉。元ワールドから切り出したローポリの観葉植物。",
+  "descriptionEn": "A low-poly ceramic-colored pot with soil, nine stems and modeled leaves from the original cafe.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.19974,
+    1.7225,
+    1.18592
+  ],
+  "triangles": 300,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c",
+  "fbxSha256": "3e16b21c9a2d5b362aad38e3b3a9e8617ed9c887a6cab4a7205e1de83354987c",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

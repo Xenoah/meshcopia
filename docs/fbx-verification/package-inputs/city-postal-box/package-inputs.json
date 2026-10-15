@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-postal-box",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "bae62619296e5597aa1fdc1353d73050db9cee8c923b16136c435a77c974d35e",
+  "archiveSha256": "f12fa8895d4dbf9970440a5ef26f89774b5c48803232b32bf848603feb1c857a",
+  "originalGlbSha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 380,
+      "sha256": "a2502bcc8b33c255a61c9e0724ca038ed9f486258f929b56fa8baec7afd4eb82"
+    },
+    "CONVERSION.json": {
+      "bytes": 11246,
+      "sha256": "ad3d9ef86a1db30f057d6550289afd1ddb1a17ec63fc5f1b3e4ded27b64d1804"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 567,
+      "sha256": "b9c880ea510c69a3d4ae38b336d9d0d1baa83d2e605d2cbcd6e5eefbd5a8db8d"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1135,
+      "sha256": "d263c6954effadbe469fac848a8341c73334a13860efb603971ee0ef34834018"
+    },
+    "asset.json": {
+      "bytes": 1310,
+      "sha256": "9ea1d4da2ff37aba1ed4260624271771b8104be0a93085d492cd28e0c623d459"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+店舗用折り畳み式オーニング / Extended retractable awning
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-star-distillery-sign",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "c6860522a76685467d87d8362231c8bc84f318ae9674847a2f41ce45608a47e5",
+  "archiveSha256": "6656be9645831d62bec1ef87b33ae73e39926700a7019d12c49fdd0e355fe0be",
+  "originalGlbSha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 398,
+      "sha256": "eec8d2d984b353c501d85c489a76bd373b1ca8acfffb16a804bb88796095de88"
+    },
+    "CONVERSION.json": {
+      "bytes": 8422,
+      "sha256": "8e39a2e732cbabbb7af86dcc2a3f6f4606e7dfd65658c75c0943da2e7f475822"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 580,
+      "sha256": "605e16e485e052a37ec47daa0f354294c717ccb428ad347ea696ffba4c6d9d05"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1836,
+      "sha256": "31d5fabc301361150236f76cf1a0ccb15a5a145a1740b4020b4ecc5d7ce68d2b"
+    },
+    "asset.json": {
+      "bytes": 2042,
+      "sha256": "4703ec386c8415182a541e3ee6a723dd9b0326bfd0b645a4e99b1225865c465c"
+    }
+  }
+}

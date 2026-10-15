@@ -1,0 +1,25 @@
+{
+  "id": "city-construction-wheelbarrow",
+  "title": "建設用一輪手押し車",
+  "titleEn": "Construction wheelbarrow",
+  "description": "深い開放荷台、一本の車輪、支持脚と長い取っ手を備えた土砂・園芸資材用の一輪車。買物カートやパレット運搬車とは異なる用途の静的モデル。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Open deep-tray single-wheel barrow for loose soil and landscaping material, with folded support legs and long handles. Distinct from basket shopping trolleys and pallet jacks; static visual model with no load rating. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.713942,
+    0.834854,
+    1.840882
+  ],
+  "triangles": 14228,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "45c1cc1137cea956e8b2012c7dbb5f5cb01934f53de5d4a56a0cb813d06d61bb",
+  "fbxSha256": "9c7c032fd21616923ea6d0b71d856f13a871e308c2b5d70943dac69cb8c81623",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

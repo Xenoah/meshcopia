@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-shopping-trolley",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "8555fc6c42f43e5120c18f8ce651b4a869ce446c8770f6c23849292031388bc0",
+  "archiveSha256": "5d32dbf4a9cf50bd3b7320835f54ac5d58e51c9afc2b9f20dff79def022cfc6e",
+  "originalGlbSha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 388,
+      "sha256": "7a3f9d7fa183d841ca55e6b4e3ad0d50f7e23f21c4d7e642dbb83ffd06712029"
+    },
+    "CONVERSION.json": {
+      "bytes": 9509,
+      "sha256": "9a95c76b3cfc7b9daa8b409b153a881c559000bc832a4edabf4920820250aca7"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "fe941260eab3192d4c4bb224510428494b15147a29d2b96b2ada9f1cc4a1ded4"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1397,
+      "sha256": "8e83943c254dd4ec0dd2b0255d62365547554d69c71a8b250b93201f27170929"
+    },
+    "asset.json": {
+      "bytes": 1572,
+      "sha256": "9bb7e9bf3360a5961570f8c2d245bae7a9a6f9022b5e4a14c9bdc7f15e62bbfe"
+    }
+  }
+}

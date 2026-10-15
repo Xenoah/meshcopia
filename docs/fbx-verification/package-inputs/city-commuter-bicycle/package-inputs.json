@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-commuter-bicycle",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "d44753c8300514439259c9da91c92aa1e42fd26de031bf8cf869190c34bfe0b7",
+  "archiveSha256": "5a61ae70dea8c6a601410a1919d188fb08569a445be621ff96b15e4ab5b6153f",
+  "originalGlbSha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 394,
+      "sha256": "57f8320e98048be00b4939f5cb60b8a9c9928e67db40a918f7c3957e0280a746"
+    },
+    "CONVERSION.json": {
+      "bytes": 17760,
+      "sha256": "5dcf0f4586773aabf1a4781c5829caa3faa9fc06a005b405e5d2b14ec69874fc"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "c7480ed70e5e970278a7da16b6c9b2becaf362874d2ecc66deaa23a88fe05ab3"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1512,
+      "sha256": "93764f66c34d557234c6209421f80dfd78f7df2e5da031e80f298f2af34b7647"
+    },
+    "asset.json": {
+      "bytes": 1687,
+      "sha256": "b27633744446752f4f9fd4719fdead7297cd0fd0ab6d25bb00664a692a94a883"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+コモンズ・PAスピーカー / Commons PA speaker
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9

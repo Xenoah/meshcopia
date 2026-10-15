@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-inspection-cover",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "843f5082e766491bc4f40da2151c907afe1a8da35d7b7c55b1c287d5295e57a7",
+  "archiveSha256": "93a21d3caebae9409c68544608e36ead2181187f41a3839d4265c9fb3ccc41de",
+  "originalGlbSha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 389,
+      "sha256": "480e8101a1ac9cc711aa65cd8794c082f4269fc5fd6b070da3f479504caf760e"
+    },
+    "CONVERSION.json": {
+      "bytes": 6862,
+      "sha256": "6238c6dbacdfb7bd5524cd7a8d0ba665e09e059864b597cf779e07288a3fa350"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "629dc423595fddd277ce6c20a56cedffb29db40fbc57c254de0a05e9f0bf88bc"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1141,
+      "sha256": "d93057002a4ad3364c40da61e9b186dc1988664834bbdb405e8bd2a840ec19a1"
+    },
+    "asset.json": {
+      "bytes": 1316,
+      "sha256": "594c3a3586b63d016b9b7239031a26385f7954e2ec8387c86e3c7084df36c55d"
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "id": "city-scaffold-bay",
+  "sourceGlbSha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+  "fbxSha256": "83d7f36c2b36c8a351f65ac7fa683960266b3b41085b8e297a0e864b3af02103",
+  "fbxBytes": 959212,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 1.1713997594142711e-07,
+    "maxCorrespondingCornerPositionDeltaMeters": 5.364418029785156e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.043969409261562814,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Adjustable jack collar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Adjustable jack collar.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Adjustable jack collar.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Adjustable jack collar.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Deck plank fasteners",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Deck reinforcement bands",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Diagonal brace connection pins",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Diagonal scaffold brace",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Diagonal scaffold brace.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Diagonal scaffold brace.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End deck toe board",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End deck toe board.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Fixed horizontal scaffold frame",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Four scaffold standards",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Individual timber working deck plank",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Individual timber working deck plank.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Individual timber working deck plank.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Individual timber working deck plank.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Individual timber working deck plank.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Individual timber working deck plank.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Integrated access ladder",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Jack collar turning bar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Jack collar turning bar.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Jack collar turning bar.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Jack collar turning bar.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Long deck toe board",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Long deck toe board.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scaffold ground bearing plate",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scaffold ground bearing plate.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scaffold ground bearing plate.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Scaffold ground bearing plate.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Screw jack stem",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Screw jack stem.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Screw jack stem.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Screw jack stem.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Screw-jack thread assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Standard collar assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Standard collar fasteners",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Scaffold galvanized tube",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Scaffold galvanized tube",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.3400000035762787,
+              0.4000000059604645,
+              0.41999998688697815,
+              1
+            ],
+            "metallicFactor": 0.8199999928474426,
+            "roughnessFactor": 0.4300000071525574
+          }
+        }
+      },
+      {
+        "name": "Worn iron edge",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Worn iron edge",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.05999999865889549,
+              0.07000000029802322,
+              0.0689999982714653,
+              1
+            ],
+            "metallicFactor": 0.7200000286102295,
+            "roughnessFactor": 0.6200000047683716
+          }
+        }
+      },
+      {
+        "name": "Scaffold treated timber deck",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Scaffold treated timber deck",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.3100000023841858,
+              0.20499999821186066,
+              0.10499999672174454,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

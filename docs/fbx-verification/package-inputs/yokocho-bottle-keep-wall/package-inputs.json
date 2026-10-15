@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-bottle-keep-wall",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "07bd674a85f0979df02b678e3cabe45dcd17b653caa2404d4d245f69ec1bbfa1",
+  "archiveSha256": "51f82af570b605e16ab0e621aa80b6330ab1354b47c12a1b83d94843710d5ac4",
+  "originalGlbSha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 382,
+      "sha256": "dc3d78672777f7bc6c3c363e3d7cd656b5f90a2241ead6f6029466dffb1cf915"
+    },
+    "CONVERSION.json": {
+      "bytes": 10127,
+      "sha256": "7bf029b019a710e90a8488fe582f69f55088e97de5fa510ebcb1bc9e7c08b2d5"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 576,
+      "sha256": "bb0ce97a3873209cc74f04aeb608809faa408f0b4a409cdf8e303a2bf27324cc"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 2045,
+      "sha256": "f66ed46dee0bbf83794e32dc6e2a9660b973a414618b4a2adee6e366d0772c85"
+    },
+    "asset.json": {
+      "bytes": 2248,
+      "sha256": "044d5500e4bec6c0fd0078aab8f67b8085e8967bd09237e81321322a4247129b"
+    }
+  }
+}

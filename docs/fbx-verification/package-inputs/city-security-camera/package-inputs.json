@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-security-camera",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "7bfbe64b4f05764de09aa607ce78933ec9db0e7f5a0babc6a6bbb2d94f45e4b5",
+  "archiveSha256": "0604b8a05a8de19d381a2eded8cc5f19a2fd105db82d05958ac705d353efcd5e",
+  "originalGlbSha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 404,
+      "sha256": "60e15fceec357532bff79eabfa62df5e15cc6359231c60a21c546578ddaea48d"
+    },
+    "CONVERSION.json": {
+      "bytes": 9967,
+      "sha256": "fee682bcea39787fe0d1e4f6c50892b8a1f3714a853229352471b2f4ce2a9ef2"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "b0c0ff6d729224e4f2b8707b79f722c8a233652bcbe15cfa3c2bdc061dacd2cf"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1224,
+      "sha256": "f6395d6309365a0bccb71ad69eb0b8a776b03af1e5adea189f4b680319e7d9eb"
+    },
+    "asset.json": {
+      "bytes": 1399,
+      "sha256": "7688596dfcc78a0160de49798f960a37e2aeeb6d9ef083bc3f312290dbc1646e"
+    }
+  }
+}

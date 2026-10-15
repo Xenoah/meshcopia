@@ -1,0 +1,7 @@
+木製横丁案内板 / Timber Yokocho Guideboard
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4

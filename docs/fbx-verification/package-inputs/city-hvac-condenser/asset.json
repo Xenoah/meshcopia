@@ -1,0 +1,25 @@
+{
+  "id": "city-hvac-condenser",
+  "title": "屋外エアコン室外機",
+  "titleEn": "Outdoor HVAC condenser",
+  "description": "ファン開口部、回転羽根、同心円ガード、背面熱交換フィン、防振脚、配管バルブ付きの室外機。配管金具は外観表現用の近似形状。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "An outdoor condenser with open fan aperture, swept fan blades, concentric guard, rear heat-exchanger fins, isolation feet and visually approximated service valves. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.9715,
+    0.681,
+    0.455
+  ],
+  "triangles": 29848,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "fd3dfb184b40cbd680671454a7c1482091105f55dae99f9cb249a9f07f9a5cdf",
+  "fbxSha256": "f983dd4d37e733c9a8e12c847eac7e3cb7512d86b1e264257651002afe56997e",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

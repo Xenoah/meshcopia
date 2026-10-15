@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-retractable-awning",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "21741495da00269fe7533bc621c1fd091cb167530b736c397f512562fb8f0c5b",
+  "archiveSha256": "943b584f64b1ebe140dab9f247987af0c62f33bcd4ff87b0a86e11b53453d8c7",
+  "originalGlbSha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 403,
+      "sha256": "aa175a74f29a09b5918e2fe241cff5174890d7494b4a3f5f4bcffc3a07d00eaf"
+    },
+    "CONVERSION.json": {
+      "bytes": 12721,
+      "sha256": "043dd667f725aca9032666ce867ff1d6607869386e0d8ccf30d10d10622e5595"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 575,
+      "sha256": "f5ba6c0509e905cc5726e461229649f85c5274e3b03b4a1297cf7efd690921be"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1227,
+      "sha256": "a8e1cf5be6a05b42637703af562392c5161944d54c350c4ca7436f4dbd21ee20"
+    },
+    "asset.json": {
+      "bytes": 1402,
+      "sha256": "1755057f51eb3732fcbae23036e32aab5b29e9b9284a928a8cb019da6a3a5f7d"
+    }
+  }
+}

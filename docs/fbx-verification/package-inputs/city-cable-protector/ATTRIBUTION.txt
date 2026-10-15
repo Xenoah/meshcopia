@@ -1,0 +1,7 @@
+ヒンジ式ケーブル保護ブリッジ / Hinged cable protector
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406

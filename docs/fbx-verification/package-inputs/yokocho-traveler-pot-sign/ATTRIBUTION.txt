@@ -1,0 +1,7 @@
+旅人の鍋の立体看板 / Traveler Pot Projecting Sign
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818

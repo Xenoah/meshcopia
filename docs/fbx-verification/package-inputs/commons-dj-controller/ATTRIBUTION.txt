@@ -1,0 +1,7 @@
+コモンズ・DJコントローラー / Commons DJ controller
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5

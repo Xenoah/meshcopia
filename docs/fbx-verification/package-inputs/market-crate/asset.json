@@ -1,0 +1,25 @@
+{
+  "id": "market-crate",
+  "title": "マーケット木箱",
+  "titleEn": "Market crate",
+  "description": "開いた上面と組み板を持つ木箱。倉庫・市場・横丁の小物に。",
+  "descriptionEn": "An open timber crate with individual boards for markets, workshops and alley scenes.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.735,
+    0.49,
+    0.595
+  ],
+  "triangles": 288,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55",
+  "fbxSha256": "90a502adc99df0bc652dcc8fd7e52d4b07411a328b47db567df51298e708b5c8",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

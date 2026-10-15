@@ -1,0 +1,25 @@
+{
+  "id": "commons-espresso-machine",
+  "title": "コモンズ・エスプレッソマシン",
+  "titleEn": "Commons espresso machine",
+  "description": "黒皮鋼の筐体と生成オリジナルの操作面を持つ架空のコーヒーマシン。操作機能のない装飾モデル。",
+  "descriptionEn": "A fictional espresso machine with a blackened-steel body and original AI-generated panel artwork. Decorative only.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.72,
+    0.49,
+    0.655
+  ],
+  "triangles": 176,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "23b8ddd1375e1f3f9d7e253edb64e234e4939edb8972dddd79bc9d297200e3e6",
+  "fbxSha256": "78fa99744241e0040aa45114afa3fce3b4d16175e3555c00175923745d201b7b",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

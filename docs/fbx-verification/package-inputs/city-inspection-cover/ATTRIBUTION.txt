@@ -1,0 +1,7 @@
+丸形点検マンホール蓋 / Round inspection cover
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69

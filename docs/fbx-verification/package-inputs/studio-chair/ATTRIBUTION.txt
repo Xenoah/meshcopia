@@ -1,0 +1,7 @@
+スタジオチェア / Studio chair
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5

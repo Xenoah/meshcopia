@@ -1,0 +1,7 @@
+音楽喫茶の肘掛け椅子 / Listening Bar Armchair
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557

@@ -1,0 +1,25 @@
+{
+  "id": "city-solar-module-rack",
+  "title": "架台付き太陽電池モジュール",
+  "titleEn": "Solar module on ballast rack",
+  "description": "60枚のセル、透明保護板、固定クランプ、三角補強架台、重し、背面接続箱と短いケーブルを備えた太陽電池模型。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A single solar module with sixty cells, transparent cover, clamps, braced ballast rack, rear junction box and short connector cables. Static nonfunctional electrical-equipment prop. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.17,
+    0.815847,
+    1.759457
+  ],
+  "triangles": 14508,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06",
+  "fbxSha256": "1945f16664b62b5c4ed78b532e9842d0892f23add7939188be2db20e7f1fc165",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

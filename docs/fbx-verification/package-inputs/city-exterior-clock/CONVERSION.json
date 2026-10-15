@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 1,
+  "id": "city-exterior-clock",
+  "sourceGlbSha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63",
+  "fbxSha256": "59ede804e8ada26d1f89dcae1116f2c6bd2579fc3e3e479ca69486badebe2d20",
+  "fbxBytes": 386252,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 5.050537321693582e-09,
+    "maxCorrespondingCornerPositionDeltaMeters": 5.960464477539063e-08,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.01895050722126897,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Hand spindle cap",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour hand",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hour index.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Inset dial face",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute hand",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.012",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.013",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.014",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.015",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.016",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.017",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.018",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.019",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.020",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.021",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.022",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.023",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.024",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.025",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.026",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.027",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.028",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.029",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.030",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.031",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.032",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.033",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.034",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.035",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.036",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.037",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.038",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.039",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.040",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.041",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.042",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.043",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.044",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.045",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.046",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Minute tick.047",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised protective bezel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear wall mount",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Static red second hand",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall mounting boss",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Wall mounting boss.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Weatherproof clock housing",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Graphite powder coat",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Graphite powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03799999877810478,
+              0.05299999937415123,
+              0.061000000685453415,
+              1
+            ],
+            "metallicFactor": 0.550000011920929,
+            "roughnessFactor": 0.33000001311302185
+          }
+        }
+      },
+      {
+        "name": "Weatherproof clock dial",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Weatherproof clock dial",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.800000011920929,
+              0.800000011920929,
+              0.699999988079071,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5299999713897705
+          }
+        }
+      },
+      {
+        "name": "Satin stainless steel",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Satin stainless steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.47999998927116394,
+              0.5400000214576721,
+              0.5699999928474426,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "Red reflective polymer",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Red reflective polymer",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.7799999713897705,
+              0.04500000178813934,
+              0.02500000037252903,
+              1
+            ],
+            "metallicFactor": 0.15000000596046448,
+            "roughnessFactor": 0.2199999988079071
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

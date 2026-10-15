@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-solar-module-rack",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "1945f16664b62b5c4ed78b532e9842d0892f23add7939188be2db20e7f1fc165",
+  "archiveSha256": "8da616ad9d50d6fd084151953a5b3185772b66dc84dc0e23380372508502c48c",
+  "originalGlbSha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 404,
+      "sha256": "3d2b9b57572b25fcd629d38f681c814ac9e7e0c0b4c76e5294a7244f6786308f"
+    },
+    "CONVERSION.json": {
+      "bytes": 16195,
+      "sha256": "c5b7d0a33dfedeb9ccabba50b8a8aae3ea38f3215451b71d97d7a507eb48d3a6"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "8366b9772a527f77b9a8e05807d4c5c32321659bbd1e872b2f2cdb5290bdd3d8"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1266,
+      "sha256": "a148553b9a5b46d6ad895d66037f4b8347ac3010af907d754878869b3dda7e34"
+    },
+    "asset.json": {
+      "bytes": 1441,
+      "sha256": "7e828107af52f8ef6de1f3a4cf6ede8eef13391a8aee9a25d7b4e65856b0008a"
+    }
+  }
+}

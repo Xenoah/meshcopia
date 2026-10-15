@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-booster-pump-skid",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "18e8530c1c0cacaefc66584ff7345bd7032946557e67aa2a22760c4fb97ed532",
+  "archiveSha256": "220ba5faf6ae78c81a16695ad79fb47d85f598180782b10aa1911ed000379a49",
+  "originalGlbSha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "446439cd5afc7562f8e13849fad32809b72afcb27f34350a7be12450c4b47fbb"
+    },
+    "CONVERSION.json": {
+      "bytes": 11715,
+      "sha256": "05f114545eef33409ab2e3d3a0de4f0ab0385dca3e3803cd60a59c4a5416dc93"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 577,
+      "sha256": "0ac0c14635977758c2d614828e75712f9bc71afa5b4a4c80826b2ba94e9a09d3"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1826,
+      "sha256": "3ecc2864e2965604a1a5e35850d8bcaa8fa01e4e61ff653cd4631ab6d0514c8f"
+    },
+    "asset.json": {
+      "bytes": 2035,
+      "sha256": "43c88403d5599f3b76d0e454862c8bce0f5b5f34693f34613e00498b1c8b934b"
+    }
+  }
+}

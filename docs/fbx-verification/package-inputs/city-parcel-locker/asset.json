@@ -1,0 +1,25 @@
+{
+  "id": "city-parcel-locker",
+  "title": "屋外宅配ロッカー",
+  "titleEn": "Outdoor parcel locker bank",
+  "description": "大小12個の扉と側面端末、雨よけ屋根を備えた屋外宅配ロッカー。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Outdoor parcel locker bank with twelve differently sized doors, gasket seams, flush pulls, a side terminal and a drip canopy. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.743,
+    1.9145,
+    0.609
+  ],
+  "triangles": 22208,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4",
+  "fbxSha256": "a5670c504c54f1745c01704e70d473a7451d5336de177cd038fac4f16a4c2bef",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

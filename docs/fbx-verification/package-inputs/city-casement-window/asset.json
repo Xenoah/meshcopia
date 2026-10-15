@@ -1,0 +1,25 @@
+{
+  "id": "city-casement-window",
+  "title": "片開き窓ユニット",
+  "titleEn": "Twin casement window unit",
+  "description": "透明ガラス入りの二枚建て窓。片側の開いたサッシ、気密材、丁番、ハンドル、排水隙間のある水切りを含む。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A twin glazed casement unit with one sash statically open, transparent panes, seals, hinges, handles and a sill with real drainage gaps. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.46,
+    1.203305,
+    0.331274
+  ],
+  "triangles": 4848,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e",
+  "fbxSha256": "867cdddebae1bc34cb83a81b78a07936faf56b7d609f19fc570f5574ee57b993",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

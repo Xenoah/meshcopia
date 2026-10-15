@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-moon-tea-sign",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "99a691be16e257bdfe74bc2b70149e269d6f3abbdd06355d114e8d27b8e39df5",
+  "archiveSha256": "db0522e49a86cea53ae1f04b20efc52539ed8277251bf0801d586ee2b32cd794",
+  "originalGlbSha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 384,
+      "sha256": "d90ed5885a930f11cece2147938880dfc06e39d665e6da94eb0a7616479c696e"
+    },
+    "CONVERSION.json": {
+      "bytes": 8117,
+      "sha256": "cedd474da6c14c33d183fbe163615e9a4cf3a715fa560708ff3f038c5b296d50"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "48a72ff70f0504351282d5f600664c23debec60604d146a8be6215e00fc92088"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1800,
+      "sha256": "88b6cd2566241a2bb09826ba1db1dfad1116c66c761766f1b3540c50c3b4ba2c"
+    },
+    "asset.json": {
+      "bytes": 2009,
+      "sha256": "2aa2a66444e3c11d8429e441d7565cb3d91d74db24e6ff2b93fd3113129aa494"
+    }
+  }
+}

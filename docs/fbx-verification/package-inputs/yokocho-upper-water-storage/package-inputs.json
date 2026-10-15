@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-upper-water-storage",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "b32f65974cda265210a1859d0db76fde40157892e72a1ad0f59e031d73ec06d7",
+  "archiveSha256": "b90fc4c9213eaa0fa005bcfafd604ca35d8e99453ed3515b5b7732287b17a005",
+  "originalGlbSha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "da14b06529d41d7859bca9497bb491ed6af378731b07f2fbf97a151e1d57226a"
+    },
+    "CONVERSION.json": {
+      "bytes": 10669,
+      "sha256": "214c9a2fcab9b4a79d5b81e4ff75102db21105d30f1539a969b5ac9ac82b2cad"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 579,
+      "sha256": "4a06157379622dc251953af251ebc3e04d2d37d3da28690aa603617914eba741"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1834,
+      "sha256": "ae1244b41eb937a95236b167177a4c96c9acd09026823ecabffea1ec5c181eed"
+    },
+    "asset.json": {
+      "bytes": 2037,
+      "sha256": "280b959fc35e5f93fbe95cc0f8a552f578f4f8f1223ae788229eb2f487fb74fa"
+    }
+  }
+}

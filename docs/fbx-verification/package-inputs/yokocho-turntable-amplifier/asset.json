@@ -1,0 +1,25 @@
+{
+  "id": "yokocho-turntable-amplifier",
+  "title": "ターンテーブルとアンプ",
+  "titleEn": "Turntable and Amplifier Set",
+  "description": "樹上横丁のオリジナル形状から切り出したターンテーブルとアンプ。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。",
+  "descriptionEn": "Turntable and Amplifier Set extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged.  Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.8399999737739563,
+    0.14999400079250336,
+    0.38999900221824646
+  ],
+  "triangles": 496,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+  "fbxSha256": "16398cd485952d77d808dd3acde599b05e3c107968ab8addb7851d8e6bb582cd",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

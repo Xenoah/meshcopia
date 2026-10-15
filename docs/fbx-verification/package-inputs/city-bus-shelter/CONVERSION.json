@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 1,
+  "id": "city-bus-shelter",
+  "sourceGlbSha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb",
+  "fbxSha256": "1b9b4b2a0aafec80f984db6cc120c136350f9882656cee10814b41371268197a",
+  "fbxBytes": 1021548,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 4.172325134277344e-07,
+    "maxCorrespondingCornerPositionDeltaMeters": 4.172325134277344e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.020649222034710767,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Anchored shelter footplate",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Anchored shelter footplate.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Anchored shelter footplate.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Anchored shelter footplate.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Blank timetable sheet",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Curved shelter roof",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Downpipe fixing strap",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Downpipe fixing strap.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glass visibility marking",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glass visibility marking.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glass visibility marking.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glass windscreen",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glazing rail",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glazing rail.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glazing upright",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "End glazing upright.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass clamp.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Glass visibility marking.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Post shoe",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Post shoe.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Post shoe.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Post shoe.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glass windscreen",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glass windscreen.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glass windscreen.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame rail",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame rail.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame rail.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame rail.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame rail.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame rail.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame upright",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame upright.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame upright.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame upright.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame upright.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear glazing frame upright.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rain downpipe",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rain gutter",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof crossmember",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof crossmember.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof crossmember.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof folded edge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof folded edge.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof support longitudinal beam",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof support longitudinal beam.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.012",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.013",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.014",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt hex head.015",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.012",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.013",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.014",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Shelter foundation bolt washer.015",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Structural square post",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Structural square post.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Structural square post.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Structural square post.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable header",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable rear housing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable ruled line",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable ruled line.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable ruled line.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable ruled line.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Timetable ruled line.004",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "steel",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4699999988079071,
+              0.5299999713897705,
+              0.550000011920929,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "graphite",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "graphite",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.07500000298023224,
+              0.10499999672174454,
+              0.11999999731779099,
+              1
+            ],
+            "metallicFactor": 0.6499999761581421,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      },
+      {
+        "name": "glass",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "alphaMode": "BLEND",
+          "name": "glass",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.41999998688697815,
+              0.6299999952316284,
+              0.6600000262260437,
+              0.07999999821186066
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.11999999731779099
+          }
+        }
+      },
+      {
+        "name": "cream",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "cream",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.7200000286102295,
+              0.75,
+              0.7099999785423279,
+              1
+            ],
+            "metallicFactor": 0.3499999940395355,
+            "roughnessFactor": 0.4000000059604645
+          }
+        }
+      },
+      {
+        "name": "blue",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "blue",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.25,
+              0.36000001430511475,
+              1
+            ],
+            "metallicFactor": 0.44999998807907104,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

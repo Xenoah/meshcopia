@@ -1,0 +1,25 @@
+{
+  "id": "commons-book-set",
+  "title": "コモンズ・本6冊セット",
+  "titleEn": "Commons six book set",
+  "description": "CODE・SOUND・SPACE・FORM・LIGHT・IDEASの背表紙を持つ本6冊。棚や机の装飾に使える独立したメッシュ。",
+  "descriptionEn": "Six separate books with original CODE, SOUND, SPACE, FORM, LIGHT and IDEAS spine artwork for shelves or desks.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.96377,
+    0.34309,
+    0.25
+  ],
+  "triangles": 72,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70",
+  "fbxSha256": "d04a94df701172e6f871d545226ce109890f934d1fa44703a74a4807a9af2609",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

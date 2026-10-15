@@ -1,0 +1,7 @@
+開放状態の屋上出入口 / Open roof access hatch
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5

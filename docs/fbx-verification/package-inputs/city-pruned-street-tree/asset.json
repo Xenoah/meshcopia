@@ -1,0 +1,25 @@
+{
+  "id": "city-pruned-street-tree",
+  "title": "剪定された街路樹",
+  "titleEn": "Pruned street tree",
+  "description": "緩やかに先細る幹、階層状の枝と小枝、個別に折れ曲がった葉を持つオリジナルの汎用街路樹。丸い樹冠は不規則に剪定され、樹種は特定していません。葉は両面表示の薄い面で、風アニメーションやLODは含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Original generic street tree with a root flare, tapered branching hierarchy, fine bearing shoots and individually folded leaf blades. Its irregular rounded crown represents pruning without claiming a particular species. Leaves are thin double-sided surfaces; no wind animation, LODs or species accuracy is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    4.031686,
+    5.937617,
+    3.86028
+  ],
+  "triangles": 84316,
+  "uv": "Original UV coordinates retained; the street-tree leaf mesh uses a derived primary color UV atlas and retains original UV0 as a second layer. Split normals are exported. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696",
+  "fbxSha256": "8b69617a3722ba66759aa499cf3d58ff31c68a4c68ba4fb5ad46e041161e3fd1",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

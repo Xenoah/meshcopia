@@ -1,0 +1,25 @@
+{
+  "id": "city-scaffold-bay",
+  "title": "単独足場ベイ",
+  "titleEn": "Single scaffold bay",
+  "description": "スクリュージャッキ、支柱、接続された水平材と斜材、木製足場板、幅木、上部手すりと側面はしごを持つ一区画。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A single scaffold bay with screw jacks, hollow standards, connected ledgers and braces, timber deck, toe boards, full upper rails and an end ladder. Static visual model, not a load-rated or safety-certified scaffold. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    2.55,
+    3.2,
+    1.45
+  ],
+  "triangles": 32512,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+  "fbxSha256": "83d7f36c2b36c8a351f65ac7fa683960266b3b41085b8e297a0e864b3af02103",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "city-security-camera",
+  "title": "壁付け屋外監視カメラ",
+  "titleEn": "Wall-mounted exterior security camera",
+  "description": "壁付け金具、角度調整ヒンジ、奥まったレンズ、日除けフードと背面ケーブル付きの静的カメラ模型。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A static exterior camera prop with wall mounting plate, tilt hinge, recessed optical lens, weather hood and rear cable. No recording or surveillance functionality. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.168,
+    0.284,
+    0.4105
+  ],
+  "triangles": 5600,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82",
+  "fbxSha256": "7bfbe64b4f05764de09aa607ce78933ec9db0e7f5a0babc6a6bbb2d94f45e4b5",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

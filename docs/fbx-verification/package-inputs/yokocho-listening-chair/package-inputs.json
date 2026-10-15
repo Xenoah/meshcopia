@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-listening-chair",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "70f2607d9de580e7b2ab3286ba13fb88e77e2daac0eae98b49b7560559ab680d",
+  "archiveSha256": "9809e2a7fc5cdb7545620c8588762c555bbd4e81f32b9ca57ea8a3b519af5592",
+  "originalGlbSha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 389,
+      "sha256": "921778c69623dd05362f9fa74d1123b822ce019da610d7c79b28a521557ef257"
+    },
+    "CONVERSION.json": {
+      "bytes": 8469,
+      "sha256": "49fdf4ba7fdb5979cdc1345edde4de5636664e57de48a7bfae907da93ad8542b"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 575,
+      "sha256": "5964c80ae063a0c61f48de9ada0f0e7fe8b15aa39f425837bd8ee0ac9313d6a7"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1814,
+      "sha256": "f835892d908a4074b890606d9c434b8994445d44d91ecd2d96fa1c1ff7f9dad6"
+    },
+    "asset.json": {
+      "bytes": 2019,
+      "sha256": "46e1f2e1887b313b91cd878013f3913bc5ec2e1f5a560e783673dbd36aeaf3a2"
+    }
+  }
+}

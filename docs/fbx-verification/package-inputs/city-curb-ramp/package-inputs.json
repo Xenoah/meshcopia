@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-curb-ramp",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "071ed9d6f71397678ae8f9326b9a64f432363f68da1a197b3a9215ac2a9ce636",
+  "archiveSha256": "b92da06729bd616d9917755c10021e4536173b8912f58efe472f63e2f0f23e44",
+  "originalGlbSha256": "8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 382,
+      "sha256": "e09cab5a6d48ae9187b97a6fed12ee10e0bd7335fb3854493b276916115dffaa"
+    },
+    "CONVERSION.json": {
+      "bytes": 8335,
+      "sha256": "419189ec385474a0daed80153fbc38c1b1e795074f525b2e2924439188f6f4b7"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 566,
+      "sha256": "58b578ccb9597f517e2169faa07bd156379d14eb432a685f34abf573db140293"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1137,
+      "sha256": "f090cd1c9da55eb11830eb7602c2b37b66a3c49c068d9097e7065f6eb77ad705"
+    },
+    "asset.json": {
+      "bytes": 1312,
+      "sha256": "b7d900087cf654bf0b3a7785abe0aaf0a76237d74aed17d19dbe86b8c78dfbbf"
+    }
+  }
+}

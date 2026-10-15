@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-lifebuoy-station",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "500d80fb88977363a7c04b5374780d0c965e2cde47d0614c34f092d6e9526852",
+  "archiveSha256": "d09474ede487caf72147310bd4ae1bbde13b5c204f3a8f117c540732ae9d9896",
+  "originalGlbSha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 383,
+      "sha256": "d2d7fdd0d142a6defa3faaec47a3348a1347b8808eaecc61905ee65f3e4f6347"
+    },
+    "CONVERSION.json": {
+      "bytes": 9323,
+      "sha256": "4f10a459b687e1c6bd8ef2af1b4bb1c57a8a4af8c7bab3f8652014315f239d7c"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "dd25e44253120b3c9240dea10991127a9be978a6c0e44dff2137acfe44b951b9"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1159,
+      "sha256": "bb42b9d6bd678f785b2a72e11015bdd04a9971acd0690906d4ea768855a391d1"
+    },
+    "asset.json": {
+      "bytes": 1334,
+      "sha256": "70e1f97a1a6440b4bebf1661f676dfa806932707f8a192423b43ddf0ab6b6e3e"
+    }
+  }
+}

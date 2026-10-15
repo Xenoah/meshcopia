@@ -1,0 +1,7 @@
+コンクリート製輪止め / Precast wheel stop
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654

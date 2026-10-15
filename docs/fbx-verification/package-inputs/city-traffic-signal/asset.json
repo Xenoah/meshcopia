@@ -1,0 +1,25 @@
+{
+  "id": "city-traffic-signal",
+  "title": "縦型三灯交通信号機",
+  "titleEn": "Three-aspect traffic signal",
+  "description": "独立した三色レンズ、庇、裏面点検蓋、取り付け金具とアンカーボルトを備えた自立式信号機。消灯した静的装飾モデルで、点灯制御や動作シミュレーションは含まない。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A complete freestanding three-aspect traffic signal with individual colored lenses, open visors, rear service lid, brackets and anchor bolts. Static unlit decorative prop; no operational timing or signal simulation. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.46,
+    3.2365,
+    0.665
+  ],
+  "triangles": 23808,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217",
+  "fbxSha256": "70a4ab51a11e1d98f3bd5e03ce683ff743dc2ada8456de204170b8aa28c53518",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

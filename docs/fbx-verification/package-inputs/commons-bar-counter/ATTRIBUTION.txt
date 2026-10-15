@@ -1,0 +1,7 @@
+コモンズ・スラットバーカウンター / Commons slatted bar counter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2

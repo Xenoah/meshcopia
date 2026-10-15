@@ -1,0 +1,7 @@
+二口消火栓 / Two-outlet fire hydrant
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-traffic-signal",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "70a4ab51a11e1d98f3bd5e03ce683ff743dc2ada8456de204170b8aa28c53518",
+  "archiveSha256": "1e195fe41dd468bd4d4e5386948b4eac7a81136229e12e592bb7ea17ee3254b4",
+  "originalGlbSha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 391,
+      "sha256": "3edd46ca7f470897c04badb4c4e4406a91bae66a925f14577d8c303cfdff7991"
+    },
+    "CONVERSION.json": {
+      "bytes": 13215,
+      "sha256": "fce35f74109cb3c264716418135c6f9bef4b205cac2c5b5941e4edd5d92ed44b"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 571,
+      "sha256": "4b712b5a265641bc3794f632474a8f7726e6a5b66faff0293e25174df397ebac"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1355,
+      "sha256": "885baf7f0f292c96be632b8d17427f83cb16cdb7ccac80d6d3a13cb34f1d7e5a"
+    },
+    "asset.json": {
+      "bytes": 1530,
+      "sha256": "e0164b27d1841540712306aab940e96369231f5e010e1565300d4bde524120f4"
+    }
+  }
+}

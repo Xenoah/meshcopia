@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "terracotta-planter",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "5cd90f996d5246a11e660e15978da2f3689c568d6fee6ed8cd0fb7b7805f9d91",
+  "archiveSha256": "708d045ca8ad48cbf80bf141bdb20a43b8627da572f4083108d0f8c6365cf700",
+  "originalGlbSha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 385,
+      "sha256": "20bf7c94837c7889704e1d87e21b935e19d6d8208d24b25f600aa560ef35cf44"
+    },
+    "CONVERSION.json": {
+      "bytes": 6159,
+      "sha256": "05473db926b3b42ee1c7bccab54a7257a78f9d19e1ba19af617c1f42f0f4bd18"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 570,
+      "sha256": "99fd71adb50544f4333fec3c5ae6fb22ab0268bbda4aacef6abe17a427a64cab"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 887,
+      "sha256": "2079576e6d4b1a50b52277b5aaea9d3846f204cddd6009b3ee52cefb7fbbfa5b"
+    },
+    "asset.json": {
+      "bytes": 1062,
+      "sha256": "0fc267be8445a040a8bcbdfb5bc3980f5ea9cbde5b976fac9f27579fc9400c08"
+    }
+  }
+}

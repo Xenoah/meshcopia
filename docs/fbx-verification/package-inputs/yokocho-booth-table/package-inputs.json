@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-booth-table",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "752214e9166e7103df5e010528b07078a62b668811fd4ee0e527f5bd620cc2c0",
+  "archiveSha256": "31d0ada1b089ee0b411cc353f6a02dcd5170799b86b0aa01cad9ecc516f139e7",
+  "originalGlbSha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 396,
+      "sha256": "8284119bfa1536e433596fb863fe690251977b56f82a1fffb615129cb41d714d"
+    },
+    "CONVERSION.json": {
+      "bytes": 9231,
+      "sha256": "a0ec7715ae7c0bc23f17fb6928dd2ea89f4c774d17ccf967062105ea19a2f7dd"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 571,
+      "sha256": "2520c7117a46039f02013949c63f098d44c7fbbb4babb2082645d587b014c4a2"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1824,
+      "sha256": "cbdcd7b4da0f007138040e65f7aa1c58fded8453bf577a58518d3e224294d07e"
+    },
+    "asset.json": {
+      "bytes": 2029,
+      "sha256": "efeda90d3e2b6e81a239dcf3ebbe6067bef8f6ada5cb759c72d454b190fe17e8"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-glazed-entry-door",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "550da6fbf7dad0973bc346b2f638d58bdc930653239da67369de8aced5a2bfcb",
+  "archiveSha256": "2d75a7077aec878a8c287807db2e6f4016dad6f6e4be4d764e1fc9f50a5e59e8",
+  "originalGlbSha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 392,
+      "sha256": "96e12a20002fc4736062591bcc79cfc23b41e2ae5a6efd55c4c113e51cd23ae7"
+    },
+    "CONVERSION.json": {
+      "bytes": 12127,
+      "sha256": "eb4075b38cf5a5b0e075b62addac943f4b5163b562af9d344bd901df1e359f05"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "bdefc3a54bea07b7478e6cd270a79d81737f82d1835ba4e206f26e7429858ca2"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1220,
+      "sha256": "1833f789c3c7af815725d1eaad3892b07523ad8c9cb8a7d6ed459841d498e022"
+    },
+    "asset.json": {
+      "bytes": 1395,
+      "sha256": "19fa1a5c07ddc2e48babb9e34258491513cf033323ac2ab2ac7c5470151d5840"
+    }
+  }
+}

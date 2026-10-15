@@ -1,0 +1,25 @@
+{
+  "id": "commons-round-table",
+  "title": "コモンズ・カフェ丸テーブル",
+  "titleEn": "Commons round cafe table",
+  "description": "オークの天板、真鍮の縁、スチールの一本脚。卓上の小物を除いた独立テーブル。",
+  "descriptionEn": "An oak top, brass edge and steel pedestal; supplied without tabletop props.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.964,
+    0.7625,
+    0.964
+  ],
+  "triangles": 564,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048",
+  "fbxSha256": "5afb547d2e909d620287643ef0f81631ab229dc16e4c62514df556885019b36b",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

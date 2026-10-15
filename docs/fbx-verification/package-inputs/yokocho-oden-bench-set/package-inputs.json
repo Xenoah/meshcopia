@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-oden-bench-set",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "d0d3230445152bc5b63dd1ba6fda0edeed46596183600ca1e027e8af23f2ac2e",
+  "archiveSha256": "7d7e96a56982aba71d4ce8825b0a7f69b0bedace703c72c5064f4684d1e873ea",
+  "originalGlbSha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 399,
+      "sha256": "417db6e55f1c2828c567067f72f84dc441cfcc81295ffafdb4b9323dda1319af"
+    },
+    "CONVERSION.json": {
+      "bytes": 7909,
+      "sha256": "2ad0cacfd10d59bf0691eafdc0848880be850fc6ad4327db6c74c6055d38c4b9"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "e3f0ddc9df6629d2c3870e4168066569d47d061486d4decbdc039d843c55dd41"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1829,
+      "sha256": "3d0efcaf516077bb359f7801342f0d3f39b9c2940be0b5a8767f0c0f33dc8f11"
+    },
+    "asset.json": {
+      "bytes": 2038,
+      "sha256": "6831f2e41aa1b728ad78cff591f87a1596cae8b60e9ec741736dabef707cfe67"
+    }
+  }
+}

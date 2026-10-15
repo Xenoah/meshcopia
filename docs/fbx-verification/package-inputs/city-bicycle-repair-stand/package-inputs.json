@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-bicycle-repair-stand",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "b98439ce34cc835617b1a35f021eebda28ea28b59ddacb98bfc63d4cc5a066f9",
+  "archiveSha256": "b85af115037ac8fb808c0ae327325ed283f84aea13abde0aa392411a14ce307e",
+  "originalGlbSha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "b381bc52b19b45f4401a133950aadb6231ab2a3d502433915245fc38636dfd8a"
+    },
+    "CONVERSION.json": {
+      "bytes": 12096,
+      "sha256": "3688395cecc77a2ba8592754dec2120518bc95601eac196053295e6b831fcfec"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 577,
+      "sha256": "d3b1f88b1cce2d573027e2e545a7cc617567e6bd88e74aa0958642e08cc665d8"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1209,
+      "sha256": "c3fcaceee7f4bbdced35697ba2fecfa60413cb3957a6e3f90f3898240cb42d33"
+    },
+    "asset.json": {
+      "bytes": 1384,
+      "sha256": "ebc23de0da21e25fd91495ba30235a9590746f4bf88359bec5f7c4c28e17aad9"
+    }
+  }
+}

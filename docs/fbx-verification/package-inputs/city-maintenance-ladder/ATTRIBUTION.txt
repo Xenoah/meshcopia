@@ -1,0 +1,7 @@
+保護ケージ付き保守はしご / Caged maintenance ladder
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb

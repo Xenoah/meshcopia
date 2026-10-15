@@ -1,0 +1,25 @@
+{
+  "id": "city-bicycle-repair-stand",
+  "title": "街頭自転車修理スタンド",
+  "titleEn": "Public bicycle repair stand",
+  "description": "支持アーム、ワイヤーでつながれた工具、手動空気入れとホースを備える修理スタンド。自転車は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A public bicycle service post with support cradle, tethered generic tools, hand pump, hose and mechanical gauge; no bicycle included. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.651514,
+    1.2475,
+    0.55576
+  ],
+  "triangles": 5684,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71",
+  "fbxSha256": "b98439ce34cc835617b1a35f021eebda28ea28b59ddacb98bfc63d4cc5a066f9",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

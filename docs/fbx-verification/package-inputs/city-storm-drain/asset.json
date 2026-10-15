@@ -1,0 +1,25 @@
+{
+  "id": "city-storm-drain",
+  "title": "道路排水グレーチング",
+  "titleEn": "Road storm drain grate",
+  "description": "実際に開いたスリット、脱着式の鋳鉄格子、支持リブと固定ボルトを備えた道路排水口。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A cast-iron street grate with genuine open slots, removable grate bars, supporting ribs and frame anchors. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.62,
+    0.09802,
+    0.812
+  ],
+  "triangles": 7432,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
+  "fbxSha256": "db906728ebc0408d375020aa132d59f4fd3dbabe6ce55c1284651266eddc46ae",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

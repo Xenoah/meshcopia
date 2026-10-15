@@ -1,0 +1,629 @@
+{
+  "schemaVersion": 1,
+  "id": "city-commuter-bicycle",
+  "sourceGlbSha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+  "fbxSha256": "d44753c8300514439259c9da91c92aa1e42fd26de031bf8cf869190c34bfe0b7",
+  "fbxBytes": 2444236,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 1.7881393432617188e-07,
+    "maxCorrespondingCornerPositionDeltaMeters": 1.7881393432617188e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.03941711024399123,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Brake lever clamp",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Brake lever clamp.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Chainring center boss",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Chainring machined rim",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Chainring spider - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Chainring teeth - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Commuter saddle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Compact headlight body",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Crank arm",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Crank arm.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Crank bolt",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Crank bolt.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Deployed kickstand",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Diamond frame assembly - cycle-teal",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front brake cable",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front fender stays - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front fork assembly - cycle-teal",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front fork dropout hardware - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front metal mudguard",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front rim brake assembly - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front rim brake assembly - rubber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front rim brake assembly - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front wheel inflated commuter tire",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front wheel metal assembly - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front wheel metal assembly - graphite",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front wheel metal assembly - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hand brake lever",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hand brake lever.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Handlebar grip plug",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Handlebar grip plug.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Handlebar stem",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Headlight bracket",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Headlight lens",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Headset bearing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Headset bearing.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Kickstand rubber foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Left pedal assembly - graphite",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Left pedal assembly - rubber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Left pedal assembly - yellow",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Linked drive chain - chain-steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pedal spindle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pedal spindle.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Quill stem",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear brake cable",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear fender stays - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear frame dropout hardware - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear metal mudguard",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rack platform - graphite",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rack support stays - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear red reflector",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear reflector bracket",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rim brake assembly - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rim brake assembly - rubber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear rim brake assembly - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear sprocket cluster",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear sprocket cluster.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear sprocket cluster.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear wheel inflated commuter tire",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear wheel metal assembly - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear wheel metal assembly - graphite",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear wheel metal assembly - steel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Right pedal assembly - graphite",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Right pedal assembly - rubber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Right pedal assembly - yellow",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Saddle rail assembly - chrome",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Seatpost",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Seatpost clamp screw hex head",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Seatpost clamp screw washer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Seatpost collar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stem clamp bolt",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Swept commuter handlebar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Textured rubber hand grip",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Textured rubber hand grip.001",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "tire",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "tire",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.023000000044703484,
+              0.026000000536441803,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      },
+      {
+        "name": "chrome",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "chrome",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.5699999928474426,
+              0.6200000047683716,
+              0.6499999761581421,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.23999999463558197
+          }
+        }
+      },
+      {
+        "name": "graphite",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "graphite",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.07500000298023224,
+              0.10499999672174454,
+              0.11999999731779099,
+              1
+            ],
+            "metallicFactor": 0.6499999761581421,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      },
+      {
+        "name": "steel",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4699999988079071,
+              0.5299999713897705,
+              0.550000011920929,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "cycle-teal",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "cycle-teal",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.04500000178813934,
+              0.2199999988079071,
+              0.23999999463558197,
+              1
+            ],
+            "metallicFactor": 0.44999998807907104,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      },
+      {
+        "name": "rubber",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.027000000700354576,
+              0.02800000086426735,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      },
+      {
+        "name": "saddle",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "saddle",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.04500000178813934,
+              0.04699999839067459,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7599999904632568
+          }
+        }
+      },
+      {
+        "name": "chain-steel",
+        "sourceMaterialIndex": 7,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "chain-steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.30000001192092896,
+              0.3199999928474426,
+              0.28999999165534973,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.3499999940395355
+          }
+        }
+      },
+      {
+        "name": "yellow",
+        "sourceMaterialIndex": 8,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "yellow",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.8500000238418579,
+              0.5199999809265137,
+              0.07999999821186066,
+              1
+            ],
+            "metallicFactor": 0.3499999940395355,
+            "roughnessFactor": 0.36000001430511475
+          }
+        }
+      },
+      {
+        "name": "reflector-red",
+        "sourceMaterialIndex": 9,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "reflector-red",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6499999761581421,
+              0.03500000014901161,
+              0.017999999225139618,
+              1
+            ],
+            "metallicFactor": 0.20000000298023224,
+            "roughnessFactor": 0.2800000011920929
+          }
+        }
+      },
+      {
+        "name": "lens",
+        "sourceMaterialIndex": 10,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "lens",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.7900000214576721,
+              0.8399999737739563,
+              0.7200000286102295,
+              1
+            ],
+            "metallicFactor": 0.15000000596046448,
+            "roughnessFactor": 0.18000000715255737
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

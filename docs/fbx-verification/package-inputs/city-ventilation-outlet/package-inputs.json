@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-ventilation-outlet",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "42fde0e58fdfe077baba1678490bcfe1b625b757962991cd745eae7e06271707",
+  "archiveSha256": "c667f4a6490565565e6abf942cfa26b4120042c67f1243a0e4b6cbe1e2151996",
+  "originalGlbSha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 384,
+      "sha256": "0b5dbe524e53dcb2c1791cd2d6155b6cb177122749bb8106cfa07f52ba3a397c"
+    },
+    "CONVERSION.json": {
+      "bytes": 8232,
+      "sha256": "53d72eb6ff81185efcbdfb0d5172953ca0d97ec01c016785decb901636654863"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 575,
+      "sha256": "9d96cc4aa6822a0fe8dd3119d808561ba18a6a47cea1c9f72f698584a0630968"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1137,
+      "sha256": "3a04484bcbe9ebf94dccad9c497f6ce168d40dc1adaa20439e6db79ec1d3db6c"
+    },
+    "asset.json": {
+      "bytes": 1312,
+      "sha256": "dd8aa93a7792740dba31071524b0a9d780c982d0f1d3b7f53709c199eb8ce58c"
+    }
+  }
+}

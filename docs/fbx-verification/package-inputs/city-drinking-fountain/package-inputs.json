@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-drinking-fountain",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "aa3ac57af81e2f9fe234170813829c106d7a2ce68a65e24dcd33d871b8139ca0",
+  "archiveSha256": "670e29fe2465a10040dda655c12f4a70dd1eab899c026807bf4ab665b916f4c3",
+  "originalGlbSha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 390,
+      "sha256": "8d798053788dabdf1bc73e81377a7490b71867ebd683d2b03fbbfdc25a90f797"
+    },
+    "CONVERSION.json": {
+      "bytes": 10583,
+      "sha256": "696dcdb26472ff04c13a762a60dce9265f4c80abc3ce02225f729a15e9150556"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "1df52b98e33f34b482f97872c4ab7a42b03c1fb357fe30dae3dd3f6b97a20c38"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1195,
+      "sha256": "01722f39de4eb6f53a7555be96fb242ce2d7c40cfbf4f783a638462e33dee267"
+    },
+    "asset.json": {
+      "bytes": 1370,
+      "sha256": "71c7d71d4714bead0f26fd13d6cdd75d711e63a86f5151ed9d468b7bfedb650e"
+    }
+  }
+}

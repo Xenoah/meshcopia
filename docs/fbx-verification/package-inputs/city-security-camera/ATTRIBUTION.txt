@@ -1,0 +1,7 @@
+壁付け屋外監視カメラ / Wall-mounted exterior security camera
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82

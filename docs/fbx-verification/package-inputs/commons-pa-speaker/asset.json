@@ -1,0 +1,25 @@
+{
+  "id": "commons-pa-speaker",
+  "title": "コモンズ・PAスピーカー",
+  "titleEn": "Commons PA speaker",
+  "description": "黒い筐体と前面グリルを持つ縦長のPAスピーカー。音源や再生スクリプトは含みません。",
+  "descriptionEn": "A tall black PA enclosure with modeled front grille strips; no audio or playback scripts.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.48,
+    1.3,
+    0.415
+  ],
+  "triangles": 276,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9",
+  "fbxSha256": "80d527a931e731202b3a11a957b4973c174a0c1730e9aeaee203c372f52d9ae6",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

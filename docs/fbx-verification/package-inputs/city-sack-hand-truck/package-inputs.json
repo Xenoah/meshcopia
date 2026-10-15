@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-sack-hand-truck",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "c6ac53f9e6e3110677483c137fa70d53dd16ad53c0963442189104d95a98b517",
+  "archiveSha256": "d4c1a6a32604c6cf2136cf394daea8f70c20ab852cb05788ed677244f4b0450b",
+  "originalGlbSha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 386,
+      "sha256": "5b5a0812624e6118288e6c49ee6ba24ab44e629d0fffe5a51518060173431078"
+    },
+    "CONVERSION.json": {
+      "bytes": 9030,
+      "sha256": "a608c13a9243c5d1502a3137750157a08e8b833adeb9f1d69d7d7523bd402124"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "e6cd6a7261479ab865aae36022a0b18c27e9da8bf5c33cc8c22459a9c9980e22"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1608,
+      "sha256": "19bdae01881a5e4acfb9866d41b922ca9c65ae67ee74a778c833bd58cb3ada45"
+    },
+    "asset.json": {
+      "bytes": 1783,
+      "sha256": "6ed5f91246cb52cc9a77405fa0f27eb9708ea80baef8e80b19ae4004f02cb41b"
+    }
+  }
+}

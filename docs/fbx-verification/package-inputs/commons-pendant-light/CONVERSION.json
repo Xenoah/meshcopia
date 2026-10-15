@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-pendant-light",
+  "sourceGlbSha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+  "fbxSha256": "fe829a83980f0c1b8fb0f79cba5dba2c6341ad7ee6772aa7cf4cb008e81fe969",
+  "fbxBytes": 11853836,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 3.33987273393177e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 1.2619420886039734e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.0004067046450512106,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [
+      {
+        "relativeFilename": "textures/derived_basecolor_b8ab4a750be6663c_6fc9a94b7bb50e8cc67a5ec07d0f783477d2f96bce8fe647f6416dac1534b10f.png",
+        "embeddedBytes": 11824148,
+        "sha256": "6fc9a94b7bb50e8cc67a5ec07d0f783477d2f96bce8fe647f6416dac1534b10f"
+      }
+    ],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "LGT_Diffuser.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LGT_PendantDrop.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LGT_Shade.005",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [
+      {
+        "file": "textures/derived_basecolor_b8ab4a750be6663c.png",
+        "sha256": "6fc9a94b7bb50e8cc67a5ec07d0f783477d2f96bce8fe647f6416dac1534b10f",
+        "sourceImage": 0,
+        "factorLinear": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sourceChannel": null,
+        "mirrorAtlas2x2": true,
+        "uvScale": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          2508,
+          2508
+        ],
+        "encoding": "RGBA8 PNG; sRGB color / linear data"
+      }
+    ],
+    "materialChanges": [
+      {
+        "name": "MAT_Amber_Meshcopia",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "emissiveFactor": [
+            1,
+            0.44210525490240365,
+            0.12105263529391835
+          ],
+          "extensions": {
+            "KHR_materials_emissive_strength": {
+              "emissiveStrength": 2.184999927282334
+            }
+          },
+          "name": "MAT_Amber_Meshcopia",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.949999988079071,
+              0.41999998688697815,
+              0.11500000208616257,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        }
+      },
+      {
+        "name": "MAT_Steel_Meshcopia",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "MAT_Steel_Meshcopia",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0.44999998807907104,
+            "roughnessFactor": 0.6499999761581421
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

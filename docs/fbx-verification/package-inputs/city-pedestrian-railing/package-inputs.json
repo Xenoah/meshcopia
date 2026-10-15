@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-pedestrian-railing",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "7e19d02b36d52839933091451aa60dd062890e102dd507123aaf368c779dc6df",
+  "archiveSha256": "b5a2b0e6dfa878a1f858e4b7d5297514a20a94959a60741a9064501c0e6ec48d",
+  "originalGlbSha256": "172339ddad310eec488bee984faacc113707f3bfd8c93ace10e989def0211a83",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 388,
+      "sha256": "a5f2622b152075acb3e2c6fad5bb6268c85a0e8c6e73b00afcb9b954d71085a6"
+    },
+    "CONVERSION.json": {
+      "bytes": 9217,
+      "sha256": "20dc7de6c2730cce757b43808f3cd47a39e76a4ce54a09311c04f60f4ecbf2d9"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 575,
+      "sha256": "ad85331af3202e4a20a03a89aa11eef27d1a4c73b9e217204f69c335babc7047"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1122,
+      "sha256": "d93165d3935e90c4c30c92d7098787bfd73c18c54c8b7e6ae6991871839c7f54"
+    },
+    "asset.json": {
+      "bytes": 1297,
+      "sha256": "82959bdf1ad67dc9dea65347a5e3f3cf1249ba494033ba2ef3f89db0b0c8f48e"
+    }
+  }
+}

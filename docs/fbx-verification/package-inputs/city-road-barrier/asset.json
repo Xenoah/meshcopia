@@ -1,0 +1,25 @@
+{
+  "id": "city-road-barrier",
+  "title": "注水式ロードバリア",
+  "titleEn": "Water-fill road barrier",
+  "description": "反射板、ハンドル、注水キャップ、排水プラグ、連結部を備える樹脂製工事バリア。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A molded orange work-zone barrier with wide feet, reflectors, carry handles, fill cap, drain plug and complementary interlocking ends. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.719,
+    0.832,
+    0.53
+  ],
+  "triangles": 8072,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "dad16a9cbedc900fef29cfff31b42dc943bc6a37ddaf2bcc85ca141539945671",
+  "fbxSha256": "308ae0ecc8bf60d30284086f728c3a85795e37e92b4c9f7c363e03e45e78b193",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

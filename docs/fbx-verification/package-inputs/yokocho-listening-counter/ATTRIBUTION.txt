@@ -1,0 +1,7 @@
+直角の音楽喫茶カウンター / Right-Angle Listening Bar Counter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868

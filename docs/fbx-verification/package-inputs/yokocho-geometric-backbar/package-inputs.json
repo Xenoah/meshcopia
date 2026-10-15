@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-geometric-backbar",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "bf3a1a40940ce62f67cfa88ac3373130e305876dd3904f0cb249b7e6c4e7ed13",
+  "archiveSha256": "ba914b4a20e331c6dc63deb7fb4868abef8738c9b644e5568d66bac579b239c7",
+  "originalGlbSha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 389,
+      "sha256": "b896497641d31edb4c8175300b7f778071d138d0369460a41e41ae30386eb9ff"
+    },
+    "CONVERSION.json": {
+      "bytes": 9715,
+      "sha256": "9b418f727f453e4dc9899a695bd39fdecdd16d4dea74df45c7e6a6389c9f553f"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 577,
+      "sha256": "2b67e3717fcdda729c6f520ee9a9ec47e6bc5a4470de615cb6b925552d2df68d"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1812,
+      "sha256": "b7d1dfb8cd66a5473830381f7d2561f67625e2ba84562fbcd3d44ae3cf8b3313"
+    },
+    "asset.json": {
+      "bytes": 2020,
+      "sha256": "a49ec8a01b1ab53a2ce65971db6c7be323131b64507e02c53cccf88abaec2100"
+    }
+  }
+}

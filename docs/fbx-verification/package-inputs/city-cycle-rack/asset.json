@@ -1,0 +1,25 @@
+{
+  "id": "city-cycle-rack",
+  "title": "逆U字型自転車ラック",
+  "titleEn": "Inverted-U cycle rack",
+  "description": "曲げ加工されたステンレス製の単体自転車ラック。保護スリーブと固定ボルト付き。自転車は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A single anchored stainless-steel bicycle hoop with bent corners, protective sleeves and mounting hardware; no bicycle included. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.96,
+    0.855992,
+    0.17
+  ],
+  "triangles": 3516,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+  "fbxSha256": "6952b492c85796ac37d810463985a400e608271b69c700d13ddb362e2e2ed65d",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

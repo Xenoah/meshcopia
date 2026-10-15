@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-noh-pavilion",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "22d761cb09b0e9106a2da8ad1d41e21719ddde6cf1db3e851722ac56a7ea9065",
+  "archiveSha256": "1453cc11d9a7ac2c1469af1de4c5011bde63f0e25c8ba303246a853399963520",
+  "originalGlbSha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 382,
+      "sha256": "9e1d70dcb69b58ebed6633dff548a68c1ba2348788fe5a8d1b52c83e7acf1501"
+    },
+    "CONVERSION.json": {
+      "bytes": 19187,
+      "sha256": "dc718815acfd381c0124d665692a331b6e8b2330337787f74eaf77f45beefaa2"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "6d11162709d677ba6e82801b4e739d398e6cd97340d1c5a467acac019106d13d"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1975,
+      "sha256": "ffcd0b121126a788095499da080c5f8c7446427fd52017b8d25f1a3e86bcb3cb"
+    },
+    "asset.json": {
+      "bytes": 2177,
+      "sha256": "b6e6c352368939cdc469c1d9f0fa7bb93e33d064b966272367ed8aff9a92593b"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-exterior-clock",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "59ede804e8ada26d1f89dcae1116f2c6bd2579fc3e3e479ca69486badebe2d20",
+  "archiveSha256": "215d20b4212ab7860e5b91b7701bfb171fa1d65ccdec1d8c6be8a2d0e21c6519",
+  "originalGlbSha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 380,
+      "sha256": "29b04e2db8709bd31fcf1bab6dd86227206e9d5eb59b0ca307f3cdee1f3381b4"
+    },
+    "CONVERSION.json": {
+      "bytes": 12624,
+      "sha256": "43104c1f5e742dff4dad883cebfa166ccd92aefd9abfddda91656696bb9dcee8"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 571,
+      "sha256": "a60b385f00c26307b59e68cc9f98fa92a9d7b4623074be0ff09d86108b117178"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1117,
+      "sha256": "d9b6897e62cbd7081ccce58d2d7259e0406091fadfa5c0f90cf8a9fc6f7ca2ec"
+    },
+    "asset.json": {
+      "bytes": 1292,
+      "sha256": "3ffce8215368b3f94c336ef0ddbc1c590359573b7e9904ae171b307d0cfe71a5"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-portable-toilet",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "20b56316d102906e96ae42fc7163655e9351f72e23f487901249e211ff0f12f2",
+  "archiveSha256": "3bc4e87749552ae1989ab03608d85df7158909e9c5fb1a4953ba46b1921ec57d",
+  "originalGlbSha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 385,
+      "sha256": "a3d8694f235ebc424f260902f0b8fce87acfadf9a5976235353abd538c5e95e1"
+    },
+    "CONVERSION.json": {
+      "bytes": 17425,
+      "sha256": "ac2726f574dc9a054b972944fc46cc5e99f2f662a47db2b50147b54f198c975a"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "7fb625cc9f2da709f0e8cd3c28d6201c68292812c81b3437af6d8b4e6a5c7f8e"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1294,
+      "sha256": "6fcdd83cfdb465d620483ad0bf0265ee1773e42977a2692e31efba694ed666d6"
+    },
+    "asset.json": {
+      "bytes": 1469,
+      "sha256": "0e1782430defa2b171f77a62843120d1a0a2fcd9d2ca6f2f6a32a517d0b42898"
+    }
+  }
+}

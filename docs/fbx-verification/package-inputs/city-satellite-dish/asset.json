@@ -1,0 +1,25 @@
+{
+  "id": "city-satellite-dish",
+  "title": "取付マスト付き小型衛星アンテナ",
+  "titleEn": "Compact satellite dish",
+  "description": "厚みのある楕円反射板、巻き縁、背面リブ、角度調整金具、取付マスト、受信部と支持アームを備える静的な小型アンテナ。受信機能や電気的性能はありません。 アニメーションや実行時の動作はなく、大量配置時の性能は未計測です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A static compact dish with thick elliptical reflector, rolled edge, rear ribs, tilt bracket, mounting mast, receiver and support arm. No reception function or electrical performance is provided. No animation or runtime behavior; performance with mass placement has not been measured. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.6936,
+    1.21756,
+    0.893604
+  ],
+  "triangles": 27184,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+  "fbxSha256": "2625e5c59d03560f89c9d2393f8abbcf462d6d2957c18ac4d07772f49e0d5fc8",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

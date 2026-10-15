@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "garden-arch",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "d084442a54ab731073bdec10bde83071d3c01eac3518d2b45210b6d44157814f",
+  "archiveSha256": "6d31c50cd917a1f1896b6d78e294428f565383e3d6897c24525a1cc18174587f",
+  "originalGlbSha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 369,
+      "sha256": "a8570cfc45e9a813dfefacdefaea5adb331fb213199906d1635637c104d9e162"
+    },
+    "CONVERSION.json": {
+      "bytes": 5783,
+      "sha256": "f9239961a85877f00485b2e1aa384691ebdeb45e2fd4575fb65997902ff7f714"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 563,
+      "sha256": "c8537b19a5d3d45839358ec24d222df352a27a45a867a3fcf35ffa4bab9c4d27"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 841,
+      "sha256": "951cfb889ab43d44dd7a69c051ca8451572261bc90ef27c483518d9842cda7fb"
+    },
+    "asset.json": {
+      "bytes": 1016,
+      "sha256": "f46106f65b83bcb41500464217b6085253b802ee043f58f6825436e760a39db4"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-dragon-ember-sign",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "7df4fd49cfbbcbe250d640ce73cca0be3501cb198ced8b4939149d188a02f885",
+  "archiveSha256": "26a4eb3abc016c3784f83db88201023492d960fc3ea0a9e28b03c08ea89aa2b6",
+  "originalGlbSha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 392,
+      "sha256": "2cd9560bf1984ada44e32a61c067895af466ead6cde381b9d1ecb44f00f8c174"
+    },
+    "CONVERSION.json": {
+      "bytes": 9559,
+      "sha256": "2141b29feca494e75637f9d16066fd59289516a752a4cafaec063b5ed0b95ca1"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 577,
+      "sha256": "4d7e73903b3e0ddd2d77d89d5584b944b0147849ea0d137b7d35f055f9c666c3"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1822,
+      "sha256": "add5478ca87f10c2cdbe1e3186b466d259ce1779920c9fdc98bd1f9a8cb10025"
+    },
+    "asset.json": {
+      "bytes": 2028,
+      "sha256": "463abd8a1632071bf062c933c072198428ad8b167a731689d4ff77eee10d47d6"
+    }
+  }
+}

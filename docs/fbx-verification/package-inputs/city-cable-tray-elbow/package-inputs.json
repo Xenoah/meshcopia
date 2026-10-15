@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-cable-tray-elbow",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "dc523139e7d809229c46a40a78e6860e7735528f85de74879fb4abf2e119dab5",
+  "archiveSha256": "da9b658a29592fd79aaca491a3ef2130bec46fdd569f7b5bcc503ac1029feaf7",
+  "originalGlbSha256": "5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 394,
+      "sha256": "6970120163e228a74f928959fc019d4315a59b7514cae1c0be827a20276e4537"
+    },
+    "CONVERSION.json": {
+      "bytes": 5474,
+      "sha256": "12146ff0ee7d78a1b4b9149574a29bc9eca2569f7c4f2b987ffecf0e9439e396"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "5552da3dcf0b107f2c099b520329f2b9f8622927a31e40d5150d1305036814a9"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1208,
+      "sha256": "5902a51ad1812ecb969336c934f844fe165367641e485bd31cc9117fbebc31e7"
+    },
+    "asset.json": {
+      "bytes": 1383,
+      "sha256": "8f0477e8c6b86adaf5c6b67269befea414dac78969a2def08da73f2e17e611e9"
+    }
+  }
+}

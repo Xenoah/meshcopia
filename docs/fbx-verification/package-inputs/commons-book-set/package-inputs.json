@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-book-set",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "d04a94df701172e6f871d545226ce109890f934d1fa44703a74a4807a9af2609",
+  "archiveSha256": "ffed8202b0e0e8fbe7ffb449c3f4cb8e4bfcb7e2117095982aec96d410322db6",
+  "originalGlbSha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 388,
+      "sha256": "5dd0a7ee9d027df896f66e5ae8e9812d3abc76581ca83a6845355b9fe25c9eb0"
+    },
+    "CONVERSION.json": {
+      "bytes": 9147,
+      "sha256": "e764323c3dcdf8468c399cd2c01eadf0ee6df8d8e7704af151ef36c566e7602c"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 568,
+      "sha256": "b44b752a293e4d38e7978df889c3629f5bdf9ba2e484d16296ad9cf91433d6e3"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 955,
+      "sha256": "3f230cfea1ef81c5ce4262e4f92a1fb3b299136feb1d703fac7cd81aa505f682"
+    },
+    "asset.json": {
+      "bytes": 1130,
+      "sha256": "a63b08f1bebfd13a5c059d24bb810c01fc577fbd42b67eb75710f2dc7d5ae205"
+    }
+  }
+}

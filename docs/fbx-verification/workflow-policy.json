@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "expectedParent": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "repairPolicy": "Only explicitly reviewed exact-parent linear repairs; cumulative immutable-base scope remains additive and unchanged."
+}

@@ -1,0 +1,7 @@
+壁付けインターホン / Wall entry intercom
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb

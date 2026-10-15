@@ -1,0 +1,7 @@
+街路ごみ箱 / Street litter bin
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: b07c0cc79cf33c2777c1395e3d0ef60aac98d216f4717d8573ee31e365d64c78

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-roof-access-hatch",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "f1b2a162b651bf64aef92152c06eb63d196650b5947fb6cf90fd83e20703b042",
+  "archiveSha256": "4abfb6852cc8b7a3f0055c40c78232f6916397e94407e07278e83d39681718ed",
+  "originalGlbSha256": "2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 389,
+      "sha256": "14ea1cb9c4f4347a73c0d324aa080dc7f2753dfc95a1cee1b07a9f395874964f"
+    },
+    "CONVERSION.json": {
+      "bytes": 9470,
+      "sha256": "f23d71f38e463b8350a8d9beaedd407b58ccab453ae9fab6a49003785b45990e"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "0b98e4b4f1b922893db6dfcf27db6beb9036f7d0173dd831b68189823615cf39"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1140,
+      "sha256": "332834399209c62ec4203fc88ca0432dc25e31001a0063252fd6170058fccbaa"
+    },
+    "asset.json": {
+      "bytes": 1315,
+      "sha256": "f14daa8adc941a59fa29a0bee2d6cae31fbbc3871fdcb50586563e00533c60f0"
+    }
+  }
+}

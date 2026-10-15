@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-pendant-light",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "fe829a83980f0c1b8fb0f79cba5dba2c6341ad7ee6772aa7cf4cb008e81fe969",
+  "archiveSha256": "40acbea31215e78f1530ed07389d162db65b89bbac3e21bbc2577e98c74b38a7",
+  "originalGlbSha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "a7ae259b40a68840b83ee5c7a6c3aca48652441e2e364afe5e857acbf553df97"
+    },
+    "CONVERSION.json": {
+      "bytes": 6405,
+      "sha256": "6b25337ec706693fc51f2a5cd0d256b0b7b8531c5a41a86300e00793d28b7a4d"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "d61bb2adc8724fe58270cd92eb18e006e9ba30597cefcc6a146800bde5c7f32a"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 940,
+      "sha256": "c0758b336252526d89ce4bccc18325bd149047c1506b3a2a6b51dcfae3833faa"
+    },
+    "asset.json": {
+      "bytes": 1115,
+      "sha256": "5c3df10b80309165afa4c1ef9906768a333069d9bec8ec0186c13c9bdff73877"
+    }
+  }
+}

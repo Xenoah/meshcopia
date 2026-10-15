@@ -1,0 +1,74 @@
+name: Verify original 137 FBX only
+on:
+  push:
+    branches: [fbx/verify-existing137-v1]
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-fbx-existing137-v1
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && github.ref == 'refs/heads/fbx/verify-existing137-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Gate exact F and all reviewed inputs before runtime setup
+        run: python3 scripts/fbx-verification/verify.py --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/fbx-verify" --preflight-only
+      - name: Reproduce inside pinned official Debian runtime
+        shell: bash
+        run: |
+          mkdir "$RUNNER_TEMP/fbx-runtime-output"
+          docker run --rm --platform linux/amd64 \
+            -e GITHUB_REPOSITORY -e GITHUB_REF -e GITHUB_EVENT_NAME -e GITHUB_SHA -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -v "$GITHUB_WORKSPACE:/src:ro" -v "$RUNNER_TEMP/fbx-runtime-output:/result" \
+            -w /src \
+            debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
+            sh -c 'sh scripts/fbx-verification/setup-runtime.sh && python3 scripts/fbx-verification/verify.py --repo /src --output /result/verified'
+      - name: Hash exact successful artifact inventory
+        id: inventory
+        run: |
+          cd "$RUNNER_TEMP/fbx-runtime-output/verified/artifact"
+          sha256sum inventory.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Store review artifact, never publish
+        id: upload
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-existing137-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fbx-runtime-output/verified/artifact/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+      - name: Record external artifact envelope
+        env:
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+          ARTIFACT_DIGEST: ${{ steps.upload.outputs.artifact-digest }}
+        run: |
+          printf 'F=%s run=%s attempt=%s artifact=%s artifactDigest=%s\n' "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" "$ARTIFACT_ID" "$ARTIFACT_DIGEST" >> "$GITHUB_STEP_SUMMARY"
+      - name: Failure summary without raw or private QA attachments
+        if: failure()
+        run: echo 'Verification stopped. No availability was enabled. Inspect bounded job logs; do not auto-accept new hashes.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Prepare bounded failure identity, never partial payloads
+        if: failure()
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/fbx-diagnostic"
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          record = {"status": "failed-or-blocked", "publicationEnabled": False, "repository": os.environ["GITHUB_REPOSITORY"], "fCommit": os.environ["GITHUB_SHA"], "runId": os.environ["GITHUB_RUN_ID"], "runAttempt": os.environ["GITHUB_RUN_ATTEMPT"], "detail": "Inspect this exact run's failed step. No conversion logs, raw QA, or partial payloads are attached."}
+          (Path(os.environ["RUNNER_TEMP"]) / "fbx-diagnostic" / "failure.json").write_text(json.dumps(record, indent=2) + "\n")
+          PY
+      - name: Store bounded failure diagnostic only
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-failure-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fbx-diagnostic/failure.json
+          if-no-files-found: error
+          retention-days: 3

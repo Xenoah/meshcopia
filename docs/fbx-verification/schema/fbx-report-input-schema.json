@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Frozen Meshcopia Blender roundtrip report v2 input envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "passed",
+    "container",
+    "sourceUvPreservation",
+    "recipeSha256",
+    "id",
+    "sourceGlb",
+    "sourceGlbSha256",
+    "fbx",
+    "fbxBytes",
+    "fbxSha256",
+    "blenderVersion",
+    "runtime",
+    "exportSettings",
+    "before",
+    "after",
+    "geometry",
+    "originalGlbImportedScene",
+    "fbxMaterialNormalization",
+    "deterministicExport",
+    "vertexColorFileVerification",
+    "uniquePackedImageFilenames",
+    "sourceGltfMaterials",
+    "sourceGltfExtensionsUsed",
+    "materialComparison",
+    "allImportedImagesInsideCleanReimport",
+    "limits"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "passed": {
+      "type": "boolean"
+    },
+    "container": {
+      "type": "object"
+    },
+    "sourceUvPreservation": {
+      "type": "array"
+    },
+    "recipeSha256": {
+      "type": "object"
+    },
+    "id": {
+      "type": "string"
+    },
+    "sourceGlb": {
+      "type": "string"
+    },
+    "sourceGlbSha256": {
+      "type": "string"
+    },
+    "fbx": {
+      "type": "string"
+    },
+    "fbxBytes": {
+      "type": "integer"
+    },
+    "fbxSha256": {
+      "type": "string"
+    },
+    "blenderVersion": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "object"
+    },
+    "exportSettings": {
+      "type": "object"
+    },
+    "before": {
+      "type": "object"
+    },
+    "after": {
+      "type": "object"
+    },
+    "geometry": {
+      "type": "object"
+    },
+    "originalGlbImportedScene": {
+      "type": "object"
+    },
+    "fbxMaterialNormalization": {
+      "type": "object"
+    },
+    "deterministicExport": {
+      "type": "object"
+    },
+    "vertexColorFileVerification": {
+      "type": "object"
+    },
+    "uniquePackedImageFilenames": {
+      "type": "boolean"
+    },
+    "sourceGltfMaterials": {
+      "type": "array"
+    },
+    "sourceGltfExtensionsUsed": {
+      "type": "array"
+    },
+    "materialComparison": {
+      "type": "object"
+    },
+    "allImportedImagesInsideCleanReimport": {
+      "type": "boolean"
+    },
+    "limits": {
+      "type": "array"
+    }
+  }
+}

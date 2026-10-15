@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-fire-hydrant",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "eb05902ed7585caf137674c083a0ba2a2b67c430ff2e09adc9ca09a1bf4121da",
+  "archiveSha256": "282dae50f34f9ca16d8f26dca8ba86eebada94ccb6d65d261d811ed97a02c4b4",
+  "originalGlbSha256": "d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 375,
+      "sha256": "98562f93fda050ab9c4acd9f3b9c2ec1280557250f05acd5221b7a68b3bb4e1b"
+    },
+    "CONVERSION.json": {
+      "bytes": 14952,
+      "sha256": "20d9ca10b68a7c6078cb8123974845aa4209b54a0decd8167fd5916fbc6d748a"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 569,
+      "sha256": "8dd4f064c7750365ffe67aab679f7f4d540ac5d570ab3bebec3af56c148612e1"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1151,
+      "sha256": "dfc64e39861828c6bbfaee8218ea3b2ec509b806804d3156cb640768074396eb"
+    },
+    "asset.json": {
+      "bytes": 1326,
+      "sha256": "18cb5c283ce67b71e6a3c7e4b55e140fd07156203eec74e4810af649f298e430"
+    }
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-noh-pavilion",
+  "sourceGlbSha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+  "fbxSha256": "22d761cb09b0e9106a2da8ad1d41e21719ddde6cf1db3e851722ac56a7ea9065",
+  "fbxBytes": 6883804,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 2.3365020751953125e-05,
+    "maxCorrespondingCornerPositionDeltaMeters": 2.35140323638916e-05,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.04415739771326081,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [
+      {
+        "relativeFilename": "textures/derived_basecolor_ffa2a5ac8fffd888_54924f0afaecb1ad8d9b4edbe71fe93bb1a03ee950cb6375da731a75ef781b32.png",
+        "embeddedBytes": 1234127,
+        "sha256": "54924f0afaecb1ad8d9b4edbe71fe93bb1a03ee950cb6375da731a75ef781b32"
+      },
+      {
+        "relativeFilename": "textures/FBX_source_0_data_5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb.png",
+        "embeddedBytes": 2627660,
+        "sha256": "5e4cd6d1eb45c0aa0b87886e7a03a370d7aae8ac0062fb66684f8ef9046da9cb"
+      },
+      {
+        "relativeFilename": "textures/derived_roughness_b21fafaf991c0903_f820b7c27138fca16b58e49047c990cd34b6e87571e9f4d83d9fc1b5fed2d49d.png",
+        "embeddedBytes": 798568,
+        "sha256": "f820b7c27138fca16b58e49047c990cd34b6e87571e9f4d83d9fc1b5fed2d49d"
+      },
+      {
+        "relativeFilename": "textures/derived_basecolor_ee7f4a90aca9ff90_274a02e9171525984642e1ba0afd343a1cf033bdc274326f92994b50b9614be8.png",
+        "embeddedBytes": 473534,
+        "sha256": "274a02e9171525984642e1ba0afd343a1cf033bdc274326f92994b50b9614be8"
+      },
+      {
+        "relativeFilename": "textures/derived_emission_b10f66d96d2d7347_149ff314da2ae1d962dfe5908c262f58e51964ee44a852f4928cb1486d0956c2.png",
+        "embeddedBytes": 470813,
+        "sha256": "149ff314da2ae1d962dfe5908c262f58e51964ee44a852f4928cb1486d0956c2"
+      }
+    ],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Stage/Noh/Floor__Bronze",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Floor__DarkTimber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Floor__StageCypress",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/HipRoof__DarkTimber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/HipRoof__Kawara",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/HipRoof__StageCypress",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Lighting__Bronze",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Lighting__Iron",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Lighting__PaperLight",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/PineCrest__Bronze",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/PineCrest__DarkTimber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Posts__Bronze",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Posts__StageCypress",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/RoofDetail/Caps__Kawara",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/RoofDetail/Courses__Kawara",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/RoofDetail/Joinery__DarkTimber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/RoofDetail/Joinery__StageCypress",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Support__Cedar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Stage/Noh/Support__DarkTimber",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 1,
+    "fbxUniqueColors": 1,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [
+      {
+        "file": "textures/derived_basecolor_ffa2a5ac8fffd888.png",
+        "sha256": "54924f0afaecb1ad8d9b4edbe71fe93bb1a03ee950cb6375da731a75ef781b32",
+        "sourceImage": 2,
+        "factorLinear": [
+          0.6666666666666666,
+          0.7176470588235294,
+          0.7686274509803922,
+          1.0
+        ],
+        "sourceChannel": null,
+        "mirrorAtlas2x2": false,
+        "uvScale": [
+          1,
+          1
+        ],
+        "size": [
+          1024,
+          1024
+        ],
+        "encoding": "RGBA16 PNG; sRGB color / linear data"
+      },
+      {
+        "file": "textures/derived_roughness_b21fafaf991c0903.png",
+        "sha256": "f820b7c27138fca16b58e49047c990cd34b6e87571e9f4d83d9fc1b5fed2d49d",
+        "sourceImage": 1,
+        "factorLinear": [
+          1.0,
+          1.0,
+          1.0,
+          1
+        ],
+        "sourceChannel": 1,
+        "mirrorAtlas2x2": false,
+        "uvScale": [
+          1,
+          1
+        ],
+        "size": [
+          1024,
+          1024
+        ],
+        "encoding": "RGBA16 PNG; sRGB color / linear data"
+      },
+      {
+        "file": "textures/derived_basecolor_ee7f4a90aca9ff90.png",
+        "sha256": "274a02e9171525984642e1ba0afd343a1cf033bdc274326f92994b50b9614be8",
+        "sourceImage": 3,
+        "factorLinear": [
+          1.0,
+          0.6784313725490196,
+          0.26666666666666666,
+          1.0
+        ],
+        "sourceChannel": null,
+        "mirrorAtlas2x2": false,
+        "uvScale": [
+          1,
+          1
+        ],
+        "size": [
+          1024,
+          512
+        ],
+        "encoding": "RGBA16 PNG; sRGB color / linear data"
+      },
+      {
+        "file": "textures/derived_emission_b10f66d96d2d7347.png",
+        "sha256": "149ff314da2ae1d962dfe5908c262f58e51964ee44a852f4928cb1486d0956c2",
+        "sourceImage": 3,
+        "factorLinear": [
+          1.0,
+          1.0,
+          0.54,
+          1
+        ],
+        "sourceChannel": null,
+        "mirrorAtlas2x2": false,
+        "uvScale": [
+          1,
+          1
+        ],
+        "size": [
+          1024,
+          512
+        ],
+        "encoding": "RGBA16 PNG; sRGB color / linear data"
+      }
+    ],
+    "materialChanges": [
+      {
+        "name": "Neutral replacement - DarkTimber",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "name": "Neutral replacement - DarkTimber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.39,
+              0.23,
+              0.12,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7
+          },
+          "doubleSided": true
+        }
+      },
+      {
+        "name": "Neutral replacement - StageCypress",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "name": "Neutral replacement - StageCypress",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.39,
+              0.23,
+              0.12,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7
+          },
+          "doubleSided": true
+        }
+      },
+      {
+        "name": "Bronze",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4,
+              0.2980392156862745,
+              0.16862745098039217,
+              1.0
+            ],
+            "metallicFactor": 0.8,
+            "roughnessFactor": 0.43
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "Bronze"
+        }
+      },
+      {
+        "name": "Neutral replacement - Cedar",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "name": "Neutral replacement - Cedar",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.39,
+              0.23,
+              0.12,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7
+          },
+          "doubleSided": true
+        }
+      },
+      {
+        "name": "Kawara",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed.",
+          "AO is not mapped to a portable FBX channel or baked into diffuse. The unchanged source GLB retains the original AO image."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6666666666666666,
+              0.7176470588235294,
+              0.7686274509803922,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0,
+            "baseColorTexture": {
+              "index": 2,
+              "texCoord": 0
+            },
+            "metallicRoughnessTexture": {
+              "index": 3,
+              "texCoord": 0
+            }
+          },
+          "normalTexture": {
+            "index": 0,
+            "scale": 1.0
+          },
+          "occlusionTexture": {
+            "index": 1,
+            "strength": 1.0
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": true,
+          "name": "Kawara"
+        }
+      },
+      {
+        "name": "Iron",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.11764705882352941,
+              0.13725490196078433,
+              0.14901960784313725,
+              1.0
+            ],
+            "metallicFactor": 0.72,
+            "roughnessFactor": 0.42
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "Iron"
+        }
+      },
+      {
+        "name": "PaperLight",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              1.0,
+              0.6784313725490196,
+              0.26666666666666666,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.8,
+            "baseColorTexture": {
+              "index": 5,
+              "texCoord": 0
+            }
+          },
+          "emissiveFactor": [
+            1.0,
+            1.0,
+            0.54
+          ],
+          "emissiveTexture": {
+            "index": 4,
+            "texCoord": 0
+          },
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "PaperLight"
+        }
+      }
+    ],
+    "vertexColors": [
+      {
+        "object": "Stage/Noh/Floor__DarkTimber",
+        "sourceAccessor": 3,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 24,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Floor__StageCypress",
+        "sourceAccessor": 8,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 432,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Floor__Bronze",
+        "sourceAccessor": 13,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 448,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Support__DarkTimber",
+        "sourceAccessor": 18,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 120,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Support__Cedar",
+        "sourceAccessor": 23,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 72,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Posts__StageCypress",
+        "sourceAccessor": 28,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 768,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Posts__Bronze",
+        "sourceAccessor": 33,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 96,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/HipRoof__Kawara",
+        "sourceAccessor": 38,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 394,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/HipRoof__DarkTimber",
+        "sourceAccessor": 43,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 22,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/HipRoof__StageCypress",
+        "sourceAccessor": 48,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 672,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/PineCrest__DarkTimber",
+        "sourceAccessor": 53,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 24,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/PineCrest__Bronze",
+        "sourceAccessor": 57,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 312,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/RoofDetail/Courses__Kawara",
+        "sourceAccessor": 62,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 34944,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/RoofDetail/Caps__Kawara",
+        "sourceAccessor": 67,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 3444,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/RoofDetail/Joinery__DarkTimber",
+        "sourceAccessor": 72,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 448,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/RoofDetail/Joinery__StageCypress",
+        "sourceAccessor": 77,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 1056,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Lighting__Iron",
+        "sourceAccessor": 82,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 424,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Lighting__PaperLight",
+        "sourceAccessor": 87,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 650,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "Stage/Noh/Lighting__Bronze",
+        "sourceAccessor": 92,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 3204,
+        "nonwhiteVertices": 0
+      }
+    ],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

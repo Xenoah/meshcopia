@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-parcel-locker",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "a5670c504c54f1745c01704e70d473a7451d5336de177cd038fac4f16a4c2bef",
+  "archiveSha256": "b5c2ffa6c4c5a3245815712d60f613eb078013bc51f88b3004e15f3386bbd89a",
+  "originalGlbSha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 387,
+      "sha256": "5c3e624921f4743952cc0245df634dc176e1766d5e34ac10d0e43909c6518da4"
+    },
+    "CONVERSION.json": {
+      "bytes": 19227,
+      "sha256": "d1e322ac1ecdabb25723067b309377d325388adeb5a1d1d590fdd2ce01e5572e"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 570,
+      "sha256": "fbe40ccab43998eb8251538e822f3aa914778a6160330500990993a26daf7210"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1119,
+      "sha256": "970604efd0f273451265051cc5a246cc7bce4cedf26b4c4e5f1c647a2618da66"
+    },
+    "asset.json": {
+      "bytes": 1294,
+      "sha256": "22d82e13de7f4652c7999debab19f46e6a7c94aec49323f2c993b566054303d4"
+    }
+  }
+}

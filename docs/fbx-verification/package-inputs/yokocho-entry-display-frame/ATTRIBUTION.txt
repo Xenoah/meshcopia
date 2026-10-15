@@ -1,0 +1,7 @@
+木製静的ディスプレイ枠 / Timber Static Display Frame
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2

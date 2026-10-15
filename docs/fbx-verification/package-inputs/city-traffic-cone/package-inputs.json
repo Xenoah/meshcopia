@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-traffic-cone",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "dce6e3d960a3bbc6dee8e5433b40eb67944a4993224bb81ebb9e31a87673a6f9",
+  "archiveSha256": "2d823a19cc7cd165bb06ae6a4f366547019eb25508a339fb1ad5632eec791ea4",
+  "originalGlbSha256": "a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 390,
+      "sha256": "5bbd29a56a7a437d79e1451dba5bbec6c01a4057f31584e2ead4611b4a2f155e"
+    },
+    "CONVERSION.json": {
+      "bytes": 7359,
+      "sha256": "b15be4b88c23c90d61f7a26bb869558a95c41993926f302283781fddf4e17912"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 569,
+      "sha256": "4e716dbd6294118330ea896c15dd3b1ad61eb451055bb3be40ec40b22915cdff"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1097,
+      "sha256": "fba1d1672131cfad277ee8690390f0ba1a24a799a0832b382f503596fe702661"
+    },
+    "asset.json": {
+      "bytes": 1272,
+      "sha256": "363759b3aa50f7498a26767b083b40aa5eaf3c7361702bdc0a476bf3690fca5d"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "commons-display-plinth",
+  "title": "コモンズ・展示台",
+  "titleEn": "Commons display plinth",
+  "description": "黒皮鋼の円柱とシアンの発光リム。展示物や小型作品を載せられる独立した台座。",
+  "descriptionEn": "A blackened-steel cylindrical plinth with a cyan emissive rim for displays and small exhibits.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.13,
+    1.02799,
+    1.13
+  ],
+  "triangles": 892,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d",
+  "fbxSha256": "d1c015441cdd671972e02284072c11784b7cad9576c3daa4119cc2df28f98d14",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

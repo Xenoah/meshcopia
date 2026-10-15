@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-public-telephone",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "ee046fad0b86c259f093d2d3b4839b5869b311958d2c5a02c68bb4b95bc4d2a7",
+  "archiveSha256": "27725adf6000eed226d7e0d8aae5dacc5be4999cd9e4746d1f3785b27bdb99fa",
+  "originalGlbSha256": "890b7dc561c322f97e1ed30ecf390c72e7de84c485571e553dfb5d70326d1c78",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "ea2ce89185c08f03d53f406f7315ab1894a3ff7054ad271e563d4f12b67752a3"
+    },
+    "CONVERSION.json": {
+      "bytes": 15606,
+      "sha256": "114cf2c4aed7b7b945b6b2bc4db48273e8cfb82d2d8da08e6ad6fad294b72f08"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 573,
+      "sha256": "61960ce9de464412e9c36158ac74b794e90e63dd7c83abd583e52b445e0e52d8"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1295,
+      "sha256": "d1b0c755ad54d9acdfa68365ba5e8f0ecd572bb0142eb2b9e3c5feaef4e0e0fb"
+    },
+    "asset.json": {
+      "bytes": 1470,
+      "sha256": "ff25dca0114f68ef0364685c614d23be9ed40465711386f85ad65bf278bfaa5c"
+    }
+  }
+}

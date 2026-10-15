@@ -1,0 +1,25 @@
+{
+  "id": "atelier-lamp",
+  "title": "アトリエランプ",
+  "titleEn": "Atelier lamp",
+  "description": "真鍮の支柱とコニカルシェード。デスクやカフェカウンターに。",
+  "descriptionEn": "A brass stem and a conical sage shade for desks and café counters.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.52,
+    0.965,
+    0.52
+  ],
+  "triangles": 768,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc",
+  "fbxSha256": "f713bee1847049cb68eaa6f2041c7341ebc97347d25c45a52ed0adbaf0dd2a8c",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

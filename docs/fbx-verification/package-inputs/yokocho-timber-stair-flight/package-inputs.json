@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-timber-stair-flight",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "c9918be5746a86b42c6375155fd220725b6b27c5eed62a443f85cb493334061e",
+  "archiveSha256": "e6ae0cb88822a97c25b9734499a555b22fd68e426baf383c36df343036a69e7b",
+  "originalGlbSha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 380,
+      "sha256": "25d529c13ef89e8ecc6ee29ecb43aeba0cf331fd9986f3f618b556a3affa040a"
+    },
+    "CONVERSION.json": {
+      "bytes": 5696,
+      "sha256": "c4698f0786cfdbafd7f03a4e20e0aa7b67a7674107b2dbdb3dc2ae1b37529ed5"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 579,
+      "sha256": "a208c8279c9988ee2399c1003eb9ed92c2cefd4b04a272b59a8ae91288831210"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1798,
+      "sha256": "cc0e043196029d19dcac5b6f70494491258a6cb8d5febdc3358b49b6cae6d588"
+    },
+    "asset.json": {
+      "bytes": 2005,
+      "sha256": "cfe75b1d711386b49f75782f06c7c8d800f7a7c8e53e1a3960ca403432abe9b6"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "city-shopping-trolley",
+  "title": "ワイヤー買い物カート",
+  "titleEn": "Wire shopping trolley",
+  "description": "実際に隙間のあるワイヤーバスケット、可動式に見える後部ゲート、下段トレーと4つのキャスターを備えたカート。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 繰り返し部品は材質と構成単位ごとに統合済み。",
+  "descriptionEn": "Shopping trolley with genuinely open tapered wire basket, rear nesting gate, lower wire tray, tubular chassis and four detailed swivel casters. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Repeated static details are grouped by material and assembly; the procedural source retains the editable construction.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.015314,
+    1.044,
+    0.645
+  ],
+  "triangles": 38628,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28",
+  "fbxSha256": "8555fc6c42f43e5120c18f8ce651b4a869ce446c8770f6c23849292031388bc0",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

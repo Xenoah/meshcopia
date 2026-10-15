@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-parking-boom-gate",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "a352e43f9487986898a91f26ab565658952767540d6295d7d44466f17050a8b9",
+  "archiveSha256": "9ef9837af3c77ea7f877a4c74ca9adf9803501e9a4665d7af5b6424d2771c557",
+  "originalGlbSha256": "e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 375,
+      "sha256": "e3a2cf6e7c8d50df3bbbc9266835817638365c737bd7fa6f9b186279d694780e"
+    },
+    "CONVERSION.json": {
+      "bytes": 14863,
+      "sha256": "65fc1108a999a88f10400372894f9aca70366447875d932a7929fd1528d47335"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "519a4cbf828562068c091a08bfe98d2b8d784b8c400d2397dd2a4f5ded0b6f07"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1180,
+      "sha256": "5adc59a4f112c043d57c729a427ce553f4d3213c2a410d23835f0ec5a7837ca5"
+    },
+    "asset.json": {
+      "bytes": 1355,
+      "sha256": "1070bdd69ac894526f8f467bcce91a16d87f86d136ea6744248626dccc368a8e"
+    }
+  }
+}

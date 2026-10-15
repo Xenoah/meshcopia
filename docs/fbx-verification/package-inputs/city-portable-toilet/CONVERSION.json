@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "id": "city-portable-toilet",
+  "sourceGlbSha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098",
+  "fbxSha256": "20b56316d102906e96ae42fc7163655e9351f72e23f487901249e211ff0f12f2",
+  "fbxBytes": 646076,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 9.481983909154224e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 4.172325134277344e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.03904435325311025,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Arched cabin weather roof",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Blank occupancy indicator window",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Curved side roof closure",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Curved side roof closure.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Dark bowl recess",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door exterior latch grip",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door hinge mounting plate",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door hinge mounting plate.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door hinge mounting plate.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door lower horizontal rib",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door molded vertical rib",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door molded vertical rib.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door molded vertical rib.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door molded vertical rib.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door molded vertical rib.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Door opening header",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Entrance threshold",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Floor traction ridge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Floor traction ridge.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Floor traction ridge.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Floor traction ridge.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Floor traction ridge.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Forklift-compatible skid",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Forklift-compatible skid.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front cabin door jamb",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front cabin door jamb.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Hollow rear vent stack",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Interior seat support top",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Interior waste tank pedestal",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Latch grip standoff",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Latch grip standoff.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Molded cabin floor",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Molded rear wall",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Molded side wall",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Molded side wall.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Molded toilet seat",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Occupancy green indicator",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Occupancy latch plate",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Paper holder spindle",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised rear shell rib",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised rear shell rib.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised rear shell rib.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised rear shell rib.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised rear shell rib.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Raised side shell rib.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent upper header",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear vent vertical bridge.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof molded strengthening ridge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof molded strengthening ridge.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Roof molded strengthening ridge.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side horizontal stiffener",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side horizontal stiffener.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side horizontal stiffener.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side horizontal stiffener.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side horizontal stiffener.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side horizontal stiffener.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door central skin",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door hinge barrel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door hinge barrel.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door hinge barrel.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door perimeter horizontal",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door perimeter horizontal.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door perimeter vertical",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Toilet door perimeter vertical.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Unbranded paper roll",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Upper front roof closure",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Vent cap spacer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Vent cap spacer.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Vent rain cap",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Vent wall clip",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Vent wall clip.001",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Charcoal powder coat",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Charcoal powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01899999938905239,
+              0.024000000208616257,
+              1
+            ],
+            "metallicFactor": 0.2800000011920929,
+            "roughnessFactor": 0.46000000834465027
+          }
+        }
+      },
+      {
+        "name": "Worn iron edge",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Worn iron edge",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.05999999865889549,
+              0.07000000029802322,
+              0.0689999982714653,
+              1
+            ],
+            "metallicFactor": 0.7200000286102295,
+            "roughnessFactor": 0.6200000047683716
+          }
+        }
+      },
+      {
+        "name": "Molded portable cabin teal",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Molded portable cabin teal",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.054999999701976776,
+              0.1899999976158142,
+              0.20499999821186066,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6200000047683716
+          }
+        }
+      },
+      {
+        "name": "Molded cabin reinforcement",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Molded cabin reinforcement",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.07000000029802322,
+              0.22499999403953552,
+              0.23999999463558197,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5600000023841858
+          }
+        }
+      },
+      {
+        "name": "Zinc coated steel",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Zinc coated steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.41999998688697815,
+              0.49000000953674316,
+              0.5299999713897705,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.3799999952316284
+          }
+        }
+      },
+      {
+        "name": "Recess and rubber",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Recess and rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.026000000536441803,
+              0.03200000151991844,
+              1
+            ],
+            "metallicFactor": 0.05000000074505806,
+            "roughnessFactor": 0.8600000143051147
+          }
+        }
+      },
+      {
+        "name": "Occupancy indicator green",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Occupancy indicator green",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.30000001192092896,
+              0.10999999940395355,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5799999833106995
+          }
+        }
+      },
+      {
+        "name": "Portable cabin roof ivory",
+        "sourceMaterialIndex": 7,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Portable cabin roof ivory",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6899999976158142,
+              0.7099999785423279,
+              0.6499999761581421,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5699999928474426
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

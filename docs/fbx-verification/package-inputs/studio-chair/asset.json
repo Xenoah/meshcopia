@@ -1,0 +1,25 @@
+{
+  "id": "studio-chair",
+  "title": "スタジオチェア",
+  "titleEn": "Studio chair",
+  "description": "セージ色の座面と木製フレーム。カフェやワークスペース向けの軽量プロップ。",
+  "descriptionEn": "Sage upholstery and an oak frame. A lightweight prop for cafés and workspaces.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.56,
+    1.0359,
+    0.5833
+  ],
+  "triangles": 96,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5",
+  "fbxSha256": "74de5d046e7d38fa0f900bcda9d03694a1fac83aafc187102029b231562cb2df",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

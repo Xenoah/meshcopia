@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-pa-speaker",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "80d527a931e731202b3a11a957b4973c174a0c1730e9aeaee203c372f52d9ae6",
+  "archiveSha256": "5d74167bd3f102b9a7379c5ca065a780b3b560c947e62c941649d3d831d0d156",
+  "originalGlbSha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 387,
+      "sha256": "b7d6a815df09664ccf9891e36bebaeb428fb2aa37b1175148c6136b9707ab28a"
+    },
+    "CONVERSION.json": {
+      "bytes": 7167,
+      "sha256": "6aff4610618446a906b47ea0930813dc308de8c093f2c25191703f206872cdcb"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 570,
+      "sha256": "5cb7e75dcb898d7ec740cb1a86bbf590fa0ccef41f374a2cf2249349da2ad5e4"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 918,
+      "sha256": "cb310ce6401985e0e9d4814857283e5d4b9243daab778dcd3bcf92a95fcb303e"
+    },
+    "asset.json": {
+      "bytes": 1093,
+      "sha256": "44af50a3cdcfb0684ec9022fecdaa0aee669191293005b685d017c6744779abd"
+    }
+  }
+}

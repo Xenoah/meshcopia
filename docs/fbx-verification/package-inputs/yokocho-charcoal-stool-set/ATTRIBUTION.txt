@@ -1,0 +1,7 @@
+炭火店の木製スツールセット / Charcoal Bar Timber Stool Set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7

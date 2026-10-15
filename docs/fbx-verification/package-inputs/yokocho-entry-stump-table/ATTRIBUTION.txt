@@ -1,0 +1,7 @@
+切り株テーブル / Stump Table
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9

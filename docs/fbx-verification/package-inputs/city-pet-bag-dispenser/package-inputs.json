@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-pet-bag-dispenser",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "d8ae4acbce6a58a28054c64094a7931f3fb8e462884639df0430bc87ead82b23",
+  "archiveSha256": "8a1fd96aed64f19a00fc16d74316ee3c6d649dd357725036b1160586f9ab1421",
+  "originalGlbSha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 390,
+      "sha256": "e0b68f705a58da56ff82b4e7c683f0849fc44335487e5ff30425ba1fbea6a80d"
+    },
+    "CONVERSION.json": {
+      "bytes": 9189,
+      "sha256": "207f1e3cd90a647836bbbd7a99d1808d581c6b338b3352087498968f98d651f2"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "4113679b90627a97fdb441f236c3a5704977a7334f7f57682da265389d2a1d5e"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1218,
+      "sha256": "3cc80136aa002f8d7b0a6ccc0c89a8f6e5b768f52c4a4f6490b05b887f1baed3"
+    },
+    "asset.json": {
+      "bytes": 1393,
+      "sha256": "c91ae955ab724a0582ddfa8741810cbb0ea607421b3a306d2581a55ed50a7cab"
+    }
+  }
+}

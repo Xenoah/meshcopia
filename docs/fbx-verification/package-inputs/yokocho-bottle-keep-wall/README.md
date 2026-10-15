@@ -1,0 +1,16 @@
+# ボトルキープ棚 / Bottle-Keep Display Wall
+
+元モデルの用途・元形式に関する説明 / Original model purpose and source-format notes:
+
+樹上横丁のオリジナル形状から切り出したボトルキープ棚。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。 離れた付属表示と一体化していた真鍮ノードを除外したため、小さな真鍮装飾も含みません。 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。
+
+Bottle-Keep Display Wall extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged.  The merged brass node was omitted to remove a detached ancillary display, so small brass details are also excluded. Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.
+
+FBX: yokocho-bottle-keep-wall.fbx
+Dimensions (X × Y × Z, m) / 寸法 (X × Y × Z、m): 3.736159 × 1.557495 × 2.315819
+Triangles / 三角形数: 8818
+Units: meters. Y-up. Original origin preserved.
+単位 m、Y-up、元モデルの原点を保持。
+
+This package contains the additional FBX, not a replacement GLB/STL. Read CONVERSION_NOTES.md for material and engine-import limitations.
+この ZIP は追加 FBX です。元 GLB・STL の置き換えではありません。材質・読み込みの制約は CONVERSION_NOTES.md を参照してください。

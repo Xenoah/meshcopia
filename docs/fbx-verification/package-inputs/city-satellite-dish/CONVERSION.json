@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "city-satellite-dish",
+  "sourceGlbSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+  "fbxSha256": "2625e5c59d03560f89c9d2393f8abbcf462d6d2957c18ac4d07772f49e0d5fc8",
+  "fbxBytes": 920412,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 8.940696716308594e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 2.086162567138672e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.028053185434952436,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Feed / formed receiver arm",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Feed / receiver and collar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Feed / routed visual cable",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mount / adjustable tilt trunnion",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mount / mast U-bolt clamps",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mount / mast and roof foot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mount / reflector back plate",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reflector / rear stiffening ribs",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reflector / rolled perimeter bead",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reflector / thick concave shell",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Warm white painted reflector",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Warm white painted reflector",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.7099999785423279,
+              0.7300000190734863,
+              0.6899999976158142,
+              1
+            ],
+            "metallicFactor": 0.11999999731779099,
+            "roughnessFactor": 0.4000000059604645
+          }
+        }
+      },
+      {
+        "name": "Cool gray reflector rear coat",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Cool gray reflector rear coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.38999998569488525,
+              0.4399999976158142,
+              0.4399999976158142,
+              1
+            ],
+            "metallicFactor": 0.30000001192092896,
+            "roughnessFactor": 0.4699999988079071
+          }
+        }
+      },
+      {
+        "name": "Satin galvanized steel",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Satin galvanized steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4399999976158142,
+              0.5099999904632568,
+              0.5400000214576721,
+              1
+            ],
+            "metallicFactor": 0.7799999713897705,
+            "roughnessFactor": 0.33000001311302185
+          }
+        }
+      },
+      {
+        "name": "Machined stainless steel",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Machined stainless steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.5799999833106995,
+              0.6299999952316284,
+              0.6499999761581421,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "Graphite powder coat",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Graphite powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.052000001072883606,
+              0.07000000029802322,
+              0.07599999755620956,
+              1
+            ],
+            "metallicFactor": 0.3799999952316284,
+            "roughnessFactor": 0.4300000071525574
+          }
+        }
+      },
+      {
+        "name": "Light gray receiver polymer",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Light gray receiver polymer",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6200000047683716,
+              0.6499999761581421,
+              0.6200000047683716,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.4300000071525574
+          }
+        }
+      },
+      {
+        "name": "Black elastomer seals",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Black elastomer seals",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.024000000208616257,
+              0.026000000536441803,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

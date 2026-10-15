@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-tea-furniture-set",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "b532e5b3e0cd1a3d48673902e3a0c31b0d0d1bd6586762cd7e1a4b5b8eb024d3",
+  "archiveSha256": "4e81c011fa97d75659a03e12663810323283bebda19d0d61d84726b659b35f0a",
+  "originalGlbSha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 420,
+      "sha256": "adb2edbaaf4d277ad9963dc789e47ca481c032041bc0133c6ef9003253b01131"
+    },
+    "CONVERSION.json": {
+      "bytes": 6977,
+      "sha256": "7fecb44a32298de65d77f41cfde0136667b6d65e671205f63ffe10928af26e09"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 577,
+      "sha256": "f227560dac01ef5da5c4f97e57b7c4607c69d16fef46dee9c333400eea73e64b"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1875,
+      "sha256": "73d29ab6fbaa5b7aed704a769f07388fbc919c9d3cacf0c49a06c33523e194aa"
+    },
+    "asset.json": {
+      "bytes": 2083,
+      "sha256": "6cbcabeb22a619b51018ccfa0c2df684e0001656ed85a976f4f03a8b86299fa3"
+    }
+  }
+}

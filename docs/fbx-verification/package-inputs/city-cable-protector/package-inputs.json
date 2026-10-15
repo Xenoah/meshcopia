@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-cable-protector",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "11474013b2600492d009b81877d057acc7cf97045d8deb96b64cbb3c7e7f7330",
+  "archiveSha256": "cfbc90a0a43f28da6a8dd0024ff855294cb2ca9c912b52a05acf2f85bd315585",
+  "originalGlbSha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 401,
+      "sha256": "2d6dc8e10e7ebfd8fa8aa3613c0e21c4d688fc6429c50161b068163f5eddf5c2"
+    },
+    "CONVERSION.json": {
+      "bytes": 10874,
+      "sha256": "b3b48a5862091150ded820b9b9dfaef1e49b1a6e9ceef551b6aa8a23aab38867"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "65afb627d1ab42c455f87ae28301e15742701cd010e8e8aa68f3e45b99cddd33"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1189,
+      "sha256": "49ea1e2a7e3c4f31c45e6ae97c0e7c7f10843faab0a5cb419252fa858674e5f0"
+    },
+    "asset.json": {
+      "bytes": 1364,
+      "sha256": "b49b1d3600a8828478177ba8d1a52ef1362b7816633744481fc0ccff57532ee8"
+    }
+  }
+}

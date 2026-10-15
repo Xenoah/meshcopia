@@ -1,0 +1,7 @@
+二段式街路飲水台 / Dual-height drinking fountain
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8

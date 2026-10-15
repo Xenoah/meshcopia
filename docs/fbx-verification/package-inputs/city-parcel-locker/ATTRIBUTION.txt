@@ -1,0 +1,7 @@
+屋外宅配ロッカー / Outdoor parcel locker bank
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4

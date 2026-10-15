@@ -1,0 +1,7 @@
+コモンズ・観葉植物 / Commons leafy planter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c

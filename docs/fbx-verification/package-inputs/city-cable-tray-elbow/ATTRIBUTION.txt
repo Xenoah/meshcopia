@@ -1,0 +1,7 @@
+曲がりケーブルトレイ / Perforated cable tray elbow
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e

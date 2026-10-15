@@ -1,0 +1,25 @@
+{
+  "id": "commons-bar-counter",
+  "title": "コモンズ・スラットバーカウンター",
+  "titleEn": "Commons slatted bar counter",
+  "description": "幅5.3mの直線カウンター。オーク天板、縦スラット、真鍮の足掛けを保持。卓上の機材は含みません。",
+  "descriptionEn": "A 5.3 m straight bar counter with an oak top, vertical slats and a brass foot rail; no countertop equipment.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    5.3,
+    1.13,
+    1.245
+  ],
+  "triangles": 472,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2",
+  "fbxSha256": "3818cc666f17a8b319e6c8a83a96e551b097765552da320b54ed9cb102be4f74",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

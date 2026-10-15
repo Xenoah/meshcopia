@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-roof-exhaust-cowl",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "078e0d534e917e8512c69465030a8550938f6953c38bf1d96a0209c9419bd327",
+  "archiveSha256": "7d760eec5f9eb31fc5fc834e4bd51d56e80b1b5cd5e101a5ea3b0ed8e070f132",
+  "originalGlbSha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 396,
+      "sha256": "b58883cc416bd9ba04b93b3f0f68eb6e641bfa2f44ab260f505f04c41d8f9edf"
+    },
+    "CONVERSION.json": {
+      "bytes": 11225,
+      "sha256": "fca897b9072cac8ab48fe3044c6932e73f0a5c204c34c0f2c3f2d01330bd1980"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "7c10204eea4e665d72632780a02d197e0cdb15ffec1fb8969073a2ec076cf923"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1194,
+      "sha256": "541fcd3d8ba5f776f6eff0254b2b0c78d2123ff66eb5eb2a778e3e6860bcced8"
+    },
+    "asset.json": {
+      "bytes": 1369,
+      "sha256": "58918970319974d5e15b75192570903ce63ec60aa638b1f8e48cf90a35735e25"
+    }
+  }
+}

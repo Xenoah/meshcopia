@@ -1,0 +1,7 @@
+反射帯付き交通コーン / Reflective traffic cone
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4

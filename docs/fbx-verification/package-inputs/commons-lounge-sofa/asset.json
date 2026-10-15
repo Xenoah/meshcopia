@@ -1,0 +1,25 @@
+{
+  "id": "commons-lounge-sofa",
+  "title": "コモンズ・ラウンジソファ",
+  "titleEn": "Commons lounge sofa",
+  "description": "青緑の布張りと細い真鍮脚を使った2人掛けソファ。座面・背面・肘掛けを別メッシュで保持。",
+  "descriptionEn": "A compact teal two-seat sofa with separate seat, back, arms and slender brass legs.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.66,
+    1.025,
+    0.7
+  ],
+  "triangles": 544,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "b5ef4bb0bb41ce2a5cecf90fb34c037817e9f2ce85da67b0bbd7f24fbfff88ac",
+  "fbxSha256": "1a206560c98f896c391d6b6042eeb0cbb2109470864313919e8858e964c8ad50",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

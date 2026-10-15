@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-entry-display-frame",
+  "sourceGlbSha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2",
+  "fbxSha256": "d9cb754815ca19b7be56d4e16ef5f6e0435a05990250ecd61cdbbe530eb1bacc",
+  "fbxBytes": 713996,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 2.1845102310180664e-05,
+    "maxCorrespondingCornerPositionDeltaMeters": 2.2202730178833008e-05,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.03265542846437989,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [
+      {
+        "relativeFilename": "textures/derived_basecolor_af037eed9eba02bd_1e9538bc751d7320c36460819f2a15174bdccb18a0f06473d139ae0648973430.png",
+        "embeddedBytes": 311398,
+        "sha256": "1e9538bc751d7320c36460819f2a15174bdccb18a0f06473d139ae0648973430"
+      },
+      {
+        "relativeFilename": "textures/derived_basecolor_3c13db920c98ca2c_50b0d23bd7165e471c7467586368aa36db061eaa8bc69b39545ae5866e1fd356.png",
+        "embeddedBytes": 302777,
+        "sha256": "50b0d23bd7165e471c7467586368aa36db061eaa8bc69b39545ae5866e1fd356"
+      },
+      {
+        "relativeFilename": "textures/FBX_source_2_color_7c9b2dd4d4f25076e8b9a1c2a621dc0cd6b65592bdbee054d39b98ffe7264135.png",
+        "embeddedBytes": 24862,
+        "sha256": "7c9b2dd4d4f25076e8b9a1c2a621dc0cd6b65592bdbee054d39b98ffe7264135"
+      },
+      {
+        "relativeFilename": "textures/FBX_source_1_color_0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905.png",
+        "embeddedBytes": 7736,
+        "sha256": "0c6986fd7b4ee185a4f564c48d0e88426ad330f718863b6ff568e82f491f5905"
+      }
+    ],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "EntryPlaza/SystemsFrame/Back__EntryHeartwood",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/Crown__EntryDarkTimber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/Foot__EntryPatinatedBrass",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/FrameRail__EntryHeartwood",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/FrameStile__EntryHeartwood",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/Header__EntryControlHeader",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/Peg__EntryPatinatedBrass",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/Post__EntryDarkTimber",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "EntryPlaza/SystemsFrame/Print__EntryControlPrint",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 1,
+    "fbxUniqueColors": 1,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [
+      {
+        "file": "textures/derived_basecolor_3c13db920c98ca2c.png",
+        "sha256": "50b0d23bd7165e471c7467586368aa36db061eaa8bc69b39545ae5866e1fd356",
+        "sourceImage": 0,
+        "factorLinear": [
+          0.26666666666666666,
+          0.18823529411764706,
+          0.11764705882352941,
+          1.0
+        ],
+        "sourceChannel": null,
+        "mirrorAtlas2x2": false,
+        "uvScale": [
+          1,
+          1
+        ],
+        "size": [
+          1024,
+          1024
+        ],
+        "encoding": "RGBA16 PNG; sRGB color / linear data"
+      },
+      {
+        "file": "textures/derived_basecolor_af037eed9eba02bd.png",
+        "sha256": "1e9538bc751d7320c36460819f2a15174bdccb18a0f06473d139ae0648973430",
+        "sourceImage": 0,
+        "factorLinear": [
+          0.7372549019607844,
+          0.5568627450980392,
+          0.33725490196078434,
+          1.0
+        ],
+        "sourceChannel": null,
+        "mirrorAtlas2x2": false,
+        "uvScale": [
+          1,
+          1
+        ],
+        "size": [
+          1024,
+          1024
+        ],
+        "encoding": "RGBA16 PNG; sRGB color / linear data"
+      }
+    ],
+    "materialChanges": [
+      {
+        "name": "EntryDarkTimber",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.26666666666666666,
+              0.18823529411764706,
+              0.11764705882352941,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.85,
+            "baseColorTexture": {
+              "index": 0,
+              "texCoord": 0
+            }
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "EntryDarkTimber"
+        }
+      },
+      {
+        "name": "EntryPatinatedBrass",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4392156862745098,
+              0.33725490196078434,
+              0.18823529411764706,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.72
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "EntryPatinatedBrass"
+        }
+      },
+      {
+        "name": "EntryHeartwood",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.7372549019607844,
+              0.5568627450980392,
+              0.33725490196078434,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.85,
+            "baseColorTexture": {
+              "index": 1,
+              "texCoord": 0
+            }
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "EntryHeartwood"
+        }
+      },
+      {
+        "name": "EntryControlPrint",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.85,
+            "baseColorTexture": {
+              "index": 2,
+              "texCoord": 0
+            }
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "EntryControlPrint"
+        }
+      },
+      {
+        "name": "EntryControlHeader",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.85,
+            "baseColorTexture": {
+              "index": 3,
+              "texCoord": 0
+            }
+          },
+          "emissiveFactor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alphaMode": "OPAQUE",
+          "alphaCutoff": 0.5,
+          "doubleSided": false,
+          "name": "EntryControlHeader"
+        }
+      }
+    ],
+    "vertexColors": [
+      {
+        "object": "EntryPlaza/SystemsFrame/Post__EntryDarkTimber",
+        "sourceAccessor": 3,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 192,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/Foot__EntryPatinatedBrass",
+        "sourceAccessor": 8,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 192,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/Back__EntryHeartwood",
+        "sourceAccessor": 12,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 96,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/Print__EntryControlPrint",
+        "sourceAccessor": 17,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 4,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/Crown__EntryDarkTimber",
+        "sourceAccessor": 22,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 96,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/FrameRail__EntryHeartwood",
+        "sourceAccessor": 26,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 192,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/FrameStile__EntryHeartwood",
+        "sourceAccessor": 30,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 192,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/Peg__EntryPatinatedBrass",
+        "sourceAccessor": 34,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 96,
+        "nonwhiteVertices": 0
+      },
+      {
+        "object": "EntryPlaza/SystemsFrame/Header__EntryControlHeader",
+        "sourceAccessor": 37,
+        "sourceComponentType": 5121,
+        "restoredFloatColor": true,
+        "vertices": 4,
+        "nonwhiteVertices": 0
+      }
+    ],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

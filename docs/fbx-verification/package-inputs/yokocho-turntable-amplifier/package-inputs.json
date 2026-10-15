@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-turntable-amplifier",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "16398cd485952d77d808dd3acde599b05e3c107968ab8addb7851d8e6bb582cd",
+  "archiveSha256": "490dd5c094c12e03610e7ef83cce9b8e66f9d7dba29bd723b42cbd3c611e5d81",
+  "originalGlbSha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "fd1a41a1177db1356cee8a9e6915454c87abf226f450792bdb715698aaf95c68"
+    },
+    "CONVERSION.json": {
+      "bytes": 7272,
+      "sha256": "856582ca0b4506e235e50b617f3b7aa19946ff33624ef619407aec6be162b5ec"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 579,
+      "sha256": "2253f29c7652b5f61f8fecb0356f8095a47025bc15118b10958a35ebdb02cb0d"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1830,
+      "sha256": "47535309de61d5bccda4ccef3c0e519b7705d8f146896e99d54a151568ecc520"
+    },
+    "asset.json": {
+      "bytes": 2041,
+      "sha256": "8eeaedcc33f7dc85b6d7b10ba7f595fd9691e0b043dffb21f19ecd072753cac0"
+    }
+  }
+}

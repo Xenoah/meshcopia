@@ -1,0 +1,25 @@
+{
+  "id": "city-concrete-mixer",
+  "title": "小型コンクリートミキサー",
+  "titleEn": "Compact concrete mixer",
+  "description": "内部の羽根が見える中空ドラム、支持ヨーク、傾斜ハンドルと運搬車輪を備えた小型ミキサー。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Compact mixer with hollow tilted drum, internal mixing paddles, support yoke, tilt handwheel, motor housing and transport wheels. Static visualization prop. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.967,
+    1.450279,
+    0.9385
+  ],
+  "triangles": 30316,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2",
+  "fbxSha256": "9c77a68e1f5441d44ba3e0992328b756406f30ed428ca96b4c57ec4282c69df4",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

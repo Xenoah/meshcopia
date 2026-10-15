@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public FBX cohort QA projection, not raw private report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "scope",
+    "records"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "sourceGlbSha256",
+          "fbx",
+          "originalReportSha256",
+          "sourceRelativePath",
+          "pipelineSha256",
+          "runtime",
+          "recipeSha256",
+          "addonSourceSha256",
+          "measurements",
+          "embeddedImages",
+          "tangentExported",
+          "cleanImportEvidence",
+          "limitations"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceGlbSha256": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fbx": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "filename",
+              "bytes",
+              "sha256"
+            ],
+            "properties": {
+              "filename": {
+                "type": "string",
+                "minLength": 1
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sha256": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "originalReportSha256": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceRelativePath": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pipelineSha256": {
+            "type": "string",
+            "minLength": 1
+          },
+          "runtime": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "blender",
+              "blenderBuildHash",
+              "blenderBinarySha256",
+              "python",
+              "numpy",
+              "zlib",
+              "platform"
+            ],
+            "properties": {
+              "blender": {
+                "type": "string",
+                "minLength": 1
+              },
+              "blenderBuildHash": {
+                "type": "string",
+                "minLength": 1
+              },
+              "blenderBinarySha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "python": {
+                "type": "string",
+                "minLength": 1
+              },
+              "numpy": {
+                "type": "string",
+                "minLength": 1
+              },
+              "zlib": {
+                "type": "string",
+                "minLength": 1
+              },
+              "platform": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "recipeSha256": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "convert_and_audit_fbx.py",
+              "normalize_fbx_materials.py",
+              "deterministic_fbx.py"
+            ],
+            "properties": {
+              "convert_and_audit_fbx.py": {
+                "type": "string",
+                "minLength": 1
+              },
+              "normalize_fbx_materials.py": {
+                "type": "string",
+                "minLength": 1
+              },
+              "deterministic_fbx.py": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "addonSourceSha256": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "export_fbx_bin.py",
+              "fbx_utils.py",
+              "encode_bin.py"
+            ],
+            "properties": {
+              "export_fbx_bin.py": {
+                "type": "string",
+                "minLength": 1
+              },
+              "fbx_utils.py": {
+                "type": "string",
+                "minLength": 1
+              },
+              "encode_bin.py": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "measurements": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "positionToleranceMeters",
+              "maxBoundsDeltaMeters",
+              "maxCorrespondingCornerPositionDeltaMeters",
+              "maxCorrespondingCornerUvDelta",
+              "maxCorrespondingCornerColorDelta",
+              "maxCorrespondingCornerNormalAngleDegrees",
+              "triangleCount",
+              "vertexCount",
+              "meshObjectCount"
+            ],
+            "properties": {
+              "positionToleranceMeters": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxBoundsDeltaMeters": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxCorrespondingCornerPositionDeltaMeters": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxCorrespondingCornerUvDelta": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxCorrespondingCornerColorDelta": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxCorrespondingCornerNormalAngleDegrees": {
+                "type": "number",
+                "minimum": 0
+              },
+              "triangleCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "vertexCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "meshObjectCount": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "embeddedImages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "relativeFilename",
+                "embeddedBytes",
+                "sha256"
+              ],
+              "properties": {
+                "relativeFilename": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "embeddedBytes": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "sha256": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "tangentExported": {
+            "const": false
+          },
+          "cleanImportEvidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "reportAttestedClosure",
+              "embeddedBytesIndependentlyChecked",
+              "extractedCopiesAvailable"
+            ],
+            "properties": {
+              "reportAttestedClosure": {
+                "type": "boolean"
+              },
+              "embeddedBytesIndependentlyChecked": {
+                "type": "boolean"
+              },
+              "extractedCopiesAvailable": {
+                "type": "boolean"
+              }
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

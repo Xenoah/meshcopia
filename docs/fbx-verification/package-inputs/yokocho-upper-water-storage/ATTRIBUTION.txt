@@ -1,0 +1,7 @@
+高所貯水タンクユニット / Elevated Water Storage Unit
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f

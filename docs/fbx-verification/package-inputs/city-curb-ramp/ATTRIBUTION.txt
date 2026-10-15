@@ -1,0 +1,7 @@
+可搬式段差スロープ / Portable curb ramp
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b

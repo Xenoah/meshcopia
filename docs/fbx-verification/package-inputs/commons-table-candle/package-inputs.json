@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-table-candle",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "86bf5ebbe5b5aea90f84cd7becfa99bfb03f47f80a4b8651592509e710fd2da4",
+  "archiveSha256": "291d1152fa4e02cffccf7327dfb5f260f48ae8d277577b56f6cc397208a1fabb",
+  "originalGlbSha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 399,
+      "sha256": "064519fc55977714f137b529f3a133b2f48c8396a84cb566dba38fc46bbb109e"
+    },
+    "CONVERSION.json": {
+      "bytes": 5581,
+      "sha256": "45bafd618b68c3802d5cbe0d8db93e92fcac2000aa8828163d431e373ead09a2"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "96a2af41f0d664d15ffa2a96d09ed7476fd7ba0f31b6cae848e08d5ab0c510e0"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 953,
+      "sha256": "11eb011105eaece770ef5db229939a1cbaec76a6fe73c6e5e10b0edb9590cae3"
+    },
+    "asset.json": {
+      "bytes": 1128,
+      "sha256": "14af1b534abbc9dfe5f948a0c8c428702c806410a2e289592cca7f4f867e8752"
+    }
+  }
+}

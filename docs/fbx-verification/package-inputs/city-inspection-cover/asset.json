@@ -1,0 +1,25 @@
+{
+  "id": "city-inspection-cover",
+  "title": "丸形点検マンホール蓋",
+  "titleEn": "Round inspection cover",
+  "description": "独自の滑り止め凹凸、貫通した引き上げ穴、座枠と裏面補強リブ付きの丸形点検蓋。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A round cast inspection cover with original raised traction tread, through lift slots, seating frame and underside ribs. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.73,
+    0.081,
+    0.73
+  ],
+  "triangles": 20154,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+  "fbxSha256": "843f5082e766491bc4f40da2151c907afe1a8da35d7b7c55b1c287d5295e57a7",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

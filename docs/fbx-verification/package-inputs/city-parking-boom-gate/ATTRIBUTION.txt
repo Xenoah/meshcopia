@@ -1,0 +1,7 @@
+駐車場遮断バー / Parking boom gate
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230

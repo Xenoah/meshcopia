@@ -1,0 +1,25 @@
+{
+  "id": "commons-coffee-cup",
+  "title": "コモンズ・コーヒーカップ",
+  "titleEn": "Commons coffee cup",
+  "description": "陶器色のカップ、コーヒー面、リング状の受け皿。カフェの卓上に置ける軽量な小物。",
+  "descriptionEn": "A ceramic-colored cup, coffee surface and ring-shaped saucer. A lightweight cafe prop.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.156,
+    0.1265,
+    0.156
+  ],
+  "triangles": 216,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22",
+  "fbxSha256": "125313a106dc02ed6ae1908ee7a92bdd0a37227d5bbba4b98412d4ccc0360c6e",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

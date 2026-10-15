@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-recycling-station",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "0b262642feb31110aa20aca85a3e35fc6a14f796934ec498baf4ec10ab529d1c",
+  "archiveSha256": "c5a1bf4c1d23af3e1be9aa796f8880129a99511ffb3c725385f4bc6078d564bd",
+  "originalGlbSha256": "b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 407,
+      "sha256": "ffaa3890cc69df8d5173440255cabc7cd9850b147f17db141b55bb25f576392f"
+    },
+    "CONVERSION.json": {
+      "bytes": 16687,
+      "sha256": "469408b9576945e5396a1647d3f628e2dcfc23c8206f69a76d0eaa9816fd58cc"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "5f454f3a1dfaaa0f73782ab2b277ea688c9b7a39f72ab2dd710fc28e246d8800"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1159,
+      "sha256": "0579d31acc1abe3ff132a5af64ac1692997dc56a63c14484903780161276779a"
+    },
+    "asset.json": {
+      "bytes": 1334,
+      "sha256": "f4bcff1a2ed052e2804c81ecc45326d567df278643ee221562a5f00a7f94493b"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+魔女と月の立体看板・旗セット / Witch Moon Projecting Sign and Pennant Set
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657

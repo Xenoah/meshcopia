@@ -1,0 +1,7 @@
+3分別リサイクルステーション / Three-stream recycling station
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2

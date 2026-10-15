@@ -1,0 +1,25 @@
+{
+  "id": "terracotta-planter",
+  "title": "テラコッタプランター",
+  "titleEn": "Terracotta planter",
+  "description": "中空の鉢と独立した土面。植物の組み合わせに使えるベースモデル。",
+  "descriptionEn": "A hollow terracotta pot with a separate soil surface, ready for your plant meshes.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.558,
+    0.504,
+    0.558
+  ],
+  "triangles": 1760,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a",
+  "fbxSha256": "5cd90f996d5246a11e660e15978da2f3689c568d6fee6ed8cd0fb7b7805f9d91",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

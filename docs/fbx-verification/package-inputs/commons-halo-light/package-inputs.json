@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "commons-halo-light",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "910a957216555e3db73976689ff5d2504a4508fcc7ced5d3642f127ed5962094",
+  "archiveSha256": "3b8a45619a61496106a784a6b4d5eb4d6280a4c7aaa6d509d94b7e8e25f296f2",
+  "originalGlbSha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 385,
+      "sha256": "5b5c2934a045cc994cac9d390faefb9396d84aad7544137a8456369df075f592"
+    },
+    "CONVERSION.json": {
+      "bytes": 6312,
+      "sha256": "1d0017a0870cff4d713f4db521d65fab6282626d27aef3e555ab7b1bd146481f"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 570,
+      "sha256": "2da90fc99a933ce4c7f7765bf11b01cde37bf0663319c4d740612960c3161a6b"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 952,
+      "sha256": "47850adc7e3a02e57061ffae95de29e0e1dc9b419a174202f138f10c1d28b035"
+    },
+    "asset.json": {
+      "bytes": 1127,
+      "sha256": "973b6fe8c7b9feae82cb40dc00e69d9e47227b81d3e16da433369b7ec5181319"
+    }
+  }
+}

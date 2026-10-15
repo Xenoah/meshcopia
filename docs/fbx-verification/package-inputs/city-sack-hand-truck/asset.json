@@ -1,0 +1,25 @@
+{
+  "id": "city-sack-hand-truck",
+  "title": "二輪の荷運び台車",
+  "titleEn": "Two-wheel sack hand truck",
+  "description": "袋や箱の運搬を表現する、湾曲した鋼管フレーム、奥行きのあるすくい板、荷支え、車軸、空気入りタイヤ風の二輪、グリップ、背面グライドを備えた縦型台車。パレットジャッキや買物カートとは異なる静止小道具。耐荷重・運搬作業・安全性は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Upright two-wheel hand truck for depicting sack or box hauling, with curved tubular frame, deep toe plate, fixed vertical load-support strips, transverse axle, pneumatic-style tires, protected grips and rear glide rails. Distinct from a pallet jack or basket shopping trolley. Static unrigged prop; no load rating, hauling performance or safety validation. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.51,
+    1.203922,
+    0.593
+  ],
+  "triangles": 28768,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+  "fbxSha256": "c6ac53f9e6e3110677483c137fa70d53dd16ad53c0963442189104d95a98b517",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

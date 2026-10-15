@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-aed-cabinet",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "6d9ee89f2ede1040ee719961bb142adef7db64a51b46ca15e01f9902af3880a6",
+  "archiveSha256": "7e6b4b36acd69b8b88782f1ff303ce67a0bd16f84a3d4564cf5e4413e47a91e1",
+  "originalGlbSha256": "ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 383,
+      "sha256": "107f4cbb0fc51fb1d649a15adaf91171502907e6c133f9f3b6fc6189e0ac1303"
+    },
+    "CONVERSION.json": {
+      "bytes": 12878,
+      "sha256": "3a4feb028536bb636d87dd5ac9c979f95f1adfab17fe9b47c1b6044704e039f7"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 568,
+      "sha256": "07a6e65bbd26793757fb21932c1df54e28dc16e109bd26373b71fd5f03c2630d"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1254,
+      "sha256": "567e846fa47b05bb920c03e63e345a9f444ad932d5fd1807c7a5699ce585ea36"
+    },
+    "asset.json": {
+      "bytes": 1429,
+      "sha256": "7c9eb4dd00cff9a738e643f5d4e885988cfd5bd64975fb64d14d861fe3d657bf"
+    }
+  }
+}

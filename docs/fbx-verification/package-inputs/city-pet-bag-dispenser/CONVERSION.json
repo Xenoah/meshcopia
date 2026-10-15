@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "id": "city-pet-bag-dispenser",
+  "sourceGlbSha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+  "fbxSha256": "d8ae4acbce6a58a28054c64094a7931f3fb8e462884639df0430bc87ead82b23",
+  "fbxBytes": 129564,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 2.9802322387695312e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 3.725290298461914e-08,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.0045148056583819,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Bag fold crease",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Bag fold crease.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Bottom housing ledge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Dispenser rear panel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Folded bag pull edge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Keyway",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Lower aperture sill",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mounting screw",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mounting screw.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mounting screw.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Mounting screw.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Overhanging rain lid",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pull aperture side",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pull aperture side.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear mounting flange",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear mounting flange.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Refill access door",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Refill door hinge",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Refill door hinge.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Refill key cylinder",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side housing wall",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Side housing wall.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Visible bag stack",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Dispenser forest green coating",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Dispenser forest green coating",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.11999999731779099,
+              0.07500000298023224,
+              1
+            ],
+            "metallicFactor": 0.3499999940395355,
+            "roughnessFactor": 0.5
+          }
+        }
+      },
+      {
+        "name": "Graphite powder coat",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Graphite powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03799999877810478,
+              0.05299999937415123,
+              0.061000000685453415,
+              1
+            ],
+            "metallicFactor": 0.550000011920929,
+            "roughnessFactor": 0.33000001311302185
+          }
+        }
+      },
+      {
+        "name": "Satin stainless steel",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Satin stainless steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.47999998927116394,
+              0.5400000214576721,
+              0.5699999928474426,
+              1
+            ],
+            "metallicFactor": 0.8500000238418579,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "Recess and gasket",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Recess and gasket",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.023000000044703484,
+              0.026000000536441803,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7200000286102295
+          }
+        }
+      },
+      {
+        "name": "Folded pale green bag",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Folded pale green bag",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.3700000047683716,
+              0.47999998927116394,
+              0.28999999165534973,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.800000011920929
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

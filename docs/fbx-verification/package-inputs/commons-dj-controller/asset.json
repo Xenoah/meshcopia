@@ -1,0 +1,25 @@
+{
+  "id": "commons-dj-controller",
+  "title": "コモンズ・DJコントローラー",
+  "titleEn": "Commons DJ controller",
+  "description": "架空のRELAY R2コントローラー。ジョグ、ノブ、フェーダー、パッドを立体化した装飾モデルで、操作面は生成オリジナル。",
+  "descriptionEn": "A fictional RELAY R2 controller with modeled jog wheels, knobs, faders and pads plus original generated panel artwork. Decorative only.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    2.0,
+    0.158,
+    1.0
+  ],
+  "triangles": 2768,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5",
+  "fbxSha256": "6c65383fabb37bed27b77a20501bf6d57877db5bdaefd216212cd7fd59ee4db6",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

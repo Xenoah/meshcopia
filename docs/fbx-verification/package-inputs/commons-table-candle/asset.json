@@ -1,0 +1,25 @@
+{
+  "id": "commons-table-candle",
+  "title": "コモンズ・テーブルキャンドル",
+  "titleEn": "Commons table candle",
+  "description": "陶器色の細いキャンドルと暖色の発光部。テーブルや棚向けの軽量な小物。実ライトは含みません。",
+  "descriptionEn": "A small ceramic-colored table candle with a warm emissive tip. No runtime light is included.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.064,
+    0.156,
+    0.064
+  ],
+  "triangles": 80,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7",
+  "fbxSha256": "86bf5ebbe5b5aea90f84cd7becfa99bfb03f47f80a4b8651592509e710fd2da4",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

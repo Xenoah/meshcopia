@@ -1,0 +1,7 @@
+壁掛け消火ホース収納箱 / Wall-mounted fire hose cabinet
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929

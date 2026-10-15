@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-satellite-dish",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "2625e5c59d03560f89c9d2393f8abbcf462d6d2957c18ac4d07772f49e0d5fc8",
+  "archiveSha256": "e479b252504735f997ad3b312d11a1cd62fdf41c544a7ed9f7f4f9a4f160067e",
+  "originalGlbSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 404,
+      "sha256": "39378c43be5f74d2d3b765cb51b2d3dcef67f7369ae4b8fab190f2d3c5313c02"
+    },
+    "CONVERSION.json": {
+      "bytes": 9451,
+      "sha256": "25b674bb099a49c59109356771025d7a623d3cd2b48f98075f7a24ad6ad56f1d"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 571,
+      "sha256": "71da7bfc8f7fc3fad2e324c3157eba59f0e8bffdad77f238a168c7e5a7f5ff57"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1530,
+      "sha256": "c55f8eb6a2e2a28223b6ddc014b99413f84453320e81391e72c6d1afb86b4d02"
+    },
+    "asset.json": {
+      "bytes": 1705,
+      "sha256": "8c9758ffc43b9f4e59ed7ceaaa411cba35e60bd6fac9fded8fa157aa8c38ed18"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+仮設トイレキャビン / Portable toilet cabin
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098

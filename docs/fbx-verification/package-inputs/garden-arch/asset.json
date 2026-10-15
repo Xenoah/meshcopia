@@ -1,0 +1,25 @@
+{
+  "id": "garden-arch",
+  "title": "ガーデンアーチ",
+  "titleEn": "Garden arch",
+  "description": "明るい石色のアーチ。Y軸上向き、幅1.52 mの建築用モジュール。",
+  "descriptionEn": "A pale stone arch. Y-up architectural module with a 1.52 m outer width.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.52,
+    2.16,
+    0.32
+  ],
+  "triangles": 216,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c",
+  "fbxSha256": "d084442a54ab731073bdec10bde83071d3c01eac3518d2b45210b6d44157814f",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

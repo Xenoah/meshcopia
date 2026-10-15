@@ -1,0 +1,25 @@
+{
+  "id": "city-glazed-entry-door",
+  "title": "ガラス入り店舗入口ドア",
+  "titleEn": "Glazed shop entry door",
+  "description": "少し開いたガラス戸、アルミ枠、気密パッキン、丁番、引手、浅い敷居と上部クローザーを備えた店舗入口。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A slightly open glazed entry with aluminum framing, transparent glass, compression seals, hinges, pull handles, shallow threshold and closer. Static visual prop. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    1.1,
+    2.22,
+    0.358542
+  ],
+  "triangles": 6244,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+  "fbxSha256": "550da6fbf7dad0973bc346b2f638d58bdc930653239da67369de8aced5a2bfcb",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

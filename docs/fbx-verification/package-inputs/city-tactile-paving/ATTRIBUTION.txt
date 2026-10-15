@@ -1,0 +1,7 @@
+突起付き注意喚起舗装板 / Tactile warning paving slab
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295

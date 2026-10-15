@@ -1,0 +1,7 @@
+メダリオン型五灯シャンデリア / Five-Light Medallion Chandelier
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0

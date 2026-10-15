@@ -1,0 +1,25 @@
+{
+  "id": "city-tree-guard",
+  "title": "街路樹用保護ケージ",
+  "titleEn": "Street tree guard",
+  "description": "開放された中央空間、4本の支柱、縦格子、固定金具を備える樹木保護ケージ。樹木や植木鉢は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "An open four-post tree-protection cage with rails, pickets, anchor feet and bolted joints; no tree or planter included. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.99,
+    1.433,
+    0.99
+  ],
+  "triangles": 4272,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "5b0d434cd45fdfc84eba930ee49e729b4a9c9d6be19672c6a198f0a5b196a5e4",
+  "fbxSha256": "4e5048ce74848404e78a60c79534c2295dd251bbe1503c57cb44685cc5320daa",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

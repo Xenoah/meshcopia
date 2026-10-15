@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-casement-window",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "867cdddebae1bc34cb83a81b78a07936faf56b7d609f19fc570f5574ee57b993",
+  "archiveSha256": "083ff2f120423989376b8731ee1c286b93ec0b62b80316edc03beeafe4ec4333",
+  "originalGlbSha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 386,
+      "sha256": "38a4a34827f10c9fbf2b3b6d2ffe64499ba64d96a083ad52e7f7f2124b248db1"
+    },
+    "CONVERSION.json": {
+      "bytes": 10863,
+      "sha256": "af8e09ce9f0b3f755dcebe60f1bfd64eb7596fd8998264f6ff5b41089d7d00ff"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 572,
+      "sha256": "33f930cd49ed5a0cb2de44a189471af59f77227b39df6cd3e9d438ba02ae676c"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1195,
+      "sha256": "44f96ef0122c1f465de600ed43845f75708f6fdefaa50d2e370e11860bf7b452"
+    },
+    "asset.json": {
+      "bytes": 1370,
+      "sha256": "eedfe3447d054698ab1380aeaa2c2922dd1b15cc1de0d41a64362658492ca481"
+    }
+  }
+}

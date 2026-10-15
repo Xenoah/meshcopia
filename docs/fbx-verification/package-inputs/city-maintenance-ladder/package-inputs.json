@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-maintenance-ladder",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "edcaa29111e911d90267d695ab38340de52971e573b9db972d3f70f3d3ed75ce",
+  "archiveSha256": "796f51ae02788698741998a0fb751633744e4324b2122308e186ce274498d321",
+  "originalGlbSha256": "d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "185b517df5c902f42d982e2eb953c6f53b070cd3349606c626742ad58411076f"
+    },
+    "CONVERSION.json": {
+      "bytes": 12305,
+      "sha256": "3f1abd23ba063b93cecc554a0f4f64b1c54dfb95136b975e99ba5a8f169cdcfe"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 575,
+      "sha256": "2ff4daee2d457d117ccf58cfab0c1b7a86c875754452b2a175d050eb53255daf"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1177,
+      "sha256": "f773ea3255ebac98b64f9b8473ceffb8d0121421c3a57eba73a9aa619a6b6969"
+    },
+    "asset.json": {
+      "bytes": 1352,
+      "sha256": "a717bdcbf7fa886d8e9d4365928e2c11de9fc4cd9c3e1256c72d7564de11a7ab"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "commons-lounge-chair",
+  "title": "コモンズ・ラウンジチェア",
+  "titleEn": "Commons lounge chair",
+  "description": "面取りされた布張りクッションと真鍮の4本脚。カフェやラウンジの椅子に。",
+  "descriptionEn": "Beveled upholstery and four brass legs for a cafe or lounge.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.62,
+    1.025,
+    0.64
+  ],
+  "triangles": 328,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b",
+  "fbxSha256": "b3bb7ef406e19fbaa5adbad3d2e6474d23280c15c9dc62da98e52104bf74cbac",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

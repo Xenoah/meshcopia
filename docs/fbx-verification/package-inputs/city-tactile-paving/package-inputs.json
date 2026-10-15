@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-tactile-paving",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "6fd34c4a0023c5927fd4cd8291126c4ebfc8d6c0f3e3332539210d88040e6219",
+  "archiveSha256": "09b012fa49c70a43f661f388ba300fff3a34fd116c9f9dd3e0aeaac700babf4d",
+  "originalGlbSha256": "c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "887daec69f22cfef585cc6e66436c6ed7608bf94b1ba071091c698ffb9bf01ac"
+    },
+    "CONVERSION.json": {
+      "bytes": 8161,
+      "sha256": "865e7e6a44831dd7ed7e6eeb7be6d9fce4bdb4510cf606e3a563d63e0eabea31"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 571,
+      "sha256": "3077af65bdad7e7ccb7aa6f4f6cc28550e67b1ed70ab60caa600fdb62e5f621f"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1160,
+      "sha256": "0c9d2b47d002ed58a83a4d814e648511d7b8cf73c350733d39e0fd64f70b4ca1"
+    },
+    "asset.json": {
+      "bytes": 1335,
+      "sha256": "294f4187ff712409d6bcb720b043e03e89d7538f7296c4bf12f07e0bbf1302f2"
+    }
+  }
+}

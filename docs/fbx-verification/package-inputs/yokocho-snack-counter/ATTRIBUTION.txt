@@ -1,0 +1,7 @@
+折れ曲がりスナックカウンター / Bent Snack Bar Counter
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42

@@ -1,0 +1,25 @@
+{
+  "id": "commons-halo-light",
+  "title": "コモンズ・リング照明",
+  "titleEn": "Commons halo light",
+  "description": "真鍮のリングと暖色の発光リングを持つ直径約3.5mの天井照明。吊り具と実ライトは含みません。",
+  "descriptionEn": "A roughly 3.5 m brass ceiling ring with a warm emissive strip. Suspension and runtime lights are not included.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.1",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    3.49,
+    0.10989,
+    3.49
+  ],
+  "triangles": 1760,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac",
+  "fbxSha256": "910a957216555e3db73976689ff5d2504a4508fcc7ced5d3642f127ed5962094",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

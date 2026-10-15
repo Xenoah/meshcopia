@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-bollard",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "08f6a6604e24f85817bd09c6f6c53a5cc9503e49ed97045b85cd1742010aff62",
+  "archiveSha256": "816f77f17fb3e76a92d05a2c31dec61f0968f19e7df29ece379e8e2aee5cc6e7",
+  "originalGlbSha256": "333fae75f6d6eac1b305ff7d19d3962edc71224cd408fb439b58ffad1ccd9dc5",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 393,
+      "sha256": "cb8935c75979d9fd2e0b68cd241607e5ea0e68e2698754eda86b48560fc5dcc0"
+    },
+    "CONVERSION.json": {
+      "bytes": 8770,
+      "sha256": "93f7bd461d3cd4455b4600e7d22811c4dd96ae9b3ad0752aded21a469026ed4b"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 564,
+      "sha256": "458a6fa10b40f8de8e3a9dcb7d004016cc556186a5b1108613d5b709f24df6dd"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1096,
+      "sha256": "db51df18a2dddc2a136ff468be90db9f102cd0ba114cd4ff19f8e1c7e3422c3e"
+    },
+    "asset.json": {
+      "bytes": 1271,
+      "sha256": "b43ca962a1246027424d20f6e70d3ee2a3b2460b92a9cf9a3ab18ad6eb00411c"
+    }
+  }
+}

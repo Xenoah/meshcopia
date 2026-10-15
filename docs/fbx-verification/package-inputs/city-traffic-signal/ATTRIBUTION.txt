@@ -1,0 +1,7 @@
+縦型三灯交通信号機 / Three-aspect traffic signal
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-wheel-stop",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "de63dd1ff7e7fa8ba40297db8e5ce66d58fd30638321978ebea703a3ce7d0a8c",
+  "archiveSha256": "15699c34ede11618e5fdce3ffdab2178cdcabb584bfedcbd19045a1d0c879564",
+  "originalGlbSha256": "c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 385,
+      "sha256": "1e4b50c2c0f109d144377a9a8a490cd30704c67fd368b2c446f65b8a11cadd53"
+    },
+    "CONVERSION.json": {
+      "bytes": 6462,
+      "sha256": "71c9129fb6ecc7c9dee5b4387dceff1f920edb1f07549e5c0055987f079c3d6b"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 567,
+      "sha256": "dc7940377eb283e122aa73ad12831f60095e5bb3a51154ed87d3fd0fbb402a83"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1111,
+      "sha256": "0402b022e51bb7f3ddbb0bdb4127d50400b6a140aa33ce45f0bba6cc0b1d3f65"
+    },
+    "asset.json": {
+      "bytes": 1286,
+      "sha256": "9759847a58d70637aa119536b8b1b86731717985a64b62fb2e8d76d227c83813"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "city-parking-meter",
+  "title": "街路パーキングメーター",
+  "titleEn": "Street parking payment meter",
+  "description": "ソーラーパネル、表示部、投入スロット、操作ボタンを備えた独立型パーキングメーター。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Standalone parking payment meter with solar canopy, segmented display, coin slot, selection buttons, reader pad and rear service access. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.36,
+    1.696988,
+    0.33
+  ],
+  "triangles": 17724,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739",
+  "fbxSha256": "55afa7b1821d0b1e958c1d5f08f7dd3ca728cf9b66edfb6af21d0331642e75ae",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

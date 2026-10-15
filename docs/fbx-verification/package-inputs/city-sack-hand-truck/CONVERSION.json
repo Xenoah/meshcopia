@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "city-sack-hand-truck",
+  "sourceGlbSha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+  "fbxSha256": "c6ac53f9e6e3110677483c137fa70d53dd16ad53c0963442189104d95a98b517",
+  "fbxBytes": 1032876,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 3.912564494612525e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 1.9371509552001953e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.03833635878318871,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Axle and structural wheel brackets",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Curved upright tubular load frame",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Left pneumatic wheel assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Protected ergonomic handle grips",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear stair glide supports",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reinforced toe plate assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Right pneumatic wheel assembly",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Tire rubber",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Tire rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.03099999949336052,
+              0.03400000184774399,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8600000143051147
+          }
+        }
+      },
+      {
+        "name": "Rubber tread edge",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Rubber tread edge",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.052000001072883606,
+              0.05999999865889549,
+              0.06199999898672104,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      },
+      {
+        "name": "Warm ochre powder coat",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Warm ochre powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6899999976158142,
+              0.2849999964237213,
+              0.06499999761581421,
+              1
+            ],
+            "metallicFactor": 0.44999998807907104,
+            "roughnessFactor": 0.4000000059604645
+          }
+        }
+      },
+      {
+        "name": "Brushed steel",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Brushed steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.25999999046325684,
+              0.30000001192092896,
+              0.3199999928474426,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.3199999928474426
+          }
+        }
+      },
+      {
+        "name": "Satin aluminum",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Satin aluminum",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.49000000953674316,
+              0.550000011920929,
+              0.5799999833106995,
+              1
+            ],
+            "metallicFactor": 0.8299999833106995,
+            "roughnessFactor": 0.28999999165534973
+          }
+        }
+      },
+      {
+        "name": "Dark axle steel",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Dark axle steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.09000000357627869,
+              0.10999999940395355,
+              0.11999999731779099,
+              1
+            ],
+            "metallicFactor": 0.7799999713897705,
+            "roughnessFactor": 0.33000001311302185
+          }
+        }
+      },
+      {
+        "name": "Grip and tread rubber",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Grip and tread rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.041999999433755875,
+              0.0430000014603138,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7599999904632568
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

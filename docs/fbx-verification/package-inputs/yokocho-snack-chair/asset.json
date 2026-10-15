@@ -1,0 +1,25 @@
+{
+  "id": "yokocho-snack-chair",
+  "title": "スナックの背付き椅子",
+  "titleEn": "Snack Bar Upholstered Chair",
+  "description": "樹上横丁のオリジナル形状から切り出したスナックの背付き椅子。原寸・底面中央原点。外部スキャン材質のみ単色PBRに置換し、該当するオリジナル布・印刷・瓦・紙テクスチャは保持。 静的なゲーム・VR向け素材。3Dプリント・製造用途は未検証。STLの座標値はmとして扱ってください。",
+  "descriptionEn": "Snack Bar Upholstered Chair extracted from original TreeTopYokocho geometry at authored scale, centered horizontally with the base at Y=0. External scanned materials are replaced with solid-color neutral PBR; applicable original cloth, printed, tile and paper source PNGs are embedded unchanged.  Static game/VR asset; not validated for manufacturing or 3D printing. STL does not encode units: interpret coordinates as meters. Static visual asset only. No colliders, rig, animation, gameplay scripts, runtime lighting, lightmap UV2, or engine-specific validation. STL is geometry-only and does not encode units; interpret as meters, Y up. Some sets contain separate pieces in their authored arrangement.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.7374770045280457,
+    1.117508053779602,
+    0.7969560027122498
+  ],
+  "triangles": 580,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb",
+  "fbxSha256": "929de64837b4536577fae3a1b56a4fc026263dd0dc0f9e3296260eba9666127e",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

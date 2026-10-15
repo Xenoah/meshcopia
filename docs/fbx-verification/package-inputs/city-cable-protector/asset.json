@@ -1,0 +1,25 @@
+{
+  "id": "city-cable-protector",
+  "title": "ヒンジ式ケーブル保護ブリッジ",
+  "titleEn": "Hinged cable protector",
+  "description": "3本の開放端ケーブル通路、黄色いヒンジ蓋、滑り止めを備えるケーブル保護ブリッジ。ケーブルは含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A three-channel cable-crossing bridge with open ends, hinged yellow lid, latches and raised grips; cables not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "unit": "m",
+  "upAxis": "Y",
+  "dimensions": [
+    0.979,
+    0.0875,
+    0.48
+  ],
+  "triangles": 2696,
+  "uv": "Original UV coordinates and split normals retained. Tangents are not exported; calculate them in the receiving application.",
+  "descriptionScope": "Original model purpose and source-format notes; FBX-specific facts and differences are in CONVERSION.json and CONVERSION_NOTES.md.",
+  "format": "FBX 7.4 binary",
+  "sourceGlbSha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406",
+  "fbxSha256": "11474013b2600492d009b81877d057acc7cf97045d8deb96b64cbb3c7e7f7330",
+  "originalModelStatus": "public",
+  "unityTested": false
+}

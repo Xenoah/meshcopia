@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-cycle-rack",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "6952b492c85796ac37d810463985a400e608271b69c700d13ddb362e2e2ed65d",
+  "archiveSha256": "bb7acc02b94a2c28f69366d01e37805afb1866d65fbf7b257720186d0496fb72",
+  "originalGlbSha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 386,
+      "sha256": "0c490809ee0333d8c27e2f656fb06af91c39be43fc58d2de3bce3c43755d159c"
+    },
+    "CONVERSION.json": {
+      "bytes": 7348,
+      "sha256": "f08f2bb0ab3496471e6ba61eb2d16122f036787515fd44a16f42e39af85a6968"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 567,
+      "sha256": "9bed6c46f2c08aa494512c7802f76484287151e81d79270579a4b83bc459da70"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1172,
+      "sha256": "f49979b0e72cc5ee34a25ac9fe2ac5351ba4f443758d5e5f0d59c7f701f812d0"
+    },
+    "asset.json": {
+      "bytes": 1347,
+      "sha256": "bb09b62703ae073f90da2772a7d5aa99af448302eae2d3f2b4acc76781a41297"
+    }
+  }
+}

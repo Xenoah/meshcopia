@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "id": "city-parking-meter",
+  "sourceGlbSha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739",
+  "fbxSha256": "55afa7b1821d0b1e958c1d5f08f7dd3ca728cf9b66edfb6af21d0331642e75ae",
+  "fbxBytes": 636684,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 1.0417576135068884e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 1.1920928955078125e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.004176542436393778,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Anti tamper lower collar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Canopy solar glass",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cash box lock bezel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cash box lock keyway",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Cash box lock plug",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Coin slot",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Coin slot surround",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Contactless reader",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Display bezel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Display glass",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Face bezel",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Face weather gasket",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "LCD horizontal segment.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Lower meter body",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Lower tube pedestal",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Meter anchor flange",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Meter rounded upper casing",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor hex head",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor hex head.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor hex head.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor hex head.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor washer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor washer.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor washer.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Pavement anchor washer.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Payment return pocket",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.004",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.005",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.006",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.007",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.008",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.009",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.010",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Photovoltaic cell.011",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reader raised marker",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reader raised marker.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Reader raised marker.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear battery access door",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear battery access seam",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw hex head",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw hex head.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw hex head.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw hex head.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw washer",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw washer.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw washer.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear security screw washer.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Return tray lower rim",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Selection button",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Selection button.001",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Selection button.002",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Selection button.003",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Upper collar",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "graphite",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "graphite",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.07500000298023224,
+              0.10499999672174454,
+              0.11999999731779099,
+              1
+            ],
+            "metallicFactor": 0.6499999761581421,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      },
+      {
+        "name": "steel",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.4699999988079071,
+              0.5299999713897705,
+              0.550000011920929,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.27000001072883606
+          }
+        }
+      },
+      {
+        "name": "paint",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "paint",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.1599999964237213,
+              0.23999999463558197,
+              0.2199999988079071,
+              1
+            ],
+            "metallicFactor": 0.44999998807907104,
+            "roughnessFactor": 0.3799999952316284
+          }
+        }
+      },
+      {
+        "name": "rubber",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.027000000700354576,
+              0.02800000086426735,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      },
+      {
+        "name": "dark",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "dark",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.029999999329447746,
+              1
+            ],
+            "metallicFactor": 0.15000000596046448,
+            "roughnessFactor": 0.6000000238418579
+          }
+        }
+      },
+      {
+        "name": "screen",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "screen",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.09000000357627869,
+              0.23000000417232513,
+              0.27000001072883606,
+              1
+            ],
+            "metallicFactor": 0.20000000298023224,
+            "roughnessFactor": 0.2199999988079071
+          }
+        }
+      },
+      {
+        "name": "light",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "light",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6100000143051147,
+              0.7799999713897705,
+              0.7200000286102295,
+              1
+            ],
+            "metallicFactor": 0.20000000298023224,
+            "roughnessFactor": 0.3499999940395355
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

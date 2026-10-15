@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "city-roller-shutter",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "cd2510691ae4c0508e07fb8442c7001199628106c6c1262e2f9880a9c7042f37",
+  "archiveSha256": "39a3dd1203a9f2ec17af16445450996c17a23c3998b52c1d84a329d2ede35682",
+  "originalGlbSha256": "8033643e7de8c047b06146d892bfcd962bfdc5119fa0262681951d1ce8d34c48",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 397,
+      "sha256": "40ec423d6f06cf5be0d65b5fa34be0028f8f2601af0e3a3a992594bbe8580e9a"
+    },
+    "CONVERSION.json": {
+      "bytes": 8135,
+      "sha256": "a510eea30bc1c8da5b68d8cb27b6b4d54fcd2d24dbc582d542d9d9958e777311"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 571,
+      "sha256": "78b113db9598422120c30394c7676974f320b6250981626d98effc592e5f0074"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1184,
+      "sha256": "0823c30cf17b6da578ce377bf30ae8e68a1e17a8f6dfeb3fc5bf3444d8787795"
+    },
+    "asset.json": {
+      "bytes": 1359,
+      "sha256": "8c3f8c89e7397565a351e4c0677e48775dac64a08fc2033ca6e5f3552e138b66"
+    }
+  }
+}

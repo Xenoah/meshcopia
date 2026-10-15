@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "yokocho-bard-lyre-sign",
+  "cohort": "published137",
+  "archiveRevision": 3,
+  "fbxSha256": "4d3c66e77aa8f3f611a2dbe24778ed7174b3e570ea05a03c39b7c85a6b0de87e",
+  "archiveSha256": "9c0067ceca37ad8003f2137b6169bad82fb6483013a42e75b7916d2fb0b97238",
+  "originalGlbSha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc",
+  "metadataFiles": {
+    "ATTRIBUTION.txt": {
+      "bytes": 389,
+      "sha256": "2b9146de57c78a27bb5c9db50879be6d96eeed6836040d920833b8983d1f27c0"
+    },
+    "CONVERSION.json": {
+      "bytes": 7080,
+      "sha256": "8c762f8d0c37cefa7a5e7caa9e769a13f03c2000886f8d200f397b124d84c116"
+    },
+    "CONVERSION_NOTES.md": {
+      "bytes": 4966,
+      "sha256": "93c1bb03d918351f8393d98432424e1c1454012d64ccad7bb97363d608ef33d0"
+    },
+    "FILES.sha256": {
+      "bytes": 574,
+      "sha256": "bc73770466fe00080939813a1dde30c1abddcdd70333e0f26cda6b4d10a944e5"
+    },
+    "LICENSE.txt": {
+      "bytes": 812,
+      "sha256": "3e07ac2c9920692010b3f73c309e65250cdf81f65267e889b8e8152557bf4709"
+    },
+    "README.md": {
+      "bytes": 1811,
+      "sha256": "ea33847b85f13840b1ec760e433d7ef7342e3e468f3815ca22f484defaa4b750"
+    },
+    "asset.json": {
+      "bytes": 2019,
+      "sha256": "a5e1045dd928835e2ea929ab2226ed05dd657701e2d794ba00c39cf2c00fd953"
+    }
+  }
+}

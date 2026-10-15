@@ -1,0 +1,7 @@
+二分割の街路樹グレーチング / Two-piece tree grate
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: 63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b

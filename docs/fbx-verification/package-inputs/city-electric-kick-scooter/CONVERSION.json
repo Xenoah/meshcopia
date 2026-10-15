@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "id": "city-electric-kick-scooter",
+  "sourceGlbSha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8",
+  "fbxSha256": "f34b912c8daf853b1c7a02713b184e3df82ff8591c93954215e0f6ade73f4374",
+  "fbxBytes": 1207356,
+  "pipelineSha256": "89cdfcdcb1d84495c2fcecf34d944143a38137488dd62ef7b510a6b8576249ac",
+  "runtime": {
+    "blender": "4.3.2",
+    "blenderBuildHash": "Unknown",
+    "blenderBinarySha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "numpy": "2.2.4",
+    "zlib": "1.3.1",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "exportSettings": {
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_space_transform": true,
+    "bake_space_transform": false,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_tspace": false,
+    "use_triangles": true,
+    "colors_type": "LINEAR",
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "COPY",
+    "embed_textures": true,
+    "axis_forward": "-Z",
+    "axis_up": "Y"
+  },
+  "geometry": {
+    "triangleCountEqual": true,
+    "vertexCountEqual": true,
+    "meshObjectCountEqual": true,
+    "meshObjectNamesEqual": true,
+    "maxBoundsDeltaMeters": 1.4793198666041008e-08,
+    "maxCorrespondingCornerPositionDeltaMeters": 1.7881393432617188e-07,
+    "maxCorrespondingCornerUvDelta": 0.0,
+    "maxCorrespondingCornerColorDelta": 0.0,
+    "maxCorrespondingCornerNormalAngleDegrees": 0.028608407342069177,
+    "materialAssignmentsEqual": true,
+    "windingAndVertexIndicesPreserved": true,
+    "colorLayerCountsPreserved": true,
+    "allGeometryAttributesFinite": true,
+    "sourceGeometryUnchangedByNormalization": true,
+    "positionToleranceMeters": 5e-05,
+    "passed": true
+  },
+  "container": {
+    "fbxVersion": 7400,
+    "globalSettings": {
+      "UpAxis": 1,
+      "UpAxisSign": 1,
+      "FrontAxis": 2,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": 1,
+      "UnitScaleFactor": 100.0
+    },
+    "metersAndYUp": true,
+    "tangentExported": false,
+    "binormalExported": false,
+    "embeddedImages": [],
+    "selfContainedImages": true,
+    "noWorkspacePathInBinary": true
+  },
+  "sourceUvPreservation": [
+    {
+      "object": "Battery deck and underside assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Connected brake cable and wire guides",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Deck gooseneck and folding collar",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Deployed kickstand assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Footboard traction mat",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front and rear mudguards with lamps",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front fork assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Front wheel assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Handle grips and riding controls",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear hub-motor wheel assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Rear swingarm and brake assembly",
+      "allSourceUvLayersRetained": true
+    },
+    {
+      "object": "Steering stem and handlebar",
+      "allSourceUvLayersRetained": true
+    }
+  ],
+  "vertexColorFileVerification": {
+    "sourceUniqueColors": 0,
+    "fbxUniqueColors": 0,
+    "encoding": "FBX LINEAR float colors, matching source glTF linear colors",
+    "maxRawEncodedColorDelta": 0.0,
+    "fileColorValuesPreserved": true,
+    "linearBlenderReimportMaxDelta": 0.0,
+    "reimportLimitation": "For original editable vertex colors choose LINEAR FBX color import. Basic appearance uses derived textures/materials and does not depend on vertex-color shader setup."
+  },
+  "materialChanges": {
+    "derivedTextures": [],
+    "materialChanges": [
+      {
+        "name": "Tire rubber",
+        "sourceMaterialIndex": 0,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Tire rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.02500000037252903,
+              0.03099999949336052,
+              0.03400000184774399,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8600000143051147
+          }
+        }
+      },
+      {
+        "name": "Rubber tread edge",
+        "sourceMaterialIndex": 1,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Rubber tread edge",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.052000001072883606,
+              0.05999999865889549,
+              0.06199999898672104,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8199999928474426
+          }
+        }
+      },
+      {
+        "name": "Satin aluminum",
+        "sourceMaterialIndex": 2,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Satin aluminum",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.49000000953674316,
+              0.550000011920929,
+              0.5799999833106995,
+              1
+            ],
+            "metallicFactor": 0.8299999833106995,
+            "roughnessFactor": 0.28999999165534973
+          }
+        }
+      },
+      {
+        "name": "Graphite powder coat",
+        "sourceMaterialIndex": 3,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Graphite powder coat",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.054999999701976776,
+              0.07000000029802322,
+              0.07999999821186066,
+              1
+            ],
+            "metallicFactor": 0.6499999761581421,
+            "roughnessFactor": 0.3400000035762787
+          }
+        }
+      },
+      {
+        "name": "Dark axle steel",
+        "sourceMaterialIndex": 4,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Dark axle steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.09000000357627869,
+              0.10999999940395355,
+              0.11999999731779099,
+              1
+            ],
+            "metallicFactor": 0.7799999713897705,
+            "roughnessFactor": 0.33000001311302185
+          }
+        }
+      },
+      {
+        "name": "Brushed steel",
+        "sourceMaterialIndex": 5,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Brushed steel",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.25999999046325684,
+              0.30000001192092896,
+              0.3199999928474426,
+              1
+            ],
+            "metallicFactor": 0.800000011920929,
+            "roughnessFactor": 0.3199999928474426
+          }
+        }
+      },
+      {
+        "name": "Slate blue coating",
+        "sourceMaterialIndex": 6,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Slate blue coating",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.0949999988079071,
+              0.23499999940395355,
+              0.29499998688697815,
+              1
+            ],
+            "metallicFactor": 0.550000011920929,
+            "roughnessFactor": 0.30000001192092896
+          }
+        }
+      },
+      {
+        "name": "Grip and tread rubber",
+        "sourceMaterialIndex": 7,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Grip and tread rubber",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.041999999433755875,
+              0.0430000014603138,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7599999904632568
+          }
+        }
+      },
+      {
+        "name": "Amber reflector",
+        "sourceMaterialIndex": 8,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Amber reflector",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.949999988079071,
+              0.3149999976158142,
+              0.019999999552965164,
+              1
+            ],
+            "metallicFactor": 0.11999999731779099,
+            "roughnessFactor": 0.23000000417232513
+          }
+        }
+      },
+      {
+        "name": "Display glass",
+        "sourceMaterialIndex": 9,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Display glass",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.014999999664723873,
+              0.06499999761581421,
+              0.07100000232458115,
+              1
+            ],
+            "metallicFactor": 0.3499999940395355,
+            "roughnessFactor": 0.14000000059604645
+          }
+        }
+      },
+      {
+        "name": "Display segments",
+        "sourceMaterialIndex": 10,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Display segments",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.5199999809265137,
+              0.800000011920929,
+              0.6899999976158142,
+              1
+            ],
+            "metallicFactor": 0.05000000074505806,
+            "roughnessFactor": 0.4000000059604645
+          }
+        }
+      },
+      {
+        "name": "Red reflector",
+        "sourceMaterialIndex": 11,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Red reflector",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.6299999952316284,
+              0.02500000037252903,
+              0.01600000075995922,
+              1
+            ],
+            "metallicFactor": 0.1599999964237213,
+            "roughnessFactor": 0.23999999463558197
+          }
+        }
+      },
+      {
+        "name": "Headlamp lens",
+        "sourceMaterialIndex": 12,
+        "changes": [
+          "Source glTF constants restored directly; redundant vertex-color/Mix nodes removed."
+        ],
+        "originalMaterial": {
+          "doubleSided": true,
+          "name": "Headlamp lens",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.8299999833106995,
+              0.8999999761581421,
+              0.8600000143051147,
+              1
+            ],
+            "metallicFactor": 0.11999999731779099,
+            "roughnessFactor": 0.18000000715255737
+          }
+        }
+      }
+    ],
+    "vertexColors": [],
+    "derivedUvs": [],
+    "limitations": [
+      "FBX Phong is not lossless glTF PBR; AO, IOR and physical transmission have no portable FBX mapping.",
+      "Roughness texture uses the Blender FBX shininess convention and may need reconnection in other applications."
+    ]
+  },
+  "limits": [
+    "Blender-to-Blender interchange check only; Unity and other consumers not tested.",
+    "FBX Phong materials are not lossless glTF metallic-roughness PBR. See per-material comparison.",
+    "Split normals and UVs are stored; tangent/binormal arrays are not serialized. Consumers recompute tangents from normals/UVs.",
+    "FBX exporter writes CullingOff; source single-sided material culling is not preserved and must be configured by the target application if needed.",
+    "No source GLB/STL/metadata or pre-existing ZIP was modified."
+  ],
+  "byteReproductionPassed": true,
+  "unityTested": false
+}

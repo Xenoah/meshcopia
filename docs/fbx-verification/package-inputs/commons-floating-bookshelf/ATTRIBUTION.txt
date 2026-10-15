@@ -1,0 +1,7 @@
+コモンズ・壁付け本棚 / Commons floating bookshelf
+Original author: Xenoah
+Source: https://github.com/Xenoah/meshcopia
+License: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.
+Original GLB SHA-256: a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5
