@@ -1,5 +1,5 @@
 // Integration fixture only: no mutation of the published site or catalog.
-import {chromium} from '@playwright/test';import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+import {chromium,expect} from '@playwright/test';import fs from 'node:fs/promises';import assert from 'node:assert/strict';
 const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--no-sandbox']});
 try{
  for(const mobile of [false,true]){
@@ -16,8 +16,8 @@ try{
  await chair.check();await texture.check();assert.match(await counter.textContent(),/2/);
  await page.locator('#asset-search').fill('studio chair');assert.equal(await texture.isVisible(),false);assert.match(await counter.textContent(),/2/);await counter.click();
  const dialog=page.locator('#batch-selection-dialog');assert.equal(await dialog.locator('li').count(),2);
- await page.keyboard.press('Escape');assert.equal(await dialog.isVisible(),false);assert.equal(await counter.evaluate(e=>e===document.activeElement),true);
- await counter.click();await page.goBack();await dialog.waitFor({state:'hidden'});assert.match(await counter.textContent(),/2/);await counter.click();await dialog.locator('li button').first().click();assert.equal(await dialog.locator('li').count(),1);
+ await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(counter).toBeEnabled();await expect(counter).toBeFocused();
+ await counter.click();await page.goBack();await expect(dialog).toBeHidden();await expect(counter).toBeEnabled();await expect(counter).toBeFocused();assert.match(await counter.textContent(),/2/);await counter.click();await dialog.locator('li button').first().click();assert.equal(await dialog.locator('li').count(),1);
  await dialog.getByRole('button',{name:'選択解除',exact:true}).click();assert.equal(await dialog.locator('li').count(),0);await dialog.getByRole('button',{name:'閉じる',exact:true}).click();
  await page.locator('#asset-search').fill('');await chair.focus();await page.keyboard.press('Space');assert.equal(await chair.isChecked(),true);await texture.check();await counter.click();
  const prepare=dialog.getByRole('button',{name:'選択素材を1 ZIPにまとめる',exact:true});
