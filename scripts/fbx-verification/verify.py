@@ -149,7 +149,12 @@ def main():
   trial=work/'fresh';trial.mkdir()
   cmd=['/usr/bin/blender','-b','-noaudio','--factory-startup','--python-use-system-env','--python-exit-code','1','-t','4','--python',str(HERE/'convert_and_audit_fbx.py'),'--','--source',str(source),'--out',str(trial),'--expected-sha256',row['sourceSha256'],'--unique-image-paths','--normalize-materials','--deterministic']
   with (work/'execution.log').open('w') as log:subprocess.run(cmd,env={**os.environ,'PYTHONHASHSEED':'0'},stdout=log,stderr=subprocess.STDOUT,check=True)
-  fbx=(trial/(identity+'.fbx')).read_bytes();need(sha(fbx)==ex['fbxSha256'] and len(fbx)==ex['fbxBytes'],'Reviewed FBX bytes differ: '+identity)
+  fbx=(trial/(identity+'.fbx')).read_bytes()
+  if sha(fbx)!=ex['fbxSha256'] or len(fbx)!=ex['fbxBytes']:
+   if identity==PILOTS[0]:
+    from fbx_diagnostic import compare
+    print('FBX_BOUNDED_DIAGNOSTIC '+json.dumps(compare(fbx,read(docs/'diagnostic-first-pilot.json')),sort_keys=True),flush=True)
+   need(False,'Reviewed FBX bytes differ: '+identity)
   raw=(trial/'roundtrip-report.json').read_bytes();fresh={'id':identity,'qaSha256':sha(raw),'sourceGlbSha256':row['sourceSha256'],'fbxSha256':ex['fbxSha256'],'fbxBytes':ex['fbxBytes']}
   qa=verify_report(raw,fresh,data,fbx,runtime['recipe'],actual_runtime,PINNED_SOURCES,trial/'clean-reimport');need(qa['cleanImportEvidence']['extractedCopiesAvailable'],'Missing clean-import image bytes');public.append(qa)
   inputs={name:local(docs,'package-inputs/'+identity+'/'+name).read_bytes() for name in NAMES};blob=rebuild(docs/'package-inputs'/identity,trial/(identity+'.fbx'));need(sha(blob)==ex['archiveSha256'] and len(blob)==ex['archiveBytes'],'Reviewed ZIP bytes differ: '+identity)
