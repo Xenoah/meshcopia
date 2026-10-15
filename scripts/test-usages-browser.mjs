@@ -11,9 +11,9 @@ export async function testUsagesBrowser(page, home) {
  assert.ok(await section.getByText('FURN_StoolSeat',{exact:true}).isVisible());
  await section.locator('a').last().click();
  await page.waitForURL(url=>url.searchParams.get('q')==='Commons cafe');
- await page.waitForSelector('[data-card]');
  // SSR cards can appear before the catalog module applies the URL query.
  await expect(page.locator('#asset-search')).toHaveValue('Commons cafe',{timeout:30000});
+ await expect(page.locator('[data-preview="commons-bar-stool"]')).toBeVisible();
  assert.ok(await page.locator('[data-preview="commons-bar-stool"]').isVisible());
  assert.equal(await page.locator('[data-preview="studio-chair"]').isVisible(),false);
  await page.locator('#asset-search').fill('FURN_StoolSeat');
