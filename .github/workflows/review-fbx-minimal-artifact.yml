@@ -1,0 +1,70 @@
+name: Transfer exact verified FBX artifact for internal review
+on:
+  push:
+    branches: [fbx/review-minimal-artifact-v1]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: meshcopia-fbx-readonly-artifact-review
+  cancel-in-progress: false
+jobs:
+  transfer:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && github.ref == 'refs/heads/fbx/review-minimal-artifact-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+          sparse-checkout: |
+            scripts/fbx-artifact-transfer
+            .github/workflows/review-fbx-minimal-artifact.yml
+          sparse-checkout-cone-mode: false
+      - name: Test byte slicing and credential-free redirect policy
+        run: python3 -m unittest discover -s scripts/fbx-artifact-transfer -p 'test_*.py' -v
+      - name: Read exact successful artifact and prove three-part byte equality
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/fbx-artifact-transfer/transfer.py download-split --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/fbx-review-transfer"
+      - name: Store review transfer part 1 of 3
+        id: part1
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-review-part-1-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fbx-review-transfer/parts/part-01/
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 0
+      - name: Store review transfer part 2 of 3
+        id: part2
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-review-part-2-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fbx-review-transfer/parts/part-02/
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 0
+      - name: Store review transfer part 3 of 3
+        id: part3
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-review-part-3-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/fbx-review-transfer/parts/part-03/
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 0
+      - name: Record original and part artifact envelopes, never signed URLs
+        env:
+          PART1_ID: ${{ steps.part1.outputs.artifact-id }}
+          PART1_DIGEST: ${{ steps.part1.outputs.artifact-digest }}
+          PART2_ID: ${{ steps.part2.outputs.artifact-id }}
+          PART2_DIGEST: ${{ steps.part2.outputs.artifact-digest }}
+          PART3_ID: ${{ steps.part3.outputs.artifact-id }}
+          PART3_DIGEST: ${{ steps.part3.outputs.artifact-digest }}
+        run: |
+          printf 'Internal transfer only. Original artifact=12010989935 bytes=1171848758 SHA256=178be79de9eec1ab7864e0abebdc4763b6f39bb0daa9a7e73c3b9d4eb9b1b70a\n' >> "$GITHUB_STEP_SUMMARY"
+          printf 'Part1=%s digest=%s\nPart2=%s digest=%s\nPart3=%s digest=%s\n' "$PART1_ID" "$PART1_DIGEST" "$PART2_ID" "$PART2_DIGEST" "$PART3_ID" "$PART3_DIGEST" >> "$GITHUB_STEP_SUMMARY"
+          sha256sum "$RUNNER_TEMP/fbx-review-transfer/parts/part-01/transfer-manifest.json" >> "$GITHUB_STEP_SUMMARY"
