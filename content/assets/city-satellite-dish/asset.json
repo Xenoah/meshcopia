@@ -1,0 +1,63 @@
+{
+  "id": "city-satellite-dish",
+  "type": "model",
+  "title": "取付マスト付き小型衛星アンテナ",
+  "titleEn": "Compact satellite dish",
+  "description": "厚みのある楕円反射板、巻き縁、背面リブ、角度調整金具、取付マスト、受信部と支持アームを備える静的な小型アンテナ。受信機能や電気的性能はありません。 アニメーションや実行時の動作はなく、大量配置時の性能は未計測です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A static compact dish with thick elliptical reflector, rolled edge, rear ribs, tilt bracket, mounting mast, receiver and support arm. No reception function or electrical performance is provided. No animation or runtime behavior; performance with mass placement has not been measured. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "satellite",
+    "roof",
+    "antenna",
+    "receiver",
+    "mount"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-satellite-dish.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 27184,
+  "dimensions": [
+    0.6936,
+    1.21756,
+    0.893604
+  ],
+  "uv": "UV0 is present on every primitive: primitive UVs and per-component automatic unwraps overlap between parts; no unique packed bake or lightmap atlas. Named static assemblies; unrigged, no animations. Original solid-color PBR materials, no image textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/compact_fixtures.py",
+    "sourceSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+    "stlSha256": "6a7077e13e636d57c3dcfc2d9fcccd441674248dbd481814ae9c72b5331a05e1",
+    "generatorSha256": "fe0424974dddd1daa0a284aedc773c2527d1b4d33005a8495b1935f588edb4b5",
+    "helperSha256": "268dc5e7c8a2cd621c8acb66ef17be704f00644fa49375f6fcb788cfb6c4d82c",
+    "alternateFormat": "Binary STL written from the exact reimported GLB world-space triangles. Metres, Y-up; no colors or UVs. Static visual prop, not manufacturing or electrical engineering data."
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/compact_fixtures.py",
+        "scripts/city/common.py"
+      ],
+      "selectors": [
+        "city-satellite-dish",
+        "satellite_dish"
+      ],
+      "context": "Original procedural city visual prop authored for Meshcopia. Selector identifies its exact generator entry and function. No external deployment or reuse claimed. Generator is not yet pinned to a published commit."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "city-electric-kick-scooter",
+  "type": "model",
+  "title": "電動キックスクーター",
+  "titleEn": "Electric kick scooter",
+  "description": "バッテリーデッキ、前後のタイヤ、ハブモーター、折りたたみ部、ブレーキレバーとケーブル、泥よけ、ライト、反射板、展開したスタンドを備えた無銘の電動キックスクーター。静止した配置用小道具で、走行機能・安全性・機構の作動は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "Unbranded electric kick scooter with battery deck, profiled tires, rear hub-motor cover, folding collar, connected brake cable and lever, mudguards, lamps, reflectors and deployed kickstand. Static placement prop; not rigged and not validated for riding, safety or mechanical operation. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "scooter",
+    "electric",
+    "micromobility",
+    "transport",
+    "キックスクーター"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-electric-kick-scooter.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 32068,
+  "dimensions": [
+    1.189377,
+    1.16439,
+    0.552
+  ],
+  "uv": "Automatically unwrapped UV0 for each named static assembly; islands can overlap between assemblies. Not a packed unique lightmap or shared trim atlas. Solid-color PBR materials, no image textures. STL carries geometry only, without colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/compact_mobility.py",
+    "sourceSha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8",
+    "stlSha256": "37081f35831093e16f241f7ebef6394d80a658f297d38406e16b0de20921855a",
+    "alternateFormat": "Binary STL derived from the exact reimported GLB, meters and Y-up. Visual prop only, not manufacturing or print validated.",
+    "assemblyMethod": "Original closed mesh components with bevels and curved tubes, converted and joined into named static assemblies before export. No external models or texture images; no decimation."
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/compact_mobility.py",
+        "scripts/city/common.py"
+      ],
+      "selectors": [
+        "city-electric-kick-scooter",
+        "Rear hub-motor wheel assembly",
+        "Front wheel assembly",
+        "Battery deck and underside assembly",
+        "Footboard traction mat",
+        "Rear swingarm and brake assembly",
+        "Deck gooseneck and folding collar",
+        "Front fork assembly",
+        "Steering stem and handlebar",
+        "Handle grips and riding controls",
+        "Connected brake cable and wire guides",
+        "Front and rear mudguards with lamps",
+        "Deployed kickstand assembly"
+      ],
+      "context": "Original static urban prop created for the Meshcopia library. Selectors name the generator asset ID and the exact exported mesh assemblies. No external deployment or reuse claimed."
+    }
+  ]
+}

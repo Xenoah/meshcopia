@@ -1,0 +1,63 @@
+{
+  "id": "city-crossing-pushbutton",
+  "type": "model",
+  "title": "歩行者横断用押しボタン筐体",
+  "titleEn": "Pedestrian crossing pushbutton enclosure",
+  "description": "面取りされた黄色の筐体、保護ベゼル、奥まった触知ボタン、取付フランジと背面接続部を備える単体の静的小道具。支柱や信号機は含みません。信号制御・電気機能・アクセシビリティ規格への適合はありません。 歩行者ピクトグラムはオリジナルの装飾形状で、規格適合マークではありません。アニメーションや実行時の動作はなく、大量配置時の性能は未計測です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。",
+  "descriptionEn": "A standalone static prop with chamfered yellow housing, protective bezel, recessed tactile button, mounting flange and rear connection detail. No pole or signal is included. It provides no traffic-control or electrical function and makes no accessibility-compliance claim. The pedestrian pictogram is original decorative geometry, not a standards-compliance mark. No animation or runtime behavior; performance with mass placement has not been measured. For games and visualization; not validated for manufacture, structural engineering or 3D printing.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "crossing",
+    "pushbutton",
+    "pedestrian",
+    "enclosure",
+    "street-furniture"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-crossing-pushbutton.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 15236,
+  "dimensions": [
+    0.19,
+    0.34,
+    0.1633
+  ],
+  "uv": "UV0 is present on every primitive: primitive UVs and per-component automatic unwraps overlap between parts; no unique packed bake or lightmap atlas. Named static assemblies; unrigged, no animations. Original solid-color PBR materials, no image textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia city generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city/compact_fixtures.py",
+    "sourceSha256": "9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f",
+    "stlSha256": "73af6e64f5c8b828447c4f5599cb24aebac8365a266707ea2cee857628a1d603",
+    "generatorSha256": "fe0424974dddd1daa0a284aedc773c2527d1b4d33005a8495b1935f588edb4b5",
+    "helperSha256": "268dc5e7c8a2cd621c8acb66ef17be704f00644fa49375f6fcb788cfb6c4d82c",
+    "alternateFormat": "Binary STL written from the exact reimported GLB world-space triangles. Metres, Y-up; no colors or UVs. Static visual prop, not manufacturing or electrical engineering data."
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city/compact_fixtures.py",
+        "scripts/city/common.py"
+      ],
+      "selectors": [
+        "city-crossing-pushbutton",
+        "crossing_pushbutton"
+      ],
+      "context": "Original procedural city visual prop authored for Meshcopia. Selector identifies its exact generator entry and function. No external deployment or reuse claimed. Generator is not yet pinned to a published commit."
+    }
+  ]
+}
