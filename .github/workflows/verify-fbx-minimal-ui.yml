@@ -1,0 +1,71 @@
+name: Verify activated minimal FBX site
+
+on:
+  push:
+    branches: [fbx/verify-p-v1]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: meshcopia-fbx-minimal-p-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.ref == 'refs/heads/fbx/verify-p-v1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          architecture: x64
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install locked dependencies
+        run: |
+          npm ci
+          python3 -m pip install -r scripts/requirements-assets.txt
+      - name: Verify source integration and ordinary activation inputs
+        run: |
+          node scripts/check-download-ui-source.mjs
+          node scripts/check-full-p-inputs.mjs
+      - name: Preserve immutable archives and canonical runtime
+        run: |
+          node scripts/check-archive-runtime.mjs
+          node scripts/check-archive-lock.mjs --check-history
+      - name: Verify durable minimal FBX proof and all public bytes
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - name: Validate, unit test, verify real releases, build and check dist once
+        run: npm run check
+      - name: Verify textures, original API compatibility and Pages budget
+        run: |
+          python3 scripts/check-textures.py
+          node scripts/check-full-p-inputs.mjs --dist
+          node scripts/check-fbx-minimal-baseline.mjs
+      - name: Install CI Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Preserve original viewer and mobile regression
+        run: node scripts/test-browser.mjs
+      - name: Preserve ordinary selected downloads and displayed ZIP sizes
+        run: node scripts/test-minimal-downloads-browser.mjs
+      - name: Verify all FBX links, actual browser downloads, mobile and no-JS
+        run: node scripts/test-fbx-minimal-downloads-browser.mjs
+      - name: Preserve exact candidate evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fbx-minimal-p-proof-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+          retention-days: 14
+          path: test-results/

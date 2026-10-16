@@ -41,6 +41,8 @@ jobs:
         run: |
           node scripts/check-archive-runtime.mjs
           node scripts/check-archive-lock.mjs --check-history
+      - name: Verify durable minimal FBX proof and all public bytes
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Validate, unit test, verify real releases, build and check dist
         run: npm run check
       - name: Verify all texture maps and unchanged Pages budget

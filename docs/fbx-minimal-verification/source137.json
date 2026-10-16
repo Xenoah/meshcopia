@@ -1,0 +1,2070 @@
+{
+  "baseCommit": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "cohort": "published137",
+  "modelCount": 137,
+  "models": [
+    {
+      "assetMetadata": "content/assets/atelier-lamp/asset.json",
+      "id": "atelier-lamp",
+      "metadataSha256": "c5a677047b4c3d4fb1ef81ea60124f2476ae0d3ce02ee72cf4649e0156435d03",
+      "notice": {
+        "bytes": 377,
+        "filename": "LICENSE.txt",
+        "sha256": "96c7ae27a8e1fb5b9b952f4551c4166f4eb45d0b142e05bb764e1730743b1b64",
+        "text": "Atelier lamp by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/atelier-lamp/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 77372,
+      "sourceGLB": "content/assets/atelier-lamp/source/atelier-lamp.glb",
+      "sourceSha256": "c4fb091436e5233bb12492ab496d5206c413deba1bcca8e50a507568a88cc2bc",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/city-aed-cabinet/asset.json",
+      "id": "city-aed-cabinet",
+      "metadataSha256": "03d76b60b855ba4f6aec8ee39a25274b6563424783d4b85376aad574fd57cb1e",
+      "notice": {
+        "bytes": 388,
+        "filename": "LICENSE.txt",
+        "sha256": "5c18d3e674788479c76e276adfb87a689b7fd2ac9ffec9fdeb8e8dd0700e7bb8",
+        "text": "AED storage cabinet by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-aed-cabinet/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 135196,
+      "sourceGLB": "content/assets/city-aed-cabinet/source/city-aed-cabinet.glb",
+      "sourceSha256": "ea72579300ae7a7e1840849849f48902ef545b4098d471d908e3464aecf5bc79",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-bicycle-repair-stand/asset.json",
+      "id": "city-bicycle-repair-stand",
+      "metadataSha256": "50f22149fddcb54ee22c0857fdf0c41c57acf8091befe8ad540d4c5a4c230643",
+      "notice": {
+        "bytes": 405,
+        "filename": "LICENSE.txt",
+        "sha256": "f44d8667fbc204d3deda928501b6e47f56925448b8e540a138734927fa474130",
+        "text": "Public bicycle repair stand by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-bicycle-repair-stand/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 213392,
+      "sourceGLB": "content/assets/city-bicycle-repair-stand/source/city-bicycle-repair-stand.glb",
+      "sourceSha256": "aaffc90330bc46d6c60349766d21563aece9fe7fc02577b64b8809dcd5e95b71",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-bollard/asset.json",
+      "id": "city-bollard",
+      "metadataSha256": "2e27ba104837d1a5aa4abb93d4e70c27ffec2daec250a76befb6f6a1f76c33e3",
+      "notice": {
+        "bytes": 388,
+        "filename": "LICENSE.txt",
+        "sha256": "70bda498feda1d7830c6e9a128f5109f3213c56be7b3499989fa35eac8c3baf8",
+        "text": "Removable steel bollard by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-bollard/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 167892,
+      "sourceGLB": "content/assets/city-bollard/source/city-bollard.glb",
+      "sourceSha256": "333fae75f6d6eac1b305ff7d19d3962edc71224cd408fb439b58ffad1ccd9dc5",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-bus-shelter/asset.json",
+      "id": "city-bus-shelter",
+      "metadataSha256": "4c5b21da91bdc2cf14fc364d64125bc36147449688280e7f7d6794c976e08932",
+      "notice": {
+        "bytes": 388,
+        "filename": "LICENSE.txt",
+        "sha256": "54f19f09be9322b56b898ba4e8772b538a0f4fb8bd7d9d42b60bf06f1ea37bf5",
+        "text": "Compact bus shelter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-bus-shelter/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 747896,
+      "sourceGLB": "content/assets/city-bus-shelter/source/city-bus-shelter.glb",
+      "sourceSha256": "ff864a5bf8725382236360a32127c95aef180f11a84662b12efa1f893a8b72eb",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-cable-protector/asset.json",
+      "id": "city-cable-protector",
+      "metadataSha256": "c0654eb43c8d0bf1ce383977dd148637aab0f62ca7d84aa1517c34831488dc6d",
+      "notice": {
+        "bytes": 395,
+        "filename": "LICENSE.txt",
+        "sha256": "ac93e59d0443972c74e4672aacb9d4532d54dab48797b7914ded16eb914be98f",
+        "text": "Hinged cable protector by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-cable-protector/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 120528,
+      "sourceGLB": "content/assets/city-cable-protector/source/city-cable-protector.glb",
+      "sourceSha256": "f3d0f67c1d8066b7308e6156f7a334f9fbae856be5d927e30c2bde8cb7801406",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-cable-tray-elbow/asset.json",
+      "id": "city-cable-tray-elbow",
+      "metadataSha256": "d344b0a6a8fe9d7c5dab5ef67e4cf90f8d9618ed4a4b4e4d65885a2c57a42e9f",
+      "notice": {
+        "bytes": 662,
+        "filename": "LICENSE.txt",
+        "sha256": "ddc0e05d38d5010d86367b1da79b2be54bfab57049320cb202e60d3425e46354",
+        "text": "Perforated cable tray elbow by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-cable-tray-elbow/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB 7206d4ef0e520dd43df3f4443d0ff50574e8a01edea67a4dd6968740b4f0e55b.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 212116,
+      "sourceGLB": "content/assets/city-cable-tray-elbow/source/city-cable-tray-elbow.glb",
+      "sourceSha256": "5e270086df52cdfd1d801445eaeb5c16a23e1296f92ca9afd4fbb7120e93558e",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-casement-window/asset.json",
+      "id": "city-casement-window",
+      "metadataSha256": "927ef76229e159546d4bd8990e4e8bebe3f33eb4ab2260a0d3103e301555f7bb",
+      "notice": {
+        "bytes": 398,
+        "filename": "LICENSE.txt",
+        "sha256": "5db6c979c815c8b0da756579e8956417229349d5dc4b5f7246ebaeae4477e40b",
+        "text": "Twin casement window unit by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-casement-window/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 262272,
+      "sourceGLB": "content/assets/city-casement-window/source/city-casement-window.glb",
+      "sourceSha256": "6d188a36193cbcf98c88dbdef9394e6e27a90c85e4bf15cf3cfaed2ee776ba6e",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-commuter-bicycle/asset.json",
+      "id": "city-commuter-bicycle",
+      "metadataSha256": "f90e47bf8e2de0a45aa6c3559d7b421067bcc433dc41831bd7c17d304a786fe1",
+      "notice": {
+        "bytes": 555,
+        "filename": "LICENSE.txt",
+        "sha256": "5193ba1cb7b8edd2ba09f642f012ad98cafa23adc939f030e26e5328e3c2ed9f",
+        "text": "City commuter bicycle by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-commuter-bicycle/\nProvided as-is, without warranties (license Section 5).\nChanges: Repeated static details grouped by material and named assembly with original triangle-corner normals, UVs and material records preserved; no geometry simplification.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2463908,
+      "sourceGLB": "content/assets/city-commuter-bicycle/source/city-commuter-bicycle.glb",
+      "sourceSha256": "c66ef97bae7dd28d84adc334e03c7302a2b1a0c76e1ce38fdf3369a4d6085896",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-concrete-mixer/asset.json",
+      "id": "city-concrete-mixer",
+      "metadataSha256": "349e2268c681877da4a7d24b07048e804eb74bd84fb91753222b0548ad47de2a",
+      "notice": {
+        "bytes": 394,
+        "filename": "LICENSE.txt",
+        "sha256": "390fe13a19f406a3cd80308a03b0dc3e73dd3242cc5c0bf71f1e605b1ace5aa8",
+        "text": "Compact concrete mixer by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-concrete-mixer/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 883336,
+      "sourceGLB": "content/assets/city-concrete-mixer/source/city-concrete-mixer.glb",
+      "sourceSha256": "1d1a89e9e8440a49382ea40c6ab865da2644fa28c74317c64c1d66f9c18c4ba2",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-construction-wheelbarrow/asset.json",
+      "id": "city-construction-wheelbarrow",
+      "metadataSha256": "2edc9d66278cd9b6de70780a900cca2c766626ceef4e5d7d7ad7eb48747ecf77",
+      "notice": {
+        "bytes": 406,
+        "filename": "LICENSE.txt",
+        "sha256": "c2886d89dd85d5ba352d1ee62e0ad34fa7b27b3d3696c53314c52934420b9ddb",
+        "text": "Construction wheelbarrow by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-construction-wheelbarrow/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 490960,
+      "sourceGLB": "content/assets/city-construction-wheelbarrow/source/city-construction-wheelbarrow.glb",
+      "sourceSha256": "45c1cc1137cea956e8b2012c7dbb5f5cb01934f53de5d4a56a0cb813d06d61bb",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-convex-mirror/asset.json",
+      "id": "city-convex-mirror",
+      "metadataSha256": "b08d99e9e5f8cbb25e45c37c6e3ef0dfb1514bdafd3aeb3f4efee08313eac8a4",
+      "notice": {
+        "bytes": 398,
+        "filename": "LICENSE.txt",
+        "sha256": "13106c7e9eeea7861ea7f53305e943de8a10059d3304fb48ee07130847641736",
+        "text": "Street convex safety mirror by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-convex-mirror/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 562044,
+      "sourceGLB": "content/assets/city-convex-mirror/source/city-convex-mirror.glb",
+      "sourceSha256": "c6cdaed8bc1f62a3a92eb20df4ea907fe4cf5e3650185c1c010c66ae6d4812af",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-crossing-pushbutton/asset.json",
+      "id": "city-crossing-pushbutton",
+      "metadataSha256": "2e5872f4daacd7287eb4c748b32e333c4e3c4f556a833889d9aefc16498b1036",
+      "notice": {
+        "bytes": 417,
+        "filename": "LICENSE.txt",
+        "sha256": "d54750f423c8b88b627d1a7b61b3aef85ef8192e0da6ab9a7becb0db62b899ac",
+        "text": "Pedestrian crossing pushbutton enclosure by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-crossing-pushbutton/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 855536,
+      "sourceGLB": "content/assets/city-crossing-pushbutton/source/city-crossing-pushbutton.glb",
+      "sourceSha256": "9071388cee6e96c7630ef077d817bcb6f217b0e88d686d84c3fc0c40469eff1f",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-curb-corner/asset.json",
+      "id": "city-curb-corner",
+      "metadataSha256": "b6d482345f5d71f8c6d163bb5a8a619f5db39e61a9c740ab9d037c9827c502c6",
+      "notice": {
+        "bytes": 387,
+        "filename": "LICENSE.txt",
+        "sha256": "97a79a034eb2930c42084ae80ff2acdcc112c2f743cb53313d15fc1b2a6c93c6",
+        "text": "Curved curb corner by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-curb-corner/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 29264,
+      "sourceGLB": "content/assets/city-curb-corner/source/city-curb-corner.glb",
+      "sourceSha256": "61a7ff739811d7f340bb69c861f9a3e19fa18b69d58fcfcc4b8e3daf35ee8327",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-curb-ramp/asset.json",
+      "id": "city-curb-ramp",
+      "metadataSha256": "7ef6dc542c17f8401540d876ccd1c7a611b4bcd6de64f9fdcb692b809b0d046c",
+      "notice": {
+        "bytes": 385,
+        "filename": "LICENSE.txt",
+        "sha256": "46000f86084eee711559d705dfa5f8199c9f6acd19c6ec6a1b4157a257e61a1c",
+        "text": "Portable curb ramp by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-curb-ramp/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 51768,
+      "sourceGLB": "content/assets/city-curb-ramp/source/city-curb-ramp.glb",
+      "sourceSha256": "8707d9f90d4c39b2a802edeb511726a2e55131f51acc2551ae4ea5aae022dc0b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-cycle-rack/asset.json",
+      "id": "city-cycle-rack",
+      "metadataSha256": "5fc314638bd9fee4d3cc1e25ab2767801d9c9a4b81e473825c44fa4206a77432",
+      "notice": {
+        "bytes": 389,
+        "filename": "LICENSE.txt",
+        "sha256": "39f7c786867014f00a98c3b92daf4f767aa8d436d7613378fe83230e51f092c1",
+        "text": "Inverted-U cycle rack by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-cycle-rack/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 116344,
+      "sourceGLB": "content/assets/city-cycle-rack/source/city-cycle-rack.glb",
+      "sourceSha256": "47c14a8cabaf055246260d407a206f1935db9f0e2d203042e002fbd018aa6557",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-downspout/asset.json",
+      "id": "city-downspout",
+      "metadataSha256": "2fe0c715f0284677aeb7b75bcdc36f3275074f21e23e828ca7c93470f1753f15",
+      "notice": {
+        "bytes": 393,
+        "filename": "LICENSE.txt",
+        "sha256": "2b839904242b2a17618486f2c0a8f75d50eecb2e23b944b117ebac5168274f86",
+        "text": "Offset rainwater downspout by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-downspout/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 831252,
+      "sourceGLB": "content/assets/city-downspout/source/city-downspout.glb",
+      "sourceSha256": "ea6a62bc2f926e90bcf9c26cb23a072d3e030f8ed65fcaa51a7f3de9ad21c8bf",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-drinking-fountain/asset.json",
+      "id": "city-drinking-fountain",
+      "metadataSha256": "289f446135f395db91c824549a1e924210b55ace2b494a662cdface9679aeccd",
+      "notice": {
+        "bytes": 404,
+        "filename": "LICENSE.txt",
+        "sha256": "8e5413890a9d736afbce59fe59334be9e53a1e3328ade6e4fff9782638d8723f",
+        "text": "Dual-height drinking fountain by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-drinking-fountain/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 429592,
+      "sourceGLB": "content/assets/city-drinking-fountain/source/city-drinking-fountain.glb",
+      "sourceSha256": "d000afa4edfd136889d028916c693f267ab6f75df40ae9b77b81c4a47f3fc3a8",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-electric-kick-scooter/asset.json",
+      "id": "city-electric-kick-scooter",
+      "metadataSha256": "7c6ec35ce128d5d7d2de645b50fd950b430971a879f00315e22572917239f216",
+      "notice": {
+        "bytes": 400,
+        "filename": "LICENSE.txt",
+        "sha256": "847d820b677ffdc8b57f214f18c1a33395aacdc3d3911cbaa9aa98d19bf4ecb5",
+        "text": "Electric kick scooter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-electric-kick-scooter/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1590528,
+      "sourceGLB": "content/assets/city-electric-kick-scooter/source/city-electric-kick-scooter.glb",
+      "sourceSha256": "5ad70d948adf95f9afdc7eb6465956e3cdde19ed9849b67f74ceb318ed85d9c8",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-ev-charger/asset.json",
+      "id": "city-ev-charger",
+      "metadataSha256": "c7394e35ea077005a10bdb73ef6678c04f50ce4bc6b9f6129d2c715bae50f2fb",
+      "notice": {
+        "bytes": 391,
+        "filename": "LICENSE.txt",
+        "sha256": "5bac0521e720ce8f27987f562c029288109e2c958410f287a6b0e418a7ae234e",
+        "text": "Street EV charging post by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-ev-charger/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 425696,
+      "sourceGLB": "content/assets/city-ev-charger/source/city-ev-charger.glb",
+      "sourceSha256": "b31e99f8649705336487e49eccbd45c0602e3bed5eb0710c9a0d29e3990fbbd5",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-exterior-clock/asset.json",
+      "id": "city-exterior-clock",
+      "metadataSha256": "2f173c000dfbb75b952ce73c63565e1f1582f745471503e4e433d2967f01af1c",
+      "notice": {
+        "bytes": 391,
+        "filename": "LICENSE.txt",
+        "sha256": "3a662479d67199a8438086672577e1df3804fad459f5a17d8b44236b5dec35eb",
+        "text": "Exterior wall clock by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-exterior-clock/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 253260,
+      "sourceGLB": "content/assets/city-exterior-clock/source/city-exterior-clock.glb",
+      "sourceSha256": "c99fc4be579a08587595259b5761a2df8b1f98a773fb0ddaf32f31ccab980b63",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-fire-hose-cabinet/asset.json",
+      "id": "city-fire-hose-cabinet",
+      "metadataSha256": "716828bb30327e59e1489def8b7ba8f638d8f3f46120eb4bc02f0a4539d7bdf8",
+      "notice": {
+        "bytes": 405,
+        "filename": "LICENSE.txt",
+        "sha256": "87bf1d5acf673986930eee6ae2bf2873600ce3218326ed22e5fb1e43220aaf5d",
+        "text": "Wall-mounted fire hose cabinet by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-fire-hose-cabinet/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 574852,
+      "sourceGLB": "content/assets/city-fire-hose-cabinet/source/city-fire-hose-cabinet.glb",
+      "sourceSha256": "c4b997a41b47e4c5fe3ea1c3cc592b731844b77095a10a611a20f3b149833929",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-fire-hydrant/asset.json",
+      "id": "city-fire-hydrant",
+      "metadataSha256": "9c0b0003aab90232430ece9827beb4a1ffdf931bda8e648f8eb3080f6ff3fc01",
+      "notice": {
+        "bytes": 393,
+        "filename": "LICENSE.txt",
+        "sha256": "fee25396939060036199542a14ab77df88cf3f7999af13ef9963bc4e239e0309",
+        "text": "Two-outlet fire hydrant by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-fire-hydrant/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 837636,
+      "sourceGLB": "content/assets/city-fire-hydrant/source/city-fire-hydrant.glb",
+      "sourceSha256": "d1bc2122951422088e009264e254c008510ae46ed9d489823334fafc14eb5dfe",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-glazed-entry-door/asset.json",
+      "id": "city-glazed-entry-door",
+      "metadataSha256": "049e0a49942871d20b73704648650d9439c64107b6793dfde14861dc2ad33d91",
+      "notice": {
+        "bytes": 397,
+        "filename": "LICENSE.txt",
+        "sha256": "a25562e8d2a2899add2903d4a32fc724e6a570f0cd39b6b5ce2d0bf0b2bb6936",
+        "text": "Glazed shop entry door by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-glazed-entry-door/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 327880,
+      "sourceGLB": "content/assets/city-glazed-entry-door/source/city-glazed-entry-door.glb",
+      "sourceSha256": "4955b4d64e195087c1c2eced0810afbdd1159eb1302802d67be2615f5a9e4c1f",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-hvac-condenser/asset.json",
+      "id": "city-hvac-condenser",
+      "metadataSha256": "9d65626a7e59830720d8ea264a5cd9822dac757e5b28b544ce4927796cb3e243",
+      "notice": {
+        "bytes": 655,
+        "filename": "LICENSE.txt",
+        "sha256": "ed61fa13ffc57c2e668e290d4c32897f7d188c52c0433484e51a66d15c5e5620",
+        "text": "Outdoor HVAC condenser by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-hvac-condenser/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB 28464d3d54c7a1aa79f5927bb5a20d2674bd3879c436d7c40b74a6c43e244d52.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1685364,
+      "sourceGLB": "content/assets/city-hvac-condenser/source/city-hvac-condenser.glb",
+      "sourceSha256": "fd3dfb184b40cbd680671454a7c1482091105f55dae99f9cb249a9f07f9a5cdf",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-inspection-cover/asset.json",
+      "id": "city-inspection-cover",
+      "metadataSha256": "3f14ea25789677bd70d790730a6043df277643d9a140427c97de7348c7c6158e",
+      "notice": {
+        "bytes": 657,
+        "filename": "LICENSE.txt",
+        "sha256": "0eb6c79cbbe749eb7fd1a61558a3c6f5d610b8d7d7afcff0b860b08c54647f8f",
+        "text": "Round inspection cover by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-inspection-cover/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB e9d35fa99548e219b0f45186dd3be09458852a690fd9b8e1cea0467b2de2497d.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1327768,
+      "sourceGLB": "content/assets/city-inspection-cover/source/city-inspection-cover.glb",
+      "sourceSha256": "00715745aa12e7506908837c805048e86bffdcd6081fe3559a06b9bf1cf64f69",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-lifebuoy-station/asset.json",
+      "id": "city-lifebuoy-station",
+      "metadataSha256": "85a27a3915bc006e533408e100c8162d15cb173fbd3251433a2e67da01769880",
+      "notice": {
+        "bytes": 390,
+        "filename": "LICENSE.txt",
+        "sha256": "7564643e22f33f09cee620b4fc0631ccf5805e82e6813351a01a4cc4aecd24f4",
+        "text": "Lifebuoy station by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-lifebuoy-station/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 211220,
+      "sourceGLB": "content/assets/city-lifebuoy-station/source/city-lifebuoy-station.glb",
+      "sourceSha256": "1a9d16667441bbde4e3292fee149f444b37ea02cf9a424bc97c4d9ab6d57b60d",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-litter-bin/asset.json",
+      "id": "city-litter-bin",
+      "metadataSha256": "f6265f9df2f4a2945dcfdc693d1192dfd8e53617eb1196b18f31acc6b5e080ef",
+      "notice": {
+        "bytes": 385,
+        "filename": "LICENSE.txt",
+        "sha256": "73feff9dbde8b70d2c2cd972d9da977e0c5112105e7cbcc1c4a5436db362b249",
+        "text": "Street litter bin by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-litter-bin/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 280776,
+      "sourceGLB": "content/assets/city-litter-bin/source/city-litter-bin.glb",
+      "sourceSha256": "b07c0cc79cf33c2777c1395e3d0ef60aac98d216f4717d8573ee31e365d64c78",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-maintenance-ladder/asset.json",
+      "id": "city-maintenance-ladder",
+      "metadataSha256": "7fe814aba139cbae599be3d272de87b1f6655294fc2d7739d0ba257c09d7f237",
+      "notice": {
+        "bytes": 400,
+        "filename": "LICENSE.txt",
+        "sha256": "04cdb951e1d4effc71dd7c0edf4258565fa4d60ce5ab315e4636cc43c2c7b4db",
+        "text": "Caged maintenance ladder by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-maintenance-ladder/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 289400,
+      "sourceGLB": "content/assets/city-maintenance-ladder/source/city-maintenance-ladder.glb",
+      "sourceSha256": "d8e7759b0cd6b85481e03132eefe4fe75061026666de1f2c49fd90943cc93fcb",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-pallet-jack/asset.json",
+      "id": "city-pallet-jack",
+      "metadataSha256": "2b5927bc767e0b235669b83d0ff1159a7d743ec9893b31d6b5af1e43a746cde3",
+      "notice": {
+        "bytes": 387,
+        "filename": "LICENSE.txt",
+        "sha256": "88a35f44e0c5503bf6c9a0823f7a0755c34fac3d03430f4467db439c2817bd19",
+        "text": "Manual pallet jack by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-pallet-jack/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 798052,
+      "sourceGLB": "content/assets/city-pallet-jack/source/city-pallet-jack.glb",
+      "sourceSha256": "a00adcb2b67ae2e9096db94ea99f398162065406dbbb7a6442b852633d11aa4c",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-parcel-locker/asset.json",
+      "id": "city-parcel-locker",
+      "metadataSha256": "2a264a7d061ddcc704db961b2415e26537911c0bef2eb900f152300865d5bcfa",
+      "notice": {
+        "bytes": 397,
+        "filename": "LICENSE.txt",
+        "sha256": "0d269f7b9224d30ff77c1d0be809a50a08c5e016bc172db1527019f375ccb3b7",
+        "text": "Outdoor parcel locker bank by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-parcel-locker/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 558664,
+      "sourceGLB": "content/assets/city-parcel-locker/source/city-parcel-locker.glb",
+      "sourceSha256": "cff42eb6b08b110599c174f8d44819c3f2f94e5cd07d54b1f6e8876661c776b4",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-parking-boom-gate/asset.json",
+      "id": "city-parking-boom-gate",
+      "metadataSha256": "dc5722d3150251de2ea13f027fbc996625fd74a2b85b8eb9405fb3349e09d282",
+      "notice": {
+        "bytes": 392,
+        "filename": "LICENSE.txt",
+        "sha256": "a2051bbbfc560585b27d2e453f47dfcc461415c75bbd6b1e5968e50acf7d4056",
+        "text": "Parking boom gate by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-parking-boom-gate/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 595452,
+      "sourceGLB": "content/assets/city-parking-boom-gate/source/city-parking-boom-gate.glb",
+      "sourceSha256": "e386e0ec9793f465480d919caa0d699b72698e2bd4ec3c199308ea82c053c230",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-parking-meter/asset.json",
+      "id": "city-parking-meter",
+      "metadataSha256": "79e4433d8de385904d3c986c3aaff0590b172c50e2cde103922f3c52df5a6513",
+      "notice": {
+        "bytes": 399,
+        "filename": "LICENSE.txt",
+        "sha256": "1c8e9a6e6439edefca16b653a3ebb929832f4e63038ecf920add2ca4758f44a9",
+        "text": "Street parking payment meter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-parking-meter/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 442888,
+      "sourceGLB": "content/assets/city-parking-meter/source/city-parking-meter.glb",
+      "sourceSha256": "d8be91575aed2c66c00f163ec00fe4b7b80eaa7055750a997d2fe91fd6cb9739",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-pedestrian-railing/asset.json",
+      "id": "city-pedestrian-railing",
+      "metadataSha256": "5dbfeb897b5167836fd6cc2af2e7a551320fc77d0cc510de26d1d680ffb9c923",
+      "notice": {
+        "bytes": 400,
+        "filename": "LICENSE.txt",
+        "sha256": "29cb5fb4e266a262097b25f93fdc27fd05447fab98c3ae1c861ed81cfd102811",
+        "text": "Pedestrian railing panel by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-pedestrian-railing/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 135328,
+      "sourceGLB": "content/assets/city-pedestrian-railing/source/city-pedestrian-railing.glb",
+      "sourceSha256": "172339ddad310eec488bee984faacc113707f3bfd8c93ace10e989def0211a83",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-pet-bag-dispenser/asset.json",
+      "id": "city-pet-bag-dispenser",
+      "metadataSha256": "c0bf90536e833fb613b0b8ddbbf73bd95443e8d87ae1ce9b8a665c37e9b23300",
+      "notice": {
+        "bytes": 392,
+        "filename": "LICENSE.txt",
+        "sha256": "2d2e3c23c11f331de5a73a4abceafece473dc639d7e89a97a14f1779e0450af4",
+        "text": "Pet bag dispenser by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-pet-bag-dispenser/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 72928,
+      "sourceGLB": "content/assets/city-pet-bag-dispenser/source/city-pet-bag-dispenser.glb",
+      "sourceSha256": "fea27d1be1c40fa420e1eadd9378e2444c3b5e48dc3ff48c05e5810b935148e0",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-playground-slide/asset.json",
+      "id": "city-playground-slide",
+      "metadataSha256": "69c8ea96f5eb3a3f98ba2df0b77df0eb548449c7f5c767434a88466621a6d302",
+      "notice": {
+        "bytes": 390,
+        "filename": "LICENSE.txt",
+        "sha256": "f9ee3f29ba3a543af8b27aedaec5537e5789342b13c4c13c3c99c3b9b92e1ca8",
+        "text": "Playground slide by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-playground-slide/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 270568,
+      "sourceGLB": "content/assets/city-playground-slide/source/city-playground-slide.glb",
+      "sourceSha256": "0e264f4f4908c4d8a0eca1441ad46529da70c9f17ec5a15e6204874decad3d56",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-playground-swing/asset.json",
+      "id": "city-playground-swing",
+      "metadataSha256": "b91bf84c3130f69ac0b63f8269f26204eaa6bb5f48499e40235b78d9e0a304e6",
+      "notice": {
+        "bytes": 390,
+        "filename": "LICENSE.txt",
+        "sha256": "478da76d1e242ef61fcb8b0bd553c901b291b00839a14e2d6f30e6025d45ef35",
+        "text": "Playground swing by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-playground-swing/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 527644,
+      "sourceGLB": "content/assets/city-playground-swing/source/city-playground-swing.glb",
+      "sourceSha256": "bbcea804a0718a0b8cd9ce229cde42838f9239501244287c06845fc6634ed645",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-portable-toilet/asset.json",
+      "id": "city-portable-toilet",
+      "metadataSha256": "2f2312666281b2deb3f9ec94a5c5ad2a3fb8c6980969b4e6fa2c91b3c1e73c40",
+      "notice": {
+        "bytes": 394,
+        "filename": "LICENSE.txt",
+        "sha256": "8a148d9676823000f1f908e672931500699f1430902bc2dc16e5fbedcff2208b",
+        "text": "Portable toilet cabin by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-portable-toilet/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 819288,
+      "sourceGLB": "content/assets/city-portable-toilet/source/city-portable-toilet.glb",
+      "sourceSha256": "08ccb01464c868ee21756a3087ce109b7390f9c63a3c62ee60aa5f8ad6e60098",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-postal-box/asset.json",
+      "id": "city-postal-box",
+      "metadataSha256": "04e6f3477d1be9f7aaf2d1bf9cc17f5f02b9f07f784a8b1c240002fb1cda4299",
+      "notice": {
+        "bytes": 390,
+        "filename": "LICENSE.txt",
+        "sha256": "7c0a5ff1ba19c805af68f3083722c7609bb48678a41a1c2417f9db0591dc3aab",
+        "text": "Street postal drop box by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-postal-box/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 295880,
+      "sourceGLB": "content/assets/city-postal-box/source/city-postal-box.glb",
+      "sourceSha256": "21c462218985a8f0606f69de1f0bea67ca09846852db41c7972c83c9d8348d22",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-pruned-street-tree/asset.json",
+      "id": "city-pruned-street-tree",
+      "metadataSha256": "a2388410ad98acf0152ce8e92afd1af72090b85d1da32f5b89962c7ce3a4ec9f",
+      "notice": {
+        "bytes": 394,
+        "filename": "LICENSE.txt",
+        "sha256": "f2526b26ab234c3c42b2d683d1565395e4256872e2b50ed7046c6cde5e918fe9",
+        "text": "Pruned street tree by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-pruned-street-tree/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 6975348,
+      "sourceGLB": "content/assets/city-pruned-street-tree/source/city-pruned-street-tree.glb",
+      "sourceSha256": "35741f5c17ee44e0c994f23f2cc6cdea21cccae69185d089363b18b55528a696",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-public-telephone/asset.json",
+      "id": "city-public-telephone",
+      "metadataSha256": "e8e6406a596d263c732b7e80c4ccbb30a2cd0c193af6a786eedf3805d10dfad4",
+      "notice": {
+        "bytes": 407,
+        "filename": "LICENSE.txt",
+        "sha256": "811f4ed555ca9af200efde1a7a6f425eb4cc09748e19cd383c87d0bbc6438b03",
+        "text": "Outdoor public telephone pedestal by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-public-telephone/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 817692,
+      "sourceGLB": "content/assets/city-public-telephone/source/city-public-telephone.glb",
+      "sourceSha256": "890b7dc561c322f97e1ed30ecf390c72e7de84c485571e553dfb5d70326d1c78",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-recycling-station/asset.json",
+      "id": "city-recycling-station",
+      "metadataSha256": "766b50aab7f0ceb62164407716385a7ba9a09400548f151ccf8cb209cde90919",
+      "notice": {
+        "bytes": 405,
+        "filename": "LICENSE.txt",
+        "sha256": "4edc793aacadaf9589c09f446f49863ccf84a0e03195376bf5d3d65c07b6c303",
+        "text": "Three-stream recycling station by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-recycling-station/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 541568,
+      "sourceGLB": "content/assets/city-recycling-station/source/city-recycling-station.glb",
+      "sourceSha256": "b648e1edeaa0e68060583521dbcf5f1db0a9263eb119af4ab1cd03b86a5755a2",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-retractable-awning/asset.json",
+      "id": "city-retractable-awning",
+      "metadataSha256": "4261c60a20552f44e78b6155df772899843c6c74218b27aee8ddd8f879f63fd4",
+      "notice": {
+        "bytes": 403,
+        "filename": "LICENSE.txt",
+        "sha256": "037c4ae095e62113ac092f0cda751464ad05dfc1e8c35ee9576c5845e692f536",
+        "text": "Extended retractable awning by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-retractable-awning/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 385972,
+      "sourceGLB": "content/assets/city-retractable-awning/source/city-retractable-awning.glb",
+      "sourceSha256": "c900c3932764e1a16ba6215ba401c877a36ba1ebf6115e2cfac892d8fff9c15a",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-road-barrier/asset.json",
+      "id": "city-road-barrier",
+      "metadataSha256": "a5d192f0b39f72580e8cf5f635196b70b7e5a5f67260566524bd68490f095faa",
+      "notice": {
+        "bytes": 393,
+        "filename": "LICENSE.txt",
+        "sha256": "51951f554f259cd94100fab04be7af6571ca85827e5e54a419cbcd3b0dec6705",
+        "text": "Water-fill road barrier by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-road-barrier/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 274236,
+      "sourceGLB": "content/assets/city-road-barrier/source/city-road-barrier.glb",
+      "sourceSha256": "dad16a9cbedc900fef29cfff31b42dc943bc6a37ddaf2bcc85ca141539945671",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-roller-shutter/asset.json",
+      "id": "city-roller-shutter",
+      "metadataSha256": "2400757dd597a887ce94a0e317460cedfcbad1a97aa158c16ea13e274249bd1d",
+      "notice": {
+        "bytes": 657,
+        "filename": "LICENSE.txt",
+        "sha256": "e353418aaa3397746965558465f74798c7fc5260669ce7a94c84f25550062aee",
+        "text": "Shopfront roller shutter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-roller-shutter/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB a1efa8331eed084c34270ccac4c2f6dbe78a03322cada6e72205f84f9194e672.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 494732,
+      "sourceGLB": "content/assets/city-roller-shutter/source/city-roller-shutter.glb",
+      "sourceSha256": "8033643e7de8c047b06146d892bfcd962bfdc5119fa0262681951d1ce8d34c48",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-roof-access-hatch/asset.json",
+      "id": "city-roof-access-hatch",
+      "metadataSha256": "4a47b74d286e621d40cbcf5767df779c3816118b16f774ea5a8b98d103c11a71",
+      "notice": {
+        "bytes": 397,
+        "filename": "LICENSE.txt",
+        "sha256": "6c31ed27c527b92e67c1f97b2628d8d5dfa63d2378d8d35653d40560ed93e35c",
+        "text": "Open roof access hatch by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-roof-access-hatch/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 141336,
+      "sourceGLB": "content/assets/city-roof-access-hatch/source/city-roof-access-hatch.glb",
+      "sourceSha256": "2e7aa4a5e928e7790800b4a4a641d54b66a4b0ffba2855518bd162482fd394e5",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-roof-exhaust-cowl/asset.json",
+      "id": "city-roof-exhaust-cowl",
+      "metadataSha256": "5946eef5c01db5d6fe0dc2df412e29a7d19ba2c8e2347103b5300a723a62d986",
+      "notice": {
+        "bytes": 401,
+        "filename": "LICENSE.txt",
+        "sha256": "3f652a46d568562635d0c83c27b7731a9553c126ce857723ee1f7efcf142b5e0",
+        "text": "Mushroom roof exhaust cowl by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-roof-exhaust-cowl/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 927708,
+      "sourceGLB": "content/assets/city-roof-exhaust-cowl/source/city-roof-exhaust-cowl.glb",
+      "sourceSha256": "0d29cff6e0e5f0b0fc3944ad0807d238c13ba41e82cafe331509c3f3f2c29593",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-sack-hand-truck/asset.json",
+      "id": "city-sack-hand-truck",
+      "metadataSha256": "bbaef1267e4273cbda2e339f0409174169e38f2078f670d71a6088e220ec9fd1",
+      "notice": {
+        "bytes": 398,
+        "filename": "LICENSE.txt",
+        "sha256": "598dc02bc371b05ab57bf62d72563630dff2ef74bb882b9f564c0453edc72ed5",
+        "text": "Two-wheel sack hand truck by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-sack-hand-truck/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1202476,
+      "sourceGLB": "content/assets/city-sack-hand-truck/source/city-sack-hand-truck.glb",
+      "sourceSha256": "1d8f70d403e991664b31a3a697ffd8a5c5df54dd99aadbb208b327c315590ead",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-satellite-dish/asset.json",
+      "id": "city-satellite-dish",
+      "metadataSha256": "3ce79ddc31ea9b9cee324fb386b9dd62f3ad70a92a1db0f2b00628cbb3551caf",
+      "notice": {
+        "bytes": 394,
+        "filename": "LICENSE.txt",
+        "sha256": "23cd74bd31becdd0b55a74307b9b128329a821392c70e926623ca02769c55000",
+        "text": "Compact satellite dish by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-satellite-dish/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1372212,
+      "sourceGLB": "content/assets/city-satellite-dish/source/city-satellite-dish.glb",
+      "sourceSha256": "ac674da25b4cb31eb5466206fa449c0d7020444c002aae1dbb0a4057b1d2f40f",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-scaffold-bay/asset.json",
+      "id": "city-scaffold-bay",
+      "metadataSha256": "d86d5391235afd4d523e79f7b7878950534302d195426ae382bb0ab69bc0060e",
+      "notice": {
+        "bytes": 650,
+        "filename": "LICENSE.txt",
+        "sha256": "8463ff7bf7e605bb5d21c98814b9d4fb39a1fef6c01a5eb70b69d34d435320a9",
+        "text": "Single scaffold bay by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-scaffold-bay/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB 2879dba0bf94cf59c330b1aad18da8f8a14f1f0e18e750f5a453086d707888ea.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1651424,
+      "sourceGLB": "content/assets/city-scaffold-bay/source/city-scaffold-bay.glb",
+      "sourceSha256": "4694c1fd591d89a93a1fa95a3f708dc68010bb7a9e00012ccb5dbd159bd8e9cc",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-security-camera/asset.json",
+      "id": "city-security-camera",
+      "metadataSha256": "30208984fc21e219604f3d827a01d132fac794adc1833c0a36de3f7d28d6a431",
+      "notice": {
+        "bytes": 410,
+        "filename": "LICENSE.txt",
+        "sha256": "3953ff0c60e8fe4bc3b924949806ac1d089324ca01e8879dbeb685fb72ea9693",
+        "text": "Wall-mounted exterior security camera by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-security-camera/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 339000,
+      "sourceGLB": "content/assets/city-security-camera/source/city-security-camera.glb",
+      "sourceSha256": "43c4c3e514866760f72ae65f0545cc7c4929b416a48f7e5135587aa3eb4f6b82",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-shopping-trolley/asset.json",
+      "id": "city-shopping-trolley",
+      "metadataSha256": "638a7686cdc3f70d0c0af725aa4f2822e758fe559e4ed31a963464e1c127869d",
+      "notice": {
+        "bytes": 555,
+        "filename": "LICENSE.txt",
+        "sha256": "0526e9cf2aa47a1c8dacf8d526174c44481a228226bc589a1a535ab2da66a80c",
+        "text": "Wire shopping trolley by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-shopping-trolley/\nProvided as-is, without warranties (license Section 5).\nChanges: Repeated static details grouped by material and named assembly with original triangle-corner normals, UVs and material records preserved; no geometry simplification.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1291504,
+      "sourceGLB": "content/assets/city-shopping-trolley/source/city-shopping-trolley.glb",
+      "sourceSha256": "12b8a7a48443ae6cd59a71844418af75aa8f9fdf938913b7e80a21b5f37bcb28",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-solar-module-rack/asset.json",
+      "id": "city-solar-module-rack",
+      "metadataSha256": "02e03472162fb7a9a87dce03518b2facc8d0d9920c56df7a306787c3ab792850",
+      "notice": {
+        "bytes": 664,
+        "filename": "LICENSE.txt",
+        "sha256": "f60b5e34e55b66b25570a43374782a21d96852a7907c7fc45f39ed9ce0254595",
+        "text": "Solar module on ballast rack by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-solar-module-rack/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB 5594c3d40b99310a0f4e0a847b8602a6dd7dd91f4c8ef154345be2b143caa60a.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1090868,
+      "sourceGLB": "content/assets/city-solar-module-rack/source/city-solar-module-rack.glb",
+      "sourceSha256": "c895d5649b2540c8b3c51dc64257bf927dcf3dcfe128e76eae217edecc3aca06",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-speed-cushion/asset.json",
+      "id": "city-speed-cushion",
+      "metadataSha256": "53e4f9e8491729d646177ddb3d3c5ee483fc6f593dc36e571f7f75cdcc6e048a",
+      "notice": {
+        "bytes": 389,
+        "filename": "LICENSE.txt",
+        "sha256": "f4988759468208218ba76c6d9cc68f16e2e329ecbfe1ad3965acf69d52a588e4",
+        "text": "Road speed cushion by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-speed-cushion/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 164884,
+      "sourceGLB": "content/assets/city-speed-cushion/source/city-speed-cushion.glb",
+      "sourceSha256": "57d5b53192f7ce4ceaaa4f1bb11e3f88466e518f7381a60e1a12957863bb02c0",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-storm-drain/asset.json",
+      "id": "city-storm-drain",
+      "metadataSha256": "9092a44dc75fc42b27517c2901fcf9237448122818e7967f1cc6e07b4000812d",
+      "notice": {
+        "bytes": 391,
+        "filename": "LICENSE.txt",
+        "sha256": "66c3461f4b8648b30c09d852a47eb96365cc50e01a54adb472b1ac464765a941",
+        "text": "Road storm drain grate by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-storm-drain/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 473916,
+      "sourceGLB": "content/assets/city-storm-drain/source/city-storm-drain.glb",
+      "sourceSha256": "56112a1a8319f5f1ada2e690d024afc0a47b29e28f245cdf63ec6e5665f32a0b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-streetlight/asset.json",
+      "id": "city-streetlight",
+      "metadataSha256": "cc3183b4666273df26968da0c9e76515c69a83633ca68a5563e39d7cdf152ba9",
+      "notice": {
+        "bytes": 391,
+        "filename": "LICENSE.txt",
+        "sha256": "44777f78bc051e85db7ea13692b12fe86131a0c29e0bdb5a91c3fa722c851972",
+        "text": "Modern LED streetlight by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-streetlight/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 674200,
+      "sourceGLB": "content/assets/city-streetlight/source/city-streetlight.glb",
+      "sourceSha256": "34259d4e18e74ff72f3d1f2897f2fea56d34158af24e3f9ad5c5dbbefd3f4c9a",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-tactile-paving/asset.json",
+      "id": "city-tactile-paving",
+      "metadataSha256": "11e269476486f0b557b52d207fd1bc2d3904d7d0c21a9b42229fe9b280564890",
+      "notice": {
+        "bytes": 399,
+        "filename": "LICENSE.txt",
+        "sha256": "63b34cb255176daaf324e897e77f1402d44149034bd7d0947b65d04df31ac773",
+        "text": "Tactile warning paving slab by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-tactile-paving/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 102472,
+      "sourceGLB": "content/assets/city-tactile-paving/source/city-tactile-paving.glb",
+      "sourceSha256": "c24f0018e9163d90b461e8be1a85ae7a7bc31c6a00fe1050cbdb283ce3931295",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-ticket-validator/asset.json",
+      "id": "city-ticket-validator",
+      "metadataSha256": "ce256a080d6ffcbe4b1cd3ba94ee75351ff3404073857f535b57760e2efdb38d",
+      "notice": {
+        "bytes": 398,
+        "filename": "LICENSE.txt",
+        "sha256": "0b1f17058594a4a7a6df799d0bcf7a611ba5edc88e30228ed50589f92d8203f0",
+        "text": "Transit ticket validator by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-ticket-validator/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 273108,
+      "sourceGLB": "content/assets/city-ticket-validator/source/city-ticket-validator.glb",
+      "sourceSha256": "6901988cbd199a3455698887c8510939fd858d5e1bf654368be4f724a705039f",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-traffic-cone/asset.json",
+      "id": "city-traffic-cone",
+      "metadataSha256": "6a5798578fd0333f45b61ad22bf8a786061711f4e49aa6f21bfce32cf057606b",
+      "notice": {
+        "bytes": 393,
+        "filename": "LICENSE.txt",
+        "sha256": "106fe1a5ff9fbef9be8591a275f023a16206968af9f8913ae46be4d964fb08d4",
+        "text": "Reflective traffic cone by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-traffic-cone/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 74348,
+      "sourceGLB": "content/assets/city-traffic-cone/source/city-traffic-cone.glb",
+      "sourceSha256": "a3cd7cde1338ad1c50d73bb86065755188ae404db4d53acfaf4f7229e1482ac4",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-traffic-signal/asset.json",
+      "id": "city-traffic-signal",
+      "metadataSha256": "acc52b98ef2626297ebff4342ba91585dfcf683bac72e362021ba8ae690d37da",
+      "notice": {
+        "bytes": 399,
+        "filename": "LICENSE.txt",
+        "sha256": "78f4ff3d5687395200cb7b62c62543fe81f207f8d1a741321905c2d728e5e873",
+        "text": "Three-aspect traffic signal by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-traffic-signal/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 971388,
+      "sourceGLB": "content/assets/city-traffic-signal/source/city-traffic-signal.glb",
+      "sourceSha256": "a063b4d2a257040fd2a2df617ed9688a746912bd0d97332beee1b9bb1d640217",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-tree-grate/asset.json",
+      "id": "city-tree-grate",
+      "metadataSha256": "7bf2fd635dbef4b158d732f34d96aebdbbb8b936ab4d6f4b7eb03b5bf0eb9b0f",
+      "notice": {
+        "bytes": 388,
+        "filename": "LICENSE.txt",
+        "sha256": "41abc18fa89ed596c24a17d393b3a81b9897d7b10476ca26cba7c1f59c274289",
+        "text": "Two-piece tree grate by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-tree-grate/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 136552,
+      "sourceGLB": "content/assets/city-tree-grate/source/city-tree-grate.glb",
+      "sourceSha256": "63c1bba91e64f783d6debe53bc15c66c6b09ab300a801b93b9b7736d73a08f9b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-tree-guard/asset.json",
+      "id": "city-tree-guard",
+      "metadataSha256": "23790bda0f41849ede812c64f387b3c8d5d0d22fa1eac39ac8a61daa1582a2fd",
+      "notice": {
+        "bytes": 385,
+        "filename": "LICENSE.txt",
+        "sha256": "54f0ae19b9491367da1a46d4105b1875963e0320e0ced4134324c39812d11e0b",
+        "text": "Street tree guard by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-tree-guard/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 179664,
+      "sourceGLB": "content/assets/city-tree-guard/source/city-tree-guard.glb",
+      "sourceSha256": "5b0d434cd45fdfc84eba930ee49e729b4a9c9d6be19672c6a198f0a5b196a5e4",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-tripod-turnstile/asset.json",
+      "id": "city-tripod-turnstile",
+      "metadataSha256": "4aed82e2004adbd415a8d07afea27e10828ddb37109ea8c4d714288f2cbdfd02",
+      "notice": {
+        "bytes": 390,
+        "filename": "LICENSE.txt",
+        "sha256": "24418c718adc06732758cb3b67d2014af40e3d6af2135d743fc4c65ed82a0275",
+        "text": "Tripod turnstile by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-tripod-turnstile/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 131612,
+      "sourceGLB": "content/assets/city-tripod-turnstile/source/city-tripod-turnstile.glb",
+      "sourceSha256": "f21475df2d9cd18ec1157bc15298a4aa650e0737e856d49a2fe2a66b50867006",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-vending-machine/asset.json",
+      "id": "city-vending-machine",
+      "metadataSha256": "3e879e89e3a203385ec262f940c603f61738d4323247ec109d2b4e8ba32fbf94",
+      "notice": {
+        "bytes": 555,
+        "filename": "LICENSE.txt",
+        "sha256": "68997a7c39b567d379b44297c78e3a35a5d189e4238b471dd49dd20ed660ab25",
+        "text": "Street vending machine by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-vending-machine/\nProvided as-is, without warranties (license Section 5).\nChanges: Repeated static details grouped by material and named assembly with original triangle-corner normals, UVs and material records preserved; no geometry simplification.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1421680,
+      "sourceGLB": "content/assets/city-vending-machine/source/city-vending-machine.glb",
+      "sourceSha256": "c9e596eea4553326dde415a86968e57fafe49a03ff2ceb250bfb8f99732e6a0b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-ventilation-outlet/asset.json",
+      "id": "city-ventilation-outlet",
+      "metadataSha256": "a567fc67fb610b9c4a2adcd4dabaf445085ff28fd1f17b36e4a68b60bc81e72f",
+      "notice": {
+        "bytes": 660,
+        "filename": "LICENSE.txt",
+        "sha256": "c3a8821cf575f167f6bee39da53a44fd48dd964cedf7765a6ed8508c9ba0d9f1",
+        "text": "Wall ventilation louver by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-ventilation-outlet/\nProvided as-is, without warranties (license Section 5).\nChanges: Static repeated mesh parts grouped by original material within named major assemblies; no decimation, remeshing, UV change or material change. Candidate equivalence audited against frozen original GLB 49c551213a6c89938b4716a1ae6df221a5612aa7c9bbed162e542ea81745666f.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 685036,
+      "sourceGLB": "content/assets/city-ventilation-outlet/source/city-ventilation-outlet.glb",
+      "sourceSha256": "c54885d80ec8e8ea3a3c77644adaa59399cef05f138ee0b9bce5d403e52157cc",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-wall-intercom/asset.json",
+      "id": "city-wall-intercom",
+      "metadataSha256": "6c23d14b525f6535887e64c447024c4414945953b5802132551fdcbd6a1c1c41",
+      "notice": {
+        "bytes": 390,
+        "filename": "LICENSE.txt",
+        "sha256": "215192dff95bd595804a1623462c71b7edc7c037e7c321b8155cd8e389484429",
+        "text": "Wall entry intercom by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-wall-intercom/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 348028,
+      "sourceGLB": "content/assets/city-wall-intercom/source/city-wall-intercom.glb",
+      "sourceSha256": "70237ae639223707b2774372e29a9e6dc722e2a1c6ce02d8994277b9d15423fb",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/city-wheel-stop/asset.json",
+      "id": "city-wheel-stop",
+      "metadataSha256": "087004e10ef327ab67b311a89d45d6ce9ab2689361e73c01207908bcca5d45ee",
+      "notice": {
+        "bytes": 386,
+        "filename": "LICENSE.txt",
+        "sha256": "d644a8ca3ffe99daeaec7629a29d5ff1ec1bc966f65b882521f39ae5106da138",
+        "text": "Precast wheel stop by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/city-wheel-stop/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 39608,
+      "sourceGLB": "content/assets/city-wheel-stop/source/city-wheel-stop.glb",
+      "sourceSha256": "c784e1d9d85f1707109d380e88f26b08acd44ac0c7ef32c87e61b830bda11654",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/commons-bar-counter/asset.json",
+      "id": "commons-bar-counter",
+      "metadataSha256": "1c8be6ba95cb78b5626c45d498bb248d311202cc3baa1bc989a37af0504b337b",
+      "notice": {
+        "bytes": 698,
+        "filename": "LICENSE.txt",
+        "sha256": "42f40312b32bd4a13cf6953d325e94c35d2b0ef81381768a843779b5ea33239a",
+        "text": "Commons slatted bar counter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-bar-counter/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 7391604,
+      "sourceGLB": "content/assets/commons-bar-counter/source/commons-bar-counter.glb",
+      "sourceSha256": "eece42dd823e6e4e359d09b63ab5d5480ec4fb97bba82811585a109b69f2bcf2",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-bar-stool/asset.json",
+      "id": "commons-bar-stool",
+      "metadataSha256": "9537db5460a620ac1b62ffcf06d893a4c76f86041e3d1305906826d276fe1a5e",
+      "notice": {
+        "bytes": 686,
+        "filename": "LICENSE.txt",
+        "sha256": "7a8a40b5842fe08e139bdc26a36cbcfbc9e607a59951eacdad34ce31444d77ff",
+        "text": "Commons bar stool by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-bar-stool/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 8301196,
+      "sourceGLB": "content/assets/commons-bar-stool/source/commons-bar-stool.glb",
+      "sourceSha256": "65f0305aa2a8b2c67e27f1e9c0cfa004bcd0b6b71d90712da678c10cf0e32909",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-book-set/asset.json",
+      "id": "commons-book-set",
+      "metadataSha256": "3cd16b287ec74701e340d5b7a62c9959254f8fc183a0afe13645a96bce261f9f",
+      "notice": {
+        "bytes": 688,
+        "filename": "LICENSE.txt",
+        "sha256": "06852e7135582e2368b9f6488724e127726577a858beedf365ae202a77be0c70",
+        "text": "Commons six book set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-book-set/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 8497636,
+      "sourceGLB": "content/assets/commons-book-set/source/commons-book-set.glb",
+      "sourceSha256": "2e2648646c65c1a2668ad4a9c66bffa39f8e2537a8d84a7dab0cb57ad4637f70",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-bottle-set/asset.json",
+      "id": "commons-bottle-set",
+      "metadataSha256": "9f8055fa5a21635cc564b23ff4c447388d639f0447071bda7495bfee7f4f16e5",
+      "notice": {
+        "bytes": 692,
+        "filename": "LICENSE.txt",
+        "sha256": "392de4234bfe9299b889855443493c65a9cce5ed31c01f05923bb06cd1a8454d",
+        "text": "Commons six bottle set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-bottle-set/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 5832752,
+      "sourceGLB": "content/assets/commons-bottle-set/source/commons-bottle-set.glb",
+      "sourceSha256": "594c2f5d6ffda81ce82ff4b1d68c06a20cc474e50e0edc0df2aff636c957a297",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-coffee-bag/asset.json",
+      "id": "commons-coffee-bag",
+      "metadataSha256": "016ed58bc4578049d4616352254f44407c2fd37727ed7c6d285d1ec3eebae8b6",
+      "notice": {
+        "bytes": 688,
+        "filename": "LICENSE.txt",
+        "sha256": "625fde537d57e74bd3bc1c35a8b7b08616fb64dffa40bec5f969a4307328e288",
+        "text": "Commons coffee bag by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-coffee-bag/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 5459584,
+      "sourceGLB": "content/assets/commons-coffee-bag/source/commons-coffee-bag.glb",
+      "sourceSha256": "b674b960882552c7c9592ef5397ae96ab49abeab7fa7c93733aab9ef7104fcbe",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-coffee-cup/asset.json",
+      "id": "commons-coffee-cup",
+      "metadataSha256": "2d1021aeb03974b804baa007efc1e15ed8eb3b7f9fe24817ec74cff37b763064",
+      "notice": {
+        "bytes": 688,
+        "filename": "LICENSE.txt",
+        "sha256": "51b213ba44654a3ed1689b595e135a07b5e06508b00eda97ddb550026bbcbf45",
+        "text": "Commons coffee cup by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-coffee-cup/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 16832,
+      "sourceGLB": "content/assets/commons-coffee-cup/source/commons-coffee-cup.glb",
+      "sourceSha256": "ed13883177803c7552f3ff014a8d05dc981fc7a5ab9bfa289abaf36011697c22",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-coffee-grinder/asset.json",
+      "id": "commons-coffee-grinder",
+      "metadataSha256": "b3a92faa6466497f0d99dcd8f228589fa2bd019902e336e46b7dd388c1941e81",
+      "notice": {
+        "bytes": 696,
+        "filename": "LICENSE.txt",
+        "sha256": "9f922fcb751face27f030c1e933ad06ef36c75b91815de568d3c2e80ae299685",
+        "text": "Commons coffee grinder by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-coffee-grinder/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2568112,
+      "sourceGLB": "content/assets/commons-coffee-grinder/source/commons-coffee-grinder.glb",
+      "sourceSha256": "f4a9ee51508b79bf56efcd2e4d20c056fe57b59ee0b5616ea6128caa0c5084bd",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-display-plinth/asset.json",
+      "id": "commons-display-plinth",
+      "metadataSha256": "0f2d394af9765fe3abce2cf89bd9299dc1fba4ca8b2cb2f7ec8d7e06ffc86f7f",
+      "notice": {
+        "bytes": 696,
+        "filename": "LICENSE.txt",
+        "sha256": "7cbdcfe90c753621e91fb688026d01866d48d3504c7efc4400fe11f7f90fbd6e",
+        "text": "Commons display plinth by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-display-plinth/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2614372,
+      "sourceGLB": "content/assets/commons-display-plinth/source/commons-display-plinth.glb",
+      "sourceSha256": "f44656159264a7a34e6d9a3490e089df34ae1e345b17fc1a2b241c7a033fd77d",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-dj-controller/asset.json",
+      "id": "commons-dj-controller",
+      "metadataSha256": "0bb9371a8353a4290abdb947e31b93921b014e321fb885dc886496023cec7deb",
+      "notice": {
+        "bytes": 694,
+        "filename": "LICENSE.txt",
+        "sha256": "934c1e14b907f55e56afa48d20ab75604d90efe2d76e66fd77601b752b11402a",
+        "text": "Commons DJ controller by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-dj-controller/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 7635592,
+      "sourceGLB": "content/assets/commons-dj-controller/source/commons-dj-controller.glb",
+      "sourceSha256": "f4cede52a0856512b596ba6532fdcf6bf15fcddd74f8399e167ac20e8bab21b5",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-dj-desk/asset.json",
+      "id": "commons-dj-desk",
+      "metadataSha256": "4253b1585dd0f89b1105bff34a95c7cd8dba8d6b3d1be2cf50c214f95cbd44fa",
+      "notice": {
+        "bytes": 687,
+        "filename": "LICENSE.txt",
+        "sha256": "9330b724ede5be3a178bdb20277b9b732608568717d1ae8814abc36de168deaa",
+        "text": "Commons work counter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-dj-desk/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 4864184,
+      "sourceGLB": "content/assets/commons-dj-desk/source/commons-dj-desk.glb",
+      "sourceSha256": "0cbd99b9bf87abae3744e16a81ca8a704a8c0e7f3b6368707273658c0ef52faa",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-equipment-rack/asset.json",
+      "id": "commons-equipment-rack",
+      "metadataSha256": "235f2099532b498ad2894a8970cf663f2820244266286ef90b8cf32da70477cf",
+      "notice": {
+        "bytes": 696,
+        "filename": "LICENSE.txt",
+        "sha256": "dcd3476c32b5f42bb67247a0a91892c6867b1427d1482f87a272f0af39d6a925",
+        "text": "Commons equipment rack by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-equipment-rack/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 5598264,
+      "sourceGLB": "content/assets/commons-equipment-rack/source/commons-equipment-rack.glb",
+      "sourceSha256": "67e262e4a7b7cfdb1a4f6f81c66976b09323f3425f76e67261d1fe0d214c1f7a",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-espresso-machine/asset.json",
+      "id": "commons-espresso-machine",
+      "metadataSha256": "180dff363efd03e19952cc68135af22a2713b8d8b9341e3547cc052090ee29bd",
+      "notice": {
+        "bytes": 700,
+        "filename": "LICENSE.txt",
+        "sha256": "04ac305d17c4788aeaf77fe5e4d35883f3bfdb2bf1bdafd8b53ef16cef7ce79b",
+        "text": "Commons espresso machine by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-espresso-machine/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 8023892,
+      "sourceGLB": "content/assets/commons-espresso-machine/source/commons-espresso-machine.glb",
+      "sourceSha256": "23b8ddd1375e1f3f9d7e253edb64e234e4939edb8972dddd79bc9d297200e3e6",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-floating-bookshelf/asset.json",
+      "id": "commons-floating-bookshelf",
+      "metadataSha256": "81736f2a613b07313a5462d3632cee198e7933bdea47d958951546251f92a5e1",
+      "notice": {
+        "bytes": 704,
+        "filename": "LICENSE.txt",
+        "sha256": "9709a586f68a5dd9a50e544a736e5dabc282febebcdaa73567aabe7521890d42",
+        "text": "Commons floating bookshelf by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-floating-bookshelf/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 8637644,
+      "sourceGLB": "content/assets/commons-floating-bookshelf/source/commons-floating-bookshelf.glb",
+      "sourceSha256": "a3f56738a819e1942990daa7650f55d8317e5019e7f4731f5874e764872e13a5",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-halo-light/asset.json",
+      "id": "commons-halo-light",
+      "metadataSha256": "eede77e6697e597a6e1e244c1cf0929c637538b0d9c0c4960328a14185ca6303",
+      "notice": {
+        "bytes": 688,
+        "filename": "LICENSE.txt",
+        "sha256": "7e4d97fc9e17ce1845af0a8cac26353cc4faf4e2677f14cd4e3e789f4efa9aa1",
+        "text": "Commons halo light by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-halo-light/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2598924,
+      "sourceGLB": "content/assets/commons-halo-light/source/commons-halo-light.glb",
+      "sourceSha256": "0194346e547c9bb91d23ce06f315cd450b77e650694479687b1970370886b5ac",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-leaf-planter/asset.json",
+      "id": "commons-leaf-planter",
+      "metadataSha256": "72994810f4d99db1c197a085f37165a4f6299a84a84337736237bcb64864c5f7",
+      "notice": {
+        "bytes": 693,
+        "filename": "LICENSE.txt",
+        "sha256": "d411af0145a61d92b53d4cc1ad700c74ec6c3e6f7a865e36b90991c0b114a4af",
+        "text": "Commons leafy planter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-leaf-planter/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 35536,
+      "sourceGLB": "content/assets/commons-leaf-planter/source/commons-leaf-planter.glb",
+      "sourceSha256": "fa01490c78227f359bc29da3c74f96dff0c79b8ee6f77d3a3698a084cffdf83c",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-lounge-chair/asset.json",
+      "id": "commons-lounge-chair",
+      "metadataSha256": "7050ab9d47968192435bf839d96697ffb0f4701903b98ec74a72f679146fb520",
+      "notice": {
+        "bytes": 692,
+        "filename": "LICENSE.txt",
+        "sha256": "b8d59698c5365b441821ef31b7eed9dcc3378be16e333b330e17d72f3696f47a",
+        "text": "Commons lounge chair by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-lounge-chair/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 5737468,
+      "sourceGLB": "content/assets/commons-lounge-chair/source/commons-lounge-chair.glb",
+      "sourceSha256": "80d92acdba9117d13e3b9991f1e4f407d3da3c78f15c6c8afd5103c632445a4b",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-lounge-sofa/asset.json",
+      "id": "commons-lounge-sofa",
+      "metadataSha256": "a43443107a18054e6c287a77b011b91874e4c3743d2b80fe392848f3e8a0d9e0",
+      "notice": {
+        "bytes": 690,
+        "filename": "LICENSE.txt",
+        "sha256": "7fc6244c9506cbed39b8e5527544ba7f0f20620f8134efb9773639f5545f02ba",
+        "text": "Commons lounge sofa by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-lounge-sofa/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 5752624,
+      "sourceGLB": "content/assets/commons-lounge-sofa/source/commons-lounge-sofa.glb",
+      "sourceSha256": "b5ef4bb0bb41ce2a5cecf90fb34c037817e9f2ce85da67b0bbd7f24fbfff88ac",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-low-table/asset.json",
+      "id": "commons-low-table",
+      "metadataSha256": "373b96fac2d4f123d73affe40165e7826ad637f8a1fa24368af9693096e77ae9",
+      "notice": {
+        "bytes": 686,
+        "filename": "LICENSE.txt",
+        "sha256": "2999a92103a65fc3c3f6c917d3e7d39f30438c3796e38c837aad115a50c26b9f",
+        "text": "Commons low table by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-low-table/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 7374364,
+      "sourceGLB": "content/assets/commons-low-table/source/commons-low-table.glb",
+      "sourceSha256": "be230bd1a6ab7dc69261ea4e8ceeee01880773a6db702ec5e065acb10ab2ca09",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-pa-speaker/asset.json",
+      "id": "commons-pa-speaker",
+      "metadataSha256": "738e28548018b12b741f35d0946969995109815a9b1049896af141330985c574",
+      "notice": {
+        "bytes": 688,
+        "filename": "LICENSE.txt",
+        "sha256": "dae95f00cb89a154d0edc4bb62a1ad0d1f3d8f88331b973d7fbce8bc38a9892a",
+        "text": "Commons PA speaker by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-pa-speaker/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2589024,
+      "sourceGLB": "content/assets/commons-pa-speaker/source/commons-pa-speaker.glb",
+      "sourceSha256": "f2f2fd6764ef79623cb917177be632db4d423ecd1caacecc2d135b937090aec9",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-pendant-light/asset.json",
+      "id": "commons-pendant-light",
+      "metadataSha256": "21c797a5ec5b6a9510418d29895abf3a35b349852df7590af9839f911c313482",
+      "notice": {
+        "bytes": 694,
+        "filename": "LICENSE.txt",
+        "sha256": "a94118ae6ca54120c7394c7eb340c18c157c9b6d2bb55715af1512df1f169c1a",
+        "text": "Commons pendant light by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-pendant-light/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2574080,
+      "sourceGLB": "content/assets/commons-pendant-light/source/commons-pendant-light.glb",
+      "sourceSha256": "4d3b5cf0ef3e92984082ab834311186b80e9cb1dee1da1d8a61929a8a2d92fd6",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-poster-frame/asset.json",
+      "id": "commons-poster-frame",
+      "metadataSha256": "521d9cbc23041794d820303f03d87a7ae9bd26870eaefbd8920244eb2018b471",
+      "notice": {
+        "bytes": 692,
+        "filename": "LICENSE.txt",
+        "sha256": "a96ade51f9bc683567a2692829ef7740ee7e10c7b57ee8db55078b5c3aaae058",
+        "text": "Commons poster frame by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-poster-frame/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 2487240,
+      "sourceGLB": "content/assets/commons-poster-frame/source/commons-poster-frame.glb",
+      "sourceSha256": "49e753c5af9c49252c442d144fbbad2363cb7e512764f2cbbd724462a0822cee",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-round-stage/asset.json",
+      "id": "commons-round-stage",
+      "metadataSha256": "e4694299e68c0d9daac09a4ba36caf0dbf12fa094257f9876a18dc7a2aae0478",
+      "notice": {
+        "bytes": 690,
+        "filename": "LICENSE.txt",
+        "sha256": "e64bef2d05141d10a38162ebf95b33abe5fbed605e13986440a5f71396c49e82",
+        "text": "Commons round stage by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-round-stage/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 4943124,
+      "sourceGLB": "content/assets/commons-round-stage/source/commons-round-stage.glb",
+      "sourceSha256": "4f7f95253b5ea95e88afd6ada386eba660d357398c34b90046e17adb2d947a13",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-round-table/asset.json",
+      "id": "commons-round-table",
+      "metadataSha256": "a1155f5bf0556c831958387554072dae217c32c9b4d93ffb7c6778153f2bd651",
+      "notice": {
+        "bytes": 695,
+        "filename": "LICENSE.txt",
+        "sha256": "9a1d71872d7b3d83f5cd63c8fffa42c7ca38b40e1db7c9276b2716498c2e3647",
+        "text": "Commons round cafe table by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-round-table/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 7374360,
+      "sourceGLB": "content/assets/commons-round-table/source/commons-round-table.glb",
+      "sourceSha256": "72a8de07c6a648136b4b9293c39bcffbe45e66fbda39ddd846d80df873a52048",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/commons-table-candle/asset.json",
+      "id": "commons-table-candle",
+      "metadataSha256": "2c36822ac82b711d4cc2ecd55bacbd763883401c1f4f6958e756dc097f2e1e0c",
+      "notice": {
+        "bytes": 692,
+        "filename": "LICENSE.txt",
+        "sha256": "7f11465ce7a9074b019bf3fdd9c6febf5a8a8a5f58c9e0cd949e30ec5ae06769",
+        "text": "Commons table candle by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/commons-table-candle/\nOriginal source: https://github.com/Xenoah/vrcworld_tech-tech-cafe/tree/784e040a866c0081d6641c03cbf7f23d48a59dc2\nProvided as-is, without warranties (license Section 5).\nChanges: Selected original meshes extracted; chamfers evaluated; pivot centered at base; meter scale and Y-up retained; original PNG bytes and mirror/clamp sampling preserved. Unity behaviors omitted.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 7204,
+      "sourceGLB": "content/assets/commons-table-candle/source/commons-table-candle.glb",
+      "sourceSha256": "7ae6dacfaf33ff18eb3eecf19990a1b01c9e7faf633c66d9dc4e5f91b33706b7",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/field-terminal/asset.json",
+      "id": "field-terminal",
+      "metadataSha256": "a51769415db35efd636e2156aa445ce8cf66d60c5446cc6754f99573910f8d71",
+      "notice": {
+        "bytes": 381,
+        "filename": "LICENSE.txt",
+        "sha256": "2a5cd8bc676e6b2ee892e555fe9ada3162b5a4c566e47e1113911533f7cd1a20",
+        "text": "Field terminal by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/field-terminal/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 13332,
+      "sourceGLB": "content/assets/field-terminal/source/field-terminal.glb",
+      "sourceSha256": "fa34860230fb45295547c7157655cad09d2534961753c5291d590da01612f32f",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/garden-arch/asset.json",
+      "id": "garden-arch",
+      "metadataSha256": "dbab6658eca0cb8d97984b10e29dd78aab51aa6c9abf02df52b2996282601677",
+      "notice": {
+        "bytes": 375,
+        "filename": "LICENSE.txt",
+        "sha256": "1d7e14ba104db24faaa0cde16075ca3bb3b464a9e3c878597d2574f9a8bbfef5",
+        "text": "Garden arch by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/garden-arch/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 23768,
+      "sourceGLB": "content/assets/garden-arch/source/garden-arch.glb",
+      "sourceSha256": "dc79f39085819a2d682e7dcc2154118f5ee955333fa33b21b5a408c01a88b97c",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/market-crate/asset.json",
+      "id": "market-crate",
+      "metadataSha256": "45830d59f7a3612d95a1a643d7a81b84739455904be158a96f9ddc5f890fe226",
+      "notice": {
+        "bytes": 377,
+        "filename": "LICENSE.txt",
+        "sha256": "d3f868cf74685759070dd3a299453a227aaee069a8afd17f3a5c7e3a618d4518",
+        "text": "Market crate by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/market-crate/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 42340,
+      "sourceGLB": "content/assets/market-crate/source/market-crate.glb",
+      "sourceSha256": "09a19171e73ee3352e4e83b3ebe87b56a9f34ea4c7631cd0b02798ad67901f55",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/slat-bench/asset.json",
+      "id": "slat-bench",
+      "metadataSha256": "2ea3467e35f56701a7f2944cbd1d7d7902e9a320989c14269530af45d7047898",
+      "notice": {
+        "bytes": 373,
+        "filename": "LICENSE.txt",
+        "sha256": "47d09e40dc45dbbfa36836b60f6466b8dced2c2e62472e4c0c46bf3c0daf3225",
+        "text": "Slat bench by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/slat-bench/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 18344,
+      "sourceGLB": "content/assets/slat-bench/source/slat-bench.glb",
+      "sourceSha256": "bb07fdd60b6f6068ac1a27b98f4cfd16ce2a1f78439b332257e4920a8152e4eb",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/studio-chair/asset.json",
+      "id": "studio-chair",
+      "metadataSha256": "b0c86adcb56322a978e5254e98aef89aa425b0eabbd16babaefd55e90f3a00c3",
+      "notice": {
+        "bytes": 377,
+        "filename": "LICENSE.txt",
+        "sha256": "43a37bcad68d02d94cf9598ebf0b310ee11f0644ecd11a1781b56aefdcf0ec58",
+        "text": "Studio chair by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/studio-chair/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 14912,
+      "sourceGLB": "content/assets/studio-chair/source/studio-chair.glb",
+      "sourceSha256": "f1edbaa23f9f7df736affc5c2e9bbd6850707388d87ea6b48049a511be0e24e5",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/terracotta-planter/asset.json",
+      "id": "terracotta-planter",
+      "metadataSha256": "6b45fbdb5dc2a91b1f949906fa663b2602249c906fa7677cb64d4dff08b094f9",
+      "notice": {
+        "bytes": 389,
+        "filename": "LICENSE.txt",
+        "sha256": "ee595ce04585155630cadcd826b7253b0f198b266ce9549024ea9a5f2937eb21",
+        "text": "Terracotta planter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/terracotta-planter/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 172052,
+      "sourceGLB": "content/assets/terracotta-planter/source/terracotta-planter.glb",
+      "sourceSha256": "b78b166a1c124deb884f1a1cb99f91e3f1d2a1da27082a3e96aefde6edc3927a",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/wayfinding-sign/asset.json",
+      "id": "wayfinding-sign",
+      "metadataSha256": "2f6db74bdfddfea2f0c3eab5dab4fd0d0f5a82786e3cf808c1552c146edc9c5d",
+      "notice": {
+        "bytes": 389,
+        "filename": "LICENSE.txt",
+        "sha256": "04f8b3d2a2b637adac790c20add9affc747188f52876099cc3ea453abb55423a",
+        "text": "Round wayfinding sign by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/wayfinding-sign/\nProvided as-is, without warranties (license Section 5).\nChanges: none.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 139968,
+      "sourceGLB": "content/assets/wayfinding-sign/source/wayfinding-sign.glb",
+      "sourceSha256": "7f44eeba72405af280222526f34e3ae1a62ac67f97516438c580899e01bcd44b",
+      "version": "1.0.1"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-banquette/asset.json",
+      "id": "yokocho-banquette",
+      "metadataSha256": "ee57ae6dbade8bc50352c52c014a9297362a26a2e5169657ad79adc4b370d5a1",
+      "notice": {
+        "bytes": 1030,
+        "filename": "LICENSE.txt",
+        "sha256": "41e8e54dcdab328b23c870d2563b6baf0d253519d8176ecb6f972b70ae455214",
+        "text": "Three-Seat Upholstered Banquette by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-banquette/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 3527088,
+      "sourceGLB": "content/assets/yokocho-banquette/source/yokocho-banquette.glb",
+      "sourceSha256": "e86a62614cd4ca8275c37bb805a9709baff1ff59a4b7ed7be08adaa4de62525b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-bard-lyre-sign/asset.json",
+      "id": "yokocho-bard-lyre-sign",
+      "metadataSha256": "e694d37b257e5162c5d87ea365cbfd19a6dd730c6ff24493b1e1356652b92431",
+      "notice": {
+        "bytes": 1028,
+        "filename": "LICENSE.txt",
+        "sha256": "6d88dabefc2881d4d864149b56675ad10342c3916042d80046b166f7dbd8302c",
+        "text": "Bard Lyre Projecting Sign by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-bard-lyre-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 64860,
+      "sourceGLB": "content/assets/yokocho-bard-lyre-sign/source/yokocho-bard-lyre-sign.glb",
+      "sourceSha256": "224768d472a8e9a5a73f2085183fc351129135f8ab43e947258a814fbd1929fc",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-booster-pump-skid/asset.json",
+      "id": "yokocho-booster-pump-skid",
+      "metadataSha256": "1a645cc2e1d28db8a75df7e76afea48205d6a0be5dc5c9f887ea694f8b5e168f",
+      "notice": {
+        "bytes": 1030,
+        "filename": "LICENSE.txt",
+        "sha256": "13ff3e92c9e91f36368830df05d2e4a020d5c5e6e34f1b54641557bfab0d914a",
+        "text": "Ground Booster Pump Unit by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-booster-pump-skid/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 227136,
+      "sourceGLB": "content/assets/yokocho-booster-pump-skid/source/yokocho-booster-pump-skid.glb",
+      "sourceSha256": "3a465a5adfc1f257cca4db81c4b1a5b20f8cf81a8b75f07e99d2d79d1f0e34a7",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-booth-table/asset.json",
+      "id": "yokocho-booth-table",
+      "metadataSha256": "6d571b195c0e361b68f893f552d137ac196d1650f26215bc903893ef516e9b65",
+      "notice": {
+        "bytes": 1017,
+        "filename": "LICENSE.txt",
+        "sha256": "a7dcf1b23c2ea0b2ffe71b4e2df53352d85d8ab6082dfe6ccbefdba3160c7625",
+        "text": "Snack Booth Table by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-booth-table/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 51180,
+      "sourceGLB": "content/assets/yokocho-booth-table/source/yokocho-booth-table.glb",
+      "sourceSha256": "f26437b3b0c5dea2c02e909b056e92e7b22f2073c7b70eb20d867d378ba7f01a",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-bottle-keep-wall/asset.json",
+      "id": "yokocho-bottle-keep-wall",
+      "metadataSha256": "e19f37c8a2cd3a296afb815676fb83f3823d41c67389f863407a89d10852701f",
+      "notice": {
+        "bytes": 1029,
+        "filename": "LICENSE.txt",
+        "sha256": "e28a8bd3fdf88b06bee84833a78eb86ceccee7204cec931d3123c3a9b6c48fb6",
+        "text": "Bottle-Keep Display Wall by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-bottle-keep-wall/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 4136436,
+      "sourceGLB": "content/assets/yokocho-bottle-keep-wall/source/yokocho-bottle-keep-wall.glb",
+      "sourceSha256": "d8c358a900ac2ff1ae1b86c439710f33ff0be13a235fa688defdb9b81d58c6f2",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-charcoal-stool-set/asset.json",
+      "id": "yokocho-charcoal-stool-set",
+      "metadataSha256": "0878a339bfefcba6b6026893f28a310d38d8bdba740625d11f0b5235eff3c9db",
+      "notice": {
+        "bytes": 1036,
+        "filename": "LICENSE.txt",
+        "sha256": "b8a603c9fcc9f4f6315e1f0f981e641b892471faa05f1e7a8d3fe7cab3892c29",
+        "text": "Charcoal Bar Timber Stool Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-charcoal-stool-set/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 196300,
+      "sourceGLB": "content/assets/yokocho-charcoal-stool-set/source/yokocho-charcoal-stool-set.glb",
+      "sourceSha256": "00189b147aa88256bd2ba62059d5b2d24cb00d62157f8f3b49c4c8305bbd55f7",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-club-armchair/asset.json",
+      "id": "yokocho-club-armchair",
+      "metadataSha256": "5e73fe714062f9a9720a143eb844f1b38564ae83fcb8df2e01191394442ceebc",
+      "notice": {
+        "bytes": 1022,
+        "filename": "LICENSE.txt",
+        "sha256": "e5562b88d696329e0129499bca65578d2eb66e1337d242d4fa08c11a0afefac3",
+        "text": "Lounge Club Armchair by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-club-armchair/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 33028,
+      "sourceGLB": "content/assets/yokocho-club-armchair/source/yokocho-club-armchair.glb",
+      "sourceSha256": "3caf3cf15be9669860e1009a0d9dbefbf5c1c1a83f3f57e46c5683c1f849fb53",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-cocktail-stool/asset.json",
+      "id": "yokocho-cocktail-stool",
+      "metadataSha256": "6dde00d310f2e3b386545c26660580a5a5b411efc8333be8740d27eefc556390",
+      "notice": {
+        "bytes": 1026,
+        "filename": "LICENSE.txt",
+        "sha256": "04438d6da7cbf43ea5cc87ac582d63db55a7cd7d2673cf9b0cef50bc62561743",
+        "text": "Cocktail Bar High Stool by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-cocktail-stool/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 33496,
+      "sourceGLB": "content/assets/yokocho-cocktail-stool/source/yokocho-cocktail-stool.glb",
+      "sourceSha256": "75aedc315176f2431a992d52275530b9fb201f6c8c258f5a183e3be07364a5b2",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-confectioner-stool-set/asset.json",
+      "id": "yokocho-confectioner-stool-set",
+      "metadataSha256": "dbc44c9949a439e21b5ef0732a566f3eb309e07c47488f3a53570001a45f0786",
+      "notice": {
+        "bytes": 1042,
+        "filename": "LICENSE.txt",
+        "sha256": "3e203f32e704acfbd8d3dbbf19d882ffbc9962bf8389032e9bb6c47776d5f253",
+        "text": "Confectioner Pedestal Stool Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-confectioner-stool-set/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 77688,
+      "sourceGLB": "content/assets/yokocho-confectioner-stool-set/source/yokocho-confectioner-stool-set.glb",
+      "sourceSha256": "0dca659e2e80441aed5283d98634014ae8e39cf0f85ad3d2e8809689384bef4d",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-dragon-ember-sign/asset.json",
+      "id": "yokocho-dragon-ember-sign",
+      "metadataSha256": "3dfd621d956a511f28d09d46fe347d64b933e6bec6be90377d8f8b475f9b3a9c",
+      "notice": {
+        "bytes": 1034,
+        "filename": "LICENSE.txt",
+        "sha256": "842d288f3e0da8677a707e165cb4bfb98f4689cc711f170b5d583a8a129a2cc0",
+        "text": "Dragon Ember Projecting Sign by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-dragon-ember-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 69308,
+      "sourceGLB": "content/assets/yokocho-dragon-ember-sign/source/yokocho-dragon-ember-sign.glb",
+      "sourceSha256": "e2ed45f2d794876a37e71aa90eb90f611279d50dcc21733da1920587a852ded0",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-entry-display-frame/asset.json",
+      "id": "yokocho-entry-display-frame",
+      "metadataSha256": "666f8f7131e875d75890ef1e9c5958fc0066d319d37bdd6d449ea4cfea3cc1e0",
+      "notice": {
+        "bytes": 1022,
+        "filename": "LICENSE.txt",
+        "sha256": "3a702a24785baaeb7b8f98f3073408d6ccb124e967615a492076dd26e90f4c77",
+        "text": "Timber Static Display Frame by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-entry-display-frame/\nOriginal source: https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 250552,
+      "sourceGLB": "content/assets/yokocho-entry-display-frame/source/yokocho-entry-display-frame.glb",
+      "sourceSha256": "244e8880798f24fb8be18248feb2e02f738a1b7c8117b46f620fba907a3debe2",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-entry-guideboard/asset.json",
+      "id": "yokocho-entry-guideboard",
+      "metadataSha256": "691bf4e9a7c6af8022a52ab67d95482fad0e75ac7f62c8ca92cf2fff0fa7a744",
+      "notice": {
+        "bytes": 1017,
+        "filename": "LICENSE.txt",
+        "sha256": "a4a99c00a9034d38695be4aad4527954e77dab5e48e58d2fa10f59e455be6943",
+        "text": "Timber Yokocho Guideboard by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-entry-guideboard/\nOriginal source: https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 381596,
+      "sourceGLB": "content/assets/yokocho-entry-guideboard/source/yokocho-entry-guideboard.glb",
+      "sourceSha256": "82b72bab769bb12178190f431e47ad3e27b3bda86977d1a0451d64c93606dfe4",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-entry-log-bench/asset.json",
+      "id": "yokocho-entry-log-bench",
+      "metadataSha256": "b52d28780bd6b04cacb8c2024c879d8e0f903d14ecc6d5a1ec6e99c6a366984e",
+      "notice": {
+        "bytes": 1005,
+        "filename": "LICENSE.txt",
+        "sha256": "9a43f7644eedd8a1357c63f2f0fda8f86f201085d88c723fdd47d4ea6d555c96",
+        "text": "Long Log Bench by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-entry-log-bench/\nOriginal source: https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 590152,
+      "sourceGLB": "content/assets/yokocho-entry-log-bench/source/yokocho-entry-log-bench.glb",
+      "sourceSha256": "b3efdc9cc7f12a43b859993caf0b661e3b341210666ac17cc367c0f9ced1616b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-entry-stump-table/asset.json",
+      "id": "yokocho-entry-stump-table",
+      "metadataSha256": "1af43f6fa7750cc97f5e35fd838327cb9768c1a91329b48aee6c686956909421",
+      "notice": {
+        "bytes": 1004,
+        "filename": "LICENSE.txt",
+        "sha256": "e0b360e188c26cd2dee13173b72ab2cb9797fe8da7adb17ffede947b6360d172",
+        "text": "Stump Table by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-entry-stump-table/\nOriginal source: https://github.com/Xenoah/meshcopia/blob/main/docs/YOKOCHO_IMPORT.md#entry-plaza\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 581456,
+      "sourceGLB": "content/assets/yokocho-entry-stump-table/source/yokocho-entry-stump-table.glb",
+      "sourceSha256": "95341bd24be9d8bd895184367980b4f9bb78aeb20d8659524d50d0be258beca9",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-geometric-backbar/asset.json",
+      "id": "yokocho-geometric-backbar",
+      "metadataSha256": "5379a687c83d424711665e60d69989665d90de030fd379883cc55ed368e88d6d",
+      "notice": {
+        "bytes": 1031,
+        "filename": "LICENSE.txt",
+        "sha256": "29a68500c77de10de6c90545f0680daff0c2e6b0ca23de14f4396444627f6c76",
+        "text": "Geometric Backbar Display by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-geometric-backbar/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 617008,
+      "sourceGLB": "content/assets/yokocho-geometric-backbar/source/yokocho-geometric-backbar.glb",
+      "sourceSha256": "a26402d18b3995eaaf4077de47fd2f464acbb02b12cd9cd71db41864a3d9d73d",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-listening-chair/asset.json",
+      "id": "yokocho-listening-chair",
+      "metadataSha256": "d32ce2b3cb09eb05e9a4d7cd484edbd5e4425c136a646e619de3c70f88b496c8",
+      "notice": {
+        "bytes": 1026,
+        "filename": "LICENSE.txt",
+        "sha256": "4e069b563d2b2e8c7f2ffb047038e5a57d6129c2db33173864dd066de05d0bda",
+        "text": "Listening Bar Armchair by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-listening-chair/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 3468912,
+      "sourceGLB": "content/assets/yokocho-listening-chair/source/yokocho-listening-chair.glb",
+      "sourceSha256": "3173e6a85aa386a2de641c5250241f59bc73214970c389bcce292ea6d30a2557",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-listening-counter/asset.json",
+      "id": "yokocho-listening-counter",
+      "metadataSha256": "57462ed3f4530f70ac727fe637da6ae7264212007d61467d1acc187ee37130f4",
+      "notice": {
+        "bytes": 1039,
+        "filename": "LICENSE.txt",
+        "sha256": "65b12ac6af3a5773fa0ccc90fe4f0d4247efeddf3e4afe8a675a6c430f8a7053",
+        "text": "Right-Angle Listening Bar Counter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-listening-counter/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 64168,
+      "sourceGLB": "content/assets/yokocho-listening-counter/source/yokocho-listening-counter.glb",
+      "sourceSha256": "83dcf525172cbbdc5d5089c9217f84584e36139526b4596b1d96b184a5536868",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-lounge-table/asset.json",
+      "id": "yokocho-lounge-table",
+      "metadataSha256": "d75bdc0234235248522968c6359cd3e776cef0551df76fbdd4c910f4a9a082c0",
+      "notice": {
+        "bytes": 1013,
+        "filename": "LICENSE.txt",
+        "sha256": "302c0d14f737e37ac73a4479eff5e4b8a25a8130aea74a31b7cf13da9a282d37",
+        "text": "Lounge Table by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-lounge-table/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 27400,
+      "sourceGLB": "content/assets/yokocho-lounge-table/source/yokocho-lounge-table.glb",
+      "sourceSha256": "eacd273d7c5a05999bc890e7c4bb4dc4c7040cbc3e26ca558faecd99d55c0f4b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-medallion-chandelier/asset.json",
+      "id": "yokocho-medallion-chandelier",
+      "metadataSha256": "3863a3efcf186d2542a8ac3664457e72c18226733c367b913ea4aecb73bb0ba1",
+      "notice": {
+        "bytes": 1040,
+        "filename": "LICENSE.txt",
+        "sha256": "baa25c7c716e96dd310b3d13859a67f5261f17e50648b4de29bd7a72fb0786ec",
+        "text": "Five-Light Medallion Chandelier by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-medallion-chandelier/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 36376,
+      "sourceGLB": "content/assets/yokocho-medallion-chandelier/source/yokocho-medallion-chandelier.glb",
+      "sourceSha256": "aa7c286d50d6eb791982eddc34f733cadf89ec4ba9711e83decd1bcb200340c0",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-mixology-tools/asset.json",
+      "id": "yokocho-mixology-tools",
+      "metadataSha256": "06e664a0452729de57bd2d571457a9fe103ce3a8a5796fd3df46ecdab81376da",
+      "notice": {
+        "bytes": 1038,
+        "filename": "LICENSE.txt",
+        "sha256": "965434f241da5753affc0812964c58570d3e7fdeb1c0b74e19e0d048497191ad",
+        "text": "Cocktail Shaker Jigger and Tray Kit by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-mixology-tools/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 30248,
+      "sourceGLB": "content/assets/yokocho-mixology-tools/source/yokocho-mixology-tools.glb",
+      "sourceSha256": "aa798edf737a60aa619e18b4b16efc3ffa1ff24132124a7bf5a5d9d3a99679b3",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-moon-tea-sign/asset.json",
+      "id": "yokocho-moon-tea-sign",
+      "metadataSha256": "cd6804a9bfbd09004f06c52025bde67f4aeb56afc9f1a6fb9e616cc216f90521",
+      "notice": {
+        "bytes": 1022,
+        "filename": "LICENSE.txt",
+        "sha256": "8549e313048aa6809f555b44700b2402655865ee34d47dc743aec96843916ff7",
+        "text": "Moon Tea Timber Sign by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-moon-tea-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 134404,
+      "sourceGLB": "content/assets/yokocho-moon-tea-sign/source/yokocho-moon-tea-sign.glb",
+      "sourceSha256": "10ca52e9ec95950eb6a3ad3e7067055fb07e4292f20c94e9f8eb3664f7c046e2",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-noh-pavilion/asset.json",
+      "id": "yokocho-noh-pavilion",
+      "metadataSha256": "403689e80500b77af382165c3bf798f3200c20aa25226160b4eee0f0adc1610f",
+      "notice": {
+        "bytes": 1025,
+        "filename": "LICENSE.txt",
+        "sha256": "ed7d6427c77f9e516908503ce38d83a827b661659374d86a416c3e917f920b55",
+        "text": "Tiled Noh Stage Pavilion by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-noh-pavilion/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 7688928,
+      "sourceGLB": "content/assets/yokocho-noh-pavilion/source/yokocho-noh-pavilion.glb",
+      "sourceSha256": "323053ed940765c9bd230bf794ec8a099556f44cdfa592ef13fe0fa7255ffd3a",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-noodle-guild-sign/asset.json",
+      "id": "yokocho-noodle-guild-sign",
+      "metadataSha256": "707af0858954f63b1435e9802f2790cc8d4e10b8c1ec207241d40a25b13aec72",
+      "notice": {
+        "bytes": 1050,
+        "filename": "LICENSE.txt",
+        "sha256": "fda3250916f8104202ed73f77166c12eac3114374618ccf5013f26d1a0af90ce",
+        "text": "Noodle Guild Projecting Sign and Pennant Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-noodle-guild-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 4619736,
+      "sourceGLB": "content/assets/yokocho-noodle-guild-sign/source/yokocho-noodle-guild-sign.glb",
+      "sourceSha256": "28e9e28a43a1ceb37730cfe3be778b295468367a109e02227f6b1701f8a8270e",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-noodle-stool-set/asset.json",
+      "id": "yokocho-noodle-stool-set",
+      "metadataSha256": "89d1c1a36adc4a672ff421ed85551f0bcc72a79c301769133b1a4209fe6b6cde",
+      "notice": {
+        "bytes": 1035,
+        "filename": "LICENSE.txt",
+        "sha256": "f6750f4617c65afc80b1a009f72dfcbcfbb13eab48f080ff56e375ced71185fe",
+        "text": "Noodle Diner Tubular Stool Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-noodle-stool-set/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 145792,
+      "sourceGLB": "content/assets/yokocho-noodle-stool-set/source/yokocho-noodle-stool-set.glb",
+      "sourceSha256": "594837b9aa9a1a54ee3c47122c752da78530591ccb82281cdeb1423e6d1f0d2a",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-oden-bench-set/asset.json",
+      "id": "yokocho-oden-bench-set",
+      "metadataSha256": "7cd5c7b30e05f194745d21b76c4edec9a1829635548561677f11f966aef61332",
+      "notice": {
+        "bytes": 1026,
+        "filename": "LICENSE.txt",
+        "sha256": "4ab8a46348f83de6ff5467701b553e4a3248a084e089aed269b5a0bb6ba7e8fa",
+        "text": "Oden Nook Two-Bench Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-oden-bench-set/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1679528,
+      "sourceGLB": "content/assets/yokocho-oden-bench-set/source/yokocho-oden-bench-set.glb",
+      "sourceSha256": "6336bbe670a5065ca65192b344fde0c9c91d2507194958ad9306d5f1bb9e6261",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-pendant-ceiling/asset.json",
+      "id": "yokocho-pendant-ceiling",
+      "metadataSha256": "b0b489f1e61c71a8550b96684de6a18a0745bb4325681c87679908cc6d0c20ab",
+      "notice": {
+        "bytes": 1028,
+        "filename": "LICENSE.txt",
+        "sha256": "73d142d992793174f0d959eb6a8bd0ef7907a5dc6e7cb6cf51d12938b7d0785c",
+        "text": "Bar Pendant Lighting Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-pendant-ceiling/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 80468,
+      "sourceGLB": "content/assets/yokocho-pendant-ceiling/source/yokocho-pendant-ceiling.glb",
+      "sourceSha256": "766abc1b7f2ed4fc6ac8e16f6d83846c94871c024ce37179dfcf223817457b2c",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-record-library/asset.json",
+      "id": "yokocho-record-library",
+      "metadataSha256": "ef32e9f2a0119e45805a8df13ac917f4e934460377b2ac1bc52f9c1873521e3e",
+      "notice": {
+        "bytes": 1033,
+        "filename": "LICENSE.txt",
+        "sha256": "581f9edc994a4252a471a53047a34567d27c94c4680dcdc69fb7e2e02ba01281",
+        "text": "Record Library and Speaker Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-record-library/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 453728,
+      "sourceGLB": "content/assets/yokocho-record-library/source/yokocho-record-library.glb",
+      "sourceSha256": "94d87bd5beee4b41550767ad9ce6a6dc4b767381586787eb67c8f1960c14d651",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-snack-chair/asset.json",
+      "id": "yokocho-snack-chair",
+      "metadataSha256": "4004a3e39fe00af7734e8c3a4e8913ac5104fe3fe632cff45dc94242e9de823f",
+      "notice": {
+        "bytes": 1027,
+        "filename": "LICENSE.txt",
+        "sha256": "b6aa5ade197f247c2d5e3c10f83771ec979547c4019f486b1d0e52b82e951c54",
+        "text": "Snack Bar Upholstered Chair by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-snack-chair/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 3480380,
+      "sourceGLB": "content/assets/yokocho-snack-chair/source/yokocho-snack-chair.glb",
+      "sourceSha256": "75707369d83d8027866b4ba409a0e814262faaa4a7fe6116078234063157bfbb",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-snack-counter/asset.json",
+      "id": "yokocho-snack-counter",
+      "metadataSha256": "8a5b4ae7c0b1022abb4b51098c428b95f2d8e8ad6fd689645d95ebbb41ea4ced",
+      "notice": {
+        "bytes": 1024,
+        "filename": "LICENSE.txt",
+        "sha256": "af77edf42bd99a09b3ac38482f49b3213e58602738c36cb09ed4d0dffff96abe",
+        "text": "Bent Snack Bar Counter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-snack-counter/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 3536912,
+      "sourceGLB": "content/assets/yokocho-snack-counter/source/yokocho-snack-counter.glb",
+      "sourceSha256": "1fc6f18dd3e41e835126e23656245a118bbb8942c63c8a34ca8356237796ad42",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-star-distillery-sign/asset.json",
+      "id": "yokocho-star-distillery-sign",
+      "metadataSha256": "93a70f2bdcf265ad01f68415106b98f3201cab0aa8e7b68352f6956ca1873f76",
+      "notice": {
+        "bytes": 1040,
+        "filename": "LICENSE.txt",
+        "sha256": "160e606bbdbf383ddd830bc6f14a46eada6b7d06f2c7438134099a79ad838481",
+        "text": "Star Distillery Projecting Sign by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-star-distillery-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 89020,
+      "sourceGLB": "content/assets/yokocho-star-distillery-sign/source/yokocho-star-distillery-sign.glb",
+      "sourceSha256": "13a53c569911364758357ca3e34ddb557b9faa6251d97c9bbe6f0929a05fdd6b",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-tea-furniture-set/asset.json",
+      "id": "yokocho-tea-furniture-set",
+      "metadataSha256": "ac050d332ba8186d22c9edd6ddd77762118385cd6c0cb9587949484f359899b7",
+      "notice": {
+        "bytes": 1044,
+        "filename": "LICENSE.txt",
+        "sha256": "4d95f887edcaadf55dd1d62f54c2e0d23c718bcbe02de1382492ebe585d7ac5a",
+        "text": "Tea Pavilion Tables and Lattice Chairs by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-tea-furniture-set/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 1784796,
+      "sourceGLB": "content/assets/yokocho-tea-furniture-set/source/yokocho-tea-furniture-set.glb",
+      "sourceSha256": "c6dfa584b18b8d30bf7a78fccb9e25704e6403b37c1b307df0f4045fa8839ee5",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-telecom-mast/asset.json",
+      "id": "yokocho-telecom-mast",
+      "metadataSha256": "79a9402b04b1d6478643ae07411530dfa9e9223cdf2b07c5a91148f15e6db1a8",
+      "notice": {
+        "bytes": 1024,
+        "filename": "LICENSE.txt",
+        "sha256": "067f781b75e506cbbd304eaa2d5293ff9966523eae4102159f89fe9466baabc6",
+        "text": "Telecommunications Mast by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-telecom-mast/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 136092,
+      "sourceGLB": "content/assets/yokocho-telecom-mast/source/yokocho-telecom-mast.glb",
+      "sourceSha256": "e0fe0d1aebe2692f597e5f73c438385c2d19d1ed4d5dac75721ec3cc130f8b54",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-timber-stair-flight/asset.json",
+      "id": "yokocho-timber-stair-flight",
+      "metadataSha256": "6eaf3c8caf8d4dede407a58b561ccd057a5b99a9bbd7ccc3e33d24cf3e16af1d",
+      "notice": {
+        "bytes": 1027,
+        "filename": "LICENSE.txt",
+        "sha256": "b3f3f32275c9b2a18d81a2faee46808b55e258c1fc39665db9a69e7360c8a647",
+        "text": "Timber Stair Flight by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-timber-stair-flight/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 167492,
+      "sourceGLB": "content/assets/yokocho-timber-stair-flight/source/yokocho-timber-stair-flight.glb",
+      "sourceSha256": "fb0657701023eeff1f38baa037fbe316d0a58719ba4dd1963dfded11685dcec9",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-traveler-pot-sign/asset.json",
+      "id": "yokocho-traveler-pot-sign",
+      "metadataSha256": "b851319fbe515a23d19f8c049ec991ab238c26eae5a3b2c36a7051fdffc67286",
+      "notice": {
+        "bytes": 1034,
+        "filename": "LICENSE.txt",
+        "sha256": "28ace6fbfc3522780b71dc63f60763f83c6a53b4d4003ad8475618e34a7b416b",
+        "text": "Traveler Pot Projecting Sign by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-traveler-pot-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 65236,
+      "sourceGLB": "content/assets/yokocho-traveler-pot-sign/source/yokocho-traveler-pot-sign.glb",
+      "sourceSha256": "aa4afd34f21b50069b9b3e4832efe1d8d554e7189376c9d1df507a87251b3818",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-turntable-amplifier/asset.json",
+      "id": "yokocho-turntable-amplifier",
+      "metadataSha256": "9a37bf5df67a24aefae02b37bf48e8b0b66927be832751aaa4b39b13735842b1",
+      "notice": {
+        "bytes": 1035,
+        "filename": "LICENSE.txt",
+        "sha256": "68929ed9e6df8b7e323f75101c5eb46d9d765d06124a17516a69d7c2661d1ab0",
+        "text": "Turntable and Amplifier Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-turntable-amplifier/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 29064,
+      "sourceGLB": "content/assets/yokocho-turntable-amplifier/source/yokocho-turntable-amplifier.glb",
+      "sourceSha256": "463fcd18e6d56cd02b90eb4690118667b8d189ca9a8d4f2f551174dd83438fe7",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-upper-water-storage/asset.json",
+      "id": "yokocho-upper-water-storage",
+      "metadataSha256": "fa30f05bc2d74f087e44052ad4fd78f677510ab3c86ee0ba80fa9bae30464e0f",
+      "notice": {
+        "bytes": 1035,
+        "filename": "LICENSE.txt",
+        "sha256": "b0f4dc928d462926017583ccd5e1aa2d1d1755416cc9f108f0335496ccbce753",
+        "text": "Elevated Water Storage Unit by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-upper-water-storage/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 130156,
+      "sourceGLB": "content/assets/yokocho-upper-water-storage/source/yokocho-upper-water-storage.glb",
+      "sourceSha256": "79db83656bbedca24bc317843b2a445c5eead819dc858a492e63a8171cd6ae3f",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-utility-service-bank/asset.json",
+      "id": "yokocho-utility-service-bank",
+      "metadataSha256": "4865f94f4dba95908d3a7fcc4661d93b89a97520a7d5958f627bfbbad4f2fab5",
+      "notice": {
+        "bytes": 1029,
+        "filename": "LICENSE.txt",
+        "sha256": "57d88927c0e3a8867cc2688598b2cf880e9a6353168828f7ddb8e46885e6ab27",
+        "text": "Utility Service Bank by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-utility-service-bank/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 87036,
+      "sourceGLB": "content/assets/yokocho-utility-service-bank/source/yokocho-utility-service-bank.glb",
+      "sourceSha256": "8a4de5792558b07549db1286d936e964e6c9e0c62f6cf80a1c227d8cd67388a8",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-walnut-counter/asset.json",
+      "id": "yokocho-walnut-counter",
+      "metadataSha256": "2ab42578b8dc4bbcc2c970bea10dace5b303d1c3c699e5effb30ecbc15b9e2fc",
+      "notice": {
+        "bytes": 1029,
+        "filename": "LICENSE.txt",
+        "sha256": "608715a89d6d7d8da9503a8e671e8ed8ea3a5041365b090bade5816e53b09c15",
+        "text": "Stepped Walnut Bar Counter by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-walnut-counter/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 70084,
+      "sourceGLB": "content/assets/yokocho-walnut-counter/source/yokocho-walnut-counter.glb",
+      "sourceSha256": "17f06439831ca629327d9b974405146b3b4ffc7be6cd1a731badff2249b73bc9",
+      "version": "1.0.0"
+    },
+    {
+      "assetMetadata": "content/assets/yokocho-witch-moon-sign/asset.json",
+      "id": "yokocho-witch-moon-sign",
+      "metadataSha256": "7f064342f2427f44cb83a79b4d78ae3d1a4791fd880e37db4fb1f31a14480dc7",
+      "notice": {
+        "bytes": 1046,
+        "filename": "LICENSE.txt",
+        "sha256": "6f2882eb26222406596f772afb2eba35ffeb7e03968973ff14a6297fd3a1ff0e",
+        "text": "Witch Moon Projecting Sign and Pennant Set by Xenoah / Meshcopia\nCopyright (c) 2026 Xenoah\nCC BY 4.0: https://creativecommons.org/licenses/by/4.0/\nSource: https://xenoah.github.io/meshcopia/assets/yokocho-witch-moon-sign/\nOriginal source: https://github.com/Xenoah/vrcworld_jujo-yokocho/tree/97091c96cf66a0f67b952827a753a448768f175a\nProvided as-is, without warranties (license Section 5).\nChanges: Source TEXCOORD_0 buffers preserved byte-for-byte. Authored tiling/atlas coordinates may overlap and extend beyond 0–1; no new unwrap, UV2 or lightmap UVs. Original authored vertex colors preserved; allowlisted procedural/printed source PNGs embedded byte-for-byte (higher-fidelity replacements for the source GLB JPEG/resized encoding). Sampler definitions remain unchanged. External scanned materials replaced with textureless solid-color neutral PBR. STL contains geometry only and has no UVs, textures, or materials.\nAdditional changes: Converted unchanged source GLB geometry to FBX, with documented compatible material/texture derivatives.\n"
+      },
+      "sourceBytes": 3518664,
+      "sourceGLB": "content/assets/yokocho-witch-moon-sign/source/yokocho-witch-moon-sign.glb",
+      "sourceSha256": "5fbbbf7fda6aab4cce4b0f27f707211379e77481fa30967bc1d32cef3fdd9657",
+      "version": "1.0.0"
+    }
+  ],
+  "noticeGeneratorSource": {
+    "scripts/generate.mjs": "d9784998c6394044c5d46accb5ee2596f33a6ef699ae1f55b37d49e1c7865139",
+    "scripts/lib/catalog.mjs": "98df557d7ba6ae3ce942e4dafdf65601f133a974f4b5e0303c8fcd3a2f180766"
+  },
+  "protectedArchiveCount": 310,
+  "protectedArchiveLockSha256": "6cb342e1b615a081f8541f6081e598aa0fb493d29d8bf0a509ec8abaad7cbd8c",
+  "schemaVersion": 1,
+  "textureCount": 36
+}

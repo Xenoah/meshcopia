@@ -6,15 +6,16 @@
 
 ![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.3.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.10.1](https://github.com/Xenoah/meshcopia/releases/tag/v1.10.1)。合計173素材（3Dモデル137点とテクスチャ36点）を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.11.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.11.0)。合計173素材（3Dモデル137点とテクスチャ36点）を無料で取得できます。
 
 ## できること
 
 - 大きなサムネイル、名前・タグ・形式検索、カテゴリー、種類、並び替え。検索条件はURLで共有。
 - 一覧からクイック3Dプレビュー。詳細で回転・拡大・ワイヤー・ライティング・材質を切替。
-- GLB / glTF / FBX / STL / OBJ / STEPプレビュー。Three.js / occt-import-js。
+- GLB / glTF / STL / OBJ / STEPの元形式をプレビュー。Three.js / occt-import-js。追加FBXはダウンロード用で、今回のブラウザ検証対象は表示ではなくリンクと実ダウンロード。
 - 通常・鏡像リピートの1×1・2×2・4×4確認と球体表示。アトラスは非タイル素材として元の縦横比で表示。
 - 通常のZIPは1種類。検証済みの最小構成ZIPがある素材から、素材ファイル・必要な関連ファイル・短い `LICENSE.txt` 1ファイルへ移行。GLB / STL / STEPは収録されている形式の個別リンクも表示。
+- 公開済み137モデルに、追加のFBX単体ファイルと、FBX・`LICENSE.txt`のみのZIPを用意。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があります。元のPBRの見た目にはGLBを推奨。UnityやGodotで同じ見た目になるとは保証していません。
 - 全素材 **CC BY 4.0**。商用利用・改変・再配布可。作者名・出典・ライセンス・変更点の表示が必要。
 - 認証不要のJSON/NDJSONカタログ、個別マニフェスト、SHA-256、クレジットコピー。
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。

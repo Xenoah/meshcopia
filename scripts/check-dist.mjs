@@ -48,3 +48,19 @@ for(const file of (await filesIn('dist')).filter(f=>f.endsWith('.html'))){const 
 assert.ok((await readFile('dist/sitemap.xml','utf8')).includes(base+'/assets/studio-chair/'));
 await verifyArchiveLock({catalog:JSON.parse(await readFile('src/data/catalog.json','utf8')),lock:JSON.parse(await readFile(archiveLockPath,'utf8'))});
 console.log(`Verified ${catalog.assets.length} public assets, ${count} file/ZIP hashes, ZIP contents, immutable archive locks, ${verifiedMinimal.size} verified Release minimal ZIPs and ${links} internal links.`);
+
+// Separate minimal FBX projection: original catalog/minimal ZIP/bulk fields stay unchanged.
+const fbxProjection=JSON.parse(await readFile('dist/api/fbx-minimal-downloads.json','utf8'));
+const {fbxMinimalForAsset}=await import('../src/lib/fbx-minimal-downloads.mjs');
+assert.deepEqual(fbxProjection,JSON.parse(await readFile('src/data/fbx-minimal-downloads.json','utf8')),'Built FBX projection differs from generated binding');
+assert.equal(fbxProjection.schemaVersion,1);
+assert.equal(fbxProjection.coverage.publicModels,catalog.assets.filter(a=>a.type==='model').length);
+assert.equal(fbxProjection.coverage.fbxReadyModels,new Set(fbxProjection.formats.map(x=>x.id)).size);
+for(const record of fbxProjection.formats){
+ const asset=catalog.assets.find(a=>a.id===record.id&&a.version===record.assetVersion);
+ assert.ok(fbxMinimalForAsset(asset,fbxProjection),'Invalid FBX public projection');
+ const page=await readFile(await resolveFile(asset.pageUrl),'utf8');
+ assert.ok(page.includes(record.archive.url)&&page.includes(record.direct.url));
+ assert.ok(!page.includes('data-format="fbx"'),'Minimal FBX must remain download-only');
+}
+assert.ok(!Object.hasOwn(fbxProjection,'releases')&&!Object.hasOwn(fbxProjection,'provenance'),'Private QA ledger leaked');

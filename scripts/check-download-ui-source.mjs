@@ -4,13 +4,16 @@ import {readFile,mkdir,writeFile} from 'node:fs/promises';
 import {execFileSync} from 'node:child_process';
 import {transform} from '@astrojs/compiler';
 
+const {validateMinimalActivation}=await import('./lib/minimal-downloads.mjs');
+const {validateFbxMinimalActivation}=await import('./lib/fbx-minimal-downloads.mjs');
 const activation=JSON.parse(await readFile('docs/minimal-activation.json','utf8'));
-assert.deepEqual(activation,{schemaVersion:1,repository:'Xenoah/meshcopia',activations:[]},'This verification-only candidate must retain empty activation; publication proof is separate.');
+validateMinimalActivation(activation);
+const fbxActivation=validateFbxMinimalActivation(JSON.parse(await readFile('docs/fbx-minimal-activation.json','utf8')));
 const index=await readFile('src/pages/index.astro','utf8');
 for(const name of ['initCatalog','initBatchDownload'])assert.equal((index.match(new RegExp(`${name}\\(\\)`,'g'))||[]).length,1,`${name} must initialize exactly once`);
 for(const file of ['AGENTS.md','README.md','CLAUDE.md'])assert.ok((await readFile(file,'utf8')).includes('docs/ASSET_PRODUCTION_RULES.md'),`${file} must link the shared production rules`);
 assert.ok(!(await readFile('scripts/generate.mjs','utf8')).includes('prepareSidecars'),'Old FBX P must not be mixed into this ordinary download candidate');
-const syntaxFiles=['src/lib/downloads.mjs','src/lib/catalog-ui.js','src/lib/batch-download.mjs','src/lib/batch-download-ui.js','scripts/lib/minimal-downloads.mjs','scripts/lib/model-delivery-policy.mjs','scripts/generate.mjs','scripts/check-dist.mjs','scripts/record-download-browser-evidence.mjs','tests/live-browser-proof.mjs','tests/batch-download-browser.mjs'];
+const syntaxFiles=['src/lib/downloads.mjs','src/lib/catalog-ui.js','src/lib/batch-download.mjs','src/lib/batch-download-ui.js','scripts/lib/minimal-downloads.mjs','scripts/lib/model-delivery-policy.mjs','scripts/generate.mjs','scripts/check-dist.mjs','scripts/record-download-browser-evidence.mjs','tests/live-browser-proof.mjs','tests/batch-download-browser.mjs','src/lib/fbx-minimal-downloads.mjs','scripts/lib/fbx-minimal-downloads.mjs','scripts/check-fbx-minimal-baseline.mjs','scripts/test-fbx-minimal-downloads-browser.mjs'];
 for(const file of syntaxFiles)execFileSync(process.execPath,['--check',file],{stdio:'pipe'});
 const astro=[];
 for(const file of ['src/components/AssetCard.astro','src/pages/assets/[id].astro','src/pages/agents.astro','src/pages/index.astro']) {
@@ -23,6 +26,6 @@ for(const file of ['src/components/AssetCard.astro','src/pages/assets/[id].astro
   astro.push({file,diagnostics:result.diagnostics});
 }
 await mkdir('test-results',{recursive:true});
-const report={scope:'source-only; no build, publication, browser or release claim',activation:'empty',syntaxFiles,astro,sourceCommit:process.env.GITHUB_SHA??null};
+const report={scope:'source-only; no build, publication, browser or release claim',activation:activation.activations.length?'configured-not-verified':'empty',fbxActivation:fbxActivation.activations.length?'configured-not-verified':'empty',syntaxFiles,astro,sourceCommit:process.env.GITHUB_SHA??null};
 await writeFile('test-results/minimal-ui-source.json',JSON.stringify(report,null,2)+'\n');
-console.log('Candidate source checks passed; activation remains empty.');
+console.log('Candidate source checks passed; these checks do not verify configured publication evidence.');

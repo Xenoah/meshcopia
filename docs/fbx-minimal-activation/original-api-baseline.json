@@ -1,0 +1,884 @@
+{
+  "scope": "Local preserved stage6 v1.9.0 generated API; not a newly downloaded release proof",
+  "sourceBaseCommit": "4ab5342568a4227215b295b40a47c27698cc930a",
+  "publicAssets": 173,
+  "protectedArchives": 310,
+  "archiveLockSha256": "6cb342e1b615a081f8541f6081e598aa0fb493d29d8bf0a509ec8abaad7cbd8c",
+  "files": [
+    {
+      "path": "api/assets/atelier-lamp.json",
+      "bytes": 3955,
+      "sha256": "b7f9f2108a63109d83c66e29cedeaf4701e44bc8199df4765cbdfe8e464b4eb8"
+    },
+    {
+      "path": "api/assets/brushed-aluminum.json",
+      "bytes": 4101,
+      "sha256": "4a8952526aff1e87686f90023c5841f403c70d2522d2eabd1d09e8e2311d429e"
+    },
+    {
+      "path": "api/assets/cedar-boards.json",
+      "bytes": 4029,
+      "sha256": "271637f9fd5dd9da4a289a77f2f1af920f386fd5000ccb91d1c409500c589ea1"
+    },
+    {
+      "path": "api/assets/city-aed-cabinet.json",
+      "bytes": 4562,
+      "sha256": "d9beb8dfd48d13508977f88f729d60deb6ec7d24d835b23865485b9dec9a8dce"
+    },
+    {
+      "path": "api/assets/city-bicycle-repair-stand.json",
+      "bytes": 4643,
+      "sha256": "f47a946d6000966d61375381e951785756a3ee1e114413e912748400fc1a7ab1"
+    },
+    {
+      "path": "api/assets/city-bollard.json",
+      "bytes": 4191,
+      "sha256": "6810620bf3ef92e50dc40c818f3f4d4e6e16dcea5c9e43f9410c71394280ba3a"
+    },
+    {
+      "path": "api/assets/city-bus-shelter.json",
+      "bytes": 4415,
+      "sha256": "a7d0f81956d7024ef770b616abbc8fc52e18bfa0a34c2b4c313ed51148a3421b"
+    },
+    {
+      "path": "api/assets/city-cable-protector.json",
+      "bytes": 4507,
+      "sha256": "97f4cf82c01335584907c94352d264f2fb71ff7c28884a9c368c26dd3942ea90"
+    },
+    {
+      "path": "api/assets/city-cable-tray-elbow.json",
+      "bytes": 5866,
+      "sha256": "2d08299598ac04c8c36e86bb310eecaa2647f1556038432b3ca523b77a68570d"
+    },
+    {
+      "path": "api/assets/city-casement-window.json",
+      "bytes": 4734,
+      "sha256": "a59593d6062dbb2c0cb004c1ab1324fa4ca153239a7d1d67fb110c451abf3956"
+    },
+    {
+      "path": "api/assets/city-commuter-bicycle.json",
+      "bytes": 6264,
+      "sha256": "012bcb4e4ba2fab6cf5eb39fb6921f0de52cdff6b4626b331309c1e376f4edb6"
+    },
+    {
+      "path": "api/assets/city-concrete-mixer.json",
+      "bytes": 4512,
+      "sha256": "49e45112cdb0ff3e52d6938137608c519e58825bcd37bf94638d473bd265371b"
+    },
+    {
+      "path": "api/assets/city-construction-wheelbarrow.json",
+      "bytes": 4839,
+      "sha256": "81f8907aea989bf942f02ee230169eb4254b3529483e3a6efb457a269b4674e6"
+    },
+    {
+      "path": "api/assets/city-convex-mirror.json",
+      "bytes": 4479,
+      "sha256": "2a8ea759c8458bf798ecfebf084f3b80c9993595cfcb6264d59791cc254824df"
+    },
+    {
+      "path": "api/assets/city-crossing-pushbutton.json",
+      "bytes": 5937,
+      "sha256": "17d4b965b3f05717830823774087b1e09653f7787d64ad6d622eca0ffc716dfe"
+    },
+    {
+      "path": "api/assets/city-curb-corner.json",
+      "bytes": 4340,
+      "sha256": "08f5cfdcca7dbeafd031ec4bc0395da60eaf54cd50455997b1414a9c24ccf05a"
+    },
+    {
+      "path": "api/assets/city-curb-ramp.json",
+      "bytes": 4268,
+      "sha256": "2a2c45600eed2612d69228a4fb0a72ba3d664f9b2949a4dfae8dc5a2e3e5923c"
+    },
+    {
+      "path": "api/assets/city-cycle-rack.json",
+      "bytes": 4331,
+      "sha256": "e3fc8715fe7c80fe222fbfc679b781970acef327e2791313f0c7bb78bb940bdf"
+    },
+    {
+      "path": "api/assets/city-downspout.json",
+      "bytes": 4417,
+      "sha256": "dace3caee62acebcf14e7ed879c6449b6f0d802f1e2cb4b70e7e549f45f777a8"
+    },
+    {
+      "path": "api/assets/city-drinking-fountain.json",
+      "bytes": 4677,
+      "sha256": "dabb4ee5fff9a75f2ee89fb92af8961477bc44046656017d920cff2143e3a000"
+    },
+    {
+      "path": "api/assets/city-electric-kick-scooter.json",
+      "bytes": 5991,
+      "sha256": "3b1f17648008d3e2748817fc17003aa984ff89ad84cc2d3fa4500196c2d62c26"
+    },
+    {
+      "path": "api/assets/city-ev-charger.json",
+      "bytes": 4408,
+      "sha256": "f394e039218087e48b22a250b8459b3372423f7e6bcf997ff3da2acc76d843b2"
+    },
+    {
+      "path": "api/assets/city-exterior-clock.json",
+      "bytes": 4534,
+      "sha256": "8aa5afc3e8589236ff979ecb72c38f126b46920434977d92585501930ee82d2d"
+    },
+    {
+      "path": "api/assets/city-fire-hose-cabinet.json",
+      "bytes": 4540,
+      "sha256": "5e22f00514d75eb8713e1d3d7a9c1a5d3b9750c75e44824016f90ad62954664e"
+    },
+    {
+      "path": "api/assets/city-fire-hydrant.json",
+      "bytes": 4521,
+      "sha256": "3e258ee568a3262e47925fd2f2746334eca87c7f09f908005531de26435235b6"
+    },
+    {
+      "path": "api/assets/city-glazed-entry-door.json",
+      "bytes": 4811,
+      "sha256": "29f93cad6c7989d4a85aa1d8d3307970b5ee0752379ad363c7333afc1b35102c"
+    },
+    {
+      "path": "api/assets/city-hvac-condenser.json",
+      "bytes": 5804,
+      "sha256": "7eecafe92d6ce8e07b3771ed9b0ce4f573f237b0f0d1ca855744303f7fca55cc"
+    },
+    {
+      "path": "api/assets/city-inspection-cover.json",
+      "bytes": 5791,
+      "sha256": "d0b6ca325475cddb4e8ddc8d04d1fc53065e9bebafa04755cfe3ebbc55d46a7c"
+    },
+    {
+      "path": "api/assets/city-lifebuoy-station.json",
+      "bytes": 4575,
+      "sha256": "80cb27668a1ff579e7b5235d2669a504eb5f2f19dd0665fe70b3777ebe4fbc05"
+    },
+    {
+      "path": "api/assets/city-litter-bin.json",
+      "bytes": 4433,
+      "sha256": "b9711fe0fdfb913f703dcde9c224017963048ffce986db6629d15856bf0c87d3"
+    },
+    {
+      "path": "api/assets/city-maintenance-ladder.json",
+      "bytes": 4613,
+      "sha256": "de8ae6c8b82ba5ebdae883036e5b10f054495dd6acff6bdb7897644bbfbfb147"
+    },
+    {
+      "path": "api/assets/city-pallet-jack.json",
+      "bytes": 4424,
+      "sha256": "089453841f7a35e692dcdc40524c61f1f1d8c56a7dc3b0952818bd7e02f9c545"
+    },
+    {
+      "path": "api/assets/city-parcel-locker.json",
+      "bytes": 4511,
+      "sha256": "660db682e8dfa693ae08bfbf802527f2b0118c8635ee9613faace2fa85cb456b"
+    },
+    {
+      "path": "api/assets/city-parking-boom-gate.json",
+      "bytes": 4537,
+      "sha256": "d70540ad8f6616ac17ddef2bcdc79f2b83b691d659c7feaafdb2235fe6f2aae3"
+    },
+    {
+      "path": "api/assets/city-parking-meter.json",
+      "bytes": 4568,
+      "sha256": "f61c866c82365e6bd4a47419947ffab9721e3536147c8dcac41c99dfaf98ab91"
+    },
+    {
+      "path": "api/assets/city-pedestrian-railing.json",
+      "bytes": 4460,
+      "sha256": "0e6b858c3410e1fc54f8685dc286c1fc5755d39ec447405ff12fd3959007b474"
+    },
+    {
+      "path": "api/assets/city-pet-bag-dispenser.json",
+      "bytes": 4653,
+      "sha256": "91eeec8db449b98600dd4bf65e3c65bf3ba112987d425a8482301b9c4babfea8"
+    },
+    {
+      "path": "api/assets/city-playground-slide.json",
+      "bytes": 4636,
+      "sha256": "7fff7c9ca7fdf46c70c73f1c58278b7436e430dd729d25195fad61ecf56bf3de"
+    },
+    {
+      "path": "api/assets/city-playground-swing.json",
+      "bytes": 4629,
+      "sha256": "d6976fde4a108b8d82389945a5259a8f489f4a8646f0c200b001fbf56a2ed4bb"
+    },
+    {
+      "path": "api/assets/city-portable-toilet.json",
+      "bytes": 4749,
+      "sha256": "b6ae45dd698635885678fe4a480905241bb35ec5a0180f8729634e4a27bbf03e"
+    },
+    {
+      "path": "api/assets/city-postal-box.json",
+      "bytes": 4325,
+      "sha256": "62ef1c4add378b6d67dafd35f1f5dea053aa3c9b925bd13495ad9a88930bf2b3"
+    },
+    {
+      "path": "api/assets/city-pruned-street-tree.json",
+      "bytes": 5331,
+      "sha256": "e7384d8f94f58fab98ab2e5bdff1f8c83e076366dcbe13fb6fcd692e8ec65ec7"
+    },
+    {
+      "path": "api/assets/city-public-telephone.json",
+      "bytes": 4633,
+      "sha256": "0bc07a8ef39a6c68303662dc8765a4a73146c171e1403dc741c5e8520eaf27c3"
+    },
+    {
+      "path": "api/assets/city-recycling-station.json",
+      "bytes": 4641,
+      "sha256": "9df60a72d755a0ebe4d6a017e11a68b09ffa7367d69708875ea78697221e3afa"
+    },
+    {
+      "path": "api/assets/city-retractable-awning.json",
+      "bytes": 4672,
+      "sha256": "1963a41d8352814aeee3d000275d91a13b98a64fd6dab344412af6a3da910708"
+    },
+    {
+      "path": "api/assets/city-road-barrier.json",
+      "bytes": 4355,
+      "sha256": "7f06aded1eca15fb17fe979fd2b510054ea7742590e63d6b49c92cc06bd3c8c7"
+    },
+    {
+      "path": "api/assets/city-roller-shutter.json",
+      "bytes": 5785,
+      "sha256": "a4aa29bea95d976c68fd98803e3cc491f11225f855cf0c495161ebb2b3d10be2"
+    },
+    {
+      "path": "api/assets/city-roof-access-hatch.json",
+      "bytes": 4551,
+      "sha256": "e9ce3f929bec18d9bf6321b975b796ce30e6b78a0fd5f71f7d4008a72ccf90e5"
+    },
+    {
+      "path": "api/assets/city-roof-exhaust-cowl.json",
+      "bytes": 4617,
+      "sha256": "67c231063e038c67a12542fec6a5e5773677d7a937064897c19f62b4f5faa6db"
+    },
+    {
+      "path": "api/assets/city-sack-hand-truck.json",
+      "bytes": 5736,
+      "sha256": "e7e2f080ec992310bd9eccbea87118325f5db5fc6eb482e3c393aa0850ba7884"
+    },
+    {
+      "path": "api/assets/city-satellite-dish.json",
+      "bytes": 5430,
+      "sha256": "21ec85a76e36621fe52821444346d510a4f913c903ed69ad54fc4a651db17a58"
+    },
+    {
+      "path": "api/assets/city-scaffold-bay.json",
+      "bytes": 5871,
+      "sha256": "cb47e92f3ca76f0c85beea7b12c7d84304562975b522183103651e2604479aca"
+    },
+    {
+      "path": "api/assets/city-security-camera.json",
+      "bytes": 4619,
+      "sha256": "1f9a6a0d5a6eba3447700967ff82466b8e5f260c77917da44bb47e1d06c2be2d"
+    },
+    {
+      "path": "api/assets/city-shopping-trolley.json",
+      "bytes": 6144,
+      "sha256": "adf6a4cb27c12a661bb00016f7bbde4dcb16a4a6577439856770712bc77cfadb"
+    },
+    {
+      "path": "api/assets/city-solar-module-rack.json",
+      "bytes": 5991,
+      "sha256": "12cc1f9b3f2cb199d051ca4a0092f6f4bf18e153f6c57e1794248ef6b24221fb"
+    },
+    {
+      "path": "api/assets/city-speed-cushion.json",
+      "bytes": 4384,
+      "sha256": "6f1a0d4bf82a2228ea8861a24c8f66bb6ccf576b1c3a569f525c4a218a40b7e4"
+    },
+    {
+      "path": "api/assets/city-storm-drain.json",
+      "bytes": 4341,
+      "sha256": "88af528c1c961cdd896bfb69914d0b56c5d43082954bc52342f29c6ac59ff9b5"
+    },
+    {
+      "path": "api/assets/city-streetlight.json",
+      "bytes": 4350,
+      "sha256": "9ab8af3988e20829c0e661eb57f0a824686571d730a19871a08d8291dcef9ab9"
+    },
+    {
+      "path": "api/assets/city-tactile-paving.json",
+      "bytes": 4461,
+      "sha256": "525fa27b99f0bef922d40adc82b967dcbf084969bbc26c156af991c67ce52a6c"
+    },
+    {
+      "path": "api/assets/city-ticket-validator.json",
+      "bytes": 4489,
+      "sha256": "3b70ed37f9a67c5f82134eac5d28bab5e1a4ce6a5538234d0877e8915f5f8c55"
+    },
+    {
+      "path": "api/assets/city-traffic-cone.json",
+      "bytes": 4348,
+      "sha256": "98b06a0d577fa25b8a555b59985cb81ce8223f13407f3d81ba2b6d927d39275d"
+    },
+    {
+      "path": "api/assets/city-traffic-signal.json",
+      "bytes": 4638,
+      "sha256": "70d1debf8dcc40a1ebce9fab965a8699679f083e86b79954f543bcc88d5e4ab5"
+    },
+    {
+      "path": "api/assets/city-tree-grate.json",
+      "bytes": 4422,
+      "sha256": "612bc095c0c7b5555b041fcceef93165fb5556e44093b097d783eda728f42b15"
+    },
+    {
+      "path": "api/assets/city-tree-guard.json",
+      "bytes": 4359,
+      "sha256": "bf753fd09880987cfeeb634a7a478369fb7442ce2a197894568d07caad401327"
+    },
+    {
+      "path": "api/assets/city-tripod-turnstile.json",
+      "bytes": 4501,
+      "sha256": "7fd11a7a7103da1bdf87e552f4d6f815c7818884c11a4e8b92ea55f8a51d9d78"
+    },
+    {
+      "path": "api/assets/city-vending-machine.json",
+      "bytes": 6051,
+      "sha256": "1cb530a4dde6f11132a960f24b855c883d404f346a7d34909e1c30bcc220870c"
+    },
+    {
+      "path": "api/assets/city-ventilation-outlet.json",
+      "bytes": 5765,
+      "sha256": "69ed477d014b26517c537435d826af5716eede58605ffd94d0ca399e6723507b"
+    },
+    {
+      "path": "api/assets/city-wall-intercom.json",
+      "bytes": 4608,
+      "sha256": "996374cfa29e1beed43faa32caf6ed691ea5d22fafd3149067e349713f52a0ca"
+    },
+    {
+      "path": "api/assets/city-wheel-stop.json",
+      "bytes": 4312,
+      "sha256": "3728cc93a96f3182134015be4745ace80b33921fbc729bab9b5c08c0f4e9fc17"
+    },
+    {
+      "path": "api/assets/clay-brick.json",
+      "bytes": 3995,
+      "sha256": "6df6a45624058d82d72bacd33ebce005071e967117992a2c3b3f8554be44e790"
+    },
+    {
+      "path": "api/assets/cobalt-ceramic.json",
+      "bytes": 4072,
+      "sha256": "029bad0314fc5e2faf5ae5614662e031ee5f0da9ee2a43c883023137d7d8c9e3"
+    },
+    {
+      "path": "api/assets/commons-bar-counter.json",
+      "bytes": 7872,
+      "sha256": "12ec4a1c5ce82c8b1e63c968a1239c8ca6d6c61d3c291a6a429be64b3cf00bc1"
+    },
+    {
+      "path": "api/assets/commons-bar-labels.json",
+      "bytes": 4621,
+      "sha256": "394e615e3cc1af0510120b6ed87fa39c09bb0af92c2af14bb19ebae94316b3d9"
+    },
+    {
+      "path": "api/assets/commons-bar-stool.json",
+      "bytes": 5866,
+      "sha256": "65fe3dc91630b744423e56b0e14603e2489752401f6a18d3182347f245cccafb"
+    },
+    {
+      "path": "api/assets/commons-basalt-terrazzo.json",
+      "bytes": 4839,
+      "sha256": "3c3a0dc9a85e18d3008e1ed9412694fa8afcdf0d0fbc04541f6797b1cc536914"
+    },
+    {
+      "path": "api/assets/commons-blackened-steel.json",
+      "bytes": 4832,
+      "sha256": "008cf658027fc8c588dbecdf9fc00384ead8fa499e05ecdb53f07971b76e5a37"
+    },
+    {
+      "path": "api/assets/commons-book-set.json",
+      "bytes": 5944,
+      "sha256": "429763b1e5771fc60b7a4387c7b7d351c3ef5dca900f5373caacd974824575f6"
+    },
+    {
+      "path": "api/assets/commons-bottle-set.json",
+      "bytes": 6858,
+      "sha256": "76e21a8c39cfd91ebaa20639a6ce7a1d141e8fdd32081889a59eaf21f6e6b701"
+    },
+    {
+      "path": "api/assets/commons-cafe-props.json",
+      "bytes": 4524,
+      "sha256": "a1a1b957f5026f02cd100a89f9f7eb672636219f2cb99f041ca92683a706d466"
+    },
+    {
+      "path": "api/assets/commons-coffee-bag.json",
+      "bytes": 5555,
+      "sha256": "6a2cba972840004e420fa00eca061b0e2390420ea82ded2ac2595861de0a41cf"
+    },
+    {
+      "path": "api/assets/commons-coffee-cup.json",
+      "bytes": 5196,
+      "sha256": "3d83c1d525b0dd35c75d133e905496ff79e830c4eb100db2d3f8070be5a3bab4"
+    },
+    {
+      "path": "api/assets/commons-coffee-grinder.json",
+      "bytes": 5452,
+      "sha256": "05993f97e8da5d0717b79256f86cc3960513e726d2933d0e9cea480ed8e2b505"
+    },
+    {
+      "path": "api/assets/commons-display-plinth.json",
+      "bytes": 5441,
+      "sha256": "bae7b22ea5ada87a671b999a367d8f7a1229f117bd882bc9296ab3022c4dc933"
+    },
+    {
+      "path": "api/assets/commons-dj-controller.json",
+      "bytes": 8290,
+      "sha256": "fc902244bdfa98e2ed857cb799e2d0d1601de2bc1e70f20645e240976f825a3c"
+    },
+    {
+      "path": "api/assets/commons-dj-desk.json",
+      "bytes": 5597,
+      "sha256": "c5683d5437a003847a1e66c97802d26ebb5d654ccf73668c5e8b8cf1efaec0d1"
+    },
+    {
+      "path": "api/assets/commons-equipment-rack.json",
+      "bytes": 8040,
+      "sha256": "a7b780aebdfa6cf305641ef58b814ab92e4dcaa6208d64d7b6db296f73921b06"
+    },
+    {
+      "path": "api/assets/commons-espresso-machine.json",
+      "bytes": 6089,
+      "sha256": "bd9a81050050b772c259875a75be6918fb750673a5d4aca31b4f3d815e771746"
+    },
+    {
+      "path": "api/assets/commons-floating-bookshelf.json",
+      "bytes": 9548,
+      "sha256": "5dfc56959c62745a8d15f1ef8ed676ea06fe2fae9e57bd81075e3bf7ebf350eb"
+    },
+    {
+      "path": "api/assets/commons-halo-light.json",
+      "bytes": 5367,
+      "sha256": "082b2c32ce9a3c1460db07a2f441222b5deb3bcb5fc6b36d7d8f44953874fe2f"
+    },
+    {
+      "path": "api/assets/commons-leaf-planter.json",
+      "bytes": 6148,
+      "sha256": "38afb316128b8bf2f8d92a4c0dba48164bebf3d9ac5a8b1eb575114de95e4524"
+    },
+    {
+      "path": "api/assets/commons-lounge-chair.json",
+      "bytes": 5787,
+      "sha256": "71d26c894d3773aeb8cc2869a2f64d8079f858e616cdcc31d747aadeebd4b86f"
+    },
+    {
+      "path": "api/assets/commons-lounge-sofa.json",
+      "bytes": 5937,
+      "sha256": "9330e405ef132932709a2b5afccef37409cdb6a5c35fb3decf6f26323c5a8988"
+    },
+    {
+      "path": "api/assets/commons-low-table.json",
+      "bytes": 5921,
+      "sha256": "803259f8607d17ca56ed210b4dee092d1aac612ec2f58d8540ccf7dc816b2a55"
+    },
+    {
+      "path": "api/assets/commons-mineral-plaster.json",
+      "bytes": 4796,
+      "sha256": "55eebf2baef2d1996ab159be993e805713ef02e986e1b3bcdc8496aa4ba4d053"
+    },
+    {
+      "path": "api/assets/commons-pa-speaker.json",
+      "bytes": 5967,
+      "sha256": "64af4a8520f0c4e7bc5fe81f465933c6e96ea35def9c52539fa9b729d7cee94b"
+    },
+    {
+      "path": "api/assets/commons-pendant-light.json",
+      "bytes": 5477,
+      "sha256": "68fe00651add345ff3b6e7b1b5c763baff51c95f49bea25402d79fa2841c618f"
+    },
+    {
+      "path": "api/assets/commons-poster-frame.json",
+      "bytes": 5449,
+      "sha256": "44385092f877bfd967ba0589544c9281685c78dea39c7ca4aba540ba7585f799"
+    },
+    {
+      "path": "api/assets/commons-relay-controller.json",
+      "bytes": 4648,
+      "sha256": "8d951a87f4d64d3ca47a0251f2f20f1cc8be662ce8e615a03d1bc23eded92aae"
+    },
+    {
+      "path": "api/assets/commons-round-stage.json",
+      "bytes": 5607,
+      "sha256": "efcefbf630b0e695164d988e809e330e229b106c53c95628cf3e177b97f81230"
+    },
+    {
+      "path": "api/assets/commons-round-table.json",
+      "bytes": 5893,
+      "sha256": "dd3a6baef0314c6528dc253dfffcf36fa018052c43d11052a2aa172d80577727"
+    },
+    {
+      "path": "api/assets/commons-satin-brass.json",
+      "bytes": 4716,
+      "sha256": "c07679ccf06dff170ae7b3db4b59f0dbf80df8d862e746fef48a22e69f21ef8e"
+    },
+    {
+      "path": "api/assets/commons-table-candle.json",
+      "bytes": 5209,
+      "sha256": "d7a3398ac2bec347c8309c5ca7306546292b341cb92bc467d6417c44aaee910b"
+    },
+    {
+      "path": "api/assets/commons-teal-woven.json",
+      "bytes": 4733,
+      "sha256": "f2c15bc6013a7d4e6ae399c8ef5310db258cb73a7eb8e667fc7debf4e2263ca4"
+    },
+    {
+      "path": "api/assets/commons-warm-oak.json",
+      "bytes": 4653,
+      "sha256": "a9b958313c71e5e49ad272ba285656833e02cf757c72776a24a9af3f9c952c15"
+    },
+    {
+      "path": "api/assets/field-terminal.json",
+      "bytes": 4071,
+      "sha256": "aa642a5e763c8c0d1ab4b7864d9ee39e4820bb061a83b066e877d4c290612581"
+    },
+    {
+      "path": "api/assets/garden-arch.json",
+      "bytes": 3935,
+      "sha256": "b99488a335df21d3cfe753fe73fb786032ead27f74ade56ecc7ff535187bef62"
+    },
+    {
+      "path": "api/assets/market-crate.json",
+      "bytes": 3970,
+      "sha256": "e515b95ec8b1735a4844df176b1bd9543df47f64c3e658d8e8c8aba5c5badf49"
+    },
+    {
+      "path": "api/assets/sage-terrazzo.json",
+      "bytes": 4050,
+      "sha256": "b684fc81a330c749cadb7c67e11865f3961edc916005eb98938655413007c493"
+    },
+    {
+      "path": "api/assets/slat-bench.json",
+      "bytes": 3930,
+      "sha256": "d5da586731c4c24a96c06c3cf6b206a0cdda2bbf3b252a87096bc7596676f548"
+    },
+    {
+      "path": "api/assets/studio-chair.json",
+      "bytes": 4006,
+      "sha256": "16ec1949b1ce3d55472378dc92aafb66264f6d5a5c25299bf2b8b50e1bf62c34"
+    },
+    {
+      "path": "api/assets/terracotta-planter.json",
+      "bytes": 4177,
+      "sha256": "68c172ca7776674fbaead21c5f05566797c4cb30a245a29b21bfba180175501d"
+    },
+    {
+      "path": "api/assets/warm-limestone.json",
+      "bytes": 4081,
+      "sha256": "b6fa7e2e72688cd983c8502cb5a9b0462e8044e00ae416207b2f5521a110c8d1"
+    },
+    {
+      "path": "api/assets/wayfinding-sign.json",
+      "bytes": 4084,
+      "sha256": "cef430fc8fcfecd0484f626bdad025f0f448c7636663be852c4fc494f158d75f"
+    },
+    {
+      "path": "api/assets/yokocho-banquette.json",
+      "bytes": 8311,
+      "sha256": "00a994810b47c3105077e0885e3baa2d937ef8bc5d08ced8a8ef6de2ef76cd29"
+    },
+    {
+      "path": "api/assets/yokocho-bard-lyre-sign.json",
+      "bytes": 7821,
+      "sha256": "2b5c740ad8d85f9eda6c6720c8341d0eda6c38805ddcc01902c7346b4d7b3116"
+    },
+    {
+      "path": "api/assets/yokocho-bark.json",
+      "bytes": 4787,
+      "sha256": "fbeacac63852d7b7a5b03700e954a1c49811fc27cd4d69e89de9dbba02ee6b80"
+    },
+    {
+      "path": "api/assets/yokocho-booster-pump-skid.json",
+      "bytes": 8434,
+      "sha256": "2242c763b395a62d868618720c6a32adae729830927e775f036fbe09e84ba4eb"
+    },
+    {
+      "path": "api/assets/yokocho-booth-table.json",
+      "bytes": 7974,
+      "sha256": "208bdb5af22822ff4e89dfd8021676c837f6d22dd58d8fa345d5a0ebe7ca5aaf"
+    },
+    {
+      "path": "api/assets/yokocho-bottle-keep-wall.json",
+      "bytes": 9064,
+      "sha256": "609aaafb3a722c63ce831f021653f24c613cd74e7eaac948fc85a6a50de3e609"
+    },
+    {
+      "path": "api/assets/yokocho-charcoal-stool-set.json",
+      "bytes": 7919,
+      "sha256": "e85aa727e65af7ae765ebfaa27bfa0ea785d925f329a088e6e038f80b5ef74fb"
+    },
+    {
+      "path": "api/assets/yokocho-cloth.json",
+      "bytes": 4698,
+      "sha256": "6593527a9624a8b5c8cbaa2267b6e4b55852027339b75bad7f1f00f72f585730"
+    },
+    {
+      "path": "api/assets/yokocho-club-armchair.json",
+      "bytes": 7817,
+      "sha256": "957b323fcd09bdd9117b7f5244902c7545ff4ad9b20eb9836c9d43a3f1c956d7"
+    },
+    {
+      "path": "api/assets/yokocho-cocktail-stool.json",
+      "bytes": 7742,
+      "sha256": "78fa514b1eff99b47da5421e4adc2833c2da5bb071091df565945382c9a65c0b"
+    },
+    {
+      "path": "api/assets/yokocho-confectioner-stool-set.json",
+      "bytes": 8078,
+      "sha256": "e8cafef855cfefb2619b7e512aac589ba2701c95928b0c15ad0fc0cabf90e8c4"
+    },
+    {
+      "path": "api/assets/yokocho-counter-craft.json",
+      "bytes": 4958,
+      "sha256": "fa344e7897a6dbdd46b7bbf74ddc42c919a7ea75944d33fb0bd30bc04cce7532"
+    },
+    {
+      "path": "api/assets/yokocho-dragon-ember-sign.json",
+      "bytes": 8232,
+      "sha256": "49cb6fd694e52e6927be2da2f2cedb662b517fff824eaf353ff3da6dda7c09d5"
+    },
+    {
+      "path": "api/assets/yokocho-entry-control-panel.json",
+      "bytes": 4904,
+      "sha256": "0dc0907180f5fa6a9f03f31354a5e5a587fa7c71264ca2088e9d1cf69a435af2"
+    },
+    {
+      "path": "api/assets/yokocho-entry-display-frame.json",
+      "bytes": 9815,
+      "sha256": "31716d60b4ea0df6569a10fc572199042751d3a4bcdfeaaed77d76495ac9420c"
+    },
+    {
+      "path": "api/assets/yokocho-entry-endgrain.json",
+      "bytes": 4774,
+      "sha256": "c8492255c8e02de6986f514952fb3af1ec0fd0456dd3b39e164acebf41d47a9c"
+    },
+    {
+      "path": "api/assets/yokocho-entry-guideboard-artwork.json",
+      "bytes": 4935,
+      "sha256": "a2a678d2c5113e578d53cf4e2479285dec27e18fb4ea9a829e79805ee2c55c90"
+    },
+    {
+      "path": "api/assets/yokocho-entry-guideboard.json",
+      "bytes": 8956,
+      "sha256": "083fe60a763e8cd9cd48c8b0fd4c5ccbc90d028f91b34c1aac2bd127f81674f0"
+    },
+    {
+      "path": "api/assets/yokocho-entry-log-bench.json",
+      "bytes": 8751,
+      "sha256": "2426ea31c88e7efbc89ce09bb930f563810500721aa3919a3d980931907110ef"
+    },
+    {
+      "path": "api/assets/yokocho-entry-stump-table.json",
+      "bytes": 8276,
+      "sha256": "494d01465473f1ae7668d08b8bd46b16fb9ddbda6fd29989cd8ef3d7009b420e"
+    },
+    {
+      "path": "api/assets/yokocho-entry-timber.json",
+      "bytes": 4842,
+      "sha256": "aeefdec1a6ce694a2553b7bcf79e9c3dee6e79d43f1e128b3aab40721f77b841"
+    },
+    {
+      "path": "api/assets/yokocho-foliage-spray.json",
+      "bytes": 4861,
+      "sha256": "faf8a03860af40ee0e111eb9c36ab693545fbd2893b6941a5030099abba3d5b3"
+    },
+    {
+      "path": "api/assets/yokocho-food-venue-signs.json",
+      "bytes": 5167,
+      "sha256": "a0010459060a1271ab4d7e80845193721856125e7a958531469aac7d0187b79e"
+    },
+    {
+      "path": "api/assets/yokocho-geometric-backbar.json",
+      "bytes": 8473,
+      "sha256": "036a2f0ecdea5ae9abeef3696980a8b7a000b9d9696b1f0d92a28c217efd193d"
+    },
+    {
+      "path": "api/assets/yokocho-lantern.json",
+      "bytes": 4617,
+      "sha256": "e10d837e1e607f6a402ce2dd63aef6ed553bf783110562e69c2028e7b56e436b"
+    },
+    {
+      "path": "api/assets/yokocho-leaf.json",
+      "bytes": 4567,
+      "sha256": "ee3c8bd2ba4e43a9d15d0cbc3ce12e32ea55abf8ea3241cd18f76ebd50e635df"
+    },
+    {
+      "path": "api/assets/yokocho-listening-chair.json",
+      "bytes": 8424,
+      "sha256": "92ed21d40eb9c53963897332b74d4511f6b350709efdc76b3558628950d570f6"
+    },
+    {
+      "path": "api/assets/yokocho-listening-counter.json",
+      "bytes": 8429,
+      "sha256": "7246d5bcd16371b0fe678ede6ecac3e5b2ed0da8cdd516b95fceb7917112ffa3"
+    },
+    {
+      "path": "api/assets/yokocho-lounge-table.json",
+      "bytes": 7958,
+      "sha256": "2a7f4b02f4e3e93c74638136ae9d29761c6241a7273a32e19abcedc17ffa87f5"
+    },
+    {
+      "path": "api/assets/yokocho-medallion-chandelier.json",
+      "bytes": 8244,
+      "sha256": "440a6d9dfcce4358315bb3966656a686e9b0baa7ffb3c70f9b5f8d0c22465fe0"
+    },
+    {
+      "path": "api/assets/yokocho-menus.json",
+      "bytes": 4834,
+      "sha256": "45a2b1a8c86fcacbb4660e59d881b21a568ee7eb3a8b2867632840f4c1fcfb44"
+    },
+    {
+      "path": "api/assets/yokocho-mixology-tools.json",
+      "bytes": 8020,
+      "sha256": "473be3bdb38c9f10d9bc09716066dc634caabde175146cc234b38535413dcf3b"
+    },
+    {
+      "path": "api/assets/yokocho-moon-tea-sign.json",
+      "bytes": 8001,
+      "sha256": "25d0d62cb60c3146d1872d0039a8dea1e4e845b7802004e2566463db7c306c33"
+    },
+    {
+      "path": "api/assets/yokocho-nightlife-signs.json",
+      "bytes": 5183,
+      "sha256": "2f943ba940dabd1ed52a8e7622c9f848c722eb999d6166e28449b5e3bf748fd8"
+    },
+    {
+      "path": "api/assets/yokocho-noh-pavilion.json",
+      "bytes": 10035,
+      "sha256": "fc2d8e2b1d633b8439d99fb8ea47d9297c54b94aa9d1e49ac5a0477c9197a8ed"
+    },
+    {
+      "path": "api/assets/yokocho-noodle-guild-sign.json",
+      "bytes": 9372,
+      "sha256": "45036e1f11d609784d57764e1dd9cbc4236de5419e3920c71e63c8e0108adb85"
+    },
+    {
+      "path": "api/assets/yokocho-noodle-stool-set.json",
+      "bytes": 7847,
+      "sha256": "5b2341c99e07fe5af56d1ebcd0d1685b1ca03269fbc6bf642db10c6286b47486"
+    },
+    {
+      "path": "api/assets/yokocho-oden-bench-set.json",
+      "bytes": 8239,
+      "sha256": "09e43a81d81322f0b4892375108634851f31930f14a270e6ab459c6d13b860b5"
+    },
+    {
+      "path": "api/assets/yokocho-pendant-ceiling.json",
+      "bytes": 8031,
+      "sha256": "bd6dd9c2496860ff2a3dfe0f2fb216e71bccab0c9f5d33605d2a1d2e46a90773"
+    },
+    {
+      "path": "api/assets/yokocho-plaster.json",
+      "bytes": 4741,
+      "sha256": "907dc293d5517051b8d4f3b8c44a083e13e71b1955504a46be26444a9e95f1a0"
+    },
+    {
+      "path": "api/assets/yokocho-record-library.json",
+      "bytes": 8276,
+      "sha256": "70671c554cd478628ea2f8bebdc3a0e33496a3b45f8f77db7925020fa4088a51"
+    },
+    {
+      "path": "api/assets/yokocho-roof.json",
+      "bytes": 4724,
+      "sha256": "fe3ef8f31e2cacd23fd997e2090cb5d3e6c98c7499ee625fec6089ff28835dd9"
+    },
+    {
+      "path": "api/assets/yokocho-shopfront-identity.json",
+      "bytes": 5071,
+      "sha256": "bd5f2bcbe4fc280a660eafeb73e753a7554e4fafcad275f0fd750ebf87559dbc"
+    },
+    {
+      "path": "api/assets/yokocho-signs.json",
+      "bytes": 5009,
+      "sha256": "5e2654bf8073e8ecb0674a2f2852fff2caea48a5c8b199536dd4989bf295ded9"
+    },
+    {
+      "path": "api/assets/yokocho-snack-chair.json",
+      "bytes": 8316,
+      "sha256": "aa479f844a99f55b926d26483a8c62c0124cb35795fd9772452d66951ab87f31"
+    },
+    {
+      "path": "api/assets/yokocho-snack-counter.json",
+      "bytes": 8923,
+      "sha256": "267e591cf4309ee388b3cbdd8f4e31cd867f7b80091e27297e6b02f2b2592176"
+    },
+    {
+      "path": "api/assets/yokocho-star-distillery-sign.json",
+      "bytes": 8189,
+      "sha256": "813d441ef2f71e97c988ccb0d50d97b08c6c811b7b3bf635ce8373477b28762e"
+    },
+    {
+      "path": "api/assets/yokocho-tea-furniture-set.json",
+      "bytes": 8258,
+      "sha256": "27bf41b2ea8568d2ca039ca0ccd55dee11d377761b4b5211de72ecd6b3af1a1b"
+    },
+    {
+      "path": "api/assets/yokocho-telecom-mast.json",
+      "bytes": 7613,
+      "sha256": "9f10729354fe161f7fa169d15d4f67e134b40268c8e9a38a87a8c6fadd31ec8e"
+    },
+    {
+      "path": "api/assets/yokocho-tile-clay.json",
+      "bytes": 4815,
+      "sha256": "a5a263eb47e177df5901da33b00e8c21901450e96d18541aec1add021e657f27"
+    },
+    {
+      "path": "api/assets/yokocho-timber-stair-flight.json",
+      "bytes": 7576,
+      "sha256": "7b00ea1c1df33a325ff90a37c151b478d349f9f91e5a93daa7e80f7858dc5052"
+    },
+    {
+      "path": "api/assets/yokocho-traveler-pot-sign.json",
+      "bytes": 8240,
+      "sha256": "2777978e7af08ae68e2ba48dcededb60b190369dde2612163077092162fba865"
+    },
+    {
+      "path": "api/assets/yokocho-turntable-amplifier.json",
+      "bytes": 7993,
+      "sha256": "a5c613296407070a56485a8fedb2260b6e0092b44cd72464132480433615a20f"
+    },
+    {
+      "path": "api/assets/yokocho-upper-water-storage.json",
+      "bytes": 8420,
+      "sha256": "029c71bc190312dee3483046284dfbb9f7fe30de978417e4abd2d030fd008388"
+    },
+    {
+      "path": "api/assets/yokocho-utility-service-bank.json",
+      "bytes": 8469,
+      "sha256": "93c7e246d13359d22705b0c44254e541463af783d2d3eaeb6ce1a107833cadd8"
+    },
+    {
+      "path": "api/assets/yokocho-walnut-counter.json",
+      "bytes": 8204,
+      "sha256": "413d894cf5b919b35782e05b9b601fa9e631229794471f17f3b71b47113cd8ac"
+    },
+    {
+      "path": "api/assets/yokocho-water.json",
+      "bytes": 4831,
+      "sha256": "3400b195f952cf853bc2299df8400d5d8e33e5198da691204ef59403665cc4db"
+    },
+    {
+      "path": "api/assets/yokocho-witch-moon-sign.json",
+      "bytes": 8767,
+      "sha256": "d987e313ed5d4cfa5cbd08817d19d8cc451e6d1069f5db94500a5c3aed56a195"
+    },
+    {
+      "path": "api/assets/yokocho-wood.json",
+      "bytes": 4702,
+      "sha256": "1bb38d6043e2b664cc269da9ced62e71bb6da4d70451b88959c961152513b2e1"
+    },
+    {
+      "path": "api/assets/yokocho-woven.json",
+      "bytes": 4747,
+      "sha256": "dc326fb1564503bcaf90fc15a290d5581dc496d4811bbb571fd033461fafb7df"
+    },
+    {
+      "path": "api/catalog.json",
+      "bytes": 1069605,
+      "sha256": "b5f043b5b7d8488b7f15f97b7a0ee07f0dfd03942267c759da0194db367259ed"
+    },
+    {
+      "path": "api/catalog.ndjson",
+      "bytes": 882571,
+      "sha256": "b1797be878c39419ea92368d9d6a4eea4a74a6b28cd1b33656cc72d81e3ea982"
+    }
+  ]
+}

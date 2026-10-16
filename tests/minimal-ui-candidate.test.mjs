@@ -29,6 +29,8 @@ test('ordinary activation retains the strict schema and production validation ho
   validateMinimalActivation(activation);
   const generate=await readFile(new URL('../scripts/generate.mjs',import.meta.url),'utf8');
   assert.match(generate,/assertCompleteModelDeliveries/);assert.match(generate,/prepareMinimalDownloads/);
+  assert.match(generate,/prepareFbxMinimalDownloads/);assert.doesNotMatch(generate,/prepareSidecars|alternate-formats/);
+  const detail=await readFile(new URL('../src/pages/assets/[id].astro',import.meta.url),'utf8');assert.match(detail,/fbx-download/);assert.doesNotMatch(detail,/alternate-formats/);
 });
 test('live browser proof selects raw GLB by exact asset ID regardless of catalog order',async()=>{
   const source=await readFile(new URL('./live-browser-proof.mjs',import.meta.url),'utf8');

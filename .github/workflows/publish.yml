@@ -22,6 +22,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
@@ -83,14 +84,23 @@ jobs:
           python3 scripts/generate-city-drafts.py
       - name: Import inbox
         run: npm run import:all-inbox -- --apply
+      - name: Verify durable minimal FBX proof and all public bytes
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Validate, test and build
         run: npm run check
-      - name: Verify all texture maps
-        run: python3 scripts/check-textures.py
+      - name: Verify all texture maps, original API compatibility and Pages budget
+        run: |
+          python3 scripts/check-textures.py
+          node scripts/check-full-p-inputs.mjs --dist
+          node scripts/check-fbx-minimal-baseline.mjs
       - name: Install CI Chromium
         run: npx playwright install --with-deps chromium
       - name: Browser interactions and screenshots
         run: node scripts/test-browser.mjs
+      - name: Verify ordinary selected downloads and exact displayed ZIP sizes
+        run: node scripts/test-minimal-downloads-browser.mjs
+      - name: Verify all FBX links and actual anonymous FBX downloads
+        run: node scripts/test-fbx-minimal-downloads-browser.mjs
       - name: Preserve QA evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -109,6 +119,8 @@ jobs:
             .cache/city-drafts/
       - name: Commit imported original assets
         id: commit
+        env:
+          PUSH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -121,7 +133,10 @@ jobs:
           if git ls-files --error-unmatch .import-yokocho >/dev/null 2>&1; then git add -u .import-yokocho; fi
           if ! git diff --cached --quiet; then
             git commit -m 'feat(assets): import validated original CC BY collection'
-            git push origin HEAD:main
+            auth="$(printf 'x-access-token:%s' "$PUSH_TOKEN" | base64 -w0)"
+            echo "::add-mask::$auth"
+            git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin HEAD:main
+            unset auth
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Build release archives
@@ -157,6 +172,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ needs.verify.outputs.sha }}
+          persist-credentials: false
       - uses: actions/download-artifact@v4
         with:
           name: release-packages

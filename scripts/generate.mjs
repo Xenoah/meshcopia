@@ -1,3 +1,4 @@
+import {prepareFbxMinimalDownloads,writeFbxMinimalDownloads} from './lib/fbx-minimal-downloads.mjs';
 import {assertCompleteModelDeliveries} from './lib/model-delivery-policy.mjs';
 import {prepareMinimalDownloads,bindMinimalDownload} from './lib/minimal-downloads.mjs';
 import { mkdir, rm, cp, readFile, writeFile } from 'node:fs/promises';
@@ -9,7 +10,8 @@ import { assertArchiveRuntime } from './lib/archive-runtime.mjs';
 import { verifyArchiveLock, archiveLockPath } from './lib/archive-lock.mjs';
 
 const assets = await readCatalog(); // Validate before changing generated output.
-await assertCompleteModelDeliveries(assets,{baseline:JSON.parse(await readFile('docs/model-delivery-baseline.json','utf8'))});
+const verifiedFbx = await prepareFbxMinimalDownloads(assets); // Trusted same-job prep, then current source/history checks.
+await assertCompleteModelDeliveries(assets,{verifiedFbx,baseline:JSON.parse(await readFile('docs/model-delivery-baseline.json','utf8'))});
 const minimalDownloads = await prepareMinimalDownloads(assets); // Verify public bytes before cleanup.
 if (assets.some(a => a.status !== 'draft' && zipOptionsForPackage(a).compress)) assertArchiveRuntime();
 await rm('public/assets', {recursive:true,force:true});
@@ -67,3 +69,5 @@ const publicAssets = catalog.filter(a=>a.status==='public');
 await writeFile('public/api/catalog.json',JSON.stringify({schemaVersion:'2.1.0',name:'Meshcopia',license:'CC-BY-4.0',count:publicAssets.length,assets:publicAssets},null,2)+'\n');
 await writeFile('public/api/catalog.ndjson',publicAssets.map(a=>JSON.stringify(a)).join('\n')+'\n');
 console.log(`Generated ${catalog.length} asset pages/manifests and ZIPs; ${publicAssets.length} listed publicly.`);
+
+await writeFbxMinimalDownloads(verifiedFbx,assets);

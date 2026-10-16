@@ -1,0 +1,43 @@
+# Minimal FBX site activation
+
+This adapter extends the published ordinary minimal downloads and accurate ZIP-size UI. It includes the exact pinned F and R verification helpers. The checked-in activation binds the actual 137-model release, release ID 414350272, and its exact T evidence (SHA-256 5d262d7a914fb9cd60f53d7d68f0ee1c3d11c8cd5cbfd733a12b5496cb356fb4). It does not replace ordinary ZIPs, original format links or bulk bundles. No fixture is publication evidence.
+
+## Trust boundary and lifecycle
+
+`scripts/prepare-fbx-minimal-activation.py` is the sole production receipt writer. Every full FBX verification workflow must run this mandatory prep before `npm run check`. The reviewed production workflow explicitly selects `--verification-mode durable-transport-attestation` and does not provide a token or request Actions read permission. Both checkout steps disable credential persistence. The existing import push receives its token only in its later push step and uses a nonpersistent, masked command-scoped header. Do not export credentials through `GITHUB_ENV`, artifacts, npm, browser or release-bundle processes.
+
+There are two explicit verification modes. Neither may be selected by a failed request or artifact expiration:
+
+- `full-internal-qa` (the CLI default) rechecks the exact internal QA artifact through the F/R raw-report/container/receipt verifier. Use this for initial validation, with the ordinary ephemeral read-only Actions job token scoped only to prep, or `--qa-artifact /absolute/path/to/exact-retained-actions-artifact.zip`. A retained artifact must pass the exact artifact digest and identical raw QA checks. It is not an offline bypass: public bytes and successful F/R identities are still checked.
+- `durable-transport-attestation` reuses the result of the successful immutable R execution. It requires T's exact R commit, run, attempt, job, workflow and approval hashes and both R adapter hashes. Current reviewed workflow/helpers/approval must equal those pinned Git blobs; the full R approval gate is rerun and all19 F/source/runtime/QA provenance fields must equal T. GitHub must report that exact push execution and transport job successful, including the QA tests, transport/readback and evidence steps. Typed R internal QA summary fields must match. There is no raw QA fetch or new Blender/raw-report claim in this mode, and it never needs expiring artifact bytes. Missing/deleted/inaccessible R execution metadata fails closed.
+
+Both modes clear stale receipts, require exact successful F identity and pinned source/expected/runtime/helper bytes, and independently fetch all275 public attachments anonymously. Every byte hash must match the immutable source-bound inventory and T asset IDs; ZIPs must contain exactly the FBX and LICENSE.txt. Current complete source bytes, metadata, identity and version are checked. New or changed bindings require a newly reviewed successful F/R proof; a failed check cannot reuse old evidence. Internal QA is never added to consumer ZIPs or public metadata. The original F clean-import/materialization evidence is the basis of the result; P does not rerun Blender. Temporary downloaded QA/FBXs are discarded.
+
+Full-mode authenticated requests accept only fixed GitHub artifact API paths and never follow redirects. Signed HTTPS redirects restricted to productionresultssa Azure blob hosts or the exact Actions results-receiver host are followed with a new headerless request and no further automatic redirects. Errors omit URLs, queries and credentials. Durable mode performs only anonymous reads.
+
+The atomic `.cache/fbx-minimal-verified.json` is a same-job local trust handoff, not a cryptographic attestation or transferable proof. Do not upload, download, cache, commit or reuse it across jobs. It binds HEAD, job identity, activation bytes, evidence and complete adapter/runtime input hashes, exact QA/run provenance, source metadata and complete source-file bytes, the selected explicit mode, exact successful R execution bindings, and the verified projection digest. Generator rechecks the bindings, current source/version and full reachable Git activation history before the production delivery gate or any output cleanup. It consumes the receipt once. A missing or stale receipt fails closed.
+
+One `npm run check` invokes the generator once. Later check-dist, browser and release-bundle steps consume generated output without a second receipt read. Check-dist compares the built FBX projection to the generated binding and verifies current catalog identity and links. A second `npm run build`, `npm run generate`, or `npm run check` requires a fresh prep. A failed consumed build also requires fresh prep. Do not introduce a fallback projection or skip prep on cache hits.
+
+## Site verification sequence
+
+1. Use a full-history checkout containing F commit 83a1daedf3ad7563fa55bf0cca40ca749689e139 and R commit 0c8048cf635cd84369d2301ebf291b61684ca616. The actual R run is 38820201372, attempt 1, job 116714655304. The activation pins the exact public release and T evidence. No raw internal QA is committed.
+2. Run `npm ci` with no QA token in the environment.
+3. Initial validation: run default full-internal-qa prep with the exact retained artifact or a dedicated token-scoped step. Production/repeat validation: run `python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation` without a token. Select the mode explicitly in the reviewed workflow; never retry an artifact failure in another mode automatically.
+4. In a separate token-free step run `npm run check`. Do not run generate/build separately before this command, as that would consume its receipt.
+5. Run `node scripts/test-browser.mjs`, `node scripts/test-minimal-downloads-browser.mjs`, `node scripts/check-fbx-minimal-baseline.mjs` and `node scripts/test-fbx-minimal-downloads-browser.mjs` against this built output. The old eight-entry FBX browser helper must not be used unchanged. Confirm all 137 FBX direct/ZIP links, unchanged ordinary/bulk behavior, representative anonymous browser downloads with byte hashes, mobile and no-JavaScript availability. Browser FBX rendering is not claimed.
+6. Run release bundling against the same verified output. Do not rebuild between browser proof and bundling without new prep and browser proof.
+
+The initial adapter supports only the original published137 cohort. Production policy receives only verified current `id`, `assetVersion`, and exact complete `sources` projection. A future model cohort needs its own reviewed F/R/P contract; it cannot inherit the historical exception or invent a receipt.
+
+## Local implementation verification
+
+Synthetic tests cover exact 275-asset joins; wrong tag/run/attempt/repository/job/digest; two-entry ZIPs and notice bytes; duplicate/traversal/legacy layout; stale HEAD/job/activation/evidence/source/projection; missing receipt; stale cache; symlinks; atomic write/link/fsync failures; auth path allowlist, headerless redirect and error redaction. Durable tests reject wrong R identity/attempt/repository/branch/workflow, in-progress or failed runs, skipped or missing required steps, and unknown/fallback modes. A real temporary Git merge tests reachable side-branch retention and excludes newly committed HEAD entries from the retained baseline. These tests do not establish real release or browser proof.
+
+## Narrow verification and compatibility
+
+`.github/workflows/verify-fbx-minimal-ui.yml` only verifies the `fbx/verify-p-v1` branch, with read-only contents permission. It always performs anonymous durable prep immediately before one `npm run check`, then baseline, texture, budget and browser checks. It does not deploy Pages, publish a release or bundle release archives. Both the ordinary full-P workflow and production workflow also perform mandatory durable prep, so neither can accidentally consume a stale or missing receipt after activation.
+
+The UI and release notes explicitly say that FBX materials, transparency and face culling can vary by importer; GLB is preferred for the original PBR appearance. Matching appearance in Unity or Godot is not claimed. Exact F recipe/limitation bytes are retained unchanged.
+
+The original-API baseline was preserved from local stage6 output. Its 175 projected byte identities and the 310-entry original archive ledger remain regression assertions; this is not a newly fetched release attestation. Actual browser proof comes only from a successful run of the browser helper against the generated site and public release.

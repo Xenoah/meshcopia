@@ -1,6 +1,6 @@
 {
-  "version": "1.10.1",
+  "version": "1.11.0",
   "prerelease": false,
-  "name": "Meshcopia 1.10.1 - Accurate ZIP download sizes",
-  "notes": "docs/releases/v1.10.1.md"
+  "name": "Meshcopia 1.11.0 - Verified FBX downloads",
+  "notes": "docs/releases/v1.11.0.md"
 }

@@ -3,7 +3,8 @@
 This is an optional, publisher-verified projection on each generated catalog
 asset: `asset.downloads.minimal`. It applies to both models and textures. Do not
 edit generated catalogs by hand. Do not add a placeholder record, a guessed
-Release ID, or an unverified URL. No actual binding is included in this overlay.
+Release ID, or an unverified URL. The checked-in ordinary activation binds the
+actual minimal-v1.0.0 release and is independently reverified at build time.
 
 ## Exact contract
 
@@ -36,8 +37,7 @@ The only accepted URL is:
 The tag must be an explicit versioned tag. `latest`, branch URLs, different
 repositories, query redirects and legacy asset URLs are rejected. The new
 archive hash must differ from the corresponding legacy `full` and `models`
-archives. The candidate tag discussed for the first release is not an active
-binding or evidence of publication.
+archives. A tag name alone is not an active binding or evidence of publication.
 
 ## Publisher gate before projection
 
@@ -96,7 +96,7 @@ does not constitute verification.
 
 ## Integration with other overlays
 
-`docs/minimal-activation.json` starts with an empty `activations` array. Empty
+`docs/minimal-activation.json` contains the reviewed actual activation. An empty
 activation performs no network reads and adds no new catalog fields. Only after
 real transport evidence exists may the publisher add the exact record below:
 
@@ -109,7 +109,7 @@ real transport evidence exists may the publisher add the exact record below:
 - `transportEvidenceSha256`: the exact checked-in T-evidence file digest
 
 The document itself has `schemaVersion: 1`, `repository: "Xenoah/meshcopia"`
-and `activations`. No placeholder activation or T evidence is supplied. The
+and `activations`. Placeholder activation and T evidence are prohibited. The
 first adapter intentionally covers only the reviewed original 173-asset cohort.
 Future cohorts, including the requested new 232 assets, need their own reviewed
 source/expected-data adapter using the same consumer binding contract.
@@ -140,17 +140,20 @@ The combined candidate includes the production model-delivery gate, its baseline
 and shared `docs/ASSET_PRODUCTION_RULES.md`. The generator calls that gate before
 cleanup; no permissive fallback is provided if these files are missing.
 
-Old P-FBX activation is deliberately not part of this combined candidate. A
-future FBX integration must pass only its independently verified projection to
-the model-delivery gate. Its archive needs a separate FBX-minimal binding and
-filename contract; this ordinary selector must not label an old eight-entry FBX
-ZIP minimal. The combined candidate includes the batch-download modules and one
+The minimal FBX integration uses `docs/fbx-minimal-activation.json` and a separate
+verified `api/fbx-minimal-downloads.json` projection. Only that independently
+verified projection is passed to the model-delivery gate. Its two-entry FBX ZIP
+has its own filename contract; ordinary ZIPs and selected-asset bundles do not
+silently gain FBX files, and old eight-entry FBX ZIPs are never labeled minimal.
+See [FBX activation](fbx-minimal-activation/README.md) for exact F/R/T bindings and
+the same-job, single-use prep receipt. The batch-download modules retain one
 `initBatchDownload()` call alongside the existing catalog initializer.
 
-The verification-only workflow `.github/workflows/verify-minimal-ui.yml` keeps
-activation empty and uses no release or Pages permissions. It runs unit/source
-checks, real public-source bulk ZIP verification and desktop/mobile fixture UI
-tests. Fixture notice/readiness data remains in the browser's test context; the
-workflow never writes a production binding, builds a site, publishes a release
-or deploys Pages. Its browser evidence is scoped to the two tested live source
-assets, and does not prove Release ZIP readback, new232 or FBX availability.
+The read-only full-site workflow `.github/workflows/verify-minimal-ui.yml`
+verifies the actual ordinary activation and builds once after mandatory durable
+FBX prep. `.github/workflows/verify-fbx-minimal-ui.yml` adds the exact original-API
+baseline and all-model FBX browser/download checks. Neither workflow publishes
+or deploys. Both require real public bytes; fixture-only UI proof is not release
+proof. Production applies the same durable prep, original viewer, ordinary
+selected-download, FBX browser, texture and size-budget gates before publishing.
+The browser evidence does not claim FBX rendering or new232 availability.

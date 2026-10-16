@@ -1,0 +1,2257 @@
+{
+  "assets": [
+    {
+      "anonymousReadback": true,
+      "assetId": 645427336,
+      "bytes": 28614,
+      "name": "atelier-lamp-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "5f01477e2d7b000a71d9924ea5920e79086fb4ee24118288195c296299b705de",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/atelier-lamp-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427356,
+      "bytes": 44108,
+      "name": "atelier-lamp.fbx",
+      "sha256": "f713bee1847049cb68eaa6f2041c7341ebc97347d25c45a52ed0adbaf0dd2a8c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/atelier-lamp.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427366,
+      "bytes": 89770,
+      "name": "city-aed-cabinet-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "59fb9bab81824f8f6c902278cb0c594d5104a5a544701d06271cbbad89c99dce",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-aed-cabinet-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427386,
+      "bytes": 223628,
+      "name": "city-aed-cabinet.fbx",
+      "sha256": "6d9ee89f2ede1040ee719961bb142adef7db64a51b46ca15e01f9902af3880a6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-aed-cabinet.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427397,
+      "bytes": 160255,
+      "name": "city-bicycle-repair-stand-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d3198311034864e3b79d1b253a73036d3804938343f880b18fd2d70331d8648d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-bicycle-repair-stand-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427422,
+      "bytes": 283196,
+      "name": "city-bicycle-repair-stand.fbx",
+      "sha256": "b98439ce34cc835617b1a35f021eebda28ea28b59ddacb98bfc63d4cc5a066f9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-bicycle-repair-stand.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427446,
+      "bytes": 134644,
+      "name": "city-bollard-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ffa3084243deffe3410419cf946dbb627b1ede0d7d5671b9675038a78d1be605",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-bollard-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427469,
+      "bytes": 199612,
+      "name": "city-bollard.fbx",
+      "sha256": "08f6a6604e24f85817bd09c6f6c53a5cc9503e49ed97045b85cd1742010aff62",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-bollard.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427483,
+      "bytes": 220522,
+      "name": "city-bus-shelter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "2e3cb26f4094774bd8797cfd4e2213f9a5aa918ec8073617e37ee1b4de5d915b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-bus-shelter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427527,
+      "bytes": 1021548,
+      "name": "city-bus-shelter.fbx",
+      "sha256": "1b9b4b2a0aafec80f984db6cc120c136350f9882656cee10814b41371268197a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-bus-shelter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427550,
+      "bytes": 41660,
+      "name": "city-cable-protector-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f4d75e57eb7ead3d3411817b30f9a6ddb3a1daa6187fef0ff776163ddc295a65",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-cable-protector-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427560,
+      "bytes": 208668,
+      "name": "city-cable-protector.fbx",
+      "sha256": "11474013b2600492d009b81877d057acc7cf97045d8deb96b64cbb3c7e7f7330",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-cable-protector.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427570,
+      "bytes": 102899,
+      "name": "city-cable-tray-elbow-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "2001a9270ff35369f1fb2d02c96e558e44828d32d77bf59ca9879116aefd616a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-cable-tray-elbow-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427584,
+      "bytes": 124300,
+      "name": "city-cable-tray-elbow.fbx",
+      "sha256": "dc523139e7d809229c46a40a78e6860e7735528f85de74879fb4abf2e119dab5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-cable-tray-elbow.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427598,
+      "bytes": 72221,
+      "name": "city-casement-window-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "1bceb9de28333c4ffd5ac53452ac0d6ae558939a6f6d9d48c7b22ab4e9e5d81a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-casement-window-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427611,
+      "bytes": 258876,
+      "name": "city-casement-window.fbx",
+      "sha256": "867cdddebae1bc34cb83a81b78a07936faf56b7d609f19fc570f5574ee57b993",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-casement-window.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427626,
+      "bytes": 2044034,
+      "name": "city-commuter-bicycle-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d189e37d364097012cadebb76cdf92f3d60bfead2a7d86331f386934664841da",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-commuter-bicycle-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427664,
+      "bytes": 2444236,
+      "name": "city-commuter-bicycle.fbx",
+      "sha256": "d44753c8300514439259c9da91c92aa1e42fd26de031bf8cf869190c34bfe0b7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-commuter-bicycle.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427693,
+      "bytes": 619231,
+      "name": "city-concrete-mixer-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "8db7959755ccd498b48a3e9b232f94dfa135aeef62832644d90af18c68ca0362",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-concrete-mixer-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427719,
+      "bytes": 1220716,
+      "name": "city-concrete-mixer.fbx",
+      "sha256": "9c77a68e1f5441d44ba3e0992328b756406f30ed428ca96b4c57ec4282c69df4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-concrete-mixer.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427758,
+      "bytes": 214795,
+      "name": "city-construction-wheelbarrow-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "db9cf28440664a5cb02339acd720aecafeb7a0aa9c26828013cd499fe5e6a062",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-construction-wheelbarrow-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427788,
+      "bytes": 527692,
+      "name": "city-construction-wheelbarrow.fbx",
+      "sha256": "9c7c032fd21616923ea6d0b71d856f13a871e308c2b5d70943dac69cb8c81623",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-construction-wheelbarrow.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427812,
+      "bytes": 413518,
+      "name": "city-convex-mirror-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "37839f257e4def43b39aa3cf9da37a528377b8f280aa7a261a170642c6189a07",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-convex-mirror-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427835,
+      "bytes": 686556,
+      "name": "city-convex-mirror.fbx",
+      "sha256": "c1f1d49e90f556d933342a25ae3aab31eb69cad4d5ed207416d15b12b1b660cc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-convex-mirror.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427891,
+      "bytes": 493515,
+      "name": "city-crossing-pushbutton-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "efd89b58a44bbeba2d07d68e1c83e6cf6f13d70cff6382f7e89c5e3584b3ce42",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-crossing-pushbutton-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427915,
+      "bytes": 552668,
+      "name": "city-crossing-pushbutton.fbx",
+      "sha256": "0591f9386d845c2c3817157a918a7e692ac73bba02e8f0d240eb5508d48464ba",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-crossing-pushbutton.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427938,
+      "bytes": 25577,
+      "name": "city-curb-corner-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "8c729ddae3618b3e31bb8b8031ac2b1a0563c70b39fefb36e85d11bbe3ddfe23",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-curb-corner-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427954,
+      "bytes": 45148,
+      "name": "city-curb-corner.fbx",
+      "sha256": "5e3f779f9f239099ecdd7137fc2f329f3bfd6a5e26363621b86971d9d0356e05",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-curb-corner.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645427980,
+      "bytes": 25146,
+      "name": "city-curb-ramp-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "24b0c5ccabc2eb974c885f04b7745e817654b29e1548d82e69269e05aee70569",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-curb-ramp-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428002,
+      "bytes": 97836,
+      "name": "city-curb-ramp.fbx",
+      "sha256": "071ed9d6f71397678ae8f9326b9a64f432363f68da1a197b3a9215ac2a9ce636",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-curb-ramp.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428021,
+      "bytes": 52485,
+      "name": "city-cycle-rack-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ccb32856ed79651048a33fc1d18e000b1b2e313e347da529c8048becde7e3ab9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-cycle-rack-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428034,
+      "bytes": 168764,
+      "name": "city-cycle-rack.fbx",
+      "sha256": "6952b492c85796ac37d810463985a400e608271b69c700d13ddb362e2e2ed65d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-cycle-rack.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428049,
+      "bytes": 457555,
+      "name": "city-downspout-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0d8e008a030c21e77a7c3c19e416d2aef5e90d54b6e0d6e31a1b535caf7fb0a9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-downspout-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428068,
+      "bytes": 595900,
+      "name": "city-downspout.fbx",
+      "sha256": "9216e60f2db58fb632ada288e7338796e32d3a5d7399de5f7269a50628235fe3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-downspout.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428082,
+      "bytes": 307045,
+      "name": "city-drinking-fountain-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "3856da6886230f33a8d5053c62f127568b8401c7b96f684f1cbee77a7e39674b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-drinking-fountain-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428101,
+      "bytes": 549596,
+      "name": "city-drinking-fountain.fbx",
+      "sha256": "aa3ac57af81e2f9fe234170813829c106d7a2ce68a65e24dcd33d871b8139ca0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-drinking-fountain.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428132,
+      "bytes": 1075973,
+      "name": "city-electric-kick-scooter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "e80533b446a5f72d8db973138a2b97af96a159839f8638e92c70c32850173535",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-electric-kick-scooter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428157,
+      "bytes": 1207356,
+      "name": "city-electric-kick-scooter.fbx",
+      "sha256": "f34b912c8daf853b1c7a02713b184e3df82ff8591c93954215e0f6ade73f4374",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-electric-kick-scooter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428176,
+      "bytes": 266662,
+      "name": "city-ev-charger-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "880a2f2645a6ff620e684a0b3a74e2c89663891ae4defd96d84bd6fe8717be8f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-ev-charger-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428196,
+      "bytes": 529132,
+      "name": "city-ev-charger.fbx",
+      "sha256": "57dec548ce3d3426254f749907ad437147f46193333184bba124fcf6da0e0d90",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-ev-charger.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428220,
+      "bytes": 185775,
+      "name": "city-exterior-clock-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "7f5330210203858311e4246ccc61a33c855c5df1130b7c065b375d08d2d8f9ef",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-exterior-clock-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428234,
+      "bytes": 386252,
+      "name": "city-exterior-clock.fbx",
+      "sha256": "59ede804e8ada26d1f89dcae1116f2c6bd2579fc3e3e479ca69486badebe2d20",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-exterior-clock.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428244,
+      "bytes": 378759,
+      "name": "city-fire-hose-cabinet-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "6ae887383b16d1de119ee8bbcb888785a391faa81b03b3e956743ce873c994f6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-fire-hose-cabinet-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428257,
+      "bytes": 687148,
+      "name": "city-fire-hose-cabinet.fbx",
+      "sha256": "c199031881e5fbd03c75c431f03820ebf2eb52b1fa2c79fa4d9fdefbdfdcdef8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-fire-hose-cabinet.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428277,
+      "bytes": 277371,
+      "name": "city-fire-hydrant-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b7a7cc82794b153c297b19ae40bff26270de0e004401814a7e4cf637d69d7615",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-fire-hydrant-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428300,
+      "bytes": 1131596,
+      "name": "city-fire-hydrant.fbx",
+      "sha256": "eb05902ed7585caf137674c083a0ba2a2b67c430ff2e09adc9ca09a1bf4121da",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-fire-hydrant.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428320,
+      "bytes": 103434,
+      "name": "city-glazed-entry-door-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f8c41abb66bec0846e1689dda6cd93b1014688c55e248ea85958d3ab8597260c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-glazed-entry-door-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428337,
+      "bytes": 322732,
+      "name": "city-glazed-entry-door.fbx",
+      "sha256": "550da6fbf7dad0973bc346b2f638d58bdc930653239da67369de8aced5a2bfcb",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-glazed-entry-door.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428354,
+      "bytes": 753518,
+      "name": "city-hvac-condenser-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "493fe4a1f4aaee82e9735a56169097f779fa319c6d7752c2eeebeff1f3a90029",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-hvac-condenser-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428378,
+      "bytes": 956556,
+      "name": "city-hvac-condenser.fbx",
+      "sha256": "f983dd4d37e733c9a8e12c847eac7e3cb7512d86b1e264257651002afe56997e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-hvac-condenser.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428388,
+      "bytes": 537335,
+      "name": "city-inspection-cover-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "6cf8dae105227121f9b88aff65c3b77d2dd83bc2890248a02c75e067a0e3e63d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-inspection-cover-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428404,
+      "bytes": 674204,
+      "name": "city-inspection-cover.fbx",
+      "sha256": "843f5082e766491bc4f40da2151c907afe1a8da35d7b7c55b1c287d5295e57a7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-inspection-cover.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428445,
+      "bytes": 151776,
+      "name": "city-lifebuoy-station-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ecdbb8c3654ce1fdaa90a5046f591f67372b12aba4764f83e06c8d8808fc6ee4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-lifebuoy-station-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428471,
+      "bytes": 261980,
+      "name": "city-lifebuoy-station.fbx",
+      "sha256": "500d80fb88977363a7c04b5374780d0c965e2cde47d0614c34f092d6e9526852",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-lifebuoy-station.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428495,
+      "bytes": 175935,
+      "name": "city-litter-bin-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "769248f64043e0a855a9d8be2bf95be97eb1921ffd6e2ce68dbdb2d4dcdf43e4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-litter-bin-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428520,
+      "bytes": 401276,
+      "name": "city-litter-bin.fbx",
+      "sha256": "f1dadf4903c64f6faddfc892ae89c17618ab8f2d347056478c31f9d3c8ddb1fe",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-litter-bin.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428546,
+      "bytes": 95495,
+      "name": "city-maintenance-ladder-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "6b07768b5ed73dfd96188784b2481aa6a8dcf884e591876e01c8b5b4a2a2ff22",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-maintenance-ladder-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428576,
+      "bytes": 428620,
+      "name": "city-maintenance-ladder.fbx",
+      "sha256": "edcaa29111e911d90267d695ab38340de52971e573b9db972d3f70f3d3ed75ce",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-maintenance-ladder.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428608,
+      "bytes": 399613,
+      "name": "city-pallet-jack-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f0bb0665ec6e0d97778eb63260b9a3013ff56f8c017ee29577b97c668bf43292",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pallet-jack-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428624,
+      "bytes": 1015580,
+      "name": "city-pallet-jack.fbx",
+      "sha256": "42e7d14f3afb0158f1ea241e4cdc6f455c88a1f6e869d2a5bdedac4464675d95",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pallet-jack.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428642,
+      "bytes": 287727,
+      "name": "city-parcel-locker-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f66a22e54367333034c148fb9c6b0236a42b8b429bd9e26141ef5b5a9527a061",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-parcel-locker-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428658,
+      "bytes": 869404,
+      "name": "city-parcel-locker.fbx",
+      "sha256": "a5670c504c54f1745c01704e70d473a7451d5336de177cd038fac4f16a4c2bef",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-parcel-locker.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428673,
+      "bytes": 301545,
+      "name": "city-parking-boom-gate-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0f0fb8dc5e2cc5aaca32955fe895fd79d5b940f7c40f70c777384bf0b1677c03",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-parking-boom-gate-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428689,
+      "bytes": 761852,
+      "name": "city-parking-boom-gate.fbx",
+      "sha256": "a352e43f9487986898a91f26ab565658952767540d6295d7d44466f17050a8b9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-parking-boom-gate.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428704,
+      "bytes": 251937,
+      "name": "city-parking-meter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ae19a833090c71dcef4230eea71e75de458e3c58fe962b478f463fafd376376e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-parking-meter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428714,
+      "bytes": 636684,
+      "name": "city-parking-meter.fbx",
+      "sha256": "55afa7b1821d0b1e958c1d5f08f7dd3ca728cf9b66edfb6af21d0331642e75ae",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-parking-meter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428740,
+      "bytes": 43456,
+      "name": "city-pedestrian-railing-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "8e03e15dff4b9fd9cf54e74d7ac45353da337716a5f9864912b0375500fe848e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pedestrian-railing-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428755,
+      "bytes": 227404,
+      "name": "city-pedestrian-railing.fbx",
+      "sha256": "7e19d02b36d52839933091451aa60dd062890e102dd507123aaf368c779dc6df",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pedestrian-railing.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428767,
+      "bytes": 50299,
+      "name": "city-pet-bag-dispenser-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "fe4f609a265f2ddde2ceefb032644217234d1c854811c4b7265ad7eab7cf52ab",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pet-bag-dispenser-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428793,
+      "bytes": 129564,
+      "name": "city-pet-bag-dispenser.fbx",
+      "sha256": "d8ae4acbce6a58a28054c64094a7931f3fb8e462884639df0430bc87ead82b23",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pet-bag-dispenser.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428817,
+      "bytes": 124109,
+      "name": "city-playground-slide-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "bc1d8d60274e27b8d3ec80f08594e44682df0ef053474827ed5dfa9f7bfef16f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-playground-slide-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428835,
+      "bytes": 355788,
+      "name": "city-playground-slide.fbx",
+      "sha256": "2f73132a526695c9e24b96936d82a507487323206dc800bfdde176f4e4152455",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-playground-slide.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428865,
+      "bytes": 331544,
+      "name": "city-playground-swing-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "621776c520cf83828c7b77e2b611d6db900cfcbb66f70c1467d0fce9580b1006",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-playground-swing-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428896,
+      "bytes": 545964,
+      "name": "city-playground-swing.fbx",
+      "sha256": "4beed6f5ff72288c194c8c2cd36b6751d0a63cc1e79de4de6a78d8e48459949e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-playground-swing.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428927,
+      "bytes": 295532,
+      "name": "city-portable-toilet-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "52777eae7c66c75713c621b4e006c0879746cc107d6920d7368c2c90fe3234c9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-portable-toilet-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428962,
+      "bytes": 646076,
+      "name": "city-portable-toilet.fbx",
+      "sha256": "20b56316d102906e96ae42fc7163655e9351f72e23f487901249e211ff0f12f2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-portable-toilet.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645428998,
+      "bytes": 159592,
+      "name": "city-postal-box-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0b97197a6f5785d5024861c2d3bc6c671431c67f6ab66a802bc2eac15b2e049e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-postal-box-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429013,
+      "bytes": 378204,
+      "name": "city-postal-box.fbx",
+      "sha256": "bae62619296e5597aa1fdc1353d73050db9cee8c923b16136c435a77c974d35e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-postal-box.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429039,
+      "bytes": 21828766,
+      "name": "city-pruned-street-tree-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "32e3e29d8aafc9c1c3c68557d51d9cf6cdba350a795c6f119f9451af2f82af70",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pruned-street-tree-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429078,
+      "bytes": 23102892,
+      "name": "city-pruned-street-tree.fbx",
+      "sha256": "a8849a91ab93f888267846a4042a01a67e120cd0928923fa6b422b1f4bf6ba0c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-pruned-street-tree.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429112,
+      "bytes": 230880,
+      "name": "city-public-telephone-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d135b405f0a4ab05bfba24c141f3ab20b153344416e8440a5d5dfb14eb5af76e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-public-telephone-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429141,
+      "bytes": 734716,
+      "name": "city-public-telephone.fbx",
+      "sha256": "ee046fad0b86c259f093d2d3b4839b5869b311958d2c5a02c68bb4b95bc4d2a7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-public-telephone.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429159,
+      "bytes": 322634,
+      "name": "city-recycling-station-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "52bb28d1e7d30ed0067fb5364dfa249afa763bb226cf32161029cb3277fc3b2f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-recycling-station-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429176,
+      "bytes": 795580,
+      "name": "city-recycling-station.fbx",
+      "sha256": "0b262642feb31110aa20aca85a3e35fc6a14f796934ec498baf4ec10ab529d1c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-recycling-station.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429204,
+      "bytes": 91739,
+      "name": "city-retractable-awning-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b507c5bb52c5a48b252221978c2efc671104aebe1bf9e2c01ced6ecd53dbe541",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-retractable-awning-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429228,
+      "bytes": 355148,
+      "name": "city-retractable-awning.fbx",
+      "sha256": "21741495da00269fe7533bc621c1fd091cb167530b736c397f512562fb8f0c5b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-retractable-awning.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429245,
+      "bytes": 130143,
+      "name": "city-road-barrier-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b7f802b667185f0ad753b8b6e6f84f2c14a032282a9ffd9b3b9cffcc9f45f138",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-road-barrier-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429263,
+      "bytes": 386924,
+      "name": "city-road-barrier.fbx",
+      "sha256": "308ae0ecc8bf60d30284086f728c3a85795e37e92b4c9f7c363e03e45e78b193",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-road-barrier.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429288,
+      "bytes": 197063,
+      "name": "city-roller-shutter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d46ecdbb440334f2ea6f8de8e6c132d81ce5b8ee0616982b46918f74a07b7c33",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-roller-shutter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429314,
+      "bytes": 262604,
+      "name": "city-roller-shutter.fbx",
+      "sha256": "cd2510691ae4c0508e07fb8442c7001199628106c6c1262e2f9880a9c7042f37",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-roller-shutter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429341,
+      "bytes": 81162,
+      "name": "city-roof-access-hatch-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "03a135b20f757ea6b28fb475a1353b5384463027bd9d83b6ac4614e04ad2cb6c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-roof-access-hatch-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429355,
+      "bytes": 213500,
+      "name": "city-roof-access-hatch.fbx",
+      "sha256": "f1b2a162b651bf64aef92152c06eb63d196650b5947fb6cf90fd83e20703b042",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-roof-access-hatch.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429368,
+      "bytes": 423377,
+      "name": "city-roof-exhaust-cowl-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "5414a1263e9ef422f1f11bc56d469eeb336b807f3f210c1377eeaf49b62328fa",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-roof-exhaust-cowl-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429385,
+      "bytes": 635836,
+      "name": "city-roof-exhaust-cowl.fbx",
+      "sha256": "078e0d534e917e8512c69465030a8550938f6953c38bf1d96a0209c9419bd327",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-roof-exhaust-cowl.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429401,
+      "bytes": 910844,
+      "name": "city-sack-hand-truck-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "cf955b569ae5d78fda854dc8fcc7ec49489751ec41c6b4b6f0e7d494fa0be890",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-sack-hand-truck-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429424,
+      "bytes": 1032876,
+      "name": "city-sack-hand-truck.fbx",
+      "sha256": "c6ac53f9e6e3110677483c137fa70d53dd16ad53c0963442189104d95a98b517",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-sack-hand-truck.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429437,
+      "bytes": 822042,
+      "name": "city-satellite-dish-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "953383f66cf9223db7927094136fbbb4a672e5077295d22d49d1f8125a5e8cb9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-satellite-dish-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429444,
+      "bytes": 920412,
+      "name": "city-satellite-dish.fbx",
+      "sha256": "2625e5c59d03560f89c9d2393f8abbcf462d6d2957c18ac4d07772f49e0d5fc8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-satellite-dish.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429459,
+      "bytes": 724345,
+      "name": "city-scaffold-bay-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0f9c60389b59682e64339757f0fb60335e0584b68f64023b60960fed953e079a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-scaffold-bay-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429475,
+      "bytes": 959212,
+      "name": "city-scaffold-bay.fbx",
+      "sha256": "83d7f36c2b36c8a351f65ac7fa683960266b3b41085b8e297a0e864b3af02103",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-scaffold-bay.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429490,
+      "bytes": 161471,
+      "name": "city-security-camera-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "dde9936ded8294a4fecc18a589004998e81bf07ec80fffeaad5121a25a68ea7c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-security-camera-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429519,
+      "bytes": 267164,
+      "name": "city-security-camera.fbx",
+      "sha256": "7bfbe64b4f05764de09aa607ce78933ec9db0e7f5a0babc6a6bbb2d94f45e4b5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-security-camera.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429537,
+      "bytes": 1089505,
+      "name": "city-shopping-trolley-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a86607f23c3bce4d34a23cfa4f49e8a97bad5ddceddcfbca52910320c75ec8ac",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-shopping-trolley-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429556,
+      "bytes": 1243436,
+      "name": "city-shopping-trolley.fbx",
+      "sha256": "8555fc6c42f43e5120c18f8ce651b4a869ce446c8770f6c23849292031388bc0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-shopping-trolley.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429566,
+      "bytes": 327443,
+      "name": "city-solar-module-rack-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "47f1af9c9fb0997e638811575aa4bb1febe90433baddc81a380839b6709e22d3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-solar-module-rack-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429588,
+      "bytes": 526940,
+      "name": "city-solar-module-rack.fbx",
+      "sha256": "1945f16664b62b5c4ed78b532e9842d0892f23add7939188be2db20e7f1fc165",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-solar-module-rack.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429608,
+      "bytes": 41275,
+      "name": "city-speed-cushion-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "45d609ecd9f985d0acd9c7df79bdc5bc5ba93d1436e7f77281ebf7e992a5bc5a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-speed-cushion-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429629,
+      "bytes": 283532,
+      "name": "city-speed-cushion.fbx",
+      "sha256": "716158fc405b8c2a8ed3456e84342e02a5adb1f74c27cb7dfc36036e77853b7f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-speed-cushion.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429666,
+      "bytes": 94805,
+      "name": "city-storm-drain-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "22f07c445ec27d01b265a394ce80334549edb94af1a1925757f0e41ddb9e8fb4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-storm-drain-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429688,
+      "bytes": 339372,
+      "name": "city-storm-drain.fbx",
+      "sha256": "db906728ebc0408d375020aa132d59f4fd3dbabe6ce55c1284651266eddc46ae",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-storm-drain.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429725,
+      "bytes": 200061,
+      "name": "city-streetlight-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "601c553312d508ac10a31642caecc26269f4483ae5db455d9c6eaf08e6519c7e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-streetlight-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429746,
+      "bytes": 523676,
+      "name": "city-streetlight.fbx",
+      "sha256": "84b4454cd3cd32c77df2598b86a93a28b0a84828745304e3d9bcabc687892d1f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-streetlight.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429762,
+      "bytes": 76207,
+      "name": "city-tactile-paving-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "909faef44b1ab64b346ac890a39439959a9386921d6a2fe08f0390ac29418014",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tactile-paving-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429798,
+      "bytes": 169532,
+      "name": "city-tactile-paving.fbx",
+      "sha256": "6fd34c4a0023c5927fd4cd8291126c4ebfc8d6c0f3e3332539210d88040e6219",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tactile-paving.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429829,
+      "bytes": 158693,
+      "name": "city-ticket-validator-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "6948029002baac1e8b7329f014ec8d025d44ae37a5ae7d89ad489ead3d2b7dbd",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-ticket-validator-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429851,
+      "bytes": 384892,
+      "name": "city-ticket-validator.fbx",
+      "sha256": "2dcbc8948b66b03f34f204634ffa3dc66657f60d7b27c23aa554f8a5c72b39dd",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-ticket-validator.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429888,
+      "bytes": 55414,
+      "name": "city-traffic-cone-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a4057e442f0484b81293878a95cea630486727a5fca99906ed5ab8dba29a2f59",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-traffic-cone-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429916,
+      "bytes": 95532,
+      "name": "city-traffic-cone.fbx",
+      "sha256": "dce6e3d960a3bbc6dee8e5433b40eb67944a4993224bb81ebb9e31a87673a6f9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-traffic-cone.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429938,
+      "bytes": 488706,
+      "name": "city-traffic-signal-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "8332c1235cf75470f3643fba192d5e5b489055b625452b2a99f9997d53ab7fcc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-traffic-signal-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429951,
+      "bytes": 825356,
+      "name": "city-traffic-signal.fbx",
+      "sha256": "70a4ab51a11e1d98f3bd5e03ce683ff743dc2ada8456de204170b8aa28c53518",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-traffic-signal.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429975,
+      "bytes": 77211,
+      "name": "city-tree-grate-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ba9a51942e70c98bfc1878aeb3982ca06f67952423f6a1e364d2f49dcf3aff5a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tree-grate-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645429990,
+      "bytes": 202348,
+      "name": "city-tree-grate.fbx",
+      "sha256": "821aa3156a85df3e53717e87ebb8dae9b439b89483668ee446b9362e6ea4b818",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tree-grate.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430002,
+      "bytes": 47915,
+      "name": "city-tree-guard-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "728aae69269ff50acce8ecb809e6d8022e5f61821dfe106b9c6e244da32f3955",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tree-guard-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430014,
+      "bytes": 308300,
+      "name": "city-tree-guard.fbx",
+      "sha256": "4e5048ce74848404e78a60c79534c2295dd251bbe1503c57cb44685cc5320daa",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tree-guard.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430042,
+      "bytes": 104848,
+      "name": "city-tripod-turnstile-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f764e4c613a7996d6ce19831334d0afe923f274b0c7de784b559af310da98afb",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tripod-turnstile-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430060,
+      "bytes": 181836,
+      "name": "city-tripod-turnstile.fbx",
+      "sha256": "cc217225b6bb6f1eb742bc8a1ad419209d897dc670c0283ccb496dcf50f6b9f0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-tripod-turnstile.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430081,
+      "bytes": 1091175,
+      "name": "city-vending-machine-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "166e63711d4d504ad33578c7699facc56fe8caebcfdf6514191350bb6dd02294",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-vending-machine-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430117,
+      "bytes": 1315900,
+      "name": "city-vending-machine.fbx",
+      "sha256": "17276741b59b0fbb4d0381c87df6c916503ec6fdcaf8fe104b528087eae39fa6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-vending-machine.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430140,
+      "bytes": 335426,
+      "name": "city-ventilation-outlet-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a917c7a77d243e11710f67ee874c32f27299341b2205ebba51e46cdd03ce9d00",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-ventilation-outlet-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430159,
+      "bytes": 423804,
+      "name": "city-ventilation-outlet.fbx",
+      "sha256": "42fde0e58fdfe077baba1678490bcfe1b625b757962991cd745eae7e06271707",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-ventilation-outlet.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430185,
+      "bytes": 145992,
+      "name": "city-wall-intercom-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "724a83a753d0737097bfb7be1f814f1a3c6ecae23d7bfb171f36b3ffb40291d0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-wall-intercom-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430208,
+      "bytes": 291724,
+      "name": "city-wall-intercom.fbx",
+      "sha256": "952ac10c14cd1eee78ab360d3cace84d228fb0e53aea216091458e734531470a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-wall-intercom.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430233,
+      "bytes": 31679,
+      "name": "city-wheel-stop-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "bd7556d2fefd9157c848a112933698271668958269d5348cb384219bf44e15cf",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-wheel-stop-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430258,
+      "bytes": 59420,
+      "name": "city-wheel-stop.fbx",
+      "sha256": "de63dd1ff7e7fa8ba40297db8e5ce66d58fd30638321978ebea703a3ce7d0a8c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/city-wheel-stop.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430280,
+      "bytes": 37928811,
+      "name": "commons-bar-counter-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "1965b41b6262e24237cb8777196c149e24fbae06c87781571b8d8f99dad3b1d0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-bar-counter-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430327,
+      "bytes": 38554396,
+      "name": "commons-bar-counter.fbx",
+      "sha256": "3818cc666f17a8b319e6c8a83a96e551b097765552da320b54ed9cb102be4f74",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-bar-counter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430387,
+      "bytes": 38231633,
+      "name": "commons-bar-stool-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "5efa29c11b1cfa61e21d1f0ebd32fb9530d671312dd71cd5436d840e4a74a824",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-bar-stool-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430441,
+      "bytes": 38918540,
+      "name": "commons-bar-stool.fbx",
+      "sha256": "d24abb2b86eb150f2f41aa4e9081add2941c50209676719b2f6e3fede6a489a2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-bar-stool.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430512,
+      "bytes": 29773248,
+      "name": "commons-book-set-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "2c8115d896a68b19e8bd444152560c95a29d52447fef1b045af51ef375f4aff4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-book-set-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430580,
+      "bytes": 30844748,
+      "name": "commons-book-set.fbx",
+      "sha256": "d04a94df701172e6f871d545226ce109890f934d1fa44703a74a4807a9af2609",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-book-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430659,
+      "bytes": 16095341,
+      "name": "commons-bottle-set-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "44cf9747b7ea67f1c20ed853821bde402a508f842626f877f1692048d7c1d831",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-bottle-set-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430701,
+      "bytes": 16296908,
+      "name": "commons-bottle-set.fbx",
+      "sha256": "bddf07d284c3f26055aea0ad19db1cb8f8113ffffe1dec7f7a508ddcd0b3558e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-bottle-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430742,
+      "bytes": 15792179,
+      "name": "commons-coffee-bag-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "46f688ebc0768930197b35626bf443f21bb92215f4a873757ba1c0dfd0dd7537",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-coffee-bag-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430782,
+      "bytes": 15904268,
+      "name": "commons-coffee-bag.fbx",
+      "sha256": "a09a9077538c96510104de42438f058c24c6f87749d6993ea59538939bfb33e6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-coffee-bag.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430836,
+      "bytes": 12141,
+      "name": "commons-coffee-cup-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "5d731070ce8ec28966abd997dfe7c4f3bb92292d64dab1158e742bc871024514",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-coffee-cup-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430857,
+      "bytes": 26732,
+      "name": "commons-coffee-cup.fbx",
+      "sha256": "125313a106dc02ed6ae1908ee7a92bdd0a37227d5bbba4b98412d4ccc0360c6e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-coffee-cup.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430877,
+      "bytes": 11830239,
+      "name": "commons-coffee-grinder-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "08e49015dfe6e02c68580a732284cc2b6f59239bc26fdf82a73e1f29a38fe8c4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-coffee-grinder-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430915,
+      "bytes": 11849212,
+      "name": "commons-coffee-grinder.fbx",
+      "sha256": "64f39e40bbbcf1c83a2fe6eb58a15e2fea7f25561bf41b26bc572cd1b2e3b5c6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-coffee-grinder.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430959,
+      "bytes": 11851604,
+      "name": "commons-display-plinth-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "37139f46b9e75ec8e035039fd0017d991ffff3b7075d4005a62c1769603127be",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-display-plinth-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645430998,
+      "bytes": 11871212,
+      "name": "commons-display-plinth.fbx",
+      "sha256": "d1c015441cdd671972e02284072c11784b7cad9576c3daa4119cc2df28f98d14",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-display-plinth.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431040,
+      "bytes": 27090480,
+      "name": "commons-dj-controller-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "3d2c25f797008e33ae7f99eeca24d39889c23430f5aed9d7dc8d3cd2a313d680",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-dj-controller-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431104,
+      "bytes": 27309484,
+      "name": "commons-dj-controller.fbx",
+      "sha256": "6c65383fabb37bed27b77a20501bf6d57877db5bdaefd216212cd7fd59ee4db6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-dj-controller.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431177,
+      "bytes": 25087822,
+      "name": "commons-dj-desk-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "a62e865276668bedeadc208400213b09cf1c0d3c31358a5c2c5c633bb0ddbb7b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-dj-desk-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431241,
+      "bytes": 25557020,
+      "name": "commons-dj-desk.fbx",
+      "sha256": "ce2f258a4bc8c8d7eaabc01f709238c7fed4b8aca0e5eafb14ff5c95477d6cf5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-dj-desk.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431297,
+      "bytes": 14794079,
+      "name": "commons-equipment-rack-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "03ee682f45e8f949fa313a7e0557b744842e103f381bdbc44e10c987e4c4d7f7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-equipment-rack-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431395,
+      "bytes": 14926044,
+      "name": "commons-equipment-rack.fbx",
+      "sha256": "c710c77c5f129a965b82aa601bef48f2e61dfcb6d59bd0ba029a6d5a607f698a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-equipment-rack.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431458,
+      "bytes": 27615903,
+      "name": "commons-espresso-machine-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "d02880737acd3694cdb3a23d79a3761091e62505b02500d02f652d483941bd1f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-espresso-machine-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431498,
+      "bytes": 27736844,
+      "name": "commons-espresso-machine.fbx",
+      "sha256": "78fa99744241e0040aa45114afa3fce3b4d16175e3555c00175923745d201b7b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-espresso-machine.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431551,
+      "bytes": 29801839,
+      "name": "commons-floating-bookshelf-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "37aad6f5c993e998910e391de19567a6b2cc3d0d1f96b8b2c6f89ce8af452df3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-floating-bookshelf-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431594,
+      "bytes": 31026620,
+      "name": "commons-floating-bookshelf.fbx",
+      "sha256": "47cea7cd5264348b6d069531ceb5354eb261111dfe25f84c7741250bc74f4390",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-floating-bookshelf.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431652,
+      "bytes": 12886699,
+      "name": "commons-halo-light-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "f6f954441ac523d0d72bfc9d70e168d75296428f1d56bb8b7c16405b8c003fc4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-halo-light-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431681,
+      "bytes": 12986204,
+      "name": "commons-halo-light.fbx",
+      "sha256": "910a957216555e3db73976689ff5d2504a4508fcc7ced5d3642f127ed5962094",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-halo-light.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431715,
+      "bytes": 23887,
+      "name": "commons-leaf-planter-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "21326d8a17a519198e45c47dc60a8ab96dbffa201702800b9a35e09b658e0b6c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-leaf-planter-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431735,
+      "bytes": 72364,
+      "name": "commons-leaf-planter.fbx",
+      "sha256": "3e16b21c9a2d5b362aad38e3b3a9e8617ed9c887a6cab4a7205e1de83354987c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-leaf-planter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431751,
+      "bytes": 26407563,
+      "name": "commons-lounge-chair-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "2933296ae8b9bad61bd6622bd8d506991db08a75e8805d1ed08b2d0ec9bc7356",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-lounge-chair-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431816,
+      "bytes": 27095404,
+      "name": "commons-lounge-chair.fbx",
+      "sha256": "b3bb7ef406e19fbaa5adbad3d2e6474d23280c15c9dc62da98e52104bf74cbac",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-lounge-chair.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431897,
+      "bytes": 26413891,
+      "name": "commons-lounge-sofa-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "2b5a43e1498dad196add92633205b39c63fd977d68f6b07ab1302566fc47397a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-lounge-sofa-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431949,
+      "bytes": 27106892,
+      "name": "commons-lounge-sofa.fbx",
+      "sha256": "1a206560c98f896c391d6b6042eeb0cbb2109470864313919e8858e964c8ad50",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-lounge-sofa.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645431996,
+      "bytes": 37931670,
+      "name": "commons-low-table-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "ee671fb0c513d3bb37d8033de6a6bdc83c25b2f252c568b33207f6713e1d2fa6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-low-table-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432068,
+      "bytes": 38482780,
+      "name": "commons-low-table.fbx",
+      "sha256": "d497a2a56af2a1f2249b5239283377ba368f130255703458cf02084dfe654975",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-low-table.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432150,
+      "bytes": 11836911,
+      "name": "commons-pa-speaker-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "bc2032a4abe19b5122d13c1bdfb82b1c8adb12d4bf49bfdcfc703e00b8ba32b8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-pa-speaker-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432200,
+      "bytes": 11882716,
+      "name": "commons-pa-speaker.fbx",
+      "sha256": "80d527a931e731202b3a11a957b4973c174a0c1730e9aeaee203c372f52d9ae6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-pa-speaker.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432226,
+      "bytes": 11833059,
+      "name": "commons-pendant-light-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "0ef7990fe9dea2c77d61b9cfbe8e01743afe1bd959c41eff61567bcb3f968080",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-pendant-light-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432256,
+      "bytes": 11853836,
+      "name": "commons-pendant-light.fbx",
+      "sha256": "fe829a83980f0c1b8fb0f79cba5dba2c6341ad7ee6772aa7cf4cb008e81fe969",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-pendant-light.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432312,
+      "bytes": 12837926,
+      "name": "commons-poster-frame-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "3abb4a225ca7c0e10e24d9bcfd56e1c1017f0bded7f31d9d5896dbb1c4bfa731",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-poster-frame-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432331,
+      "bytes": 12933996,
+      "name": "commons-poster-frame.fbx",
+      "sha256": "1648a2d9fc86ae45bf4ead3f080ceb8df642c78bce964f2aa9c9de9fa39663f7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-poster-frame.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432356,
+      "bytes": 25122755,
+      "name": "commons-round-stage-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "085c79a523f0280a81aeface17aaa478287e28df9334868f0290c3be63fdcae4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-round-stage-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432418,
+      "bytes": 25591852,
+      "name": "commons-round-stage.fbx",
+      "sha256": "e11c443cfb3fa2ef2a184bc1b109b4a2663fe3a7271b8dc57163aaea716a3910",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-round-stage.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432468,
+      "bytes": 37932074,
+      "name": "commons-round-table-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "b4d0bb74196160a5d5c552181169af30d0cf46d7e8f557cc4acad3cf65d9da5f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-round-table-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432553,
+      "bytes": 38483020,
+      "name": "commons-round-table.fbx",
+      "sha256": "5afb547d2e909d620287643ef0f81631ab229dc16e4c62514df556885019b36b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-round-table.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432616,
+      "bytes": 7551,
+      "name": "commons-table-candle-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "4bc2ed56bf6aafe482bbaa4eed91558ea1dd07c27aa6fb74f6f79bcc2287d31e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-table-candle-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432632,
+      "bytes": 20220,
+      "name": "commons-table-candle.fbx",
+      "sha256": "86bf5ebbe5b5aea90f84cd7becfa99bfb03f47f80a4b8651592509e710fd2da4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/commons-table-candle.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432654,
+      "bytes": 192629,
+      "name": "fbx-minimal-inventory.json",
+      "sha256": "0d7b07099d9ef0e5663998aa78b78db0614f11776ae74c30986742bccacd6afc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/fbx-minimal-inventory.json"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432685,
+      "bytes": 7060,
+      "name": "field-terminal-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "916b50375bec958134a9e088376d9bf77a6b9caeffdf0190b70ac4e3c80cfb7f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/field-terminal-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432712,
+      "bytes": 19996,
+      "name": "field-terminal.fbx",
+      "sha256": "b76b630060fefe08e991cfd0523fd56602c9553261076f4b9871ea8310e83efe",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/field-terminal.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432738,
+      "bytes": 11613,
+      "name": "garden-arch-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "6a46f5ce69495efec67ecc1ef0a618150d955a51c786239cc7955020caefe10a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/garden-arch-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432764,
+      "bytes": 22044,
+      "name": "garden-arch.fbx",
+      "sha256": "d084442a54ab731073bdec10bde83071d3c01eac3518d2b45210b6d44157814f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/garden-arch.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432790,
+      "bytes": 10810,
+      "name": "market-crate-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "c02c8039e0ac94c0180f09e4894ac9cfbe02299d31951ffaab8432cf15fd5be1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/market-crate-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432818,
+      "bytes": 21612,
+      "name": "market-crate.fbx",
+      "sha256": "90a502adc99df0bc652dcc8fd7e52d4b07411a328b47db567df51298e708b5c8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/market-crate.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432844,
+      "bytes": 7626,
+      "name": "slat-bench-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "b35646667e7e9fbf3e91c6ec45947a25dd53d294cf67591dd929ee8c76c5d4ee",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/slat-bench-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432868,
+      "bytes": 18812,
+      "name": "slat-bench.fbx",
+      "sha256": "d40c597d1efd6813c9158ab7877a5c233397349183d51f3ed3daba77f99b852b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/slat-bench.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432884,
+      "bytes": 7569,
+      "name": "studio-chair-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "28b9c703b69f8385c82ea788a5943662cb57103e9ebb56cba7269d0e1124767c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/studio-chair-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432903,
+      "bytes": 18684,
+      "name": "studio-chair.fbx",
+      "sha256": "74de5d046e7d38fa0f900bcda9d03694a1fac83aafc187102029b231562cb2df",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/studio-chair.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432926,
+      "bytes": 58831,
+      "name": "terracotta-planter-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "ba7cc590e79fc1bbad27d24e71831abee754c000a16b541bbc7724ce5c10ec68",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/terracotta-planter-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432946,
+      "bytes": 79388,
+      "name": "terracotta-planter.fbx",
+      "sha256": "5cd90f996d5246a11e660e15978da2f3689c568d6fee6ed8cd0fb7b7805f9d91",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/terracotta-planter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432971,
+      "bytes": 48784,
+      "name": "wayfinding-sign-1.0.1-fbx-minimal-1.0.0.zip",
+      "sha256": "fb891aaf1b28bd705273b43d662bfa45972fee344b54acedd37728ae7044de2e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/wayfinding-sign-1.0.1-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645432995,
+      "bytes": 68604,
+      "name": "wayfinding-sign.fbx",
+      "sha256": "e53d12ec142fac6f3118a4272fa44376cc3710aadb121acd79c1516c6c0d7252",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/wayfinding-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433026,
+      "bytes": 3587295,
+      "name": "yokocho-banquette-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "294aca184b1ce562db2754d3b1806dd5a7a474ef1913e7e8d735f05de6ef3365",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-banquette-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433055,
+      "bytes": 3624908,
+      "name": "yokocho-banquette.fbx",
+      "sha256": "31588f4e045f00bdb096156eba8ceef8b056b3540985a122c743766197b9539b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-banquette.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433084,
+      "bytes": 28938,
+      "name": "yokocho-bard-lyre-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0de02d0c12e4db8e581a27ca4a6ee62c114cbc1b750a5dd817a0e1855ed46caa",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-bard-lyre-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433103,
+      "bytes": 46588,
+      "name": "yokocho-bard-lyre-sign.fbx",
+      "sha256": "4d3c66e77aa8f3f611a2dbe24778ed7174b3e570ea05a03c39b7c85a6b0de87e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-bard-lyre-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433134,
+      "bytes": 117165,
+      "name": "yokocho-booster-pump-skid-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "6de92f6da2ed838c688181c12d30ce0a8656ea3b99d2394ebe3d38a01e7d8ce2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-booster-pump-skid-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433154,
+      "bytes": 157100,
+      "name": "yokocho-booster-pump-skid.fbx",
+      "sha256": "18e8530c1c0cacaefc66584ff7345bd7032946557e67aa2a22760c4fb97ed532",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-booster-pump-skid.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433170,
+      "bytes": 24239,
+      "name": "yokocho-booth-table-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "91744c6e07196808d4c106070255554d11e4c71d262882cfcc718d6ea1f15dea",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-booth-table-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433191,
+      "bytes": 49404,
+      "name": "yokocho-booth-table.fbx",
+      "sha256": "752214e9166e7103df5e010528b07078a62b668811fd4ee0e527f5bd620cc2c0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-booth-table.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433249,
+      "bytes": 4073582,
+      "name": "yokocho-bottle-keep-wall-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "c3e652bbd402bcd08f76814bb169ee4f72ba311625287ef199c842d81f28e9f3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-bottle-keep-wall-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433279,
+      "bytes": 4177020,
+      "name": "yokocho-bottle-keep-wall.fbx",
+      "sha256": "07bd674a85f0979df02b678e3cabe45dcd17b653caa2404d4d245f69ec1bbfa1",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-bottle-keep-wall.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433297,
+      "bytes": 94804,
+      "name": "yokocho-charcoal-stool-set-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b7b09c76248874f17679ff6821ea375d9b8c563e0020b1cdc47c32b0a58855aa",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-charcoal-stool-set-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433310,
+      "bytes": 117196,
+      "name": "yokocho-charcoal-stool-set.fbx",
+      "sha256": "415c392b7deb80333795a9e52d957f5ab9c301e8b66a190f9752e74c58487761",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-charcoal-stool-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433331,
+      "bytes": 18180,
+      "name": "yokocho-club-armchair-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "17d8a3339eb0047006b4d83ae15db6c96ef26e824ae78626ae7027f939e964b9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-club-armchair-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433354,
+      "bytes": 34828,
+      "name": "yokocho-club-armchair.fbx",
+      "sha256": "bb9fda637e44406a65bfd8756ff16215e4e3b5fe20656ab1e8675da9a41affe7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-club-armchair.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433364,
+      "bytes": 19841,
+      "name": "yokocho-cocktail-stool-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f5bd4ce8a24bb9b181bff067ef0b3cd5defd8e5bbbea2ed4e905ea992086464f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-cocktail-stool-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433383,
+      "bytes": 33804,
+      "name": "yokocho-cocktail-stool.fbx",
+      "sha256": "bff37b09d6418d6f128d467567963b653eefc255109208c6f79362167f629dba",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-cocktail-stool.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433418,
+      "bytes": 51311,
+      "name": "yokocho-confectioner-stool-set-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "701318848c622b1e16b176184a87ce319268923068848a58a85e7ec21b8422ec",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-confectioner-stool-set-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433439,
+      "bytes": 71164,
+      "name": "yokocho-confectioner-stool-set.fbx",
+      "sha256": "2449dbf8207d1a936087417c1b705fc369bb378d9a879a0f4e4a0f2bbdb11944",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-confectioner-stool-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433458,
+      "bytes": 37373,
+      "name": "yokocho-dragon-ember-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "bd47e8d86b103200d31aeeed65b0496d1824fd9543a6b59902acdf8d6eb9c3b4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-dragon-ember-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433493,
+      "bytes": 59820,
+      "name": "yokocho-dragon-ember-sign.fbx",
+      "sha256": "7df4fd49cfbbcbe250d640ce73cca0be3501cb198ced8b4939149d188a02f885",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-dragon-ember-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433516,
+      "bytes": 613647,
+      "name": "yokocho-entry-display-frame-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "5fb129a8bfa3a43ce89716efc9470be7bd1c16e1d1fb916c3099bb6fd579bcd2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-display-frame-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433537,
+      "bytes": 713996,
+      "name": "yokocho-entry-display-frame.fbx",
+      "sha256": "d9cb754815ca19b7be56d4e16ef5f6e0435a05990250ecd61cdbbe530eb1bacc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-display-frame.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433563,
+      "bytes": 742175,
+      "name": "yokocho-entry-guideboard-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "5f92831beb9e1628d66034a56d49696ac2e807dea560a2c638ce66e3e03414c2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-guideboard-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433588,
+      "bytes": 841996,
+      "name": "yokocho-entry-guideboard.fbx",
+      "sha256": "d32eaa59c6da634f99bd67de1212fe8e0f16fcc72709302cba4bd8a09e2d4e40",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-guideboard.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433657,
+      "bytes": 825244,
+      "name": "yokocho-entry-log-bench-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "87a30de2e9bd40bbff650f1f8de515cea6867009249fade106a3c8c6401df607",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-log-bench-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433679,
+      "bytes": 912988,
+      "name": "yokocho-entry-log-bench.fbx",
+      "sha256": "8f34f5a56f1eb497c6ee8167e18e303ec3babc551fc4f20bee375695e89c496a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-log-bench.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433690,
+      "bytes": 535071,
+      "name": "yokocho-entry-stump-table-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0afdfaa00bad13a2919d12b8a58f32d24fc3f37c4859c49cb423907fc7a71f27",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-stump-table-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433701,
+      "bytes": 583932,
+      "name": "yokocho-entry-stump-table.fbx",
+      "sha256": "0da06b76ad7201b799cdfde3cc6aa00af06f41867b4a76ddd1c6fbaf637e53c4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-entry-stump-table.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433719,
+      "bytes": 496951,
+      "name": "yokocho-geometric-backbar-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "711749311acfdead277d3a043abfb59e110c22a0394f6d806b5d01b7ad94fb4c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-geometric-backbar-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433732,
+      "bytes": 570924,
+      "name": "yokocho-geometric-backbar.fbx",
+      "sha256": "bf3a1a40940ce62f67cfa88ac3373130e305876dd3904f0cb249b7e6c4e7ed13",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-geometric-backbar.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433799,
+      "bytes": 3584514,
+      "name": "yokocho-listening-chair-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b507351d26e601da9018dbfa3fc9ba3c3cf06366621e6a52ef963f28bac06bbc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-listening-chair-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433824,
+      "bytes": 3617868,
+      "name": "yokocho-listening-chair.fbx",
+      "sha256": "70f2607d9de580e7b2ab3286ba13fb88e77e2daac0eae98b49b7560559ab680d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-listening-chair.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433845,
+      "bytes": 24932,
+      "name": "yokocho-listening-counter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "2027f18ca9708b1390a3ab974b47bc041579c06ed6defb406991a19b2afe3528",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-listening-counter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433857,
+      "bytes": 53084,
+      "name": "yokocho-listening-counter.fbx",
+      "sha256": "0b16e992a22dc715b43d073a4e2afdf2e4377eee662c0328dcc784ef22cdc3f8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-listening-counter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433869,
+      "bytes": 18740,
+      "name": "yokocho-lounge-table-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d69d6a26db5e3298212d71c6aecdb6703fdab1c933f5706be3f49ae99552bd31",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-lounge-table-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433880,
+      "bytes": 41996,
+      "name": "yokocho-lounge-table.fbx",
+      "sha256": "d7daa3f072548fd00020df03bfb9522caef693bc36687a9e8389a49b39a91efc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-lounge-table.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433905,
+      "bytes": 27961,
+      "name": "yokocho-medallion-chandelier-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0369194473133f5648dcd4366b45c5383a9fba580716ee7b128b5b0a8a01f5d0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-medallion-chandelier-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433930,
+      "bytes": 50988,
+      "name": "yokocho-medallion-chandelier.fbx",
+      "sha256": "182a43802bb2e7f3f309d86117cb4fd7f27433cd044e4199e63a2cb4c73cfc48",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-medallion-chandelier.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433950,
+      "bytes": 23583,
+      "name": "yokocho-mixology-tools-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "964763de04c8dd5aabc46fda47e2cb325afcb82d854d04948146f4a15f249ac0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-mixology-tools-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433964,
+      "bytes": 43804,
+      "name": "yokocho-mixology-tools.fbx",
+      "sha256": "b9535a2d472a665f1b1607da730c3bfa866cf3f52a362a45954bec7ae780d018",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-mixology-tools.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433976,
+      "bytes": 50366,
+      "name": "yokocho-moon-tea-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a470f3ae6799ae35f74ce8f4039fbe9b839e531bb660cebc0ebcf6d17e476a14",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-moon-tea-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645433994,
+      "bytes": 72348,
+      "name": "yokocho-moon-tea-sign.fbx",
+      "sha256": "99a691be16e257bdfe74bc2b70149e269d6f3abbdd06355d114e8d27b8e39df5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-moon-tea-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434023,
+      "bytes": 6634269,
+      "name": "yokocho-noh-pavilion-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "3d7acafb6e41a18c3b90c29ccf176221f7ac1bc45a43623b8d5eced94c4984be",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-noh-pavilion-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434057,
+      "bytes": 6883804,
+      "name": "yokocho-noh-pavilion.fbx",
+      "sha256": "22d761cb09b0e9106a2da8ad1d41e21719ddde6cf1db3e851722ac56a7ea9065",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-noh-pavilion.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434092,
+      "bytes": 4400055,
+      "name": "yokocho-noodle-guild-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "30d32853054f3b5fe3dad000fcce03c6d6c7cb97aba5cda32d85afa23b5085cc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-noodle-guild-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434134,
+      "bytes": 4486748,
+      "name": "yokocho-noodle-guild-sign.fbx",
+      "sha256": "8f25a496c7dc23fca0da55871ae8abd31313aa86bf8a637c1f04779ebf344b17",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-noodle-guild-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434159,
+      "bytes": 92682,
+      "name": "yokocho-noodle-stool-set-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f5339b905ac6b5988b27554db0adfc064c7e6d057d08024976d6365e31c06ee4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-noodle-stool-set-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434188,
+      "bytes": 122892,
+      "name": "yokocho-noodle-stool-set.fbx",
+      "sha256": "3c7ac1e9f002e649e4c1b42c1e44f1c258dd102de5a295ab757c16a443d128aa",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-noodle-stool-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434206,
+      "bytes": 1751541,
+      "name": "yokocho-oden-bench-set-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ff466c105e69298c0e254ea57858b70dfba1d04fb40bc59f2c0fbbf4157139f2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-oden-bench-set-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434240,
+      "bytes": 1789212,
+      "name": "yokocho-oden-bench-set.fbx",
+      "sha256": "d0d3230445152bc5b63dd1ba6fda0edeed46596183600ca1e027e8af23f2ac2e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-oden-bench-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434266,
+      "bytes": 45577,
+      "name": "yokocho-pendant-ceiling-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b23695ca62eb2f43dc7b2cb31adccf83bc48a6b40bcf16890a83a7ff7d26cea2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-pendant-ceiling-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434278,
+      "bytes": 66508,
+      "name": "yokocho-pendant-ceiling.fbx",
+      "sha256": "0fe88f38853372a66f869ea3e671cd5cf3aa7b1f8ae7cf57647a4df08431d7d3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-pendant-ceiling.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434296,
+      "bytes": 399055,
+      "name": "yokocho-record-library-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "81bfe53e92ef6c1d15989d515951c9265a521858a149722a3d43a87b6818bab7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-record-library-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434317,
+      "bytes": 440732,
+      "name": "yokocho-record-library.fbx",
+      "sha256": "89333716f47e6a6dafe478931f3eb9d883fe18f81cada3101df3eb501f9a4786",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-record-library.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434345,
+      "bytes": 3563743,
+      "name": "yokocho-snack-chair-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "12d6d690554944d9686b0a54da0fecafa0229652c0a05295411d0ffd24f4c9c7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-snack-chair-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434381,
+      "bytes": 3598812,
+      "name": "yokocho-snack-chair.fbx",
+      "sha256": "929de64837b4536577fae3a1b56a4fc026263dd0dc0f9e3296260eba9666127e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-snack-chair.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434411,
+      "bytes": 3577964,
+      "name": "yokocho-snack-counter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d4b31b175cea274e716dc470c3c1ed9c37a4ee098dfc9cfd90478bed2a4c52d5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-snack-counter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434442,
+      "bytes": 3627212,
+      "name": "yokocho-snack-counter.fbx",
+      "sha256": "12d4fa872438d1b974421c09575e97906251a5b790347e8823b1f822b0c3fecd",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-snack-counter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434477,
+      "bytes": 33183,
+      "name": "yokocho-star-distillery-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "de5eceebeb099996710268803d98e6c7f831b0be8eb69a5739d457641a9e0733",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-star-distillery-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434506,
+      "bytes": 53916,
+      "name": "yokocho-star-distillery-sign.fbx",
+      "sha256": "c6860522a76685467d87d8362231c8bc84f318ae9674847a2f41ce45608a47e5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-star-distillery-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434557,
+      "bytes": 1784340,
+      "name": "yokocho-tea-furniture-set-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "824c6d1b3c05ca3df9446af1cf5dc503b7aa46398a214ed231a5d87318b3c309",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-tea-furniture-set-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434610,
+      "bytes": 1823468,
+      "name": "yokocho-tea-furniture-set.fbx",
+      "sha256": "b532e5b3e0cd1a3d48673902e3a0c31b0d0d1bd6586762cd7e1a4b5b8eb024d3",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-tea-furniture-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434662,
+      "bytes": 61642,
+      "name": "yokocho-telecom-mast-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d82bbcd89c15216644b91fb23e94c92530c2ee273f01c30ff35e7deed709f606",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-telecom-mast-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434684,
+      "bytes": 83084,
+      "name": "yokocho-telecom-mast.fbx",
+      "sha256": "3a355248e24eb44a8ec4e9650f128863890e826da61e2b5406bae4acbceff3d9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-telecom-mast.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434696,
+      "bytes": 31011,
+      "name": "yokocho-timber-stair-flight-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "14c7e2b37643a508ba7c9097c5ca40ffb72828d44256f0ee9c789ba6269a8625",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-timber-stair-flight-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434710,
+      "bytes": 57452,
+      "name": "yokocho-timber-stair-flight.fbx",
+      "sha256": "c9918be5746a86b42c6375155fd220725b6b27c5eed62a443f85cb493334061e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-timber-stair-flight.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434727,
+      "bytes": 30107,
+      "name": "yokocho-traveler-pot-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d1e952d51fd33ebb20e876c378418ee9315cb1ea0a1cfd3c1867021d1665799e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-traveler-pot-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434744,
+      "bytes": 52764,
+      "name": "yokocho-traveler-pot-sign.fbx",
+      "sha256": "54d9440c1427add99c50a7278c86d9b39a0b254390e83e33dbc499358a0e7f0d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-traveler-pot-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434758,
+      "bytes": 21178,
+      "name": "yokocho-turntable-amplifier-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "e1fdc1a2b15ea2fa6d9e52e5e1a931cb4c8b5cdee2d72f69c36771ee8fc410f8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-turntable-amplifier-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434770,
+      "bytes": 37932,
+      "name": "yokocho-turntable-amplifier.fbx",
+      "sha256": "16398cd485952d77d808dd3acde599b05e3c107968ab8addb7851d8e6bb582cd",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-turntable-amplifier.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434784,
+      "bytes": 83518,
+      "name": "yokocho-upper-water-storage-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b9e058ef557dd33317b241a7113b755cf621c64d2463affaec41d7b4c4cd2497",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-upper-water-storage-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434797,
+      "bytes": 113308,
+      "name": "yokocho-upper-water-storage.fbx",
+      "sha256": "b32f65974cda265210a1859d0db76fde40157892e72a1ad0f59e031d73ec06d7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-upper-water-storage.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434813,
+      "bytes": 50660,
+      "name": "yokocho-utility-service-bank-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "e6139d5348820ff304267ad3a53bf1c5ebfa97e8917eb158cdb96dafc4390028",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-utility-service-bank-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434823,
+      "bytes": 80828,
+      "name": "yokocho-utility-service-bank.fbx",
+      "sha256": "4cab5027ca497cc24374d5bb88dc7bd04f782af803e06a90dd03c09d5fb30ee0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-utility-service-bank.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434834,
+      "bytes": 36790,
+      "name": "yokocho-walnut-counter-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "57f4388562ef905cd15b81695b677b6900c77cef35fc18cd719e7b3e78d0ad03",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-walnut-counter-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434874,
+      "bytes": 60604,
+      "name": "yokocho-walnut-counter.fbx",
+      "sha256": "b51cd4b35b853d84429e1118365a332b8b40eb64718ed62e2f59d3dbced97acf",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-walnut-counter.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434883,
+      "bytes": 3581240,
+      "name": "yokocho-witch-moon-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f85b9df86877da32cf160412c4347f0646baed41b2f8d9793865c9e499649b7e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-witch-moon-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 645434921,
+      "bytes": 3618764,
+      "name": "yokocho-witch-moon-sign.fbx",
+      "sha256": "1fcd9bad0dd3275e32d199a39653f2f8b16c9117de0ce28733030687d56d151e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/yokocho-witch-moon-sign.fbx"
+    }
+  ],
+  "attachmentCount": 275,
+  "browserDownloadEvidence": "not-performed-by-transport",
+  "fCommit": "83a1daedf3ad7563fa55bf0cca40ca749689e139",
+  "internalQaVerification": {
+    "blenderRerunByTransport": false,
+    "freshImportedImageProof": "attested-by-exact-successful-F",
+    "models": 137,
+    "qaArtifactSha256": "e5b68771738c24b9087fe4380f68e8edc933e490b235df48c91c7154507ce2eb",
+    "qaSummarySha256": "7a8425b03f958b31b8c63cfce495d7bdda0a2197bc2c1ad371801cb63c98b86a",
+    "rawReportAndContainerRechecked": true,
+    "status": "exact-internal-qa-rechecked"
+  },
+  "inventorySha256": "0d7b07099d9ef0e5663998aa78b78db0614f11776ae74c30986742bccacd6afc",
+  "provenance": {
+    "expectedManifestSha256": "3155febeeccba816ebbaa5a68aee8ca09a807abc1877e7541b0205f61c9d128f",
+    "fCommit": "83a1daedf3ad7563fa55bf0cca40ca749689e139",
+    "inventorySha256": "0d7b07099d9ef0e5663998aa78b78db0614f11776ae74c30986742bccacd6afc",
+    "jobId": 116704284987,
+    "payloadArtifactId": 12010989935,
+    "payloadArtifactName": "fbx-minimal137-83a1daedf3ad7563fa55bf0cca40ca749689e139-38817061339-1",
+    "payloadArtifactSha256": "178be79de9eec1ab7864e0abebdc4763b6f39bb0daa9a7e73c3b9d4eb9b1b70a",
+    "qaArtifactId": 12012245462,
+    "qaArtifactName": "fbx-minimal-internal-qa-83a1daedf3ad7563fa55bf0cca40ca749689e139-38817061339-1",
+    "qaArtifactSha256": "e5b68771738c24b9087fe4380f68e8edc933e490b235df48c91c7154507ce2eb",
+    "qaPilotGateSha256": "9bff9e6229fdaa73e96872f51841a299a85b7b6443ef6b0aa7465d1b8d81e721",
+    "qaRuntimeSha256": "068cde8f09d2b0cdc7117435f263021d50d2489f9a8f6a5785e80265fd771a02",
+    "qaSummarySha256": "7a8425b03f958b31b8c63cfce495d7bdda0a2197bc2c1ad371801cb63c98b86a",
+    "runAttempt": 1,
+    "runId": 38817061339,
+    "runtimeSha256": "4209f6e5244f684adc3f54909783cd11f8ade651cd2c48f0dd2556d0277d60f5",
+    "sourceInventorySha256": "ca6c6802af009bea2f5f3f9dea2a135fd0e55340357082e4a5bc88fe7ed4403c",
+    "workflowPath": ".github/workflows/verify-fbx-minimal.yml",
+    "workflowSha256": "9059989905e2ee881685dad9e680fa9f08d89e93e9cd097085723cc566c6eb69"
+  },
+  "releaseId": 414350272,
+  "releaseUrl": "https://github.com/Xenoah/meshcopia/releases/tag/fbx-minimal-v1.0.0",
+  "repository": "Xenoah/meshcopia",
+  "schemaVersion": 1,
+  "status": "anonymous-byte-readback-passed",
+  "tag": "fbx-minimal-v1.0.0",
+  "transportExecution": {
+    "adapterSha256": {
+      "scripts/fbx-minimal-transport/qa.py": "d19a583f14868529d900fbd22a2e2dc80b8430e8938eb0c8c60080f3808dd688",
+      "scripts/fbx-minimal-transport/transport.py": "21529cebbddc353007089e561922df7669cb845c7d04dadf87f16ba279519bcb"
+    },
+    "approvalSha256": "99f0ef29f897c424a53b48b94515373ab0e832bc02dec061a847a5d2c329687e",
+    "commit": "0c8048cf635cd84369d2301ebf291b61684ca616",
+    "jobId": 116714655304,
+    "runAttempt": 1,
+    "runId": 38820201372,
+    "workflowPath": ".github/workflows/release-fbx-minimal.yml",
+    "workflowSha256": "2a8d0afc722fbf7f25ec950a96602d049cd365d36d7a254578ad809a4523aa72"
+  }
+}

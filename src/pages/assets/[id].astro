@@ -5,11 +5,14 @@ import ModelViewer from '../../components/ModelViewer.astro';
 import AssetCard from '../../components/AssetCard.astro';
 import {textureSize,textureWrap,textureLabel,textureWrapLabel,textureWrapLabelEn} from '../../lib/texture';
 import data from '../../data/catalog.json';
+import fbxProjection from '../../data/fbx-minimal-downloads.json';
+import {fbxMinimalForAsset} from '../../lib/fbx-minimal-downloads.mjs';
 import {base,local,bytes,categoryNames} from '../../lib/paths';
 import {primaryDownload,directModelFiles,downloadHref} from '../../lib/downloads.mjs';
 export function getStaticPaths(){return data.map(asset=>({params:{id:asset.id},props:{asset}}))}
 const {asset:a}=Astro.props;
 const isModel=a.type==='model';
+const fbx=fbxMinimalForAsset(a,fbxProjection);
 const download=primaryDownload(a);
 const directFiles=directModelFiles(a);
 const [width,height]=textureSize(a);
@@ -57,6 +60,14 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
     {directFiles.map(file=><a class="direct-download" href={downloadHref(file.url)} download title={file.name}><span>{file.format}<span data-ja=" ファイル" data-en=" file"> ファイル</span>{directFiles.filter(f=>f.format===file.format).length>1&&<small> · {file.name}</small>}</span><small>{bytes(file.bytes)} <Icon name="download" size={15}/></small></a>)}
     <p class="download-help" data-ja="関連ファイルが必要な形式はZIPをご利用ください。個別ファイルにもクレジット表記が必要です。" data-en="Use the ZIP for formats that need companion files. Individual files still require attribution.">関連ファイルが必要な形式はZIPをご利用ください。個別ファイルにもクレジット表記が必要です。</p>
    </section>}
+   {fbx&&<details class="fbx-download"><summary data-ja="追加形式: FBX" data-en="Alternate format: FBX">追加形式: FBX</summary>
+    <a class="button secondary" href={downloadHref(fbx.archive.url)}><Icon name="download"/><span data-ja="FBX ZIP" data-en="FBX ZIP">FBX ZIP</span><small>{bytes(fbx.archive.bytes)}</small></a>
+    <p class="download-help" data-ja="FBXとLICENSE.txt（ライセンス・クレジット）のみ。元の素材ZIP・まとめてダウンロードとは別の形式です。" data-en="FBX and LICENSE.txt (license and attribution) only. Separate from the original asset ZIP and bulk download.">FBXとLICENSE.txt（ライセンス・クレジット）のみ。元の素材ZIP・まとめてダウンロードとは別の形式です。</p>
+    <a class="direct-download" href={downloadHref(fbx.direct.url)}><span data-ja="FBX ファイル" data-en="FBX file">FBX ファイル</span><small>{bytes(fbx.direct.bytes)}</small></a>
+    <p class="download-help" data-ja="画像を内包した静的モデル・m単位・Y-up。単体ファイルにもクレジット表記が必要です。" data-en="Static model with embedded images, meter units and Y-up. Standalone files also require attribution.">画像を内包した静的モデル・m単位・Y-up。単体ファイルにもクレジット表記が必要です。</p>
+    <p class="download-help fbx-compatibility" data-ja="FBXの材質・透過・裏面カリングは読み込み先によって変わる場合があります。元のPBRの見た目を優先する場合はGLBをご利用ください。UnityやGodotで同じ見た目になることは保証していません。" data-en="FBX materials, transparency and face culling can vary by importer. Prefer GLB for the original PBR appearance. Matching appearance in Unity or Godot is not guaranteed.">FBXの材質・透過・裏面カリングは読み込み先によって変わる場合があります。元のPBRの見た目を優先する場合はGLBをご利用ください。UnityやGodotで同じ見た目になることは保証していません。</p>
+    <ul>{fbx.limitations.map(text=><li>{text}</li>)}</ul><pre>{fbx.notice.text}</pre>
+   </details>}
    <div class="license-note"><Icon name="check" size={17}/><p data-ja="商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。" data-en="Commercial use, modification and redistribution allowed. Credit the creator, link the license and indicate changes.">商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。</p></div></div>
    <div class="credit-card"><div><h2 data-ja="クレジット表記" data-en="Attribution">クレジット表記</h2><button class="text-button" data-copy={a.attribution}><Icon name="copy" size={15}/><span data-ja="コピー" data-en="Copy">コピー</span></button></div><pre>{a.attribution}</pre><a href={`${base}/license/`} data-ja="ライセンスを確認 →" data-en="Read the license →">ライセンスを確認 →</a></div>
    <details class="file-list"><summary><span data-ja="ファイルを個別に取得" data-en="Individual files">ファイルを個別に取得</span><small>{a.files.length}</small></summary>{isModel&&<p class="download-help" data-ja="OBJにはMTLと参照画像、glTFには参照バッファ・画像も必要です。まとめて取得する場合はZIPをご利用ください。" data-en="OBJ needs its MTL and referenced images; glTF needs its referenced buffers and images. Use the ZIP to keep these together.">OBJにはMTLと参照画像、glTFには参照バッファ・画像も必要です。まとめて取得する場合はZIPをご利用ください。</p>}{a.files.map(f=><a href={downloadHref(f.url)} download><span>{f.name}</span><small>{bytes(f.bytes)} <Icon name="download" size={13}/></small></a>)}</details>

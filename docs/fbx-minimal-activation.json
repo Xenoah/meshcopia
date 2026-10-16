@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "repository": "Xenoah/meshcopia",
+  "activations": [
+    {
+      "cohort": "published137",
+      "releaseTag": "fbx-minimal-v1.0.0",
+      "releaseId": 414350272,
+      "verificationCommit": "83a1daedf3ad7563fa55bf0cca40ca749689e139",
+      "inventorySha256": "0d7b07099d9ef0e5663998aa78b78db0614f11776ae74c30986742bccacd6afc",
+      "transportEvidenceFile": "docs/fbx-minimal-publication/fbx-minimal-v1.0.0-T-evidence.json",
+      "transportEvidenceSha256": "5d262d7a914fb9cd60f53d7d68f0ee1c3d11c8cd5cbfd733a12b5496cb356fb4"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+name: Transport reviewed original 137 minimal FBX artifacts
+on:
+  push:
+    branches: [fbx/release-minimal137-v1]
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-fbx-minimal-release-fbx-minimal-v1.0.0
+  cancel-in-progress: false
+jobs:
+  transport:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && github.ref == 'refs/heads/fbx/release-minimal137-v1'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Test exact artifact and fresh QA safeguards without external calls
+        run: python3 -m unittest discover -s scripts/fbx-minimal-transport -p 'test_*.py' -v
+      - name: Transport exact reviewed bytes and verify anonymous public readbacks
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/fbx-minimal-transport/transport.py --repo "$GITHUB_WORKSPACE" --work "$RUNNER_TEMP/fbx-minimal-transport"
+      - name: Preserve internal T evidence and consequential-step journal only
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: fbx-minimal-transport-evidence-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/fbx-minimal-transport/T-evidence.json
+            ${{ runner.temp }}/fbx-minimal-transport/journal.jsonl
+          if-no-files-found: warn
+          retention-days: 30
