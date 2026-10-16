@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {formatBytes,bundleSizeSummary} from '../src/lib/file-size.mjs';
 
 // Execute the real UI handlers in a small deterministic DOM/history model.
 // A disabled focused button loses focus, matching the CI browser regression.
@@ -23,7 +24,7 @@ async function setup(){
  const window={addEventListener:(name,handler)=>events.set(name,handler)};
  const history={state:null,backs:0,pushState(state){this.state=state},back(){this.backs++}};
  const source=(await readFile(new URL('../src/lib/batch-download-ui.js',import.meta.url),'utf8')).replace(/^import .*;\n/gm,'').replace('export function initBatchDownload','function initBatchDownload');
- new Function('document','window','history','sessionStorage','location','bundleLimit',source+'\ninitBatchDownload();')(document,window,history,{getItem:()=>null,setItem(){}},{href:'https://xenoah.github.io/meshcopia/'},()=>128*1024**2);
+ new Function('document','window','history','sessionStorage','location','bundleLimit','formatBytes','bundleSizeSummary',source+'\ninitBatchDownload();')(document,window,history,{getItem:()=>null,setItem(){}},{href:'https://xenoah.github.io/meshcopia/'},()=>128*1024**2,formatBytes,bundleSizeSummary);
  const dialog=document.getElementById('batch-selection-dialog'),counter=document.getElementById('batch-download-bar').children[0];
  return {document,dialog,counter,history,pop:()=>events.get('popstate')()};
 }
