@@ -1,0 +1,62 @@
+{
+  "id": "city-playground-climbing-dome",
+  "type": "model",
+  "title": "低いジオデシック登りドーム",
+  "titleEn": "Low geodesic climbing dome",
+  "description": "公園や遊び場の場面に置く低いジオデシック型ドーム。半球状の三角格子を作る実体のチューブ、丸い接合ハブ、外向き固定ねじ、地面に接するソケット付きシューとアンカーを造形。内部は実際に開いています。利用者、地面、基礎や落下保護舗装は含みません。静的装飾モデルで、荷重・開口部への挟み込み・転落・遊具安全規格の認証や検証はなく、施工指示ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.981 × 1.505 × 3.124 m、32,220三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A low geodesic dome for park and playground scenes, with a hemisphere-like triangular network of solid tubular struts, rounded joint hubs, outward-facing fixings and socketed ground shoes with anchor hardware. The interior and triangular openings are genuinely open. No people, ground, foundations or impact surfacing. Static decorative geometry, without certification or validation for loads, entrapment openings, falls or playground safety standards; not construction instructions. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.981 × 1.505 × 3.124 m; 32,220 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "park",
+    "playground",
+    "geodesic",
+    "climbing-dome",
+    "ジャングルジム"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-playground-climbing-dome.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 32220,
+  "dimensions": [
+    2.981089,
+    1.505,
+    3.124
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-011/scripts/city_expansion/active_park.py",
+    "sourceSha256": "f3cb91966065c60f3f8d56d32189eb6a3e3a626a8d46cdbf079f4392915df0e3",
+    "sourceRecipeSha256": "54293a01b6b56bab7133b6fd2a39c538a8679cc23f5b611cdc5b096dd5766862",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a26294c43e594e0d12c6f3957b51c3c83c59c5f6937dc8ed337ea08943145845"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-011/scripts/city_expansion/active_park.py",
+        "scripts/city_expansion/frozen/batch-011/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-playground-climbing-dome"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

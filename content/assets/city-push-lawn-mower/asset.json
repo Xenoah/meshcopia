@@ -1,0 +1,61 @@
+{
+  "id": "city-push-lawn-mower",
+  "type": "model",
+  "title": "集草バッグ付き手押し芝刈り機",
+  "titleEn": "Push lawn mower with grass catcher",
+  "description": "公園や住宅の庭の管理シーンに使う手押し芝刈り機。四輪、丸み付きデッキ、空冷エンジン、操作ハンドルと布製集草バッグを備えます。刈刃は密閉デッキ内として省略し、刈込み・燃焼・袋の変形などの動作はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.688 × 1.081 × 1.337 m、21,020三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A push mower for park and residential garden maintenance scenes, with four wheels, rounded deck, air-cooled engine, operator handle and fabric grass catcher. A blade is not modeled inside the enclosed deck; no cutting, combustion or flexible-bag behavior is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.688 × 1.081 × 1.337 m; 21,020 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "mower",
+    "garden",
+    "maintenance",
+    "芝刈り"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-push-lawn-mower.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 21020,
+  "dimensions": [
+    0.688224,
+    1.081422,
+    1.3365
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-007/scripts/city_expansion/grounds_maintenance.py",
+    "sourceSha256": "4ec061ac77b336ab803f57c74abf655411b1851ad1f44bbb140496ccb80d30a8",
+    "sourceRecipeSha256": "d1ce05fadc6f0ae7e6d08d4560ea298adccca578ed3762f4b1aef127819cad7b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "7fc50d9612b636f76411601c042c3aba69c17bbc269efbab45a5aca1ad892fcd"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-007/scripts/city_expansion/grounds_maintenance.py",
+        "scripts/city_expansion/frozen/batch-007/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-push-lawn-mower"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

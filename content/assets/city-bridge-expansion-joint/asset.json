@@ -1,0 +1,61 @@
+{
+  "id": "city-bridge-expansion-joint",
+  "type": "model",
+  "title": "橋梁床版用フィンガー伸縮継手",
+  "titleEn": "Bridge deck finger expansion joint",
+  "description": "橋梁道路の継ぎ目に埋め込む静的なフィンガー型伸縮継手。互い違いの厚鋼板には実際の隙間があり、下面の支持アングル、補剛板、締結ボルト、埋込みアンカーと開いたゴム製受け樋を備えます。排水格子やケーブル保護スロープではありません。床版・舗装・車両は付属せず、設置時は上面を道路面に合わせて下部を沈めてください。移動・排水の機能、荷重や道路規格の適合性は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.400 × 0.371 × 1.288 m、22,460三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A static embedded finger expansion joint for bridge-road deck seams. Interleaved thick steel comb plates have actual clearance gaps, with underside support angles, gussets, fastening bolts, embed anchors and an open elastomer trough. This is not a storm-drain grate or cable ramp. Road deck, pavement and vehicles are omitted; lower the assembly into its host surface until the finger plate top aligns with the road plane. No movement, drainage function, traffic load rating or road-standard compliance is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.400 × 0.371 × 1.288 m; 22,460 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "bridge",
+    "expansion-joint",
+    "infrastructure",
+    "伸縮継手"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-bridge-expansion-joint.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 22460,
+  "dimensions": [
+    2.4,
+    0.37094,
+    1.288
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-009/scripts/city_expansion/transport_utilities.py",
+    "sourceSha256": "c07a81ea3b70df58dbf646f6a0f2f597028286588de10e1bdce7ed1d8e612db3",
+    "sourceRecipeSha256": "a8f3a155cdbfc3837deae94deac63eb808f92644e0315cd9fd54ee5933bde05b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ad25a17f1b2b83eb755dced77811a50b2e87d9a417d11e543f1936f599c1d794"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-009/scripts/city_expansion/transport_utilities.py",
+        "scripts/city_expansion/frozen/batch-009/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-bridge-expansion-joint"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

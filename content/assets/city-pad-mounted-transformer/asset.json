@@ -1,0 +1,61 @@
+{
+  "id": "city-pad-mounted-transformer",
+  "type": "model",
+  "title": "基礎パッド付き地上変圧器",
+  "titleEn": "Pad-mounted utility transformer",
+  "description": "公共設備や工業地区向けの無銘・静的な油入変圧器の外観。基礎パッド、据付脚、油槽、通風隙間のある側面冷却フィン、背面リブ、上面の碍子端子、閉じた保護サービスキャビネットを造形しています。端子・キャップは外観のみで、接続配線・内部油・巻線・図面はありません。実機の設計、通電機能、定格、感電・防火安全性、設置基準の適合性は一切示しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.860 × 1.996 × 1.747 m、30,200三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An unbranded static exterior of a utility oil-filled transformer for public-service and industrial scenes. Includes a concrete pad, mounting skids, tank, side cooling banks with actual air gaps, rear ribs, top insulated terminals and a closed protected service cabinet. Terminals and caps are visual only; connected wiring, internal oil, windings and electrical diagrams are omitted. This supplies no operational electrical function, equipment design, rating, shock/fire safety claim or installation-standard compliance. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.860 × 1.996 × 1.747 m; 30,200 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "transformer",
+    "utility",
+    "electrical-prop",
+    "変圧器"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-pad-mounted-transformer.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 30200,
+  "dimensions": [
+    1.86,
+    1.996,
+    1.747
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-009/scripts/city_expansion/transport_utilities.py",
+    "sourceSha256": "ac0e715290eab50041ab0841a0700bfaba2c323aeb441bfea1b572250c297634",
+    "sourceRecipeSha256": "a8f3a155cdbfc3837deae94deac63eb808f92644e0315cd9fd54ee5933bde05b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "aa7983c7985b767981f6a7d07ebc7600069fc1cc6912967fd0984be8f20eb54f"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-009/scripts/city_expansion/transport_utilities.py",
+        "scripts/city_expansion/frozen/batch-009/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-pad-mounted-transformer"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

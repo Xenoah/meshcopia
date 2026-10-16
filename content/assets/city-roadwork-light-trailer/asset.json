@@ -1,0 +1,61 @@
+{
+  "id": "city-roadwork-light-trailer",
+  "type": "model",
+  "title": "工事用伸縮照明トレーラー",
+  "titleEn": "Roadwork telescopic light trailer",
+  "description": "小型の牽引式照明設備。4基の非発光灯具、伸長状態の角形マスト、手動巻上げ部、板ばね付き車軸、牽引金具と4本の接地アウトリガーを造形。牽引車、可動部、発電・照明・牽引機能は含みません。安全認証や積載性能を表すものではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.180 × 4.188 × 2.500 m、28,620三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact towable lighting prop with four unlit lamp housings, a statically raised telescopic mast, hand winch, leaf-sprung axle, coupling and four deployed stabilizers. No towing vehicle, moving parts, power generation, illumination or towing function is included. It makes no safety-certification or load-capacity claim. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.180 × 4.188 × 2.500 m; 28,620 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "construction",
+    "lighting",
+    "trailer",
+    "工事照明"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-roadwork-light-trailer.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 28620,
+  "dimensions": [
+    2.18,
+    4.188,
+    2.5
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-006/scripts/city_expansion/site_support.py",
+    "sourceSha256": "721cd5e015f0def248ff5521ccbbdba31546845cddfa128bcdb0036d31b03a8f",
+    "sourceRecipeSha256": "d86ded4026cac14f2afe98f71ac7d0c9825e4b6950ba298e43739f7168b05c87",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ba1ffffbef8def46f78c3d7dc5de91ca8a76185dc26897a0eda058298ac32ec7"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-006/scripts/city_expansion/site_support.py",
+        "scripts/city_expansion/frozen/batch-006/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-roadwork-light-trailer"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "city-portable-generator",
+  "type": "model",
+  "title": "可搬式オープンフレーム発電機",
+  "titleEn": "Portable open-frame generator",
+  "description": "工事区画や屋外作業場に置く汎用の小型発電機。保護フレーム、防振脚、燃料タンク、フィン付き原動機、発電部とコンセント付き操作面を造形。ケーブル、電力供給、燃料・排気の動作は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.760 × 0.610 × 0.552 m、18,860三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A generic compact generator for construction compounds and outdoor work areas. Models the roll cage, anti-vibration feet, fuel tank, finned engine, alternator and outlet control panel. Cables, power supply, fuel and exhaust simulation are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.760 × 0.610 × 0.552 m; 18,860 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "generator",
+    "power",
+    "construction",
+    "発電機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-portable-generator.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 18860,
+  "dimensions": [
+    0.759976,
+    0.609976,
+    0.5525
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-004/scripts/city_expansion/construction_machines.py",
+    "sourceSha256": "4a5cea9e8bb4bc66d5e9b3c1fe6764ed19c78084a29bb5607b72fb861994860b",
+    "sourceRecipeSha256": "4d0e899c5719f36250a887a05f620cc9107549c4c7c836225d1e1e14e54cc0e2",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "399c7d5e3429e5930c9af149dfece8253028da06deed2bac6108c155c07ecb34"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-004/scripts/city_expansion/construction_machines.py",
+        "scripts/city_expansion/frozen/batch-004/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-portable-generator"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

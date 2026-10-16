@@ -1,0 +1,62 @@
+{
+  "id": "city-hydraulic-floor-jack",
+  "type": "model",
+  "title": "低床油圧フロアジャッキ",
+  "titleEn": "Low-profile hydraulic floor jack",
+  "description": "自動車整備ガレージの床に置く、低い車輪付きフロアジャッキ。開いた左右シャーシ、固定前輪と後部旋回キャスター、持ち上げアームと水平リンク、丸いゴム付きサドル、油圧シリンダー、ポンプ機構と斜めの長いハンドルを個別造形しています。車両、ジャッキスタンド、荷物は含みません。外観用の静的プロップであり、揚重能力・安全性・実動作を示さず、設計・操作・安全指示や認証ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.458 × 1.038 × 1.414 m、15,104三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A low wheeled floor jack for automotive service-garage scenes, with an open paired chassis, fixed front rollers, rear swivel casters, raised lifting arm and leveling links, rubber-inset round saddle, hydraulic barrel, pump details and a long inclined handle. Vehicle, axle stands and load are not included. This is a static appearance prop, not load-rated, safe or functioning equipment; it provides no engineering, operation or safety instructions and no certification. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.458 × 1.038 × 1.414 m; 15,104 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "garage",
+    "floor-jack",
+    "hydraulic",
+    "maintenance",
+    "ジャッキ"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-hydraulic-floor-jack.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 15104,
+  "dimensions": [
+    0.458469,
+    1.037657,
+    1.413993
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-012/scripts/city_expansion/garage_service.py",
+    "sourceSha256": "bcebf7c04109f19389d67a588adc57b818d88e9b420166ea154cd57bef4e3882",
+    "sourceRecipeSha256": "8381103367519bf50a0b4e61e987c2cf4b5450e4344286193f9eab5a1bb1bdae",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "6bb657cf32b30779022113ce73ebceff8bd1b6fabb610472963087b662da3c82"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-012/scripts/city_expansion/garage_service.py",
+        "scripts/city_expansion/frozen/batch-012/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-hydraulic-floor-jack"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

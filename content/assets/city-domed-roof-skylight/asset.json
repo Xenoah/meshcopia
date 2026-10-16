@@ -1,0 +1,62 @@
+{
+  "id": "city-domed-roof-skylight",
+  "type": "model",
+  "title": "立上り枠付きドーム型天窓",
+  "titleEn": "Domed roof skylight with raised curb",
+  "description": "屋根に配置する固定式ドーム天窓。丸角長方形の厚み付きドーム、開口を持つ立上り枠と内張り、止水フランジ、連続ガスケット、分割押縁、留めねじ、内側隅補強を造形。ドームは不透明な青灰色の単色PBRで、透過・採光の再現ではありません。屋根本体、開閉機構や通気機能は含みません。水密性・断熱性・荷重・防火・施工・安全基準は未検証です。底面中央の配置原点は実際の屋根勾配・取付面基準とは別で、配置先に合わせて調整してください。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.840 × 0.641 × 1.440 m、25,928三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "Fixed rooflight with a thick rounded-rectangular domed shell, genuinely hollow raised curb and liner, weather-flashing flange, continuous gasket, separate retainer bars, fastening screws and internal corner gussets. The dome is an opaque blue-gray constant-color PBR surface, not transparent glazing or a daylight simulation. No roof, opening mechanism or ventilation function is included. Weather sealing, insulation, loading, fire performance, installation and safety standards are unvalidated. The bottom-centered placement origin is separate from the actual roof slope or mounting datum and must be positioned for the target scene. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.840 × 0.641 × 1.440 m; 25,928 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "roof",
+    "skylight",
+    "dome",
+    "architecture",
+    "天窓"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-domed-roof-skylight.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 25928,
+  "dimensions": [
+    1.84,
+    0.641,
+    1.44
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-005/scripts/city_expansion/architectural_entry.py",
+    "sourceSha256": "db590919ff41bedffd7becd4c04892e3553d1100bd0e567e10bae01b600f4498",
+    "sourceRecipeSha256": "354772d53db08448f7463709155997a43ba7a109f678e84ec5a3115a00eb9db7",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "40c998838394ebae9618acbd0595b34a0e408ed11330b16de2bc6d6bd39d87bb"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-005/scripts/city_expansion/architectural_entry.py",
+        "scripts/city_expansion/frozen/batch-005/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-domed-roof-skylight"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

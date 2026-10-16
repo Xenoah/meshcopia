@@ -1,0 +1,62 @@
+{
+  "id": "city-public-barbecue-grill",
+  "type": "model",
+  "title": "公園用の支柱式炭火グリル",
+  "titleEn": "Public park pedestal charcoal grill",
+  "description": "公園やピクニック場に置く支柱式炭火グリルの静的モデル。空の炭受け、側面・背面の風よけ、実際に隙間のある焼き網、三段の網支持金具、持ち手、吸気部と灰受けの引手を造形。食材・炭・炎は含みません。調理・耐熱・火災安全性は未検証で、動作や燃焼表現もありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.704 × 1.075 × 0.634 m、17,808三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A static pedestal charcoal grill for parks and picnic areas, with an empty charcoal basin, side and rear windguards, genuinely open cooking grate, three-level grate support brackets, lifting handles, intake details and ash-drawer pull. No food, charcoal or flame is included. Cooking function, heat resistance and fire safety are not validated; no mechanical or combustion behavior is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.704 × 1.075 × 0.634 m; 17,808 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "barbecue",
+    "charcoal",
+    "grill",
+    "park",
+    "炭火グリル"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-public-barbecue-grill.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 17808,
+  "dimensions": [
+    0.704,
+    1.0745,
+    0.634115
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-003/scripts/city_expansion/civic_service.py",
+    "sourceSha256": "89f212edb07d5571208d2aa87f36e4fc6ee190b8869918bec8e712bd4ed062e4",
+    "sourceRecipeSha256": "db246a2618b55f0999bae365c696902ba448c57a0c9ee8fe3c42b945a393283e",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "f54943f8d85cb0aa906aed5181aadb50a5f0aecf1a3341afdbee5b262fd234c0"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-003/scripts/city_expansion/civic_service.py",
+        "scripts/city_expansion/frozen/batch-003/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-public-barbecue-grill"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

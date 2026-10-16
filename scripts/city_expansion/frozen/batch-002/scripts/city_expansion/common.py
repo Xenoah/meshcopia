@@ -1,0 +1,215 @@
+"""Original Meshcopia city production helpers, CC BY 4.0.
+Portable original expansion generator. Outputs require fresh QA before publication.
+Author in Blender Z-up meters; GLB export converts to Y-up meters.
+"""
+from pathlib import Path
+import bpy, bmesh, math, json, hashlib, os, struct
+from mathutils import Vector
+ROOT=Path(__file__).resolve().parents[2]
+
+def reset():
+    bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
+    for datablocks in (bpy.data.meshes,bpy.data.curves,bpy.data.materials,bpy.data.cameras,bpy.data.lights):
+        for x in list(datablocks):
+            if x.users==0: datablocks.remove(x)
+    bpy.context.scene.unit_settings.system='METRIC'
+    bpy.context.scene.unit_settings.scale_length=1
+
+def mat(name,color,metal=0,rough=.5):
+    m=bpy.data.materials.new(name); m.use_nodes=True
+    p=m.node_tree.nodes.get('Principled BSDF'); p.inputs['Base Color'].default_value=(*color[:3],color[3] if len(color)>3 else 1)
+    p.inputs['Metallic'].default_value=metal; p.inputs['Roughness'].default_value=rough
+    m.diffuse_color=p.inputs['Base Color'].default_value
+    return m
+
+def finish(o,name,material=None,bevel=0,smooth=False):
+    o.name=name
+    if material: o.data.materials.append(material)
+    if bevel:
+        mod=o.modifiers.new('Machined edge chamfers','BEVEL');mod.width=bevel;mod.segments=2
+    if smooth:
+        for p in o.data.polygons:p.use_smooth=True
+    if bevel:
+        mod=o.modifiers.new('Weighted surface normals','WEIGHTED_NORMAL');mod.keep_sharp=True;mod.weight=50
+    return o
+
+def box(name,loc,size,material=None,bevel=.008,rot=None):
+    bpy.ops.mesh.primitive_cube_add(size=1,location=loc);o=bpy.context.object;o.dimensions=size
+    bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+    if rot:o.rotation_euler=rot
+    return finish(o,name,material,min(bevel,min(size)*.3),False)
+
+def cylinder(name,loc,radius,depth,material=None,vertices=48,rotation=None,bevel=.003):
+    bpy.ops.mesh.primitive_cylinder_add(vertices=vertices,radius=radius,depth=depth,location=loc)
+    o=bpy.context.object
+    if rotation:o.rotation_euler=rotation
+    return finish(o,name,material,min(bevel,depth*.2,radius*.2),True)
+
+def sphere(name,loc,scale,material=None,segments=32,rings=16):
+    bpy.ops.mesh.primitive_uv_sphere_add(segments=segments,ring_count=rings,location=loc);o=bpy.context.object;o.scale=scale
+    bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+    return finish(o,name,material,0,True)
+
+def torus(name,loc,major,minor,material=None,rotation=None,segments=48):
+    bpy.ops.mesh.primitive_torus_add(major_segments=segments,minor_segments=12,location=loc,major_radius=major,minor_radius=minor)
+    o=bpy.context.object
+    if rotation:o.rotation_euler=rotation
+    return finish(o,name,material,0,True)
+
+def tube(name,points,radius,material=None,resolution=3):
+    c=bpy.data.curves.new(name,'CURVE');c.dimensions='3D';c.resolution_u=12;c.bevel_depth=radius;c.bevel_resolution=resolution;c.use_fill_caps=True
+    s=c.splines.new('POLY');s.points.add(len(points)-1)
+    for p,co in zip(s.points,points):p.co=(*co,1)
+    o=bpy.data.objects.new(name,c);bpy.context.collection.objects.link(o)
+    if material:c.materials.append(material)
+    return o
+
+def mesh(name,verts,faces,material=None,bevel=0,smooth=False):
+    m=bpy.data.meshes.new(name);m.from_pydata(verts,[],faces);m.update();o=bpy.data.objects.new(name,m);bpy.context.collection.objects.link(o)
+    bm=bmesh.new();bm.from_mesh(m);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(m);bm.free()
+    return finish(o,name,material,bevel,smooth)
+
+def bolt(name,loc,radius=.012,depth=.009,material=None,rotation=None):
+    return cylinder(name,loc,radius,depth,material,vertices=6,rotation=rotation,bevel=.001)
+
+def look_at(obj,target):obj.rotation_euler=(Vector(target)-obj.location).to_track_quat('-Z','Y').to_euler()
+
+def _prepare():
+    obs=[o for o in bpy.context.scene.objects if o.type in ('MESH','CURVE','FONT')]
+    assert obs,'No exportable objects'
+    bpy.ops.object.select_all(action='DESELECT')
+    for o in obs:o.select_set(True)
+    bpy.context.view_layer.objects.active=obs[0]
+    bpy.ops.object.convert(target='MESH')
+    obs=[o for o in bpy.context.selected_objects if o.type=='MESH']
+    for o in obs:
+        bpy.context.view_layer.objects.active=o
+        if not o.data.uv_layers:
+            bpy.ops.object.select_all(action='DESELECT');o.select_set(True)
+            bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.uv.smart_project(angle_limit=1.15192,island_margin=.02);bpy.ops.object.mode_set(mode='OBJECT')
+    bounds=[o.matrix_world@v.co for o in obs for v in o.data.vertices]
+    lo=Vector([min(v[i] for v in bounds) for i in range(3)]);hi=Vector([max(v[i] for v in bounds) for i in range(3)])
+    offset=Vector(((lo.x+hi.x)/2,(lo.y+hi.y)/2,lo.z))
+    for o in obs:o.location-=offset
+    bpy.context.view_layer.update()
+    # Apply evaluated details once, then group by a material without welding.
+    # This keeps split normals, component UV0 and intentional intersections.
+    groups={}
+    for o in obs:
+        key=tuple(m.name for m in o.data.materials)
+        groups.setdefault(key,[]).append(o)
+    for key,parts in groups.items():
+        bpy.ops.object.select_all(action='DESELECT')
+        for o in parts:o.select_set(True)
+        bpy.context.view_layer.objects.active=parts[0]
+        if len(parts)>1:bpy.ops.object.join()
+        parts[0].name='Assembly | '+' + '.join(key)
+    obs=[o for o in bpy.context.scene.objects if o.type=='MESH']
+    bpy.context.view_layer.update()
+    return obs,hi-lo
+
+def render(path,azimuth=-55,elevation=24,size=800):
+    scene=bpy.context.scene
+    meshes=[o for o in scene.objects if o.type=='MESH']
+    bounds=[o.matrix_world@v.co for o in meshes for v in o.data.vertices]
+    lo=Vector([min(v[i] for v in bounds) for i in range(3)]);hi=Vector([max(v[i] for v in bounds) for i in range(3)])
+    center=(lo+hi)/2;span=max(hi-lo)
+    bpy.ops.object.camera_add();cam=bpy.context.object;cam.name='QA camera';cam.data.type='ORTHO'
+    az=math.radians(azimuth);el=math.radians(elevation)
+    direction=Vector((math.cos(az)*math.cos(el),math.sin(az)*math.cos(el),math.sin(el)))
+    cam.location=center+direction*span*4;look_at(cam,center);scene.camera=cam
+    bpy.context.view_layer.update();inv=cam.matrix_world.inverted()
+    projected=[inv@v for v in bounds];cam.data.ortho_scale=max(max(v.x for v in projected)-min(v.x for v in projected),max(v.y for v in projected)-min(v.y for v in projected))*1.30
+    lamps=[]
+    for pos,power,scale in [((-.8,-1.2,2.2),350,1.4),((1.5,-.3,1.2),150,1.2),((.4,1.5,2),300,1.1)]:
+        bpy.ops.object.light_add(type='AREA',location=center+Vector(pos)*span);l=bpy.context.object;l.data.energy=power*span*span;l.data.shape='DISK';l.data.size=scale*span;look_at(l,center);lamps.append(l)
+    scene.world.color=(.18,.18,.18)
+    scene.render.engine='CYCLES';scene.cycles.samples=int(os.environ.get('CITY_RENDER_SAMPLES','64'));scene.cycles.use_denoising=False
+    scene.render.resolution_x=size;scene.render.resolution_y=size;scene.render.resolution_percentage=100
+    scene.render.image_settings.file_format='PNG';scene.render.film_transparent=False
+    scene.view_settings.view_transform='AgX';scene.view_settings.exposure=-1.0;scene.render.filepath=str(path)
+    bpy.ops.render.render(write_still=True)
+    for o in [cam,*lamps]:bpy.data.objects.remove(o,do_unlink=True)
+
+def export_stl_from_scene(path):
+    """Binary STL from the exact reimported GLB, meters and Y-up like the GLB.
+    STL is an untextured visualization alternate, not a printability assertion.
+    """
+    triangles=[]
+    for obj in bpy.context.scene.objects:
+        if obj.type!='MESH': continue
+        obj.data.calc_loop_triangles()
+        for face in obj.data.loop_triangles:
+            vertices=[]
+            for index in face.vertices:
+                v=obj.matrix_world@obj.data.vertices[index].co
+                vertices.append(Vector((v.x,v.z,-v.y)))
+            normal=(vertices[1]-vertices[0]).cross(vertices[2]-vertices[0]).normalized()
+            triangles.append(struct.pack('<12fH',*normal,*(value for v in vertices for value in v),0))
+    header=b'Meshcopia original CC BY 4.0; meters Y-up; not print validated'.ljust(80,b'\0')
+    Path(path).write_bytes(header+struct.pack('<I',len(triangles))+b''.join(triangles))
+    return len(triangles)
+
+
+def normalize_triangle_records(path):
+    """Canonical index record order only; preserves position/normal/UV/material and winding.
+    Blender may permute equivalent tessellated records between processes. This
+    makes their byte layout reproducible without welding or simplifying geometry.
+    """
+    data=bytearray(Path(path).read_bytes())
+    json_size=struct.unpack_from('<I',data,12)[0]
+    doc=json.loads(data[20:20+json_size]);bin_start=20+json_size+8;processed=set()
+    for m in doc.get('meshes',[]):
+        for prim in m.get('primitives',[]):
+            assert prim.get('mode',4)==4,'Only triangle primitives are supported'
+            aid=prim['indices']
+            if aid in processed:continue
+            processed.add(aid);acc=doc['accessors'][aid];view=doc['bufferViews'][acc['bufferView']]
+            assert acc['count']%3==0 and not acc.get('sparse')
+            code={5121:'B',5123:'H',5125:'I'}[acc['componentType']];size=struct.calcsize(code)
+            assert view.get('byteStride',size)==size
+            start=bin_start+view.get('byteOffset',0)+acc.get('byteOffset',0)
+            values=struct.unpack_from('<'+code*acc['count'],data,start);triangles=[]
+            for i in range(0,len(values),3):
+                tri=values[i:i+3];small=tri.index(min(tri));triangles.append(tri[small:]+tri[:small])
+            triangles.sort();flat=[v for tri in triangles for v in tri]
+            struct.pack_into('<'+code*len(flat),data,start,*flat)
+    Path(path).write_bytes(data)
+
+def publish_asset(slug,title,title_en,description,description_en,tags,out_dir,generator,azimuth=-55,elevation=24):
+    """Build a draft, not approval to publish. Reimport exact bytes for all renders."""
+    folder=Path(out_dir)/slug;source=folder/'source';source.mkdir(parents=True,exist_ok=True)
+    obs,dims=_prepare()
+    bpy.ops.object.select_all(action='DESELECT')
+    for o in obs:o.select_set(True)
+    bpy.context.view_layer.objects.active=obs[0]
+    glb=source/f'{slug}.glb'
+    bpy.ops.export_scene.gltf(filepath=str(glb),export_format='GLB',use_selection=True,export_yup=True,export_apply=True,export_extras=False,export_cameras=False,export_lights=False)
+    normalize_triangle_records(glb)
+    reset();bpy.ops.import_scene.gltf(filepath=str(glb))
+    export_stl_from_scene(source/f'{slug}.stl')
+    obs=[o for o in bpy.context.scene.objects if o.type=='MESH']
+    for o in obs:o.data.calc_loop_triangles()
+    tris=sum(len(o.data.loop_triangles) for o in obs)
+    bounds=[o.matrix_world@v.co for o in obs for v in o.data.vertices]
+    lo=[min(v[i] for v in bounds) for i in range(3)];hi=[max(v[i] for v in bounds) for i in range(3)]
+    d=[round(hi[i]-lo[i],6) for i in (0,2,1)]
+    metadata=dict(id=slug,type='model',title=title,titleEn=title_en,description=description+' ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。',descriptionEn=description_en+' For games and visualization; not validated for manufacture, structural engineering or 3D printing.',category='urban',tags=['city','street','original',*tags],author='Xenoah',license='CC-BY-4.0',version='1.0.0',status='draft',created='2026-10-14',updated='2026-10-14',thumbnail='preview.png',preview=f'{slug}.glb',unit='m',upAxis='Y',triangles=tris,dimensions=d,uv='Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.',provenance=dict(method='Original AI-agent-authored procedural city geometry',tool=f'Blender {bpy.app.version_string}; Meshcopia city generator 1.0',rights='Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.',generatorUrl=f'https://github.com/Xenoah/meshcopia/blob/main/{generator}',sourceSha256=hashlib.sha256(glb.read_bytes()).hexdigest()),usages=[dict(relationship='original',project='Meshcopia',sourceUrl='https://github.com/Xenoah/meshcopia',sourcePaths=[generator,'scripts/city/common.py'],selectors=[slug],context='Original city asset created for this library. No external deployment or reuse claimed.')])
+    dimension_text=' × '.join(f'{v:.3f}' for v in d)
+    metadata['description'] += f' 外接寸法（X×Y×Z）{dimension_text} m、{tris:,}三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。'
+    metadata['descriptionEn'] += f' Bounding dimensions (X×Y×Z): {dimension_text} m; {tris:,} triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.'
+    metadata['provenance']['tool']=f'Blender {bpy.app.version_string}; Meshcopia original city expansion generator 1.0'
+    metadata['provenance']['generatorUrl']=f'https://github.com/Xenoah/meshcopia/blob/main/{generator}'
+    metadata['usages'][0]['sourcePaths']=[generator,'scripts/city_expansion/common.py']
+    metadata['provenance']['sourceRecipeSha256']=hashlib.sha256((Path(__file__).resolve().parents[2]/generator).read_bytes()).hexdigest()
+    metadata['provenance']['sourceHelpersSha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    metadata['provenance']['alternateFormat']='STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.'
+    metadata['provenance']['stlSha256']=hashlib.sha256((source/f'{slug}.stl').read_bytes()).hexdigest()
+    (folder/'asset.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
+    render(folder/'preview.png',azimuth,elevation)
+    qa=Path(out_dir)/'_qa';qa.mkdir(exist_ok=True)
+    render(qa/f'{slug}-back.png',azimuth+180,elevation)
+    report=dict(id=slug,triangles=tris,dimensions=d,meshes=len(obs),materials=len(bpy.data.materials),boundsZUp=[lo,hi],glbSha256=metadata['provenance']['sourceSha256'],bytes=glb.stat().st_size)
+    (qa/f'{slug}.json').write_text(json.dumps(report,indent=2)+'\n')
+    print('CITY_ASSET_COMPLETE '+json.dumps(report),flush=True)
+    return report

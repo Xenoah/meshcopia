@@ -1,0 +1,62 @@
+{
+  "id": "city-emergency-eyewash-shower",
+  "type": "model",
+  "title": "洗眼ボウル付きの緊急シャワー設備模型",
+  "titleEn": "Combination eyewash and drench shower prop",
+  "description": "工場や公共施設の管理区域を演出する洗眼・シャワー複合設備の静的模型。開いた洗眼ボウル、二つのノズル、実際に隙間を持つ上部散水口、曲がり配管、手回し弁、引き棒と固定フランジを備えます。給排水設備や水は含みません。給水・洗眼・救急・衛生機能はなく、安全・医療・性能認証はありません。実用品の設計や操作手順ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.432 × 2.286 × 0.825 m、28,632三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A static combination eyewash and drench-shower prop for industrial or public-building service scenes. Features an open basin, two eye nozzles, open overhead distributor geometry, curved plumbing, valve handwheel, pull rod and floor flange. Supply infrastructure and water are absent. It has no water-delivery, eye-treatment, emergency or hygiene function and no safety, medical or performance certification. This is not a physical equipment design or operating guide. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.432 × 2.286 × 0.825 m; 28,632 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "eyewash",
+    "shower",
+    "industrial",
+    "static-prop",
+    "洗眼設備"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-emergency-eyewash-shower.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 28632,
+  "dimensions": [
+    0.432,
+    2.286478,
+    0.8245
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-008/scripts/city_expansion/building_fixtures.py",
+    "sourceSha256": "6fa0b4fe703330b4fc627f0a63ba379ff79b25070c3600190a25d12587d2fc53",
+    "sourceRecipeSha256": "4c8a54c8b9f09c870a3d6f0b5285b0f4314066dcf7f0151b7319197855049551",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "0e900e3407885f7d15a85f0fc6ae0bbc3348afc6a1a6064d480d94ab71c8f6f5"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-008/scripts/city_expansion/building_fixtures.py",
+        "scripts/city_expansion/frozen/batch-008/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-emergency-eyewash-shower"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "city-plate-compactor",
+  "type": "model",
+  "title": "小型プレートコンパクター",
+  "titleEn": "Compact vibratory plate compactor",
+  "description": "舗装補修や小規模な路盤工事に配置する振動転圧機。反り上がった底板、起振部、エンジンの冷却フィン、防振支持、ベルトカバーと操作ハンドルを造形。転圧・燃焼・振動機能はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.543 × 1.013 × 1.097 m、13,080三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact plate compactor for road repairs and small sub-base works. Includes a formed compaction shoe, exciter housing, finned engine, isolated platform, belt guard and control handle. No compaction, combustion or vibration behavior is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.543 × 1.013 × 1.097 m; 13,080 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "compactor",
+    "construction",
+    "roadwork",
+    "転圧"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-plate-compactor.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 13080,
+  "dimensions": [
+    0.542875,
+    1.013138,
+    1.0975
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-004/scripts/city_expansion/construction_machines.py",
+    "sourceSha256": "f6f7151e934416c25edd3f621eb0ed60453a6bb301acfab83126e88879626fba",
+    "sourceRecipeSha256": "4d0e899c5719f36250a887a05f620cc9107549c4c7c836225d1e1e14e54cc0e2",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "f231435be71c6ee62502af20edcd769103eede019471ce10a91fb69ed4d05322"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-004/scripts/city_expansion/construction_machines.py",
+        "scripts/city_expansion/frozen/batch-004/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-plate-compactor"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

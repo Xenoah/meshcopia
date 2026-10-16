@@ -1,0 +1,62 @@
+{
+  "id": "city-mechanic-creeper",
+  "type": "model",
+  "title": "六輪のパッド付きメカニッククリーパー",
+  "titleEn": "Six-caster padded mechanics creeper",
+  "description": "整備ガレージで車体の下に寝て移動する姿を表す低床クリーパー。丸い鋼管フレーム、長いクッション、独立した高いヘッドレスト、縁取りと縫い目表現、持ち手、裏面の横梁と取付部、六つの旋回キャスターを備えます。人物、車両、工具は含みません。静的な外観素材で、走行・荷重支持・安全性を検証した製品ではなく、製作・使用・安全の指示や認証を提供しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.537 × 0.219 × 1.123 m、20,020三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A low rolling mechanics board for under-vehicle workshop scenes, with a rounded tubular frame, long padded cushion, separate raised headrest, welt and seam details, carry handle, underside crossmembers and mount hardware, and six complete swivel-caster assemblies. Person, vehicle and tools are not included. This is static appearance geometry, not a tested rolling, load-bearing or safety-rated product; no engineering, operation or safety instructions or certification are supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.537 × 0.219 × 1.123 m; 20,020 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "garage",
+    "creeper",
+    "mechanic",
+    "padded",
+    "クリーパー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-mechanic-creeper.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 20020,
+  "dimensions": [
+    0.53732,
+    0.219,
+    1.123469
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-012/scripts/city_expansion/garage_service.py",
+    "sourceSha256": "e1bc55a403234c023b8e842c64d803ceab19033a70ee9a2a1032c93746f37bdf",
+    "sourceRecipeSha256": "8381103367519bf50a0b4e61e987c2cf4b5450e4344286193f9eab5a1bb1bdae",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "e6a02e76024c812ec2a2819a34b6830e0730d186e1e72e8cce2448725cc44bfe"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-012/scripts/city_expansion/garage_service.py",
+        "scripts/city_expansion/frozen/batch-012/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-mechanic-creeper"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

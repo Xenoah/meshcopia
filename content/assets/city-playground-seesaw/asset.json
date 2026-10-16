@@ -1,0 +1,62 @@
+{
+  "id": "city-playground-seesaw",
+  "type": "model",
+  "title": "2席の公園シーソー",
+  "titleEn": "Two-seat playground seesaw",
+  "description": "小公園向けの2席シーソーをわずかに傾けた静止姿勢で造形。座席、手すり、足掛け、1本梁、両側A型支柱、覆い付き軸受、地面側のゴムストッパーと固定金具を備えます。子供、地面や落下保護舗装は含みません。装飾用の静的メッシュで、動作・荷重・挟み込み・遊具安全規格は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.804 × 1.142 × 0.588 m、19,808三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A two-seat playground seesaw shown at a slight static rest angle, with seats, grab handles, footrests, one rocker beam, paired A-frame supports, covered pivot bearings, ground bump stops and anchor hardware. No children, ground surface or impact-absorbing surfacing. Decorative static meshes only; motion, loading, entrapment and playground safety standards are not validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.804 × 1.142 × 0.588 m; 19,808 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "recreation",
+    "playground",
+    "seesaw",
+    "park",
+    "シーソー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-playground-seesaw.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 19808,
+  "dimensions": [
+    2.804169,
+    1.142034,
+    0.588
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-002/scripts/city_expansion/recreation.py",
+    "sourceSha256": "13c574af4eb4cca3da944c33e04de50e2b832c520bb2697f7de6a69857989b7d",
+    "sourceRecipeSha256": "7ff7891b8f6c09ebc2d303c825227d2714d573a91447254760925e814ecf0904",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "237ac9d815233e6016d7866b3dd6fcf6b9cf4500fd8530895350e782def79b68"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-002/scripts/city_expansion/recreation.py",
+        "scripts/city_expansion/frozen/batch-002/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-playground-seesaw"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "city-football-goal",
+  "type": "model",
+  "title": "実体ネット付き小型サッカーゴール",
+  "titleEn": "Small football goal with geometric net",
+  "description": "公園のレクリエーション場面用の単体サッカーゴール。丸い前枠、曲げた後部支持管、側面と後部の接地レール、ゴム足、屋根・後面・両側面に開口のある実体コードネットと固定ループを造形。ゴール前面は開いています。ボール、競技場、もう一方のゴール、利用者、地面や固定重りは含みません。静的装飾用で、転倒防止・競技規格・安全性は未検証。実用可能な競技器具や施工指示ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）3.750 × 1.958 × 1.319 m、19,668三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "One small football/soccer goal for park recreation scenes, with a rounded front frame, bent rear support tubes, side and rear ground rails, rubber feet, real open cord net across the roof, back and both sides, and lacing loops. The front mouth is open. No ball, pitch, second goal, people, ground or ballast. Static decorative geometry; anti-tip stability, sporting standards and safety are not validated. Not functioning competition equipment or construction instructions. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 3.750 × 1.958 × 1.319 m; 19,668 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "park",
+    "football",
+    "soccer",
+    "goal",
+    "net",
+    "サッカー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-football-goal.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 19668,
+  "dimensions": [
+    3.75,
+    1.958031,
+    1.3185
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-011/scripts/city_expansion/active_park.py",
+    "sourceSha256": "0b605a075c01664ba3252eb5b325742a1e2fc65e1272f063d4f348e2f69e359a",
+    "sourceRecipeSha256": "54293a01b6b56bab7133b6fd2a39c538a8679cc23f5b611cdc5b096dd5766862",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "8323d04d79faa0f78b3326356f52f37234563aeb73f343e471a461da1137f8b9"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-011/scripts/city_expansion/active_park.py",
+        "scripts/city_expansion/frozen/batch-011/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-football-goal"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

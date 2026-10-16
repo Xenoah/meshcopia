@@ -1,0 +1,61 @@
+{
+  "id": "city-backpack-leaf-blower",
+  "type": "model",
+  "title": "背負い式の落ち葉ブロワー",
+  "titleEn": "Backpack leaf blower",
+  "description": "公園管理や歩道清掃に使う背負い式ブロワー。背面パッドと肩ベルト、ファンの吸気ガード、小型原動機、蛇腹ホース、操作グリップと中空ノズルを備えます。人、落ち葉、送風・騒音・燃焼・柔軟物の挙動は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.592 × 0.634 × 1.477 m、17,116三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A backpack blower for park care and sidewalk cleanup, with back pads and shoulder straps, a guarded fan intake, small power unit, flexible hose, control grip and hollow nozzle. No person, leaves, airflow, sound, combustion or flexible-body behavior is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.592 × 0.634 × 1.477 m; 17,116 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "leaf-blower",
+    "garden",
+    "cleanup",
+    "ブロワー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-backpack-leaf-blower.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 17116,
+  "dimensions": [
+    0.592,
+    0.634031,
+    1.477
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-007/scripts/city_expansion/grounds_maintenance.py",
+    "sourceSha256": "0ec65f1ffee6b4cae8a10cf2afec1dedffbb86e718cf33c8613e6d2acb6af745",
+    "sourceRecipeSha256": "d1ce05fadc6f0ae7e6d08d4560ea298adccca578ed3762f4b1aef127819cad7b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "166c3fcb13fc74f03cd30471e8f11f4033f5a8a9a64a2edbc7f09b6f8f3c2437"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-007/scripts/city_expansion/grounds_maintenance.py",
+        "scripts/city_expansion/frozen/batch-007/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-backpack-leaf-blower"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

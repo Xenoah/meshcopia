@@ -1,0 +1,62 @@
+{
+  "id": "city-spring-play-rider",
+  "type": "model",
+  "title": "抽象ループ型のスプリング遊具",
+  "titleEn": "Abstract loop spring play rider",
+  "description": "公園や遊び場に置く1人用スプリング遊具のオリジナル抽象デザイン。動物や既存キャラクターを模していない流線形本体、開いた楕円ループ、座席、両側グリップ・足掛け、コイルばね、上下フランジと接地固定板を造形。子供、地面や落下保護舗装は含みません。装飾用の静的モデルで、ばね挙動・耐荷重・挟み込み・遊具安全規格は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.883 × 1.135 × 0.590 m、18,508三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An original single-seat spring rider for park and playground scenes: an abstract swoosh body and open oval loop, not an animal or an existing character, with a saddle, paired grips and footrests, helical spring, mounting flanges and ground anchor plate. No child, ground or impact-absorbing surfacing. Decorative static geometry; spring behavior, load capacity, entrapment and playground safety standards are not validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.883 × 1.135 × 0.590 m; 18,508 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "recreation",
+    "playground",
+    "spring-rider",
+    "abstract",
+    "スプリング遊具"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-spring-play-rider.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 18508,
+  "dimensions": [
+    0.882776,
+    1.1348,
+    0.59
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-002/scripts/city_expansion/recreation.py",
+    "sourceSha256": "d6b8768c4be664bd7f3a0520a2bd0ab4f0a0d6885b2a88ee4e5c826629a8e8ed",
+    "sourceRecipeSha256": "7ff7891b8f6c09ebc2d303c825227d2714d573a91447254760925e814ecf0904",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "957d7264fa1fe1e1b02901ae0b1fc6bfaee1fe2e8b6df8141846ed37543c80d4"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-002/scripts/city_expansion/recreation.py",
+        "scripts/city_expansion/frozen/batch-002/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-spring-play-rider"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

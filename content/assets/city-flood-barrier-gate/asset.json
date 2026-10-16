@@ -1,0 +1,61 @@
+{
+  "id": "city-flood-barrier-gate",
+  "type": "model",
+  "title": "壁開口用の止水ゲート",
+  "titleEn": "Wall-opening flood barrier gate",
+  "description": "壁の開口部に固定する閉鎖状態の止水ゲート外観。中空の四周枠、密閉金属パネル、圧縮シール、前後の補強材、三つのヒンジ、手輪付き締付け金具と取付けフランジを造形。通常の出入口ドアではなく、洪水対策設備を表現する静的小道具です。壁・水・周囲建物は含みません。床面中央の原点は取付面ではないため、設置時は背面フランジの平面を壁面に合わせ、開口寸法と高さを別途調整してください。止水性能、圧力耐力、安全性、施工適合性は未認証・未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.000 × 1.620 × 0.586 m、26,144三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A closed wall-opening flood barrier exterior with a real open perimeter frame, sealed metal leaf, compression gasket, front/rear stiffeners, three hinges, handwheel clamp dogs and mounting flanges. This is a static flood-equipment prop, not an ordinary entry door. No wall, water or building is included. Its base-centered origin is not a mounting datum: align the rear flange faces to the host wall and adjust opening clearance and installation height separately. It has no certified or verified flood sealing, pressure resistance, safety or construction suitability. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.000 × 1.620 × 0.586 m; 26,144 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "flood-barrier",
+    "gate",
+    "infrastructure",
+    "止水ゲート"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-flood-barrier-gate.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 26144,
+  "dimensions": [
+    2.0,
+    1.62,
+    0.5855
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-009/scripts/city_expansion/transport_utilities.py",
+    "sourceSha256": "6fec71d37dc001a41aff7ef6b961e571dcb6d2f33a0960e33471ee21740f9400",
+    "sourceRecipeSha256": "a8f3a155cdbfc3837deae94deac63eb808f92644e0315cd9fd54ee5933bde05b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "bc835401977fdcf8131a6b678785405fbd21c48531b1963b3b68cb2b23e63243"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-009/scripts/city_expansion/transport_utilities.py",
+        "scripts/city_expansion/frozen/batch-009/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-flood-barrier-gate"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

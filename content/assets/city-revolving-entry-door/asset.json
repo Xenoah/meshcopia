@@ -1,0 +1,62 @@
+{
+  "id": "city-revolving-entry-door",
+  "type": "model",
+  "title": "三翼回転式エントランスドア",
+  "titleEn": "Three-wing revolving entry door",
+  "description": "三枚の放射状ドア、対向する二つの開口を持つ曲面ドラム、環状ヘッダー、上部軸受支持、床軸受、両面押し棒、ブラシシールを備えた入口アセンブリ。青い面は不透明な単色PBRで、透過ガラスではありません。建物や床は含みません。静的な固定姿勢で、回転動作・自動制御・挟み込み保護や安全規格への適合は未実装・未検証です。接地配置原点と回転機構用の支点は別で、独立した可動ピボットはありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.826 × 2.644 × 2.826 m、31,756三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "Entrance assembly with three radial door wings, two opposing access openings in a segmented curved drum, annular header, supported upper bearing, floor bearing, two-sided push rails and brush seals. Blue surfaces are opaque constant-color PBR glazing substitutes, not transparent glass. No building or floor is included. Fixed static pose with no rotation, automatic controls or entrapment protection, and no safety-compliance validation. The ground placement origin is not a supplied articulation pivot; moving parts are not separately rigged. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.826 × 2.644 × 2.826 m; 31,756 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "architecture",
+    "entry",
+    "revolving-door",
+    "retail",
+    "回転ドア"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-revolving-entry-door.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 31756,
+  "dimensions": [
+    2.826,
+    2.64423,
+    2.826
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-005/scripts/city_expansion/architectural_entry.py",
+    "sourceSha256": "ded1b8923f9d98a56562e09e932348645a0cac2a5f7e9b497351a3ad23389517",
+    "sourceRecipeSha256": "354772d53db08448f7463709155997a43ba7a109f678e84ec5a3115a00eb9db7",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "f0da47e1f8379bfc88b38d947e596f3ced96a01e375eb097c4bbb16a74837c23"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-005/scripts/city_expansion/architectural_entry.py",
+        "scripts/city_expansion/frozen/batch-005/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-revolving-entry-door"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

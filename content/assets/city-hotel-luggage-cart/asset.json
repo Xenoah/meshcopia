@@ -1,0 +1,62 @@
+{
+  "id": "city-hotel-luggage-cart",
+  "type": "model",
+  "title": "ホテル用のベルボーイカート",
+  "titleEn": "Hotel bellhop luggage cart",
+  "description": "ホテル玄関やロビーで使う荷物運搬カート。四つの旋回キャスター、縁付きのカーペット台、真鍮色の連続アーチ、押し手と上部ハンガーバーを備えます。荷物、ハンガー、走行・旋回・荷重や転倒安全の検証は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.760 × 1.996 × 1.169 m、12,116三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A bellhop cart for hotel entrances and lobbies, with four swivel-caster assemblies, an edged carpet platform, continuous brass-colored arches, push grips and overhead hanging rail. No luggage or hangers, rolling/swiveling behavior, load testing or tip-over safety validation is included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.760 × 1.996 × 1.169 m; 12,116 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "luggage",
+    "cart",
+    "hotel",
+    "hospitality",
+    "荷物"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-hotel-luggage-cart.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 12116,
+  "dimensions": [
+    0.76,
+    1.996,
+    1.169
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-010/scripts/city_expansion/retail_hospitality.py",
+    "sourceSha256": "0971035c14aafed477c1e4540c880638b360d57d431a03baaa2a20f1fc41ec49",
+    "sourceRecipeSha256": "e650eca9f8a5a448dcd11aa524e7c2a7a0d4d9965bab90abf86281ba43173211",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ff2249ba5ce7738465dff5b3badcdd83cec6be90c6ca61b916eb20ace4f6e1f7"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-010/scripts/city_expansion/retail_hospitality.py",
+        "scripts/city_expansion/frozen/batch-010/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-hotel-luggage-cart"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

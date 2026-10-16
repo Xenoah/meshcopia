@@ -1,0 +1,62 @@
+{
+  "id": "city-portable-fire-extinguisher",
+  "type": "model",
+  "title": "無銘の携帯消火器模型",
+  "titleEn": "Generic portable fire-extinguisher prop",
+  "description": "建物内や工場の背景向けの無銘の消火器模型。丸い圧力容器風の本体、弁、目盛数字のない飾り圧力計、開口した取っ手、固定レバー、ピン、曲線ホース、中空ノズル、脚と無印ラベルを備えます。消火剤はなく、圧力表示・消火・安全機能はありません。消防・安全認証や性能保証はなく、操作手順も含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.291 × 0.638 × 0.191 m、15,080三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An unbranded portable fire-extinguisher prop for building interiors and industrial scenes. Includes a rounded cylinder, valve, unnumbered decorative gauge, open carry handle, fixed lever, pin, curved hose, hollow nozzle, foot and blank label. There is no extinguishing agent, pressure indication, firefighting or safety function. No firefighting or safety certification, performance guarantee or operating instructions are supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.291 × 0.638 × 0.191 m; 15,080 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "fire-extinguisher",
+    "building",
+    "industrial",
+    "static-prop",
+    "消火器模型"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-portable-fire-extinguisher.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 15080,
+  "dimensions": [
+    0.291457,
+    0.637508,
+    0.19142
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-008/scripts/city_expansion/building_fixtures.py",
+    "sourceSha256": "9fc841f2c136791301c460ade427e47b4f575a37be5e10a1f015b2397fed3691",
+    "sourceRecipeSha256": "4c8a54c8b9f09c870a3d6f0b5285b0f4314066dcf7f0151b7319197855049551",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "070b654da21ace570b36047f1c8eba2f3b19407963649ea3dddffe1e90a26f88"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-008/scripts/city_expansion/building_fixtures.py",
+        "scripts/city_expansion/frozen/batch-008/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-portable-fire-extinguisher"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
