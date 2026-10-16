@@ -18,6 +18,7 @@ jobs:
       contents: write
     outputs:
       sha: ${{ steps.commit.outputs.sha }}
+      source_only: ${{ steps.source-stage.outputs.source_only }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,24 +33,42 @@ jobs:
         run: |
           node scripts/check-archive-runtime.mjs
           node scripts/check-archive-lock.mjs --check-history
+          node scripts/check-source-stage-proof.mjs
+      - name: Determine source-only staging phase
+        id: source-stage
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_only="$(node scripts/check-source-stage.mjs)"
+          case "$source_only" in true|false) ;; *) echo 'Invalid source-stage result' >&2; exit 1 ;; esac
+          printf 'source_only=%s\n' "$source_only" >> "$GITHUB_OUTPUT"
+      - name: Require exact main push for source-only stage
+        if: steps.source-stage.outputs.source_only == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_EVENT_NAME" = push
+          test "$GITHUB_REF" = refs/heads/main
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: npm ci
       - run: python3 -m pip install -r scripts/requirements-assets.txt
       - name: Generate original starter assets (once)
+        if: steps.source-stage.outputs.source_only == 'false'
         run: |
           if [ -f .bootstrap-starter ]; then
             python3 scripts/create-starter-assets.py
             rm .bootstrap-starter
           fi
       - name: Set up original cafe extraction (once)
-        if: hashFiles('.import-commons-cafe', '.import-commons-expansion') != ''
+        if: steps.source-stage.outputs.source_only == 'false' && hashFiles('.import-commons-cafe', '.import-commons-expansion') != ''
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Extract the pinned original cafe collection (once)
-        if: hashFiles('.import-commons-cafe') != ''
+        if: steps.source-stage.outputs.source_only == 'false' && hashFiles('.import-commons-cafe') != ''
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y libgl1 libxi6 libxrender1 libxfixes3 libxkbcommon0 libxxf86vm1 libsm6
@@ -57,7 +76,7 @@ jobs:
           python3 scripts/import-commons-cafe.py --fetch
           rm .import-commons-cafe
       - name: Import more original cafe meshes and textures (once)
-        if: hashFiles('.import-commons-expansion') != ''
+        if: steps.source-stage.outputs.source_only == 'false' && hashFiles('.import-commons-expansion') != ''
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y libgl1 libxi6 libxrender1 libxfixes3 libxkbcommon0 libxxf86vm1 libsm6
@@ -66,23 +85,24 @@ jobs:
           python3 scripts/import-commons-textures.py
           rm .import-commons-expansion
       - name: Import reviewed original Yokocho assets (once)
-        if: hashFiles('.import-yokocho') != ''
+        if: steps.source-stage.outputs.source_only == 'false' && hashFiles('.import-yokocho') != ''
         run: |
           python3 scripts/import-yokocho-source.py
           rm .import-yokocho
       - name: Set up original city draft generation (once)
-        if: hashFiles('.generate-city-drafts.json') != ''
+        if: steps.source-stage.outputs.source_only == 'false' && hashFiles('.generate-city-drafts.json') != ''
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Generate original city drafts for review (once)
-        if: hashFiles('.generate-city-drafts.json') != ''
+        if: steps.source-stage.outputs.source_only == 'false' && hashFiles('.generate-city-drafts.json') != ''
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y libgl1 libxi6 libxrender1 libxfixes3 libxkbcommon0 libxxf86vm1 libsm6
           python3 -m pip install bpy==4.5.14 numpy==1.26.4 Pillow==11.2.1
           python3 scripts/generate-city-drafts.py
       - name: Import inbox
+        if: steps.source-stage.outputs.source_only == 'false'
         run: npm run import:all-inbox -- --apply
       - name: Verify durable minimal FBX proof and all public bytes
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
@@ -117,8 +137,13 @@ jobs:
           path: |
             docs/city-qa/
             .cache/city-drafts/
+      - name: Verify source unchanged after QA
+        env:
+          SOURCE_ONLY: ${{ steps.source-stage.outputs.source_only }}
+          SOURCE_HEAD: ${{ github.sha }}
+        run: node scripts/check-source-stage-unchanged.mjs
       - name: Commit imported original assets
-        id: commit
+        if: steps.source-stage.outputs.source_only == 'false'
         env:
           PUSH_TOKEN: ${{ github.token }}
         run: |
@@ -138,18 +163,29 @@ jobs:
             git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push origin HEAD:main
             unset auth
           fi
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Record verified source SHA
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha="$(git rev-parse HEAD)"
+          [[ "$sha" =~ ^[0-9a-f]{40}$ ]]
+          printf 'sha=%s\n' "$sha" >> "$GITHUB_OUTPUT"
       - name: Build release archives
+        if: steps.source-stage.outputs.source_only == 'false'
         run: npm run release:bundle
       - uses: actions/upload-artifact@v4
+        if: steps.source-stage.outputs.source_only == 'false'
         with:
           name: release-packages
           path: release/
       - uses: actions/upload-pages-artifact@v3
+        if: steps.source-stage.outputs.source_only == 'false'
         with:
           path: dist
   pages:
-    needs: verify
+    needs: [verify, release]
+    if: needs.verify.outputs.source_only == 'false'
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -165,6 +201,7 @@ jobs:
         uses: actions/deploy-pages@v4
   release:
     needs: verify
+    if: needs.verify.outputs.source_only == 'false'
     runs-on: ubuntu-latest
     permissions:
       contents: write

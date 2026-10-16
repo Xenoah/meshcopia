@@ -5,6 +5,7 @@ public/assets/
 public/api/
 public/vendor/
 src/data/catalog.json
+src/data/fbx-minimal-downloads.json
 release/
 test-results/
 playwright-report/

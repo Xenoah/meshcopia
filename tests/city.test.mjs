@@ -1,10 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile,stat} from 'node:fs/promises';
+import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import validator from 'gltf-validator';
 import {Matrix4,Vector3,Quaternion} from 'three';
 import {readCatalog,sha256} from '../scripts/lib/catalog.mjs';
+import {verifyCitySourcePaths} from '../scripts/lib/city-source-policy.mjs';
 
 function values(doc,binary,index) {
  const a=doc.accessors[index],v=doc.bufferViews[a.bufferView],count={SCALAR:1,VEC2:2,VEC3:3,VEC4:4}[a.type];
@@ -17,17 +18,14 @@ test('Original city assets are self-contained, grounded, dimensioned and validat
  const assets=(await readCatalog(process.env.CITY_ASSET_ROOT)).filter(a=>a.id.startsWith('city-'));
  const expected=JSON.parse(await readFile(process.env.CITY_ASSET_ROSTER||new URL('../docs/city-assets.json',import.meta.url),'utf8'));
  assert.deepEqual(assets.map(a=>a.id).sort(),expected.ids.slice().sort(),'explicit city collection roster');
+ const approvedExpansion=JSON.parse(await readFile(new URL('../docs/city-expansion-sources.json',import.meta.url),'utf8')).assets;
+ assert.deepEqual(approvedExpansion.map(a=>a.id).sort(),assets.filter(a=>a.usages.some(u=>(u.sourcePaths||[]).some(p=>p.startsWith('scripts/city_expansion/')))).map(a=>a.id).sort(),'explicit reviewed expansion source roster');
  const hashes=new Set();
  for(const a of assets){
   assert.equal(a.type,'model');assert.equal(a.unit,'m');assert.equal(a.upAxis,'Y');assert.equal(a.license,'CC-BY-4.0');
   assert.ok(a.usages.some(u=>u.relationship==='original'&&u.project==='Meshcopia'&&u.selectors.includes(a.id)));
   assert.ok(a.provenance.generatorUrl.startsWith('https://github.com/Xenoah/meshcopia/'));
-  const sourcePaths=new Set(a.usages.flatMap(u=>u.sourcePaths||[]));
-  assert.ok(sourcePaths.size>0,a.id+': missing reproducibility source paths');
-  for(const sourcePath of sourcePaths){
-   assert.match(sourcePath,/^scripts\/city\/[a-z0-9_]+\.py$/,a.id+': unexpected source path');
-   assert.ok((await stat(new URL('../'+sourcePath,import.meta.url))).isFile(),a.id+': missing generator source '+sourcePath);
-  }
+  await verifyCitySourcePaths(a,sourcePath=>readFile(new URL('../'+sourcePath,import.meta.url)),approvedExpansion.find(x=>x.id===a.id));
   assert.match(a.provenance.stlSha256,/^[0-9a-f]{64}$/,a.id+': required STL provenance hash');
 
   const raw=await readFile(path.join(a.dir,'source',a.preview)),hash=sha256(raw);

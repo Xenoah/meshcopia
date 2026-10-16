@@ -1,0 +1,61 @@
+{
+  "id": "city-aerosol-line-marking-trolley",
+  "type": "model",
+  "title": "スプレー式ライン引き台車",
+  "titleEn": "Aerosol line-marking trolley",
+  "description": "駐車区画や園路のライン施工場面向けの小型台車。倒立スプレー缶の外装、開いた保持枠、下向きノズル、幅調整用マスク板、四輪の車台、トリガーと固定ケーブルを造形。缶は無地で、中身・塗膜・噴霧・可動はありません。実際の施工寸法や薬剤使用、安全性能を定める設計ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.476 × 0.964 × 0.868 m、10,976三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact trolley for parking-bay and park-path striping scenes, with an inverted unbranded aerosol-can exterior, open holder, downward nozzle, adjustable-mask exteriors, four-wheel frame, trigger and fixed cable. Contents, painted lines, spraying and movement are absent. This is not a design specifying real application dimensions, chemical use or safety performance. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.476 × 0.964 × 0.868 m; 10,976 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "line-marking",
+    "trolley",
+    "maintenance",
+    "ライン引き"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-aerosol-line-marking-trolley.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 10976,
+  "dimensions": [
+    0.4763,
+    0.964,
+    0.868
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/site_survey_tools.py",
+    "sourceSha256": "090367152f2940a76b3b546c70e935f5c6c59d5ef3234fe0c6354f3bac44cf38",
+    "sourceRecipeSha256": "3c6448a15711e82928e43213bac15f7ee302759ce9bf1415d08dacb444b57d2c",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a16a5ed2509e96afc49e835f9fd03411f40bd4266a45b2c9a6d786b76521156f"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/site_survey_tools.py",
+        "scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-aerosol-line-marking-trolley"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

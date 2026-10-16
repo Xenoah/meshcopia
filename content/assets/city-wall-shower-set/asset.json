@@ -1,0 +1,62 @@
+{
+  "id": "city-wall-shower-set",
+  "type": "model",
+  "title": "壁付けの露出型シャワーセット",
+  "titleEn": "Wall-mounted exposed shower set",
+  "description": "公共浴室やプール更衣室に配置する露出配管型シャワー。混合栓風の操作バー、上部散水ヘッド、スライドレール、手持ちヘッドと固定ホースを造形。緊急洗眼シャワーとは用途・構造が異なる浴室器具です。壁・水・内部弁、温度・流量制御や可動はなく、安全・衛生基準への適合は未検証。最低点基準から取付高さと壁離れを調整してください。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.446 × 1.642 × 0.565 m、18,216三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An exposed shower set for public bathing rooms and pool changing facilities, with mixer-shaped control bar, overhead head, slide rail, handheld head and fixed hose. Its bathing purpose and construction differ from an emergency eyewash shower. Wall, water, internal valves, temperature/flow control and articulation are absent; safety and hygiene compliance are unvalidated. Adjust mounting height and wall offset from its lowest-point placement origin. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.446 × 1.642 × 0.565 m; 18,216 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "shower",
+    "washroom",
+    "bathing",
+    "wall-mounted",
+    "シャワー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-wall-shower-set.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 18216,
+  "dimensions": [
+    0.4455,
+    1.641993,
+    0.565
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/washroom_fixtures.py",
+    "sourceSha256": "eaad60ff8e646d6169b840f4e3846153f6dd9619dbfbc30c59b044a6a53796fd",
+    "sourceRecipeSha256": "237fcf441e18dd4aa4dd0b7e2f2ac310377e96e5739d729c5b8cb5e18c320abc",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "67b44c6d81bc43e867cd22a328bbfb4808fda010104475a786f6f77dafc6237b"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/washroom_fixtures.py",
+        "scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-wall-shower-set"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

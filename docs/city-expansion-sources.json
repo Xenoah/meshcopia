@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "city-cigarette-disposal-pedestal",
+      "recipe": "scripts/city_expansion/public_fixtures.py",
+      "sourceRecipeSha256": "43540a8f502a0799e3e4c21e4d6737dc537a45ff0505e81213b61747f1459052",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-grit-storage-bin",
+      "recipe": "scripts/city_expansion/public_fixtures.py",
+      "sourceRecipeSha256": "43540a8f502a0799e3e4c21e4d6737dc537a45ff0505e81213b61747f1459052",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-queue-belt-stanchion",
+      "recipe": "scripts/city_expansion/public_fixtures.py",
+      "sourceRecipeSha256": "43540a8f502a0799e3e4c21e4d6737dc537a45ff0505e81213b61747f1459052",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-wall-irrigation-hose-reel",
+      "recipe": "scripts/city_expansion/public_fixtures.py",
+      "sourceRecipeSha256": "43540a8f502a0799e3e4c21e4d6737dc537a45ff0505e81213b61747f1459052",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-floor-flush-toilet",
+      "recipe": "scripts/city_expansion/washroom_fixtures.py",
+      "sourceRecipeSha256": "237fcf441e18dd4aa4dd0b7e2f2ac310377e96e5739d729c5b8cb5e18c320abc",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-pedestal-washbasin",
+      "recipe": "scripts/city_expansion/washroom_fixtures.py",
+      "sourceRecipeSha256": "237fcf441e18dd4aa4dd0b7e2f2ac310377e96e5739d729c5b8cb5e18c320abc",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-wall-hung-urinal",
+      "recipe": "scripts/city_expansion/washroom_fixtures.py",
+      "sourceRecipeSha256": "237fcf441e18dd4aa4dd0b7e2f2ac310377e96e5739d729c5b8cb5e18c320abc",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-wall-shower-set",
+      "recipe": "scripts/city_expansion/washroom_fixtures.py",
+      "sourceRecipeSha256": "237fcf441e18dd4aa4dd0b7e2f2ac310377e96e5739d729c5b8cb5e18c320abc",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-aerosol-line-marking-trolley",
+      "recipe": "scripts/city_expansion/site_survey_tools.py",
+      "sourceRecipeSha256": "3c6448a15711e82928e43213bac15f7ee302759ce9bf1415d08dacb444b57d2c",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-measuring-wheel",
+      "recipe": "scripts/city_expansion/site_survey_tools.py",
+      "sourceRecipeSha256": "3c6448a15711e82928e43213bac15f7ee302759ce9bf1415d08dacb444b57d2c",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-pipe-inspection-camera-reel",
+      "recipe": "scripts/city_expansion/site_survey_tools.py",
+      "sourceRecipeSha256": "3c6448a15711e82928e43213bac15f7ee302759ce9bf1415d08dacb444b57d2c",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-tripod-survey-instrument",
+      "recipe": "scripts/city_expansion/site_survey_tools.py",
+      "sourceRecipeSha256": "3c6448a15711e82928e43213bac15f7ee302759ce9bf1415d08dacb444b57d2c",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    }
+  ]
+}
