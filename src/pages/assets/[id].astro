@@ -98,6 +98,9 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
 </Layout>
 
 <style>
+/* Preserve complete attribution while allowing long source URLs to wrap. */
+.fbx-download { min-width: 0; overflow-wrap: anywhere; }
+.fbx-download pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 .direct-formats { margin-top: 1.25rem; }
 .direct-formats h2 { font-size: .9rem; }
 .direct-formats .direct-download { gap: .75rem; overflow-wrap: anywhere; }

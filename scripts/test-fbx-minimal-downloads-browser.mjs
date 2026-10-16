@@ -66,8 +66,20 @@ try{
   }
  }
  await page.setViewportSize({width:390,height:844});await page.goto(home+'assets/commons-bar-stool/');await page.locator('.fbx-download > summary').click();await page.locator('.fbx-download').scrollIntoViewIfNeeded();
- assert.ok(await page.locator('.fbx-download').isVisible());assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
- await page.screenshot({path:'test-results/mobile-fbx-downloads.png',fullPage:true});
+ // Persist evidence before the strict assertion so a CI layout failure is diagnosable.
+ for(const width of [390,320]){
+  await page.setViewportSize({width,height:844});
+  const dimensions=await page.evaluate(()=>{
+   const describe=element=>{const box=element.getBoundingClientRect();const style=getComputedStyle(element);return {tag:element.tagName,className:element.className,left:box.left,right:box.right,width:box.width,clientWidth:element.clientWidth,scrollWidth:element.scrollWidth,whiteSpace:style.whiteSpace,overflowWrap:style.overflowWrap,overflowX:style.overflowX};};
+   return {viewportWidth:innerWidth,documentWidth:document.documentElement.scrollWidth,notice:describe(document.querySelector('.fbx-download pre')),overflowingElements:[...document.querySelectorAll('body *')].filter(element=>{const box=element.getBoundingClientRect();return box.width>0&&(box.right>innerWidth+1||box.left < -1||element.scrollWidth>element.clientWidth+1);}).map(describe)};
+  });
+  await writeFile(`test-results/mobile-fbx-layout-${width}.json`,JSON.stringify({head:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),activationSha256:createHash('sha256').update(await readFile('docs/fbx-minimal-activation.json')).digest('hex'),...dimensions},null,2)+'\n');
+  await page.screenshot({path:width===390?'test-results/mobile-fbx-downloads.png':`test-results/mobile-fbx-downloads-${width}.png`,fullPage:true});
+  assert.ok(await page.locator('.fbx-download').isVisible());
+  assert.ok(dimensions.documentWidth<=dimensions.viewportWidth+1,`Expanded FBX details overflow at ${width}px: ${JSON.stringify(dimensions)}`);
+  assert.equal(dimensions.notice.whiteSpace,'pre-wrap');assert.equal(dimensions.notice.overflowWrap,'anywhere');
+  assert.equal(await page.locator('.fbx-download pre').textContent(),side.formats.find(row=>row.id==='commons-bar-stool').notice.text,'Notice text changed or truncated');
+ }
  const nojs=await browser.newContext({javaScriptEnabled:false});const nojsPage=await nojs.newPage();await nojsPage.goto(home+'assets/commons-bar-stool/');await nojsPage.locator('.fbx-download > summary').click();assert.ok(await nojsPage.locator('.fbx-download a.button').isVisible());assert.ok(await nojsPage.locator('.fbx-download a.direct-download').isVisible());await nojs.close();
  assert.deepEqual(errors,[]);await writeFile('test-results/fbx-minimal-browser-evidence.json',JSON.stringify(evidence,null,2)+'\n');
  console.log('PASS:137 FBX detail links,6 real browser downloads, mobile and no-JS links.');
