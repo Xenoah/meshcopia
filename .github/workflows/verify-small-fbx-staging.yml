@@ -1,0 +1,27 @@
+name: Verify small FBX staging push
+on:
+  push:
+    branches: [fbx/stage-site-v1]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+      - name: Check isolated fail-closed presentation helper
+        run: |
+          node --check src/lib/fbx-minimal-downloads.mjs
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import {fbxMinimalForAsset} from './src/lib/fbx-minimal-downloads.mjs';
+          assert.equal(fbxMinimalForAsset({id:'studio-chair',version:'1.0.0',status:'public',type:'model'},{}),undefined);
+          assert.equal(fbxMinimalForAsset({status:'draft',type:'model'},{}),undefined);
+          console.log('Isolated helper smoke checks passed. No availability or deployment claim.');
+          JS
