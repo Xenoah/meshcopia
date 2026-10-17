@@ -21,6 +21,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - name: Record actual Release fetch and CORS diagnostics
+        run: node scripts/diagnose-release-fetch.mjs
       - run: node scripts/check-download-ui-source.mjs
       - run: node scripts/check-archive-lock.mjs --check-history
       - name: Verify existing immutable FBX release and retain exact payloads

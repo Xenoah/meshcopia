@@ -59,3 +59,23 @@ fixture tests do not establish publication or live-site availability.
 Local cloud network access blocks GitHub API and live Pages requests. Full real
 release and browser verification therefore runs in read-only GitHub Actions.
 The cloud workspace still runs source, unit and local browser fixture tests.
+
+## 配信先の選択肢（2026-10-17確認、作成・契約・公開なし）
+
+| 選択肢 | 費用と制限 | 互換性・CORSの確認状態 |
+| --- | --- | --- |
+| 同じXenoahアカウントの別プロジェクトPagesに配信データを分離 | 公開repoのPagesはGitHub Freeで利用可能。1サイト1GB・月100GBの帯域ソフト上限が残る。新repo/Pages設定と容量管理が必要 | 標準URLなら同じ `https://xenoah.github.io` originなので別パスへのfetchにCORSは不要、という設計上の判断。新しい実URL・バイト・ブラウザGETは未検証。元サイトの旧URLは維持できるがnew251を含めた長期容量は別途要計測 |
+| Cloudflare R2 Standard等のオブジェクト配信 | R2は月10GB保存、100万Class A、1,000万Class Bが無料枠。超過は$0.015/GB月、$4.50/100万A、$0.36/100万B、外向き転送料なし。既存利用と合算・端数切上げ。独自ドメイン費用・契約条件は未確認 | `AllowedOrigins: https://xenoah.github.io` とGETを設定可能なことを公式文書で確認。実バケットのCORSは未検証。本番は独自ドメインを使い、開発用r2.devを本番配信先にしない。旧URLは元サイトに残す |
+| 旧ZIP URLを移行して元サイトを縮小 | 配信先により費用が変わり未見積り | 現在の旧URL保持条件に適合しないため未実施。HTMLリダイレクトをZIP URLに置く方式は、保存済みURLのバイト/ハッシュ互換を壊すため不可 |
+
+現在の条件では、旧URLを保持し、新しい配信データだけを別サイト/ホストへ
+置く案が検討対象です。選定後には実URLを固定し、同一バイトの匿名readback、
+本番originからのGET、取消・再試行・モバイル、全体容量を再検証します。
+このブランチに架空の配信先や外部ホスト許可のバイパスは追加していません。
+
+費用・仕様の一次資料:
+[GitHub Pages利用条件・標準URL](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、
+[Pages容量・帯域上限](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)、
+[R2料金](https://developers.cloudflare.com/r2/pricing/)、
+[R2 CORS](https://developers.cloudflare.com/r2/buckets/cors/)、
+[R2本番ドメインと開発URL](https://developers.cloudflare.com/r2/buckets/public-buckets/)。
