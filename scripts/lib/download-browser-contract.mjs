@@ -4,6 +4,7 @@ import {readFile,lstat,readdir} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {primaryDownload,directModelFiles,minimalDownloadReadiness} from '../../src/lib/downloads.mjs';
+import {deliveryReadiness} from '../../src/lib/delivery.mjs';
 
 export const sha256=data=>createHash('sha256').update(data).digest('hex');
 export const SITE='https://xenoah.github.io/meshcopia/';
@@ -24,8 +25,11 @@ export async function assertActivatedCatalog(catalog,sources){
   const files=await Promise.all(original.sources.map(async name=>{const data=await readFile(path.join(original.dir,'source',name));return {name,bytes:data.length,sha256:sha256(data)};}));
   assert.deepEqual(inventory(a.files),inventory(files),`${a.id}: original files changed`);
   for(const f of a.files)assert.equal(f.url,`${SITE}assets/${a.id}/source/${f.name.split('/').map(encodeURIComponent).join('/')}`);
-  assert.ok(minimalDownloadReadiness(a).ready,`${a.id}: minimal package unavailable`);
-  assert.equal(a.downloads.minimal.verification.releaseTag,RELEASE.releaseTag);assertNotice(a.downloads.minimal.notice);
+  assert.deepEqual(Object.keys(a.downloads),[a.type==='model'?'delivery':'minimal'],`${a.id}: retired download field`);
+  const ready=a.type==='model'?deliveryReadiness(a):minimalDownloadReadiness(a);
+  assert.ok(ready.ready,`${a.id}: consumer package unavailable`);
+  if(a.type==='texture')assert.equal(a.downloads.minimal.verification.releaseTag,RELEASE.releaseTag);
+  assertNotice(ready.download.notice);
  }
  return catalog;
 }

@@ -108,7 +108,7 @@ jobs:
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Validate, test and build
         run: npm run check
-      - name: Verify all texture maps, original API compatibility and Pages budget
+      - name: Verify texture maps, current delivery URLs and Pages budget
         run: |
           python3 scripts/check-textures.py
           node scripts/check-full-p-inputs.mjs --dist

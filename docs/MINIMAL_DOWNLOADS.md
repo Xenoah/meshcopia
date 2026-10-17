@@ -1,12 +1,16 @@
-# FBX-first delivery and retained minimal bindings
+# FBX-first delivery and API v3 migration
 
-The retained `asset.downloads.minimal` binding describes the original all-source
-minimal archive. It remains compatible for existing consumers and is the ordinary
-texture download. Models now use the additive `asset.downloads.delivery` contract
-below for both ordinary and selected downloads. Do not
-edit generated catalogs by hand. Do not add a placeholder record, a guessed
-Release ID, or an unverified URL. The checked-in ordinary activation binds the
-actual minimal-v1.0.0 release and is independently reverified at build time.
+API v3 exposes `downloads.delivery` for models and `downloads.minimal` for
+standalone textures. It removes `downloads.full`, `models`, `direct` and the
+model's former all-source `minimal` binding. The generator no longer creates
+legacy full/models ZIP copies in Pages. Old Pages URL compatibility is not
+promised; current UI and API must contain no retired ZIP links. Production
+originals, preview files, Git history, the historical archive ledger and existing
+Release attachments are retained. No other distribution repository is created.
+
+Do not edit generated catalogs, add placeholder records, guess a Release ID or
+accept an unverified URL. Every current binding requires the same independent
+public-byte verification as before this migration.
 
 ## Current model delivery contract
 
@@ -16,7 +20,8 @@ source/metadata checks and the model delivery gate. It contains:
 - `schemaVersion: 1`, exact `id`, `assetVersion`, `packageVersion`.
 - `contentPolicy: fbx-required-textures-single-notice-v1`.
 - `sourceFiles`: original source inventory bound by the successful FBX proof;
-  these files remain in root `asset.files` for preview/legacy compatibility.
+  these files remain in root `asset.files` for production-original/preview access.
+  They are separate from the consumer inventory and their URLs are not guaranteed forever.
 - `archive`: the existing verified immutable FBX ZIP URL, filename, bytes, sha256.
 - `files`: exact consumer files with name, format, bytes, sha256, direct Release URL
   and `fetch` transport. Currently all137 have embedded images and exactly one FBX.
@@ -42,10 +47,14 @@ The browser diagnostic in CI39042567048 confirmed missing CORS headers on both
 the direct Release URL and the API's redirected binary; neither a clickable
 link nor a successful server-side download establishes CORS support. No API fetch
 or third-party proxy is used by the shipped bundle builder. Deployment is blocked
-until the complete build fits the existing Pages budget, or a separately verified
-immutable CORS host is approved and configured. See FBX_DISTRIBUTION_REVIEW.md.
+until the complete build fits the existing Pages budget. The approved migration
+removes old Pages ZIP copies instead of creating another host. See FBX_DISTRIBUTION_REVIEW.md.
 
-## Retained ordinary minimal contract
+## Texture minimal and historical verification contract
+
+Only textures expose this binding in API v3. The pinned verifier still checks the
+original173 Release and its source identities, including historical model ZIPs;
+verification does not require exposing those model URLs in the current API.
 
 The record has these fields (the accompanying JSON Schema is normative for
 shape; `minimalDownloadReadiness()` additionally checks current-asset joins):
@@ -81,7 +90,7 @@ archives. A tag name alone is not an active binding or evidence of publication.
 ## Publisher gate before projection
 
 The publisher owns verification and must complete all of the following before
-writing `downloads.minimal` into generated API/catalog records:
+writing a texture `downloads.minimal` into generated API/catalog records:
 
 1. Pin the original asset identity/version and exact source-byte inventory.
 2. Inspect the ZIP entries. They must be precisely the original relative
@@ -113,11 +122,11 @@ does not constitute verification.
 - Card download, detail primary ZIP and size sorting use one selector. Models
   require valid `downloads.delivery`; missing/stale FBX shows unavailable and
   unknown size, never 0 MB or an all-format fallback. Textures retain their
-  existing minimal/legacy behavior.
+  verified minimal download, with no retired-archive fallback.
 - The model primary ZIP is FBX plus required textures and one short LICENSE.
   A standalone FBX link is offered only when no companions are required.
 - Preview GLBs and original-format files remain in the viewer and legacy-file
-  disclosure. Compatibility fields and all immutable archives remain unchanged.
+  disclosure. Retired Pages ZIP fields are removed. Existing Release attachments remain unchanged.
 - Selection uses delivery.files for models and minimal.sourceFiles for textures.
   It makes one ZIP, one folder per asset, and one combined root LICENSE from the
   exact notices. Failure never produces a partial download. Escape/Back cancel
@@ -160,13 +169,13 @@ offline flag or skipped nonempty verifier. A transport/network failure blocks
 generation before cleanup. This may add several minutes of public reads to a
 nonempty build.
 
-The generated item receives its verified minimal binding before per-asset
+Each texture receives its verified minimal binding before per-asset
 JSON/catalog/NDJSON are written. `check-dist.mjs` independently invokes the same
-real public verifier and checks exact catalog and manifest bindings. It retains
-all previous full/models ZIP hash, content, attribution and immutable-lock
-checks, without trying to resolve a Release ZIP as a local Pages file. No new
-ZIP is built or copied into Pages by these hooks. No original archive generator
-or legacy archive bytes are changed.
+real public verifier and checks exact catalog and manifest bindings. It checks current originals and links, reconstructs every consumer FBX from built
+chunks, and asserts that retired Pages ZIP files/links are absent. The historical
+archive ledger remains unchanged and append-only history is still checked; old
+API byte equality and regenerating all310 old ZIPs are no longer publication
+requirements. No consumer ZIP is copied into Pages. Existing Releases are unchanged.
 
 The combined candidate includes the production model-delivery gate, its baseline
 and shared `docs/ASSET_PRODUCTION_RULES.md`. The generator calls that gate before
@@ -183,10 +192,10 @@ the same-job, single-use prep receipt. The batch-download modules retain one
 
 The read-only full-site workflow `.github/workflows/verify-minimal-ui.yml`
 verifies the actual ordinary activation and builds once after mandatory durable
-FBX prep. `.github/workflows/verify-fbx-minimal-ui.yml` adds the exact original-API
-baseline and all-model FBX browser/download checks. Neither workflow publishes
+FBX prep. `.github/workflows/verify-fbx-minimal-ui.yml` adds the current migration
+gate and all-model FBX browser/download checks. Neither workflow publishes
 or deploys. Both require real public bytes; fixture-only UI proof is not release
-proof. Production applies the same durable prep, original viewer, ordinary
+proof. Production applies the same durable prep, current-URL migration gate, original viewer, ordinary
 selected-download, FBX browser, texture and size-budget gates before publishing.
 The browser evidence does not claim FBX rendering or new251 site availability.
 
@@ -196,3 +205,17 @@ Release fetch diagnostics, tests missing FBX and interrupted retries, measures
 the entire candidate build and keeps the capacity gate blocking. See
 [the review report](FBX_DISTRIBUTION_REVIEW.md) for exact commits, results and the
 unresolved hosting requirement; passing functional tests is not deployment proof.
+
+## Publication and recovery
+
+API v3 is a breaking download-contract migration, not a redirect promise. Callers
+read the current catalog and verify its current bytes/hash fields. Old Pages ZIP
+URLs may return404 after deployment. The existing static source/preview/image URLs
+are still served and checked; retiring duplicate ZIPs does not remove viewer files.
+
+The site release bundler emits only the site archive, catalog and checksums. It
+does not create empty or nested old all/models/textures collections. Single-asset
+consumer ZIPs remain in their existing verified Releases, and selected collections
+are built in the browser. Recovery of a historical site build uses its exact Git
+revision, pinned runtime and archive ledger; do not overwrite public Releases or
+insert retired ZIP links into the current UI to satisfy an old compatibility test.

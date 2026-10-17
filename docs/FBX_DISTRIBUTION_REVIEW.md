@@ -1,138 +1,91 @@
-# FBX distribution candidate (not deployed)
+# FBX配布移行レビュー（未公開）
 
-Base: `7262f3e34559234de636cd5351d89fc733df008d` (stage10).
-Implementation branch: `codex/fbx-distribution`. Main, Pages and existing Releases
-are not changed by this branch's read-only workflow.
+ブランチ: `codex/fbx-distribution`。前回の文書コミットは
+`82256c98897cd5238bcaa6fc146a5b607fe5ebdc`、前回の実装検証は `750764e`。
+今回はユーザーの「旧URLは使えなくなってもいい」という変更に合わせ、旧Pages
+ZIPの互換維持を終了します。mainへのマージ・Pages公開・既存Releaseの変更・
+別配信リポジトリの作成は行っていません。
 
-## Scope and measured constraints
+## 最新状態との照合
 
-- Site activation remains original173: 137 models and 36 standalone textures.
-- new251 F run39035757342 and transfer39036941196 were both successful when
-  rechecked. Release `cohort-new251-v1.0.0` has754 public attachments. This is
-  separate from site activation. The 30 source-only stage8–10 additions are not
-  covered by that251. No old232 candidate is used.
-- Baseline full Astro build: **939,340,180 bytes / 1,197 files**, measured from
-  actual `dist/` in [baseline job117422108922](https://github.com/Xenoah/meshcopia/actions/runs/39041621871/job/117422108922).
-  Remaining operational headroom: **10,659,820 bytes** below950,000,000.
-- Verified existing FBX payload total: **599,103,132 bytes**. Existing immutable
-  FBX ZIP total: **572,507,759 bytes**. Reusing those ZIP URLs avoids making
-  duplicate consumer archives; original full/models archives remain unchanged.
-- Old ordinary minimal model ZIPs total **181,983,181 bytes**, while the reused
-  FBX ZIPs total **572,507,759 bytes**. FBX selection is a format-policy change,
-  not a claim that individual downloads become smaller. The original model
-  payload inventory was **260,812,913 bytes**, versus **599,103,132 FBX bytes**.
-- Content-defined gzip chunks reduce the extra FBX payload storage to roughly
-  **138.4 MB**, or **139,053,090 bytes including manifests**. Compared with copying
-  all599,103,132 payload bytes, this saves460,050,042 bytes (about76.8%).
-  This is deduplicated extra transport storage, not smaller consumer FBX files.
-- Final complete candidate `dist/`: **1,079,586,102 bytes / 2,172 files**;
-  **140,245,922 bytes more than main** and **129,586,102 bytes above** the
-  operational950,000,000-byte limit. This also exceeds the1,000,000,000-byte
-  hard budget. Both budget assertions fail; they have not been relaxed.
-- Actual browser fetch from the live Pages origin failed for both the direct
-  Release URL and the API's redirected binary in
-  [CI39042567048](https://github.com/Xenoah/meshcopia/actions/runs/39042567048/job/117424827052):
-  both responses lacked `Access-Control-Allow-Origin`. Another attempt returned
-  HTTP403 from the API; that response is not labeled a CORS failure. Click-based
-  anonymous ZIP downloads passed separately. The shipped batch builder never
-  fetches a Release URL or assumes its CORS.
+- `git fetch origin main` でmainが引き続き
+  `7262f3e34559234de636cd5351d89fc733df008d`（stage10）であることを確認。
+  前回からのmain差分はなく、取り込むClaude側の追加変更はありません。
+- mainの最新検証run39037696325は成功。これはsource-only stage10であり、
+  新素材のサイト公開を意味しません。
+- 最新Releaseは `cohort-new251-v1.0.0`（ID415820647）、754添付、
+  公開日時2026-10-17T13:57:23Z。サイト反映とは別です。
+- 今回の検証対象は **original173 = 137モデル + 36テクスチャ**。
+  new251とstage8〜10の30点は含めません。旧232候補は使用しません。
 
-## Implementation and verification
+## 変更する公開物
 
-`downloads.delivery` binds ordinary FBX ZIPs and exact batch payloads to the
-existing successful source/version-bound verification. Root `files`, previewUrl,
-legacy ZIP fields and archive lock remain compatible. Textures keep their image
-downloads. A missing/stale FBX disables model delivery and shows unknown size.
+- 旧 `full` / `models` ZIP **310個・532,070,717 bytes**をPagesの生成対象から
+  外します。HTMLやredirectを同じZIP URLへ置くこともしません。
+- APIの `schemaVersion` を **3.0.0**に更新。モデルは `downloads.delivery`、
+  テクスチャは `downloads.minimal`。旧 `full/models/direct` とモデルの旧
+  all-source `minimal` は公開しません。旧ZIPへのフォールバックもありません。
+- `content/` の原本、GLBを含む既存プレビュー、テクスチャ画像、Git履歴、
+  旧アーカイブのハッシュ台帳、既存Release添付は保持します。
+  現行 `files[]` の原本/画像URLは提供を継続しますが、旧URL全般の互換保証はしません。
+- サイトReleaseの生成物はサイトZIP・カタログ・チェックサム。
+  旧ZIPを入れ子にするall/models/textures集は新規生成しません。
+  既存Releaseのそれらの添付を削除する処理はありません。
+- 通常モデルZIPは既存の検証済みFBX ZIPをそのまま再利用。
+  一括ZIPは素材別フォルダー、FBXと必要テクスチャ、共通LICENSE一枚です。
+  現在の137 FBXは画像埋め込み済み。外部依存FBXや追加cohortには別途検証済みadapterが必要です。
 
-Batch transport reconstructs unchanged FBX from same-site gzip chunks; no new
-export or importer claim is made. Final ZIP is uncompressed STORE with one model
-folder per selection and one exact combined LICENSE. Size estimates include ZIP
-headers and UTF-8 names, and the finished UI uses actual Blob.size.
+## 実容量
 
-The read-only workflow runs mandatory anonymous prep, all unit tests, build,
-check-dist reconstruction of every FBX, actual single/selected browser ZIPs,
-cancel/retry/Back/remove/clear/mobile/no-JS and viewer/texture regressions. Its
-final capacity gate must remain blocking. Results are recorded in CI artifacts;
-fixture tests do not establish publication or live-site availability.
+| 対象 | 全体dist bytes | 証拠 |
+| --- | ---: | --- |
+| 現行main `7262f3e` | 939,340,180 | [実ビルドbaseline](https://github.com/Xenoah/meshcopia/actions/runs/39041621871/job/117422108922) |
+| 旧URL維持の前回FBX候補 `750764e` | 1,079,586,102 | [前回検証](https://github.com/Xenoah/meshcopia/actions/runs/39042655699/job/117425440168) |
+| 今回の移行候補 | CIで計測して追記 | `measure-distribution.mjs` |
 
-## 検証対象と証拠
+950,000,000 bytesの運用ゲートと1,000,000,000 bytesの上限は維持しています。
+旧310 ZIPの除外量は固定台帳から算出した値であり、新しい全体distの実測値の
+代用にはしません。`check-dist` と後続の移行検査も容量上限を検証します。
 
-実装の検証対象は `750764efce5d5edefb4c65f856ce1945261535c0`。
-最終結果の追記は文書だけの変更で、実装・設定・テストを変更しません。
-[最終検証ジョブ（run39042655699、attempt2）](https://github.com/Xenoah/meshcopia/actions/runs/39042655699/job/117425440168)
-で次を確認しています。
+FBX単体の総量は599,103,132 bytes、通常FBX ZIP総量は572,507,759 bytesです。
+旧通常モデルZIP総量181,983,181 bytesより大きく、FBX化自体が消費者の取得容量を
+減らすとは主張しません。重複排除した同一サイトのchunk/manifestは前回実測
+139,053,090 bytes。一括ZIPは無圧縮、最大50件、入力上限128 MiB
+（モバイル/低メモリ時48 MiB）を維持します。
 
-- 固定Node 22.23.3で177テスト成功。クラウド環境でも同じ最終コードの
-  `npm test` が177/177成功しています。
-- 必須の匿名FBX Release検証、`npm run check`、全137 FBXの実ビルドからの
-  復元・バイト/ハッシュ照合が成功。
-- FBX欠落・不正manifest・中断・404後の再試行をローカルfixtureで確認。
-  fixtureは本番公開の証明とは分けています。
-- 実生成ページ173件のリンク、3件の実Release ZIP、デスクトップ/モバイルの
-  実データによる複数選択ZIP、その内容・実サイズ・取消・再試行・戻る・
-  選択解除が成功。モデルはFBX、テクスチャ作品は画像、共通LICENSEは1枚。
-- 137モデルのFBXリンク、6件の実ブラウザーダウンロード、モバイル/no-JSが成功。
-- 既存GLB/STL/OBJプレビュー、表示設定、検索・絞り込み・ダイアログ再利用、
-  repeat/mirror/clampテクスチャ、元PNG取得、球表示、言語切替と
-  デスクトップ/モバイル表示が成功。
-- 旧API175件の互換投影と固定ZIP310件の台帳・内容が一致。
-  容量判定は2箇所とも同じ1,079,586,102 bytesで失敗しています。
+## 検証方法と現在の結果
 
-**CI全体の結果はfailureです。残る失敗は容量超過のみです。**
-初回attempt1はAPI403を伴うprep失敗で、検証済み結果として使っていません。
-上記は全機能試験を通過したattempt2の結果です。
-[最終artifact12105570025](https://github.com/Xenoah/meshcopia/actions/runs/39042655699/artifacts/12105570025)
-には実ダウンロードZIP、スクリーンショット、サイズ・互換性・CORS・ブラウザー
-試験のJSONを保存しています（SHA-256:
-`37b4ef901ca6b4f7c504d356e53ffd865db935cda881a1652df54694d03d8d5d`）。
+専用ブランチのread-only CIで、必須の匿名Release検証から一度だけビルドし、
+全137 FBXをその実出力から復元・ハッシュ照合します。全体テスト、現行リンク、
+退役ZIPの実ファイル/参照の不在、単体/一括ZIP内容と実容量、FBX欠落、取消、
+404後の再試行、戻る、選択解除、モバイル/no-JS、既存ビューアを検証します。
+サイトReleaseのローカル生成も確認しますが、公開アクションはありません。
 
-候補サイトとchunkは実ビルドの `dist/` をブラウザー内で本番originにマウント
-して試験しています。Releaseへの要求は置換せず実通信しています。この区別は
-artifactの `canonicalOriginRemount` / `liveSite` に記録し、未公開のchunk URLが
-実際のPagesで取得できたという証拠にはしていません。
+この移行の最終CI結果・実測容量は検証終了後に追記します。前回CIの成功した
+機能試験を、今回のコードの検証結果として使い回しません。
 
-未実施: 選定前の新配信先への公開・本番originでの実バイト取得、公開後の
-本番サイト試験、実機Safari、FBXの新たなDCC/ゲームエンジンへの再インポート。
-既存の検証済みFBXを同一バイトで再利用しており、新しいFBXレンダリングや
-インポート互換性の検証を行ったとは主張しません。
-一括ZIPは無圧縮で、最大50件、入力上限は通常128 MiB・モバイル/低メモリ時48 MiBを
-維持しています。実機モバイル全機種のメモリ耐性を保証する試験ではありません。
+候補サイトとchunkは、実ビルドのdistをブラウザー内で本番originへマウントして
+検査します。Releaseへの実通信は置換しません。候補側の旧ZIP要求は404を検査し、
+現行HTML/APIに旧ZIPリンクがないことを全件検査します。本番Pagesへの移行は
+まだ実施していないため、本番の新chunk URLが取得できたという証拠ではありません。
 
-## Required before publication
+[前回CORS診断](https://github.com/Xenoah/meshcopia/actions/runs/39042655699/job/117425440168)
+ではRelease直接URL・API転送先の両方が本番originのfetchで失敗しました。
+クリックによるダウンロードとは分け、ブラウザー一括取得は同一サイトのchunkを
+使います。別ホストや第三者プロキシは導入しません。
 
-1. Review the candidate and its exact final CI evidence. No automatic merge or
-   deploy is requested by this change.
-2. Resolve payload hosting: current Pages cannot retain every legacy URL and
-   accommodate all new FBX data, even after deduplication. Use a separately
-   reviewed immutable host with actual browser CORS and byte readback, or an
-   approved capacity/URL migration. Do not disable the budget, overwrite Releases,
-   delete originals or silently disable large-model downloads to pass it.
-3. Bind that actual transport, rerun complete size and real browser checks, then
-   obtain publication authorization. No guessed hostname or future-success flag
-   is included here.
-4. Integrate new251 only via its own reviewed adapter and capacity plan after
-   reconciling Claude's latest main. No new251 or stage8–10 publication is claimed.
+## 公開前の残作業
 
-Local cloud network access blocks GitHub API and live Pages requests. Full real
-release and browser verification therefore runs in read-only GitHub Actions.
-The cloud workspace still runs source, unit and local browser fixture tests.
+1. 最新mainとClaudeの変更を再照合し、今回の正確なコミットのCIを親が確認。
+2. mainへのマージ・デプロイは親の確認まで保留。source-onlyの公開状態と
+   Release版番号の扱いも別途確認し、既存タグを上書きしません。
+3. 公開後に実Pagesの現行カタログ、chunk、単体/一括ダウンロードを匿名取得して
+   バイト/サイズ/ハッシュを確認。旧Pages ZIP URLの互換性は保証しません。
+4. new251とその後の素材は別の対象範囲・adapter・容量検証として扱います。
 
-## 配信先の選択肢（2026-10-17確認、作成・契約・公開なし）
+実機Safari、FBXの新たなDCC/ゲームエンジンへの再インポートは未実施。
+既存の検証済みFBXを同一バイトで再利用し、新しいインポート互換性は主張しません。
 
-| 選択肢 | 費用と制限 | 互換性・CORSの確認状態 |
-| --- | --- | --- |
-| 同じXenoahアカウントの別プロジェクトPagesに配信データを分離 | 公開repoのPagesはGitHub Freeで利用可能。1サイト1GB・月100GBの帯域ソフト上限が残る。新repo/Pages設定と容量管理が必要 | 標準URLなら同じ `https://xenoah.github.io` originなので別パスへのfetchにCORSは不要、という設計上の判断。新しい実URL・バイト・ブラウザGETは未検証。元サイトの旧URLは維持できるがnew251を含めた長期容量は別途要計測 |
-| Cloudflare R2 Standard等のオブジェクト配信 | R2は月10GB保存、100万Class A、1,000万Class Bが無料枠。超過は$0.015/GB月、$4.50/100万A、$0.36/100万B、外向き転送料なし。既存利用と合算・端数切上げ。独自ドメイン費用・契約条件は未確認 | `AllowedOrigins: https://xenoah.github.io` とGETを設定可能なことを公式文書で確認。実バケットのCORSは未検証。本番は独自ドメインを使い、開発用r2.devを本番配信先にしない。旧URLは元サイトに残す |
-| 旧ZIP URLを移行して元サイトを縮小 | 配信先により費用が変わり未見積り | 現在の旧URL保持条件に適合しないため未実施。HTMLリダイレクトをZIP URLに置く方式は、保存済みURLのバイト/ハッシュ互換を壊すため不可 |
-
-現在の条件では、旧URLを保持し、新しい配信データだけを別サイト/ホストへ
-置く案が検討対象です。選定後には実URLを固定し、同一バイトの匿名readback、
-本番originからのGET、取消・再試行・モバイル、全体容量を再検証します。
-このブランチに架空の配信先や外部ホスト許可のバイパスは追加していません。
-
-費用・仕様の一次資料:
-[GitHub Pages利用条件・標準URL](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、
-[Pages容量・帯域上限](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)、
-[R2料金](https://developers.cloudflare.com/r2/pricing/)、
-[R2 CORS](https://developers.cloudflare.com/r2/buckets/cors/)、
-[R2本番ドメインと開発URL](https://developers.cloudflare.com/r2/buckets/public-buckets/)。
+旧URL維持条件下の検証履歴・配信先比較は
+[前回レポート](https://github.com/Xenoah/meshcopia/blob/82256c98897cd5238bcaa6fc146a5b607fe5ebdc/docs/FBX_DISTRIBUTION_REVIEW.md)
+に保存されています。今回は旧URL移行が許可されたため、別配信先の選定は不要です。

@@ -11,15 +11,17 @@
 - Source: https://github.com/Xenoah/meshcopia
 - License: https://creativecommons.org/licenses/by/4.0/
 
-Catalog schemaVersion: 2.1.0. assets[] contains id, type, title, titleEn, tags,
+Catalog schemaVersion: 3.0.0. assets[] contains id, type, title, titleEn, tags,
 category, author, license, version, provenance, thumbnail, pageUrl, manifestUrl,
-attribution, files[], downloads.full and (models only) downloads.models.
+attribution, files[], and the current downloads binding.
 Models use publisher-verified downloads.delivery: archive is the ordinary FBX ZIP;
 files is the exact FBX/required-texture consumer inventory, with one notice.
 Missing delivery means FBX unavailable; do not silently select all-format archives.
-Textures retain downloads.minimal (or a truthfully labeled legacy downloads.full).
+Textures use verified downloads.minimal; there is no legacy fallback.
 The files[] at asset root are retained original/preview files, not the batch payload.
-downloads.full/models/minimal keep their historical content, URLs and hashes.
+downloads.full/models/direct and model downloads.minimal are removed in API v3.
+Legacy full/models Pages ZIPs are no longer generated; old URL compatibility is
+not guaranteed. Sources, Git history and existing Release attachments are retained.
 Batch consumers use downloads.delivery.files and its verified chunk manifest.
 Never assume GitHub Release links allow browser fetch. Keep direct Release hosts.
 Every file and ZIP has bytes and sha256. Verify the downloaded bytes before use.

@@ -31,12 +31,12 @@ test('projection pins source bytes; final binding preserves original compatibili
     await writeFile(path.join(root,'source/mesh.glb'),'changed');await assert.rejects(validateMinimalProjection([binding],[source]),/source-inventory/);
   } finally {await rm(root,{recursive:true,force:true})}
 });
-test('generation verifies before any cleanup; dist retains old checks and independently verifies minimal bytes',async()=>{
+test('generation verifies before cleanup; dist verifies current bytes and retired URL migration',async()=>{
   const generate=await readFile(new URL('../scripts/generate.mjs',import.meta.url),'utf8');
-  assert.ok(generate.indexOf('await prepareMinimalDownloads(assets)')<generate.indexOf("await rm('public/assets'"));assert.match(generate,/bindMinimalDownload\(\{\.\.\.metadata/);assert.ok(generate.indexOf('await assertCompleteModelDeliveries(')<generate.indexOf("await rm('public/assets'"));
+  assert.ok(generate.indexOf('await prepareMinimalDownloads(assets)')<generate.indexOf("await rm('public/assets'"));assert.match(generate,/bindMinimalDownload\(original,minimalDownloads\)/);assert.ok(generate.indexOf('await assertCompleteModelDeliveries(')<generate.indexOf("await rm('public/assets'"));
   const dist=await readFile(new URL('../scripts/check-dist.mjs',import.meta.url),'utf8');
-  for(const retained of ["entries.has('LICENSE.txt')","entries.has('ATTRIBUTION.txt')","entries.get('ATTRIBUTION.txt').toString(),a.attribution+'\\n'","await verifyArchiveLock("])assert.ok(dist.includes(retained),retained);
-  assert.match(dist,/prepareMinimalDownloads\(await readCatalog\(\)\)/);assert.match(dist,/Minimal binding differs from current verified public Release/);assert.match(dist,/Verified minimal cohort omitted/);
+  assert.match(dist,/await verifySiteMigration\(\)/);assert.doesNotMatch(generate,/writeStoreZip/);
+  assert.match(dist,/prepareMinimalDownloads\(await readCatalog\(\)\)/);assert.match(dist,/Minimal binding differs from current verified public Release/);assert.match(dist,/Verified texture cohort omitted/);
 });
 test('Python public activation validator passes fixture and corruption tests',()=>{
   execFileSync('python3',[fileURLToPath(new URL('./test_minimal_activation.py',import.meta.url))],{stdio:'pipe',maxBuffer:4*1024*1024});

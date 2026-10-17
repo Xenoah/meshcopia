@@ -44,7 +44,7 @@ export function minimalDownloadReadiness(asset) {
   return {ready:true,reason:'published-verified',download:binding};
 }
 
-/** One ordinary ZIP. Compatibility API fields are never a second UI choice. */
+/** One verified ordinary ZIP. Retired Pages archives are never a fallback. */
 export function primaryDownload(asset) {
   if (asset?.type === 'model') {
     const ready = deliveryReadiness(asset);
@@ -61,19 +61,7 @@ export function primaryDownload(asset) {
     contentsJa:'素材ファイル・必要な関連ファイル・LICENSE.txt（ライセンス・クレジット）',
     contentsEn:'Asset files, required dependencies and LICENSE.txt (license and attribution)',
   };
-  const kind = (asset?.type === 'model' ? ['models','full'] : ['full']).find(key=> {
-    const file = asset?.downloads?.[key];
-    return file && downloadHref(file.url) && positiveBytes(file.bytes);
-  });
-  if (!kind) return undefined;
-  const legacy = asset.downloads[kind];
-  return {
-    ...legacy, kind, minimal:false,
-    labelJa:kind === 'models' ? '3Dモデル ZIP（従来版）' : asset.type === 'texture' ? 'テクスチャ ZIP（従来版）' : '素材 ZIP（従来版）',
-    labelEn:kind === 'models' ? 'Model ZIP (legacy)' : asset.type === 'texture' ? 'Texture ZIP (legacy)' : 'Asset ZIP (legacy)',
-    contentsJa:kind === 'models' ? '3Dモデル・必要な関連ファイル・LICENSE.txt・ATTRIBUTION.txt' : '素材ファイル・プレビュー・メタデータ・README・LICENSE.txt・ATTRIBUTION.txt',
-    contentsEn:kind === 'models' ? 'Model files, required dependencies, LICENSE.txt and ATTRIBUTION.txt' : 'Asset files, preview, metadata, README, LICENSE.txt and ATTRIBUTION.txt',
-  };
+  return undefined;
 }
 
 export function primaryDownloadBytes(asset) {

@@ -22,9 +22,8 @@ function bind(asset) {
 }
 
 test('models without verified FBX are unavailable; legacy fields stay intact',()=>{const a=bind(fixture());assert.equal(primaryDownload(a),undefined);assert.equal(primaryDownloadBytes(a),Infinity);assert.ok(a.downloads.models);});
-test('textures retain a truthful preview/metadata legacy description until bound',()=>{
-  const a=fixture('texture'), selected=primaryDownload(a);assert.equal(selected.kind,'full');assert.equal(selected.minimal,false);
-  assert.equal(selected.labelEn,'Texture ZIP (legacy)');assert.equal(selected.contentsEn,'Asset files, preview, metadata, README, LICENSE.txt and ATTRIBUTION.txt');
+test('textures without verified delivery never fall back to retired Pages ZIPs',()=>{
+  const a=fixture('texture');assert.equal(primaryDownload(a),undefined);assert.equal(primaryDownloadBytes(a),Infinity);
 });
 for(const type of ['texture'])test(`${type}: verified binding becomes the sole primary ZIP without mutating legacy fields`,()=>{
   const a=bind(fixture(type)), before=clone(a);const selected=primaryDownload(a);
@@ -78,9 +77,9 @@ test('source inventory order is immaterial, and Unicode notice bytes are UTF-8',
 test('current file changes invalidate a previously bound archive',()=>{
   const a=bind(fixture());a.files[0].sha256=digest('updated current source');assert.equal(minimalDownloadReadiness(a).reason,'source-inventory');assert.equal(primaryDownload(a),undefined);
 });
-test('missing or malformed ordinary downloads remain unavailable or use honest full fallback',()=>{
+test('missing or malformed ordinary downloads remain unavailable',()=>{
   assert.equal(primaryDownload({type:'model'}),undefined);assert.equal(primaryDownload(undefined),undefined);assert.equal(primaryDownloadBytes({}),Infinity);
-  const a=fixture('texture');assert.equal(primaryDownload(a).kind,'full');assert.equal(primaryDownload(a).labelEn,'Texture ZIP (legacy)');
+  const a=fixture('texture');assert.equal(primaryDownload(a),undefined);
   a.downloads.full.url='http://unsafe.example/file.zip';assert.equal(primaryDownload(a),undefined);
 });
 test('Release origin is never stripped; same-site direct files stay base-path local',()=>{

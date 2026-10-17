@@ -11,8 +11,9 @@ import {SITE,RELEASE,sha256,assertActivatedCatalog,expectedDetail,verifyBrowserZ
 
 const live=process.argv.includes('--live'),root=path.resolve('dist'),out='test-results/minimal-p-downloads';
 const catalogBytes=await readFile(path.join(root,'api/catalog.json'));
+assert.equal(JSON.parse(catalogBytes).schemaVersion,'3.0.0');
 const catalog=await assertActivatedCatalog(JSON.parse(catalogBytes).assets,await readCatalog());
-const dist=await measureDist(root,{enforceBudget:false});await mkdir(out,{recursive:true});
+const dist=await measureDist(root);await mkdir(out,{recursive:true});
 const selected=['studio-chair','sage-terrazzo'].map(id=>{const a=catalog.find(a=>a.id===id);assert.ok(a,id);return a;});
 const evidence={schemaVersion:1,status:'running',sourceCommit:process.env.GITHUB_SHA??null,runId:process.env.GITHUB_RUN_ID??null,runAttempt:process.env.GITHUB_RUN_ATTEMPT??null,release:RELEASE,catalogSha256:sha256(catalogBytes),dist,scope:{builtDist:true,canonicalOriginRemount:!live,liveSite:live,injectedReadiness:false,injectedNoticeText:false,injectedUI:false,originalAssets:173,models:137,textures:36,fbxCoverage:true,new251Coverage:false,sitePublication:false},links:[],bulk:[],individual:[],screenshots:[],smallSizes:[]};
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.wasm':'application/wasm','.glb':'model/gltf-binary','.zip':'application/zip'};
@@ -39,6 +40,9 @@ async function catalogPage(page){
 try{
  const linkContext=await context({viewport:{width:1440,height:1050}}),page=await linkContext.newPage();
  await catalogPage(page);
+ const retired=JSON.parse(await readFile('docs/archive-lock.json')).archives.filter(a=>a.id==='studio-chair'||a.id==='cedar-boards');
+ evidence.retiredRequests=await page.evaluate(async urls=>Promise.all(urls.map(async url=>({url,status:(await fetch(url,{cache:'no-store'})).status}))),retired.map(a=>a.url));
+ if(!live)for(const row of evidence.retiredRequests)assert.equal(row.status,404,'Retired ZIP must not be in the built candidate');
  const cards=await page.locator('#asset-grid [data-card]').evaluateAll(cards=>cards.map(card=>({id:card.querySelector('[data-preview]')?.dataset.preview,zipSize:card.querySelector('.card-zip-size')?.textContent,links:[...card.querySelectorAll('.card-download')].map(a=>({url:a.href,kind:a.dataset.downloadKind}))})));
  assert.equal(cards.length,173);assert.equal(new Set(cards.map(c=>c.id)).size,173);
  for(const a of catalog){assert.deepEqual(cards.find(c=>c.id===a.id)?.links,[{url:primaryDownload(a).url,kind:primaryDownload(a).kind}],a.id);assert.equal(cards.find(c=>c.id===a.id)?.zipSize,`ZIP容量: ${formatBytes(primaryDownload(a).bytes)}`,a.id+' ZIP bytes');}

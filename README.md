@@ -22,9 +22,9 @@
 
 ### 素材制作・ダウンロードの共通ルール
 
-新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。新しい利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。過去の不変ZIPは元の内容・URL・ハッシュを保持します。検証済み公開URLへの切り替えは [minimal download binding](docs/MINIMAL_DOWNLOADS.md) を参照。
+新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。既存Releaseは変更しません。旧Pagesのfull/models ZIPは生成を終了し、旧URLの互換性は保証しません。制作原本・履歴・過去のハッシュ台帳を保持します。現行取得先は [配布契約](docs/MINIMAL_DOWNLOADS.md) を参照。
 
-> **このブランチの配布変更は未公開です。** 既存URLを維持した実ビルドの容量ゲートを通す必要があります。251点のRelease公開とサイト反映は別作業です。[検証・公開前の残作業](docs/FBX_DISTRIBUTION_REVIEW.md)。
+> **このブランチの配布変更は未公開です。** 旧ZIPの重複出力を除いた実ビルドで950MBの容量ゲートを検証します。別配信リポジトリは作成しません。251点のRelease公開とサイト反映は別作業です。[検証・公開前の残作業](docs/FBX_DISTRIBUTION_REVIEW.md)。
 
 ## 収録素材
 
@@ -48,7 +48,7 @@
 
 ## テクスチャとAPIの反復方式
 
-カタログの `schemaVersion` は **2.1.0**。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
+カタログの `schemaVersion` は **3.0.0**。モデルは `downloads.delivery`、テクスチャは `downloads.minimal` を使用します。`downloads.full` / `models` / `direct` とモデルの旧 `minimal` は公開APIから除外しました。`files[]` は制作原本・プレビュー用、モデルの配布ファイルは `downloads.delivery.files` です。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
 
 | wrapMode | 使い方 | seamless |
 | --- | --- | --- |
@@ -89,9 +89,9 @@ git push origin main
 
 ## ビルドとリリース
 
-`npm run build` が素材検証、ZIP・JSON生成、Astro静的ビルドを行います。`npm run check` はその前後に検証を実行します。mainへのpushでCIとPagesが動作します。`.release.json` のversionを変更すると、成功した検証後に対応するGitHub Releaseを作成します。`prerelease: true` でプレリリース、`false` で正式リリースです。同一タグは作り直しません。
+`npm run build` が素材検証、配布manifest・共有chunk・JSON生成、Astro静的ビルドを行います。`npm run check` はその前後に現行URL・ハッシュ・旧ZIP除外・全体容量を検証します。mainへのpushでCIが動作し、公開条件が成立した場合にPagesへ進みます。`.release.json` のversionを変更すると、成功した検証後に対応するGitHub Releaseを作成します。同一タグは作り直しません。
 
-リリースには公開サイトZIP、全素材ZIP、モデル集ZIP、テクスチャ集ZIP、カタログJSON、SHA256SUMSを添付。GitHub Pagesは **Settings → Pages → Source: GitHub Actions** を使用し、`.github/workflows/publish.yml` が検証済みのAstroサイトを公開します。別のリポジトリへ複製した場合もこのSourceを選択してください。
+今後のサイトReleaseには公開サイトZIP、カタログJSON、SHA256SUMSを添付。単体FBX/テクスチャZIPは検証済みの既存Releaseを使い、選択素材はブラウザーで一つのZIPにします。旧ZIPを入れ子にするall/models/textures集は新規生成しません。既存Releaseの添付は残します。GitHub Pagesは **Settings → Pages → Source: GitHub Actions** を使用し、`.github/workflows/publish.yml` が検証済みのAstroサイトを公開します。
 
 ## 素材の再生成
 

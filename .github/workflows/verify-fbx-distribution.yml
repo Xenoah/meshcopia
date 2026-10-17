@@ -39,9 +39,13 @@ jobs:
       - name: Measure complete build and enforce Pages capacity
         if: always()
         run: node scripts/measure-distribution.mjs
-      - name: Preserve original API and immutable archive baseline
+      - name: Verify current URLs, retired archive absence and immutable history
         if: always()
         run: node scripts/check-fbx-minimal-baseline.mjs
+      - name: Build current site release artifacts without publishing
+        run: npm run release:bundle
+      - name: Preserve source assets, release request and historical ledger
+        run: git diff --exit-code 7262f3e34559234de636cd5351d89fc733df008d -- content .release.json docs/archive-lock.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:

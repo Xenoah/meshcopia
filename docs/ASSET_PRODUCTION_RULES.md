@@ -10,7 +10,7 @@ Every new model generation task must deliver FBX as the consumer model format,
 with only its required textures. Keep GLB for browser previews and retain
 production originals and QA separately. STL/OBJ/STEP are optional requested
 exports, not compulsory companions. A successful preview export alone is not
-completion. Preserve existing originals, URLs and explicit license/provenance.
+completion. Preserve originals, recoverable history and explicit license/provenance.
 
 Use the reviewed conversion/export recipe. Reuse already verified, unchanged
 outputs when their source and output hashes still match; do not regenerate a
@@ -26,8 +26,8 @@ Do not claim Unity/Unreal/FPS or browser FBX rendering without actual tests.
 
 New or updated model publication must have a source/version-bound verified FBX
 in the deliverable set. Historical unchanged published assets are not silently
-rejected or rewritten; their original bytes and links remain protected while
-verified alternate formats are added. Draft source-preparation stages may remain
+rejected or rewritten; their source bytes and existing Release attachments remain
+protected. Old Pages URL compatibility is not guaranteed. Draft source-preparation stages may remain
 unpublished until the complete deliverable is verified. Existing prepared models
 may reuse their hash-matched FBX and QA evidence.
 
@@ -79,7 +79,9 @@ identity/hash binding have been verified.
 Never overwrite an existing versioned public ZIP, release or locked archive hash.
 Publish simplified packages under a new package revision and switch ordinary UI
 links only after actual successful CI, anonymous byte readback and browser checks.
-Keep protected historical links working. A model page should present one clear
+Do not overwrite or delete existing Release attachments. Retire duplicate Pages
+full/models ZIP output and remove its UI/API links; old Pages URLs may return 404.
+Retain production sources, Git history and the historical hash ledger. A model page should present one clear
 ordinary ZIP plus appropriate self-contained format downloads, without competing
 “full” and “models-only” choices. Release-hosted ZIPs must not be mistaken for
 Pages-local paths. Stay within the Pages size budget.
@@ -99,7 +101,9 @@ transport failed browser fetch and is not used. Missing/changed chunks fail the
 whole bundle; cancellation and retry preserve selection.
 
 This candidate must not deploy until the complete built site passes 950,000,000
-bytes (operational) and 1,000,000,000 bytes (hard ceiling). Existing URLs are not
-removed to make space. If the budget fails, use a separately reviewed immutable
-CORS-capable payload host and verify it before activation. No host is invented
-or published by this change. See MINIMAL_DOWNLOADS.md and FBX_DISTRIBUTION_REVIEW.md.
+bytes (operational) and 1,000,000,000 bytes (hard ceiling). The authorized migration
+removes legacy full/models ZIP copies from Pages; it does not delete production
+originals or existing Releases. API v3 exposes model delivery or texture minimal
+downloads only, and current UI/API must not reference retired ZIPs. No separate
+distribution repository/host is created. If capacity fails, stop publication and
+report the actual full-build size. See MINIMAL_DOWNLOADS.md and FBX_DISTRIBUTION_REVIEW.md.
