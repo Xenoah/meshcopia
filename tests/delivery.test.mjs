@@ -15,7 +15,7 @@ test('ordinary/direct/batch use the FBX inventory and exact byte size; previews 
  const plan=planBundle([a,b]);assert.deepEqual(plan.entries.map(x=>x.name),['chair/chair.fbx','table/table.fbx','LICENSE.txt']);
  const zip=await buildBundle(plan,{cryptoImpl:webcrypto,fetchImpl:async(url,options)=>{
   assert.match(url,/^https:\/\/xenoah.github.io\/meshcopia\/download-data\/[a-f0-9]{64}\.(json|gz)$/);
-  assert.equal(options.credentials,'omit');return fixtureFetch()(url);
+  assert.equal(options.credentials,'omit');assert.equal(options.cache,'no-cache');return fixtureFetch()(url);
  }});
  assert.equal(zip.size,bundleSizeSummary([a,b]).zipBytes);
  const check=spawnSync('python3',['-c',"import io,sys,zipfile;z=zipfile.ZipFile(io.BytesIO(sys.stdin.buffer.read()));assert z.testzip() is None;assert set(z.namelist())=={'chair/chair.fbx','table/table.fbx','LICENSE.txt'};assert z.read('chair/chair.fbx')==b'model';assert b'table by Fixture' in z.read('LICENSE.txt')"],{input:Buffer.from(await zip.arrayBuffer())});

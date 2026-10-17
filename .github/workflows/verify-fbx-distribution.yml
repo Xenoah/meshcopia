@@ -26,6 +26,8 @@ jobs:
       - name: Verify existing immutable FBX release and retain exact payloads
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - run: npm run check
+      - name: Verify missing FBX and interrupted retry with local synthetic data
+        run: node tests/delivery-browser-fixture.mjs
       - name: Verify real ordinary and selected ZIPs, size, cancel, retry and navigation
         run: node scripts/test-minimal-downloads-browser.mjs
       - name: Verify every FBX link, anonymous downloads, mobile and no-JS

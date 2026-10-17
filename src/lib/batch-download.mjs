@@ -98,7 +98,7 @@ async function readBounded(stream,length,signal,onProgress=()=>{}){
  finally{await reader.cancel().catch(()=>{});reader.releaseLock();}
 }
 async function fetchBytes(url,length,{signal,fetchImpl,onProgress}){
- let response;try{response=await fetchImpl(url,{signal,mode:'cors',credentials:'omit',cache:'force-cache',redirect:'error',referrerPolicy:'no-referrer'});}catch(e){if(signal?.aborted)throw e;fail('network');}
+ let response;try{response=await fetchImpl(url,{signal,mode:'cors',credentials:'omit',cache:'no-cache',redirect:'error',referrerPolicy:'no-referrer'});}catch(e){if(signal?.aborted)throw e;fail('network');}
  if(!response.ok||response.type==='opaque'||!response.body)fail('network');
  return readBounded(response.body,length,signal,onProgress);
 }

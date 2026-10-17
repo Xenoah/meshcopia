@@ -33,11 +33,11 @@ test('ordinary activation retains the strict schema and production validation ho
   assert.match(generate,/prepareFbxMinimalDownloads/);assert.doesNotMatch(generate,/prepareSidecars|alternate-formats/);
   const detail=await readFile(new URL('../src/pages/assets/[id].astro',import.meta.url),'utf8');assert.match(detail,/fbx-download/);assert.doesNotMatch(detail,/alternate-formats/);
 });
-test('live browser proof selects raw GLB by exact asset ID regardless of catalog order',async()=>{
+test('live browser entrypoint delegates to the non-injected post-deployment gate',async()=>{
   const source=await readFile(new URL('./live-browser-proof.mjs',import.meta.url),'utf8');
-  assert.match(source,/expectedIds\.every/);assert.match(source,/assets\.length!==expectedIds\.length/);
-  assert.ok(source.includes("const chair=assets.find(a=>a.id==='studio-chair')"));assert.doesNotMatch(source,/assets\[0\]/);
-  assert.match(source,/fetch\(rawURL,\{mode:'cors'\}\)/);assert.match(source,/rawHash!==raw\.sha256/);
+  assert.match(source,/process.argv.push\('--live'\)/);
+  assert.match(source,/test-minimal-downloads-browser.mjs/);
+  assert.doesNotMatch(source,/createObjectURL|downloads.minimal=/);
 });
 test('full-P verification workflow has read-only permissions and no publication actions',async()=>{
   const workflow=await readFile(new URL('../.github/workflows/verify-minimal-ui.yml',import.meta.url),'utf8');
