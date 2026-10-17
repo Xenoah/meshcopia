@@ -168,5 +168,7 @@ def main():
 if __name__ == '__main__':
     try: main()
     except Exception as error:
-        print('COHORT_VERIFY_STOP: ' + (str(error) if isinstance(error, ValueError) else type(error).__name__ + ': ' + str(error)[:300]), file=sys.stderr)
+        message = 'COHORT_VERIFY_STOP: ' + (str(error) if isinstance(error, ValueError) else type(error).__name__ + ': ' + str(error)[:300])
+        print(message, file=sys.stderr)
+        print('::error title=COHORT_VERIFY_STOP::' + message.replace('%', '%25').replace('\n', ' ')[:500], flush=True)
         raise SystemExit(1)

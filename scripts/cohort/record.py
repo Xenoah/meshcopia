@@ -25,6 +25,9 @@ def main():
     for key in ('GITHUB_RUN_ID', 'GITHUB_RUN_ATTEMPT', 'PAYLOAD_ID', 'QA_ID'):
         need(re.fullmatch(r'[1-9][0-9]*', os.environ.get(key, '')), 'Missing identity ' + key)
     for key in ('PAYLOAD_DIGEST', 'QA_DIGEST'):
+        # upload-artifact reports the bare SHA-256; the REST API reports `sha256:<hex>`.
+        value = os.environ.get(key, '')
+        if re.fullmatch(r'[0-9a-f]{64}', value): os.environ[key] = 'sha256:' + value
         need(re.fullmatch(r'sha256:[0-9a-f]{64}', os.environ.get(key, '')), 'Missing digest ' + key)
     inventory_bytes = packages.regular_file(payload / 'cohort-inventory.json').read_bytes(); inventory = json.loads(inventory_bytes)
     need(inventory['cohort'] == cohort and inventory['fCommit'] == os.environ['GITHUB_SHA'] and inventory['runId'] == os.environ['GITHUB_RUN_ID'] and inventory['runAttempt'] == os.environ['GITHUB_RUN_ATTEMPT'], 'Inventory identity differs')
@@ -54,4 +57,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try: main()
+    except Exception as error:
+        message = str(error) if isinstance(error, ValueError) else type(error).__name__
+        print('::error title=COHORT_RECORD_STOP::' + message.replace('%', '%25').replace('\n', ' ')[:500])
+        raise SystemExit(1)
