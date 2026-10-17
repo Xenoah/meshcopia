@@ -1,0 +1,62 @@
+{
+  "id": "city-guillotine-paper-cutter",
+  "type": "model",
+  "title": "レバー式ペーパーカッター",
+  "titleEn": "Guillotine paper cutter",
+  "description": "役所・図書館の作業台やコピー室に置くレバー式裁断器の静的外観。脚付きテーブル、数字のない位置合わせ線、後端フェンス、固定位置の可動ストッパーとロックつまみ、上げた刃・握り・軸、隙間を持つ固定ガードと下面補強を造形。目盛りの精度や実際の裁断・ガード動作はなく、刃は表示用の厚みを持つ形状です。安全性・切断性能や認証は示しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.559 × 0.522 × 0.739 m、6,616三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A static lever paper-cutter prop for public-office, library and copy-room worktops. Includes a footed table, unnumbered alignment lines, rear fence, fixed-position adjustable stop/lock knob, raised blade/handle/pivot, open fixed guard and underside stiffeners. Alignment marks are not calibrated; cutting and guard operation are absent, and the blade has deliberately finite visual thickness. No safety, cutting-performance or certification claims. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.559 × 0.522 × 0.739 m; 6,616 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "office",
+    "paper-cutter",
+    "guillotine",
+    "document",
+    "ペーパーカッター"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-guillotine-paper-cutter.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6616,
+  "dimensions": [
+    0.5595,
+    0.522411,
+    0.739175
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+    "sourceSha256": "520937d7d23c673e9c79781c94cdcf297e25538eba1da5e4dc19fc5fef4819e4",
+    "sourceRecipeSha256": "0978bf11778e94ce68db1670bff6931124949e40e9cbf48ee5595e0f03ef323b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "94f478ee2aa0abdc51dda96d02c92d87af724e959d72bddf27bc603bc4313a83"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+        "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-guillotine-paper-cutter"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "city-rowing-ergometer",
+  "type": "model",
+  "title": "ローイングエルゴメーター",
+  "titleEn": "Rowing ergometer",
+  "description": "体育施設やジムの内装向けのローイング器具。長いシートレールと固定したローラー台、ファン形の外装・開いた格子、角度付き足台と固定ストラップ、保管位置の引き棒・コード、無表示モニターを造形。ファン内部の駆動、座面移動、引き動作や負荷・運動計測は含みません。安全・身体適合性や実機性能は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.770 × 1.132 × 2.275 m、21,472三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A rowing-machine prop for sports-center and gym interiors, with long seat rail and fixed roller carriage, fan-shaped housing and open grille, angled foot cradles with fixed straps, parked pull handle/cord and inactive monitor. Internal fan drive, seat travel, rowing motion, resistance and exercise measurement are absent. Safety, body fit and equipment performance are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.770 × 1.132 × 2.275 m; 21,472 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "fitness",
+    "rowing",
+    "ergometer",
+    "gym",
+    "ローイング"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-rowing-ergometer.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 21472,
+  "dimensions": [
+    0.77,
+    1.132005,
+    2.275
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+    "sourceSha256": "cae9ae0c8f2c03d82fa21bce5b68f45b168ba01b4bd84a25991b7d105817edbe",
+    "sourceRecipeSha256": "f5ec8bd1abb18c066b3e4a1539d9b893bccbbca556b025512415f8f7eb8e6bae",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "1d62fb08daba584982157076156ddaeb69d0a38ca498a6b30169d58af3fd289d"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+        "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-rowing-ergometer"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "city-document-shredder",
+  "type": "model",
+  "title": "事務用シュレッダー",
+  "titleEn": "Office document shredder",
+  "description": "事務室・公共窓口のバックヤード向けのシュレッダー外観。分かれた傾斜給紙面と実開口の投入口、固定給紙ローラー、独立した裁断ヘッド外装、取っ手付きの開放上面回収箱と実開口の確認窓、支持枠・キャスター・背面接続口を造形。窓ガラス、裁断歯、紙片は付属せず、箱・ローラーは固定されています。給紙・裁断・電気動作や安全・情報破棄性能の検証、認証はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.370 × 0.565 × 0.345 m、9,516三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A document-shredder exterior for office and civic-service back rooms. Features split sloping feed surfaces around a genuine inlet, fixed feed rollers, a separate cutter-head exterior, open-topped removable-bin form with pull and real sight opening, support frame, casters and rear connection. Window glazing, cutting teeth and paper scraps are not included; bin and rollers remain fixed. No feeding, shredding or electrical behavior, safety/data-destruction validation or certification. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.370 × 0.565 × 0.345 m; 9,516 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "office",
+    "shredder",
+    "document",
+    "public-facility",
+    "シュレッダー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-document-shredder.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9516,
+  "dimensions": [
+    0.37,
+    0.5645,
+    0.345
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+    "sourceSha256": "ad15ce04e62022c3b4a41f1242fec55ca36b88f0cd7848a2bfc39c0da10052a4",
+    "sourceRecipeSha256": "0978bf11778e94ce68db1670bff6931124949e40e9cbf48ee5595e0f03ef323b",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ad286bd64d3a200ec1a40a039fa6e479ddf9e5ca4ba325ec3c7f1d4ad9e7480f"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+        "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-document-shredder"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

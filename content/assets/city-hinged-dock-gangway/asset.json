@@ -1,0 +1,61 @@
+{
+  "id": "city-hinged-dock-gangway",
+  "type": "model",
+  "title": "ヒンジ付き桟橋渡り通路",
+  "titleEn": "Hinged dock gangway",
+  "description": "岸から浮桟橋への渡り通路を固定した傾斜姿勢で表現した一式。実際に隙間のある細幅の床板、傾斜側桁と横桁、つま先縁、二段の手すりと支持金具、穴付き岸側取付板と分割ヒンジ筒・通しピン、下端の一対の支持ローラーを備えます。岸や桟橋は含みません。ヒンジ・ローラー・潮位追従は動かず、実際の通行、荷重支持、アクセシビリティ適合性や海洋環境での安全性は検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.368 × 1.886 × 3.554 m、25,692三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A shore-to-floating-dock access span in one fixed sloping pose. The assembly includes genuinely gapped narrow walking slats, sloping side stringers and transverse bearers, toe edges, two-level side rails and brackets, an apertured shore attachment plate with segmented hinge knuckles and through pin, and a pair of landing rollers beneath the low end. No shore or dock is included. The hinge, rollers and tide response do not operate. Passage, loading, accessibility compliance and marine safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.368 × 1.886 × 3.554 m; 25,692 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "waterfront",
+    "gangway",
+    "dock-access",
+    "渡り通路"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-hinged-dock-gangway.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 25692,
+  "dimensions": [
+    1.3681,
+    1.8858,
+    3.554019
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+    "sourceSha256": "de876681093400fea90cab888a41c0082e8bc563a9567f944ed9e4090f7d1ee8",
+    "sourceRecipeSha256": "e1cd73df7051d054e60a033af567ab8f833e52d93109a814bf5b8e920abb0f16",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "aacecdf2e1c0160b08431ce7bbb1d2c6429efa7788f84aae1760810575ccbb11"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+        "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-hinged-dock-gangway"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

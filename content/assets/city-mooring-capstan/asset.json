@@ -1,0 +1,61 @@
+{
+  "id": "city-mooring-capstan",
+  "type": "model",
+  "title": "縦ドラム式係船キャプスタン",
+  "titleEn": "Mooring capstan",
+  "description": "運河の船着場やマリーナの設備として配置する縦ドラム式キャプスタンの外観一式。上下フランジとくびれを持つ連続した金属ドラム、上蓋、減速機外装、後方のフィン付きモーターと端子箱、配線外形、支持柱付き無表示操作箱、実取付穴のある共通ベースと固定金具を備えます。索や船は含まず、ドラム回転・巻取り・電装・制御は動作しません。係留能力、荷重、巻込み防止、耐食性や安全性を検証していない静的外観モデルです。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.893 × 0.929 × 1.170 m、17,516三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A vertical-drum capstan appearance assembly for canal landing stages and marina equipment areas. It has a continuous metal drum with upper/lower flanges and a concave waist, upper cover, reduction-gear housing, rear finned motor and terminal box, cable exterior, bracketed inactive control enclosure, and a shared base with genuine anchor apertures and mounting hardware. No line or vessel is included. Drum rotation, hauling, electrics and controls are nonfunctional. Mooring capacity, loading, entanglement protection, corrosion resistance and safety are unvalidated; this is static appearance geometry. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.893 × 0.929 × 1.170 m; 17,516 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "waterfront",
+    "capstan",
+    "mooring",
+    "係船機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-mooring-capstan.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 17516,
+  "dimensions": [
+    0.8935,
+    0.9295,
+    1.17
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+    "sourceSha256": "e90b8fc7c9ceb0db89f9e5a7815ef028a1dec12d56694015f82aeb921210f16e",
+    "sourceRecipeSha256": "e1cd73df7051d054e60a033af567ab8f833e52d93109a814bf5b8e920abb0f16",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "223e61789be1d796e72e6ff61510ad9eb75852413db1175db114086daee9c025"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+        "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-mooring-capstan"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

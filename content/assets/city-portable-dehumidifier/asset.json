@@ -1,0 +1,62 @@
+{
+  "id": "city-portable-dehumidifier",
+  "type": "model",
+  "title": "水タンク付き室内用移動式除湿機",
+  "titleEn": "Portable indoor dehumidifier with water tank",
+  "description": "住宅・管理室・収納室の床に配置する室内用除湿機の外観。背面吸込みルーバーと上面吹出口の実際の隙間、奥の簡略化した交換器板、少し引き出した固定姿勢の空の水タンクと取手、開いた排水口、持運びハンドル、四個のキャスター、背面収納コードを造形。屋外室外機や単体の送風機ではなく、タンク回収式の室内備品として区別します。除湿・通水・冷媒・電装・移動・タンク操作は実装していません。能力・防水性・電気安全性・認証は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.340 × 0.700 × 0.414 m、11,600三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An indoor moisture-removal appearance prop for floors in homes, facility rooms and storage interiors. Genuine gaps in the rear intake and top outlet reveal recessed simplified exchanger plates. An empty removable-looking water tank is fixed slightly withdrawn, with a real pull handle, open drain outlet, raised carry handle, four casters and parked rear cord. The tank-collection indoor appliance is distinct from an outdoor condenser or standalone blower. Dehumidification, plumbing, refrigerant, electrical operation, rolling and tank movement are not implemented. Capacity, water resistance, electrical safety and certification are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.340 × 0.700 × 0.414 m; 11,600 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "interior",
+    "dehumidifier",
+    "appliance",
+    "water-tank",
+    "除湿機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-portable-dehumidifier.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 11600,
+  "dimensions": [
+    0.34,
+    0.6995,
+    0.4145
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+    "sourceSha256": "da19b296e348399dd76418df75c1f9086722c8838ea53653e236cc93d2d45650",
+    "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "7dd207307aa9600c73058eb8acf3b4b1d3c39c898fdc2fc5552a747450cc2980"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+        "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-portable-dehumidifier"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

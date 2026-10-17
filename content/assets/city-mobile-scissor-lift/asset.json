@@ -1,0 +1,62 @@
+{
+  "id": "city-mobile-scissor-lift",
+  "type": "model",
+  "title": "移動式シザーリフト",
+  "titleEn": "Mobile scissor lift",
+  "description": "屋内の天井設備保守や街の施設整備シーンに置く小型の移動式シザーリフト。四輪の低床車体、車軸、側面点検パネル、二段・左右一対の交差リンク、段間軸、中央ピン、スライドレールとローラー、斜めの昇降シリンダー外装を備えます。中間高さで固定した作業床にはつま先板、開放された手すり、後部の独立した閉扉ゲートとラッチ、乗降はしご、操作箱とケーブルを造形しています。上昇姿勢のため後部車体はしごとゲートの間には高さの差があります。建物固定式昇降機とは異なる移動車両の一式で一モデル。人物、走行・昇降・油圧動作、可動リグ、電気内部、荷重・実機性能・安全性の検証は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.978 × 2.895 × 1.991 m、42,096三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact mobile scissor lift for indoor overhead-maintenance and civic-facility scenes. The low four-wheel chassis includes axles and side service panels. Two stacked scissor stages on paired sides have separate crossing links, inter-stage shafts, center pins, sliding rails and rollers, and an angled exterior lifting cylinder. A platform fixed at an intermediate height includes toe boards, open guardrails, a distinct closed rear entry gate with latch, access ladder, control box and cable. The rear chassis ladder remains below the gate in this raised display pose. This is one complete mobile vehicle, distinct from a building-fixed lift. No people, driving, elevation or hydraulic behavior, articulation rig, internal electrics, load, real-machine performance or safety validation is included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.978 × 2.895 × 1.991 m; 42,096 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "utility-vehicle",
+    "scissor-lift",
+    "mobile-platform",
+    "maintenance",
+    "シザーリフト"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-mobile-scissor-lift.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 42096,
+  "dimensions": [
+    0.97828,
+    2.89509,
+    1.99125
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+    "sourceSha256": "14254b7ae08b3ee38a8334ad200927a50de22265b1e912864a5446bf36e23f30",
+    "sourceRecipeSha256": "afbd6e230a63101be8aa6cddaa2a70c537969f65b878289522daa8785e81bdf3",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "09d488928be9c74106f3730dd5d7945c043f2577cea900b9f993548970932f18"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+        "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-mobile-scissor-lift"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

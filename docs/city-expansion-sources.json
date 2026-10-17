@@ -600,6 +600,270 @@
       "recipe": "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
       "sourceRecipeSha256": "77ba11ff55e9a4382a8a26f5a524c23f813dd17155ba541f3628daa10a650169",
       "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-fitness-treadmill",
+      "recipe": "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+      "sourceRecipeSha256": "f5ec8bd1abb18c066b3e4a1539d9b893bccbbca556b025512415f8f7eb8e6bae",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-lat-pulldown-station",
+      "recipe": "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+      "sourceRecipeSha256": "f5ec8bd1abb18c066b3e4a1539d9b893bccbbca556b025512415f8f7eb8e6bae",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-rowing-ergometer",
+      "recipe": "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+      "sourceRecipeSha256": "f5ec8bd1abb18c066b3e4a1539d9b893bccbbca556b025512415f8f7eb8e6bae",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-stationary-exercise-bike",
+      "recipe": "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+      "sourceRecipeSha256": "f5ec8bd1abb18c066b3e4a1539d9b893bccbbca556b025512415f8f7eb8e6bae",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-double-wheel-bench-grinder",
+      "recipe": "scripts/city_expansion/frozen/batch-027/scripts/city_expansion/workshop_machines.py",
+      "sourceRecipeSha256": "4a468bb111b2c6384b46c7cbedd3be9072f93cd179466bef1ab68e53a3fd36dd",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-floor-drill-press",
+      "recipe": "scripts/city_expansion/frozen/batch-027/scripts/city_expansion/workshop_machines.py",
+      "sourceRecipeSha256": "4a468bb111b2c6384b46c7cbedd3be9072f93cd179466bef1ab68e53a3fd36dd",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-vertical-band-saw",
+      "recipe": "scripts/city_expansion/frozen/batch-027/scripts/city_expansion/workshop_machines.py",
+      "sourceRecipeSha256": "4a468bb111b2c6384b46c7cbedd3be9072f93cd179466bef1ab68e53a3fd36dd",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-welding-machine-cart",
+      "recipe": "scripts/city_expansion/frozen/batch-027/scripts/city_expansion/workshop_machines.py",
+      "sourceRecipeSha256": "4a468bb111b2c6384b46c7cbedd3be9072f93cd179466bef1ab68e53a3fd36dd",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-bypass-pruning-shears",
+      "recipe": "scripts/city_expansion/frozen/batch-028/scripts/city_expansion/park_hand_tools.py",
+      "sourceRecipeSha256": "884ba16c3d32bda723eb7a355fb4ae3cb6cfcd0e413cf6eaa87cbb5faa24acb5",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-fan-leaf-rake",
+      "recipe": "scripts/city_expansion/frozen/batch-028/scripts/city_expansion/park_hand_tools.py",
+      "sourceRecipeSha256": "884ba16c3d32bda723eb7a355fb4ae3cb6cfcd0e413cf6eaa87cbb5faa24acb5",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-garden-digging-spade",
+      "recipe": "scripts/city_expansion/frozen/batch-028/scripts/city_expansion/park_hand_tools.py",
+      "sourceRecipeSha256": "884ba16c3d32bda723eb7a355fb4ae3cb6cfcd0e413cf6eaa87cbb5faa24acb5",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-garden-watering-can",
+      "recipe": "scripts/city_expansion/frozen/batch-028/scripts/city_expansion/park_hand_tools.py",
+      "sourceRecipeSha256": "884ba16c3d32bda723eb7a355fb4ae3cb6cfcd0e413cf6eaa87cbb5faa24acb5",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-bench-sewing-machine",
+      "recipe": "scripts/city_expansion/frozen/batch-029/scripts/city_expansion/textile_care_equipment.py",
+      "sourceRecipeSha256": "b2060f5541b6cb3f360b4589b5565885c190e8bc39f233b784d2320f300d0bbf",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-folding-ironing-board",
+      "recipe": "scripts/city_expansion/frozen/batch-029/scripts/city_expansion/textile_care_equipment.py",
+      "sourceRecipeSha256": "b2060f5541b6cb3f360b4589b5565885c190e8bc39f233b784d2320f300d0bbf",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-front-loading-washing-machine",
+      "recipe": "scripts/city_expansion/frozen/batch-029/scripts/city_expansion/textile_care_equipment.py",
+      "sourceRecipeSha256": "b2060f5541b6cb3f360b4589b5565885c190e8bc39f233b784d2320f300d0bbf",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-linen-hamper-trolley",
+      "recipe": "scripts/city_expansion/frozen/batch-029/scripts/city_expansion/textile_care_equipment.py",
+      "sourceRecipeSha256": "b2060f5541b6cb3f360b4589b5565885c190e8bc39f233b784d2320f300d0bbf",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-desktop-document-laminator",
+      "recipe": "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+      "sourceRecipeSha256": "0978bf11778e94ce68db1670bff6931124949e40e9cbf48ee5595e0f03ef323b",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-document-shredder",
+      "recipe": "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+      "sourceRecipeSha256": "0978bf11778e94ce68db1670bff6931124949e40e9cbf48ee5595e0f03ef323b",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-guillotine-paper-cutter",
+      "recipe": "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+      "sourceRecipeSha256": "0978bf11778e94ce68db1670bff6931124949e40e9cbf48ee5595e0f03ef323b",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-office-multifunction-copier",
+      "recipe": "scripts/city_expansion/frozen/batch-030/scripts/city_expansion/document_service_equipment.py",
+      "sourceRecipeSha256": "0978bf11778e94ce68db1670bff6931124949e40e9cbf48ee5595e0f03ef323b",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-dock-mooring-cleat",
+      "recipe": "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+      "sourceRecipeSha256": "e1cd73df7051d054e60a033af567ab8f833e52d93109a814bf5b8e920abb0f16",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-floating-dock-section",
+      "recipe": "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+      "sourceRecipeSha256": "e1cd73df7051d054e60a033af567ab8f833e52d93109a814bf5b8e920abb0f16",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-hinged-dock-gangway",
+      "recipe": "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+      "sourceRecipeSha256": "e1cd73df7051d054e60a033af567ab8f833e52d93109a814bf5b8e920abb0f16",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-mooring-capstan",
+      "recipe": "scripts/city_expansion/frozen/batch-031/scripts/city_expansion/waterfront_dock_equipment.py",
+      "sourceRecipeSha256": "e1cd73df7051d054e60a033af567ab8f833e52d93109a814bf5b8e920abb0f16",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-adjustable-wrench",
+      "recipe": "scripts/city_expansion/frozen/batch-032/scripts/city_expansion/workshop_hand_tools.py",
+      "sourceRecipeSha256": "c3683a84fbea9c5ea5f10b9ea1a0e5ccbdf3023d7734835dcfb74ac8f927ef68",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-cartridge-caulking-gun",
+      "recipe": "scripts/city_expansion/frozen/batch-032/scripts/city_expansion/workshop_hand_tools.py",
+      "sourceRecipeSha256": "c3683a84fbea9c5ea5f10b9ea1a0e5ccbdf3023d7734835dcfb74ac8f927ef68",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-claw-hammer",
+      "recipe": "scripts/city_expansion/frozen/batch-032/scripts/city_expansion/workshop_hand_tools.py",
+      "sourceRecipeSha256": "c3683a84fbea9c5ea5f10b9ea1a0e5ccbdf3023d7734835dcfb74ac8f927ef68",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-frame-hacksaw",
+      "recipe": "scripts/city_expansion/frozen/batch-032/scripts/city_expansion/workshop_hand_tools.py",
+      "sourceRecipeSha256": "c3683a84fbea9c5ea5f10b9ea1a0e5ccbdf3023d7734835dcfb74ac8f927ef68",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-ceiling-cassette-air-conditioner",
+      "recipe": "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+      "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-overdoor-air-curtain",
+      "recipe": "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+      "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-panel-radiator",
+      "recipe": "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+      "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-portable-dehumidifier",
+      "recipe": "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+      "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-fixed-chess-table",
+      "recipe": "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+      "sourceRecipeSha256": "8a3fb128c089587856affed360102d7ce18d698d1a68671a9a9b1d2f3d584c06",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-open-dartboard-cabinet",
+      "recipe": "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+      "sourceRecipeSha256": "8a3fb128c089587856affed360102d7ce18d698d1a68671a9a9b1d2f3d584c06",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-table-football",
+      "recipe": "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+      "sourceRecipeSha256": "8a3fb128c089587856affed360102d7ce18d698d1a68671a9a9b1d2f3d584c06",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-upright-arcade-cabinet",
+      "recipe": "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+      "sourceRecipeSha256": "8a3fb128c089587856affed360102d7ce18d698d1a68671a9a9b1d2f3d584c06",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-counterbalance-forklift",
+      "recipe": "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+      "sourceRecipeSha256": "afbd6e230a63101be8aa6cddaa2a70c537969f65b878289522daa8785e81bdf3",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-mobile-scissor-lift",
+      "recipe": "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+      "sourceRecipeSha256": "afbd6e230a63101be8aa6cddaa2a70c537969f65b878289522daa8785e81bdf3",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-tandem-road-roller",
+      "recipe": "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+      "sourceRecipeSha256": "afbd6e230a63101be8aa6cddaa2a70c537969f65b878289522daa8785e81bdf3",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-tracked-mini-excavator",
+      "recipe": "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+      "sourceRecipeSha256": "afbd6e230a63101be8aa6cddaa2a70c537969f65b878289522daa8785e81bdf3",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-cordless-drill",
+      "recipe": "scripts/city_expansion/frozen/batch-036/scripts/city_expansion/portable_power_tools.py",
+      "sourceRecipeSha256": "bf1f93fc524a0c2f8d49ef526a3158934b73d1ad0bd28340cd4d68c63c31e27e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-handheld-angle-grinder",
+      "recipe": "scripts/city_expansion/frozen/batch-036/scripts/city_expansion/portable_power_tools.py",
+      "sourceRecipeSha256": "bf1f93fc524a0c2f8d49ef526a3158934b73d1ad0bd28340cd4d68c63c31e27e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-handheld-circular-saw",
+      "recipe": "scripts/city_expansion/frozen/batch-036/scripts/city_expansion/portable_power_tools.py",
+      "sourceRecipeSha256": "bf1f93fc524a0c2f8d49ef526a3158934b73d1ad0bd28340cd4d68c63c31e27e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-reciprocating-saw",
+      "recipe": "scripts/city_expansion/frozen/batch-036/scripts/city_expansion/portable_power_tools.py",
+      "sourceRecipeSha256": "bf1f93fc524a0c2f8d49ef526a3158934b73d1ad0bd28340cd4d68c63c31e27e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
     }
   ]
 }

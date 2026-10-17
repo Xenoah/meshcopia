@@ -1,0 +1,61 @@
+{
+  "id": "city-table-football",
+  "type": "model",
+  "title": "テーブルサッカー台",
+  "titleEn": "Table football game",
+  "description": "交流室・宿泊施設の遊戯コーナー向けのテーブルサッカー台。凹んだ競技面と立体ライン、八本のロッド、固定した22人の選手、両端の実開口ゴールと受け皿、スコア用ビーズ、傾斜脚と調整足の外観を造形。選手・ボール・操作棒は台に含む一式で1点です。回転・スライド・得点処理・物理動作は未実装で、競技規格・実用品安全性は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.192 × 0.907 × 1.633 m、38,324三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A table-football prop for community rooms and hospitality recreation corners. It includes a recessed field with modeled lines, eight rods, 22 fixed player figures, genuinely open end goals and catch trays, score beads, splayed legs and leveling-foot exteriors. Figures, ball and rods form one table assembly. Rotation, sliding, scoring and ball physics are not implemented; competitive specifications and real equipment safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.192 × 0.907 × 1.633 m; 38,324 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "community",
+    "table-football",
+    "game",
+    "テーブルサッカー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-table-football.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 38324,
+  "dimensions": [
+    1.192,
+    0.907,
+    1.63334
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+    "sourceSha256": "2c5f2609fcdc520d0a78b10930bd083e0205743a15e47c2e41883b8f11feda74",
+    "sourceRecipeSha256": "8a3fb128c089587856affed360102d7ce18d698d1a68671a9a9b1d2f3d584c06",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "1e3c3c54c156e5ec82c5f81a929731a4e66621f745360cb8632f2e73bf132847"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+        "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-table-football"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

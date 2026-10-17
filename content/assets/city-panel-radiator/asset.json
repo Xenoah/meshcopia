@@ -1,0 +1,62 @@
+{
+  "id": "city-panel-radiator",
+  "type": "model",
+  "title": "壁掛け室内パネルラジエーター",
+  "titleEn": "Wall-mounted indoor panel radiator",
+  "description": "住宅・宿泊施設・事務室の壁際に配置する室内暖房器具の外観模型。二列の縦長パネル区画、上部の実開口グリル、少数の内部対流板、左右の配管継手、無目盛りの固定サーモスタットつまみ、放気栓と実スロット付き背面壁金具を造形。屋外の冷媒用室外機やテラス用ヒーターとは用途・構造が異なります。床基準原点から壁面への取付高さと離隔を調整してください。暖房・通水・温度制御・操作機構はなく、耐圧・耐熱・取付安全性や認証を示しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.254 × 0.625 × 0.230 m、14,856三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An indoor room-heating appearance prop for walls in homes, accommodation and offices. Two rows of pressed vertical panel sections, genuinely open top grille, sparse interior convector strips, side pipe unions, fixed unmarked thermostat knob, bleed fitting and slotted rear wall brackets are modeled. Its indoor room-heating purpose and panel form differ from an outdoor refrigerant condenser or patio heater. Adjust wall installation height and stand-off from the base-centered origin. Heating, plumbing, temperature control and working mechanisms are absent; pressure, heat resistance, mounting safety and certification are not claimed. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.254 × 0.625 × 0.230 m; 14,856 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "interior",
+    "radiator",
+    "wall-mounted",
+    "heating-prop",
+    "ラジエーター"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-panel-radiator.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 14856,
+  "dimensions": [
+    1.2535,
+    0.6245,
+    0.2295
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+    "sourceSha256": "ff2f97141e27c6daeab85749cafdf5659da22fbf644c82160c02ab5c4a2f3ca9",
+    "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "d9685cbbbdc2e55a14083c6166edcf20f9a8d1cf0a51c456585b6fc7926732e2"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+        "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-panel-radiator"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

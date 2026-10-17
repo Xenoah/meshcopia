@@ -1,0 +1,61 @@
+{
+  "id": "city-handheld-circular-saw",
+  "type": "model",
+  "title": "手持ち丸のこ",
+  "titleEn": "Handheld circular saw",
+  "description": "建築保守・木工作業台向けの携帯丸のこ。実スロット付きの靴板、固定した歯付き円形刃、上部・下部ガード、横向きモーター、開いた主ハンドルと前方つまみ、支持金具と固定調整レバーを造形。刃は浅い固定姿勢で、材料や切粉はありません。既存据置タイルソーと異なる木工作業用の手持ち外形で、一式1点です。切断・回転・ガード退避・調整や実用品安全性は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.255 × 0.279 × 0.370 m、6,752三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A portable circular-saw prop for building-maintenance and woodworking benches, with genuinely slotted shoe, fixed toothed circular blade, upper/lower guard exteriors, transverse motor, open main handle and front knob, supports and static adjustment levers. The blade is in one shallow fixed pose; no workpiece or chips are included. Its handheld woodworking form differs from the existing stationary tile saw; the complete tool counts once. Cutting, rotation, guard retraction, adjustment and real equipment safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.255 × 0.279 × 0.370 m; 6,752 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "tool",
+    "circular-saw",
+    "maintenance",
+    "丸のこ"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-handheld-circular-saw.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6752,
+  "dimensions": [
+    0.255,
+    0.279414,
+    0.369849
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-036/scripts/city_expansion/portable_power_tools.py",
+    "sourceSha256": "4bcc1895ac1d321a628bf3a4df3ab1ec7ebd91742a8da88df962f1690a1d6cfa",
+    "sourceRecipeSha256": "bf1f93fc524a0c2f8d49ef526a3158934b73d1ad0bd28340cd4d68c63c31e27e",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "0ad819974b3da91ed1adbfb56f893029974abaf1f91d7e6f87da8ea06cb7b571"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-036/scripts/city_expansion/portable_power_tools.py",
+        "scripts/city_expansion/frozen/batch-036/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-handheld-circular-saw"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

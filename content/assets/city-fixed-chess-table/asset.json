@@ -1,0 +1,61 @@
+{
+  "id": "city-fixed-chess-table",
+  "type": "model",
+  "title": "対面座席付きチェステーブル",
+  "titleEn": "Fixed chess table with facing seats",
+  "description": "公園の交流スペースや集会室へ置く、二人用の対面座席と盤を一体化したテーブル。実形状の64マス、厚い天板、中央支柱、連結した脚梁、二座の木色スラットと取付金具を造形。盤・座席を含む一式を1点と数えます。駒・ルール処理・座席調整は含みません。実用品の耐荷重・安全性は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.818 × 0.784 × 0.900 m、11,900三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A two-person chess-table assembly for park social areas and community rooms. The 64 individually modeled squares sit on a thick tabletop above a center pedestal and connected foot beam, with two opposing slatted seats and visible mountings. Board and seats belong to one counted assembly. Pieces, game logic and seat adjustment are absent. Real load capacity and safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.818 × 0.784 × 0.900 m; 11,900 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "community",
+    "chess",
+    "table",
+    "チェス"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-fixed-chess-table.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 11900,
+  "dimensions": [
+    1.818,
+    0.784,
+    0.9
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+    "sourceSha256": "498bf6711290dfb30aba3efaa1341828c5a72240ff7dda1f367d7bfdf1093eaa",
+    "sourceRecipeSha256": "8a3fb128c089587856affed360102d7ce18d698d1a68671a9a9b1d2f3d584c06",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "9307b6a3d10cc558c5cf3ee232c67f3a3402396d7d048fcd64f6676217bc0ac0"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/community_game_furnishings.py",
+        "scripts/city_expansion/frozen/batch-034/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-fixed-chess-table"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

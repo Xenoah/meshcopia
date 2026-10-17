@@ -1,0 +1,62 @@
+{
+  "id": "city-ceiling-cassette-air-conditioner",
+  "type": "model",
+  "title": "四方向吹出し天井カセット型室内機",
+  "titleEn": "Four-way ceiling-cassette indoor air conditioner",
+  "description": "事務室・店舗・公共施設の天井へ配置する角形カセット室内機の外観。中央の実開口吸込み格子、奥の固定インペラー表現、四辺に独立した吹出し空間と固定方向板、上部点検筐体、実スロット付き吊金具、閉じた接続キャップと開いた排水ソケットを造形。室内天井側の一体機器で、既存の屋外冷媒凝縮器や受動換気口・ダクトとは異なります。最下面Y=0の原点から天井高さへ移動し、上部筐体は天井裏へ納める想定です。冷暖房・冷媒・通水・電装・空気流・可動部は実装せず、機器性能・吊下げ安全性・認証は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.842 × 0.357 × 0.842 m、10,012三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A square indoor cassette appearance unit for office, shop and civic-building ceilings. It models a genuinely open central return grille with recessed fixed impeller representation, four separate perimeter discharge spaces and fixed direction vanes, upper service housing, slotted suspension brackets, capped connection fittings and open condensate socket. The complete room-side ceiling appliance is distinct from the existing outdoor refrigerant condenser, passive vents and duct modules. Move the lowest-face Y=0 origin to the ceiling height, with the upper housing above the ceiling plane. Heating/cooling, refrigerant, plumbing, electrical operation, airflow and moving parts are absent; equipment performance, suspension safety and certification are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.842 × 0.357 × 0.842 m; 10,012 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "interior",
+    "ceiling",
+    "air-conditioner",
+    "cassette",
+    "天井カセット"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-ceiling-cassette-air-conditioner.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 10012,
+  "dimensions": [
+    0.842,
+    0.357,
+    0.842
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+    "sourceSha256": "1347d92c613c0f1f7139ef87b86952859e1d15681fd17aab53af8777df9450c7",
+    "sourceRecipeSha256": "a7a8d560a6c08cecfd0f4e2fab688cb30ccc269ffbbd1bfd87ed593322a68300",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "2cda7a24e1fa44a66a0159e31b4fa8d401770fe26b09538c3c6325bbc1fad3c3"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/indoor_climate_fixtures.py",
+        "scripts/city_expansion/frozen/batch-033/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-ceiling-cassette-air-conditioner"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

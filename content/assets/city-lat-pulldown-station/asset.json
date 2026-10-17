@@ -1,0 +1,62 @@
+{
+  "id": "city-lat-pulldown-station",
+  "type": "model",
+  "title": "ラットプルダウン用ウェイト器具",
+  "titleEn": "Lat pulldown weight station",
+  "description": "体育施設やジム内装向けの固定ウェイト器具。支柱・支持脚、十三枚の固定ウェイト板、ガイド棒、選択ピン外装、背面保護板、滑車と固定ケーブル、広い引き棒、座面・腿当てを造形。ウェイトやケーブルは動かず、実際の負荷や運動方法を示すものではありません。安全・身体適合性・耐荷重や実機性能は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.138 × 2.205 × 1.160 m、12,052三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A fixed-weight station prop for civic sports facilities and gyms, with frame/feet, thirteen static plates, guide rods, selector-pin exterior, rear guard, pulleys/fixed cable, wide pulldown bar, seat and thigh pads. Weights and cable do not move, and no actual resistance values or exercise instructions are supplied. Safety, body fit, load capacity and equipment performance are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.138 × 2.205 × 1.160 m; 12,052 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "fitness",
+    "weights",
+    "pulldown",
+    "gym",
+    "ウェイト器具"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-lat-pulldown-station.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 12052,
+  "dimensions": [
+    1.138352,
+    2.205,
+    1.16
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+    "sourceSha256": "5482c15564f197b054ed93911d0a2ed83f6cef784fb54f665f6554cbc6550b76",
+    "sourceRecipeSha256": "f5ec8bd1abb18c066b3e4a1539d9b893bccbbca556b025512415f8f7eb8e6bae",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "177f623177899e667c8e5c99e94f6039983e91f5c684653c912fc600471e56ca"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/fitness_equipment.py",
+        "scripts/city_expansion/frozen/batch-026/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-lat-pulldown-station"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

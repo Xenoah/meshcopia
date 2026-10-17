@@ -1,0 +1,61 @@
+{
+  "id": "city-adjustable-wrench",
+  "type": "model",
+  "title": "モンキーレンチ",
+  "titleEn": "Adjustable wrench",
+  "description": "公共施設の保守工具棚や整備台に置く調整式レンチ。開いた固定顎と可動顎、ラック歯と固定したウォーム状調整ねじ、柄の補強面、実際に開いた吊下げ穴を造形。目盛や締結物はなく、一つの顎開度で固定されています。調整・締付け機能や実用品の強度・精度は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.062 × 0.022 × 0.252 m、4,084三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An adjustable wrench for public-facility tool racks and maintenance benches, with separated fixed/sliding jaws, rack teeth, a fixed worm-like adjuster, raised handle rib and real hanging hole. No scale or fastener is included; the jaw remains at one opening. Adjustment, tightening, real strength and precision are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.062 × 0.022 × 0.252 m; 4,084 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "tool",
+    "wrench",
+    "maintenance",
+    "レンチ"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-adjustable-wrench.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 4084,
+  "dimensions": [
+    0.061941,
+    0.022199,
+    0.252487
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-032/scripts/city_expansion/workshop_hand_tools.py",
+    "sourceSha256": "88da8f9777d5f5ec5024f80a5ff9d97fa200f0f5d664964a6e74e426fa60c798",
+    "sourceRecipeSha256": "c3683a84fbea9c5ea5f10b9ea1a0e5ccbdf3023d7734835dcfb74ac8f927ef68",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a3a39fcc673597f76d200423f4da60ac6f5d62df9e6e2a08413be99406caa842"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-032/scripts/city_expansion/workshop_hand_tools.py",
+        "scripts/city_expansion/frozen/batch-032/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-adjustable-wrench"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

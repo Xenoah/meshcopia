@@ -1,0 +1,62 @@
+{
+  "id": "city-tracked-mini-excavator",
+  "type": "model",
+  "title": "履帯式ミニショベル",
+  "titleEn": "Tracked mini excavator",
+  "description": "街の小規模工事や整備ヤード向けの履帯式ミニショベル。左右の閉じたゴム履帯、個別の踏板、端部車輪と下部ローラー、横梁、旋回リング、後部カウンターウェイトを持つ上部車体を備えます。左の開放式運転席には乗降ステップ、座席、ペダル、操作レバーとキャノピーを設け、右寄りのブーム・アームをピン、油圧シリンダー外装、ホース、バケットリンクでつないでいます。内側が空いたバケットと四つの爪、前方の押土板を含む一体のモデル。土砂や人物、履帯駆動・旋回・掘削・油圧動作、内部機構、実機性能・安全性の検証は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.538 × 2.362 × 3.792 m、40,316三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A tracked mini excavator for small urban worksites and maintenance yards. Two closed rubber crawler belts carry individual shoes, end wheels and lower rollers around a crossmember chassis and slewing ring. The upper body has a rear counterweight and an open left operator station with entry steps, seat, pedals, joysticks and canopy. An offset boom and dipper are joined by visible pins, exterior hydraulic cylinders, hoses and bucket linkage. An open scoop with four teeth and a front dozer blade are included as one complete model. No soil, people, crawler drive, slewing, digging or hydraulic behavior, internal mechanism, real-machine performance or safety validation is included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.538 × 2.362 × 3.792 m; 40,316 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "utility-vehicle",
+    "mini-excavator",
+    "crawler",
+    "construction",
+    "ミニショベル"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-tracked-mini-excavator.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 40316,
+  "dimensions": [
+    1.538,
+    2.3625,
+    3.792087
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+    "sourceSha256": "b28e872723aeef524c28ed24d0ec5da28a2bcb9ea8b4a1d24830313109eb3dad",
+    "sourceRecipeSha256": "afbd6e230a63101be8aa6cddaa2a70c537969f65b878289522daa8785e81bdf3",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "7df5491c865f1d6a6c693c08e1a335b24c0be389992b6418b59aea7c0d14ae38"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/compact_utility_vehicles.py",
+        "scripts/city_expansion/frozen/batch-035/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-tracked-mini-excavator"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
