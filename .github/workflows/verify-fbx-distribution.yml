@@ -32,7 +32,10 @@ jobs:
         run: node scripts/test-fbx-minimal-downloads-browser.mjs
       - name: Preserve viewer and texture regressions
         run: node scripts/test-browser.mjs
-      - name: Preserve original API and enforce complete Pages capacity
+      - name: Measure complete build and enforce Pages capacity
+        run: node scripts/measure-distribution.mjs
+      - name: Preserve original API and immutable archive baseline
+        if: always()
         run: node scripts/check-fbx-minimal-baseline.mjs
       - uses: actions/upload-artifact@v4
         if: always()
