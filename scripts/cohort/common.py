@@ -56,6 +56,13 @@ def git(repo, *args):
     return subprocess.check_output(['git', '--no-replace-objects', '-c', 'safe.directory=' + str(repo), '-C', str(repo), *args], env=env)
 
 
+def is_ancestor(repo, ancestor, descendant):
+    try:
+        git(repo, 'merge-base', '--is-ancestor', ancestor, descendant); return True
+    except subprocess.CalledProcessError as exc:
+        need(exc.returncode == 1, 'Git ancestry check failed'); return False
+
+
 def tree(repo, revision):
     result = {}
     for item in git(repo, 'ls-tree', '-r', '-z', revision).split(b'\0'):

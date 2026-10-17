@@ -18,7 +18,7 @@ def stage_commits(repo, base, proofs):
     mapping = {}
     for proof in proofs:
         commit(proof['commit'])
-        need(git(repo, 'merge-base', '--is-ancestor', proof['commit'], base) == b'', 'Proof commit is not on the base history')
+        need(is_ancestor(repo, proof['commit'], base), 'Proof commit is not on the base history')
         marker = json.loads(git(repo, 'show', proof['commit'] + ':.source-stage.json'))
         need(marker.get('purpose') == 'draft-raw-source-prepublication', 'Not a source-stage marker')
         for identity in marker['ids']:

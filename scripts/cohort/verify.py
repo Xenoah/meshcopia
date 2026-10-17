@@ -28,7 +28,7 @@ def preflight(repo, name, source, expected_doc, f):
     commit(f); clean_checkout(repo)
     need(git(repo, 'rev-parse', 'HEAD').decode().strip() == f, 'Checkout is not exact F')
     base = source['baseCommit']
-    need(subprocess.run(['git', '-C', str(repo), 'merge-base', '--is-ancestor', base, f]).returncode == 0, 'Base is not an ancestor of F')
+    need(is_ancestor(repo, base, f), 'Base is not an ancestor of F')
     chain = git(repo, 'rev-list', '--first-parent', f'{base}..{f}').decode().split()
     merges = git(repo, 'rev-list', '--merges', f'{base}..{f}').decode().split()
     need(chain and not merges, 'F must be a linear additive history over the base')
