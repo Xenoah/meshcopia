@@ -41,9 +41,12 @@ ZIPの互換維持を終了します。mainへのマージ・Pages公開・既�
 | --- | ---: | --- |
 | 現行main `7262f3e` | 939,340,180 | [実ビルドbaseline](https://github.com/Xenoah/meshcopia/actions/runs/39041621871/job/117422108922) |
 | 旧URL維持の前回FBX候補 `750764e` | 1,079,586,102 | [前回検証](https://github.com/Xenoah/meshcopia/actions/runs/39042655699/job/117425440168) |
-| 今回の移行候補 | CIで計測して追記 | `measure-distribution.mjs` |
+| 今回の移行候補 `8f773db` | **546,137,684** | [今回の成功CI](https://github.com/Xenoah/meshcopia/actions/runs/39080072245/job/117535046170) |
 
-950,000,000 bytesの運用ゲートと1,000,000,000 bytesの上限は維持しています。
+全体ファイル数は1,862。現行mainから **393,202,496 bytes（41.86%）削減**、
+前回FBX候補から **533,448,418 bytes（49.41%）削減**。
+950,000,000 bytesの運用上限まで **403,862,316 bytes** の余裕があります。
+950,000,000 bytesの運用ゲートと1,000,000,000 bytesの上限を両方通過しました。
 旧310 ZIPの除外量は固定台帳から算出した値であり、新しい全体distの実測値の
 代用にはしません。`check-dist` と後続の移行検査も容量上限を検証します。
 
@@ -61,8 +64,31 @@ FBX単体の総量は599,103,132 bytes、通常FBX ZIP総量は572,507,759 bytes
 404後の再試行、戻る、選択解除、モバイル/no-JS、既存ビューアを検証します。
 サイトReleaseのローカル生成も確認しますが、公開アクションはありません。
 
-この移行の最終CI結果・実測容量は検証終了後に追記します。前回CIの成功した
-機能試験を、今回のコードの検証結果として使い回しません。
+実装コミット **`8f773db14d115db2c323504d26975e24be45f425`** の
+[run39080072245 / job117535046170](https://github.com/Xenoah/meshcopia/actions/runs/39080072245/job/117535046170)
+が **success**。前回の試験結果を流用せず、次を今回のコードで実行しました。
+
+- 固定Node22.23.3で **180/180テスト**、必須prep、`npm run check` が成功。
+  クラウド環境でも同じ固定Nodeで180テストとdesktop/mobileのローカルfixtureが成功。
+- **173公開素材、344原本ファイルのハッシュ、6,785現行内部リンク**を検証。
+  既存minimal Release173 ZIPの実バイト検証も継続していますが、モデルの旧
+  minimal URLは現行APIに露出しません。全137 FBXを生成chunkから復元・照合。
+- **旧310 ZIPの出力0件・参照0件**。旧URLの代表3件は候補のブラウザー取得で404。
+  ソース原本・公開要求・310件の歴史台帳にmainとの差分がないことも成功。
+- 173件のリンク一覧、3件の実Release ZIP取得、実データによる一括ZIPの中身と
+  容量、取消・再試行・戻る・選択解除、desktop/mobileを確認。
+  欠落FBXと404後の再試行は明示的なfixture試験で確認しています。
+- 137モデルのFBX詳細リンク、6件の実ブラウザー取得、mobile/no-JSが成功。
+- GLB/STL/OBJ、ビューア操作、検索・絞り込み・ダイアログ再利用、
+  repeat/mirror/clampテクスチャ、元PNG取得、球表示、言語切替が成功。
+- 全体容量ゲート、現行API/退役URL検査、サイトReleaseのローカル生成が成功。
+  Release生成結果はサイトZIPとcatalog/checksumsであり、公開処理は行っていません。
+
+[artifact12118509198](https://github.com/Xenoah/meshcopia/actions/runs/39080072245/artifacts/12118509198)
+にスクリーンショット、実ダウンロードZIP、ブラウザー・容量・移行結果のJSONを保存。
+artifact SHA-256:
+`49ae624d428acfa4eeeeed504dbc825ce0c70d251fdc3fb8a78763f705f54f1d`。
+この結果追記と配布文書の補足はMarkdownのみの変更です。
 
 候補サイトとchunkは、実ビルドのdistをブラウザー内で本番originへマウントして
 検査します。Releaseへの実通信は置換しません。候補側の旧ZIP要求は404を検査し、

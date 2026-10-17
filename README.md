@@ -111,4 +111,4 @@ npm run check
 
 ## 出元・使用作品
 
-任意の構造化 `usages[]` で制作元・再利用先、固定コミット、リポジトリ内パス、オブジェクト名を記録します。詳細ページに表示し、作品名・場所・識別子で検索できます。カタログ・NDJSON・個別JSONに含まれます。従来版ZIPの `asset.json` は保持しますが、新しい最小構成ZIPにメタデータファイルは追加しません。ライセンスの `provenance`、テクスチャ設定の `usage` とは別項目です。記入例と未知情報の扱いは [usage metadata](docs/USAGE_METADATA.md) を参照。
+任意の構造化 `usages[]` で制作元・再利用先、固定コミット、リポジトリ内パス、オブジェクト名を記録します。詳細ページに表示し、作品名・場所・識別子で検索できます。カタログ・NDJSON・個別JSONに含まれます。既存Releaseや履歴にある従来版ZIPの `asset.json` は保持しますが、現行の配布ZIPにメタデータファイルは追加しません。ライセンスの `provenance`、テクスチャ設定の `usage` とは別項目です。記入例と未知情報の扱いは [usage metadata](docs/USAGE_METADATA.md) を参照。

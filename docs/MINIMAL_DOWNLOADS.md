@@ -102,7 +102,7 @@ writing a texture `downloads.minimal` into generated API/catalog records:
    text's UTF-8 bytes/hash against both the binding and archive entry. Check its
    author, license, verified detail URL and required retained legal statements.
 4. Publish a new immutable archive version, without replacing or deleting any
-   legacy archive. Verify the actual public Release URL's downloaded bytes,
+   existing Release attachment. Verify the actual public Release URL's downloaded bytes,
    archive contents and identity against the reviewed local artifact. A draft
    release, upload success, HEAD request, boolean flag, or local fixture is not
    sufficient evidence.
@@ -204,7 +204,7 @@ runs on the dedicated branch with read-only permissions. It additionally records
 Release fetch diagnostics, tests missing FBX and interrupted retries, measures
 the entire candidate build and keeps the capacity gate blocking. See
 [the review report](FBX_DISTRIBUTION_REVIEW.md) for exact commits, results and the
-unresolved hosting requirement; passing functional tests is not deployment proof.
+remaining publication steps; passing functional tests is not deployment proof.
 
 ## Publication and recovery
 
