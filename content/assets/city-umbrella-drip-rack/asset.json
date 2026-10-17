@@ -1,0 +1,62 @@
+{
+  "id": "city-umbrella-drip-rack",
+  "type": "model",
+  "title": "個別マス付きの傘用水受けラック",
+  "titleEn": "Individual-cell umbrella drip rack",
+  "description": "公共施設や店舗の入口内側に置く十二マスの傘立て。上下二段の開いた格子、独立した細い支柱、脚パッド、低い支持バーと、持ち手・立ち上がり縁のある別体風の浅い水受けトレーを造形。空の個別収納部を持つラックで、植木鉢やごみ箱ではありません。傘・水、排水機能、トレー取り外しや物理動作は付属しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.604 × 0.616 × 0.396 m、9,664三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A twelve-cell umbrella rack for the inside of public-building and shop entrances. Two open grids separate umbrella shafts above narrow corner posts, contact pads, low support bars and a separate-looking shallow drip tray with raised rims and lifting handles. The storage cells are empty and open, not a planter or litter receptacle. Umbrellas, water, drainage simulation, tray-removal animation and physics behavior are absent. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.604 × 0.616 × 0.396 m; 9,664 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "umbrella",
+    "drip-tray",
+    "entrance",
+    "interior",
+    "傘立て"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-umbrella-drip-rack.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9664,
+  "dimensions": [
+    0.604,
+    0.6155,
+    0.396
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+    "sourceSha256": "5f261ef4d94f184ab66da9fb013e92f17eddd48b6e7e621d68bc7015a334d9ca",
+    "sourceRecipeSha256": "ca5620269ca5648af771b2618f378cb3cc674cc54691a40a27124106768b890e",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "cc5331bccee2cc82608ad0655fe0825094142c6f7b46a24a29ed4c52e6bedc26"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+        "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-umbrella-drip-rack"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -336,6 +336,270 @@
       "recipe": "scripts/city_expansion/frozen/batch-012/scripts/city_expansion/garage_service.py",
       "sourceRecipeSha256": "8381103367519bf50a0b4e61e987c2cf4b5450e4344286193f9eab5a1bb1bdae",
       "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-electric-pressure-washer",
+      "recipe": "scripts/city_expansion/frozen/batch-013/scripts/city_expansion/cleaning_service.py",
+      "sourceRecipeSha256": "fc74e2809c2f4b24fbf01d3a304bcc45d8451f1053bd535d28a358e37809f527",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-two-stage-snow-blower",
+      "recipe": "scripts/city_expansion/frozen/batch-013/scripts/city_expansion/cleaning_service.py",
+      "sourceRecipeSha256": "fc74e2809c2f4b24fbf01d3a304bcc45d8451f1053bd535d28a358e37809f527",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-walk-behind-floor-scrubber",
+      "recipe": "scripts/city_expansion/frozen/batch-013/scripts/city_expansion/cleaning_service.py",
+      "sourceRecipeSha256": "fc74e2809c2f4b24fbf01d3a304bcc45d8451f1053bd535d28a358e37809f527",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-wet-dry-vacuum",
+      "recipe": "scripts/city_expansion/frozen/batch-013/scripts/city_expansion/cleaning_service.py",
+      "sourceRecipeSha256": "fc74e2809c2f4b24fbf01d3a304bcc45d8451f1053bd535d28a358e37809f527",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-insect-hotel",
+      "recipe": "scripts/city_expansion/frozen/batch-014/scripts/city_expansion/urban_ecology.py",
+      "sourceRecipeSha256": "d8518a37b5189747d06d0aedbb74959de014c67a67b4c751b04b1ea4ee5b37f1",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-roofed-bird-feeder",
+      "recipe": "scripts/city_expansion/frozen/batch-014/scripts/city_expansion/urban_ecology.py",
+      "sourceRecipeSha256": "d8518a37b5189747d06d0aedbb74959de014c67a67b4c751b04b1ea4ee5b37f1",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-urban-apiary-beehive",
+      "recipe": "scripts/city_expansion/frozen/batch-014/scripts/city_expansion/urban_ecology.py",
+      "sourceRecipeSha256": "d8518a37b5189747d06d0aedbb74959de014c67a67b4c751b04b1ea4ee5b37f1",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-weather-instrument-station",
+      "recipe": "scripts/city_expansion/frozen/batch-014/scripts/city_expansion/urban_ecology.py",
+      "sourceRecipeSha256": "d8518a37b5189747d06d0aedbb74959de014c67a67b4c751b04b1ea4ee5b37f1",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-four-wheel-rollator",
+      "recipe": "scripts/city_expansion/frozen/batch-015/scripts/city_expansion/public_mobility.py",
+      "sourceRecipeSha256": "e650f6199f3e96e996636c4a72a453580f77344d63f335d087c1887b67a49806",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-manual-wheelchair",
+      "recipe": "scripts/city_expansion/frozen/batch-015/scripts/city_expansion/public_mobility.py",
+      "sourceRecipeSha256": "e650f6199f3e96e996636c4a72a453580f77344d63f335d087c1887b67a49806",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-open-baby-stroller",
+      "recipe": "scripts/city_expansion/frozen/batch-015/scripts/city_expansion/public_mobility.py",
+      "sourceRecipeSha256": "e650f6199f3e96e996636c4a72a453580f77344d63f335d087c1887b67a49806",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-transfer-stretcher-trolley",
+      "recipe": "scripts/city_expansion/frozen/batch-015/scripts/city_expansion/public_mobility.py",
+      "sourceRecipeSha256": "e650f6199f3e96e996636c4a72a453580f77344d63f335d087c1887b67a49806",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-exterior-spiral-stair",
+      "recipe": "scripts/city_expansion/frozen/batch-017/scripts/city_expansion/vertical_access.py",
+      "sourceRecipeSha256": "3ace3cca6ba6ad192f75fbfeb8fbf6d44a62a1f63b4c84b98ef7d729f96ec195",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-loading-dock-leveler",
+      "recipe": "scripts/city_expansion/frozen/batch-017/scripts/city_expansion/vertical_access.py",
+      "sourceRecipeSha256": "3ace3cca6ba6ad192f75fbfeb8fbf6d44a62a1f63b4c84b98ef7d729f96ec195",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-passenger-escalator",
+      "recipe": "scripts/city_expansion/frozen/batch-017/scripts/city_expansion/vertical_access.py",
+      "sourceRecipeSha256": "3ace3cca6ba6ad192f75fbfeb8fbf6d44a62a1f63b4c84b98ef7d729f96ec195",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-vertical-platform-lift",
+      "recipe": "scripts/city_expansion/frozen/batch-017/scripts/city_expansion/vertical_access.py",
+      "sourceRecipeSha256": "3ace3cca6ba6ad192f75fbfeb8fbf6d44a62a1f63b4c84b98ef7d729f96ec195",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-broadcast-spreader",
+      "recipe": "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+      "sourceRecipeSha256": "70c8f9f019084d8934b05ae7dccd6b85a687afd74a6da8a1d9b1161d2357ad49",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-electric-hedge-trimmer",
+      "recipe": "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+      "sourceRecipeSha256": "70c8f9f019084d8934b05ae7dccd6b85a687afd74a6da8a1d9b1161d2357ad49",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-string-grass-trimmer",
+      "recipe": "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+      "sourceRecipeSha256": "70c8f9f019084d8934b05ae7dccd6b85a687afd74a6da8a1d9b1161d2357ad49",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-two-handle-earth-auger",
+      "recipe": "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+      "sourceRecipeSha256": "70c8f9f019084d8934b05ae7dccd6b85a687afd74a6da8a1d9b1161d2357ad49",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-ceiling-projector",
+      "recipe": "scripts/city_expansion/frozen/batch-019/scripts/city_expansion/event_presentation.py",
+      "sourceRecipeSha256": "18cce003e55fa2713e3911710355fca6a3692233c197d71fe7729db6fd50ce98",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-conference-lectern",
+      "recipe": "scripts/city_expansion/frozen/batch-019/scripts/city_expansion/event_presentation.py",
+      "sourceRecipeSha256": "18cce003e55fa2713e3911710355fca6a3692233c197d71fe7729db6fd50ce98",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-theatrical-followspot",
+      "recipe": "scripts/city_expansion/frozen/batch-019/scripts/city_expansion/event_presentation.py",
+      "sourceRecipeSha256": "18cce003e55fa2713e3911710355fca6a3692233c197d71fe7729db6fd50ce98",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-tripod-projection-screen",
+      "recipe": "scripts/city_expansion/frozen/batch-019/scripts/city_expansion/event_presentation.py",
+      "sourceRecipeSha256": "18cce003e55fa2713e3911710355fca6a3692233c197d71fe7729db6fd50ce98",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-lifeguard-observation-chair",
+      "recipe": "scripts/city_expansion/frozen/batch-021/scripts/city_expansion/poolside_equipment.py",
+      "sourceRecipeSha256": "56ac2705a918db0a1000053ecace716c04cb7e52d25ebc4f4510a8468f53e731",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-pool-entry-ladder",
+      "recipe": "scripts/city_expansion/frozen/batch-021/scripts/city_expansion/poolside_equipment.py",
+      "sourceRecipeSha256": "56ac2705a918db0a1000053ecace716c04cb7e52d25ebc4f4510a8468f53e731",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-pool-lane-rope-reel",
+      "recipe": "scripts/city_expansion/frozen/batch-021/scripts/city_expansion/poolside_equipment.py",
+      "sourceRecipeSha256": "56ac2705a918db0a1000053ecace716c04cb7e52d25ebc4f4510a8468f53e731",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-swimming-start-block",
+      "recipe": "scripts/city_expansion/frozen/batch-021/scripts/city_expansion/poolside_equipment.py",
+      "sourceRecipeSha256": "56ac2705a918db0a1000053ecace716c04cb7e52d25ebc4f4510a8468f53e731",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-library-book-trolley",
+      "recipe": "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+      "sourceRecipeSha256": "ca5620269ca5648af771b2618f378cb3cc674cc54691a40a27124106768b890e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-public-coat-stand",
+      "recipe": "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+      "sourceRecipeSha256": "ca5620269ca5648af771b2618f378cb3cc674cc54691a40a27124106768b890e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-rotating-brochure-carousel",
+      "recipe": "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+      "sourceRecipeSha256": "ca5620269ca5648af771b2618f378cb3cc674cc54691a40a27124106768b890e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-umbrella-drip-rack",
+      "recipe": "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+      "sourceRecipeSha256": "ca5620269ca5648af771b2618f378cb3cc674cc54691a40a27124106768b890e",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-adjustable-steel-prop",
+      "recipe": "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+      "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-concrete-pouring-skip",
+      "recipe": "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+      "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-framed-wall-formwork-panel",
+      "recipe": "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+      "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-suspended-rubble-chute",
+      "recipe": "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+      "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-centrifugal-exhaust-fan",
+      "recipe": "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+      "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-duct-silencer-module",
+      "recipe": "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+      "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-multiblade-duct-damper",
+      "recipe": "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+      "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-roof-turbine-vent",
+      "recipe": "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+      "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-commercial-deep-fryer",
+      "recipe": "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
+      "sourceRecipeSha256": "77ba11ff55e9a4382a8a26f5a524c23f813dd17155ba541f3628daa10a650169",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-countertop-food-slicer",
+      "recipe": "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
+      "sourceRecipeSha256": "77ba11ff55e9a4382a8a26f5a524c23f813dd17155ba541f3628daa10a650169",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-open-waffle-iron",
+      "recipe": "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
+      "sourceRecipeSha256": "77ba11ff55e9a4382a8a26f5a524c23f813dd17155ba541f3628daa10a650169",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-planetary-food-mixer",
+      "recipe": "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
+      "sourceRecipeSha256": "77ba11ff55e9a4382a8a26f5a524c23f813dd17155ba541f3628daa10a650169",
+      "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
     }
   ]
 }

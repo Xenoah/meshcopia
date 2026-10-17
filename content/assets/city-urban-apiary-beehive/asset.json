@@ -1,0 +1,61 @@
+{
+  "id": "city-urban-apiary-beehive",
+  "type": "model",
+  "title": "架台付きの都市養蜂箱",
+  "titleEn": "Urban apiary beehive on stand",
+  "description": "公共菜園や屋上養蜂エリアの情景用に作成した、架台付きの積層式養蜂箱。3段の木箱、角の継ぎ目、前後の持ち手、張り出した金属蓋、巣門の実際の隙間、着地板と脚部を造形しています。蜂・蜂蜜・巣脾・内部の巣枠・養蜂道具は含みません。養蜂手順や生態・動物の健康、耐候性の保証を示すものではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.605 × 1.102 × 0.880 m、12,100三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A stand-mounted stacked hive for community-garden and rooftop-apiary scenery, with three timber box courses, corner-joint details, front/rear lifting handles, an overhanging metal lid, a genuinely open entrance gap, a landing board and braced legs. Bees, honey, comb, internal frames and beekeeping tools are omitted. It is not beekeeping guidance and makes no ecological, animal-health or weather-resistance claim. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.605 × 1.102 × 0.880 m; 12,100 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "beehive",
+    "apiary",
+    "garden",
+    "養蜂箱"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-urban-apiary-beehive.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 12100,
+  "dimensions": [
+    0.605,
+    1.102,
+    0.879517
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-014/scripts/city_expansion/urban_ecology.py",
+    "sourceSha256": "b0b528e9a388c9858f682781c6e76ad74330e80501ec3bb7e44cfe909c9228dd",
+    "sourceRecipeSha256": "d8518a37b5189747d06d0aedbb74959de014c67a67b4c751b04b1ea4ee5b37f1",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a225d595d860baca9cc06e632483083a7e9484bb1846b44889092c2fae22e5d6"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-014/scripts/city_expansion/urban_ecology.py",
+        "scripts/city_expansion/frozen/batch-014/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-urban-apiary-beehive"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

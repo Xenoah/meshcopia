@@ -1,0 +1,61 @@
+{
+  "id": "city-framed-wall-formwork-panel",
+  "type": "model",
+  "title": "枠付きの壁型枠パネル",
+  "titleEn": "Framed wall-formwork panel",
+  "description": "建設現場や資材置場向けの一枚型枠パネル。無地の合板調表面、金属の外枠、背面の縦横補強、持ち手、開口した連結金具と留め具を造形。壁・コンクリート・支柱・対向パネルや完成した型枠系統は含みません。単体の立て置き用原点で、支持と配置はシーン側で調整してください。耐圧・緊結・施工安全は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.986 × 1.800 × 0.190 m、7,132三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A single framed formwork panel for construction and storage-yard scenes, with plain plywood-like facing, metal perimeter, rear grid stiffeners, handgrips, open connection eyes and fasteners. Wall, concrete, braces, opposing panel and a complete formwork system are absent. Its base origin supports upright scene placement; supply visual supports in the host scene. Pressure resistance, fastening and construction safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.986 × 1.800 × 0.190 m; 7,132 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "construction",
+    "formwork",
+    "panel",
+    "型枠"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-framed-wall-formwork-panel.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 7132,
+  "dimensions": [
+    0.986,
+    1.8,
+    0.190485
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+    "sourceSha256": "b96db599c939ab4aa516b708be6d86e0c393ac9f95282bc9a4850182c8e29246",
+    "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "21eb002dec17005d876af9d1c4977b9e0346d346a7ff4abe5fca16662ecfe804"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+        "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-framed-wall-formwork-panel"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

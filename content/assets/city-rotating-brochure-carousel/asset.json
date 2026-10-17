@@ -1,0 +1,62 @@
+{
+  "id": "city-rotating-brochure-carousel",
+  "type": "model",
+  "title": "回転軸付きのパンフレットラック",
+  "titleEn": "Rotating brochure carousel",
+  "description": "公共施設のロビーや観光案内所の床に置く、十二ポケットのパンフレット用回転ラック。四方向三段の独立した空ポケットは底・背板・側板と指掛け切欠きを備え、中央軸、上下のベアリング外装、支持アームと重り入り風の円形台座で支えます。印刷物・看板は付属せず、軸受内部、回転アニメーションや荷重・転倒安定性の検証はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.576 × 1.639 × 0.576 m、23,844三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A twelve-pocket brochure carousel for public lobbies and visitor-information floors. Four three-tier faces have separate empty receptacles with floors, back and side walls, and finger-access notches. A central mast, visible upper/lower bearing housings, radial supports and weighted-looking circular base complete the assembly. No printed brochures or signboard are supplied; bearing internals, rotation animation, load and tip-stability validation are absent. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.576 × 1.639 × 0.576 m; 23,844 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "brochure",
+    "carousel",
+    "reception",
+    "interior",
+    "パンフレット"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-rotating-brochure-carousel.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 23844,
+  "dimensions": [
+    0.576,
+    1.639,
+    0.576
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+    "sourceSha256": "5c608a8903a03721f34de4c1ef6301299ebb56bae4fe306722ca80cd86287dbc",
+    "sourceRecipeSha256": "ca5620269ca5648af771b2618f378cb3cc674cc54691a40a27124106768b890e",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "5fa9317fc94c74fc8b4b1d04577d92bb62caed92fe1c759344c1976862c9dc31"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/shared_interior_furnishings.py",
+        "scripts/city_expansion/frozen/batch-022/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-rotating-brochure-carousel"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

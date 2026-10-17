@@ -1,0 +1,61 @@
+{
+  "id": "city-commercial-deep-fryer",
+  "type": "model",
+  "title": "開いた槽とワイヤーバスケット付きの業務用フライヤー",
+  "titleEn": "Commercial deep fryer with open vat and wire basket",
+  "description": "飲食店の厨房床に配置する独立キャビネット型フライヤーの静的プロップ。脚付きキャビネットと扉、厚い縁と底を備えた空の深い槽、穴が実際に開いたワイヤーバスケットと長い握り、背面の立上り部とバスケット受け、前操作部、背面点検パネルを造形しています。バスケットは槽内から上に出た固定位置で、油、食品、炎や熱表現は含みません。加熱・排油・温度制御・電気機能、食品接触適合性、衛生・防火・機械安全は実装または検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.480 × 1.136 × 0.915 m、12,136三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A freestanding cabinet fryer prop for a restaurant kitchen floor, with raised legs and front service door, an empty deep vat with thick rim and floor, genuinely open wire basket and long grip, rear backsplash and basket rest, front controls and rear service panels. The basket is fixed partly above the vat; oil, food, flame and heat effects are absent. Heating, draining, temperature control and electrical function are not implemented, and food-contact suitability, hygiene, fire performance and mechanical safety are not validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.480 × 1.136 × 0.915 m; 12,136 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "food-service",
+    "deep-fryer",
+    "kitchen-appliance",
+    "厨房"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-commercial-deep-fryer.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 12136,
+  "dimensions": [
+    0.48,
+    1.136,
+    0.9155
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
+    "sourceSha256": "f8d0f967a8b2ee05e5c7cb05d556328cbe2a52e3c1501fced4dae0e3362a8a53",
+    "sourceRecipeSha256": "77ba11ff55e9a4382a8a26f5a524c23f813dd17155ba541f3628daa10a650169",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "e1dfff83d5dbbfdc2183cfcc2a32b3b17273d701bd32f7c949e406cca5fc69c3"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/food_service_appliances.py",
+        "scripts/city_expansion/frozen/batch-025/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-commercial-deep-fryer"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

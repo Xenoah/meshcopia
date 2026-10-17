@@ -1,0 +1,61 @@
+{
+  "id": "city-string-grass-trimmer",
+  "type": "model",
+  "title": "ループハンドル付きの草刈りトリマー",
+  "titleEn": "Loop-handle string grass trimmer",
+  "description": "公園の縁や庭の草刈り場面に使う長軸トリマー。斜めの金属シャフト、分割継手、開口ループハンドル、上部グリップとモーター外装、曲面ガード、スプールと短い固定ナイロン線を備えます。電池・電源コード・草・内部駆動部は付属せず、回転・切断動作・性能・安全認証はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.146 × 1.579 × 0.446 m、9,344三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A long-shaft string trimmer for park edges and garden-care scenes, with an angled metal shaft, coupling, open loop handle, upper grip and motor exterior, curved guard, spool and short fixed nylon-line ends. Battery, power cord, grass and working internals are omitted; no spinning, cutting behavior, performance or safety certification is supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.146 × 1.579 × 0.446 m; 9,344 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "garden",
+    "maintenance",
+    "grass-trimmer",
+    "草刈り"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-string-grass-trimmer.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9344,
+  "dimensions": [
+    1.14617,
+    1.57902,
+    0.44595
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+    "sourceSha256": "2da617e86d4a8174fb8553bf5b140aad12f580ace856a85cc04b5dd9e1efac96",
+    "sourceRecipeSha256": "70c8f9f019084d8934b05ae7dccd6b85a687afd74a6da8a1d9b1161d2357ad49",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "9b18063d36ca143667e4b5bb565d02827d792a180f666c7526c71025f6fe799c"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+        "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-string-grass-trimmer"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

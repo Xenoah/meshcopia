@@ -1,0 +1,61 @@
+{
+  "id": "city-broadcast-spreader",
+  "type": "model",
+  "title": "手押し式の散布機",
+  "titleEn": "Walk-behind broadcast spreader",
+  "description": "公園や庭園の管理場面に置く手押し散布機。空の開口ホッパー、下部の計量口とスライド、露出した散布円盤と羽根、車軸、二輪、押し手と操作リンクを造形しています。粒材、内部歯車、散布・回転動作は含まず、容量・散布性能・安全認証は示しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.766 × 1.064 × 1.038 m、16,140三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A walk-behind spreader for park and garden maintenance scenes, with an empty open hopper, metering throat and slide, exposed rotor disk and vanes, axle, two wheels, push handle and control linkage. No granules, internal gears, dispensing or rotation behavior; no capacity, spreading-performance or safety certification is claimed. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.766 × 1.064 × 1.038 m; 16,140 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "garden",
+    "maintenance",
+    "spreader",
+    "散布機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-broadcast-spreader.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 16140,
+  "dimensions": [
+    0.76628,
+    1.064,
+    1.037546
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+    "sourceSha256": "07f795e931c86bed09861886d52a6be8d99871bb37ebe0d047cfa03ad094acb6",
+    "sourceRecipeSha256": "70c8f9f019084d8934b05ae7dccd6b85a687afd74a6da8a1d9b1161d2357ad49",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "6f690592498e346f7857d54ae7631202f90b9106675360fc5ac7d5c1923cfe47"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/garden_tools.py",
+        "scripts/city_expansion/frozen/batch-018/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-broadcast-spreader"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

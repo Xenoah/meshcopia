@@ -1,0 +1,62 @@
+{
+  "id": "city-exterior-spiral-stair",
+  "type": "model",
+  "title": "独立型屋外らせん階段",
+  "titleEn": "Freestanding exterior spiral stair",
+  "description": "中心柱と各段の接続スリーブ・下面放射梁を備えた、直階段とは異なるらせん経路の階段外観。十四枚の実厚段板、踏面リブ、縁帯、取付靴付き外側ガード、連続らせん手すりと中桟、補強した上部踊り場、ベース板とボルトを造形。柱と各段は実形状の部材で接続されています。上部の接続先床・建物・地面・人は含みません。踊り場の開放された接続辺と高さをシーン側で調整する配置用です。隠れた基礎アンカー、排水穴、溶接ビード、細かなねじ山は省略。歩行・避難・耐荷重・転落防止・アクセシビリティ・建築基準の認証はなく、施工・利用案内ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.200 × 4.045 × 2.370 m、51,676三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A spiral-route stair appearance assembly materially different from a straight stair, with a continuous central column, fourteen thick radial treads connected through real sleeves and underside radial beams, raised tread strips, edge markings, shoe-mounted outer guards, continuous helical handrail/midrail and a reinforced top landing. Treads visibly connect to the column through modeled structural members. No receiving floor, building, ground or person is included; align the open landing connection edge and height in the host scene. Concealed foundation anchors, drainage holes, weld beads and tiny screw threads are omitted. No walking, evacuation, load, fall-protection, accessibility or building-standard certification is supplied. This is not installation or human-use guidance. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.200 × 4.045 × 2.370 m; 51,676 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "spiral-stair",
+    "exterior-stair",
+    "architecture",
+    "vertical-access",
+    "らせん階段"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-exterior-spiral-stair.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 51676,
+  "dimensions": [
+    2.199728,
+    4.0445,
+    2.370266
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-017/scripts/city_expansion/vertical_access.py",
+    "sourceSha256": "bccf748acb603fb90bdcb359770359b08e29062179fb7a5eef42e6b56aeb5669",
+    "sourceRecipeSha256": "3ace3cca6ba6ad192f75fbfeb8fbf6d44a62a1f63b4c84b98ef7d729f96ec195",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "103d63a1771d53ad2852771b3acac3bac93151704381ae04f7445d422f54aba1"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-017/scripts/city_expansion/vertical_access.py",
+        "scripts/city_expansion/frozen/batch-017/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-exterior-spiral-stair"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

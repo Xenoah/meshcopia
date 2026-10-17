@@ -1,0 +1,61 @@
+{
+  "id": "city-centrifugal-exhaust-fan",
+  "type": "model",
+  "title": "渦巻ケーシングと背面モーターの遠心排気ファン",
+  "titleEn": "Centrifugal exhaust fan with volute and rear motor",
+  "description": "機械室や換気設備架台に置く据置き遠心排気ファンの静的プロップ。渦巻状の厚いケーシング、貫通した円形吸込口と疎な保護ガード、奥に見える湾曲羽根インペラー、開いた接線方向吐出口、背面モーターと冷却フィン、軸継手、支持脚と固定スキッドを造形しています。軸流送風機や冷媒凝縮器とは異なる構成です。配線、接続ダクト、回転・通電・排気動作、圧力／流量曲線、騒音、熱・防火・保護等級や適合認証は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.935 × 1.435 × 1.110 m、18,344三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A stationary centrifugal exhaust-fan prop for a plant room or ventilation equipment base, with a thick spiral volute, genuinely open circular inlet and sparse protective guard, visible curved-blade impeller, open tangential discharge, rear drive motor with cooling fins, coupling, supports and mounting skids. Its construction is distinct from an axial blower or refrigerant condenser. Wiring and connecting ducts are omitted, with no rotation, electrical operation, exhaust behavior, pressure/flow curve, noise, thermal/fire or ingress-protection performance, or compliance certification supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.935 × 1.435 × 1.110 m; 18,344 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "ventilation",
+    "centrifugal-fan",
+    "plant-room",
+    "遠心ファン"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-centrifugal-exhaust-fan.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 18344,
+  "dimensions": [
+    0.935068,
+    1.435,
+    1.11
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+    "sourceSha256": "9da2a36c5079d945b74853ea1b0b5a566b651f3e60b562ad7978505b66db6d6b",
+    "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "4364d854c188f39d8844160d3fb66fec65a2987dcbe8165391a620710bc8e855"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+        "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-centrifugal-exhaust-fan"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "city-roof-turbine-vent",
+  "type": "model",
+  "title": "湾曲羽根ローター付きの屋根用タービン換気口",
+  "titleEn": "Roof turbine vent with curved open-blade rotor",
+  "description": "屋根面の通気立上り部に配置するタービン式換気口の静的プロップ。中央が開口した角形水切り板、中空カラー、内部支持スポークと主軸、上下の保持リング、厚みを持つ20枚の湾曲羽根で構成した開放ローター、頂部軸受カバーを造形しています。既存の傘型排気カウルではなく、回転部の羽根籠を表した構成です。屋根と接続ダクトは付属せず、回転、風力駆動、換気流量、雨仕舞、防火や建築基準への適合は実装・検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.733 × 0.769 × 0.733 m、10,676三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A static turbine-vent prop for a roof ventilation riser, with a genuinely open square flashing throat, hollow collar, internal spindle supports, upper and lower retaining rings, twenty thick curved vanes forming an open rotor cage, and a top bearing cover. This depicts a rotating-blade assembly rather than a mushroom exhaust cowl. Roof and connecting duct are omitted. No rotation, wind drive, airflow, weather sealing, fire performance or building-code compliance is implemented or validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.733 × 0.769 × 0.733 m; 10,676 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "ventilation",
+    "roof-turbine",
+    "rotor",
+    "屋根換気"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-roof-turbine-vent.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 10676,
+  "dimensions": [
+    0.733437,
+    0.7695,
+    0.733437
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+    "sourceSha256": "20a363820229fb87b5b80d18d567ff3b5b485564a979e76570107c1c458016ba",
+    "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a52392a36e4ce6f5446cbb32d5a603590da282fd282b62ff0617250b34e5ad39"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+        "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-roof-turbine-vent"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

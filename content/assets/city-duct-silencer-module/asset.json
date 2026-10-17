@@ -1,0 +1,61 @@
+{
+  "id": "city-duct-silencer-module",
+  "type": "model",
+  "title": "開口流路と3枚の吸音隔壁を持つダクト消音器",
+  "titleEn": "Open duct silencer with three acoustic splitters",
+  "description": "機械室や空調ダクトの直線区間に置く矩形消音器の静的プロップ。前後に貫通する開口筐体、接続フランジ、丸い前後端を持つ3枚の縦長吸音隔壁と4本の流路、濃色の側面パネルと内張り、外部補強継ぎ目、側面点検蓋、下面の支持レールを造形しています。空箱ではなく内部の隔壁を含む構成ですが、材質は不透明な単色外観用で、吸音材の微細孔や繊維は表現していません。接続ダクト、音響減衰、周波数特性、圧力損失、実際の空気流、断熱・防火性能や法規適合は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.155 × 0.950 × 1.542 m、9,932三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A static rectangular duct-silencer prop for a straight ventilation run or plant room, with an open-through casing and connecting flanges, three full-height longitudinal acoustic splitters with rounded leading and trailing noses forming four passages, dark side panels and liners, external stiffening seams, a side access cover and lower mounting rails. It includes genuine internal splitter geometry rather than an empty box, but its opaque constant-color materials are appearance-only, with no microscopic pores or fibers modeled. Connecting ducts, acoustic attenuation, frequency response, pressure loss, actual airflow, insulation/fire performance and regulatory compliance are omitted. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.155 × 0.950 × 1.542 m; 9,932 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "ventilation",
+    "duct-silencer",
+    "acoustic-splitter",
+    "消音器"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-duct-silencer-module.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9932,
+  "dimensions": [
+    1.155,
+    0.9495,
+    1.542
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+    "sourceSha256": "ca713efb4fb49b8e2d1239c3cecdec804b581ffbdc1d08d99cb83b3f001ff657",
+    "sourceRecipeSha256": "dc71fcae6b37e71ce00296d2dd56cbfd096e81cadc62a2c702ab271ed3759a25",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "36e9da849df8d24271d234c9526ec5a12b9b605807803610b7a706c4693cb5b6"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/ventilation_components.py",
+        "scripts/city_expansion/frozen/batch-024/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-duct-silencer-module"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

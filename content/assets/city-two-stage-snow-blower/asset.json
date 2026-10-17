@@ -1,0 +1,62 @@
+{
+  "id": "city-two-stage-snow-blower",
+  "type": "model",
+  "title": "二段式の歩行型除雪機",
+  "titleEn": "Walk-behind two-stage snow blower",
+  "description": "歩道や駐車場の保守シーン用の除雪機。前開きの曲面ハウジング、左右の螺旋オーガ、空洞の排雪筒、駆動輪、操作部を造形。雪、内部インペラ、燃料・エンジン内部、除雪・走行・可動は含まず、実機安全や性能を保証しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.797 × 1.091 × 1.317 m、19,240三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A snow-clearing prop for sidewalks and parking-area maintenance scenes. The open-front curved bucket exposes two helical augers, with an empty discharge chute, treaded drive wheels and operator controls. Snow, internal impeller, fuel and engine internals, snow-clearing, driving and articulation are absent; no real equipment safety or performance is warranted. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.797 × 1.091 × 1.317 m; 19,240 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "snow",
+    "blower",
+    "winter",
+    "maintenance",
+    "除雪"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-two-stage-snow-blower.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 19240,
+  "dimensions": [
+    0.797,
+    1.0905,
+    1.3175
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-013/scripts/city_expansion/cleaning_service.py",
+    "sourceSha256": "ca1b2093b0de9ae6e47ef01359f3a742176da5a2419852c630f1cb1ff762826d",
+    "sourceRecipeSha256": "fc74e2809c2f4b24fbf01d3a304bcc45d8451f1053bd535d28a358e37809f527",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "1767b5f2e88f8e2853d9a3fbcf687df6fb35adb44182c4844f368022fb0af6ce"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-013/scripts/city_expansion/cleaning_service.py",
+        "scripts/city_expansion/frozen/batch-013/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-two-stage-snow-blower"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

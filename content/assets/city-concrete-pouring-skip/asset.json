@@ -1,0 +1,62 @@
+{
+  "id": "city-concrete-pouring-skip",
+  "type": "model",
+  "title": "コンクリート打設用ホッパー",
+  "titleEn": "Concrete pouring skip hopper",
+  "description": "建設現場の荷役場面に置く打設用ホッパー外観。厚みのある開いた受け槽、脚付き支持枠、持上げ枠と吊り環、閉じた排出ゲート・ガイド・レバーを造形。ミキサーではなく、材料を受けて排出する容器の静的プロップです。コンクリート・クレーン・吊り索や排出動作はなく、揚重・耐荷重・打設性能や施工安全は未検証。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.979 × 1.719 × 0.999 m、7,676三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A pouring-skip exterior for construction lifting scenes, with a thick open hopper, footed support cage, lifting bail/eye, closed discharge gate, guides and lever. Unlike a mixer, this static prop represents a receiving and dispensing container. Concrete, crane, lifting sling and discharge behavior are absent; lifting, load, pouring performance and construction safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.979 × 1.719 × 0.999 m; 7,676 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "construction",
+    "hopper",
+    "skip",
+    "concrete",
+    "打設ホッパー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-concrete-pouring-skip.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 7676,
+  "dimensions": [
+    0.97875,
+    1.719,
+    0.999
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+    "sourceSha256": "caa27fc6d331194273e453255905cdb9faeb29205f0d8ea0eff55ce904282f84",
+    "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "9813e4b438cb588194ad5f3c3a620a1c675c96aa996bff04ffaaba2492b4504f"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+        "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-concrete-pouring-skip"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

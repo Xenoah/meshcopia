@@ -1,0 +1,61 @@
+{
+  "id": "city-swimming-start-block",
+  "type": "model",
+  "title": "後部フットウェッジ付きのプール用スタート台",
+  "titleEn": "Swimming start block with rear foot wedge",
+  "description": "プールのスタート側デッキに置く汎用スタート台。台座と傾斜支持部、縁を丸めた高床プラットフォーム、滑り止め形状、固定した後部フットウェッジとレール、前方グラブバー、背面の点検パネルを造形しています。デッキ・水面・競技レーン番号は付属しません。動作しない外観用モデルであり、公式寸法、競技規則への適合、荷重性能や安全認証は主張しません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.735 × 0.996 × 0.913 m、4,780三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A generic swimming start-block prop for a pool starting-end deck, with a mounting base and tapered support, raised bevel-edged platform, traction detail, fixed rear foot wedge and rails, front grab bar and rear inspection panel. Deck, water and lane numbers are omitted. This is static appearance geometry, with no official-dimension, competition-rule compliance, load-performance or safety-certification claim. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.735 × 0.996 × 0.913 m; 4,780 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "pool",
+    "starting-platform",
+    "sport-facility",
+    "プール"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-swimming-start-block.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 4780,
+  "dimensions": [
+    0.735,
+    0.995703,
+    0.912981
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-021/scripts/city_expansion/poolside_equipment.py",
+    "sourceSha256": "a78bb212cd0af55552c9de552ee136ad79dc4ba6512955d350c379dffc2504a5",
+    "sourceRecipeSha256": "56ac2705a918db0a1000053ecace716c04cb7e52d25ebc4f4510a8468f53e731",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "c9e7e13dc0f10af80eb211a4054bccda5978ad961ef7cd140c4faee284cddc13"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-021/scripts/city_expansion/poolside_equipment.py",
+        "scripts/city_expansion/frozen/batch-021/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-swimming-start-block"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

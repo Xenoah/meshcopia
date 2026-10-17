@@ -1,0 +1,61 @@
+{
+  "id": "city-suspended-rubble-chute",
+  "type": "model",
+  "title": "吊下げ式の瓦礫シュート",
+  "titleEn": "Suspended rubble chute assembly",
+  "description": "改修工事の外壁に配置する短い瓦礫排出シュート。三段の重なり合う中空筒、開いた上部ホッパー、吊り金具と実形状の鎖、壁側取付フレームをまとめた一組です。建物・受け容器・瓦礫や落下動作は含まず、取付高さ・壁離れをシーンで調整してください。耐荷重・粉じん・落下物や施工安全を検証した実用品ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.972 × 2.305 × 0.972 m、24,432三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A short debris-chute assembly for renovation facades, combining three overlapping hollow tapered sections, an open receiving hopper, suspension eyes, modeled chain links and wall-side support frame. Building, receiving bin, debris and falling behavior are absent; adjust installation height and wall offset in the scene. This is not real equipment validated for loads, dust, falling objects or construction safety. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.972 × 2.305 × 0.972 m; 24,432 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "construction",
+    "chute",
+    "renovation",
+    "瓦礫シュート"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-suspended-rubble-chute.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 24432,
+  "dimensions": [
+    0.972,
+    2.305,
+    0.972
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+    "sourceSha256": "898c668901d692f0a0dc06aeae0cb4d96f970847af660d1d980d110ec40bee24",
+    "sourceRecipeSha256": "2b7a745f2f0df5f7df4564cfefc43623822650d81996059886febb35f52031f9",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "82df4feb65800e85e9a3f45de3f228b568fc149ec4dfd2106c761664bc3cc00c"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/construction_support.py",
+        "scripts/city_expansion/frozen/batch-023/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-suspended-rubble-chute"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

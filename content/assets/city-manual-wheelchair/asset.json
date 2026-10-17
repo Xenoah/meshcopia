@@ -1,0 +1,61 @@
+{
+  "id": "city-manual-wheelchair",
+  "type": "model",
+  "title": "手動車椅子の静的プロップ",
+  "titleEn": "Manual wheelchair static prop",
+  "description": "公共施設の入口、待合室や街路シーンに配置する汎用手動車椅子。大きなスポーク車輪と外側ハンドリム、前部キャスター、左右独立のフットレスト、肘掛け、張り地付き座面と背、後方グリップ、座面下の交差支えを造形しています。人、介助者や別体クッションは含みません。固定姿勢の外観用モデルで、走行・折り畳み・ブレーキ・移動支援の機能はなく、医療用途、荷重定格や安全認証を示しません。製品設計や操作指示ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.714 × 0.935 × 1.040 m、22,084三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A generic manual wheelchair appearance prop for public-building entrances, waiting areas and street scenes. Large spoked wheels have outboard handrims, with small front casters, individual footplates, armrests, upholstered seat and back, rear push grips and crossed under-seat supports. No person, attendant or separate cushion is included. Fixed static geometry has no rolling, folding, braking or mobility-assistance function and claims no clinical suitability, load rating or safety certification. It is not a product design or operating guidance. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.714 × 0.935 × 1.040 m; 22,084 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "public-space",
+    "wheelchair",
+    "mobility-prop",
+    "車椅子"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-manual-wheelchair.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 22084,
+  "dimensions": [
+    0.714,
+    0.935,
+    1.0395
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-015/scripts/city_expansion/public_mobility.py",
+    "sourceSha256": "57cdf7a2baf1b07fa19ea9e820abe77916c121c330ba0315de1dcab576439f77",
+    "sourceRecipeSha256": "e650f6199f3e96e996636c4a72a453580f77344d63f335d087c1887b67a49806",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "515907ef721b3eae6ad0376a5ec1cb3e2c51061078de5f9a092bdfe91b740885"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-015/scripts/city_expansion/public_mobility.py",
+        "scripts/city_expansion/frozen/batch-015/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-manual-wheelchair"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
