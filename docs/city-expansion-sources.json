@@ -1572,6 +1572,60 @@
       "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
       "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
       "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-construction-arrow-board",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-emergency-call-pillar",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-hanging-shop-sign",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-outdoor-power-pedestal",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-plastic-crate-seating",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-pole-mounted-security-light",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-street-vendor-parasol",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-temporary-traffic-signal",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-tricycle-coffee-cart",
+      "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+      "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
     }
   ]
 }

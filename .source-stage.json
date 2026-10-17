@@ -2,16 +2,14 @@
   "schemaVersion": 1,
   "purpose": "draft-raw-source-prepublication",
   "ids": [
-    "city-capsule-toy-vending-machines",
-    "city-chain-post-barrier-set",
-    "city-coin-locker-bank",
-    "city-divided-park-bench",
-    "city-gas-meter-assembly",
-    "city-hand-sanitizer-stand",
-    "city-newspaper-vending-box",
-    "city-sandbag-stack",
-    "city-sidewalk-planter-box",
-    "city-tree-support-frame",
-    "city-two-tier-bicycle-rack"
+    "city-construction-arrow-board",
+    "city-emergency-call-pillar",
+    "city-hanging-shop-sign",
+    "city-outdoor-power-pedestal",
+    "city-plastic-crate-seating",
+    "city-pole-mounted-security-light",
+    "city-street-vendor-parasol",
+    "city-temporary-traffic-signal",
+    "city-tricycle-coffee-cart"
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "id": "city-temporary-traffic-signal",
+  "type": "model",
+  "title": "仮設信号機（トレーラー式）",
+  "titleEn": "Temporary traffic signal trailer",
+  "description": "片側交互通行の工事区間に置く、トレーラー式の仮設信号機です。黄色いシャシーと泥よけ、2輪の車輪、牽引棒と連結器、四隅のジャッキと接地パッド、バッテリー・制御箱、伸縮マスト、背板付き3灯の灯器とひさしを造形しています。赤レンズが点灯（発光材質）、黄・青は消灯状態で、信号の切替、走行、配線、注意書きの文字は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.060 × 3.134 × 1.160 m、6,976三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A trailer-mounted temporary traffic signal for alternating one-lane roadworks. It models the yellow chassis and mudguards, two wheels, drawbar and coupler, corner jacks with pads, battery and controller box, telescopic mast, and a three-lamp head with backplate and visors. The red lens is lit with an emissive material and the amber and green lenses are unlit; signal switching, towing, wiring and warning lettering are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.060 × 3.134 × 1.160 m; 6,976 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "roadworks",
+    "temporary-signal",
+    "traffic-control",
+    "trailer",
+    "仮設信号"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-temporary-traffic-signal.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6976,
+  "dimensions": [
+    2.06,
+    3.1342,
+    1.16
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+    "sourceSha256": "d531ca6d37e3c4fccab01742af9590843b8a9959ea1e8a1e92add315c3b57e83",
+    "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "9f450de4e69b15aeb0ddf7061ce96e9b67fe32b3a0d32f4ac547e860bef7e851"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+        "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-temporary-traffic-signal"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

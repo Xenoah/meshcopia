@@ -1,0 +1,63 @@
+{
+  "id": "city-tricycle-coffee-cart",
+  "type": "model",
+  "title": "三輪コーヒーカート",
+  "titleEn": "Tricycle coffee cart",
+  "description": "公園や駅前で営業する、前2輪の三輪自転車型コーヒーカートです。荷台の箱と木の天板、前面の販売口のふた、スポーク付きの前輪2つと後輪、フレーム・サドル・クランク・ハンドル、ストライプの屋根と支柱、エスプレッソのボイラーとグラインダー、紙コップの束を造形しています。店名やロゴ、メニューの文字、走行・調理の動作は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.851 × 1.821 × 0.767 m、16,112三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A front-loading tricycle coffee cart for parks and station plazas. It models the cargo box with walnut counter and front service hatch, two spoked front wheels and a rear wheel, frame, saddle, cranks and handlebar, a striped canopy on posts, an espresso boiler, grinder and a stack of paper cups. Shop names, logos, menu text and riding or brewing motion are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.851 × 1.821 × 0.767 m; 16,112 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "coffee-cart",
+    "tricycle",
+    "street-food",
+    "mobile-vendor",
+    "コーヒーカート"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-tricycle-coffee-cart.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 16112,
+  "dimensions": [
+    1.8512,
+    1.82135,
+    0.76725
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+    "sourceSha256": "3507ca2cf9961d9cac40722be78394a2a41f4edeee06f27ec649e694d83c26a3",
+    "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "7f8f121caf5f3dd57aa20e88cb7be5cd70b378990445b8114edee2a56765968e"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
+        "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-tricycle-coffee-cart"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
