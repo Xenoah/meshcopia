@@ -28,3 +28,26 @@ jobs:
         with:
           name: fbx-distribution-${{ github.sha }}
           path: test-results/
+  baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 7262f3e34559234de636cd5351d89fc733df008d
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - run: npm run build
+      - name: Measure complete baseline dist
+        run: node --input-type=module -e "import {measureDist} from './scripts/lib/download-browser-contract.mjs'; import {writeFile,mkdir} from 'node:fs/promises'; const result=await measureDist('dist'); console.log(result); await mkdir('test-results',{recursive:true});await writeFile('test-results/baseline-size.json',JSON.stringify(result));"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: baseline-size-${{ github.sha }}
+          path: test-results/
