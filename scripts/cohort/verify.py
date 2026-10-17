@@ -115,7 +115,11 @@ def main():
         source_glb = work / (identity + '.glb'); source_glb.write_bytes(data)
         command = blender + ['-t', '4', '--python', str(code / 'materialize_imported_images.py'), '--', '--converter-script', str(code / 'convert_and_audit_fbx.py'),
                              '--source', str(source_glb), '--out', str(fresh), '--expected-sha256', row['sourceSha256'], '--unique-image-paths', '--normalize-materials', '--deterministic']
-        with (work / 'execution.log').open('w') as log: subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT, check=True)
+        with (work / 'execution.log').open('w') as log: result = subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT)
+        if result.returncode:
+            tail = (work / 'execution.log').read_text(errors='replace').splitlines()[-40:]
+            print('\n'.join(line[:300] for line in tail), flush=True)
+            raise ValueError(f'Blender conversion failed for {identity} (exit {result.returncode})')
         names = archive_names(identity, row['version'])
         fbx_path = fresh / names['fbx']; fbx = fbx_path.read_bytes(); fbx_record = {'filename': names['fbx'], 'bytes': len(fbx), 'sha256': sha(fbx)}
         if expected is not None:
