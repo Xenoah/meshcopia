@@ -11,7 +11,21 @@ export function initBatchDownload(){
  const bar=document.createElement('section');bar.id='batch-download-bar';bar.className='batch-download-bar';
  const count=document.createElement('button'),clear=document.createElement('button'),download=document.createElement('button'),cancel=document.createElement('button'),save=document.createElement('a'),status=document.createElement('p'),help=document.createElement('p'),progress=document.createElement('progress');
  clear.type=download.type=cancel.type='button';download.className='button primary';clear.className=cancel.className='button';save.className='button primary';status.role='status';status.setAttribute('aria-live','polite');progress.max=100;progress.hidden=true;save.hidden=true;
- const dialog=document.createElement('dialog'),heading=document.createElement('h2'),close=document.createElement('button'),list=document.createElement('ul');dialog.className='batch-dialog';dialog.id='batch-selection-dialog';heading.id='batch-selection-title';dialog.setAttribute('aria-labelledby',heading.id);close.type='button';close.className='button';dialog.append(heading,close,list,clear,download,cancel,save,progress,status,help);document.body.append(dialog);bar.append(count);grid.before(bar);count.type='button';count.className='button primary';count.setAttribute('aria-haspopup','dialog');count.setAttribute('aria-controls',dialog.id);count.addEventListener('click',()=>{if(dialog.open)return;history.pushState({...history.state,meshcopiaSelection:true},'',location.href);dialog.showModal();close.focus();});close.addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{if(history.state?.meshcopiaSelection){count.disabled=true;history.back();}else count.focus();});window.addEventListener('popstate',()=>{const restoreFocus=count.disabled;count.disabled=false;if(history.state?.meshcopiaSelection){if(!dialog.open){dialog.showModal();close.focus();}}else if(dialog.open)dialog.close();else if(restoreFocus)count.focus();});
+ const dialog=document.createElement('dialog'),heading=document.createElement('h2'),close=document.createElement('button'),list=document.createElement('ul');dialog.className='batch-dialog';dialog.id='batch-selection-dialog';heading.id='batch-selection-title';dialog.setAttribute('aria-labelledby',heading.id);close.type='button';close.className='button';dialog.append(heading,close,list,clear,download,cancel,save,progress,status,help);document.body.append(dialog);bar.append(count);grid.before(bar);count.type='button';count.className='button primary';count.setAttribute('aria-haspopup','dialog');count.setAttribute('aria-controls',dialog.id);count.addEventListener('click',()=>{if(dialog.open)return;history.pushState({...history.state,meshcopiaSelection:true},'',location.href);dialog.showModal();close.focus();});// Keep the modal open (and the catalog inert) until Back has settled. Native
+ // dialog.close() restores focus immediately but queues its close event; using
+ // that later event to navigate can overwrite the user's next filter change.
+ function requestClose(){
+  if(count.disabled)return;
+  if(history.state?.meshcopiaSelection){count.disabled=true;history.back();}
+  else {dialog.close();count.focus();}
+ }
+ close.addEventListener('click',requestClose);
+ dialog.addEventListener('cancel',event=>{event.preventDefault();requestClose();});
+ window.addEventListener('popstate',()=>{
+  const restoreFocus=dialog.open||count.disabled;count.disabled=false;
+  if(history.state?.meshcopiaSelection){if(!dialog.open){dialog.showModal();close.focus();}}
+  else {if(dialog.open)dialog.close();if(restoreFocus)count.focus();}
+ });
  const ready=a=>{try{return minimalDownloadReadiness(a).ready&&!!planBundle([a]);}catch{return false;}};
  try{const saved=JSON.parse(sessionStorage.getItem(key)||'[]');if(Array.isArray(saved))saved.slice(0,50).forEach(id=>{if(byId.has(id)&&ready(byId.get(id)))selected.add(id)});}catch{}
  function invalidate(){if(blobURL){URL.revokeObjectURL(blobURL);blobURL=null;}save.hidden=true;save.removeAttribute('href');message='';progressValue=null;finalBytes=null;}
