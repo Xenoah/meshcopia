@@ -1,0 +1,22 @@
+{
+  "cohort": "new251",
+  "fCommit": "e8cbfa6848c6861a7e66f9b8378383f6f83e151b",
+  "inventorySha256": "51f72e0e537a7e648638183c4870bb6cf6c4249f887f9e13769a980c2ebac128",
+  "note": "Review evidence only; not a release, approval or availability record.",
+  "payloadArtifact": {
+    "digest": "sha256:db41506381e86c36b37287a758ba90c937cd047143ca5990d02e6343826e7f4a",
+    "id": 12101453183,
+    "name": "cohort-new251-e8cbfa6848c6861a7e66f9b8378383f6f83e151b-39034989054-1"
+  },
+  "qaArtifact": {
+    "digest": "sha256:f3f5a8ea10a90094ebd70606572ca5b21298421af87b5db39e67e690dc1ea584",
+    "id": 12101543116,
+    "name": "cohort-internal-qa-new251-e8cbfa6848c6861a7e66f9b8378383f6f83e151b-39034989054-1"
+  },
+  "repository": "Xenoah/meshcopia",
+  "reviewStatus": "discovery",
+  "runAttempt": 1,
+  "runId": 39034989054,
+  "schemaVersion": 1,
+  "workflow": ".github/workflows/verify-cohort.yml"
+}
