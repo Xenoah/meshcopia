@@ -1,5 +1,34 @@
 {
   "schemaVersion": 1,
   "repository": "Xenoah/meshcopia",
-  "proofs": []
+  "proofs": [
+    {
+      "commit": "578381898c7f2a0b19ea98d1d9fdc6bbe027c269",
+      "runId": 38888008291
+    },
+    {
+      "commit": "19c77f5d75f69599aabb6e306a2cf1beb230b1f5",
+      "runId": 38984055842
+    },
+    {
+      "commit": "19446e7a974ccf0130721a39654cbf386a627b7d",
+      "runId": 39002657739
+    },
+    {
+      "commit": "7f829d09a66d156c7f2ca19f2ea2ed88c015a01c",
+      "runId": 39012787572
+    },
+    {
+      "commit": "af80e678a81d7d5249bdce8b302efdb78fbdf4e1",
+      "runId": 39018680286
+    },
+    {
+      "commit": "b615362827db10ceec5db3c589a05ce68ea827d6",
+      "runId": 39023267496
+    },
+    {
+      "commit": "ac1a5aab01b5d6d2d2d1f38fb344f455a436cd47",
+      "runId": 39032352429
+    }
+  ]
 }
