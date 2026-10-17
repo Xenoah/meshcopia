@@ -1506,6 +1506,72 @@
       "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
       "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
       "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-capsule-toy-vending-machines",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-chain-post-barrier-set",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-coin-locker-bank",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-divided-park-bench",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-gas-meter-assembly",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-hand-sanitizer-stand",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-newspaper-vending-box",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-sandbag-stack",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-sidewalk-planter-box",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-tree-support-frame",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-two-tier-bicycle-rack",
+      "recipe": "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+      "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
     }
   ]
 }

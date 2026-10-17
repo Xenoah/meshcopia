@@ -1,0 +1,62 @@
+{
+  "id": "city-chain-post-barrier-set",
+  "type": "model",
+  "title": "チェーンポールの柵",
+  "titleEn": "Chain post barrier set",
+  "description": "敷地の境界や立入制限に使う、白黒のポール3本とたるませたチェーンの組です。鋳鉄の置き台、帯模様の支柱、球形の頭部、チェーン掛けの輪、交互に向きを変えた鎖の輪を造形しています。鎖は固定形状で揺れや張り具合の物理挙動はなく、注意札などの文字は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）3.330 × 0.945 × 0.330 m、25,536三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A set of three black-and-white posts joined by sagging chains, used for site boundaries and access restriction. It models cast-iron bases, banded posts, ball finials, chain eyes and alternating chain links. The chain is static geometry without swing or tension physics; warning tags and other lettering are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 3.330 × 0.945 × 0.330 m; 25,536 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "chain-barrier",
+    "stanchion",
+    "access-control",
+    "チェーン"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-chain-post-barrier-set.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 25536,
+  "dimensions": [
+    3.33,
+    0.945,
+    0.33
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+    "sourceSha256": "6f21021e57ad380ead1e6b873c3714e9d0edb58b9f7d71df94ee97c8bab39f16",
+    "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "e9161b2d0c879527393c162a280dc97a0ed988fc39ef3372551b5a62b7d04741"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-chain-post-barrier-set"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

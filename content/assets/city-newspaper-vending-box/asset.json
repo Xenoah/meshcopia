@@ -1,0 +1,62 @@
+{
+  "id": "city-newspaper-vending-box",
+  "type": "model",
+  "title": "新聞自動販売ボックス",
+  "titleEn": "Newspaper vending box",
+  "description": "歩道に立つ、ペデスタル付きの新聞販売ボックスです。光沢塗装の箱と傾斜した天板、前扉の枠と半透明の見本窓、引き手、硬貨投入部と返却ボタン、亜鉛めっきの支柱と台板を造形しています。新聞・紙名・価格表示などの文字は含まず、扉の開閉や販売機構は動作しません。 見本窓はGLB内の半透明（アルファブレンド）材質です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.520 × 1.069 × 0.470 m、1,076三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A pedestal-mounted newspaper vending box for sidewalks. It models the enamelled cabinet with sloped top, front door frame with a translucent display window, pull handle, coin mechanism with return button, and galvanized post and foot plate. Newspapers, titles, prices and other lettering are absent; the door and vending mechanism do not operate. The display window uses an alpha-blended GLB material. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.520 × 1.069 × 0.470 m; 1,076 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "newspaper",
+    "vending",
+    "street-furniture",
+    "新聞販売"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-newspaper-vending-box.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 1076,
+  "dimensions": [
+    0.52,
+    1.069457,
+    0.47
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+    "sourceSha256": "db5226522569aa97bc4608e5997d4177d17caf882f331e1e4f15baaa03a301ef",
+    "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "894978abdafea589d5a0bc718a0c3d74cd520bb75fc33214129449427655d70c"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-newspaper-vending-box"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

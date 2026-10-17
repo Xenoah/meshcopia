@@ -1,0 +1,63 @@
+{
+  "id": "city-capsule-toy-vending-machines",
+  "type": "model",
+  "title": "カプセルトイ自販機（2×2台）",
+  "titleEn": "Capsule toy vending machines, 2×2",
+  "description": "商店街や駅の通路に並ぶ、上下2段×2列のカプセルトイ自販機です。共通の台座、各台の本体と回転ダイヤル・ハンドル、取出し口とふた、価格窓、無地の見本カード枠、透明な陳列ケースと中の赤・青・黄のカプセルを造形しています。カードや本体に商品名・キャラクター・ロゴなどの図柄はなく、ハンドルの回転や景品の排出は動作しません。 陳列ケースはGLB内の半透明（アルファブレンド）材質です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.880 × 1.455 × 0.465 m、12,860三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A 2×2 bank of capsule toy vending machines for shopping streets and station passages. It models the shared stand, each machine body with rotary dial and crank, dispensing chute and flap, price window, blank display-card frames, and transparent display cases with red, blue and yellow capsules. Cards and bodies carry no product names, characters or logos; crank rotation and capsule dispensing do not operate. The display cases use an alpha-blended GLB material. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.880 × 1.455 × 0.465 m; 12,860 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "capsule-toy",
+    "gachapon",
+    "vending",
+    "shopping-street",
+    "ガチャガチャ"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-capsule-toy-vending-machines.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 12860,
+  "dimensions": [
+    0.88,
+    1.455,
+    0.465
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+    "sourceSha256": "7a6358c165bdffbfc1c2968dd3ed145f9aa57018f50f40bd4599c9f8cc1ed522",
+    "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "391bcb7ea45dec3400684f60389e140d5c291b317f6a9a2308b599b47bbf69c6"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-capsule-toy-vending-machines"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

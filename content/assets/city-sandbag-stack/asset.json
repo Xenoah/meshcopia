@@ -1,0 +1,62 @@
+{
+  "id": "city-sandbag-stack",
+  "type": "model",
+  "title": "土のうの積み上げ",
+  "titleEn": "Sandbag stack",
+  "description": "浸水対策として出入口や側溝の前に積む、ポリプロピレン製土のう12袋の三段積みです。枕状にふくらんだ袋の形、口を縛った紐の結び目、段ごとに半個ずらした積み方を造形しています。袋は単純化した形状で、織り目の質感、中の砂、変形の物理挙動、止水シートは含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.993 × 0.373 × 0.391 m、7,824三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A three-course stack of twelve polypropylene sandbags placed at doorways and gutters against flooding. It models pillow-shaped bags, tied neck knots and half-bag offset courses. Bags are simplified shapes without woven texture, contained sand, deformation physics or waterproof sheeting. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.993 × 0.373 × 0.391 m; 7,824 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "sandbag",
+    "flood-protection",
+    "disaster-prevention",
+    "土のう"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-sandbag-stack.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 7824,
+  "dimensions": [
+    2.993232,
+    0.373299,
+    0.39115
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+    "sourceSha256": "b62d3146f80e3eeb535007932b8145f0b765d0fb12ebc103e8019a18488fd2fd",
+    "sourceRecipeSha256": "9a4848cf8950b4760c576fed340421cbb4dcb9ee8ae16063234a9800b26ca6b7",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "9e9b0759ac423b6b3abfafc0ddc6a454643b730d87664ec84a125b849019dd45"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/claude_neighborhood_objects.py",
+        "scripts/city_expansion/frozen/batch-061/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-sandbag-stack"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
