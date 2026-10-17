@@ -1,0 +1,37 @@
+name: Transport an approved model cohort release
+on:
+  push:
+    branches: ['cohort/release-*']
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-cohort-release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  transport:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && startsWith(github.ref, 'refs/heads/cohort/release-')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Test exact manifest safeguards without external calls
+        run: python3 -m unittest discover -s scripts/cohort -p 'test_*.py' -v
+      - name: Transport exact reviewed bytes and verify anonymous public readbacks
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/cohort/transport.py --repo "$GITHUB_WORKSPACE" --work "$RUNNER_TEMP/cohort-transport"
+      - name: Preserve the consequential-step journal
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: cohort-transport-journal-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cohort-transport/journal.jsonl
+          if-no-files-found: warn
+          retention-days: 30

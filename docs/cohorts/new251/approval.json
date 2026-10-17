@@ -1,0 +1,28 @@
+{
+  "approvalNote": "Owner approval given in the Claude session on 2026-10-17 20:39 JST ('リリースを承認します') before this candidate existed, for release once every automated gate passed. Claude recorded these exact run, artifact and manifest identities after the reproduced-final F run succeeded and reported them to the owner before transport.",
+  "approvedBy": "Xenoah (repository owner)",
+  "cohort": "new251",
+  "expectedManifestSha256": "878ba224263b58f61fd809f13999be6e79d7700bc1e7174019fcfea7e52a2362",
+  "fCommit": "58c092992430326c3aad463072dba6507003a058",
+  "inventorySha256": "bb5a0cc2c72f78e8097aef922bd419180a0c4147fadc88c56473f0f78f58c53d",
+  "jobId": 117405084714,
+  "payloadArtifact": {
+    "digest": "sha256:729f6b684b1373d33ba58a57b8aabc19da9fcdbbd57d0bea36a8536971554526",
+    "id": 12102148892,
+    "name": "cohort-new251-58c092992430326c3aad463072dba6507003a058-39035757342-1"
+  },
+  "qaArtifact": {
+    "digest": "sha256:caba6d0acd273fe68a3ae3138471550d4e9bf30978d4372481236ec138d536ad",
+    "id": 12102004717,
+    "name": "cohort-internal-qa-new251-58c092992430326c3aad463072dba6507003a058-39035757342-1"
+  },
+  "releaseBodySha256": "989bbe8774093585db49b2eb3e92b58eb1b621469d87e08bd1c2f40009942031",
+  "repository": "Xenoah/meshcopia",
+  "reviewStatus": "approved-for-transport",
+  "runAttempt": 1,
+  "runId": 39035757342,
+  "runtimeSha256": "4209f6e5244f684adc3f54909783cd11f8ade651cd2c48f0dd2556d0277d60f5",
+  "schemaVersion": 1,
+  "sourceInventorySha256": "d7da0e610262b09f5fa7cd7fdad3e8440d3d5a4825e15cbfe13533430c8e4890",
+  "tag": "cohort-new251-v1.0.0"
+}
