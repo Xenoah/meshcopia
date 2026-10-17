@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {readFile,lstat,readdir} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import path from 'node:path';
-import {minimalDownloadReadiness} from '../../src/lib/downloads.mjs';
+import {primaryDownload,directModelFiles,minimalDownloadReadiness} from '../../src/lib/downloads.mjs';
 
 export const sha256=data=>createHash('sha256').update(data).digest('hex');
 export const SITE='https://xenoah.github.io/meshcopia/';
@@ -29,24 +29,25 @@ export async function assertActivatedCatalog(catalog,sources){
  }
  return catalog;
 }
-export function expectedDetail(a){return {id:a.id,zip:a.downloads.minimal.url,files:a.files.map(f=>f.url).sort(),direct:(a.type==='model'?a.files.filter(f=>['GLB','STL','STEP','STP'].includes(f.format)):[]).map(f=>f.url).sort()};}
+export function expectedDetail(a){return {id:a.id,zip:primaryDownload(a)?.url,files:a.files.map(f=>f.url).sort(),direct:directModelFiles(a).map(f=>f.url).sort()};}
+const consumer=a=>a.type==='model'?{files:a.downloads.delivery.files,notice:a.downloads.delivery.notice,archive:a.downloads.delivery.archive}:{files:a.files,notice:a.downloads.minimal.notice,archive:a.downloads.minimal};
 export function expectedZipEntries(assets,{individual=false}={}){
  assert.ok(assets.length>0);if(individual)assert.equal(assets.length,1);
- const entries=assets.flatMap(a=>a.files.map(f=>({name:individual?f.name:`${a.id}/${f.name}`,bytes:f.bytes,sha256:f.sha256})));
- for(const a of assets)assertNotice(a.downloads.minimal.notice);
- const text=individual?assets[0].downloads.minimal.notice.text:assets.map(a=>`=== ${a.id} ===\n${a.downloads.minimal.notice.text}`).join('\n\n');
+ const entries=assets.flatMap(a=>consumer(a).files.map(f=>({name:individual?f.name:`${a.id}/${f.name}`,bytes:f.bytes,sha256:f.sha256})));
+ for(const a of assets)assertNotice(consumer(a).notice);
+ const text=individual?consumer(assets[0]).notice.text:assets.map(a=>`=== ${a.id} ===\n${consumer(a).notice.text}`).join('\n\n');
  const data=Buffer.from(text,'utf8');entries.push({name:'LICENSE.txt',bytes:data.length,sha256:sha256(data)});return entries;
 }
 export async function verifyBrowserZip(filename,assets,{individual=false}={}){
  const data=await readFile(filename);const archive={bytes:data.length,sha256:sha256(data)};
- if(individual){assert.equal(archive.bytes,assets[0].downloads.minimal.bytes);assert.equal(archive.sha256,assets[0].downloads.minimal.sha256);}
+ if(individual){assert.equal(archive.bytes,consumer(assets[0]).archive.bytes);assert.equal(archive.sha256,consumer(assets[0]).archive.sha256);}
  const entries=expectedZipEntries(assets,{individual});
  const python="import json,sys,zipfile,hashlib,stat\nexpected={r['name']:r for r in json.load(sys.stdin)}\nwith zipfile.ZipFile(sys.argv[1]) as z:\n names=z.namelist()\n assert len(names)==len(set(names)) and set(names)==set(expected), names\n assert z.testzip() is None\n for info in z.infolist():\n  assert not info.is_dir() and not stat.S_ISLNK(info.external_attr>>16) and not(info.flag_bits&1)\n  data=z.read(info.filename); row=expected[info.filename]\n  assert len(data)==row['bytes'] and hashlib.sha256(data).hexdigest()==row['sha256'],info.filename\n assert names.count('LICENSE.txt')==1\n";
  const result=spawnSync('python3',['-c',python,filename],{input:JSON.stringify(entries),encoding:'utf8'});
  assert.equal(result.status,0,`Browser ZIP member verification failed: ${result.stderr}`);return {...archive,entries};
 }
-export async function measureDist(root){
+export async function measureDist(root,{enforceBudget=true}={}){
  let bytes=0,files=0;
  async function visit(file){const info=await lstat(file);assert.ok(!info.isSymbolicLink(),`Symlink in dist: ${file}`);if(info.isDirectory()){for(const name of await readdir(file))await visit(path.join(file,name));}else{assert.ok(info.isFile(),`Nonregular dist entry: ${file}`);bytes+=info.size;files++;}}
- await visit(root);assert.ok(bytes<=PAGES_BUDGET,`Pages budget exceeded: ${bytes} > ${PAGES_BUDGET}`);return {bytes,files,budgetBytes:PAGES_BUDGET};
+ await visit(root);if(enforceBudget)assert.ok(bytes<=PAGES_BUDGET,`Pages budget exceeded: ${bytes} > ${PAGES_BUDGET}`);return {bytes,files,budgetBytes:PAGES_BUDGET};
 }

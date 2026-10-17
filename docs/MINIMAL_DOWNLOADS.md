@@ -1,12 +1,50 @@
-# Ordinary minimal ZIP binding
+# FBX-first delivery and retained minimal bindings
 
-This is an optional, publisher-verified projection on each generated catalog
-asset: `asset.downloads.minimal`. It applies to both models and textures. Do not
+The retained `asset.downloads.minimal` binding describes the original all-source
+minimal archive. It remains compatible for existing consumers and is the ordinary
+texture download. Models now use the additive `asset.downloads.delivery` contract
+below for both ordinary and selected downloads. Do not
 edit generated catalogs by hand. Do not add a placeholder record, a guessed
 Release ID, or an unverified URL. The checked-in ordinary activation binds the
 actual minimal-v1.0.0 release and is independently reverified at build time.
 
-## Exact contract
+## Current model delivery contract
+
+`downloads.delivery` is emitted only after mandatory same-job FBX prep, current
+source/metadata checks and the model delivery gate. It contains:
+
+- `schemaVersion: 1`, exact `id`, `assetVersion`, `packageVersion`.
+- `contentPolicy: fbx-required-textures-single-notice-v1`.
+- `sourceFiles`: original source inventory bound by the successful FBX proof;
+  these files remain in root `asset.files` for preview/legacy compatibility.
+- `archive`: the existing verified immutable FBX ZIP URL, filename, bytes, sha256.
+- `files`: exact consumer files with name, format, bytes, sha256, direct Release URL
+  and `fetch` transport. Currently all137 have embedded images and exactly one FBX.
+  A future external-texture model requires its own reviewed dependency adapter.
+- `notice` and `verification`: exact existing FBX notice and publication binding.
+
+The current fetch transport is `chunks-gzip-v1`: a same-site immutable JSON
+manifest, with its own bytes/SHA-256. It names bounded gzip chunks by compressed
+hash and records compressed/expanded counts and hashes. Chunks have content-defined
+64–512 KiB boundaries to share identical embedded data across FBXs. The browser
+verifies the manifest, every compressed/expanded chunk and final FBX before saving.
+It issues at most four parallel chunk reads, bounds expanded memory, rejects
+redirects, uses no credentials and fails the entire ZIP on missing/corrupt bytes.
+No preview, QA or transport manifest enters the consumer ZIP. The original137
+payload is reused byte-for-byte, never re-exported or re-licensed.
+
+`public/download-data` is generated output, not a committed source. Prep's local
+FBX payload cache is usable only after fresh verification and receipt consumption;
+it is not an offline bypass. The generator rehashes all payloads before replacing
+output. check-dist reconstructs all137 from the actual built chunks independently.
+
+The browser Release API experiment failed CORS (CI39041367750); neither a direct
+link nor a successful server-side download establishes CORS support. No API fetch
+or third-party proxy is used by the shipped bundle builder. Deployment is blocked
+until the complete build fits the existing Pages budget, or a separately verified
+immutable CORS host is approved and configured. See FBX_DISTRIBUTION_REVIEW.md.
+
+## Retained ordinary minimal contract
 
 The record has these fields (the accompanying JSON Schema is normative for
 shape; `minimalDownloadReadiness()` additionally checks current-asset joins):
@@ -71,28 +109,21 @@ does not constitute verification.
 
 ## UI and API behavior
 
-- Card download, detail primary ZIP and size sorting use the same selector.
-- A valid binding shows one `素材 ZIPをダウンロード` / `Download asset ZIP`.
-  Its contents are labeled exactly as asset files, required dependencies and
-  `LICENSE.txt` containing license and attribution.
-- Before migration, models use the existing `downloads.models` with the label
-  `3Dモデル ZIP（従来版）` / `Model ZIP (legacy)` and explicitly list both
-  `LICENSE.txt` and `ATTRIBUTION.txt`. Textures use `downloads.full`, labeled
-  `テクスチャ ZIP（従来版）` / `Texture ZIP (legacy)`, and explicitly list the
-  preview, metadata, README and both notices. The old bytes are never labeled
-  minimal. A model lacking a usable models ZIP can use an honestly labeled
-  legacy full ZIP. Missing usable downloads show an unavailable state.
-- No second ordinary full/models ZIP button is shown. Compatibility API fields
-  and all legacy immutable archives remain untouched.
-- Prominent direct original-format links are GLB, STL and STEP/STP when those
-  files actually exist. OBJ/glTF companion files remain available via the ZIP
-  and the existing individual-file disclosure, with a dependency warning.
-- `downloadHref()` preserves the full external Release URL. Do not route it
-  through the existing `local()` helper, which strips the host.
-- A batch ZIP consumer must require `minimalDownloadReadiness(asset).ready`,
-  join `sourceFiles` to `asset.files` by exact filename, and independently hash
-  the fetched source bytes and UTF-8 notice bytes before creating its ZIP. It
-  must not silently use the UI's legacy fallback for a minimal batch request.
+- Card download, detail primary ZIP and size sorting use one selector. Models
+  require valid `downloads.delivery`; missing/stale FBX shows unavailable and
+  unknown size, never 0 MB or an all-format fallback. Textures retain their
+  existing minimal/legacy behavior.
+- The model primary ZIP is FBX plus required textures and one short LICENSE.
+  A standalone FBX link is offered only when no companions are required.
+- Preview GLBs and original-format files remain in the viewer and legacy-file
+  disclosure. Compatibility fields and all immutable archives remain unchanged.
+- Selection uses delivery.files for models and minimal.sourceFiles for textures.
+  It makes one ZIP, one folder per asset, and one combined root LICENSE from the
+  exact notices. Failure never produces a partial download. Escape/Back cancel
+  active work, preserve selection and restore focus; retry starts a fresh job.
+- Size estimation includes actual payload bytes, UTF-8 filenames and STORE ZIP
+  overhead. Final size is Blob.size. Unknown inventory is explicitly unavailable.
+- `downloadHref()` preserves external Release hosts.
 
 ## Integration with other overlays
 
@@ -111,7 +142,7 @@ real transport evidence exists may the publisher add the exact record below:
 The document itself has `schemaVersion: 1`, `repository: "Xenoah/meshcopia"`
 and `activations`. Placeholder activation and T evidence are prohibited. The
 first adapter intentionally covers only the reviewed original 173-asset cohort.
-Future cohorts, including the requested new 232 assets, need their own reviewed
+Future cohorts, including the separately published new251 assets, need their own reviewed
 source/expected-data adapter using the same consumer binding contract.
 
 Before output cleanup, `generate.mjs` calls `prepareMinimalDownloads()`. A
@@ -143,8 +174,8 @@ cleanup; no permissive fallback is provided if these files are missing.
 The minimal FBX integration uses `docs/fbx-minimal-activation.json` and a separate
 verified `api/fbx-minimal-downloads.json` projection. Only that independently
 verified projection is passed to the model-delivery gate. Its two-entry FBX ZIP
-has its own filename contract; ordinary ZIPs and selected-asset bundles do not
-silently gain FBX files, and old eight-entry FBX ZIPs are never labeled minimal.
+has its own filename contract; model delivery binds those same verified FBX bytes explicitly for ordinary and
+selected ZIPs. Old eight-entry FBX ZIPs are never labeled minimal.
 See [FBX activation](fbx-minimal-activation/README.md) for exact F/R/T bindings and
 the same-job, single-use prep receipt. The batch-download modules retain one
 `initBatchDownload()` call alongside the existing catalog initializer.
@@ -156,4 +187,4 @@ baseline and all-model FBX browser/download checks. Neither workflow publishes
 or deploys. Both require real public bytes; fixture-only UI proof is not release
 proof. Production applies the same durable prep, original viewer, ordinary
 selected-download, FBX browser, texture and size-budget gates before publishing.
-The browser evidence does not claim FBX rendering or new232 availability.
+The browser evidence does not claim FBX rendering or new251 site availability.

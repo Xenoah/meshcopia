@@ -1,13 +1,13 @@
 // Read-only post-build regression. Baseline is preserved local stage6 output,
-// not a fresh release download. Only the explicitly additive ordinary minimal
-// download binding is projected away; every remaining original byte must match.
+// not a fresh release download. Only additive minimal/delivery fields are
+// projected away; every remaining original byte must match.
 import assert from 'node:assert/strict';
 import {readFile,readdir,stat,mkdir,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import path from 'node:path';
 const baseline=JSON.parse(await readFile(new URL('../docs/fbx-minimal-activation/original-api-baseline.json',import.meta.url),'utf8'));
 const hash=b=>createHash('sha256').update(b).digest('hex');
-const withoutMinimal=a=>{const copy=structuredClone(a);if(copy.downloads)delete copy.downloads.minimal;return copy;};
+const withoutMinimal=a=>{const copy=structuredClone(a);if(copy.downloads){delete copy.downloads.minimal;delete copy.downloads.delivery;}return copy;};
 assert.equal(hash(await readFile('docs/archive-lock.json')),baseline.archiveLockSha256);
 assert.equal(JSON.parse(await readFile('docs/archive-lock.json','utf8')).archives.length,310);
 for(const row of baseline.files){
@@ -25,6 +25,7 @@ assert.deepEqual(side.coverage,{publicModels:137,fbxReadyModels:137});assert.equ
 assert.deepEqual(side.formats.map(x=>x.id).sort(),catalog.assets.filter(x=>x.type==='model').map(x=>x.id).sort());
 assert.ok(!Object.hasOwn(side,'provenance')&&!Object.hasOwn(side,'releases'));
 let bytes=0;for(const p of await files('dist')){assert.notEqual(path.extname(p).toLowerCase(),'.fbx','Bulk FBX in Pages');bytes+=(await stat(p)).size;}
-assert.ok(bytes<950_000_000,'Pages operational budget exceeded');
-const report={scope:baseline.scope,originalApiProjectionsByteIdentical:175,onlyIgnoredField:'downloads.minimal',originalArchiveLedgerUnchanged:310,fbxReadyModels:137,distBytes:bytes};
+
+const report={scope:baseline.scope,originalApiProjectionsByteIdentical:175,onlyIgnoredFields:['downloads.minimal','downloads.delivery'],originalArchiveLedgerUnchanged:310,fbxReadyModels:137,distBytes:bytes};
 await mkdir('test-results',{recursive:true});await writeFile('test-results/fbx-minimal-baseline.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
+assert.ok(bytes<950_000_000,`Pages operational budget exceeded: ${bytes}`);

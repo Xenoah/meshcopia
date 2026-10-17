@@ -1,10 +1,11 @@
+import {completeTexture} from './delivery-fixtures.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {formatBytes,bundleSizeSummary} from '../src/lib/file-size.mjs';
 import {planBundle,POLICY} from '../src/lib/batch-download.mjs';
 // Deterministic UI handler tests, not a substitute for real mobile/browser QA.
-function asset(id){const text='CC BY 4.0\n',f={name:'model.glb',bytes:10,sha256:'1'.repeat(64),url:`https://xenoah.github.io/meshcopia/assets/${id}/source/model.glb`};return {id,title:id,titleEn:id,status:'public',version:'1.0.0',files:[f],downloads:{minimal:{id,assetVersion:'1.0.0',contentPolicy:POLICY,noticeFile:'LICENSE.txt',sourceFiles:[f],notice:{filename:'LICENSE.txt',text,bytes:text.length,sha256:'2'.repeat(64)}}}};}
+function asset(id){const text='CC BY 4.0\n',f={name:'model.glb',bytes:10,sha256:'1'.repeat(64),url:`https://xenoah.github.io/meshcopia/assets/${id}/source/model.glb`};return completeTexture({id,title:id,titleEn:id,status:'public',version:'1.0.0',files:[f],downloads:{minimal:{id,assetVersion:'1.0.0',contentPolicy:POLICY,noticeFile:'LICENSE.txt',sourceFiles:[f],notice:{filename:'LICENSE.txt',text,bytes:text.length,sha256:'2'.repeat(64)}}}});}
 async function setup(){
  const events=new Map(),elements=[],assets=[asset('one'),asset('two')];
  const document={documentElement:{lang:'ja'},addEventListener:(n,f)=>events.set(n,f)};

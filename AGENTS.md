@@ -23,8 +23,10 @@ direct downloads, machine-readable catalog, and mobile accessibility.
    creator and generation/source provenance. Do not silently relicense NC or
    third-party assets. Do not invent verification claims.
 3. For a model, report actual triangles, unit, up axis, dimensions and UV limits.
-   GLB is preferred for a self-contained download. OBJ must include MTL and
-   textures. Keep external resources within `source/` using relative paths.
+   Use verified FBX for consumer delivery, with required textures. Retain GLB
+   for browser previews and production originals/QA separately. STL/OBJ and other
+   exports are optional when specifically requested; preserve existing files/URLs.
+   Keep dependencies relative and inside their respective package.
 4. For textures, specify maps, width/height, resolution (longest edge), wrapMode,
    normal convention when a normal map exists, and color spaces. Repeat textures
    must match both edge pairs. Mirror textures need alternating flips in 2×2
@@ -45,6 +47,10 @@ direct downloads, machine-readable catalog, and mobile accessibility.
 - Follow docs/ASSET_PRODUCTION_RULES.md for production, format QA and consumer
   ZIP layout. New consumer ZIPs use one short LICENSE.txt with attribution;
   historical immutable ZIPs keep their original bytes and notice layout.
+- Models use `downloads.delivery` for ordinary and selected FBX downloads;
+  textures retain `downloads.minimal`. Missing verified FBX is unavailable, never
+  an implicit all-format fallback. Delivery transport must pass the full Pages
+  budget and actual browser byte tests before deployment.
 - Minimal ZIP activation requires the verified binding in
   docs/MINIMAL_DOWNLOADS.md. Keep legacy full/models API fields compatible.
 - Individual file downloads show attribution beside the button; the raw model
@@ -52,7 +58,8 @@ direct downloads, machine-readable catalog, and mobile accessibility.
 
 ## Verification and releases
 
-`npm ci && npm run check` validates metadata, source safety, GLB headers,
+Run `npm ci`, then the mandatory anonymous durable prep described in
+`docs/fbx-minimal-activation/README.md`, then `npm run check`. This validates metadata, source safety, GLB headers,
 catalog filtering, ZIP structure, links and hashes. CI also verifies texture
 edges and runs Chromium interactions with software WebGL before creating a
 release. Keep screenshots as CI artifacts and release notes honest about limits.

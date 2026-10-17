@@ -17,7 +17,7 @@ export function deliveryReadiness(asset) {
  if(d.files.filter(f=>/\.fbx$/i.test(f.name)).length!==1)return fail('fbx');
  for(const f of d.files){
   if(!safe(f.name)||!size(f.bytes)||!hash.test(f.sha256)||!(/\.(fbx|png|jpe?g|webp|tga|tiff?|exr)$/i.test(f.name)))return fail('files');
-  if(f.url!==root+f.name||f.fetch?.accept!=='application/octet-stream'||!/^https:\/\/api.github.com\/repos\/Xenoah\/meshcopia\/releases\/assets\/[1-9][0-9]*$/.test(f.fetch.url))return fail('transport');
+  if(f.url!==root+f.name||f.fetch?.kind!=='chunks-gzip-v1'||!size(f.fetch.bytes)||f.fetch.bytes>1048576||!hash.test(f.fetch.sha256)||!new RegExp('^https://xenoah\\.github\\.io(?:/[a-zA-Z0-9_-]+)*/download-data/'+f.fetch.sha256+'\\.json$').test(f.fetch.url))return fail('transport');
  }
  const n=d.notice;
  if(n?.filename!=='LICENSE.txt'||typeof n.text!=='string'||!n.text.trim()||!size(n.bytes)||n.bytes>32768||new TextEncoder().encode(n.text).length!==n.bytes||!hash.test(n.sha256))return fail('notice');

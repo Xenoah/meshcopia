@@ -14,13 +14,14 @@
 Catalog schemaVersion: 2.1.0. assets[] contains id, type, title, titleEn, tags,
 category, author, license, version, provenance, thumbnail, pageUrl, manifestUrl,
 attribution, files[], downloads.full and (models only) downloads.models.
-When present, publisher-verified downloads.minimal is the ordinary ZIP for either
-asset type. It contains asset files, required dependencies, and one LICENSE.txt
-with license and attribution. It is hosted at a pinned GitHub Release URL; keep
-the URL host. Match its id, assetVersion and sourceFiles to the current asset.
-Absent a valid minimal binding, downloads.models / downloads.full remain legacy
-archives with their original contents, URLs and hashes. Do not relabel them minimal.
-Use files[].url for individual files; prefer self-contained GLB for a single model.
+Models use publisher-verified downloads.delivery: archive is the ordinary FBX ZIP;
+files is the exact FBX/required-texture consumer inventory, with one notice.
+Missing delivery means FBX unavailable; do not silently select all-format archives.
+Textures retain downloads.minimal (or a truthfully labeled legacy downloads.full).
+The files[] at asset root are retained original/preview files, not the batch payload.
+downloads.full/models/minimal keep their historical content, URLs and hashes.
+Batch consumers use downloads.delivery.files and its verified chunk manifest.
+Never assume GitHub Release links allow browser fetch. Keep direct Release hosts.
 Every file and ZIP has bytes and sha256. Verify the downloaded bytes before use.
 Keep LICENSE.txt from minimal ZIPs. For legacy ZIPs, keep both ATTRIBUTION.txt
 and LICENSE.txt. Indicate any changes in your credits.

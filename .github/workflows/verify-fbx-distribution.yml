@@ -21,14 +21,26 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: Prove anonymous browser CORS transport
-        run: node scripts/probe-fbx-transport.mjs
+      - run: node scripts/check-download-ui-source.mjs
+      - run: node scripts/check-archive-lock.mjs --check-history
+      - name: Verify existing immutable FBX release and retain exact payloads
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - run: npm run check
+      - name: Verify real ordinary and selected ZIPs, size, cancel, retry and navigation
+        run: node scripts/test-minimal-downloads-browser.mjs
+      - name: Verify every FBX link, anonymous downloads, mobile and no-JS
+        run: node scripts/test-fbx-minimal-downloads-browser.mjs
+      - name: Preserve viewer and texture regressions
+        run: node scripts/test-browser.mjs
+      - name: Preserve original API and enforce complete Pages capacity
+        run: node scripts/check-fbx-minimal-baseline.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: fbx-distribution-${{ github.sha }}
           path: test-results/
   baseline:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:

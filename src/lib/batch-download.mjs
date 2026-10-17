@@ -26,9 +26,10 @@ export function planBundle(assets,{limit=bundleLimit(),baseURL=globalThis.locati
   for(const source of d.sourceFiles){
    metadata(source);safePath(source.name);const f=inventory.get(source.name);
    if(!f||f.bytes!==source.bytes||f.sha256!==source.sha256||/\.(zip|js|py|ts|sh|exe|json|md)$/i.test(source.name)||source.name.toLowerCase()==='license.txt')fail('metadata');
-   const url=new URL(model?f.fetch.url:f.url,baseURL),base=new URL(baseURL);
+   const base=new URL(baseURL),url=new URL(model?f.fetch.url:f.url,baseURL);
+   if(model){const expectedRoot=new URL('.',base).pathname+'download-data/';if(!url.pathname.startsWith(expectedRoot))fail('url');url.protocol=base.protocol;url.host=base.host;}
    if(!model&&(url.username||url.password||!((url.origin===base.origin&&url.pathname.startsWith(`${new URL('.',base).pathname}assets/${a.id}/source/`))||(url.protocol==='https:'&&url.hostname==='raw.githubusercontent.com'&&url.pathname.startsWith('/Xenoah/meshcopia/')))))fail('url');
-   add({...source,name:`${a.id}/${source.name}`,url:url.href,...(model?{headers:{Accept:f.fetch.accept}}:{})});
+   add({...source,name:`${a.id}/${source.name}`,url:url.href,...(model?{transport:f.fetch}:{})});
   }
   const notice=d.notice;metadata(notice);if(notice.filename!=='LICENSE.txt'||typeof notice.text!=='string'||notice.bytes>32768)fail('notice');
   const data=encoder.encode(notice.text);if(data.byteLength!==notice.bytes)fail('notice');notices.push({id:a.id,data,sha256:notice.sha256});
@@ -48,10 +49,33 @@ export async function buildBundle(plan,{signal,fetchImpl=globalThis.fetch,crypto
  for(const entry of plan.entries){
   checkAbort(signal);let data=entry.data;
   if(!data){
-   let response;try{response=await fetchImpl(entry.url,{signal,headers:entry.headers,mode:'cors',credentials:'omit',cache:'no-cache',redirect:'follow',referrerPolicy:'no-referrer'});}catch(e){if(signal?.aborted)throw e;fail('network',entry.name);}
-   if(!response.ok||response.type==='opaque'||!response.body)fail('network',entry.name);
-   const reader=response.body.getReader();data=new Uint8Array(entry.bytes);let position=0;
-   try{while(true){checkAbort(signal);const {done:ended,value}=await reader.read();if(ended)break;if(position+value.byteLength>entry.bytes)fail('integrity',entry.name);data.set(value,position);position+=value.byteLength;onProgress({bytes:done+position,total:plan.bytes,index,count:plan.entries.length});}if(position!==entry.bytes)fail('integrity',entry.name);}finally{await reader.cancel().catch(()=>{});reader.releaseLock();}
+   if(entry.transport){
+    const manifestBytes=await fetchBytes(entry.url,entry.transport.bytes,{signal,fetchImpl});
+    await verifyHash(manifestBytes,entry.transport.sha256,cryptoImpl);
+    let manifest;try{manifest=JSON.parse(new TextDecoder().decode(manifestBytes));}catch{fail('integrity');}
+    if(manifest.schemaVersion!==1||manifest.bytes!==entry.bytes||manifest.sha256!==entry.sha256||!Array.isArray(manifest.chunks)||!manifest.chunks.length||manifest.chunks.length>4096)fail('integrity');
+    let total=0;for(const c of manifest.chunks){
+     if(!Number.isSafeInteger(c.bytes)||c.bytes<=0||c.bytes>524288||!Number.isSafeInteger(c.packedBytes)||c.packedBytes<=0||c.packedBytes>525000||!(/^[a-f0-9]{64}$/.test(c.sha256))||!(/^[a-f0-9]{64}$/.test(c.packedSha256)))fail('integrity');
+     total+=c.bytes;
+    }
+    if(total!==entry.bytes)fail('integrity');
+    if(typeof DecompressionStream==='undefined')fail('unsupported');
+    data=new Uint8Array(entry.bytes);let next=0,complete=0;
+    const offsets=[];total=0;for(const c of manifest.chunks){offsets.push(total);total+=c.bytes;}
+    // At most four bounded compressed chunks plus the planned output buffer.
+    const jobs=Array.from({length:Math.min(4,manifest.chunks.length)},async()=>{
+     while(next<manifest.chunks.length){
+      const index=next++,c=manifest.chunks[index];checkAbort(signal);
+      const url=new URL(c.packedSha256+'.gz',entry.url).href;
+      const packed=await fetchBytes(url,c.packedBytes,{signal,fetchImpl});await verifyHash(packed,c.packedSha256,cryptoImpl);
+      const expanded=await readBounded(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip')),c.bytes,signal);
+      await verifyHash(expanded,c.sha256,cryptoImpl);checkAbort(signal);data.set(expanded,offsets[index]);complete+=c.bytes;
+      onProgress({bytes:done+complete,total:plan.bytes,index:0,count:plan.entries.length});
+     }
+    });
+    // Await all workers on failure: an old job must never race a retry's UI.
+    const results=await Promise.allSettled(jobs);const error=results.find(r=>r.status==='rejected');if(error)throw error.reason;
+   }else data=await fetchBytes(entry.url,entry.bytes,{signal,fetchImpl,onProgress:position=>onProgress({bytes:done+position,total:plan.bytes,index,count:plan.entries.length})});
   }
   checkAbort(signal);const hash=[...new Uint8Array(await cryptoImpl.subtle.digest('SHA-256',data))].map(b=>b.toString(16).padStart(2,'0')).join('');
   if(entry.notices){for(const n of entry.notices){const h=[...new Uint8Array(await cryptoImpl.subtle.digest('SHA-256',n.data))].map(b=>b.toString(16).padStart(2,'0')).join('');if(h!==n.sha256)fail('integrity','LICENSE.txt');}}else if(hash!==entry.sha256)fail('integrity',entry.name);checkAbort(signal);
@@ -65,4 +89,16 @@ export async function buildBundle(plan,{signal,fetchImpl=globalThis.fetch,crypto
  checkAbort(signal);const centralSize=central.reduce((sum,p)=>sum+p.length,0);
  const end=header(22,[[0,0x06054b50,4],[8,index,2],[10,index,2],[12,centralSize,4],[16,offset,4]]);
  return new Blob([...parts,...central,end],{type:'application/zip'});
+}
+
+async function verifyHash(data,expected,cryptoImpl){const actual=[...new Uint8Array(await cryptoImpl.subtle.digest('SHA-256',data))].map(b=>b.toString(16).padStart(2,'0')).join('');if(actual!==expected)fail('integrity');}
+async function readBounded(stream,length,signal,onProgress=()=>{}){
+ const reader=stream.getReader(),data=new Uint8Array(length);let position=0;
+ try{while(true){checkAbort(signal);const {done,value}=await reader.read();if(done)break;if(position+value.byteLength>length)fail('integrity');data.set(value,position);position+=value.byteLength;onProgress(position);}if(position!==length)fail('integrity');return data;}
+ finally{await reader.cancel().catch(()=>{});reader.releaseLock();}
+}
+async function fetchBytes(url,length,{signal,fetchImpl,onProgress}){
+ let response;try{response=await fetchImpl(url,{signal,mode:'cors',credentials:'omit',cache:'force-cache',redirect:'error',referrerPolicy:'no-referrer'});}catch(e){if(signal?.aborted)throw e;fail('network');}
+ if(!response.ok||response.type==='opaque'||!response.body)fail('network');
+ return readBounded(response.body,length,signal,onProgress);
 }

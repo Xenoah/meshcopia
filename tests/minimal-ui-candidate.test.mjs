@@ -1,3 +1,4 @@
+import {completeTexture} from './delivery-fixtures.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile,mkdtemp,writeFile,rm} from 'node:fs/promises';
@@ -22,7 +23,7 @@ test('all contributor entrypoints refer to one shared production document',async
     assert.ok(text.includes('docs/ASSET_PRODUCTION_RULES.md'),name);
   }
   const rules=await readFile(new URL('../docs/ASSET_PRODUCTION_RULES.md',import.meta.url),'utf8');
-  assert.match(rules,/FBX alongside/);assert.match(rules,/clean scene/);assert.match(rules,/single root `LICENSE\.txt`/);
+  assert.match(rules,/FBX as the consumer model format/);assert.match(rules,/clean scene/);assert.match(rules,/single root `LICENSE\.txt`/);
 });
 test('ordinary activation retains the strict schema and production validation hooks',async()=>{
   const activation=JSON.parse(await readFile(new URL('../docs/minimal-activation.json',import.meta.url),'utf8'));
@@ -56,7 +57,7 @@ test('browser-evidence recorder validates ZIP payloads and retains fixture limit
       const data=Buffer.from(id),name=id==='studio-chair'?'model.glb':'color.png';
       const file={name,bytes:data.length,sha256:digest(data),url:`https://xenoah.github.io/meshcopia/assets/${id}/source/${name}`};
       const text=`Fixture only: ${id}\nCC BY 4.0\n`;
-      return {id,status:'public',version:'1.0.0',files:[file],downloads:{minimal:{id,assetVersion:'1.0.0',contentPolicy:POLICY,noticeFile:'LICENSE.txt',sourceFiles:[file],notice:{filename:'LICENSE.txt',text,bytes:Buffer.byteLength(text),sha256:digest(text)}}}};
+      return completeTexture({id,status:'public',version:'1.0.0',files:[file],downloads:{minimal:{id,assetVersion:'1.0.0',contentPolicy:POLICY,noticeFile:'LICENSE.txt',sourceFiles:[file],notice:{filename:'LICENSE.txt',text,bytes:Buffer.byteLength(text),sha256:digest(text)}}}});
     });
     const plan=planBundle(assets),blob=await buildBundle(plan,{cryptoImpl:webcrypto,fetchImpl:async url=>new Response(assets.find(a=>url.includes('/'+a.id+'/')).id)});
     for(const name of ['live-browser-proof.zip','batch-desktop.zip','batch-mobile.zip'])await writeFile(path.join(root,name),Buffer.from(await blob.arrayBuffer()));

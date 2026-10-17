@@ -12,17 +12,19 @@
 
 - 大きなサムネイル、名前・タグ・形式検索、カテゴリー、種類、並び替え。検索条件はURLで共有。
 - 一覧からクイック3Dプレビュー。詳細で回転・拡大・ワイヤー・ライティング・材質を切替。
-- GLB / glTF / STL / OBJ / STEPの元形式をプレビュー。Three.js / occt-import-js。追加FBXはダウンロード用で、今回のブラウザ検証対象は表示ではなくリンクと実ダウンロード。
+- GLB / glTF / STL / OBJ / STEPの元形式をプレビュー。Three.js / occt-import-js。FBXは配布用で、今回のブラウザ検証対象は表示ではなくリンクと実ダウンロード。
 - 通常・鏡像リピートの1×1・2×2・4×4確認と球体表示。アトラスは非タイル素材として元の縦横比で表示。
-- 通常のZIPは1種類。検証済みの最小構成ZIPがある素材から、素材ファイル・必要な関連ファイル・短い `LICENSE.txt` 1ファイルへ移行。GLB / STL / STEPは収録されている形式の個別リンクも表示。
-- 公開済み137モデルに、追加のFBX単体ファイルと、FBX・`LICENSE.txt`のみのZIPを用意。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があります。元のPBRの見た目にはGLBを推奨。UnityやGodotで同じ見た目になるとは保証していません。
+- 通常のモデルZIPはFBX・必要テクスチャ・短い `LICENSE.txt` 1枚。一括ZIPは素材別フォルダーと共通LICENSE 1枚。テクスチャ単体作品の画像ダウンロードも維持。
+- 公開済み137モデルの検証済みFBX ZIPを通常取得に再利用。GLBはプレビュー、制作原本とQAは別に保持。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があり、UnityやGodotで同じ見た目になるとは保証していません。
 - 全素材 **CC BY 4.0**。商用利用・改変・再配布可。作者名・出典・ライセンス・変更点の表示が必要。
 - 認証不要のJSON/NDJSONカタログ、個別マニフェスト、SHA-256、クレジットコピー。
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。
 
 ### 素材制作・ダウンロードの共通ルール
 
-新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。新しい利用者向けZIPは素材と必要な関連ファイル、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。過去の不変ZIPは元の内容・URL・ハッシュを保持します。検証済み公開URLへの切り替えは [minimal download binding](docs/MINIMAL_DOWNLOADS.md) を参照。
+新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。新しい利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。過去の不変ZIPは元の内容・URL・ハッシュを保持します。検証済み公開URLへの切り替えは [minimal download binding](docs/MINIMAL_DOWNLOADS.md) を参照。
+
+> **このブランチの配布変更は未公開です。** 既存URLを維持した実ビルドの容量ゲートを通す必要があります。251点のRelease公開とサイト反映は別作業です。[検証・公開前の残作業](docs/FBX_DISTRIBUTION_REVIEW.md)。
 
 ## 収録素材
 
@@ -62,7 +64,7 @@ Node.js 22以上。
 
 ```sh
 npm ci
-npm run dev
+python3 scripts/prepare-fbx-minimal-activation.py --repo "$PWD" --verification-mode durable-transport-attestation
 npm run check
 ```
 
@@ -93,7 +95,7 @@ git push origin main
 
 ## 素材の再生成
 
-通常のビルドではPython不要。オリジナルの生成コードを再実行する場合のみ:
+現在のビルドにはPython 3と匿名Release検証が必要です。オリジナルの生成コードを再実行する場合のみ:
 
 ```sh
 python3 -m pip install -r scripts/requirements-assets.txt

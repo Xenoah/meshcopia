@@ -45,7 +45,7 @@ test('FBX site verification is branch-bounded, read-only and checks output witho
 });
 
 test('FBX compatibility note preserves original selectors and honest importer limits',async()=>{
- const s=(await read('src/pages/assets/[id].astro')).toString();for(const text of ['primaryDownload(a)','directModelFiles(a)','fbxMinimalForAsset(a,fbxProjection)','FBX materials, transparency and face culling can vary by importer.','Prefer GLB for the original PBR appearance.','Matching appearance in Unity or Godot is not guaranteed.'])assert.ok(s.includes(text),text);
+ const s=(await read('src/pages/assets/[id].astro')).toString();for(const text of ['primaryDownload(a)','directModelFiles(a)','fbxMinimalForAsset(a,fbxProjection)','FBX materials, transparency and face culling can vary by importer.','GLB is retained for previews.','Matching appearance in Unity or Godot is not guaranteed.'])assert.ok(s.includes(text),text);
  assert.match(s,/class="fbx-download"/);assert.doesNotMatch(s,/data-format="fbx"/);
  const b=(await read('scripts/test-fbx-minimal-downloads-browser.mjs')).toString();assert.match(b,/for\(const record of side.formats\)/);assert.match(b,/waitForEvent\('download'/);assert.match(b,/verify_two_entry_zip/);assert.match(b,/javaScriptEnabled:false/);assert.doesNotMatch(b,/\.route\(|Authorization|GITHUB_TOKEN|GH_TOKEN/);
 });

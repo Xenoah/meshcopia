@@ -26,7 +26,7 @@ const server=createServer(async(req,res)=>{
 });
 await new Promise(resolve=>server.listen(4174,'127.0.0.1',resolve));
 await mkdir('test-results',{recursive:true});
-const browser=await chromium.launch({headless:true,args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
+const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
 const evidence={browserFbxRendering:false,scope:'Local built pages; actual anonymous immutable Release browser downloads',coverage:side.coverage,pages:[],originalButtonsChecked:[],downloads:[]};
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1050},acceptDownloads:true});
@@ -42,9 +42,9 @@ try{
   for(const [index,file] of direct.entries())assert.equal(await page.locator('.direct-formats a.direct-download').nth(index).getAttribute('href'),downloadHref(file.url));
   const box=page.locator('.fbx-download');assert.equal(await box.count(),1);
   assert.equal(await box.locator('.fbx-compatibility').count(),1);
-  assert.match(await box.locator('.fbx-compatibility').getAttribute('data-en'),/materials, transparency and face culling.*GLB.*PBR/);
-  assert.equal(await box.locator('a.button').getAttribute('href'),record.archive.url);
-  assert.equal(await box.locator('a.direct-download').getAttribute('href'),record.direct.url);
+  assert.match(await box.locator('.fbx-compatibility').getAttribute('data-en'),/materials, transparency and face culling.*GLB/);
+  assert.equal(await page.locator('.download-primary').getAttribute('href'),record.archive.url);
+  assert.equal(await page.locator('.direct-formats a.direct-download').getAttribute('href'),record.direct.url);
   assert.equal(await page.locator('[data-format="fbx"]').count(),0,'FBX unexpectedly added to browser viewer');
   for(const limitation of record.limitations)assert.ok((await box.textContent()).includes(limitation));
   evidence.pages.push(record.id);evidence.originalButtonsChecked.push(record.id);
@@ -56,7 +56,7 @@ try{
   const record=side.formats.find(r=>r.id===id);assert.ok(record);
   await page.goto(home+`assets/${id}/`);
   await page.locator('.fbx-download > summary').click();
-  for(const [selector,expected] of [['.fbx-download a.button',record.archive],['.fbx-download a.direct-download',record.direct]]){
+  for(const [selector,expected] of [['.download-primary',record.archive],['.direct-formats a.direct-download',record.direct]]){
    const pending=page.waitForEvent('download',{timeout:120000});await page.locator(selector).click();const download=await pending;
    assert.equal(await download.failure(),null);const data=await readFile(await download.path());const digest=createHash('sha256').update(data).digest('hex');
    assert.equal(data.length,expected.bytes);assert.equal(digest,expected.sha256);
@@ -80,7 +80,7 @@ try{
   assert.equal(dimensions.notice.whiteSpace,'pre-wrap');assert.equal(dimensions.notice.overflowWrap,'anywhere');
   assert.equal(await page.locator('.fbx-download pre').textContent(),side.formats.find(row=>row.id==='commons-bar-stool').notice.text,'Notice text changed or truncated');
  }
- const nojs=await browser.newContext({javaScriptEnabled:false});const nojsPage=await nojs.newPage();await nojsPage.goto(home+'assets/commons-bar-stool/');await nojsPage.locator('.fbx-download > summary').click();assert.ok(await nojsPage.locator('.fbx-download a.button').isVisible());assert.ok(await nojsPage.locator('.fbx-download a.direct-download').isVisible());await nojs.close();
+ const nojs=await browser.newContext({javaScriptEnabled:false});const nojsPage=await nojs.newPage();await nojsPage.goto(home+'assets/commons-bar-stool/');await nojsPage.locator('.fbx-download > summary').click();assert.ok(await nojsPage.locator('.download-primary').isVisible());assert.ok(await nojsPage.locator('.direct-formats a.direct-download').isVisible());await nojs.close();
  assert.deepEqual(errors,[]);await writeFile('test-results/fbx-minimal-browser-evidence.json',JSON.stringify(evidence,null,2)+'\n');
  console.log('PASS:137 FBX detail links,6 real browser downloads, mobile and no-JS links.');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve))}

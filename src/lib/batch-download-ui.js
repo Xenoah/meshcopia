@@ -15,6 +15,7 @@ export function initBatchDownload(){
  // that later event to navigate can overwrite the user's next filter change.
  function requestClose(){
   if(count.disabled)return;
+  controller?.abort();
   if(history.state?.meshcopiaSelection){count.disabled=true;history.back();}
   else {dialog.close();count.focus();}
  }
@@ -23,7 +24,7 @@ export function initBatchDownload(){
  window.addEventListener('popstate',()=>{
   const restoreFocus=dialog.open||count.disabled;count.disabled=false;
   if(history.state?.meshcopiaSelection){if(!dialog.open){dialog.showModal();close.focus();}}
-  else {if(dialog.open)dialog.close();if(restoreFocus)count.focus();}
+  else {controller?.abort();if(dialog.open)dialog.close();if(restoreFocus)count.focus();}
  });
  const ready=a=>{try{return !!planBundle([a]);}catch{return false;}};
  try{const saved=JSON.parse(sessionStorage.getItem(key)||'[]');if(Array.isArray(saved))saved.slice(0,50).forEach(id=>{if(byId.has(id)&&ready(byId.get(id)))selected.add(id)});}catch{}

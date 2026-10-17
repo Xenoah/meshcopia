@@ -6,10 +6,11 @@ It does not change authentication, authorization or publishing permissions.
 
 ## Complete model delivery
 
-Every new model generation task must deliver FBX alongside the existing GLB/STL
-and any other requested formats. “Together” means one complete deliverable set,
-not that export processes must run at the same instant. A successful GLB export
-alone is not completion. Preserve originals and their explicit license/provenance.
+Every new model generation task must deliver FBX as the consumer model format,
+with only its required textures. Keep GLB for browser previews and retain
+production originals and QA separately. STL/OBJ/STEP are optional requested
+exports, not compulsory companions. A successful preview export alone is not
+completion. Preserve existing originals, URLs and explicit license/provenance.
 
 Use the reviewed conversion/export recipe. Reuse already verified, unchanged
 outputs when their source and output hashes still match; do not regenerate a
@@ -32,7 +33,9 @@ may reuse their hash-matched FBX and QA evidence.
 
 ## Single-asset download ZIP
 
-- Put usable model files or declared texture maps at the ZIP top level.
+- Put the verified FBX and required texture maps at the model ZIP top level.
+  Standalone texture works retain their declared image maps. GLB previews and
+  production/QA files are excluded from new consumer ZIPs.
 - Retain subdirectories only where actual model/texture references require them.
   Never add an asset-name wrapper, `source/` wrapper or double root just for packaging.
 - Include exactly one short `LICENSE.txt`. Preserve supplied creator/designated
@@ -57,10 +60,11 @@ to removed local documentation files in the notice.
 
 ## Multiple selected assets: one ZIP
 
-Generate one ZIP, not a ZIP containing other ZIPs. Use one folder per asset to
+Generate one ZIP, not a ZIP containing other ZIPs. Model folders contain FBX and
+required textures only; standalone texture works retain their image maps. Use one folder per asset to
 avoid filename collisions. Keep a single root `LICENSE.txt` that aggregates the
 exact retained notice for every selected asset, including each source URL.
-Do not duplicate LICENSE inside every folder. Verify every fetched source and
+Do not duplicate LICENSE inside every folder. Verify every fetched delivery payload and
 notice byte count/hash before including it. No silent partial archive on error.
 
 Show the selected count at the upper right; activating it opens the selection
@@ -83,3 +87,19 @@ Pages-local paths. Stay within the Pages size budget.
 Metadata, release records and QA assertions must describe actual verified state.
 Prepared manifests, local tests and unexecuted browser fixtures are not evidence
 that a release or feature is publicly available.
+
+## Current transport and capacity
+
+Ordinary model links reuse the verified immutable FBX ZIPs. Batch downloads
+reconstruct exactly the same FBX bytes from bounded, hash-addressed gzip chunks
+served from the site, sharing duplicate data across models. The chunk manifest,
+compressed bytes, expanded bytes and final FBX all require hashes and byte counts.
+Never assume a clickable Release URL supports fetch/CORS. The tested Release API
+transport failed browser fetch and is not used. Missing/changed chunks fail the
+whole bundle; cancellation and retry preserve selection.
+
+This candidate must not deploy until the complete built site passes 950,000,000
+bytes (operational) and 1,000,000,000 bytes (hard ceiling). Existing URLs are not
+removed to make space. If the budget fails, use a separately reviewed immutable
+CORS-capable payload host and verify it before activation. No host is invented
+or published by this change. See MINIMAL_DOWNLOADS.md and FBX_DISTRIBUTION_REVIEW.md.
