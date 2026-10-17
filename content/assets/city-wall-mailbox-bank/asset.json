@@ -1,0 +1,63 @@
+{
+  "id": "city-wall-mailbox-bank",
+  "type": "model",
+  "title": "集合郵便受け（12戸）",
+  "titleEn": "Wall mailbox bank, 12 units",
+  "description": "集合住宅のエントランスに並ぶ、3列×4段・12戸分の壁付け郵便受けです。灰色の本体と天板、銀色の扉、投函口とフラップ、無地の名札窓、ダイヤル錠を造形しています。原点は底面中央で、壁取付けの高さ・ビスは含みません。名札・部屋番号などの文字、郵便物、扉の開閉動作はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.040 × 0.686 × 0.362 m、9,912三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A 3×4, twelve-unit wall mailbox bank for apartment entrances. It models the grey carcass and top cap, satin silver doors, insertion slots with flaps, blank name-card windows and dial locks. The origin is at the bottom center; wall mounting height and screws are not included. No names, unit numbers or other lettering, mail, or door motion is provided. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.040 × 0.686 × 0.362 m; 9,912 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "mailbox",
+    "apartment-entrance",
+    "post",
+    "wall-mounted",
+    "集合ポスト"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-wall-mailbox-bank.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9912,
+  "dimensions": [
+    1.04,
+    0.686,
+    0.362
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+    "sourceSha256": "b81b957b195ffda4c145b0fb04350ce07e036f0e2d6147b800c6eeb7fe5f7906",
+    "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "c30619cfa256b2982883ee8601be3335458ae602f4f17ec772c214461379718d"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+        "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-wall-mailbox-bank"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

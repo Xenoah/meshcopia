@@ -1,0 +1,63 @@
+{
+  "id": "city-folding-refuse-collection-cage",
+  "type": "model",
+  "title": "折りたたみ式ごみ集積ボックス",
+  "titleEn": "Folding refuse collection cage",
+  "description": "住宅地のごみステーションに置く、緑色の網目ボックスです。角柱と上下の枠、溶接金網の4面、蝶番付きの網ふたと取っ手、前面の留め金、無地の掲示板、脚部パッドを造形しています。ふたは閉じた状態で、折りたたみ・開閉動作、ごみ袋、文字の掲示は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.260 × 0.943 × 0.898 m、32,528三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A green welded-mesh refuse collection cage for residential collection points. It models corner posts, top and bottom frames, four mesh walls, a hinged mesh lid with grab handle, front latch, a blank notice plate and foot pads. The lid is shown closed; folding or opening motion, refuse bags and lettered notices are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.260 × 0.943 × 0.898 m; 32,528 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "refuse",
+    "garbage-station",
+    "mesh-cage",
+    "waste-collection",
+    "ごみ集積所"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-folding-refuse-collection-cage.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 32528,
+  "dimensions": [
+    1.26,
+    0.9425,
+    0.898
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+    "sourceSha256": "bf660c17e724fd3bc000662c15a100369164bc5a78a5bfa4cd4c3f8732375ad3",
+    "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "1ef8df4fd3cd274536d7090ddafa56b22d7426709c6e4e2d28c8a8f9039c3618"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+        "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-folding-refuse-collection-cage"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

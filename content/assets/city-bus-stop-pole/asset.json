@@ -1,0 +1,62 @@
+{
+  "id": "city-bus-stop-pole",
+  "type": "model",
+  "title": "バス停標識",
+  "titleEn": "Bus stop pole",
+  "description": "重量コンクリートの丸い台座に立つ、移動可能なバス停標識です。灰色の支柱と頭部キャップ、両面の丸い標識板と青い縁、取付金具、透明カバー付きの時刻表ケースを造形しています。停留所名・路線番号・時刻表・事業者名などの文字や図記号は含まず、無地の面として残しています。 時刻表カバーはGLB内の半透明（アルファブレンド）材質です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.572 × 2.565 × 0.572 m、4,836三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A movable bus stop pole on a weighted round concrete base. It models the grey pole and cap, a double-sided round flag sign with a blue rim, clamps, and a timetable case with a clear cover. Stop names, route numbers, timetables, operator branding, lettering and symbols are intentionally absent; sign faces and the timetable panel are blank. The timetable cover uses an alpha-blended GLB material. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.572 × 2.565 × 0.572 m; 4,836 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "bus-stop",
+    "transit",
+    "sign-post",
+    "バス停"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-bus-stop-pole.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 4836,
+  "dimensions": [
+    0.572,
+    2.565,
+    0.572
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+    "sourceSha256": "eb333e5c405b8bd9312307dec60d74ce0b9ad06438c0a646a67bffccc3d64a3b",
+    "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "c45f209b450cca7a39d8163bc30f67dc6f773715acf02c0a398c514b5d7b0e82"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+        "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-bus-stop-pole"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

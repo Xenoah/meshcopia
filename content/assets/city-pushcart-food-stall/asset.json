@@ -1,0 +1,63 @@
+{
+  "id": "city-pushcart-food-stall",
+  "type": "model",
+  "title": "屋台（手押し車）",
+  "titleEn": "Pushcart food stall",
+  "description": "夜の街角に出る木製の手押し屋台です。板張りの車体と客側カウンター、木製スポークの大車輪と鉄輪・車軸、押し手と休み脚、四隅の柱とトタンの切妻屋根、無地の藍色のれん、赤い提灯と骨組み、寸胴鍋と火口、具材入れを造形しています。のれんと提灯は無地で、屋号などの文字、食品、人物、走行・開閉動作は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.470 × 2.482 × 1.518 m、17,912三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A wooden pushcart food stall for night-time street corners. It models the planked body and customer counter, large wooden-spoked wheels with iron tyres and axle, push handles and rest legs, corner posts with a corrugated gabled roof, plain indigo curtain panels, a red paper lantern with ribs, a stock pot on a burner ring and ingredient trays. The curtain and lantern are blank, with no shop name or lettering; food, people and wheel or folding motion are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.470 × 2.482 × 1.518 m; 17,912 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "food-stall",
+    "yatai",
+    "pushcart",
+    "night-market",
+    "屋台"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-pushcart-food-stall.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 17912,
+  "dimensions": [
+    2.47,
+    2.482,
+    1.518
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+    "sourceSha256": "723d6836ef183392ed52fbd5273c9f51b39b80e2afd69fed3955ddf646e69d25",
+    "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "76b561c52fa26c93a9519f6768bf53212daaaf9d59d66404058dd6193361ffeb"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+        "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-pushcart-food-stall"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

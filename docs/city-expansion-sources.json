@@ -1392,6 +1392,120 @@
       "recipe": "scripts/city_expansion/frozen/batch-058/scripts/city_expansion/food_preparation_equipment.py",
       "sourceRecipeSha256": "ba9e6cb7f9a7a5b5c01dd396648d60410cac44e4c825f14a89982344520f3fd4",
       "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15"
+    },
+    {
+      "id": "city-a-frame-sidewalk-sign",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-a-type-barricade",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-bike-share-dock",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-bottle-can-recycling-bin",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-bus-stop-pole",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-concrete-utility-pole",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-crossing-flag-holder",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-folding-refuse-collection-cage",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-lane-delineator-post",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-no-entry-sign-post",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-parking-flap-lock",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-pedestrian-signal-head",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-pushcart-food-stall",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-sidewalk-light-box-sign",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-temporary-mesh-fence-panel",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-traffic-control-cabinet",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-u-shaped-steel-barrier",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-w-beam-guardrail",
+      "recipe": "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+      "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-wall-mailbox-bank",
+      "recipe": "scripts/city_expansion/frozen/batch-060/scripts/city_expansion/claude_sidewalk_objects.py",
+      "sourceRecipeSha256": "44b38d57be2ae0b1b499d55a3e06bb739b546d8cbd20bf9dbe1bc93d858cfe75",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
     }
   ]
 }

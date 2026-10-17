@@ -1,0 +1,62 @@
+{
+  "id": "city-traffic-control-cabinet",
+  "type": "model",
+  "title": "信号制御機キャビネット",
+  "titleEn": "Traffic signal controller cabinet",
+  "description": "交差点の歩道脇に置かれる信号制御機の屋外キャビネットです。コンクリート台座、淡灰色の筐体と傾斜付き雨よけ屋根、前扉の継ぎ目と蝶番、レバーハンドルと鍵穴、側面のガラリ、無地の点検ラベルを造形しています。内部機器、配線、文字や管理番号は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.820 × 1.520 × 0.600 m、2,970三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An outdoor traffic signal controller cabinet for intersection sidewalks. It models the concrete plinth, pale grey enclosure with a sloped rain hood, front door seam and hinges, lever handle and key cylinder, side louvres and a blank inspection label. Internal equipment, wiring, lettering and asset numbers are omitted. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.820 × 1.520 × 0.600 m; 2,970 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "traffic-signal",
+    "controller-cabinet",
+    "utility-cabinet",
+    "信号制御機"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-traffic-control-cabinet.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 2970,
+  "dimensions": [
+    0.82,
+    1.52,
+    0.6
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+    "sourceSha256": "e3c075aedaed1e7efb06d25af4c59527a2bc586e42a129f9323a2ebc394368c5",
+    "sourceRecipeSha256": "43086904e668bd064df2bce9fc82ddf59ce181f9a21289ef647df21647242004",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ac5d5332f45b3473f3dcdff02c12cdcadfdbb9df059e6e4100c212bbc23add75"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/claude_roadside_objects.py",
+        "scripts/city_expansion/frozen/batch-059/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-traffic-control-cabinet"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
