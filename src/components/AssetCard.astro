@@ -5,7 +5,7 @@ import {base,local} from '../lib/paths';
 import {textureSize,textureLabel,textureWrap} from '../lib/texture';
 import {primaryDownload,primaryDownloadBytes,downloadHref} from '../lib/downloads.mjs';
 const {asset:a,priority=false}=Astro.props;
-const modelFormats=['GLB','GLTF','OBJ','FBX','STL','STEP','STP','BLEND','3MF'].filter(format=>a.files.some(file=>file.format===format));
+const modelFormats=a.downloads.delivery?['FBX']:['FBX 準備中'];
 const [width,height]=textureSize(a);
 const download=primaryDownload(a);
 const zipSize=formatBytes(download?.bytes);

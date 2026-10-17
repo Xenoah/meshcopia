@@ -1,3 +1,4 @@
+import {deliveryReadiness} from './delivery.mjs';
 // This module selects downloads; it does not publish or verify remote bytes.
 // Only the verified publisher projection may populate downloads.minimal.
 export const MINIMAL_CONTENT_POLICY = 'asset-files-required-dependencies-single-notice-v1';
@@ -6,7 +7,6 @@ const RELEASE_ROOT = 'https://github.com/Xenoah/meshcopia/releases/download/';
 const HASH = /^[a-f0-9]{64}$/;
 const VERSION = /^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$/;
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const DIRECT_MODEL_FORMATS = ['GLB','STL','STEP','STP'];
 const positiveBytes = n => Number.isSafeInteger(n) && n > 0;
 const safePath = value => typeof value === 'string' && !!value && !/[\\\x00-\x1f\x7f:?#]/.test(value) && value.split('/').every(part => part && part !== '.' && part !== '..');
 const inventory = files => files.map(({name,bytes,sha256})=>({name,bytes,sha256})).sort((a,b)=>a.name<b.name?-1:a.name>b.name?1:0);
@@ -46,6 +46,14 @@ export function minimalDownloadReadiness(asset) {
 
 /** One ordinary ZIP. Compatibility API fields are never a second UI choice. */
 export function primaryDownload(asset) {
+  if (asset?.type === 'model') {
+    const ready = deliveryReadiness(asset);
+    if (!ready.ready) return undefined;
+    return {...ready.download.archive,kind:'fbx',minimal:true,
+      labelJa:'FBX ZIPをダウンロード',labelEn:'Download FBX ZIP',
+      contentsJa:'FBX・必要なテクスチャ・LICENSE.txt（ライセンス・クレジット）',
+      contentsEn:'FBX, required textures and LICENSE.txt (license and attribution)'};
+  }
   const readiness = minimalDownloadReadiness(asset);
   if (readiness.ready) return {
     ...readiness.download, kind:'minimal', minimal:true,
@@ -71,12 +79,11 @@ export function primaryDownload(asset) {
 export function primaryDownloadBytes(asset) {
   const selected = primaryDownload(asset);
   // Incomplete search-only records may carry sizes without URLs.
-  return selected?.bytes ?? (positiveBytes(asset?.downloads?.full?.bytes) ? asset.downloads.full.bytes : Infinity);
+  return selected?.bytes ?? Infinity;
 }
 
-/** Standalone original formats. OBJ/glTF and their dependencies stay in ZIPs.
- * Verified converted FBX direct files are handled by the alternate-format gate. */
+/** Standalone FBX is offered only when the verified package has no companions. */
 export function directModelFiles(asset) {
-  if (asset?.type !== 'model' || !Array.isArray(asset.files)) return [];
-  return asset.files.filter(f=>DIRECT_MODEL_FORMATS.includes(f.format) && downloadHref(f.url)).slice().sort((a,b)=>DIRECT_MODEL_FORMATS.indexOf(a.format)-DIRECT_MODEL_FORMATS.indexOf(b.format) || a.name.localeCompare(b.name,'en'));
+  const ready = deliveryReadiness(asset);
+  return ready.ready && ready.download.files.length === 1 ? ready.download.files : [];
 }

@@ -1,4 +1,6 @@
-// Browser-only STORE ZIP builder. No archive fetches, proxy, or runtime CDN.
+import {deliveryReadiness} from './delivery.mjs';
+import {minimalDownloadReadiness} from './downloads.mjs';
+// Browser-only STORE ZIP builder. Fetch only the consumer manifest's payloads.
 export const POLICY='asset-files-required-dependencies-single-notice-v1';
 const encoder=new TextEncoder();
 export class BundleError extends Error { constructor(code,detail=''){super(detail||code);this.code=code;} }
@@ -14,15 +16,19 @@ export function planBundle(assets,{limit=bundleLimit(),baseURL=globalThis.locati
  const ids=new Set(),paths=new Set(),entries=[],notices=[];let bytes=0;
  for(const a of assets){
   if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.id)||ids.has(a.id))fail('duplicate');ids.add(a.id);
-  const d=a.downloads?.minimal;
-  if(a.status!=='public'||!d||d.id!==a.id||d.assetVersion!==a.version||d.contentPolicy!==POLICY||d.noticeFile!=='LICENSE.txt'||!Array.isArray(d.sourceFiles)||!d.sourceFiles.length||d.sourceFiles.length!==a.files?.length)fail('unavailable',a.id);
-  const inventory=new Map(a.files.map(f=>[f.name,f]));if(inventory.size!==a.files.length)fail('duplicate');
+  const model=a.type==='model';
+  const readiness=model?deliveryReadiness(a):minimalDownloadReadiness(a);
+  if(!readiness.ready)fail('unavailable',a.id);
+  const d=model?{...readiness.download,sourceFiles:readiness.download.files,noticeFile:'LICENSE.txt'}:readiness.download;
+  const payloads=model?d.files:a.files;
+  if(a.status!=='public'||!d||d.id!==a.id||d.assetVersion!==a.version||(!model&&d.contentPolicy!==POLICY)||d.noticeFile!=='LICENSE.txt'||!Array.isArray(d.sourceFiles)||!d.sourceFiles.length||d.sourceFiles.length!==payloads?.length)fail('unavailable',a.id);
+  const inventory=new Map(payloads.map(f=>[f.name,f]));if(inventory.size!==payloads.length)fail('duplicate');
   for(const source of d.sourceFiles){
    metadata(source);safePath(source.name);const f=inventory.get(source.name);
    if(!f||f.bytes!==source.bytes||f.sha256!==source.sha256||/\.(zip|js|py|ts|sh|exe|json|md)$/i.test(source.name)||source.name.toLowerCase()==='license.txt')fail('metadata');
-   const url=new URL(f.url,baseURL),base=new URL(baseURL);
-   if(url.username||url.password||!((url.origin===base.origin&&url.pathname.startsWith(`${new URL('.',base).pathname}assets/${a.id}/source/`))||(url.protocol==='https:'&&url.hostname==='raw.githubusercontent.com'&&url.pathname.startsWith('/Xenoah/meshcopia/'))))fail('url');
-   add({...source,name:`${a.id}/${source.name}`,url:url.href});
+   const url=new URL(model?f.fetch.url:f.url,baseURL),base=new URL(baseURL);
+   if(!model&&(url.username||url.password||!((url.origin===base.origin&&url.pathname.startsWith(`${new URL('.',base).pathname}assets/${a.id}/source/`))||(url.protocol==='https:'&&url.hostname==='raw.githubusercontent.com'&&url.pathname.startsWith('/Xenoah/meshcopia/')))))fail('url');
+   add({...source,name:`${a.id}/${source.name}`,url:url.href,...(model?{headers:{Accept:f.fetch.accept}}:{})});
   }
   const notice=d.notice;metadata(notice);if(notice.filename!=='LICENSE.txt'||typeof notice.text!=='string'||notice.bytes>32768)fail('notice');
   const data=encoder.encode(notice.text);if(data.byteLength!==notice.bytes)fail('notice');notices.push({id:a.id,data,sha256:notice.sha256});
@@ -42,7 +48,7 @@ export async function buildBundle(plan,{signal,fetchImpl=globalThis.fetch,crypto
  for(const entry of plan.entries){
   checkAbort(signal);let data=entry.data;
   if(!data){
-   let response;try{response=await fetchImpl(entry.url,{signal,mode:'cors',credentials:'omit',cache:'no-cache',redirect:'follow',referrerPolicy:'no-referrer'});}catch(e){if(signal?.aborted)throw e;fail('network',entry.name);}
+   let response;try{response=await fetchImpl(entry.url,{signal,headers:entry.headers,mode:'cors',credentials:'omit',cache:'no-cache',redirect:'follow',referrerPolicy:'no-referrer'});}catch(e){if(signal?.aborted)throw e;fail('network',entry.name);}
    if(!response.ok||response.type==='opaque'||!response.body)fail('network',entry.name);
    const reader=response.body.getReader();data=new Uint8Array(entry.bytes);let position=0;
    try{while(true){checkAbort(signal);const {done:ended,value}=await reader.read();if(ended)break;if(position+value.byteLength>entry.bytes)fail('integrity',entry.name);data.set(value,position);position+=value.byteLength;onProgress({bytes:done+position,total:plan.bytes,index,count:plan.entries.length});}if(position!==entry.bytes)fail('integrity',entry.name);}finally{await reader.cancel().catch(()=>{});reader.releaseLock();}

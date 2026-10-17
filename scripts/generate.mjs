@@ -1,3 +1,4 @@
+import {bindDelivery} from './lib/delivery.mjs';
 import {prepareFbxMinimalDownloads,writeFbxMinimalDownloads} from './lib/fbx-minimal-downloads.mjs';
 import {assertCompleteModelDeliveries} from './lib/model-delivery-policy.mjs';
 import {prepareMinimalDownloads,bindMinimalDownload} from './lib/minimal-downloads.mjs';
@@ -23,6 +24,7 @@ await mkdir('public/vendor/occt-import-js', {recursive:true});
 for (const file of ['occt-import-js.js','occt-import-js.wasm']) await cp(`node_modules/occt-import-js/dist/${file}`, `public/vendor/occt-import-js/${file}`);
 await mkdir('public/vendor/licenses', {recursive:true});
 for (const [source,name] of [['node_modules/three/LICENSE','three-MIT.txt'],['node_modules/astro/LICENSE','astro-MIT.txt'],['node_modules/occt-import-js/LICENSE.md','occt-import-js-LGPL-2.1.md'],['THIRD_PARTY_NOTICES.md','THIRD_PARTY_NOTICES.md']]) await cp(source,`public/vendor/licenses/${name}`);
+const fbxEvidence = JSON.parse(await readFile('docs/fbx-minimal-publication/fbx-minimal-v1.0.0-T-evidence.json','utf8'));
 const catalog = [];
 for (const asset of assets) {
   if (asset.status === 'draft') continue;
@@ -57,7 +59,7 @@ for (const asset of assets) {
     const direct = files.find(f => f.name===asset.preview && ['GLB','STL','STEP','STP'].includes(f.format));
     if (direct) downloads.direct = direct;
   }
-  const item = bindMinimalDownload({...metadata,thumbnail:`${url}/thumbnail${path.extname(asset.thumbnail)}`,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads},minimalDownloads);
+  const item = bindDelivery(bindMinimalDownload({...metadata,thumbnail:`${url}/thumbnail${path.extname(asset.thumbnail)}`,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads},minimalDownloads),verifiedFbx,fbxEvidence);
   if (asset.preview) item.previewUrl = files.find(f=>f.name===asset.preview).url;
   if (asset.maps) item.mapUrls = Object.fromEntries(Object.entries(asset.maps).map(([k,f])=>[k, files.find(item=>item.name===f).url]));
   catalog.push(item);
