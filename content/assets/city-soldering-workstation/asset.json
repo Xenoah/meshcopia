@@ -1,0 +1,61 @@
+{
+  "id": "city-soldering-workstation",
+  "type": "model",
+  "title": "こて台付きはんだ付けステーション",
+  "titleEn": "Soldering station with iron holder",
+  "description": "公共工房・電子工作室の作業台に置く温調器付きこて一式。無表示パネルと固定つまみの制御箱、接続ケーブル、保持コイルに収めたこてと金属先端、広いこて台、実開口のあるスポンジ皿と無地スポンジを造形。制御器・こて・台は合わせて一式1点で、作業台や部品は含みません。加熱、温度制御、電装やはんだ付け動作はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.477 × 0.227 × 0.349 m、6,852三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A temperature-controller and iron assembly for public workshops and electronics benches. It includes a controller with blank display/fixed knob, connected cable, parked iron and metal tip in a real retaining coil, wide holder base and open sponge tray with plain sponge. Controller, iron and holder count as one assembly; bench and electronic parts are absent. Heating, temperature control, electrical operation and soldering behavior are not supplied. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.477 × 0.227 × 0.349 m; 6,852 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "electronics",
+    "soldering",
+    "workshop",
+    "はんだごて"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-soldering-workstation.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6852,
+  "dimensions": [
+    0.477,
+    0.226559,
+    0.348911
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-043/scripts/city_expansion/educational_bench_instruments.py",
+    "sourceSha256": "622e13e3b4bb0e7a42bd7d1ae87bb8d444968fe6fa9d451209ac3fb185dff1ee",
+    "sourceRecipeSha256": "234ffb42fad03386bcf614aaca56ffacb6574f3995f486dfc41e81f31edbce25",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ff0c9b3d063baa4438122292a39dfc8101d23cec0f410932f022717df197516f"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-043/scripts/city_expansion/educational_bench_instruments.py",
+        "scripts/city_expansion/frozen/batch-043/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-soldering-workstation"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

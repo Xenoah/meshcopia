@@ -1,0 +1,61 @@
+{
+  "id": "city-tracked-dump-carrier",
+  "type": "model",
+  "title": "クローラー式小型運搬車",
+  "titleEn": "Tracked dump carrier",
+  "description": "狭い造園通路や補修工事の土砂運搬シーン向けクローラー式運搬車。二本の短い履帯に駆動輪・支持ローラー・靴板を備え、開口した厚肉の台形荷台には傾斜側壁、縁材、前部ダンプ軸と床下シリンダーを造形しています。後部原動機ケースに接続した立ち乗り足場、支持付き操作盤、走行・傾斜レバー、配管、冷却格子を備えた一式1モデル。荷台は下ろした固定姿勢で荷物は含みません。走行・ダンプ・油圧・積載動作、実機性能・荷重・安全性は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.165 × 1.434 × 2.567 m、22,740三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact tracked dump-carrier prop for narrow landscaping paths and repair-work material scenes. Two short crawler belts include end wheels, carrier rollers and tread shoes. The genuinely open thick-walled tapered tub has sloped sides, rim rails, front tipping pivots and an underfloor cylinder. A rear engine case supports a rear standing platform, mounted control console, travel and tipping levers, conduits and cooling grille. The whole assembly counts once. Its tub is fixed in a lowered empty pose. Driving, dumping, hydraulic and load-handling operation, real-machine performance, load capacity and safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.165 × 1.434 × 2.567 m; 22,740 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "municipal-service",
+    "tracked-dumper",
+    "landscaping",
+    "クローラー運搬車"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-tracked-dump-carrier.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 22740,
+  "dimensions": [
+    1.165,
+    1.434271,
+    2.5675
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-040/scripts/city_expansion/municipal_service_vehicles.py",
+    "sourceSha256": "6c8bc56a4d16c9d02b63de730a24e65e73770d1c5311e17f760c057860f798f8",
+    "sourceRecipeSha256": "e6243369a179ae31cabb0b861fd019df0f0f5d686d3abfdee994430bf46cfe18",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "be0914117ff4a91071b377cdf0e40e3872b4aa7547b83ecbb264b1a43d6b3b3e"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-040/scripts/city_expansion/municipal_service_vehicles.py",
+        "scripts/city_expansion/frozen/batch-040/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-tracked-dump-carrier"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "city-tripod-video-camera",
+  "type": "model",
+  "title": "三脚付きビデオカメラ",
+  "titleEn": "Tripod-mounted video camera",
+  "description": "公共スタジオ・催事会場で据えて使う無銘のビデオカメラ一式。二本管の三脚と伸縮部外形、開脚補強、固定パン/チルトヘッドと操作棒、レンズの実開口フードと角形遮光枠、無表示の開いた側面画面、上部取手・後部バッテリーを造形。監視用壁付カメラとは異なる撮影機材です。レンズ面は不透明PBRで、録画・光学・画面表示・首振り機能や支持荷重は検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.017 × 1.721 × 0.960 m、13,696三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An unbranded camera assembly for public studios and event venues. It has a twin-tube tripod with telescoping exteriors and spreaders, fixed pan/tilt head and control arm, truly open lens hood and rectangular shade, open blank side screen, top handle and rear battery. It is filming equipment rather than a wall-mounted security camera. The lens is an opaque PBR face; recording, optics, display, movement and support-load performance are not implemented or validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.017 × 1.721 × 0.960 m; 13,696 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "studio",
+    "video",
+    "camera",
+    "ビデオカメラ"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-tripod-video-camera.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 13696,
+  "dimensions": [
+    1.017307,
+    1.721,
+    0.9597
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-045/scripts/city_expansion/community_studio_equipment.py",
+    "sourceSha256": "2b3b87255989f3983592123e593d164ccdfebf8f225f93d6b734b299df3f7b6d",
+    "sourceRecipeSha256": "caef2aad7a77881189820ef15c8cb7ad8e5b193b52935ebd8d3812039876b15c",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "6abf74a704ed77f1edbb4e677df065c3525bb8a1105a847872e25b51d0e19d61"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-045/scripts/city_expansion/community_studio_equipment.py",
+        "scripts/city_expansion/frozen/batch-045/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-tripod-video-camera"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

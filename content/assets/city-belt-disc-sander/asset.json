@@ -1,0 +1,61 @@
+{
+  "id": "city-belt-disc-sander",
+  "type": "model",
+  "title": "架台付きベルト・ディスクサンダー",
+  "titleEn": "Combined belt and disc sander",
+  "description": "木工・模型工房で平材の面や端部を研磨する一体型据置機。共通のキャビネット台・駆動部に、上下ローラーを巡る厚みのある連続ベルト、支持プレート、円形の平面研磨ディスク、別々の材料受け、ガード、調整つまみと二つの開口集塵口を組み合わせています。刃物研ぎ用の両頭グラインダーではなく、一式を1点として数えます。材料は付属せず、回転・研磨・集塵・安全性能は実装・検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.781 × 1.520 × 0.683 m、19,072三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "One stationary assembly for finishing flat-stock surfaces and edges in woodworking and model-making workshops. A shared cabinet and drive carry a thick continuous belt around upper/lower rollers, backing platen, flat abrasive disc, separate work rests, guards, fixed adjustment knobs and two open dust outlets. It is a stock-finishing belt/disc machine, not a double-wheel sharpening grinder, and counts as one assembly. Stock is absent; rotation, sanding, extraction and safety performance are neither implemented nor validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.781 × 1.520 × 0.683 m; 19,072 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "woodworking",
+    "sander",
+    "研磨機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-belt-disc-sander.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 19072,
+  "dimensions": [
+    0.7815,
+    1.5195,
+    0.6835
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-046/scripts/city_expansion/workshop_processing_machines.py",
+    "sourceSha256": "bb5370d49a3c6fbcf6ea640b0c44cdfbcc498b952c77fc9c57ea0ae447711629",
+    "sourceRecipeSha256": "a64517465e303dc7ec79530d900104b1e59166858e0f7d8d872d7abc3bc1d286",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "9e89c99202d6ffccba5e7f7c3d649979d84c2559fc6eadb7c5c4a435b959d9a1"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-046/scripts/city_expansion/workshop_processing_machines.py",
+        "scripts/city_expansion/frozen/batch-046/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-belt-disc-sander"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

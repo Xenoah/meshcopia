@@ -1,0 +1,61 @@
+{
+  "id": "city-commercial-range-hood",
+  "type": "model",
+  "title": "壁付業務用レンジフード",
+  "titleEn": "Wall-mounted commercial range hood",
+  "description": "厨房の加熱器具上に配置する壁付排気フード。内側が開いた斜面キャノピーと角形煙道、二枚の実隙間付きバッフルフィルター、引手、下面照明の外形、前面ボタン、背面取付スロットと小さな回収カップを造形。床基準原点から設置高さを調整し、建物ダクトは別途配置します。送風・照明・捕集機能は実装していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.200 × 0.926 × 0.665 m、6,272三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A wall-mounted extraction hood for placement above cooking equipment, with hollow sloped canopy and rectangular chimney, two genuinely gapped baffle filters, pulls, underside-light exteriors, front buttons, rear mounting slots and a small collection cup. Adjust installation height from the base origin; building ductwork is separate. Air movement, lighting and capture functions are not implemented. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.200 × 0.926 × 0.665 m; 6,272 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "kitchen",
+    "range-hood",
+    "ventilation",
+    "レンジフード"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-commercial-range-hood.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 6272,
+  "dimensions": [
+    1.2,
+    0.926,
+    0.6655
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-038/scripts/city_expansion/commercial_kitchen_fixtures.py",
+    "sourceSha256": "35ebc8a17916449c52e55ab010247ce0f47244eecbab5d44989c2aeb2585cacc",
+    "sourceRecipeSha256": "ebbf5ac108aeb0ec3666cf05dbd4094ef191e3d6f5904a1a997b8e682d93f198",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "5f44c39ddf55344b23747bb07da90c45da199e38aa4a9989e09b77a045df8dbd"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-038/scripts/city_expansion/commercial_kitchen_fixtures.py",
+        "scripts/city_expansion/frozen/batch-038/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-commercial-range-hood"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

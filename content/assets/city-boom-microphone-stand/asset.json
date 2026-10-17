@@ -1,0 +1,61 @@
+{
+  "id": "city-boom-microphone-stand",
+  "type": "model",
+  "title": "ブーム付きマイクスタンド",
+  "titleEn": "Boom microphone stand",
+  "description": "地域スタジオ・会議・舞台の音声収録風景に置くマイク一式。開いた三脚、二段支柱と高さカラー、長いブームと後部重り外形、保持クリップ、金属線グリル付きマイク、支柱沿いから床へつながる固定ケーブルを造形。マイク・台・線は一式1点です。音声収録、通電、長さ調整、ケーブル変形や転倒安全性能は実装・検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.763 × 1.740 × 1.320 m、13,768三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A microphone assembly for community studio, meeting and stage recording scenes. It has a spread tripod, two-stage mast and height collar, long boom with rear weight exterior, retaining clip, wire-grille microphone and a connected fixed cable following the stand onto the floor. Microphone, stand and cable count as one model. Audio capture, electrical behavior, adjustment, cable deformation and stability performance are not implemented or validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.763 × 1.740 × 1.320 m; 13,768 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "studio",
+    "audio",
+    "microphone",
+    "マイク"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-boom-microphone-stand.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 13768,
+  "dimensions": [
+    0.76284,
+    1.739571,
+    1.319617
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-045/scripts/city_expansion/community_studio_equipment.py",
+    "sourceSha256": "0c4d2ac17793313754b8774e8ff9b169f943141e6cbe58c8c9b63b6981930f87",
+    "sourceRecipeSha256": "caef2aad7a77881189820ef15c8cb7ad8e5b193b52935ebd8d3812039876b15c",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ef29529b2fd7f6d2f16cfc9db59638be2b7cc03f8456d12fd7f94c22d05cace7"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-045/scripts/city_expansion/community_studio_equipment.py",
+        "scripts/city_expansion/frozen/batch-045/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-boom-microphone-stand"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

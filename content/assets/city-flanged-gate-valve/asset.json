@@ -1,0 +1,61 @@
+{
+  "id": "city-flanged-gate-valve",
+  "type": "model",
+  "title": "フランジ付きハンドル式ゲート弁",
+  "titleEn": "Flanged handwheel gate valve",
+  "description": "建物の機械室・配管展示に置く無銘のゲート弁。両端の実開口フランジ、丸い鋳物風胴体、ボンネットと開いたヨーク、外に見えるねじ付き弁棒、四本スポークの手輪、小さな支持脚を造形。外部配管は含まず、接続位置に合わせて配置してください。内部ゲート機構、開閉、流量・圧力性能や配管規格への適合は検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.495 × 0.845 × 0.340 m、13,308三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An unbranded gate-valve exterior for building plant rooms and pipework displays. It has genuinely open end flanges, rounded cast-style body, bonnet/open yoke, exposed threaded stem, four-spoke handwheel and small support feet. External piping is absent; position it to suit your scene connections. Internal gate mechanics, operation, flow/pressure performance and piping-standard compliance are not validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.495 × 0.845 × 0.340 m; 13,308 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "utilities",
+    "valve",
+    "water",
+    "ゲート弁"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-flanged-gate-valve.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 13308,
+  "dimensions": [
+    0.49492,
+    0.845,
+    0.34
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-047/scripts/city_expansion/building_water_plant.py",
+    "sourceSha256": "fe139a9f1fa72e64912493bc7642b78ac9c41e0b58a634afa5a1ee844635afca",
+    "sourceRecipeSha256": "cccf37a2fbead63951b75a5b0ff543562db60978b8b536a6ec78d85466b6e8e1",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "1e3c66bfc0ea66fe168ecc3e2861f64ff28f38390ed9e569cbc56ac7c3bf3702"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-047/scripts/city_expansion/building_water_plant.py",
+        "scripts/city_expansion/frozen/batch-047/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-flanged-gate-valve"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

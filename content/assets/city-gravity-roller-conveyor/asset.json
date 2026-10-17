@@ -1,0 +1,61 @@
+{
+  "id": "city-gravity-roller-conveyor",
+  "type": "model",
+  "title": "重力式ローラーコンベヤ",
+  "titleEn": "Gravity roller conveyor",
+  "description": "荷さばき場・小さな倉庫で箱の搬送経路を示すローラーコンベヤ。少し傾いた固定ベッドに29本の個別ローラー、軸端、側部チャンネル、四脚・高さ調整足・斜め補強、低い側の荷止めと端部連結金具を造形。箱や隣接モジュールは含まず、一台として配置します。ローラー回転・荷物の移動や耐荷重検証はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.166 × 0.829 × 0.714 m、28,916三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A gravity-roller conveyor for parcel routes in loading areas and small warehouses. A slightly inclined fixed bed carries 29 separate rollers and axle ends, side channels, four legs with adjustable-looking feet, diagonal bracing, low-end stop and joining tabs. Boxes and neighboring modules are absent; place it as one complete machine. Roller rotation, parcel movement and load-rating validation are not provided. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.166 × 0.829 × 0.714 m; 28,916 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "warehouse",
+    "conveyor",
+    "logistics",
+    "ローラーコンベヤ"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-gravity-roller-conveyor.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 28916,
+  "dimensions": [
+    2.166,
+    0.828555,
+    0.714
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-039/scripts/city_expansion/logistics_handling_equipment.py",
+    "sourceSha256": "26ff5b00345c5f42ad772ec66f9562e897a16c33add5ed026caff7b30f2d1f01",
+    "sourceRecipeSha256": "c3581e364fedcedf1c47f66d9ab4f3108e32319555619ac64cc78151e067f3f0",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "ce372593d80dd78ee9143c3e3e2add6c61e1ec966a610f56d63943317b8c2b24"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-039/scripts/city_expansion/logistics_handling_equipment.py",
+        "scripts/city_expansion/frozen/batch-039/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-gravity-roller-conveyor"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

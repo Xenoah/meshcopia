@@ -1,0 +1,61 @@
+{
+  "id": "city-tilting-drafting-table",
+  "type": "model",
+  "title": "平行定規付き傾斜製図台",
+  "titleEn": "Tilting drafting table with parallel rule",
+  "description": "設計教室・交流施設の制作室に置く傾斜製図台。30度に固定した無地の板面、裏補強、前の鉛筆受け、平行定規と小さな滑車・実ケーブル、二本の支柱とT字脚、回転支点・傾斜支持材・固定ノブを造形。紙・図面・筆記具・椅子は含まず、板と定規は一台に含まれます。高さ・傾斜・定規の可動機能と精度検証はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.231 × 1.294 × 0.858 m、8,592三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A tilting drafting table for design classrooms and community studios. It has a blank board fixed at thirty degrees, rear stiffeners, front pencil ledge, parallel rule with small pulleys and real cable geometry, twin pedestals/T feet, tilt pivots, supporting struts and fixed knobs. Paper, drawings, writing tools and chair are absent; board and ruler belong to one table assembly. Height, tilt and rule movement and accuracy validation are not provided. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.231 × 1.294 × 0.858 m; 8,592 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "art",
+    "drafting",
+    "table",
+    "製図台"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-tilting-drafting-table.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 8592,
+  "dimensions": [
+    1.231,
+    1.294165,
+    0.858
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-042/scripts/city_expansion/community_art_workshop.py",
+    "sourceSha256": "e92d5f9537abcb780e4f9519032e103b5471ed6e81dfcb436994f17831f4022d",
+    "sourceRecipeSha256": "1918bbb87d9858cb3e6917e7fc06c4e9d34931f5ed0a8a0d0453c174c2feaf65",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a8ad82afc2df910dd1da937db49a83471dcd4862b6919384fd85f622331258ca"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-042/scripts/city_expansion/community_art_workshop.py",
+        "scripts/city_expansion/frozen/batch-042/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-tilting-drafting-table"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "city-pallet-stretch-wrapper",
+  "type": "model",
+  "title": "パレット用ストレッチ包装機",
+  "titleEn": "Pallet stretch wrapping machine",
+  "description": "倉庫の出荷区画でパレット包装位置を示す回転台式包装機。円形ターンテーブルと短い進入くさび、連続した基台、縦マストと二本のガイド、固定フィルム台・中空芯付き巻きロール、操作箱、裏の駆動外装を造形。パレット・積荷・広げたフィルムは含みません。巻きフィルムは不透明単色の外観で、回転・昇降・包装や安全機能は未実装です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.590 × 2.405 × 2.619 m、11,964三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A turntable-style stretch wrapper for warehouse dispatch scenes. It includes a circular platform and short approach wedge, continuous base, vertical mast with twin guides, fixed film carriage and wound roll with open core, control cabinet and rear drive exterior. Pallet, cargo and extended film are absent. The wound film uses an opaque constant-color appearance; rotation, carriage travel, wrapping and safety functions are not implemented. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.590 × 2.405 × 2.619 m; 11,964 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "warehouse",
+    "pallet",
+    "wrapper",
+    "包装機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-pallet-stretch-wrapper.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 11964,
+  "dimensions": [
+    1.59,
+    2.405,
+    2.6195
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-039/scripts/city_expansion/logistics_handling_equipment.py",
+    "sourceSha256": "ff672e3f9f4d7585a7e8bc184df9f563f70f2792205f6e19ccd8cc7f13b6d9b3",
+    "sourceRecipeSha256": "c3581e364fedcedf1c47f66d9ab4f3108e32319555619ac64cc78151e067f3f0",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "6952b8a62374c1b56ec7a11f4d454afc67ff6f5566fa68014702b254bb666153"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-039/scripts/city_expansion/logistics_handling_equipment.py",
+        "scripts/city_expansion/frozen/batch-039/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-pallet-stretch-wrapper"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

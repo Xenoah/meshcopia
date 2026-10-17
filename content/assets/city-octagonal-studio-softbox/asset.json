@@ -1,0 +1,61 @@
+{
+  "id": "city-octagonal-studio-softbox",
+  "type": "model",
+  "title": "八角形スタジオソフトボックス",
+  "titleEn": "Octagonal studio softbox",
+  "description": "公共スタジオ・ポートレート撮影室向けの拡散照明外装。八枚の厚み付き布パネル、無地の前面拡散布、縁の綴じと放射状継ぎ目、後部灯体・グリル、傾斜ヨーク、伸縮式外形の三脚支柱と固定電源線を造形。追尾スポットとは異なる広い拡散面の機材です。布とレンズ類は不透明PBRで発光せず、照明・通電・調整動作やスタンド安全性は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.044 × 2.373 × 1.019 m、9,848三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A diffused-lighting exterior for public studios and portrait rooms. It has eight thick fabric wall panels, plain front diffusion cloth, bound perimeter and radial seams, rear lamp housing/grille, tilt yoke, telescoping-style tripod stand and fixed power cable. Its broad diffuser is distinct from a followspot. Cloth and optical surfaces use opaque non-emissive PBR materials; lighting, electrical operation, adjustment and stand safety are not validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.044 × 2.373 × 1.019 m; 9,848 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "studio",
+    "lighting",
+    "softbox",
+    "ソフトボックス"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-octagonal-studio-softbox.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 9848,
+  "dimensions": [
+    1.0443,
+    2.373133,
+    1.018706
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-045/scripts/city_expansion/community_studio_equipment.py",
+    "sourceSha256": "ec18aa6f4f955b5a2fb7ee28da6dfc2e7ae550f732a0c7534bc1cf02ba045e13",
+    "sourceRecipeSha256": "caef2aad7a77881189820ef15c8cb7ad8e5b193b52935ebd8d3812039876b15c",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "0b4339113414a572599d51869831c4befc82fc79f0e448307722c08f415abf89"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-045/scripts/city_expansion/community_studio_equipment.py",
+        "scripts/city_expansion/frozen/batch-045/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-octagonal-studio-softbox"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

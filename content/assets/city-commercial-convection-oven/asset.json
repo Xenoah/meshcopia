@@ -1,0 +1,61 @@
+{
+  "id": "city-commercial-convection-oven",
+  "type": "model",
+  "title": "業務用コンベクションオーブン",
+  "titleEn": "Commercial convection oven",
+  "description": "食堂やベーカリー厨房の作業位置へ置く対流式オーブン外観。開いた加熱室、二段の実ワイヤー棚、奥の固定ファンとガード、横に開いた扉と引手、つまみ・無表示パネル、裏点検部と調整足を造形。扉の青灰色窓は不透明な単色PBR表現です。台・食品・トレーは含まず、加熱・送風・開閉操作は実装していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.048 × 0.877 × 1.409 m、17,628三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A convection-oven appearance prop for cafeteria and bakery work areas. An open chamber contains two real wire shelves and a fixed rear fan/guard, with swung-open door/pull, knobs, inactive display, rear service features and leveling feet. The blue-gray door window is an opaque constant-color PBR substitute. Counter, food and trays are absent; heating, airflow and door operation are not implemented. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.048 × 0.877 × 1.409 m; 17,628 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "kitchen",
+    "oven",
+    "bakery",
+    "オーブン"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-commercial-convection-oven.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 17628,
+  "dimensions": [
+    1.048461,
+    0.8775,
+    1.408782
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-038/scripts/city_expansion/commercial_kitchen_fixtures.py",
+    "sourceSha256": "5c548975b7c536e80fee9be896f50c5de9e286bd192d47573d087c0ff92ae608",
+    "sourceRecipeSha256": "ebbf5ac108aeb0ec3666cf05dbd4094ef191e3d6f5904a1a997b8e682d93f198",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "99d7ca629fffc15ea1643caa1d7913772906e987db29d298b4aa291de0606172"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-038/scripts/city_expansion/commercial_kitchen_fixtures.py",
+        "scripts/city_expansion/frozen/batch-038/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-commercial-convection-oven"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

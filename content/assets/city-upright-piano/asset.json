@@ -1,0 +1,61 @@
+{
+  "id": "city-upright-piano",
+  "type": "model",
+  "title": "アップライトピアノ",
+  "titleEn": "Upright piano",
+  "description": "交流室・学校の音楽室・小規模舞台に置く無銘のアップライトピアノ。52個の白鍵と36個の黒鍵、厚い鍵盤台、固定開放した鍵盤蓋と譜面台、三本のペダル、側脚、裏の響板色パネルと補強柱を造形。椅子・楽譜は付属せず、鍵やペダルは本体に含む一式1点です。音声、鍵盤アクション、調律や実楽器の性能は実装・検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.498 × 1.216 × 0.786 m、14,816三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An unbranded upright-piano prop for community rooms, school music rooms and small stages. It includes 52 white and 36 black keys, thick keybed, fixed raised fallboard/music rest, three pedals, side feet, rear soundboard-colored panel and braces. Stool and sheet music are absent; keys and pedals belong to one piano assembly. Audio, key action, tuning and real-instrument performance are not implemented or validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.498 × 1.216 × 0.786 m; 14,816 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "music",
+    "piano",
+    "community",
+    "ピアノ"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-upright-piano.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 14816,
+  "dimensions": [
+    1.498,
+    1.216,
+    0.786
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-037/scripts/city_expansion/community_music_instruments.py",
+    "sourceSha256": "f17d63a4f8866ab08eec4483f964710b9f82dac17ff939ffd508afddeefff311",
+    "sourceRecipeSha256": "cdfd2745ba62ca00e5ee369892c24f613649721462c92776f582802c5863f82a",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "90e95fe1a1500ad6914a0feace2478e92966631caa2c1b78cc47855f25d97186"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-037/scripts/city_expansion/community_music_instruments.py",
+        "scripts/city_expansion/frozen/batch-037/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-upright-piano"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

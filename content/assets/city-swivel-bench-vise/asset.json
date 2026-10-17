@@ -1,0 +1,61 @@
+{
+  "id": "city-swivel-bench-vise",
+  "type": "model",
+  "title": "旋回台付き平口バイス",
+  "titleEn": "Swivel-base bench vise",
+  "description": "工房・学校の作業台に取り付ける平口バイス。開いた平行口金と細い把持溝、固定側と移動側の鋳物風胴体、角形スライド、露出した送りねじとT字ハンドル、小さな後部金敷、旋回台と実開口の取付耳・固定レバーを造形。丸管用三脚バイスとは異なる机上固定の平口工具です。台・取付ボルト・加工物は含まず、締付動作や保持力の検証はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.513 × 0.218 × 0.254 m、7,620三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A flat-jaw vise for mounting on workshop or school benches. It has open parallel jaws with fine gripping ridges, cast-style fixed/moving bodies, square slide, exposed lead screw/T handle, small rear anvil, swivel base and genuinely open mounting ears with locking levers. This bench-mounted flat-jaw tool differs from a tripod pipe vise. Bench, mounting bolts and workpiece are absent; clamping motion and holding force are not validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.513 × 0.218 × 0.254 m; 7,620 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "vise",
+    "tool",
+    "バイス"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-swivel-bench-vise.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 7620,
+  "dimensions": [
+    0.5135,
+    0.2185,
+    0.254
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-043/scripts/city_expansion/educational_bench_instruments.py",
+    "sourceSha256": "8417df3218717b392d72a24ebe66f03ccddb32bcd74178a0c6a6a9c4a7b7ef81",
+    "sourceRecipeSha256": "234ffb42fad03386bcf614aaca56ffacb6574f3995f486dfc41e81f31edbce25",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "315e25da02d0dff458566a77b83715fd32d9a77bc93434327326188e6e016f34"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-043/scripts/city_expansion/educational_bench_instruments.py",
+        "scripts/city_expansion/frozen/batch-043/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-swivel-bench-vise"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

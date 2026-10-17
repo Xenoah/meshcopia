@@ -1,0 +1,61 @@
+{
+  "id": "city-cyclone-dust-extractor",
+  "type": "model",
+  "title": "車輪付きサイクロン式工房集塵機",
+  "titleEn": "Wheeled cyclone workshop dust extractor",
+  "description": "木工室・共同工房に据えるサイクロン式集塵機の外観模型。車輪付き支持枠、上部ファン・縦置きモーター、内部を空洞にした円筒と円錐の分離器、実開口の吸込接続口、蓋・取手・留具付き回収容器、接続ダクトと深いひだのフィルター外形を造形。回収容器やフィルターを含む一式1点で、作業機や延長ホースは含みません。送風・分離・ろ過・粉塵対策・荷重や安全性能は実装・検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.075 × 1.829 × 0.730 m、32,416三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A cyclone-extractor appearance prop for woodworking rooms and shared workshops. It includes a wheeled support frame, upper fan and vertical motor, hollow cylindrical/conical separator, genuinely open inlet connection, lidded collection bin with handles/latches, connecting outlet duct and deeply pleated filter exterior. Bin and filter are part of one complete assembly; processing machines and extension hoses are absent. Airflow, separation, filtration, dust protection, loads and safety performance are neither implemented nor validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.075 × 1.829 × 0.730 m; 32,416 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "dust-extraction",
+    "cyclone",
+    "集塵機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-cyclone-dust-extractor.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 32416,
+  "dimensions": [
+    1.075,
+    1.829,
+    0.73
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-046/scripts/city_expansion/workshop_processing_machines.py",
+    "sourceSha256": "ade3ed71a1164743452228620b2e9dcb1c781d10b1c6db312ab3bb7a6e976ae7",
+    "sourceRecipeSha256": "a64517465e303dc7ec79530d900104b1e59166858e0f7d8d872d7abc3bc1d286",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "16b0d60541da21884f0ada9476a59eb2b6f8e3d99f431fe8575e75c26b6ac357"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-046/scripts/city_expansion/workshop_processing_machines.py",
+        "scripts/city_expansion/frozen/batch-046/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-cyclone-dust-extractor"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

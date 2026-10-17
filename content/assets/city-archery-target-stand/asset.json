@@ -1,0 +1,61 @@
+{
+  "id": "city-archery-target-stand",
+  "type": "model",
+  "title": "A型木脚付きアーチェリー的",
+  "titleEn": "Freestanding archery target stand",
+  "description": "練習場の背景や体育施設の用具区画へ置く、自立式の円形アーチェリー的。厚い繊維色の円盤、段差のある独自配色の同心円面、外周押さえ、木製A型脚、下受け、背面の横桟と斜材、開き止め金具を造形。弓・矢・番号・競技用表示は含みません。的と架台は一式1点で、射撃判定・貫通挙動・競技規格・実用品安全性は未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.196 × 2.028 × 1.169 m、20,512三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A freestanding circular archery target for practice-area backdrops and sports-facility equipment scenes. It has a thick fiber-colored disk, stepped concentric face in an original plain color arrangement, side retainers, wooden A-frame legs, lower ledge, rear bearers/diagonal and metal spreaders. Bows, arrows, numbers and competition markings are absent. Target and stand form one assembly; hit detection, penetration behavior, competitive specifications and real-equipment safety are unvalidated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.196 × 2.028 × 1.169 m; 20,512 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "sports",
+    "archery",
+    "target",
+    "アーチェリー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-archery-target-stand.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 20512,
+  "dimensions": [
+    1.196,
+    2.028,
+    1.169
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-044/scripts/city_expansion/public_gym_equipment.py",
+    "sourceSha256": "a3fbafd6a553016cda4fb69fe9f4e88bc599ad5c7b9c6f97c97195c01892d585",
+    "sourceRecipeSha256": "777ca972c3e650417ca72c421991ea6fc24e48dd1ebdb3027b3068a8314c8e3f",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "06e0853d685c058def31f33fde454fbb7be0681ca914d35a123a12d08ffe5122"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-044/scripts/city_expansion/public_gym_equipment.py",
+        "scripts/city_expansion/frozen/batch-044/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-archery-target-stand"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

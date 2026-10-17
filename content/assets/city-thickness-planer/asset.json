@@ -1,0 +1,61 @@
+{
+  "id": "city-thickness-planer",
+  "type": "model",
+  "title": "延長テーブルと架台付き自動かんな盤",
+  "titleEn": "Stand-mounted thickness planer",
+  "description": "木工教室・共同工房の床に置く厚み仕上げ用の自動かんな盤。四脚架台、前後に実際に通り抜ける材料通路、主テーブルと延長テーブル、独立した刃胴カバー、送りローラー外装、四本の高さ支柱、上部手輪と後方の開口集塵口を造形。架台を含む一式1点で、木材や集塵ホースは含みません。切削・送り・高さ調整・排塵の動作や加工精度は実装・検証していません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.706 × 1.467 × 1.236 m、16,420三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A thickness-finishing planer for floor placement in woodworking classrooms and shared workshops. It has a four-leg stand, truly open front-to-back stock passage, main bed and extension tables, distinct cutter-head cover, feed-roller exteriors, four height posts, top handwheel and open rear chip-extraction connection. Stand and machine are one assembly; lumber and extraction hose are absent. Cutting, feed, height adjustment, chip removal and machining accuracy are neither implemented nor validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.706 × 1.467 × 1.236 m; 16,420 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "woodworking",
+    "planer",
+    "かんな盤"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-thickness-planer.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 16420,
+  "dimensions": [
+    0.70596,
+    1.467,
+    1.236
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-046/scripts/city_expansion/workshop_processing_machines.py",
+    "sourceSha256": "1dfa4b99e5c55c33fd8db0652c47f99983827b5cf6a25843afb8889d8847e9b8",
+    "sourceRecipeSha256": "a64517465e303dc7ec79530d900104b1e59166858e0f7d8d872d7abc3bc1d286",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "1fbaa449f9de6038f32291ef3d428cc827ffd30e67f7421590b8ebf9f1045a8d"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-046/scripts/city_expansion/workshop_processing_machines.py",
+        "scripts/city_expansion/frozen/batch-046/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-thickness-planer"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
