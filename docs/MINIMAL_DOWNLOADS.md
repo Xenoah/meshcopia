@@ -38,7 +38,8 @@ FBX payload cache is usable only after fresh verification and receipt consumptio
 it is not an offline bypass. The generator rehashes all payloads before replacing
 output. check-dist reconstructs all137 from the actual built chunks independently.
 
-The browser Release API experiment failed CORS (CI39041367750); neither a direct
+The browser diagnostic in CI39042567048 confirmed missing CORS headers on both
+the direct Release URL and the API's redirected binary; neither a clickable
 link nor a successful server-side download establishes CORS support. No API fetch
 or third-party proxy is used by the shipped bundle builder. Deployment is blocked
 until the complete build fits the existing Pages budget, or a separately verified
@@ -188,3 +189,10 @@ or deploys. Both require real public bytes; fixture-only UI proof is not release
 proof. Production applies the same durable prep, original viewer, ordinary
 selected-download, FBX browser, texture and size-budget gates before publishing.
 The browser evidence does not claim FBX rendering or new251 site availability.
+
+For this FBX-first candidate, `.github/workflows/verify-fbx-distribution.yml`
+runs on the dedicated branch with read-only permissions. It additionally records
+Release fetch diagnostics, tests missing FBX and interrupted retries, measures
+the entire candidate build and keeps the capacity gate blocking. See
+[the review report](FBX_DISTRIBUTION_REVIEW.md) for exact commits, results and the
+unresolved hosting requirement; passing functional tests is not deployment proof.
