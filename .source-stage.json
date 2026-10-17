@@ -2,14 +2,15 @@
   "schemaVersion": 1,
   "purpose": "draft-raw-source-prepublication",
   "ids": [
-    "city-construction-arrow-board",
-    "city-emergency-call-pillar",
-    "city-hanging-shop-sign",
-    "city-outdoor-power-pedestal",
-    "city-plastic-crate-seating",
-    "city-pole-mounted-security-light",
-    "city-street-vendor-parasol",
-    "city-temporary-traffic-signal",
-    "city-tricycle-coffee-cart"
+    "city-accordion-sliding-gate",
+    "city-bamboo-fence-section",
+    "city-bicycle-parking-pay-station",
+    "city-car-park-pay-station",
+    "city-concrete-block-wall-with-fence",
+    "city-disaster-supply-storage-shed",
+    "city-disaster-warning-speaker-pole",
+    "city-height-limit-gantry",
+    "city-outdoor-extinguisher-box",
+    "city-residential-gate-pillar"
   ]
 }

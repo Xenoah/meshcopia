@@ -1,0 +1,63 @@
+{
+  "id": "city-outdoor-extinguisher-box",
+  "type": "model",
+  "title": "屋外消火器ボックス",
+  "titleEn": "Outdoor fire extinguisher box",
+  "description": "商店街や駐車場の歩道脇に立つ、赤い屋外用の消火器格納箱です。亜鉛めっきのスタンドと台板、切妻のふた、点検窓付きの扉と取っ手、中の消火器と弁・取っ手・ホース、頂部の赤色表示灯（発光材質）、無地のラベル帯を造形しています。「消火器」などの文字・図記号、扉の開閉、消火器としての性能は含みません。 点検窓はGLB内の半透明（アルファブレンド）材質です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.350 × 1.350 × 0.305 m、2,216三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A red outdoor fire-extinguisher box on a stand for shopping streets and car parks. It models the galvanized stand and base plate, a gabled lid, a door with inspection window and handle, the extinguisher inside with valve head, handle and hose, a lit red indicator lamp on top and a blank label band. Text such as \"fire extinguisher\" and symbols, door motion and extinguisher performance are not included. The inspection window uses an alpha-blended GLB material. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.350 × 1.350 × 0.305 m; 2,216 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "fire-safety",
+    "extinguisher",
+    "street-furniture",
+    "emergency",
+    "消火器"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-outdoor-extinguisher-box.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 2216,
+  "dimensions": [
+    0.35,
+    1.35,
+    0.305
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+    "sourceSha256": "8cab05d9e8e18921ce48b21a8e6bdf0b9b194e568e9e5edb27fd7063e0a4c15d",
+    "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "24ff44d90a3494bbbe118bac570d5d685f8c4c16c37a41b5b6a5ddfbf06a7224"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+        "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-outdoor-extinguisher-box"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

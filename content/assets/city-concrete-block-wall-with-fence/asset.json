@@ -1,0 +1,63 @@
+{
+  "id": "city-concrete-block-wall-with-fence",
+  "type": "model",
+  "title": "ブロック塀とアルミフェンス",
+  "titleEn": "Concrete block wall with fence",
+  "description": "住宅の敷地境界に多い、5段のコンクリートブロック塀と上部のアルミ縦格子フェンスです。1段ごとに半個ずらしたブロック、目地、笠木、フェンスの柱・上下の横材・縦格子を造形しています。長さ約2.4mの1区画で、控え壁・鉄筋・基礎の内部、構造的な安全性の検証は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.420 × 1.860 × 0.150 m、7,356三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A five-course concrete block wall topped by an aluminium picket fence, common on residential boundaries. It models half-offset blocks per course, mortar joints, coping, fence posts, top and bottom rails and pickets. One section about 2.4 m long; buttresses, reinforcement, footing internals and structural safety verification are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.420 × 1.860 × 0.150 m; 7,356 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "block-wall",
+    "fence",
+    "residential",
+    "boundary",
+    "ブロック塀"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-concrete-block-wall-with-fence.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 7356,
+  "dimensions": [
+    2.42,
+    1.86,
+    0.15
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+    "sourceSha256": "65b72373eeed57b89165c04ba58b206ed4c8e61dce5476d4563602e6586822c0",
+    "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "e175ce56f89c36c06018201223eb1545cdfe980740ca6fdd6cb2e14bfcabbe0e"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+        "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-concrete-block-wall-with-fence"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

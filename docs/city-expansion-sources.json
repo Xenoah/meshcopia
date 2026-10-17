@@ -1626,6 +1626,66 @@
       "recipe": "scripts/city_expansion/frozen/batch-062/scripts/city_expansion/claude_roadwork_market_objects.py",
       "sourceRecipeSha256": "1cc4e1a513df7239278b4dbd0d9a54ca4f519b24ec562ffac3577bf5d221307f",
       "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-accordion-sliding-gate",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-bamboo-fence-section",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-bicycle-parking-pay-station",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-car-park-pay-station",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-concrete-block-wall-with-fence",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-disaster-supply-storage-shed",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-disaster-warning-speaker-pole",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-height-limit-gantry",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-outdoor-extinguisher-box",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
+    },
+    {
+      "id": "city-residential-gate-pillar",
+      "recipe": "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+      "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+      "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8"
     }
   ]
 }

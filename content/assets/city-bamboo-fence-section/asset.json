@@ -1,0 +1,63 @@
+{
+  "id": "city-bamboo-fence-section",
+  "type": "model",
+  "title": "竹垣（建仁寺垣風）1区画",
+  "titleEn": "Bamboo fence section",
+  "description": "住宅の生け垣脇や料亭の前に立つ、建仁寺垣風の竹垣1区画です。焼き杉の柱2本と頭部、縦に並べた竹と節の輪、表裏に渡した3段の押し縁の竹、シュロ縄の結び、上部の笠竹を造形しています。竹は割り竹の断面ではなく丸竹で単純化し、風化の汚れや連続設置用の継ぎ手は含みません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.890 × 1.310 × 0.114 m、13,636三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "One section of a kenninji-style bamboo fence for residential frontages and traditional restaurants. It models two charred-cedar posts with caps, vertical bamboo with node rings, three tiers of horizontal bamboo rails on both faces, black palm-cord ties and a top cap bamboo. Bamboo is simplified as round culms rather than split strips; weathering stains and joints for continuous runs are not included. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.890 × 1.310 × 0.114 m; 13,636 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or mounting pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "claude",
+    "bamboo-fence",
+    "japanese-garden",
+    "fence",
+    "residential",
+    "竹垣"
+  ],
+  "author": "Claude",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-17",
+  "updated": "2026-10-17",
+  "thumbnail": "preview.png",
+  "preview": "city-bamboo-fence-section.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 13636,
+  "dimensions": [
+    1.89,
+    1.31,
+    0.114
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original procedural street-object geometry authored by Claude (Anthropic AI model)",
+    "tool": "Blender 4.5.14 LTS; Meshcopia Claude street-object generator 1.0",
+    "rights": "Original geometry and material design written by Claude at the request of Xenoah for CC-BY-4.0 publication in Meshcopia. No third-party meshes, scans, brands, logos, lettering or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+    "sourceSha256": "7e9abda8743b97c377ff0cfe60badfdbac6656b8d82a72c327865d04cb44f938",
+    "sourceRecipeSha256": "d7070c26f7405406982b33b112296d6b2142e33dce68fd8146b8f2c383e41397",
+    "sourceHelpersSha256": "bc37c71fb5b3a6741aadb88ad44cadc3d14f3546fe47b76dc9db0a84ca7cd4d8",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "a2a07e299aa0e0b7e40bb2ed452c7011e94af92579db74ea15ccb2d11d451946"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/claude_residential_civic_objects.py",
+        "scripts/city_expansion/frozen/batch-063/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-bamboo-fence-section"
+      ],
+      "context": "Original street object authored by Claude for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
