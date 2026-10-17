@@ -60,18 +60,18 @@ export async function buildBundle(plan,{signal,fetchImpl=globalThis.fetch,crypto
     }
     if(total!==entry.bytes)fail('integrity');
     if(typeof DecompressionStream==='undefined')fail('unsupported');
-    data=new Uint8Array(entry.bytes);let next=0,complete=0;
+    data=new Uint8Array(entry.bytes);let next=0,complete=0,failed=false;
     const offsets=[];total=0;for(const c of manifest.chunks){offsets.push(total);total+=c.bytes;}
     // At most four bounded compressed chunks plus the planned output buffer.
     const jobs=Array.from({length:Math.min(4,manifest.chunks.length)},async()=>{
-     while(next<manifest.chunks.length){
+     try{while(!failed&&next<manifest.chunks.length){
       const index=next++,c=manifest.chunks[index];checkAbort(signal);
       const url=new URL(c.packedSha256+'.gz',entry.url).href;
       const packed=await fetchBytes(url,c.packedBytes,{signal,fetchImpl});await verifyHash(packed,c.packedSha256,cryptoImpl);
       const expanded=await readBounded(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip')),c.bytes,signal);
       await verifyHash(expanded,c.sha256,cryptoImpl);checkAbort(signal);data.set(expanded,offsets[index]);complete+=c.bytes;
       onProgress({bytes:done+complete,total:plan.bytes,index:0,count:plan.entries.length});
-     }
+     }}catch(error){failed=true;throw error;}
     });
     // Await all workers on failure: an old job must never race a retry's UI.
     const results=await Promise.allSettled(jobs);const error=results.find(r=>r.status==='rejected');if(error)throw error.reason;

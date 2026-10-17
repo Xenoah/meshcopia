@@ -66,7 +66,7 @@ try{
  await page.goto(home);await page.waitForSelector('[data-card]');
  await loadImages();
  assert.equal(await page.locator('[data-card]:visible').count(),catalog.length);
- for(const a of catalog.filter(a=>a.type==='model'&&a.id.startsWith('commons-'))){const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});assert.equal(await card.locator('.card-info p').textContent(),`${a.triangles.toLocaleString()} tris · GLB / STL`);}
+ for(const a of catalog.filter(a=>a.type==='model'&&a.id.startsWith('commons-'))){const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});assert.equal(await card.locator('.card-info p').textContent(),`${a.triangles.toLocaleString()} tris · FBX`);}
  for(const a of catalog.filter(a=>a.type==='texture')){
   const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});
   assert.equal((await card.locator('.format-badge').textContent()).trim(),{repeat:'SEAMLESS',mirror:'MIRROR',clamp:'ATLAS'}[a.wrapMode]);
@@ -75,6 +75,7 @@ try{
  await page.screenshot({path:'test-results/desktop-catalog.png',fullPage:false});
  await page.screenshot({path:'test-results/desktop-catalog-full.png',fullPage:true});
  await page.locator('[data-type-filter="model"]').click();assert.equal(await page.locator('[data-card]:visible').count(),countType('model'));
+ await page.locator('#asset-search').fill('chair FBX');assert.ok(await page.locator('[data-preview="studio-chair"]').isVisible());
  await page.locator('#asset-search').fill('chair GLB');assert.ok(await page.locator('[data-preview="studio-chair"]').isVisible());assert.equal(await page.locator('[data-preview="atelier-lamp"]').isVisible(),false);
  await page.locator('#asset-search').fill('no-such-asset');assert.equal(await page.locator('[data-card]:visible').count(),0);assert.ok(await page.locator('#empty-state').isVisible());
  await page.locator('#clear-filters').click();assert.equal(await page.locator('[data-card]:visible').count(),catalog.length);

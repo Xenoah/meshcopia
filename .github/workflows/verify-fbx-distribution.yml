@@ -37,6 +37,7 @@ jobs:
       - name: Preserve viewer and texture regressions
         run: node scripts/test-browser.mjs
       - name: Measure complete build and enforce Pages capacity
+        if: always()
         run: node scripts/measure-distribution.mjs
       - name: Preserve original API and immutable archive baseline
         if: always()
