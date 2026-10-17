@@ -72,11 +72,14 @@ jobs:
         shell: bash
         run: |
           echo 'Cohort verification stopped. Nothing was published; inspect this exact run.' >> "$GITHUB_STEP_SUMMARY"
-          # Surface the last runtime lines as one annotation (public run log excerpt).
+          # Surface the last runtime lines as bounded annotations (public log excerpt):
+          # gzip+base64 chunks so multi-line context survives annotation limits.
           if [ -f "$RUNNER_TEMP/cohort-runtime.log" ]; then
-            tail -n 80 "$RUNNER_TEMP/cohort-runtime.log" | cut -c1-300 | sed -e 's/%/%25/g' | awk 'BEGIN{ORS="%0A"}{print}' > "$RUNNER_TEMP/tail.txt"
-            echo "::error title=Cohort runtime log tail::$(cat "$RUNNER_TEMP/tail.txt")"
+            tail -n 400 "$RUNNER_TEMP/cohort-runtime.log" | tr '\r' '\n' | tail -n 300 | gzip -9 | base64 -w0 > "$RUNNER_TEMP/tail.b64"
+            split -b 3500 -d "$RUNNER_TEMP/tail.b64" "$RUNNER_TEMP/tailpart."
+            n=0; for part in "$RUNNER_TEMP"/tailpart.*; do n=$((n+1)); [ $n -le 9 ] && echo "::warning title=cohort-log-gz-b64 part $n::$(cat "$part")"; done
           fi
+
   record:
     # Separate job: copies only the concise public inventory and artifact
     # envelopes to an evidence branch for review. No QA, payload or release.
