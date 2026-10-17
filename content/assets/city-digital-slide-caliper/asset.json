@@ -1,0 +1,61 @@
+{
+  "id": "city-digital-slide-caliper",
+  "type": "model",
+  "title": "無表示デジタルノギス",
+  "titleEn": "Blank-display digital slide caliper",
+  "description": "整備工場や工作室の机上に置くデジタルノギス。対向する外側/内側測定ジョウ、金属ビーム、固定位置のスライダー、無表示LCDと三つのボタン、上端ロックねじ、ローレット状の送り輪、突出したデプスバー、無番号の参考目盛と裏ねじを造形。開いたジョウは固定で測定/表示/スライド機能はなく、目盛は校正されていません。一式1点、机上配置用の静的小物です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.305 × 0.026 × 0.107 m、20,016三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A digital slide caliper for workshop and maintenance benches. Opposed outside/inside measuring jaws, steel beam, fixed slider, blank LCD and three buttons, top locking screw, knurled thumbwheel, projecting depth rod, unnumbered reference graduations and underside screws are modeled. Jaws remain open in a fixed pose: measurement, display and sliding are not implemented and marks are not calibrated. The complete assembly counts as one static tabletop prop. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.305 × 0.026 × 0.107 m; 20,016 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "digital-caliper",
+    "measurement",
+    "ノギス"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-digital-slide-caliper.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 20016,
+  "dimensions": [
+    0.3055,
+    0.0258,
+    0.107
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-057/scripts/city_expansion/precision_hand_tools.py",
+    "sourceSha256": "81aa775ccfad292846bd6b2d641bd33e80bded590c3dacf196048a3a3e3fb55c",
+    "sourceRecipeSha256": "a35f92039068e1d54d6732b652ab1b09b4d586f70ab167e2e25d71104e419ce3",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "0378aaca371148e6924553c0a1d551ad3054c5a20b5b1537971a1cb9a437fd6d"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-057/scripts/city_expansion/precision_hand_tools.py",
+        "scripts/city_expansion/frozen/batch-057/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-digital-slide-caliper"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

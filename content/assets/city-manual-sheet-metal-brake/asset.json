@@ -1,0 +1,61 @@
+{
+  "id": "city-manual-sheet-metal-brake",
+  "type": "model",
+  "title": "手動フィンガー式板金折曲機",
+  "titleEn": "Manual finger-style sheet-metal brake",
+  "description": "板金作業場の背景に置く手動折曲機。補強付き四脚台、平らな作業ベッド、十二個の固定クランプフィンガー、前側の角度付き折曲エプロンと両端蝶番、左右の長い操作レバー/握り、上部の締付レバー・調整つまみ、裏面銘板を造形。フィンガーやレバーは一式の部品で、モデルは1点です。板材は付属せず、可動・加工精度・荷重・安全性能は未実装・未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.636 × 1.372 × 0.891 m、7,696三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A manual folding brake for sheet-metal workshop backgrounds. It has a braced four-leg stand, flat working bed, twelve fixed clamping fingers, angled front folding apron with end hinges, two long operating levers/grips, upper clamp levers/adjustment knobs and a rear blank plate. All fingers and levers belong to one model. No sheet is included; motion, forming accuracy, load and safety performance are unimplemented and untested. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.636 × 1.372 × 0.891 m; 7,696 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "sheet-metal-brake",
+    "metal-forming",
+    "板金折曲"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-manual-sheet-metal-brake.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 7696,
+  "dimensions": [
+    1.636,
+    1.37198,
+    0.890565
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-053/scripts/city_expansion/metal_forming_equipment.py",
+    "sourceSha256": "6ef04f04a96fb4a3f7b7c4246d81f346629e05b1923428ebabcede0a808e6c0b",
+    "sourceRecipeSha256": "e009a059d5b4c1fd1ec4ad8ee842378a2d4bc66b6d7e28eba30078d62d63c3d1",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "6210d18855bc70301992253f73211c58939bdf926a251cfeb23f9dd45ae435c4"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-053/scripts/city_expansion/metal_forming_equipment.py",
+        "scripts/city_expansion/frozen/batch-053/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-manual-sheet-metal-brake"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

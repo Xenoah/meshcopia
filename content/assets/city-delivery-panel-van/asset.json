@@ -1,0 +1,62 @@
+{
+  "id": "city-delivery-panel-van",
+  "type": "model",
+  "title": "配送用パネルバン",
+  "titleEn": "Delivery panel van",
+  "description": "市街地の配送拠点や店舗の荷さばき場に配置する小型配送バンです。短いボンネットと傾斜した前面窓、独立した運転席、左右の座席・操舵輪・計器、背の高い密閉荷室、側面スライド扉の輪郭とレール、観音開きの後扉とヒンジ・取手、車輪アーチ、車軸と底部外装を造形しています。運転室の窓はGLB内の淡いアルファ透過材質で、実際に含まれる内装が見えます。荷室・仕切壁・ミラー・灯火は不透明で、荷室内部と積荷は省略しています。屈折ガラス、扉開閉、走行・操舵機構、文字や人物は含みません。部品全体で一モデルです。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）2.590 × 2.360 × 5.435 m、77,716三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact delivery van for city depots and shop loading areas. A short bonnet and raked windshield distinguish its cab from the tall enclosed cargo body. Included features are two modeled front seats, steering wheel and blank instruments, side sliding-door seams and track, separate split rear doors with hinges and handles, shaped wheel arches, axles and underside exterior detail. Cab windows use lightly tinted alpha-blended GLB material and reveal the included interior. Cargo shell, partition, mirrors and lamps are opaque; cargo internals and goods are omitted. No refractive-glass simulation, door motion, driving or steering mechanism, lettering or people is included. All components form one complete model. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 2.590 × 2.360 × 5.435 m; 77,716 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "road-vehicle",
+    "delivery-van",
+    "cargo-access",
+    "panel-van",
+    "配送車"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-delivery-panel-van.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 77716,
+  "dimensions": [
+    2.59,
+    2.36,
+    5.435
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-048/scripts/city_expansion/urban_transport_vehicles.py",
+    "sourceSha256": "79483802a21540a83454ecaf51d52a3d0311a7c7e0e5a185743318790b16ada0",
+    "sourceRecipeSha256": "8886f4fc9f5de11f1658b5610e16995e2e515f50fe6896bab31871b6914c4132",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "50b3f51e8178d275be941c5ca36cefc987e86d4839e5874acb4ec2241f4a2bd5"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-048/scripts/city_expansion/urban_transport_vehicles.py",
+        "scripts/city_expansion/frozen/batch-048/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-delivery-panel-van"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

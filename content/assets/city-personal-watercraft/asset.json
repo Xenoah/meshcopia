@@ -1,0 +1,61 @@
+{
+  "id": "city-personal-watercraft",
+  "type": "model",
+  "title": "細長いサドル付きパーソナルウォータークラフト",
+  "titleEn": "Personal watercraft with long saddle",
+  "description": "都市の水辺・艇庫背景に配置する、独自の小型サドル式ウォータークラフト。V形の船底と成形デッキ、実際に低くなった左右の足元溝と滑り止め、長い成形サドルと支持部、立上がり舵軸・ハンドル、無表示の計器面、後部乗込みステップ、開口した噴射ノズル外形と船底グリルを造形。一式1点で、ボートの縮小版や色違いではありません。 最下点をY=0とする水平中央原点です。水面の高さ・喫水位置は配置側で選んでください。水・人物・物理挙動・操縦・浮力・流体力学・救助機能は含まず、静的外形のみです。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.196 × 1.085 × 3.205 m、8,130三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A compact original saddle-style personal watercraft for urban waterfront and boathouse scenes. Its V-bottom body and molded deck form two genuinely lowered foot channels with grip strips. A long shaped saddle/support, raised steering stem and handlebars, blank instrument face, attached rear boarding step, open jet-nozzle exterior and underside grille complete the distinct assembly. It is one model, not a resized or recolored open boat. The horizontally centered origin places the lowest geometry point at Y=0; choose the waterline and immersion height in your own scene. No water, people, physics, driving, flotation, hydrodynamics or rescue functionality is included: this is a static exterior assembly. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.196 × 1.085 × 3.205 m; 8,130 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "personal-watercraft",
+    "saddle",
+    "waterjet-exterior",
+    "ウォータークラフト"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-personal-watercraft.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 8130,
+  "dimensions": [
+    1.195533,
+    1.0855,
+    3.205
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-052/scripts/city_expansion/urban_watercraft_models.py",
+    "sourceSha256": "7e9ae7977585cb7934673e2cf45394bb9f1ff456372a703d2e6181f4cb575103",
+    "sourceRecipeSha256": "82371d5d2ebb2ddb027cf96e9d325a08635ecf39b98fa0bd8d8b937f4e733bf6",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "c12aa34a2d8c66f32266c2d888e92c406418176bc5fcd28faa9eeb01484eb03e"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-052/scripts/city_expansion/urban_watercraft_models.py",
+        "scripts/city_expansion/frozen/batch-052/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-personal-watercraft"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

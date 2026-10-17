@@ -1,0 +1,61 @@
+{
+  "id": "city-hydraulic-shop-press",
+  "type": "model",
+  "title": "H形フレームの油圧ショッププレス",
+  "titleEn": "H-frame hydraulic shop press",
+  "description": "金属加工・車両整備工場の背景に置くH形ショッププレス。二本柱と床スキッド、固定高さの開いた作業台と二つのV溝ブロック、ラム外形、連続した二本の戻しばね、手動ポンプ/握り/曲線ホース、数値のない固定計器を造形。一式1点で加工材は含みません。荷重・油圧・復帰・計測や安全性を実装/検証した製造用設計ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.187 × 1.835 × 0.754 m、14,556三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "An H-frame shop-press exterior for metalworking and vehicle-service backgrounds. It has twin uprights/floor skids, a fixed-height open work bed and two V-notched blocks, ram exterior, two continuous return springs, manual pump/handle/curved hose and a fixed unnumbered gauge. The complete assembly counts once and contains no workpiece. Load, hydraulic, return, measuring and safety performance are not implemented or validated. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.187 × 1.835 × 0.754 m; 14,556 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "shop-press",
+    "metal-forming",
+    "ショッププレス"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-hydraulic-shop-press.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 14556,
+  "dimensions": [
+    1.186602,
+    1.8355,
+    0.754
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-053/scripts/city_expansion/metal_forming_equipment.py",
+    "sourceSha256": "ef27a23c6a5c395f08f75d074d4093026ab6a8d806e1ad681b77a1465f825157",
+    "sourceRecipeSha256": "e009a059d5b4c1fd1ec4ad8ee842378a2d4bc66b6d7e28eba30078d62d63c3d1",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "6de6e1b2fb626359d4d1a22b46747450885b125ca1f7daba746c0a4f2313cdd7"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-053/scripts/city_expansion/metal_forming_equipment.py",
+        "scripts/city_expansion/frozen/batch-053/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-hydraulic-shop-press"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "city-vertical-rotisserie-spit",
+  "type": "model",
+  "title": "縦型回転焼き機の外観",
+  "titleEn": "Vertical rotisserie spit appliance",
+  "description": "飲食店の調理台に配置する縦型回転焼き機の外観です。空の縦串と固定フォーク/受け皿、上側駆動部外装、三段の非発光ヒーター面、側面つまみ、実際に凹んだ周縁付き油受け、ゴム脚と背面通気/電源口を造形。肉や食品は含まず、一式1点です。台上設置高さはシーン側で調整してください。回転・加熱・排煙や食品機器の安全性能は未実装・未検証です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.438 × 0.922 × 0.525 m、11,276三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A vertical rotisserie exterior for restaurant counters. It has an empty vertical spit with fixed forks/support disc, upper drive housing, three unlit heater faces, side controls, a genuinely recessed rimmed drip tray, rubber feet and rear vent/power details. No meat or food is supplied; all parts count as one model. Adjust counter placement height. Rotation, heating, ventilation and food-appliance safety performance are unimplemented and untested. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.438 × 0.922 × 0.525 m; 11,276 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "kitchen",
+    "vertical-rotisserie",
+    "spit",
+    "縦型焼き機"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-vertical-rotisserie-spit.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 11276,
+  "dimensions": [
+    0.438,
+    0.9225,
+    0.5255
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-055/scripts/city_expansion/snack_service_equipment.py",
+    "sourceSha256": "1b8e3d50feb243db61c573b9fa51da292508c76e74183a1a415597a063a7979c",
+    "sourceRecipeSha256": "24c803b430c20450836b5af3bfaef592d95502a4bb428f1dd1daf17f7a6f52d4",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "bd63f904fe1a497ae0c2a9fbc3b9d820c0dea4be697ee6cff165bc4e2cea5e36"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-055/scripts/city_expansion/snack_service_equipment.py",
+        "scripts/city_expansion/frozen/batch-055/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-vertical-rotisserie-spit"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

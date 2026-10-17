@@ -1,0 +1,61 @@
+{
+  "id": "city-photo-booth",
+  "type": "model",
+  "title": "開いた入口付き写真ブース",
+  "titleEn": "Photo booth with open entrance",
+  "description": "駅や商業施設の通路に置く、自立型の無銘写真ブース。前面には入室できる空いた開口と片側に寄せた厚みのあるカーテンがあり、内部に台座付き座席・背当て、向かい合う固定カメラと不透明な画面、外側に無記載の操作面と空の出力口、背面に貫通換気スリットを造形。画面・レンズ・照明面は不透明かつ非発光です。撮影、印刷、支払、カーテン操作は未実装。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.839 × 2.175 × 1.345 m、8,892三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A freestanding unbranded photo booth for station and shopping-center corridors. Its front has a genuinely open entrance and thick gathered curtain at one side, with a pedestal seat/backrest, opposing fixed camera and opaque display inside, blank exterior controls, an empty output mouth, and through ventilation slots at the rear. Display, lens and lighting faces are opaque and non-emissive. Photography, printing, payment and curtain motion are not implemented. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.839 × 2.175 × 1.345 m; 8,892 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "retail",
+    "photo-booth",
+    "interior",
+    "写真ブース"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-photo-booth.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 8892,
+  "dimensions": [
+    1.839,
+    2.1745,
+    1.3455
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-050/scripts/city_expansion/retail_storage_fixtures.py",
+    "sourceSha256": "2f3bbfc111ba91d4fc5c7e5ead9fcc7cc251c0a04dcb53625e69acc75577565c",
+    "sourceRecipeSha256": "b297936e9abfa79c0015e5726bd50ab1f735b44daa1fe6c6d844a1ad90b47d46",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "4c1ac24178a78ce03d24239c93ec48e4e63e9028878be484ca016b84f72560b2"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-050/scripts/city_expansion/retail_storage_fixtures.py",
+        "scripts/city_expansion/frozen/batch-050/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-photo-booth"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

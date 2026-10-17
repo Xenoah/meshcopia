@@ -1,0 +1,61 @@
+{
+  "id": "city-dental-treatment-chair",
+  "type": "model",
+  "title": "側方ユニット付き歯科診療椅子",
+  "titleEn": "Dental treatment chair with side unit",
+  "description": "歯科診療室の背景に置く椅子と側方ユニット一式。傾斜した背・脚クッション、頭当て・肘掛け、昇降台外形、支持アームで接続したキャビネット、実際に凹んだすすぎ鉢と排水口、水栓、器具トレーと三本の固定ハンドピース・曲線ホースを造形。一式1点で、患者や医療画面を含みません。診療・給排水・作動や医療安全適合を表す設計ではありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.340 × 1.356 × 1.967 m、11,720三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A chair and connected side-unit assembly for dental-room backgrounds. It has inclined back/leg cushions, headrest/armrests, lift-base exterior, support-linked cabinet, genuinely recessed rinse bowl and drain, faucet, instrument tray and three fixed handpiece exteriors with curved hoses. It counts as one assembly and contains no patient or medical imagery. It is not a design demonstrating clinical, plumbing, operational or medical-safety performance. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.340 × 1.356 × 1.967 m; 11,720 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "clinical",
+    "dental",
+    "chair",
+    "歯科診療椅子"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-dental-treatment-chair.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 11720,
+  "dimensions": [
+    1.34,
+    1.355614,
+    1.967489
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-049/scripts/city_expansion/clinical_room_equipment.py",
+    "sourceSha256": "3aaad10ecad205ce697e95b24a5a4afa314890fdb6bff5e4f16e477f866d771f",
+    "sourceRecipeSha256": "ae6f5e8ea80e51488128b0d96d0a21fc79804d3ed5c40f099abe45f26de631cc",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "676787fd154c600ccc99f2428b94972ff6c8671dbd38144e1a0f6e7951f8a863"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-049/scripts/city_expansion/clinical_room_equipment.py",
+        "scripts/city_expansion/frozen/batch-049/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-dental-treatment-chair"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

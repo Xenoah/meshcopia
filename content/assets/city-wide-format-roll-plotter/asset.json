@@ -1,0 +1,61 @@
+{
+  "id": "city-wide-format-roll-plotter",
+  "type": "model",
+  "title": "ロール紙式大判プロッター",
+  "titleEn": "Wide-format roll-paper plotter",
+  "description": "設計事務所や印刷サービス店に配置する脚付き大判プロッター。幅広い給紙筐体、実際に開いた排紙口とローラー、無地の薄い湾曲紙、後ろのロール紙/軸/支持、固定の受け布と棒、車輪付き二脚と補強、操作表示面/ボタン、背面サービス板を造形しています。紙と受け布は一式に含まれる固定形状で別点数ではありません。画面は不透明・無表示、印刷/給紙/布の変形・電気機能はありません。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）1.388 × 1.133 × 0.685 m、8,612三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A stand-mounted large-format plotter for design offices and print shops. It has a broad feed housing, actual output opening/roller, thin curved blank paper web, rear roll/spindle/supports, fixed fabric catcher and rods, wheeled twin legs/bracing, blank control display/buttons and rear service panel. Paper and catcher are fixed geometry within one model, not additional assets. The screen is opaque and blank; printing, feeding, fabric deformation and electrical functions are absent. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 1.388 × 1.133 × 0.685 m; 8,612 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "office",
+    "wide-format-plotter",
+    "printing",
+    "大判プロッター"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-wide-format-roll-plotter.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 8612,
+  "dimensions": [
+    1.388,
+    1.1325,
+    0.685
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-056/scripts/city_expansion/document_service_equipment.py",
+    "sourceSha256": "d0d9a87cc764aa28e683cf2d2b1bde19665c6e812d46caeeac7907b2caac5c00",
+    "sourceRecipeSha256": "57ab43f905bb94ab5a72e70a1802236414107c5e6d6a5fa49b06c9be9b2d0ec2",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "5947a8c2095865d6e6c32265da91f832f90dc8cc451b26f82c19de14e9ac680a"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-056/scripts/city_expansion/document_service_equipment.py",
+        "scripts/city_expansion/frozen/batch-056/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-wide-format-roll-plotter"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

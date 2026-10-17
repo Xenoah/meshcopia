@@ -1,0 +1,61 @@
+{
+  "id": "city-compound-bolt-cutters",
+  "type": "model",
+  "title": "複合リンク式ボルトクリッパー",
+  "titleEn": "Compound-link bolt cutters",
+  "description": "工場や建設作業場の工具棚/作業台に置く大型ボルトクリッパー。直線の対向切断刃と厚い鍛造風ジョウ、二軸の表裏ブリッジ、交差する短い複合リンク、調整ナットとストップねじ、長い二本の金属ハンドル、閉じた端と滑り止めの黒い握りを造形。剪定ばさみとは異なる直線の対向刃を少し開いた固定姿勢です。刃/リンク/ハンドルの動作、実際の切断、刃硬度や安全性能は再現していません。全部品を含む一式1点。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.320 × 0.059 × 0.581 m、21,744三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "Large bolt cutters for factory or construction workshop shelving and benches. Straight opposing cutting edges and thick forged-style jaws, front/rear twin-pivot bridge plates, short crossed compound links, adjustment nuts/stop screw, long twin metal handles, closed grip ends and ribbed black grips are modeled. Unlike bypass pruning shears, the straight opposing jaws have a narrow fixed opening. Jaw, linkage and handle motion, actual cutting, edge hardness and safety performance are not implemented. All components form one complete static prop. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.320 × 0.059 × 0.581 m; 21,744 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "bolt-cutters",
+    "compound-linkage",
+    "ボルトクリッパー"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-compound-bolt-cutters.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 21744,
+  "dimensions": [
+    0.320079,
+    0.0592,
+    0.580584
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-057/scripts/city_expansion/precision_hand_tools.py",
+    "sourceSha256": "6a86cc9547b5301aea9b618634a4a53afc2a56ae4ab918895aaff42def1616a1",
+    "sourceRecipeSha256": "a35f92039068e1d54d6732b652ab1b09b4d586f70ab167e2e25d71104e419ce3",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "add9eb75c3b752f3b19fb43db2402c2547263f3a12fe22f79fe602852ea4a764"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-057/scripts/city_expansion/precision_hand_tools.py",
+        "scripts/city_expansion/frozen/batch-057/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-compound-bolt-cutters"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}

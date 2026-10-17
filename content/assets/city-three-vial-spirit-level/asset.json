@@ -1,0 +1,61 @@
+{
+  "id": "city-three-vial-spirit-level",
+  "type": "model",
+  "title": "三気泡管の水平器",
+  "titleEn": "Three-vial spirit level",
+  "description": "施工現場や工具棚に置く横長の水平器。上下の金属基準面、黄色い補強フレーム、実際に貫通した三つの観察窓、水平/垂直/斜めの透明な密閉気泡管、黒い基準線、固定した淡色の内部気泡表示、保護端キャップと側面握りを造形。透明管は形状と透過材質を持ち、気泡表示は固定の不透明楕円体で液体/気泡物理を再現しません。斜め管は参考角度で校正されておらず水平測定不可。一式1点の静的小物です。 ゲーム・可視化向け。製造・構造設計・3Dプリント用途は未検証。 外接寸法（X×Y×Z）0.647 × 0.068 × 0.046 m、20,088三角形。単位m・Y-up、水平中央の接地用原点、最下点Y=0。部品ごとの重複UV0と単色PBR材質を収録し、画像テクスチャ・UV2・コライダー・LOD・リグ・動作は付属しません。静的表示用でUnity/VRChat実機検証は未実施。STLはm・Y-up座標の形状のみで色・材質・UV・階層を含みません。",
+  "descriptionEn": "A long spirit level for construction scenes or tool shelving. Upper/lower metal reference rails, yellow reinforced frame, three actual through-view windows, horizontal/vertical/angled transparent sealed vials, black reference rings, fixed pale internal bubble indicators, protective end caps and side grips are modeled. Vials use real closed geometry and transmissive materials; bubble indicators are fixed opaque ellipsoids, not simulated liquid or air physics. The angled vial is illustrative, not calibrated, and the prop cannot measure level. One complete static assembly. For games and visualization; not validated for manufacture, structural engineering or 3D printing. Bounding dimensions (X×Y×Z): 0.647 × 0.068 × 0.046 m; 20,088 triangles. Metres, Y-up, horizontally centered placement origin with minimum Y=0, not an articulation or wall-mount pivot. Includes overlapping component UV0 and constant-color PBR materials, with no image textures, unique UV2, colliders, LOD, rig or runtime behavior. Static visualization only; Unity/VRChat editor and runtime tests have not been performed. STL uses metre-valued Y-up coordinates and contains geometry only, without color, materials, UVs or hierarchy.",
+  "category": "urban",
+  "tags": [
+    "city",
+    "street",
+    "original",
+    "workshop",
+    "spirit-level",
+    "measurement",
+    "水平器"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "draft",
+  "created": "2026-10-14",
+  "updated": "2026-10-14",
+  "thumbnail": "preview.png",
+  "preview": "city-three-vial-spirit-level.glb",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 20088,
+  "dimensions": [
+    0.647,
+    0.068,
+    0.046
+  ],
+  "uv": "Per-component primitive or automatically unwrapped UVs. Overlapping between components; not a packed unique lightmap atlas. Solid-color PBR materials; no external textures. STL has no colors or UVs.",
+  "provenance": {
+    "method": "Original AI-agent-authored procedural city geometry",
+    "tool": "Blender 4.3.2; Meshcopia original city expansion generator 1.0",
+    "rights": "Original geometry and material design created for Xenoah Meshcopia under the owner request for CC-BY-4.0 publication. No third-party meshes, scans, brands, logos or font files.",
+    "generatorUrl": "https://github.com/Xenoah/meshcopia/blob/main/scripts/city_expansion/frozen/batch-057/scripts/city_expansion/precision_hand_tools.py",
+    "sourceSha256": "268cf608c4a60211d0affd0d61904b4c9c93a2f9f8345a272bd0b04d8a161ef0",
+    "sourceRecipeSha256": "a35f92039068e1d54d6732b652ab1b09b4d586f70ab167e2e25d71104e419ce3",
+    "sourceHelpersSha256": "99ea76b4c3073b3ec2cfdf732e987c7977bfe5efc986b4a077df8db35a6f9d15",
+    "alternateFormat": "STL triangulated from the exact reimported GLB, metre-valued Y-up coordinates. No printability or manufacture validation.",
+    "stlSha256": "3a8ade2898af08285015619ddbb68486a7de190d81c22d38ce19272843401f9c"
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/city_expansion/frozen/batch-057/scripts/city_expansion/precision_hand_tools.py",
+        "scripts/city_expansion/frozen/batch-057/scripts/city_expansion/common.py"
+      ],
+      "selectors": [
+        "city-three-vial-spirit-level"
+      ],
+      "context": "Original city asset created for this library. No external deployment or reuse claimed."
+    }
+  ]
+}
