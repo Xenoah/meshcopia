@@ -59,6 +59,7 @@ async function loadImages(){
   batch.failure={message:error.message,current};
   batch.domTransitions=await page.evaluate(()=>window.__imageCheckTransitions).catch(()=>[]);
   await writeFile('test-results/image-decode-failure.json',JSON.stringify(batch,null,2));
+  console.error('Image decode failure evidence:',JSON.stringify(batch.failure));
   await writeFile('test-results/image-decode-checks.json',JSON.stringify(imageDecodeChecks,null,2));
   throw error;
  }finally{await page.evaluate(()=>window.__imageCheckObserver?.disconnect()).catch(()=>{});}

@@ -4,6 +4,7 @@ import {prepareMinimalDownloads,minimalIdentity} from './lib/minimal-downloads.m
 import {verifySiteMigration} from './lib/site-migration.mjs';
 import {loadCohortPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './lib/cohort-policy.mjs';
 const policy=await loadCohortPolicy();
+import {toLocalSiteUrl} from '../src/lib/site-url.mjs';
 const base=process.env.PUBLIC_BASE_PATH??'/meshcopia';
 const verifiedMinimal=await prepareMinimalDownloads(await readCatalog());
 const catalog=JSON.parse(await readFile('dist/api/catalog.json','utf8'));
@@ -18,6 +19,7 @@ for(const a of catalog.assets){
  assert.deepEqual(a.usages,original.usages??[]);
  const manifest=JSON.parse(await readFile(await resolveFile(a.manifestUrl),'utf8'));assert.deepEqual(manifest.usages,a.usages);
  const html=await readFile(await resolveFile(a.pageUrl),'utf8');assert.ok(html.includes('id="usage-heading"'));
+ if(a.type==='model')for(const f of a.files.filter(f=>['GLB','GLTF','STL','OBJ','STEP','STP'].includes(f.format)))assert.ok(html.includes(`data-source="${toLocalSiteUrl(f.url)}"`),`${a.id}: wrong preview source URL`);
  if(a.type==='texture'){
   assert.deepEqual(a.downloads.minimal,verifiedMinimal.get(minimalIdentity(a)),'Minimal binding differs from current verified public Release');
   assert.deepEqual(manifest.downloads.minimal,a.downloads.minimal,'Per-asset minimal binding mismatch');
@@ -25,6 +27,8 @@ for(const a of catalog.assets){
  assert.equal(a.status,'public');await resolveFile(a.pageUrl);assert.equal(a.thumbnail,originalThumbnailUrl(original,policy));if(!a.thumbnail.startsWith('https://raw.githubusercontent.com/'))await resolveFile(a.thumbnail);await resolveFile(a.manifestUrl);
  for(const f of a.files){assert.equal(f.url,originalSourceUrl(original,f,policy));const data=await readFile(f.url.startsWith('https://raw.githubusercontent.com/')?`content/assets/${a.id}/source/${f.name}`:await resolveFile(f.url));assert.equal(data.length,f.bytes);assert.equal(sha256(data),f.sha256);count++;}
 }
+const homeHtml=await readFile('dist/index.html','utf8'),homeImages=new Set([...homeHtml.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/g)].map(m=>m[1].replaceAll('&amp;','&')));
+for(const a of catalog.assets)assert.ok(homeImages.has(toLocalSiteUrl(a.thumbnail)),`${a.id}: wrong catalog thumbnail URL`);
 assert.equal(catalog.assets.filter(a=>a.downloads.minimal).length,catalog.assets.filter(a=>a.type==='texture').length,'Verified texture cohort omitted from public catalog');
 let links=0;
 for(const file of (await filesIn('dist')).filter(f=>f.endsWith('.html'))){const html=await readFile(path.join('dist',file),'utf8');for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){const value=match[1].replace(/&amp;/g,'&');if(value.startsWith(base+'/')){await resolveFile(value);links++;}}}
