@@ -1,6 +1,7 @@
 import {chromium,expect} from '@playwright/test';
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import path from 'node:path';
+import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
 import {isDeepStrictEqual} from 'node:util';
 import {formatBytes} from '../../src/lib/file-size.mjs';
@@ -10,9 +11,19 @@ const live=process.argv.includes('--live'),production=live||process.argv.include
 const root=path.resolve('dist'),out='test-results/asset-revisions/'+(live?'live-browser':production?'production-browser':'browser');await mkdir(out,{recursive:true});
 const document=JSON.parse(await readFile('dist/api/catalog.json')),assets=document.assets;
 if(production){assert.equal(document.schemaVersion,'3.0.0');assert.ok(!document.publicationState);for(const a of assets.filter(a=>a.type==='model'))assert.equal(a.downloads.delivery.verification.state,'published-verified');}else assert.equal(document.publicationState,'unpublished-candidate');assert.equal(document.count,455);
+const retained=[];
+if(production){
+ const old=JSON.parse(await readFile('docs/fbx-minimal-verification/expected137.json')).models.filter(r=>['garden-arch','wayfinding-sign'].includes(r.id));
+ for(const name of (await readdir(root+'/download-data')).filter(n=>n.endsWith('.json'))){const bytes=await readFile(root+'/download-data/'+name),m=JSON.parse(bytes),r=old.find(r=>r.fbxSha256===m.sha256);if(!r)continue;
+  assert.equal(name,sha256(bytes)+'.json');const parts=[],urls=[{url:SITE+'download-data/'+name,bytes:bytes.length,sha256:sha256(bytes)}];
+  for(const c of m.chunks){const b=await readFile(root+'/download-data/'+c.packedSha256+'.gz');assert.equal(b.length,c.packedBytes);assert.equal(sha256(b),c.packedSha256);const raw=gunzipSync(b);assert.equal(raw.length,c.bytes);assert.equal(sha256(raw),c.sha256);parts.push(raw);urls.push({url:SITE+'download-data/'+c.packedSha256+'.gz',bytes:b.length,sha256:sha256(b)});}
+  const fbx=Buffer.concat(parts);assert.equal(fbx.length,r.fbxBytes);assert.equal(sha256(fbx),r.fbxSha256);retained.push({id:r.id,urls});
+ }
+ assert.deepEqual(retained.map(r=>r.id).sort(),['garden-arch','wayfinding-sign']);
+}
 const selected=['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine','sage-terrazzo'].map(id=>assets.find(a=>a.id===id));
 const entries=expectedZipEntries(selected),estimate=22+entries.reduce((n,e)=>n+e.bytes+76+2*Buffer.byteLength(e.name),0);
-const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),liveSite:live,localHttpsStaticServer:!live,canonicalOriginPreserved:true,individual:[],bulk:[],previews:[],oldUrls:[]};
+const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),liveSite:live,localHttpsStaticServer:!live,canonicalOriginPreserved:true,individual:[],bulk:[],previews:[],oldUrls:[],retainedTransports:[]};
 const server=live?null:await serveReview(root);let browser;
 async function context(mobile=false){
  return browser.newContext({acceptDownloads:true,ignoreHTTPSErrors:true,serviceWorkers:'block',viewport:mobile?{width:390,height:844}:{width:1440,height:1050},isMobile:mobile,hasTouch:mobile});
@@ -63,6 +74,7 @@ try{
    const built=await page.evaluate(async url=>{const r=await fetch(url);return {status:r.status,bytes:[...new Uint8Array(await r.arrayBuffer())]}},f.url);assert.equal(built.status,200);assert.equal(built.bytes.length,f.bytes);assert.equal(sha256(Buffer.from(built.bytes)),f.sha256);
    const response=await page.request.get(f.url);assert.ok(response.ok());const bytes=await response.body();assert.equal(bytes.length,f.bytes);assert.equal(sha256(bytes),f.sha256);evidence.oldUrls.push({url:f.url,bytes:bytes.length,sha256:f.sha256,candidateAndPublicBytesVerified:true})
   }
+  if(!mobile)for(const r of retained){for(const f of r.urls){const b=await page.evaluate(async url=>{const response=await fetch(url);if(!response.ok)throw Error('Retained transport HTTP '+response.status);return [...new Uint8Array(await response.arrayBuffer())]},f.url);assert.equal(b.length,f.bytes);assert.equal(sha256(Buffer.from(b)),f.sha256);}evidence.retainedTransports.push(r);}
   assert.deepEqual(errors,[]);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await ctx.close();
  }
  evidence.state='passed';await writeFile(`${out}/report.json`,JSON.stringify(evidence,null,2)+'\n');
