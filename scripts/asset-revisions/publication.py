@@ -18,7 +18,9 @@ def request(url, data=None, method=None, auth=False, content='application/json')
         try:
             with urllib.request.urlopen(urllib.request.Request(url,data=data,method=method,headers=headers),timeout=120) as r:return r.read()
         except urllib.error.HTTPError as e:
-            if e.code not in (429,500,502,503,504) or attempt==3:raise
+            if e.code not in (429,500,502,503,504) or attempt==3:
+                if e.code not in (404,):print('GitHub request failed:',e.code,e.read().decode()[:3000],flush=True)
+                raise
             time.sleep(5*(attempt+1))
 def api(path,**kw):return json.loads(request(API+path,**kw))
 def reviewed_lock():
@@ -86,8 +88,8 @@ def publish(candidate):
         # Do not modify a pre-existing draft, tag or release on retries.
         existing=api('/releases?per_page=100',auth=True)
         assert not any(r['tag_name']==TAG for r in existing),'Existing draft requires explicit inspection; no overwrite'
-        try:api('/git/ref/tags/'+TAG);raise AssertionError('Pre-existing tag; refusing creation')
-        except urllib.error.HTTPError as missing:assert missing.code==404
+        ref=api('/git/ref/tags/'+TAG)
+        assert ref['object']['type']=='commit' and ref['object']['sha']==REVIEW,'Tag must already pin the reviewed commit; never create or move it here'
         release=api('/releases',method='POST',auth=True,data=encode({'tag_name':TAG,'target_commitish':REVIEW,'name':'Starter winding repairs and refrigerator — verified FBX','body':f'Immutable consumer FBX and minimal ZIPs for garden-arch 1.0.2, wayfinding-sign 1.0.2 and household-two-door-refrigerator 1.0.0. CC BY 4.0; each ZIP contains FBX and one LICENSE.txt. Preview GLB, production originals and QA remain in Git and review artifacts. Verified review: https://github.com/{REPO}/actions/runs/{RUN}. Existing washer and all other models are retained. No application-specific Unity/Godot or physical manufacturing certification.','draft':True,'prerelease':False,'make_latest':'false'}))
         for name,data in files.items():
             url=release['upload_url'].split('{')[0]+'?name='+name
