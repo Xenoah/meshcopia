@@ -38,6 +38,8 @@ jobs:
               /usr/bin/python3.13 scripts/asset-revisions/inspect_all.py'
       - name: Render actual original and revised GLB/FBX front faces and interiors
         run: node scripts/asset-revisions/render.mjs
+      - name: Verify live washing-machine listing, Japanese search and public preview
+        run: node scripts/asset-revisions/test-live-washer.mjs
       - name: Verify existing immutable FBX release and retain exact payloads
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Verify all existing cohorts anonymously with fresh binding
@@ -52,12 +54,12 @@ jobs:
         run: node tests/delivery-browser-fixture.mjs
       - name: Build explicitly unpublished 455-item candidate
         run: node scripts/asset-revisions/build-review.mjs
-      - name: Verify actual ordinary and selected downloads, previews and old source URLs
-        run: node scripts/asset-revisions/test-review-browser.mjs
       - name: Enforce unchanged full Pages capacity gate on review build
         run: |
           node scripts/measure-distribution.mjs
           cp test-results/fbx-distribution-size.json test-results/asset-revisions/candidate-size.json
+      - name: Verify actual ordinary and selected downloads, previews and old source URLs
+        run: node scripts/asset-revisions/test-review-browser.mjs
       - name: Store review evidence and unpublished packages, never publish
         if: always()
         uses: actions/upload-artifact@v4

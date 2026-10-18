@@ -33,7 +33,13 @@ closed surface, rather than adding coincident caps at its pillar interfaces.
 `city-front-loading-washing-machine` is already public in new251. It is a
 22,096-triangle front-loading washer with a real open drum, separate open door,
 gasket, controls and rear details. Its current FBX is retained and checked against
-the immutable expected hash. No separate unpublished household set was found in
+the immutable expected hash. Its existing public detail page is
+<https://xenoah.github.io/meshcopia/assets/city-front-loading-washing-machine/>.
+The current category is `urban`; search all assets for the Japanese term `洗濯機`
+or use <https://xenoah.github.io/meshcopia/?q=%E6%B4%97%E6%BF%AF%E6%A9%9F#catalog>.
+The live-site browser probe verifies listing → Japanese search → detail → GLB,
+without intercepting requests or substituting a local catalog.
+No separate unpublished household set was found in
 the workspace or remote branch inventory. `city-refrigerated-display-case` is
 an existing commercial display case, not a household refrigerator.
 
