@@ -1,7 +1,5 @@
 name: Verify starter repairs and refrigerator candidate
 on:
-  push:
-    branches: [codex/repair-starters-add-appliances]
   workflow_dispatch:
 permissions:
   contents: read
@@ -77,6 +75,7 @@ jobs:
         with:
           name: asset-revision-build-${{ github.sha }}
           compression-level: 1
+          include-hidden-files: true
           path: dist/
   browser:
     needs: verify
@@ -95,6 +94,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: asset-revision-build-${{ github.sha }}
+          include-hidden-files: true
           path: dist/
       - name: Verify actual ordinary and selected downloads, previews and old source URLs
         run: node scripts/asset-revisions/test-review-browser.mjs
