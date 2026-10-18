@@ -17,6 +17,8 @@ replaces garden-arch and wayfinding-sign with version1.0.2 and adds
 household-two-door-refrigerator1.0.0. All454 previous IDs, including vehicles and
 the front-loading washer, remain: 455 public assets, 419 models, 36 textures.
 Versioned GLB and thumbnail URLs preserve old source and thumbnail bytes.
+Historical arch/sign download-data manifests and chunks are also retained;
+the active inventory binds only the revised FBX.
 
 Each production build runs, in order:
 

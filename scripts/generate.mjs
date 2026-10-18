@@ -22,7 +22,9 @@ const verifiedFbx=[...baseFbx.filter(r=>!revisions.some(x=>x.id===r.id)),...revi
 assert.equal(new Set(verifiedFbx.map(r=>r.id)).size,verifiedFbx.length,'Duplicate FBX cohort IDs');
 await assertCompleteModelDeliveries(assets,{verifiedFbx,baseline:JSON.parse(await readFile('docs/model-delivery-baseline.json','utf8'))});
 const minimalDownloads = await prepareMinimalDownloads(baseAssets); // Verify public bytes before cleanup.
-const deliveryPayloads = await prepareDeliveryPayloads(verifiedFbx,{site:SITE});
+// Keep historical arch/sign transport URLs while later revision records bind
+// the current ID to the new payload. Shared chunks remain deduplicated.
+const deliveryPayloads = await prepareDeliveryPayloads([...baseFbx,...revisions],{site:SITE});
 await rm('public/assets', {recursive:true,force:true});
 await rm('public/api', {recursive:true,force:true});
 await rm('public/download-data', {recursive:true,force:true});
