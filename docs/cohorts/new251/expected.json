@@ -1,0 +1,4781 @@
+{
+  "baseCommit": "792654fc24c0f499d3d7e11d3129cb8acb04a42c",
+  "cohort": "new251",
+  "models": [
+    {
+      "archive": {
+        "bytes": 45888,
+        "filename": "city-a-frame-sidewalk-sign-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fe4f4b08e7ff21464ad9b67f3756ac11a97786532cb141610e6d08e96b39f5ad"
+      },
+      "fbx": {
+        "bytes": 82844,
+        "filename": "city-a-frame-sidewalk-sign.fbx",
+        "sha256": "f8bbfa094ce72082d60dfe4f84e5e6e62127abb6c2bfa24d7bd00ac6d214619c"
+      },
+      "fbxArchive": {
+        "bytes": 63524,
+        "filename": "city-a-frame-sidewalk-sign-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1214c711d33d01f2808ec246b330fd9d778a347f5782462586680fc0eb79ffa6"
+      },
+      "id": "city-a-frame-sidewalk-sign",
+      "sourceGlbSha256": "379be34ab955ce40db7f9397318c08edf42c7f39c2941bf9d47fd1ff6b7eafd0"
+    },
+    {
+      "archive": {
+        "bytes": 48924,
+        "filename": "city-a-type-barricade-1.0.0-minimal-1.0.0.zip",
+        "sha256": "a13f466530a1c19b8d96a9ad26bc9ab9cc0eeb546abb115ee9d18a89a2bae2a2"
+      },
+      "fbx": {
+        "bytes": 82924,
+        "filename": "city-a-type-barricade.fbx",
+        "sha256": "72b403f9eedad89f1bd699daffa6dfe8b105282e84286679dcd2aa36ae28d14a"
+      },
+      "fbxArchive": {
+        "bytes": 65857,
+        "filename": "city-a-type-barricade-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a2060ddf7ae2313503639f2434c1b08bbc8740a9057518f7990baf50cc468cfa"
+      },
+      "id": "city-a-type-barricade",
+      "sourceGlbSha256": "b1a5096306a3167a7158fc395ad8cde4ecfd908a5009cf4ef0d4d1626373ff74"
+    },
+    {
+      "archive": {
+        "bytes": 475927,
+        "filename": "city-acoustic-guitar-stand-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ad78dcb503c81f50b3f1aad1147c9d6233f63130f5d551dd9d7ee05ddc272ce1"
+      },
+      "fbx": {
+        "bytes": 602428,
+        "filename": "city-acoustic-guitar-stand.fbx",
+        "sha256": "3be9e387b927bb5e84e4d8f67f6e5e50b0d1b0149c5c580073b87ed8f0be6066"
+      },
+      "fbxArchive": {
+        "bytes": 533941,
+        "filename": "city-acoustic-guitar-stand-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "529ad41ecfb27bb8bfecb9bdab29529a201ea19945fc54da66027503e1a62c3b"
+      },
+      "id": "city-acoustic-guitar-stand",
+      "sourceGlbSha256": "844eba6aff497368f392fb855ef1a483460c854a0943d10bdc711c2705c48cff"
+    },
+    {
+      "archive": {
+        "bytes": 214762,
+        "filename": "city-adjustable-steel-prop-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4ddeb2c23034202b0fe49c82f5ed139637a452742b0ab537bfc8940fb51104d2"
+      },
+      "fbx": {
+        "bytes": 265180,
+        "filename": "city-adjustable-steel-prop.fbx",
+        "sha256": "602e8e6afd1e22625b3fcf6208ee4d60584a72ea629e624d619aa4c7c9384de2"
+      },
+      "fbxArchive": {
+        "bytes": 227710,
+        "filename": "city-adjustable-steel-prop-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1059d75b27032bc3755c9e16a5f4b029edcdd53743f4dcf7e5c0458e091cd9ad"
+      },
+      "id": "city-adjustable-steel-prop",
+      "sourceGlbSha256": "3044cc464410eb769f19a8c252f53ca14e757de7228890d8fbde6035c949f6b9"
+    },
+    {
+      "archive": {
+        "bytes": 426419,
+        "filename": "city-adjustable-ward-bed-1.0.0-minimal-1.0.0.zip",
+        "sha256": "82b978a841b9e8fa1926285196906ae988758eab43e6bd3764ed436e6ece4ffc"
+      },
+      "fbx": {
+        "bytes": 611180,
+        "filename": "city-adjustable-ward-bed.fbx",
+        "sha256": "9412526ba9daec11bf8e5c246ed371be225dca12637be5b713bb19d236d065e0"
+      },
+      "fbxArchive": {
+        "bytes": 537566,
+        "filename": "city-adjustable-ward-bed-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "924fea9b4c94385ed6e769dab45f424ccc3a3d7d4831a397f37abf6d6ee89ee2"
+      },
+      "id": "city-adjustable-ward-bed",
+      "sourceGlbSha256": "ff369e1d6437540962b389cf637d8621eb2644de9feca43f9692c06d7dd76407"
+    },
+    {
+      "archive": {
+        "bytes": 130082,
+        "filename": "city-adjustable-wrench-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8ecc626f60e2f67e3dae12750f80dfba9f8a238228a5881dac1070d65ceed538"
+      },
+      "fbx": {
+        "bytes": 159708,
+        "filename": "city-adjustable-wrench.fbx",
+        "sha256": "752fe785731b5a6ff157b2d52f5de7368a7deb3fdb4234ff7831626c3572f8c5"
+      },
+      "fbxArchive": {
+        "bytes": 135271,
+        "filename": "city-adjustable-wrench-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "15f6c364b6282d143e610a289776bf907bd92a4ab8c20cc28e3cc65fca4003db"
+      },
+      "id": "city-adjustable-wrench",
+      "sourceGlbSha256": "88da8f9777d5f5ec5024f80a5ff9d97fa200f0f5d664964a6e74e426fa60c798"
+    },
+    {
+      "archive": {
+        "bytes": 261553,
+        "filename": "city-aerosol-line-marking-trolley-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b6aadae1dadbab432662fd56c61d96dff09224576131c848b5d8dd834299ea28"
+      },
+      "fbx": {
+        "bytes": 373964,
+        "filename": "city-aerosol-line-marking-trolley.fbx",
+        "sha256": "de5f47ece810c696e622b9eca68cddf953cb19caacd0d8e6d11e3ec3c9284536"
+      },
+      "fbxArchive": {
+        "bytes": 326333,
+        "filename": "city-aerosol-line-marking-trolley-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "64b51566b5c9361a238abf3d15a0d26f4652c909c18a16b3307bfd5d0983968f"
+      },
+      "id": "city-aerosol-line-marking-trolley",
+      "sourceGlbSha256": "090367152f2940a76b3b546c70e935f5c6c59d5ef3234fe0c6354f3bac44cf38"
+    },
+    {
+      "archive": {
+        "bytes": 523939,
+        "filename": "city-archery-target-stand-1.0.0-minimal-1.0.0.zip",
+        "sha256": "d97e01ac2b9499121ba5be5626fe79c0e846c8b9f0093dd0d91511900538d7e9"
+      },
+      "fbx": {
+        "bytes": 632860,
+        "filename": "city-archery-target-stand.fbx",
+        "sha256": "d00edddb5d5fc17294ace6c36355ba47bb8f6ad1b4b8e25afd17861399b23b6b"
+      },
+      "fbxArchive": {
+        "bytes": 518925,
+        "filename": "city-archery-target-stand-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b7fcb218bc301b8a3d67f983ac557dae960aa955a8f8ae1a67e353a8d1e13433"
+      },
+      "id": "city-archery-target-stand",
+      "sourceGlbSha256": "a3fbafd6a553016cda4fb69fe9f4e88bc599ad5c7b9c6f97c97195c01892d585"
+    },
+    {
+      "archive": {
+        "bytes": 409735,
+        "filename": "city-backpack-leaf-blower-1.0.0-minimal-1.0.0.zip",
+        "sha256": "bdf7b236329292b418ef87dc75ef809570297ba98e86091682b59796c92325c8"
+      },
+      "fbx": {
+        "bytes": 518444,
+        "filename": "city-backpack-leaf-blower.fbx",
+        "sha256": "2ad936f67da7776baf28aedd41f9ef92ac9209a41fc1b4c558b4b970a65a3a85"
+      },
+      "fbxArchive": {
+        "bytes": 429507,
+        "filename": "city-backpack-leaf-blower-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e951159660397b6c2eaf2a4f672d30d35579477cc493841568c373265a6c39fd"
+      },
+      "id": "city-backpack-leaf-blower",
+      "sourceGlbSha256": "0ec65f1ffee6b4cae8a10cf2afec1dedffbb86e718cf33c8613e6d2acb6af745"
+    },
+    {
+      "archive": {
+        "bytes": 337480,
+        "filename": "city-baggage-inspection-tunnel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fc92f738eb4a1216448aa66fd46930967d4a721a1b34204c4463f2e552003d6b"
+      },
+      "fbx": {
+        "bytes": 515580,
+        "filename": "city-baggage-inspection-tunnel.fbx",
+        "sha256": "4fc9446f23da4472b583a128a95b47cf885fcee61df29c081b190b14b5d5df43"
+      },
+      "fbxArchive": {
+        "bytes": 452828,
+        "filename": "city-baggage-inspection-tunnel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ed33edf12a04470d278951a1901e7c1ac83decf2ee0f4f39b41948af6393538a"
+      },
+      "id": "city-baggage-inspection-tunnel",
+      "sourceGlbSha256": "f2e927baca33ceb39455469efe693a943099bf244c95c2839c8ec8f9fc63e413"
+    },
+    {
+      "archive": {
+        "bytes": 233723,
+        "filename": "city-baggage-reclaim-carousel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "331b84962f9d94cea1fb2129a9ca39ecabab40e08c47ffa6b5e3b0716b3774f4"
+      },
+      "fbx": {
+        "bytes": 311900,
+        "filename": "city-baggage-reclaim-carousel.fbx",
+        "sha256": "469c162fa7df2b05f7338426f0407ea31511f948d3a2dbf28e730e1cae79b618"
+      },
+      "fbxArchive": {
+        "bytes": 263196,
+        "filename": "city-baggage-reclaim-carousel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5a3cdfb8f17202989ff2f5a7e778ee1604bacf0a82c0b9dc475521ce0576c384"
+      },
+      "id": "city-baggage-reclaim-carousel",
+      "sourceGlbSha256": "dc1a27952fb5c1fd2fc24ef88b3a67ba6cd4691b4d416850e15733942d31a835"
+    },
+    {
+      "archive": {
+        "bytes": 600055,
+        "filename": "city-baggage-tow-trailer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5bcc3d2c8eb2ee7ce3e246e310fc5ad9ca8ce601e4795e5c562548640c4374ff"
+      },
+      "fbx": {
+        "bytes": 885004,
+        "filename": "city-baggage-tow-trailer.fbx",
+        "sha256": "c2fb5db6f18ed3f7c6bb8783472a1a76acf161fdfd095d4653c9a0ab49395b56"
+      },
+      "fbxArchive": {
+        "bytes": 772188,
+        "filename": "city-baggage-tow-trailer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b0c1719955b8e187bc697c82aa45e279908edbedf49674e72e991456fb34597e"
+      },
+      "id": "city-baggage-tow-trailer",
+      "sourceGlbSha256": "5b338835ae68dc33978c2e12b717dfe785d2f1096bbb057ba73b06065a40878d"
+    },
+    {
+      "archive": {
+        "bytes": 485796,
+        "filename": "city-basketball-goal-1.0.0-minimal-1.0.0.zip",
+        "sha256": "28cae27682a88ee0ef0fa914d4ffbbad64a6553856b5dac09960715e948bfc0f"
+      },
+      "fbx": {
+        "bytes": 609692,
+        "filename": "city-basketball-goal.fbx",
+        "sha256": "d72467e2c765e443f784095ae11a2f54df4fa91407790aa47097ca395ff24150"
+      },
+      "fbxArchive": {
+        "bytes": 532588,
+        "filename": "city-basketball-goal-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c0bc09725f2be0c4ccdc393e9deecff075adc4836c66961027f33ee33119455d"
+      },
+      "id": "city-basketball-goal",
+      "sourceGlbSha256": "7b9d433816753ea3278fb8ab1076addace369a45cc16dff873a905a8236827cf"
+    },
+    {
+      "archive": {
+        "bytes": 462962,
+        "filename": "city-belt-disc-sander-1.0.0-minimal-1.0.0.zip",
+        "sha256": "678f4023ee7e512414b193948dadc71cf0081f82987a83bd2e86614f29266082"
+      },
+      "fbx": {
+        "bytes": 639132,
+        "filename": "city-belt-disc-sander.fbx",
+        "sha256": "27236dc480d623137d4b8a74c9b57fb0f391ca943f97189e277030e3e3683b9a"
+      },
+      "fbxArchive": {
+        "bytes": 555343,
+        "filename": "city-belt-disc-sander-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "289978e549192cc1d16e426703d20d016f45da60a68748f0105f0662eaf80177"
+      },
+      "id": "city-belt-disc-sander",
+      "sourceGlbSha256": "bb5370d49a3c6fbcf6ea640b0c44cdfbcc498b952c77fc9c57ea0ae447711629"
+    },
+    {
+      "archive": {
+        "bytes": 187012,
+        "filename": "city-bench-oscilloscope-1.0.0-minimal-1.0.0.zip",
+        "sha256": "dba4f6e4c35cbb2f4e831e52158cdc7137a497de93a0b1a75fe7ca8371a080d2"
+      },
+      "fbx": {
+        "bytes": 300428,
+        "filename": "city-bench-oscilloscope.fbx",
+        "sha256": "3fffd13a99ad67a83519d82deda91754a972a6bee6cf5b9f03e596ad80da1529"
+      },
+      "fbxArchive": {
+        "bytes": 259890,
+        "filename": "city-bench-oscilloscope-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "f701ea93c998795049dfea9a02dfd7bb8186f18adbb812d7dc8016060908050d"
+      },
+      "id": "city-bench-oscilloscope",
+      "sourceGlbSha256": "55d24a8b909d5c983ef09d9b89799e094d4ae07005361b693e5c7dea4a46ab90"
+    },
+    {
+      "archive": {
+        "bytes": 432564,
+        "filename": "city-bench-sewing-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7039ab96e0fe57d04279c7d9d9748f8fcd40f0d75da5a51a5e0eb3d6947ae2cd"
+      },
+      "fbx": {
+        "bytes": 609724,
+        "filename": "city-bench-sewing-machine.fbx",
+        "sha256": "c4f8f541fb3730fe36009b899817fcb3e20202d796535d7e22f748ad021827fa"
+      },
+      "fbxArchive": {
+        "bytes": 532346,
+        "filename": "city-bench-sewing-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d07676457b8a72dfab474c20b4b90d13b9f9a7b98a8f8a1b65cca0d2c0c02e16"
+      },
+      "id": "city-bench-sewing-machine",
+      "sourceGlbSha256": "b2590af9c0f89dabcbe75cf62c7be87d9da4e8c25a6ca2ed09dcd0e908813012"
+    },
+    {
+      "archive": {
+        "bytes": 81028,
+        "filename": "city-bike-share-dock-1.0.0-minimal-1.0.0.zip",
+        "sha256": "106c3ce397ae7c4e360d343d5b54d3374ffb61bc895c9cf7abdecc033e46fc36"
+      },
+      "fbx": {
+        "bytes": 140332,
+        "filename": "city-bike-share-dock.fbx",
+        "sha256": "341ca57245e06856e1d438462421c30d7d70fe940cdbfef2fafe7c6bee6a6db5"
+      },
+      "fbxArchive": {
+        "bytes": 111484,
+        "filename": "city-bike-share-dock-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "701665bc1c2ad0af5a895fcf3667c934663c05718b5d013c154a22fdec3d6cc8"
+      },
+      "id": "city-bike-share-dock",
+      "sourceGlbSha256": "6c36698aa2f6b16c042601339e8d10d8378e842539af2e86a6ec08a7ca5084fe"
+    },
+    {
+      "archive": {
+        "bytes": 320985,
+        "filename": "city-binocular-lab-microscope-1.0.0-minimal-1.0.0.zip",
+        "sha256": "28035d3666ea5947e7e4c6a45ad05310f82d7eedd6e827757c053d0ee25fabd2"
+      },
+      "fbx": {
+        "bytes": 421084,
+        "filename": "city-binocular-lab-microscope.fbx",
+        "sha256": "3697466221e53f8bba6798089b8868a418fcf79728b1dec3442bed77dcf728c4"
+      },
+      "fbxArchive": {
+        "bytes": 376500,
+        "filename": "city-binocular-lab-microscope-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "dbad0dd337687c3004f91b6add595be9d56fb0b30c2e8e62732ff32674514633"
+      },
+      "id": "city-binocular-lab-microscope",
+      "sourceGlbSha256": "d577501a265797c483b50e62f50c609cc875cbabf690a1a3212b7f04c8f53f42"
+    },
+    {
+      "archive": {
+        "bytes": 395186,
+        "filename": "city-boom-microphone-stand-1.0.0-minimal-1.0.0.zip",
+        "sha256": "254131996e82b39ae36ce31d74f3b6051f96e139e09185843fce18113d79e263"
+      },
+      "fbx": {
+        "bytes": 483788,
+        "filename": "city-boom-microphone-stand.fbx",
+        "sha256": "0858019ff0d8e889f0cfbbc832b8617f6b050c38bb73a0c81104ad6c270cf0f9"
+      },
+      "fbxArchive": {
+        "bytes": 426546,
+        "filename": "city-boom-microphone-stand-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "fea663709fe91e879be8b9ac23f958d193130920f7e288939b85bad8be47043f"
+      },
+      "id": "city-boom-microphone-stand",
+      "sourceGlbSha256": "0c4d2ac17793313754b8774e8ff9b169f943141e6cbe58c8c9b63b6981930f87"
+    },
+    {
+      "archive": {
+        "bytes": 707956,
+        "filename": "city-boot-cleaning-station-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1b93186c2eb692bfd04af000c4ed730bf381c9c4e46532130e5988ed39252d86"
+      },
+      "fbx": {
+        "bytes": 857996,
+        "filename": "city-boot-cleaning-station.fbx",
+        "sha256": "8559a9f862b446f5f1ea7ddcb4aaf02b02d67b068f8404753ef2788c0905ee5f"
+      },
+      "fbxArchive": {
+        "bytes": 752993,
+        "filename": "city-boot-cleaning-station-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9fb8e2e0848670a9659d8ecfc739436743b82ddbb639451ea99381d1839e6a2c"
+      },
+      "id": "city-boot-cleaning-station",
+      "sourceGlbSha256": "db91030560eb5e9c5e3815652ffd0320d25750664d8da858781b934e8302337f"
+    },
+    {
+      "archive": {
+        "bytes": 72991,
+        "filename": "city-bottle-can-recycling-bin-1.0.0-minimal-1.0.0.zip",
+        "sha256": "15747d4c6e4938408347929a59c01a0b923de771ded8aaea3badd7f755bad057"
+      },
+      "fbx": {
+        "bytes": 105596,
+        "filename": "city-bottle-can-recycling-bin.fbx",
+        "sha256": "b4ed20bf7b54c03f7b926076e0d85ec427d0226aaa3baa574e9adfda672e0025"
+      },
+      "fbxArchive": {
+        "bytes": 82617,
+        "filename": "city-bottle-can-recycling-bin-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "815ea06df22c253d0bcf5ffbb864a6781270a9f7b3927fac8d2b2139a58d8f6a"
+      },
+      "id": "city-bottle-can-recycling-bin",
+      "sourceGlbSha256": "b413a4963f4a567897504b9a6793c7c79063ba1a302e947aa2947fd49108e9f8"
+    },
+    {
+      "archive": {
+        "bytes": 775543,
+        "filename": "city-boxing-heavy-bag-stand-1.0.0-minimal-1.0.0.zip",
+        "sha256": "33b47758410603854026c6d91635e2f27bb2f113c51af09fd8026a48992b24c9"
+      },
+      "fbx": {
+        "bytes": 891468,
+        "filename": "city-boxing-heavy-bag-stand.fbx",
+        "sha256": "91d1c993ea766eee65c4f700fb948632cd685a54ac037903a4e704e43a1d19b2"
+      },
+      "fbxArchive": {
+        "bytes": 743988,
+        "filename": "city-boxing-heavy-bag-stand-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "513bae14828cde67e0167c4626f87fac3321c346807d42ae334c62e10135ca3a"
+      },
+      "id": "city-boxing-heavy-bag-stand",
+      "sourceGlbSha256": "5b5ac758cb87ad1c5a236b1431884776241e24caedba63069b14ce053c007cff"
+    },
+    {
+      "archive": {
+        "bytes": 485319,
+        "filename": "city-bridge-expansion-joint-1.0.0-minimal-1.0.0.zip",
+        "sha256": "83129952eec76984b7354da95e98fe48a34944d2772b418c62131141fb5320c6"
+      },
+      "fbx": {
+        "bytes": 697932,
+        "filename": "city-bridge-expansion-joint.fbx",
+        "sha256": "32b1fa513926a834010e8821669c90ee2728e90076f5e723dfb4693d2c917205"
+      },
+      "fbxArchive": {
+        "bytes": 605622,
+        "filename": "city-bridge-expansion-joint-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b57cb5e600bad8d0c7fee2208a5647fd6cb7010f7af4b48d2fafbe4116ed1ac5"
+      },
+      "id": "city-bridge-expansion-joint",
+      "sourceGlbSha256": "c07a81ea3b70df58dbf646f6a0f2f597028286588de10e1bdce7ed1d8e612db3"
+    },
+    {
+      "archive": {
+        "bytes": 419298,
+        "filename": "city-broadcast-spreader-1.0.0-minimal-1.0.0.zip",
+        "sha256": "250e13308547e0c3d16fad3ee923e1a6636f5be0f35276af2fd21fc1b4bfd62e"
+      },
+      "fbx": {
+        "bytes": 576796,
+        "filename": "city-broadcast-spreader.fbx",
+        "sha256": "2daa46dbeebe17ff33da74f961f79c6763c4459ce997175aca65634dfc8cf6a9"
+      },
+      "fbxArchive": {
+        "bytes": 513820,
+        "filename": "city-broadcast-spreader-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "033cfab7e621902bc987582b0cec961729d3e50f169776cabf7b456c1e377d47"
+      },
+      "id": "city-broadcast-spreader",
+      "sourceGlbSha256": "07f795e931c86bed09861886d52a6be8d99871bb37ebe0d047cfa03ad094acb6"
+    },
+    {
+      "archive": {
+        "bytes": 126026,
+        "filename": "city-bus-stop-pole-1.0.0-minimal-1.0.0.zip",
+        "sha256": "002fccbb01c61181ae1b1a6012b08453f3db6994f0d5d121b1fc6a3b11f4ff76"
+      },
+      "fbx": {
+        "bytes": 167100,
+        "filename": "city-bus-stop-pole.fbx",
+        "sha256": "4b38439b1992851915c90a4ba05192c45535fe180d2cf31fd0c44450da4f25aa"
+      },
+      "fbxArchive": {
+        "bytes": 130400,
+        "filename": "city-bus-stop-pole-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "60184137fde45dd3957c58aeb09ec1716f58157ace37f7fbbd541abf2138297b"
+      },
+      "id": "city-bus-stop-pole",
+      "sourceGlbSha256": "eb333e5c405b8bd9312307dec60d74ce0b9ad06438c0a646a67bffccc3d64a3b"
+    },
+    {
+      "archive": {
+        "bytes": 110703,
+        "filename": "city-bypass-pruning-shears-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4255f4dfdf2d3c794a52574e0e6defb93721ab888d1713f9fe727e8d9c5fe4f3"
+      },
+      "fbx": {
+        "bytes": 140924,
+        "filename": "city-bypass-pruning-shears.fbx",
+        "sha256": "6a75b2a5ae44c183277b77021f61f9c21a4766ba113a24d16213a5f09e4752d6"
+      },
+      "fbxArchive": {
+        "bytes": 115197,
+        "filename": "city-bypass-pruning-shears-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "716cf1b9ebe70365d758ba2ec912cfa30c62f5a496861d7ba3a1a5621cea61a0"
+      },
+      "id": "city-bypass-pruning-shears",
+      "sourceGlbSha256": "03be66db344f921250dfee7ba26d3db9c51a04ce079c2addfd51dd919b79744f"
+    },
+    {
+      "archive": {
+        "bytes": 476917,
+        "filename": "city-c-frame-screw-clamp-1.0.0-minimal-1.0.0.zip",
+        "sha256": "95bf739b02ec14f74d7cca98816d691dcd1a7e50a7e356529067ebe50d79c2a1"
+      },
+      "fbx": {
+        "bytes": 672908,
+        "filename": "city-c-frame-screw-clamp.fbx",
+        "sha256": "d769b063ec06308293790fa21477c36a661b4aaf693390c418118d196f3a73a4"
+      },
+      "fbxArchive": {
+        "bytes": 569902,
+        "filename": "city-c-frame-screw-clamp-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "4d25f64746866bb1b5bc1eb9b5c0f60d82d006be9c955546a75473d87194f152"
+      },
+      "id": "city-c-frame-screw-clamp",
+      "sourceGlbSha256": "4495f6f9af166d18ff10ac0602c41862c13ba936a418164994d4f80ad71514ef"
+    },
+    {
+      "archive": {
+        "bytes": 127317,
+        "filename": "city-cartridge-caulking-gun-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c4c89b6ea4c203b8e55046d3f13b6f829995445f6b34f1a282826b73155f3cc1"
+      },
+      "fbx": {
+        "bytes": 168812,
+        "filename": "city-cartridge-caulking-gun.fbx",
+        "sha256": "437fa1e41effbf1b6e6ed3960629ec073d8112dec48f1475526a14bd25631698"
+      },
+      "fbxArchive": {
+        "bytes": 141078,
+        "filename": "city-cartridge-caulking-gun-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "3323dd89d9fbe961f9af1cd2b60b807b7777b481bca81d1c114cb77c1546d52b"
+      },
+      "id": "city-cartridge-caulking-gun",
+      "sourceGlbSha256": "beb1909849ed829b14ab369c38eb2728fb6a4215220640a8461fdf17c8759790"
+    },
+    {
+      "archive": {
+        "bytes": 230664,
+        "filename": "city-ceiling-cassette-air-conditioner-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fd5ffed5de86244363229db4a461d0ce77e1debc1e0f6d2eec436462a0ce6eb3"
+      },
+      "fbx": {
+        "bytes": 352908,
+        "filename": "city-ceiling-cassette-air-conditioner.fbx",
+        "sha256": "a764846fd2a20851740e47b1dc46e20ec2ff055d5bf2e101d89592bc1bb39f70"
+      },
+      "fbxArchive": {
+        "bytes": 303515,
+        "filename": "city-ceiling-cassette-air-conditioner-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "16cdb9615baee238adccf2f64477e2a6a7f04254d131050e4ebdc8bddeae5fe4"
+      },
+      "id": "city-ceiling-cassette-air-conditioner",
+      "sourceGlbSha256": "1347d92c613c0f1f7139ef87b86952859e1d15681fd17aab53af8777df9450c7"
+    },
+    {
+      "archive": {
+        "bytes": 651953,
+        "filename": "city-ceiling-projector-1.0.0-minimal-1.0.0.zip",
+        "sha256": "32f04776739cdd46ed9c2cecbc2d62ed71b8edc3ff487fa234a0e153633daf44"
+      },
+      "fbx": {
+        "bytes": 906044,
+        "filename": "city-ceiling-projector.fbx",
+        "sha256": "bac4707a8b9aadbf4e6eb1771a0b941910af679998ce57ed492085f86d184e14"
+      },
+      "fbxArchive": {
+        "bytes": 814609,
+        "filename": "city-ceiling-projector-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "f156319f87beb87c63530bf6c996b2d74219fadba5c2ddc84b70b06169256a4c"
+      },
+      "id": "city-ceiling-projector",
+      "sourceGlbSha256": "f4d9d8a0a876a3240a16c519b4ac635e81ed0f12752337289c13bc78914dfaae"
+    },
+    {
+      "archive": {
+        "bytes": 429440,
+        "filename": "city-centrifugal-exhaust-fan-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fb8a5ad557b1198a1374a5e7ba7e2fdd97b990248c9d03cf76630fef7afd0300"
+      },
+      "fbx": {
+        "bytes": 565244,
+        "filename": "city-centrifugal-exhaust-fan.fbx",
+        "sha256": "a127d9750949b46454e4a7a29124b6a53dfd6a0ade69ec42a4f5520dc139f7a3"
+      },
+      "fbxArchive": {
+        "bytes": 491028,
+        "filename": "city-centrifugal-exhaust-fan-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "30bc2b9a1b93a143d825149e13aaf8dea2adc55939b41d287a780a65392e753b"
+      },
+      "id": "city-centrifugal-exhaust-fan",
+      "sourceGlbSha256": "9da2a36c5079d945b74853ea1b0b5a566b651f3e60b562ad7978505b66db6d6b"
+    },
+    {
+      "archive": {
+        "bytes": 110758,
+        "filename": "city-cigarette-disposal-pedestal-1.0.0-minimal-1.0.0.zip",
+        "sha256": "120a8c850977f93a39348c9a381b35987df7dd112e8be499752a737b5b8f766c"
+      },
+      "fbx": {
+        "bytes": 181836,
+        "filename": "city-cigarette-disposal-pedestal.fbx",
+        "sha256": "9b4c9a822d8fe338beeabb88954227949909d34840c6a0bc3e9a4072e7c7ff9f"
+      },
+      "fbxArchive": {
+        "bytes": 157194,
+        "filename": "city-cigarette-disposal-pedestal-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9bf98723ade4cb7bc6a0c7516debcd4f25ecfa7f7febe603a0d18064e2855119"
+      },
+      "id": "city-cigarette-disposal-pedestal",
+      "sourceGlbSha256": "a2194612a5f3936bddc2bec0b12aa706bf09f3a2176ef36dfead0488cba39627"
+    },
+    {
+      "archive": {
+        "bytes": 57218,
+        "filename": "city-claw-hammer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9362485b24e199b793f0ed4e7f7912c95a6897cc1bf1d028feab126b7ec8be38"
+      },
+      "fbx": {
+        "bytes": 88460,
+        "filename": "city-claw-hammer.fbx",
+        "sha256": "81f3ee8297786f161694045ae34a8ebdc2d245a5b0db5b7bc311046ebcc62841"
+      },
+      "fbxArchive": {
+        "bytes": 68891,
+        "filename": "city-claw-hammer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c2a71e8baf7794644e81afbd01c3cd6c3e6882a50980fe4ee06db6fbe5bf7b2a"
+      },
+      "id": "city-claw-hammer",
+      "sourceGlbSha256": "b371e4b391974343d3cf883a8c39a54fc4adccd2eed64fb6a6709121741f01f6"
+    },
+    {
+      "archive": {
+        "bytes": 219943,
+        "filename": "city-closed-expansion-vessel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ddc4c38fb72801a7c800b91c32fc65a0104dc52843cb10324084aa8e7d411890"
+      },
+      "fbx": {
+        "bytes": 275276,
+        "filename": "city-closed-expansion-vessel.fbx",
+        "sha256": "1bbfdab7c0c7d337b7fd6a63d383b39e2388dfd86f64f4ed033b2830900ea0c1"
+      },
+      "fbxArchive": {
+        "bytes": 233162,
+        "filename": "city-closed-expansion-vessel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a593c23048fae7737b7bd82cc6837bda176ed5646ff018b035920b03efed9656"
+      },
+      "id": "city-closed-expansion-vessel",
+      "sourceGlbSha256": "2bce0a7bebc4fcb2f413f0e234260abb81d9075e3fa066676e3d5a0e32fdac57"
+    },
+    {
+      "archive": {
+        "bytes": 408451,
+        "filename": "city-commercial-convection-oven-1.0.0-minimal-1.0.0.zip",
+        "sha256": "49aa17561cea1738f9e9d1d5dceb7a8d02440f142c178219cc8eddb3830863cb"
+      },
+      "fbx": {
+        "bytes": 597548,
+        "filename": "city-commercial-convection-oven.fbx",
+        "sha256": "5ae8a04237f3cae9499481368813624ff3805f2c935a3f889bba8788c56e8702"
+      },
+      "fbxArchive": {
+        "bytes": 530259,
+        "filename": "city-commercial-convection-oven-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "750f2eb7b66ed6764c63058c1f3c0f4bd2eea0c34a317bae857cd87c5878063f"
+      },
+      "id": "city-commercial-convection-oven",
+      "sourceGlbSha256": "5c548975b7c536e80fee9be896f50c5de9e286bd192d47573d087c0ff92ae608"
+    },
+    {
+      "archive": {
+        "bytes": 271229,
+        "filename": "city-commercial-deep-fryer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "09e9734c747f484acc7e5437e37a0e100d133f7067bfdee24d623adffb173a28"
+      },
+      "fbx": {
+        "bytes": 393260,
+        "filename": "city-commercial-deep-fryer.fbx",
+        "sha256": "b85c5939fce0d6f3f6f4ca5837e983d80605c33cb02037411f275d42ca5472c4"
+      },
+      "fbxArchive": {
+        "bytes": 340861,
+        "filename": "city-commercial-deep-fryer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "23f7cd41bf2d4ac874554c6f5571be0d49bac173ffdf7b9a7fefe71f1ca2391d"
+      },
+      "id": "city-commercial-deep-fryer",
+      "sourceGlbSha256": "f8d0f967a8b2ee05e5c7cb05d556328cbe2a52e3c1501fced4dae0e3362a8a53"
+    },
+    {
+      "archive": {
+        "bytes": 281266,
+        "filename": "city-commercial-double-sink-1.0.0-minimal-1.0.0.zip",
+        "sha256": "370e63186b24adda621534d19884cce0bf03d796f9931db86867c9f4ca6f9b53"
+      },
+      "fbx": {
+        "bytes": 380732,
+        "filename": "city-commercial-double-sink.fbx",
+        "sha256": "619ec8770f8c02d3db56ebfa5a7c20fc09bfcd3cf0fca032d8ff79e8cd81a2f8"
+      },
+      "fbxArchive": {
+        "bytes": 336091,
+        "filename": "city-commercial-double-sink-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ac3e270b1c4f9dfe32ae36d9c8c787865f8db0123fa03d52c8165b353629e825"
+      },
+      "id": "city-commercial-double-sink",
+      "sourceGlbSha256": "284dc4aed8914364122da5616e2867647cbbbc57bf8ff70cb67b08967c75f64c"
+    },
+    {
+      "archive": {
+        "bytes": 140333,
+        "filename": "city-commercial-range-hood-1.0.0-minimal-1.0.0.zip",
+        "sha256": "676affa74630d9924bff918501a7f4f386492949a09f13acc2ea7da1910026d7"
+      },
+      "fbx": {
+        "bytes": 221292,
+        "filename": "city-commercial-range-hood.fbx",
+        "sha256": "d4eefc409a74d92cb86eb895b18f1733cebc9288cec3a560b756bf8d5925b5d0"
+      },
+      "fbxArchive": {
+        "bytes": 190350,
+        "filename": "city-commercial-range-hood-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cb2f9ed0ccfa86d93dc9bd8bedff02e403778aa1e6b9240780a30345398249f5"
+      },
+      "id": "city-commercial-range-hood",
+      "sourceGlbSha256": "35ebc8a17916449c52e55ab010247ce0f47244eecbab5d44989c2aeb2585cacc"
+    },
+    {
+      "archive": {
+        "bytes": 1089658,
+        "filename": "city-compact-drum-set-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b71dc27c047e45ea1e08d86ca47cf03b92fb20d7abe31ff94f399cdecbdda9b8"
+      },
+      "fbx": {
+        "bytes": 1339916,
+        "filename": "city-compact-drum-set.fbx",
+        "sha256": "6165803cc1202c10f36992894e7410e276c995f497c01f35d26c9ec55503e488"
+      },
+      "fbxArchive": {
+        "bytes": 1170991,
+        "filename": "city-compact-drum-set-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "db8e341bc809b97645740a227c4f33da37150884382461855ae9557715f57091"
+      },
+      "id": "city-compact-drum-set",
+      "sourceGlbSha256": "069ecf04a7bf8db676faa852e29999f198da7e1ad363fa0583fd3466caf88355"
+    },
+    {
+      "archive": {
+        "bytes": 306184,
+        "filename": "city-compact-printmaking-press-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9b1a839a2888f5c2e558d902df88f9bb965bedf81b4661110451ac72cd78e6e6"
+      },
+      "fbx": {
+        "bytes": 421724,
+        "filename": "city-compact-printmaking-press.fbx",
+        "sha256": "e7838484c89df7a07e2d9d3b9448595c8f6dd7d17065f26f8f4fed0a0bb1b896"
+      },
+      "fbxArchive": {
+        "bytes": 371047,
+        "filename": "city-compact-printmaking-press-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b42f0842401d698ba6fb84ce320a4c53baa755498653451fdc2809b27485de80"
+      },
+      "id": "city-compact-printmaking-press",
+      "sourceGlbSha256": "dfae3492a185cb3485bd21a19b479ccfccfec4faad455801b08a39baad8503aa"
+    },
+    {
+      "archive": {
+        "bytes": 804752,
+        "filename": "city-compact-street-sweeper-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7985ef98696595c5c2655ec861964f063da6089ef0d71af1ab8a728f3fa35ff2"
+      },
+      "fbx": {
+        "bytes": 1023356,
+        "filename": "city-compact-street-sweeper.fbx",
+        "sha256": "6da9e6a5812e449caa84158b38d916322a598105b50a45027853eccde1e92265"
+      },
+      "fbxArchive": {
+        "bytes": 884058,
+        "filename": "city-compact-street-sweeper-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c91ad9b727415f94a093ab19d5a4fc43b28088c2ce6944ae4d352c60a32a94ac"
+      },
+      "id": "city-compact-street-sweeper",
+      "sourceGlbSha256": "5538287553222f7bc86d339774bac680e94af8c27964e10e1a7cf33e92a15808"
+    },
+    {
+      "archive": {
+        "bytes": 1190585,
+        "filename": "city-compact-wheel-loader-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0645a329ec15641e2be491965cb99db0eea3457d4a974efa1f92e9ddaebeef9c"
+      },
+      "fbx": {
+        "bytes": 1528268,
+        "filename": "city-compact-wheel-loader.fbx",
+        "sha256": "be8e9c18573502c0fba5bc299ade0f1c5e20d7f65131aed9b8443e5406c32ea5"
+      },
+      "fbxArchive": {
+        "bytes": 1320728,
+        "filename": "city-compact-wheel-loader-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "2441c5b13ae703d2a2fa6db934b81c84572f49d5a4a7ca3d8bf66ba4b9b8d5c6"
+      },
+      "id": "city-compact-wheel-loader",
+      "sourceGlbSha256": "058eeaa29d32ad9a0de3aec22cc2310e804aae7aea9f2fdb41bdc337d00b6af9"
+    },
+    {
+      "archive": {
+        "bytes": 168986,
+        "filename": "city-compost-tumbler-1.0.0-minimal-1.0.0.zip",
+        "sha256": "55de3247dde35762f5f88c0fbae628dd7e66ab17f58e448c7f1cee9ba942853f"
+      },
+      "fbx": {
+        "bytes": 241676,
+        "filename": "city-compost-tumbler.fbx",
+        "sha256": "a7654a59b9af1300b971f4107c8c446c5fc92cacb7aed6f1eab4fed722a0a4ca"
+      },
+      "fbxArchive": {
+        "bytes": 212688,
+        "filename": "city-compost-tumbler-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "da26cf8609c0bd1c32f8e44adff85a3443c91abc9333e8544a1de8ca7caf6d80"
+      },
+      "id": "city-compost-tumbler",
+      "sourceGlbSha256": "b63f7f81914770b9dd38267e514ead879468bfef78f9de369b0a9422201bbf50"
+    },
+    {
+      "archive": {
+        "bytes": 516835,
+        "filename": "city-compound-bolt-cutters-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1c88367a2c1ad609ca304f16e6d90a0ba42c0ac097ac4c8f1e93e593bf874e66"
+      },
+      "fbx": {
+        "bytes": 633276,
+        "filename": "city-compound-bolt-cutters.fbx",
+        "sha256": "ad3b6a20d335e3888558a32376b9e31efa0848b419131929c900259e92faae34"
+      },
+      "fbxArchive": {
+        "bytes": 532341,
+        "filename": "city-compound-bolt-cutters-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "2824d3ef52ba12ec2b7004d35c666d8369dec2e6c56b590785321b1d5e269d9b"
+      },
+      "id": "city-compound-bolt-cutters",
+      "sourceGlbSha256": "6a86cc9547b5301aea9b618634a4a53afc2a56ae4ab918895aaff42def1616a1"
+    },
+    {
+      "archive": {
+        "bytes": 196758,
+        "filename": "city-concrete-pouring-skip-1.0.0-minimal-1.0.0.zip",
+        "sha256": "3ce35c23da4199e8e9f7cb2e9d01a8534cfbdce50535a42038a9eaa12b64099c"
+      },
+      "fbx": {
+        "bytes": 271804,
+        "filename": "city-concrete-pouring-skip.fbx",
+        "sha256": "fc2373f19b57d08a1f1e2daa8d7cf24caf17620e7e68736b6872559b74e2bf22"
+      },
+      "fbxArchive": {
+        "bytes": 233419,
+        "filename": "city-concrete-pouring-skip-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "824ffef2de57f34dbdf0760c20694ee52a7a96a72ec78dc140382e96da59e010"
+      },
+      "id": "city-concrete-pouring-skip",
+      "sourceGlbSha256": "caa27fc6d331194273e453255905cdb9faeb29205f0d8ea0eff55ce904282f84"
+    },
+    {
+      "archive": {
+        "bytes": 474648,
+        "filename": "city-concrete-utility-pole-1.0.0-minimal-1.0.0.zip",
+        "sha256": "72c3dcd438722d33d0c730b551641b0cb23f049082f4dc23eef1a62908a61b57"
+      },
+      "fbx": {
+        "bytes": 582828,
+        "filename": "city-concrete-utility-pole.fbx",
+        "sha256": "4e3ba29e0737a36ce8031a9c0e38060bd2972f446f6ec48ca551448e519297d2"
+      },
+      "fbxArchive": {
+        "bytes": 505466,
+        "filename": "city-concrete-utility-pole-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "3a993229579b67fbba155864b37c6f866897723175acabc10cfbfb6b888f90f4"
+      },
+      "id": "city-concrete-utility-pole",
+      "sourceGlbSha256": "9977acc3ba4047fd2dd6d409945c4fab6ea40fe31cb49614b08ef9fa57f49b5e"
+    },
+    {
+      "archive": {
+        "bytes": 243190,
+        "filename": "city-conference-lectern-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8a4205d9b523bf816157f9721ad30c4db999d20055a1e880f6fba0bfd9eb6ba1"
+      },
+      "fbx": {
+        "bytes": 323660,
+        "filename": "city-conference-lectern.fbx",
+        "sha256": "03a6aa19aa12f52aec1a937fdd4154e7d88ecb7c4ffe1f3cfeac010df0bf1e86"
+      },
+      "fbxArchive": {
+        "bytes": 288899,
+        "filename": "city-conference-lectern-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b2918dad195183e83eda0176bee920ebd185d7bc047d7f6269e84fb8785a72b9"
+      },
+      "id": "city-conference-lectern",
+      "sourceGlbSha256": "f4c8723bad571662def6f8cf1470c0cc0bc065d33157c15a494aca9ff1dca63f"
+    },
+    {
+      "archive": {
+        "bytes": 577255,
+        "filename": "city-confined-space-blower-1.0.0-minimal-1.0.0.zip",
+        "sha256": "3556679d9e412661d9504b617f6f06ca338a0bdd6e6f27db3134fb6b1a3ae081"
+      },
+      "fbx": {
+        "bytes": 723484,
+        "filename": "city-confined-space-blower.fbx",
+        "sha256": "7c2c0c3ce6f2bc7c3dca8f5629b0890d8001de41ecc7f3ef7251b280a804946a"
+      },
+      "fbxArchive": {
+        "bytes": 599681,
+        "filename": "city-confined-space-blower-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "24c8f5b89bdaaa5340072d779966d5021ccd48e8567bc1b1f069e571f6d6d4f0"
+      },
+      "id": "city-confined-space-blower",
+      "sourceGlbSha256": "6591da5710d7030cf7bc64e554149f8e2c84565d0a02a9bfda6429a2aae16a93"
+    },
+    {
+      "archive": {
+        "bytes": 239141,
+        "filename": "city-conveyor-belt-toaster-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fbed3e1b744ee87ffaa5e17727e541d8a130b84517278a8651b4fd03f1c86697"
+      },
+      "fbx": {
+        "bytes": 356812,
+        "filename": "city-conveyor-belt-toaster.fbx",
+        "sha256": "74bc12e70e44c0422439a8bd0261812d25a1bd99eaaaf0001a13e99af4a1b810"
+      },
+      "fbxArchive": {
+        "bytes": 306063,
+        "filename": "city-conveyor-belt-toaster-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "0cb2a6489b15af6c292232e4071dfc66328121920156c90989422284c858e534"
+      },
+      "id": "city-conveyor-belt-toaster",
+      "sourceGlbSha256": "784021b19ceabe97eded163da3c75650a892f9bb969d2060e2b00a8418864fab"
+    },
+    {
+      "archive": {
+        "bytes": 234022,
+        "filename": "city-cordless-drill-1.0.0-minimal-1.0.0.zip",
+        "sha256": "dbdb4c4df30e9786aa8f42ff66abbf04de43272f82069500d7a21f7b6c2be4ed"
+      },
+      "fbx": {
+        "bytes": 326748,
+        "filename": "city-cordless-drill.fbx",
+        "sha256": "30f0c88815249168508944d8d2c73a0c564f113356f27f127bf6ccb5d7bbce59"
+      },
+      "fbxArchive": {
+        "bytes": 285446,
+        "filename": "city-cordless-drill-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "70ec02354733d1c9f68323d8b18694ce3d893d10b3fef07529e300c964368bf0"
+      },
+      "id": "city-cordless-drill",
+      "sourceGlbSha256": "936acb4a9c7eda58989c2ac73959348401b77ad8f1f6fc51f5cef867fd73c636"
+    },
+    {
+      "archive": {
+        "bytes": 217113,
+        "filename": "city-cotton-candy-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b8a20d8422a3f9d517eef39b2d6c8159f20a88b735af8c7b01fd5bc73fb7cdec"
+      },
+      "fbx": {
+        "bytes": 330060,
+        "filename": "city-cotton-candy-machine.fbx",
+        "sha256": "6007d226d692e07deddc9f762f376c37165639d3cb84b37b9f05dbce74d77f29"
+      },
+      "fbxArchive": {
+        "bytes": 286662,
+        "filename": "city-cotton-candy-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "52d85a3c45854a3693794e22b4cde3d99bc9c7c4b40c8dbb4759c43d8ba15a47"
+      },
+      "id": "city-cotton-candy-machine",
+      "sourceGlbSha256": "08753d5254039f92b9200dcd7a465fa6329dc457132c9964efae3d8a6480748c"
+    },
+    {
+      "archive": {
+        "bytes": 970441,
+        "filename": "city-counterbalance-forklift-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f1716f47572f429c903d45cba584ae5888592cee0a9a4b07ab3c47a478162dbf"
+      },
+      "fbx": {
+        "bytes": 1263676,
+        "filename": "city-counterbalance-forklift.fbx",
+        "sha256": "51caec979757385226bd5e85fd2fab0b7380226a7cbe0e73134772956edf90af"
+      },
+      "fbxArchive": {
+        "bytes": 1082554,
+        "filename": "city-counterbalance-forklift-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "891d1e4ebab0c0e93f116f94570be1959c93bf6c19b8d34e949f0eb429cf0fa3"
+      },
+      "id": "city-counterbalance-forklift",
+      "sourceGlbSha256": "5e599a17f0a2b54afb870ac06de4d2f8db5c73fc568dcda64b0dbfa4c8dc5c46"
+    },
+    {
+      "archive": {
+        "bytes": 380410,
+        "filename": "city-countertop-food-slicer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1b495bfb0a4d11128a570149c96e1ff57b3dd9a0dcbb4e3801ac7baf7a060b32"
+      },
+      "fbx": {
+        "bytes": 506668,
+        "filename": "city-countertop-food-slicer.fbx",
+        "sha256": "502ab2b742a4cb50bd53d49ad5948e2634daca943c6094323fe3c0d882a55c48"
+      },
+      "fbxArchive": {
+        "bytes": 443837,
+        "filename": "city-countertop-food-slicer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e85506fd831d7b8b05977ba23cc0f5f32ffe1eab66c06a79781c95d7ddd7710c"
+      },
+      "id": "city-countertop-food-slicer",
+      "sourceGlbSha256": "e0dea6ea0d6cc88414a94c408d0996188b5d704c70c833541674428c09283e7a"
+    },
+    {
+      "archive": {
+        "bytes": 236858,
+        "filename": "city-countertop-popcorn-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "bf7c3fa06c48b2d3780f6b65a12dfeb5381c236051ae64584dd8b844a9b96f59"
+      },
+      "fbx": {
+        "bytes": 344204,
+        "filename": "city-countertop-popcorn-machine.fbx",
+        "sha256": "dbac58664f3d5fd83e446b4c05de5376a7188e39305af113793f5f4356cda192"
+      },
+      "fbxArchive": {
+        "bytes": 301548,
+        "filename": "city-countertop-popcorn-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7398226f95ca029ccec43a26dc032fd0fe520833589b523a68145e68f61be014"
+      },
+      "id": "city-countertop-popcorn-machine",
+      "sourceGlbSha256": "e83e12c24c6d7041f632fa9f7fecdc1a4cdb9894ef8ef75494e20f15913255bd"
+    },
+    {
+      "archive": {
+        "bytes": 86802,
+        "filename": "city-crossing-flag-holder-1.0.0-minimal-1.0.0.zip",
+        "sha256": "25c573ab325653974cad3d640d41151c6515c760aa1e41a3cc8635ed7ed6de1c"
+      },
+      "fbx": {
+        "bytes": 122700,
+        "filename": "city-crossing-flag-holder.fbx",
+        "sha256": "8d9e991a7205b3f355aafc7358eb430c6bb29a24dd4305fed480524504adfdc9"
+      },
+      "fbxArchive": {
+        "bytes": 99012,
+        "filename": "city-crossing-flag-holder-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "0d6c00f5f8dfbf267855b22c287c01f72ac1656fedfceb60902ad5c0db111255"
+      },
+      "id": "city-crossing-flag-holder",
+      "sourceGlbSha256": "cc77038668de373761e87a7d132b2d5076a77169de56be541774b2215decbc92"
+    },
+    {
+      "archive": {
+        "bytes": 746246,
+        "filename": "city-cyclone-dust-extractor-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7914948d7e008de0beb9fe5612c6946c17e5f24c74ebbe682952ac943b886533"
+      },
+      "fbx": {
+        "bytes": 1025548,
+        "filename": "city-cyclone-dust-extractor.fbx",
+        "sha256": "64718fc38dc23c2053580467f45a9bf28d6567f2b2c8436cd07276fddd5e02a6"
+      },
+      "fbxArchive": {
+        "bytes": 888171,
+        "filename": "city-cyclone-dust-extractor-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ae03148849f658444d561d4e73213ccb68cc87cf1ce0d3ab42456e0ec903acce"
+      },
+      "id": "city-cyclone-dust-extractor",
+      "sourceGlbSha256": "ade3ed71a1164743452228620b2e9dcb1c781d10b1c6db312ab3bb7a6e976ae7"
+    },
+    {
+      "archive": {
+        "bytes": 1780941,
+        "filename": "city-delivery-panel-van-1.0.0-minimal-1.0.0.zip",
+        "sha256": "93d9eeffb40b4eb74e506c8e9554fb24d4e8c9fac0d16be7f236a069b84a1515"
+      },
+      "fbx": {
+        "bytes": 2375036,
+        "filename": "city-delivery-panel-van.fbx",
+        "sha256": "d892ddac3cd9dd671d8b4c2a14c8b07632f7f4d5d8b7c1dd03a66a24411c29cc"
+      },
+      "fbxArchive": {
+        "bytes": 2051347,
+        "filename": "city-delivery-panel-van-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ffc90b611a3914a351830a27ffb7fc49536ab8bed0e0072dabe57e45bb259573"
+      },
+      "id": "city-delivery-panel-van",
+      "sourceGlbSha256": "79483802a21540a83454ecaf51d52a3d0311a7c7e0e5a185743318790b16ada0"
+    },
+    {
+      "archive": {
+        "bytes": 316820,
+        "filename": "city-dental-treatment-chair-1.0.0-minimal-1.0.0.zip",
+        "sha256": "57477e595268b39b86eb21cef0df91a7a1dd021ed846fa2aa65b6dfc0b5d22f4"
+      },
+      "fbx": {
+        "bytes": 422540,
+        "filename": "city-dental-treatment-chair.fbx",
+        "sha256": "6ae23b3065f6b72863aedeae2ff9e91bd15ab963993ef42c435cd8cfba68af15"
+      },
+      "fbxArchive": {
+        "bytes": 376575,
+        "filename": "city-dental-treatment-chair-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "39b6a12a99bbbfba7ba5f025aa6b3b4b09bb38dd30c410c3dd2b6a052f08e9c5"
+      },
+      "id": "city-dental-treatment-chair",
+      "sourceGlbSha256": "3aaad10ecad205ce697e95b24a5a4afa314890fdb6bff5e4f16e477f866d771f"
+    },
+    {
+      "archive": {
+        "bytes": 140814,
+        "filename": "city-desktop-document-laminator-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1f90bb7c2d6b6feea52889081ddc8cd0fc0348c9465653b5c7fd1c026e647cd9"
+      },
+      "fbx": {
+        "bytes": 233564,
+        "filename": "city-desktop-document-laminator.fbx",
+        "sha256": "53a5637aa9a66e0108708f38185f3eb0e2cd784f0c13ae949b7e108dde770ce1"
+      },
+      "fbxArchive": {
+        "bytes": 197207,
+        "filename": "city-desktop-document-laminator-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d573ae1cfe466b9e8d9cfb2f2340df27fef0a2d9b283342b567958600fa7aa78"
+      },
+      "id": "city-desktop-document-laminator",
+      "sourceGlbSha256": "7ea4d5a1f8089dacb6e9ecc43d02cc3e95f6a4048eafdf803d9c8413d6a22ec4"
+    },
+    {
+      "archive": {
+        "bytes": 387181,
+        "filename": "city-digital-slide-caliper-1.0.0-minimal-1.0.0.zip",
+        "sha256": "a44b888f3b6867af4fc636ef1e1081f7bed0d957030a35446c25e1746c6e1b2b"
+      },
+      "fbx": {
+        "bytes": 626252,
+        "filename": "city-digital-slide-caliper.fbx",
+        "sha256": "e24576720f9abb6b68e012f0c442640b1d6f682d702b3e11dea6f93ab471be2b"
+      },
+      "fbxArchive": {
+        "bytes": 533391,
+        "filename": "city-digital-slide-caliper-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "83026485681cd94c21a3fd873e37acc7fec4f5372655cf8eddcbbeaab883c9e9"
+      },
+      "id": "city-digital-slide-caliper",
+      "sourceGlbSha256": "81aa775ccfad292846bd6b2d641bd33e80bded590c3dacf196048a3a3e3fb55c"
+    },
+    {
+      "archive": {
+        "bytes": 2816165,
+        "filename": "city-disc-golf-target-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f3e0d662eb539c83570b79c70733fb707942de8fcf7df256e224fb6728903a4a"
+      },
+      "fbx": {
+        "bytes": 3057996,
+        "filename": "city-disc-golf-target.fbx",
+        "sha256": "4b6cc05e1971bd31dde004b0303181f398b4f2f091a47b3df97837f62a422fcf"
+      },
+      "fbxArchive": {
+        "bytes": 2679743,
+        "filename": "city-disc-golf-target-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a9c8b02d862e4831edd9996f80b33a813c488b1893c750416a8d540bfcc09406"
+      },
+      "id": "city-disc-golf-target",
+      "sourceGlbSha256": "81e7bf35d32f0104467654f4022c094cad56a4abd2b0157568423ebe63187a21"
+    },
+    {
+      "archive": {
+        "bytes": 117540,
+        "filename": "city-dock-mooring-cleat-1.0.0-minimal-1.0.0.zip",
+        "sha256": "41563abda40431fcc14a54728b30d858ee017574383681ca9311242448a09a2c"
+      },
+      "fbx": {
+        "bytes": 137068,
+        "filename": "city-dock-mooring-cleat.fbx",
+        "sha256": "c99db05ed676b21c05ce63238fde108735b22e1dee783172eb30610320b3395d"
+      },
+      "fbxArchive": {
+        "bytes": 112342,
+        "filename": "city-dock-mooring-cleat-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "09e56c0234b4209ce9ec04a1f760d0db9488a770a6a070cd319efea141c67c97"
+      },
+      "id": "city-dock-mooring-cleat",
+      "sourceGlbSha256": "b659b8b2a11f9c918bbeaf802f56557bbe8e4724e4169975390ad71b76b285b0"
+    },
+    {
+      "archive": {
+        "bytes": 212522,
+        "filename": "city-document-shredder-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ea29de98bacc0f99c8987fc616b36494fc11920d88743953e867157031e40d5a"
+      },
+      "fbx": {
+        "bytes": 339676,
+        "filename": "city-document-shredder.fbx",
+        "sha256": "40683728351139dae8a1704fb3e472c399a763358d5d25545775744a96a11c51"
+      },
+      "fbxArchive": {
+        "bytes": 296168,
+        "filename": "city-document-shredder-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cacdc960e402e8bdf36b33de9412b21e31ac30fb53631d98f014d4daa7c7fe9c"
+      },
+      "id": "city-document-shredder",
+      "sourceGlbSha256": "ad15ce04e62022c3b4a41f1242fec55ca36b88f0cd7848a2bfc39c0da10052a4"
+    },
+    {
+      "archive": {
+        "bytes": 579148,
+        "filename": "city-domed-roof-skylight-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8f091fcbb0c2dfcb1fb253da5481ea1303395740b2404946084065f32ba2409f"
+      },
+      "fbx": {
+        "bytes": 801276,
+        "filename": "city-domed-roof-skylight.fbx",
+        "sha256": "3d6f2e23162d68c96a9122595d35c1b4a3a75980aeeb111ada33c3c5dcbb7a3d"
+      },
+      "fbxArchive": {
+        "bytes": 686704,
+        "filename": "city-domed-roof-skylight-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e521169b41d17933740b713c8a51619ac1ab456b07781e96584fbd997cdff92d"
+      },
+      "id": "city-domed-roof-skylight",
+      "sourceGlbSha256": "db590919ff41bedffd7becd4c04892e3553d1100bd0e567e10bae01b600f4498"
+    },
+    {
+      "archive": {
+        "bytes": 280456,
+        "filename": "city-double-wheel-bench-grinder-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c1bd48cab10b323ee219a007f7a7a69843867e96bb07e30139eae9a0f0994a23"
+      },
+      "fbx": {
+        "bytes": 387612,
+        "filename": "city-double-wheel-bench-grinder.fbx",
+        "sha256": "eb0d534b169c32b8225c423191c4df9985e6b9b400b43386a28c94bb7627fbab"
+      },
+      "fbxArchive": {
+        "bytes": 319565,
+        "filename": "city-double-wheel-bench-grinder-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e0985b1204887a1d5f9aaa0c148005f9420ab67d637a8134e61cb40bf16b0b04"
+      },
+      "id": "city-double-wheel-bench-grinder",
+      "sourceGlbSha256": "0d277b48eac145562b67c35558f08278bb88e3ae344b93533f285319c6d0a5ba"
+    },
+    {
+      "archive": {
+        "bytes": 196084,
+        "filename": "city-duct-silencer-module-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c33c0225a245055d5fa897b04527e1a09c8ff4e97e4a964fc8e764de108960a7"
+      },
+      "fbx": {
+        "bytes": 316796,
+        "filename": "city-duct-silencer-module.fbx",
+        "sha256": "05259267d9f046e3f42261382101d1475e02ff5a6747ddf5a58ef2444ffb3fe8"
+      },
+      "fbxArchive": {
+        "bytes": 271237,
+        "filename": "city-duct-silencer-module-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "dfeaa1f0908843c08962de7d92b91fd68aaa1d3cc52edb49678e3a18d3017ae7"
+      },
+      "id": "city-duct-silencer-module",
+      "sourceGlbSha256": "ca713efb4fb49b8e2d1239c3cecdec804b581ffbdc1d08d99cb83b3f001ff657"
+    },
+    {
+      "archive": {
+        "bytes": 434839,
+        "filename": "city-electric-hedge-trimmer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ada41d5153c58145b1c6674cc3086fef9f8d17c12e1a75506fcf4c5b6c155abd"
+      },
+      "fbx": {
+        "bytes": 637068,
+        "filename": "city-electric-hedge-trimmer.fbx",
+        "sha256": "c46915ec51d276232014d9e6bd52dbc3598d149053b914b375cfc29f875af432"
+      },
+      "fbxArchive": {
+        "bytes": 564509,
+        "filename": "city-electric-hedge-trimmer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "62021fb9c7934c16d38337486fc17bfd6eaa29f10ce4106a53ab0793e45cc22b"
+      },
+      "id": "city-electric-hedge-trimmer",
+      "sourceGlbSha256": "6f8a7a715d522dc2450b5a7353266de9fd2564b7ab37011f84ab46f81cc485e6"
+    },
+    {
+      "archive": {
+        "bytes": 250147,
+        "filename": "city-electric-pottery-wheel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e642820e3cc40159c5c85d48385f7e2a8b5add7c00d57b417012f86a49e0ade1"
+      },
+      "fbx": {
+        "bytes": 344188,
+        "filename": "city-electric-pottery-wheel.fbx",
+        "sha256": "a8f1112a48ff35395da6b82a2dde0ad0d68bb40ebf31f3473a41de0ed372e6f2"
+      },
+      "fbxArchive": {
+        "bytes": 290915,
+        "filename": "city-electric-pottery-wheel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7513d2d818a210080197990ed15651e6aff8063d671b4c40d56e0ca6445c0e7c"
+      },
+      "id": "city-electric-pottery-wheel",
+      "sourceGlbSha256": "8b191099d156f9ea99527a4e2efa9d7cc8e72339322099dd0e1e3120a1afdf2b"
+    },
+    {
+      "archive": {
+        "bytes": 395378,
+        "filename": "city-electric-pressure-washer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fc55b1ca6ac9cb53bf654306469391db73b2574253624e571828a780134c62cf"
+      },
+      "fbx": {
+        "bytes": 501308,
+        "filename": "city-electric-pressure-washer.fbx",
+        "sha256": "272ae6f1d8ac7c06c1acf9e1d9d7508fa3b1864d46c32f4e3f389f81aaa97c36"
+      },
+      "fbxArchive": {
+        "bytes": 440162,
+        "filename": "city-electric-pressure-washer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "fbb961e60f270ab92dbbd604489584837ef7c6dcfc71e6bdc861c17db391fd44"
+      },
+      "id": "city-electric-pressure-washer",
+      "sourceGlbSha256": "0c06c3fb891bafe6b6125dd35dbd996afb657fdcdbe8bbed4736b5a5b8bf5e77"
+    },
+    {
+      "archive": {
+        "bytes": 777408,
+        "filename": "city-emergency-eyewash-shower-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b02170cbe9b9ba398f76bf98bf26e6120ed2ab5e59883e18b007001a59c904b5"
+      },
+      "fbx": {
+        "bytes": 979052,
+        "filename": "city-emergency-eyewash-shower.fbx",
+        "sha256": "5efb4fd7d053ac379a8883b4baaefb695134be16b1848aeb7af20e5ea35dd3b7"
+      },
+      "fbxArchive": {
+        "bytes": 863513,
+        "filename": "city-emergency-eyewash-shower-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "09e765639648032c8e39908fabba6d5ddbb962a15f806554e03a0896bd3ccabe"
+      },
+      "id": "city-emergency-eyewash-shower",
+      "sourceGlbSha256": "6fa0b4fe703330b4fc627f0a63ba379ff79b25070c3600190a25d12587d2fc53"
+    },
+    {
+      "archive": {
+        "bytes": 1378499,
+        "filename": "city-exterior-spiral-stair-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f584f0072df166b68d4eef0208f96fc7a37fcc45b528cda56489d5db51b9676d"
+      },
+      "fbx": {
+        "bytes": 1681756,
+        "filename": "city-exterior-spiral-stair.fbx",
+        "sha256": "68d7f418093d7567616907a266607e836f3644a7217db0962f2efc20d02cf42e"
+      },
+      "fbxArchive": {
+        "bytes": 1482617,
+        "filename": "city-exterior-spiral-stair-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "79c5499b2856323143e6d2946ec4aa857ab90419b125b41e85f15a4a6a0b5fe4"
+      },
+      "id": "city-exterior-spiral-stair",
+      "sourceGlbSha256": "bccf748acb603fb90bdcb359770359b08e29062179fb7a5eef42e6b56aeb5669"
+    },
+    {
+      "archive": {
+        "bytes": 207675,
+        "filename": "city-fan-leaf-rake-1.0.0-minimal-1.0.0.zip",
+        "sha256": "db6a6492671939833475d0e93caf65ec7187e60876e5a0efd33698d73559ef80"
+      },
+      "fbx": {
+        "bytes": 286716,
+        "filename": "city-fan-leaf-rake.fbx",
+        "sha256": "b15515d9444683d7c03e634cfe7eee1af16fd741e5f93ae129031526499ee2ee"
+      },
+      "fbxArchive": {
+        "bytes": 254481,
+        "filename": "city-fan-leaf-rake-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c3fe9866e7f12a02602ead361f7b9e4aaaa142698813679b30e978f484776785"
+      },
+      "id": "city-fan-leaf-rake",
+      "sourceGlbSha256": "c37a91e3e8d09b6b8f551b912f8f330df255e4afea504efedf11fd0a20fdfa23"
+    },
+    {
+      "archive": {
+        "bytes": 3307102,
+        "filename": "city-fire-pumper-truck-1.0.0-minimal-1.0.0.zip",
+        "sha256": "88262dc0068dc1bd01985f7b8ed19ed896b34bb10061dd4f4a501a9efa9febf0"
+      },
+      "fbx": {
+        "bytes": 4406652,
+        "filename": "city-fire-pumper-truck.fbx",
+        "sha256": "471256d6dffeb9480cd4a27465932184d87830bc56d390289dc95b62cbd8265f"
+      },
+      "fbxArchive": {
+        "bytes": 3742217,
+        "filename": "city-fire-pumper-truck-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cfae781247405e26ef2acbfb59bfc6909bbf8e8f8149b0c8edcc25f4646086d7"
+      },
+      "id": "city-fire-pumper-truck",
+      "sourceGlbSha256": "ae48822b666462d4f328a60f7b374b90feb51b03713270f3562615c9b39e6bac"
+    },
+    {
+      "archive": {
+        "bytes": 187737,
+        "filename": "city-fitness-treadmill-1.0.0-minimal-1.0.0.zip",
+        "sha256": "48a959be6c84adbb242d98c718a18c8ebb7c4569f9f1dafaff53f2a3114c9a13"
+      },
+      "fbx": {
+        "bytes": 293020,
+        "filename": "city-fitness-treadmill.fbx",
+        "sha256": "d2e9729cc97b60767c39849fda54b612dc67e51733419fa0f4a4364ce742e0b9"
+      },
+      "fbxArchive": {
+        "bytes": 247342,
+        "filename": "city-fitness-treadmill-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d8e0bd668c7f6284fb3b2d8ddea995788043f2c36884618c5d26f1697bb77b16"
+      },
+      "id": "city-fitness-treadmill",
+      "sourceGlbSha256": "8446f7f4d916de85a31975191b1aade510a39bd87d8aab34d2e280b8a632e463"
+    },
+    {
+      "archive": {
+        "bytes": 231955,
+        "filename": "city-fixed-chess-table-1.0.0-minimal-1.0.0.zip",
+        "sha256": "260f1fd8b9329edcfac95445b43b1aeb84db3de555311d3483a9bfdb19dcc695"
+      },
+      "fbx": {
+        "bytes": 391020,
+        "filename": "city-fixed-chess-table.fbx",
+        "sha256": "a8b7bf83bf873266b02d7905dcd4231cec81929b06fcdb46e122504dce694662"
+      },
+      "fbxArchive": {
+        "bytes": 336514,
+        "filename": "city-fixed-chess-table-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "15bc792dc1e5d57d029f73db5ac5554518b0587bf23387fdb4a5280d0ef62a5d"
+      },
+      "id": "city-fixed-chess-table",
+      "sourceGlbSha256": "498bf6711290dfb30aba3efaa1341828c5a72240ff7dda1f367d7bfdf1093eaa"
+    },
+    {
+      "archive": {
+        "bytes": 331045,
+        "filename": "city-flanged-gate-valve-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b88039244ff076af8a0d902571b08c6a874e77a6bd5de7cb64c749ce51578f85"
+      },
+      "fbx": {
+        "bytes": 416460,
+        "filename": "city-flanged-gate-valve.fbx",
+        "sha256": "5d9e54937e2deba499e314afcbad2b8318cc0facf7062ab67ea89e8cef5466e0"
+      },
+      "fbxArchive": {
+        "bytes": 356919,
+        "filename": "city-flanged-gate-valve-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "372ea0ebe973761dc3812bcad9f658b73b8981b737067c777d749b10583dc6d3"
+      },
+      "id": "city-flanged-gate-valve",
+      "sourceGlbSha256": "fe139a9f1fa72e64912493bc7642b78ac9c41e0b58a634afa5a1ee844635afca"
+    },
+    {
+      "archive": {
+        "bytes": 315813,
+        "filename": "city-flanged-water-meter-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1bf7ac0295eb577d6625417436da4cd7868c9861c54fa22903f9a32f7ad52d0e"
+      },
+      "fbx": {
+        "bytes": 405404,
+        "filename": "city-flanged-water-meter.fbx",
+        "sha256": "0d9d97163979958509b19ad6018ad3f3240fb27dd5c48fd293403d7f8c0a31ea"
+      },
+      "fbxArchive": {
+        "bytes": 352753,
+        "filename": "city-flanged-water-meter-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "70cee728e0be58d7998f1fbd877fb1601966be0e12e8bbdad2346f9472f9854e"
+      },
+      "id": "city-flanged-water-meter",
+      "sourceGlbSha256": "5853dcbf7540840e42cf7b5e5de26c472ef83618e9672ed314fd2b717f272111"
+    },
+    {
+      "archive": {
+        "bytes": 390501,
+        "filename": "city-floating-dock-section-1.0.0-minimal-1.0.0.zip",
+        "sha256": "14c61c8bcfb5755876200b538eda036b7e4d03be84e795941d4af3720598d931"
+      },
+      "fbx": {
+        "bytes": 628316,
+        "filename": "city-floating-dock-section.fbx",
+        "sha256": "4c62c00acba707310ac3049f9411fd6e6b89f8e0e46bd8b08272b460d6f57368"
+      },
+      "fbxArchive": {
+        "bytes": 535827,
+        "filename": "city-floating-dock-section-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ae0be7f729e767c016a9fcc7bb74820e80b4b294e0256dc7f11649ce8882ef90"
+      },
+      "id": "city-floating-dock-section",
+      "sourceGlbSha256": "0370b66d12c3d499dd1ec10ed62f14802ea80e2569b450aecebae8c6ecc1be42"
+    },
+    {
+      "archive": {
+        "bytes": 526152,
+        "filename": "city-flood-barrier-gate-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9b45e05076616e8d16902b6af558754f926baabca60f1f56a48fd7c9b4566a7e"
+      },
+      "fbx": {
+        "bytes": 769004,
+        "filename": "city-flood-barrier-gate.fbx",
+        "sha256": "b10cd1945bbe51b17a09750c089a1c0659a8ceb7fdd50e1d20cfc691b07bb9ce"
+      },
+      "fbxArchive": {
+        "bytes": 662359,
+        "filename": "city-flood-barrier-gate-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "39754ec488d9f399fe3fdf7bfdb442eeb57b7edb2a4535daa72c7e4b0e1accd7"
+      },
+      "id": "city-flood-barrier-gate",
+      "sourceGlbSha256": "6fec71d37dc001a41aff7ef6b961e571dcb6d2f33a0960e33471ee21740f9400"
+    },
+    {
+      "archive": {
+        "bytes": 303962,
+        "filename": "city-floor-drill-press-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f66db440dfd342c31c138d6c797638cf548ef1eaa15135fcddc716d42fbd7c8a"
+      },
+      "fbx": {
+        "bytes": 413596,
+        "filename": "city-floor-drill-press.fbx",
+        "sha256": "1ea65eff5cdfaf1182e01e232d598ad8732fe546bdd4520266097de25cba89c8"
+      },
+      "fbxArchive": {
+        "bytes": 364453,
+        "filename": "city-floor-drill-press-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "56a2c8ada16606d2632e3076e5a6ea4166d5bd564d3958157de29aa80634fa9c"
+      },
+      "id": "city-floor-drill-press",
+      "sourceGlbSha256": "bf7a2eefcfb8ef7035d06f2b5e6f5b3a14b7ae556560d144bc43833d4e65c73e"
+    },
+    {
+      "archive": {
+        "bytes": 226592,
+        "filename": "city-floor-flush-toilet-1.0.0-minimal-1.0.0.zip",
+        "sha256": "dcb5fd3a6fb5e9351fb71b690390e474a0e8d01294967d09730454b135407c84"
+      },
+      "fbx": {
+        "bytes": 276412,
+        "filename": "city-floor-flush-toilet.fbx",
+        "sha256": "fcf5e6e5178aca5b8237e4fc9ac862d39f0006f31599dcb6aecf35f4f7d1d66a"
+      },
+      "fbxArchive": {
+        "bytes": 239224,
+        "filename": "city-floor-flush-toilet-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "3bf97130ead61dc113708c7749b4e6af2dcfc415b42a1d3233fc13aeea785850"
+      },
+      "id": "city-floor-flush-toilet",
+      "sourceGlbSha256": "f5ff5e719776817126f3488a07aa50c6e561e19c6066a73ac03461860e6b241d"
+    },
+    {
+      "archive": {
+        "bytes": 397423,
+        "filename": "city-folding-baby-changing-station-1.0.0-minimal-1.0.0.zip",
+        "sha256": "dfe0b2dc4c58e4f6f23a9d81519628384a8ed8b30edc5e8041bd490acb3fd16b"
+      },
+      "fbx": {
+        "bytes": 568044,
+        "filename": "city-folding-baby-changing-station.fbx",
+        "sha256": "faeba5d1efadba710af9f99731b08f11fc55b8ee2190c6dd09085a6d304daa0b"
+      },
+      "fbxArchive": {
+        "bytes": 504053,
+        "filename": "city-folding-baby-changing-station-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "32173f93780a6a9c00d26eaf97888440bd2dbb3f21aa57af7856a229db7fd0e6"
+      },
+      "id": "city-folding-baby-changing-station",
+      "sourceGlbSha256": "759ed4c49c48dc812e9583d120703d7c99ee259662829742e0ea387328a71308"
+    },
+    {
+      "archive": {
+        "bytes": 710510,
+        "filename": "city-folding-engine-crane-1.0.0-minimal-1.0.0.zip",
+        "sha256": "d48d645076a3cc1d6ac136f0ddd25d40a6f9b218f76642eaaa72683b5affe50b"
+      },
+      "fbx": {
+        "bytes": 931612,
+        "filename": "city-folding-engine-crane.fbx",
+        "sha256": "9cba0c6fe9f1e9f500fd0edc8dd6bee974f3ff0150b1245576bf1f03f4c4b9e2"
+      },
+      "fbxArchive": {
+        "bytes": 828427,
+        "filename": "city-folding-engine-crane-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "11e83ca9ab341f88389256be2b4c1906b105b73f5f9dfb0f357adb1265578c74"
+      },
+      "id": "city-folding-engine-crane",
+      "sourceGlbSha256": "765eb89226c15851bbf4576ca23c64529a2a8b2fd83c62f424d9129ac74875c8"
+    },
+    {
+      "archive": {
+        "bytes": 194814,
+        "filename": "city-folding-ironing-board-1.0.0-minimal-1.0.0.zip",
+        "sha256": "2c113c9bf889fbfe7943b1881ef20b720e8cf6537c89195ba4d5bff40fdc02a4"
+      },
+      "fbx": {
+        "bytes": 301628,
+        "filename": "city-folding-ironing-board.fbx",
+        "sha256": "e1d9094ae6ae3e1ece81c9891a7e0b734101cb1fd17544a8b662b88f52165a17"
+      },
+      "fbxArchive": {
+        "bytes": 256405,
+        "filename": "city-folding-ironing-board-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "95c3e3964c3617817e570a567a0c0a6fb37507acb3192f7830165b0ceec20889"
+      },
+      "id": "city-folding-ironing-board",
+      "sourceGlbSha256": "1ecc9a020ddea151e695c578a136cd81f1ba3470d209be7c5a6b4279ef5c2839"
+    },
+    {
+      "archive": {
+        "bytes": 211161,
+        "filename": "city-folding-market-stall-1.0.0-minimal-1.0.0.zip",
+        "sha256": "dcac802fd271f426f6baebf9c80abb344e40a1a83addb1b73f8eddcef5f44d83"
+      },
+      "fbx": {
+        "bytes": 334588,
+        "filename": "city-folding-market-stall.fbx",
+        "sha256": "fa9aebc4877509fb271cf36ed603f000aa23857212f8b92066b963b40b0dde12"
+      },
+      "fbxArchive": {
+        "bytes": 295501,
+        "filename": "city-folding-market-stall-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "75e6c56955a7f518af27bb745c6556bbc01ad52447614a263a466ea490130e40"
+      },
+      "id": "city-folding-market-stall",
+      "sourceGlbSha256": "43adfb6b047136eb03631221b3da4a04e664970de3143a9805131490796af385"
+    },
+    {
+      "archive": {
+        "bytes": 610220,
+        "filename": "city-folding-refuse-collection-cage-1.0.0-minimal-1.0.0.zip",
+        "sha256": "061bade7808b796c9ac142301b15e0b10a33f2a9e25a18a6ed5b40822eafc9ef"
+      },
+      "fbx": {
+        "bytes": 945068,
+        "filename": "city-folding-refuse-collection-cage.fbx",
+        "sha256": "4d32ab305b6c01c5ad651e586b9c1447fa6a0b87dbc97181b30c7d92e2688588"
+      },
+      "fbxArchive": {
+        "bytes": 797027,
+        "filename": "city-folding-refuse-collection-cage-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "33dff51c6a812c37c20a1665b50cba9bc55bf63364e5687cc651f3a14a94d103"
+      },
+      "id": "city-folding-refuse-collection-cage",
+      "sourceGlbSha256": "bf660c17e724fd3bc000662c15a100369164bc5a78a5bfa4cd4c3f8732375ad3"
+    },
+    {
+      "archive": {
+        "bytes": 463896,
+        "filename": "city-football-goal-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c5eeaf0051df85e1c263afb417e1969074f2d4e59499ebaf666d39c731f049a3"
+      },
+      "fbx": {
+        "bytes": 619436,
+        "filename": "city-football-goal.fbx",
+        "sha256": "ba252c77dab42f9422cd25e06b6c2eb1d19fd4b444aa4cbb7f00362c5d0f8b94"
+      },
+      "fbxArchive": {
+        "bytes": 529999,
+        "filename": "city-football-goal-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "70191eb923854a1e7d58dee2f6fd9bfc2c107939d28511e6caa0b64406230e2c"
+      },
+      "id": "city-football-goal",
+      "sourceGlbSha256": "0b605a075c01664ba3252eb5b325742a1e2fc65e1272f063d4f348e2f69e359a"
+    },
+    {
+      "archive": {
+        "bytes": 341723,
+        "filename": "city-four-wheel-rollator-1.0.0-minimal-1.0.0.zip",
+        "sha256": "a19222ac8bf87685db545e655a544497b5b2564d5cd3e61e778b0ec29c2fe63b"
+      },
+      "fbx": {
+        "bytes": 424076,
+        "filename": "city-four-wheel-rollator.fbx",
+        "sha256": "50555b2d245297f8bc6cc920e0ea88240010bc4421294ac8f3b5eb441adf57c4"
+      },
+      "fbxArchive": {
+        "bytes": 377708,
+        "filename": "city-four-wheel-rollator-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "80eb82dddc8bfc52025cbd156020a962334d377cd8bddbfa35bf6b113236e382"
+      },
+      "id": "city-four-wheel-rollator",
+      "sourceGlbSha256": "e7ed0b475d6bc5accfc256145f42b6e2a6092683ffa3446d91fb3c04a01e21df"
+    },
+    {
+      "archive": {
+        "bytes": 66562,
+        "filename": "city-frame-hacksaw-1.0.0-minimal-1.0.0.zip",
+        "sha256": "65c7f7c44d15dcaa833323f94b90105b9fed5499ca18dfa053de87107c9b841d"
+      },
+      "fbx": {
+        "bytes": 103596,
+        "filename": "city-frame-hacksaw.fbx",
+        "sha256": "8f0726eb6f0f42b757eda6eeb6fbea70b46370428fbeb69a454950eacff4e995"
+      },
+      "fbxArchive": {
+        "bytes": 83045,
+        "filename": "city-frame-hacksaw-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6d10c475d21a315bd4a73d0bb842677cd6df53bfbee63cb59b1f2ac619d8c0dc"
+      },
+      "id": "city-frame-hacksaw",
+      "sourceGlbSha256": "05bd98e62804b619bae5d27c34f671b63b2aaf607155af6d1a75df32c7e5082f"
+    },
+    {
+      "archive": {
+        "bytes": 158381,
+        "filename": "city-framed-wall-formwork-panel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "45df3458c03b1de545fccd1a086db0f9338764fe4301576420dffb425f311e05"
+      },
+      "fbx": {
+        "bytes": 221132,
+        "filename": "city-framed-wall-formwork-panel.fbx",
+        "sha256": "1a169ef06b669ee3a13755b2f4dcea63dc0f9f81ea18facdeca37106894962a2"
+      },
+      "fbxArchive": {
+        "bytes": 185420,
+        "filename": "city-framed-wall-formwork-panel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8dbc3cb40eece932d18dff73827cb2dca325f1dcca16e9fb6be3c511285ee8e9"
+      },
+      "id": "city-framed-wall-formwork-panel",
+      "sourceGlbSha256": "b96db599c939ab4aa516b708be6d86e0c393ac9f95282bc9a4850182c8e29246"
+    },
+    {
+      "archive": {
+        "bytes": 415915,
+        "filename": "city-framed-xylophone-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c0bcb154e16d9cecdd5c30eef971ad03d58957cf52da54a33388c8d31aff8811"
+      },
+      "fbx": {
+        "bytes": 650924,
+        "filename": "city-framed-xylophone.fbx",
+        "sha256": "e862b7e063139608ccdf4254f6158191c903bede666a43383cd3e5e12cb6cf30"
+      },
+      "fbxArchive": {
+        "bytes": 567696,
+        "filename": "city-framed-xylophone-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8365e953d5ef6e98699c05e62f1d63b2a1f3fc2af19c1939a9b475870732e806"
+      },
+      "id": "city-framed-xylophone",
+      "sourceGlbSha256": "f7dee0e9c78e71d4eb1983e134d78b216222aade0066c49ac153a43645e83228"
+    },
+    {
+      "archive": {
+        "bytes": 523721,
+        "filename": "city-freestanding-climbing-wall-1.0.0-minimal-1.0.0.zip",
+        "sha256": "47b7997041de768d300d141e3c8fafa21671a4432fd2649fa7f935e74ef58a2c"
+      },
+      "fbx": {
+        "bytes": 749644,
+        "filename": "city-freestanding-climbing-wall.fbx",
+        "sha256": "466d766b1a39bd3baefec7108b66b231286ebf2974d96fa1f04646fff386df5e"
+      },
+      "fbxArchive": {
+        "bytes": 665918,
+        "filename": "city-freestanding-climbing-wall-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "14bbdfc6fa6db1390e97ff2000994d7f8f8fca2b07e39f5c2a3bb17e8c9c6ad4"
+      },
+      "id": "city-freestanding-climbing-wall",
+      "sourceGlbSha256": "dd50dbbe973a13c4ff660370e3cc04fcae693b3fc0e7ef5d5a9c5d68812b19fe"
+    },
+    {
+      "archive": {
+        "bytes": 555743,
+        "filename": "city-front-loading-washing-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "11727e34f3d1338ce6d4a00b904f196d3b0ca116816591515781affcb37478a8"
+      },
+      "fbx": {
+        "bytes": 678908,
+        "filename": "city-front-loading-washing-machine.fbx",
+        "sha256": "555a34beff72e2c559e9eac861e060350170163d958258435b7a397ab08a1be5"
+      },
+      "fbxArchive": {
+        "bytes": 570066,
+        "filename": "city-front-loading-washing-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b8fa4532156901393d068d16872971fcac3c61f9a49036a4cec1a5184416deaa"
+      },
+      "id": "city-front-loading-washing-machine",
+      "sourceGlbSha256": "c0988de6568504ba400d546e4b0fe42e427b3c8242f5f5e3af9ea476d741c61f"
+    },
+    {
+      "archive": {
+        "bytes": 78714,
+        "filename": "city-garden-digging-spade-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0f72d68efef3cef4603ccd5637bf412c60394c3632798543f90dd719f69b6615"
+      },
+      "fbx": {
+        "bytes": 124620,
+        "filename": "city-garden-digging-spade.fbx",
+        "sha256": "665971841b2422fbd6875c1a2091a881223915f7b62c652bb2e3560cd67de335"
+      },
+      "fbxArchive": {
+        "bytes": 102894,
+        "filename": "city-garden-digging-spade-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7fa2b7a486abc6268059aa1527f5e406c5dd1a2f2a4f3648c22b0cabd9336cd4"
+      },
+      "id": "city-garden-digging-spade",
+      "sourceGlbSha256": "d28be5802e9cc8e98de583b74f02787ce7fedd558e8092ae0a6b870c0928094d"
+    },
+    {
+      "archive": {
+        "bytes": 209566,
+        "filename": "city-garden-watering-can-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b38ce9c3a9a4ddf4fd7bc1f7b1ee6a9a27a5221319a23ce1a12647e670184e9a"
+      },
+      "fbx": {
+        "bytes": 246348,
+        "filename": "city-garden-watering-can.fbx",
+        "sha256": "04dcd5488491501022190767134ffd81d006fd1a3149f4aa7246b230631e5327"
+      },
+      "fbxArchive": {
+        "bytes": 213356,
+        "filename": "city-garden-watering-can-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d8a94edaac8f919bdcacd1878004f23df4aed8bc0a388f29f2035c0b7b676d26"
+      },
+      "id": "city-garden-watering-can",
+      "sourceGlbSha256": "2ce54ca8dd055d2ccfec8ea11723d1adebb6702dab73ad6d3472efec72ce038a"
+    },
+    {
+      "archive": {
+        "bytes": 532412,
+        "filename": "city-gravity-roller-conveyor-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5a4f21ed6471a39e53983ef1dd6a8e85b9ad1891f848df27c3357e6f5a73c071"
+      },
+      "fbx": {
+        "bytes": 866828,
+        "filename": "city-gravity-roller-conveyor.fbx",
+        "sha256": "8e32dac24d11c50194f6b107e33af7ac34b909576db962af61d1acab4067c746"
+      },
+      "fbxArchive": {
+        "bytes": 743820,
+        "filename": "city-gravity-roller-conveyor-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cd562d47f23ebef7c41e6ccb7a7996d444f5485d9d3c5e22ca6c1887afbdef7f"
+      },
+      "id": "city-gravity-roller-conveyor",
+      "sourceGlbSha256": "26ff5b00345c5f42ad772ec66f9562e897a16c33add5ed026caff7b30f2d1f01"
+    },
+    {
+      "archive": {
+        "bytes": 320811,
+        "filename": "city-grid-potato-cutter-1.0.0-minimal-1.0.0.zip",
+        "sha256": "89462586e9770326b2ada10b5e1703477d3e9813e5ef7e8d0f29f57e1dfd61fe"
+      },
+      "fbx": {
+        "bytes": 522012,
+        "filename": "city-grid-potato-cutter.fbx",
+        "sha256": "c8b8fe84d5af7e37332e8f9546aa453f81dd9ba48830aaf40b966a5eb789d67a"
+      },
+      "fbxArchive": {
+        "bytes": 447604,
+        "filename": "city-grid-potato-cutter-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6f920f142121998b433efae75bee974f5f4beaf3bb2d9703b89aa529675129b7"
+      },
+      "id": "city-grid-potato-cutter",
+      "sourceGlbSha256": "8e30ff22b290985629870f44a9f348264d545bde96cf0040989634285b0304a9"
+    },
+    {
+      "archive": {
+        "bytes": 98418,
+        "filename": "city-grit-storage-bin-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c94a199a791a86b0d1db7e0d5564c50a73acaa02f53ebf54378b9a2508d10694"
+      },
+      "fbx": {
+        "bytes": 163276,
+        "filename": "city-grit-storage-bin.fbx",
+        "sha256": "387ff1d1563af24cbd737b8333ab7c928624dae73aeb02f3c55a4bea6449ab9a"
+      },
+      "fbxArchive": {
+        "bytes": 139220,
+        "filename": "city-grit-storage-bin-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c9dee4c1d4b459093c284489f22b97a71f1e47c5b301ebfdaae3f490df24e553"
+      },
+      "id": "city-grit-storage-bin",
+      "sourceGlbSha256": "f4cad6ccd72da932a145cef6f34d0cd2f40dbfa533ce6e05e31cb6a047e07db3"
+    },
+    {
+      "archive": {
+        "bytes": 159956,
+        "filename": "city-guillotine-paper-cutter-1.0.0-minimal-1.0.0.zip",
+        "sha256": "a48175082797a5fcf2e05a2d753246d87d7f61d0bf422a14af1448215d0a52ea"
+      },
+      "fbx": {
+        "bytes": 253308,
+        "filename": "city-guillotine-paper-cutter.fbx",
+        "sha256": "2355e177f55210076dd6ebd582ad8f89801e57c1ed1ebdedd7b0b4babac0b267"
+      },
+      "fbxArchive": {
+        "bytes": 219904,
+        "filename": "city-guillotine-paper-cutter-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "bc8a5aacb675cb27b7eaba0e71a744a37506df7653042b1d04ed7c4cac47f85f"
+      },
+      "id": "city-guillotine-paper-cutter",
+      "sourceGlbSha256": "520937d7d23c673e9c79781c94cdcf297e25538eba1da5e4dc19fc5fef4819e4"
+    },
+    {
+      "archive": {
+        "bytes": 237908,
+        "filename": "city-gymnastic-ring-frame-1.0.0-minimal-1.0.0.zip",
+        "sha256": "97b53b70a113d05e2473ecea3b21fc0eb54c69899ac366a8bea9a65bcdbe75b1"
+      },
+      "fbx": {
+        "bytes": 330636,
+        "filename": "city-gymnastic-ring-frame.fbx",
+        "sha256": "7485128538947b4f237a975eb60a222158f04432bc684640a7686a4262d5805c"
+      },
+      "fbxArchive": {
+        "bytes": 279112,
+        "filename": "city-gymnastic-ring-frame-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "bbf1341d49c2731744dbf69f5068230dc6e5f1a28cc92c7434c36a8bf6b72d76"
+      },
+      "id": "city-gymnastic-ring-frame",
+      "sourceGlbSha256": "d89650282cd4cff16b226f37b4e5675a0c10e9292dc9d8c738389bc69e179626"
+    },
+    {
+      "archive": {
+        "bytes": 413718,
+        "filename": "city-hand-cranked-shaved-ice-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0fcdf2e5705f752d053b8941f1fde37da97c657f6c904903f5edc6e88e921aee"
+      },
+      "fbx": {
+        "bytes": 489884,
+        "filename": "city-hand-cranked-shaved-ice-machine.fbx",
+        "sha256": "3a03b0f734e927997b8f8f158a21a068806e68fa4243298d257e9faa7b29806a"
+      },
+      "fbxArchive": {
+        "bytes": 428171,
+        "filename": "city-hand-cranked-shaved-ice-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "79d58136ae91290dd1a4036152c701a95abf94924530664beb129df2e267e603"
+      },
+      "id": "city-hand-cranked-shaved-ice-machine",
+      "sourceGlbSha256": "be4f8b57182519ab3176efb3458ba48e5941f5b79c08297c3150809f9147e6c5"
+    },
+    {
+      "archive": {
+        "bytes": 188420,
+        "filename": "city-handheld-angle-grinder-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b97516d9671b5cb80ddf7f1735d5c052a56ba49bec2fed50d1fa4f15fb823c8a"
+      },
+      "fbx": {
+        "bytes": 254972,
+        "filename": "city-handheld-angle-grinder.fbx",
+        "sha256": "cf2677d19fa3d1c16b1bdb4b1c5dc949805184fbca11899b20ad42841acfc888"
+      },
+      "fbxArchive": {
+        "bytes": 214832,
+        "filename": "city-handheld-angle-grinder-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "93873a05c4986a3d4efa7eaa69aad920be71ddf93258587b4f010cbbbb8e9121"
+      },
+      "id": "city-handheld-angle-grinder",
+      "sourceGlbSha256": "e6945cbb204352124a65083535c2a714ff17aa69ae0b55c8f8c37ecb675c23f6"
+    },
+    {
+      "archive": {
+        "bytes": 197928,
+        "filename": "city-handheld-circular-saw-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fe6e5f99449e87ecb4c4f3344fc26ab6327b3c6c6c52f15cd2a5e6bb56570e42"
+      },
+      "fbx": {
+        "bytes": 264780,
+        "filename": "city-handheld-circular-saw.fbx",
+        "sha256": "6fef63ca480a00f7fb507e80395839d06259f981be5a466b1d97799c562d47aa"
+      },
+      "fbxArchive": {
+        "bytes": 230336,
+        "filename": "city-handheld-circular-saw-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "14f142e01e41bc8124ffc2ba031e63d010c94e9ff2b205ff3c7915e309326d1b"
+      },
+      "id": "city-handheld-circular-saw",
+      "sourceGlbSha256": "4bcc1895ac1d321a628bf3a4df3ab1ec7ebd91742a8da88df962f1690a1d6cfa"
+    },
+    {
+      "archive": {
+        "bytes": 173777,
+        "filename": "city-headphones-on-stand-1.0.0-minimal-1.0.0.zip",
+        "sha256": "afcbee4a072f0b7b84653c85f7537829b6fc5a7c5b9366064c989e3643d93951"
+      },
+      "fbx": {
+        "bytes": 227724,
+        "filename": "city-headphones-on-stand.fbx",
+        "sha256": "20d9a2f36b51ba0b5cc40d6f65d07ddf81fa58d256800525baf5816603f35f25"
+      },
+      "fbxArchive": {
+        "bytes": 191466,
+        "filename": "city-headphones-on-stand-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d526087e88a3d0f35545a3187e1987ff73fe5aee0fe039a2399348c05a95c86b"
+      },
+      "id": "city-headphones-on-stand",
+      "sourceGlbSha256": "780065a79e5cb6a22200f6721823c1e4ffaa0e3ae9dcd1a52607c15011bc9431"
+    },
+    {
+      "archive": {
+        "bytes": 279895,
+        "filename": "city-high-jump-set-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9dd7cfdd17f3d916426e49077ca44cad2981a26f005b15e5a40ef66c1100c1e3"
+      },
+      "fbx": {
+        "bytes": 452940,
+        "filename": "city-high-jump-set.fbx",
+        "sha256": "a4b347faa8535bcf1f68d02c04326fb77d66dc0769c5a8da2e4c54b159b97aab"
+      },
+      "fbxArchive": {
+        "bytes": 391256,
+        "filename": "city-high-jump-set-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "572acd51c3197d5bb681caba892e96489c7af98af4013480ad2c3bd2c9879c42"
+      },
+      "id": "city-high-jump-set",
+      "sourceGlbSha256": "c77c774c6c1f10109f3205037f9a32b5529eb5979de43a9a48906aad253cbd8d"
+    },
+    {
+      "archive": {
+        "bytes": 601267,
+        "filename": "city-hinged-dock-gangway-1.0.0-minimal-1.0.0.zip",
+        "sha256": "92b9a0b26b97047a0a5eb75e0c67742debcc1fbde5be988cffef3e22db7feeb1"
+      },
+      "fbx": {
+        "bytes": 833996,
+        "filename": "city-hinged-dock-gangway.fbx",
+        "sha256": "b461aebe14f1f9eac4dd2e1029cc7b7f671300a074089721fa76cfcfd8648b5d"
+      },
+      "fbxArchive": {
+        "bytes": 726308,
+        "filename": "city-hinged-dock-gangway-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8280943689dbb250757033875f68eed4d2fab47053818bb1464d30f03e8cb4ad"
+      },
+      "id": "city-hinged-dock-gangway",
+      "sourceGlbSha256": "de876681093400fea90cab888a41c0082e8bc563a9567f944ed9e4090f7d1ee8"
+    },
+    {
+      "archive": {
+        "bytes": 272071,
+        "filename": "city-hotel-luggage-cart-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7ab3a6adee825d65df35a96a5a20b3e68f2e18da45e4196ad8123172e698b208"
+      },
+      "fbx": {
+        "bytes": 399340,
+        "filename": "city-hotel-luggage-cart.fbx",
+        "sha256": "6c5bf442d734f9590bec194b5cac8ea7ec14600f14f49d2a378865bffb96a89f"
+      },
+      "fbxArchive": {
+        "bytes": 346733,
+        "filename": "city-hotel-luggage-cart-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "17afec85ac7e246fabc3f74f7dcd0bf88823807960532d7e725a7e9f203353a9"
+      },
+      "id": "city-hotel-luggage-cart",
+      "sourceGlbSha256": "0971035c14aafed477c1e4540c880638b360d57d431a03baaa2a20f1fc41ec49"
+    },
+    {
+      "archive": {
+        "bytes": 437223,
+        "filename": "city-hydraulic-floor-jack-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e738c21bbdd70f20943a1f8d610b36c3f2df512dfec41c759ddac7e5e1eff6a3"
+      },
+      "fbx": {
+        "bytes": 546028,
+        "filename": "city-hydraulic-floor-jack.fbx",
+        "sha256": "fbaadf56ee1f59d469160bf00aeaf1fa8b460a02835eb9243b394800020beb8b"
+      },
+      "fbxArchive": {
+        "bytes": 490859,
+        "filename": "city-hydraulic-floor-jack-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a788a6b91559893bca81f6034e464697ffc06f0d7b8fbe0269d68961d06771d0"
+      },
+      "id": "city-hydraulic-floor-jack",
+      "sourceGlbSha256": "bcebf7c04109f19389d67a588adc57b818d88e9b420166ea154cd57bef4e3882"
+    },
+    {
+      "archive": {
+        "bytes": 407902,
+        "filename": "city-hydraulic-shop-press-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4b27a9840cd922e34d59f55049495098e34bc2c4bfb31dc6b78370d024de3cd2"
+      },
+      "fbx": {
+        "bytes": 524140,
+        "filename": "city-hydraulic-shop-press.fbx",
+        "sha256": "d2963b4c6beb3c42bb5968e13829e921221b1f29d205af5fc5fc0dbca317730d"
+      },
+      "fbxArchive": {
+        "bytes": 462070,
+        "filename": "city-hydraulic-shop-press-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "0f0a54a491007b018301c3367ec4e32c841de92b8ef9e658f44d909c03780411"
+      },
+      "id": "city-hydraulic-shop-press",
+      "sourceGlbSha256": "ef27a23c6a5c395f08f75d074d4093026ab6a8d806e1ad681b77a1465f825157"
+    },
+    {
+      "archive": {
+        "bytes": 270359,
+        "filename": "city-insect-hotel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "22f94437000a429accc85f971b3e30c88082dadedbc8f18325e7804200323a9c"
+      },
+      "fbx": {
+        "bytes": 389116,
+        "filename": "city-insect-hotel.fbx",
+        "sha256": "62bbe4757ddbdd85f81b8d508f8b69c5b3c4cdeb02b4a9b1d2eaac7a8c793f1a"
+      },
+      "fbxArchive": {
+        "bytes": 336668,
+        "filename": "city-insect-hotel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b6ac85fe2c2c6d02102759959aefe6d6855bcb53da44df0ad1f69929191bb6fe"
+      },
+      "id": "city-insect-hotel",
+      "sourceGlbSha256": "bc7796bf45e03cf66ffa2f2da0793721fd855152b03568a9d868c4aa51c6bb42"
+    },
+    {
+      "archive": {
+        "bytes": 40584,
+        "filename": "city-lane-delineator-post-1.0.0-minimal-1.0.0.zip",
+        "sha256": "23e726dbf91f6ca52a144d065e22a5186f2ee86dcd553f2d55f18d62b33a6f51"
+      },
+      "fbx": {
+        "bytes": 71788,
+        "filename": "city-lane-delineator-post.fbx",
+        "sha256": "084b16e4b16873cee267e33e7550cacb24828a799ee6035eac7fb5ccd917a507"
+      },
+      "fbxArchive": {
+        "bytes": 52539,
+        "filename": "city-lane-delineator-post-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "42039d923a6e4fbe9b80ddf2c018980ffffab97caae45792fa5fc3b5e35c2cb5"
+      },
+      "id": "city-lane-delineator-post",
+      "sourceGlbSha256": "976259ef52556a7debcbe1a5012f5833bca0e0e839640df2a357b2f0ee89f9d9"
+    },
+    {
+      "archive": {
+        "bytes": 298649,
+        "filename": "city-lat-pulldown-station-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4d8c59ac0f2f5c4d07870c7ccec7760bb83de05056c80d7fd16dfe66d3a62b4d"
+      },
+      "fbx": {
+        "bytes": 409228,
+        "filename": "city-lat-pulldown-station.fbx",
+        "sha256": "fe9f0e0c6fa300ccd70cdf8954afec2f12ea57760aa3851e52a78f3d7dc35fcb"
+      },
+      "fbxArchive": {
+        "bytes": 360264,
+        "filename": "city-lat-pulldown-station-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "fc362196f77d42dad8eca635f9c87ba0f72659b082bee214fdc8c59a046f2bc1"
+      },
+      "id": "city-lat-pulldown-station",
+      "sourceGlbSha256": "5482c15564f197b054ed93911d0a2ed83f6cef784fb54f665f6554cbc6550b76"
+    },
+    {
+      "archive": {
+        "bytes": 231850,
+        "filename": "city-lever-citrus-press-1.0.0-minimal-1.0.0.zip",
+        "sha256": "be27cb174d44038412e0cfb6b217db5219821be256dae7455a7d0cbcd9309193"
+      },
+      "fbx": {
+        "bytes": 307532,
+        "filename": "city-lever-citrus-press.fbx",
+        "sha256": "36b607f75772c5ca9fcde73c34dc633be1f93dc77611fa6227e7c138a81d9424"
+      },
+      "fbxArchive": {
+        "bytes": 272608,
+        "filename": "city-lever-citrus-press-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "28600d10b306481967197fe2236657e85c902b45742950a2aa8bde3056bdc0b2"
+      },
+      "id": "city-lever-citrus-press",
+      "sourceGlbSha256": "6b041b7e4e414b99509d56b4a6d7fe25b3217912b1ee8a664bc9675ddd08bf9a"
+    },
+    {
+      "archive": {
+        "bytes": 747469,
+        "filename": "city-library-book-trolley-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e3e97bcbca08c3bd6f656191d4804f7d9c7d21bab4e962aee28c77a0e89a2931"
+      },
+      "fbx": {
+        "bytes": 937436,
+        "filename": "city-library-book-trolley.fbx",
+        "sha256": "7a06f5fb86702940289ea84fc45d0a888a5216a54b4b82544d5633b95e89d100"
+      },
+      "fbxArchive": {
+        "bytes": 845113,
+        "filename": "city-library-book-trolley-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1d8e6938ea7ee71e3af177d5154ab157345ea4a9badd844d768e51aa7936d7b8"
+      },
+      "id": "city-library-book-trolley",
+      "sourceGlbSha256": "1d2d7efb8f140113cff54ff56fa843b6456e89d127691b03f48b5233489a08e1"
+    },
+    {
+      "archive": {
+        "bytes": 226649,
+        "filename": "city-lifeguard-observation-chair-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7f28482f6a22e721cbd65507df745bebe1aa523f9aca8ab832a8aec37538d49d"
+      },
+      "fbx": {
+        "bytes": 342492,
+        "filename": "city-lifeguard-observation-chair.fbx",
+        "sha256": "d65cbdeb84deb1c94aebdc1258b06b90d8bc5c485a584bdcf7b9d264165aaf86"
+      },
+      "fbxArchive": {
+        "bytes": 301295,
+        "filename": "city-lifeguard-observation-chair-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "842b6197faeac3a0df50a66ef59f3deff00c8d673eacf5e60efc8d0fcb6b3bf7"
+      },
+      "id": "city-lifeguard-observation-chair",
+      "sourceGlbSha256": "ee3186fb26908907a5b54a12342d7bfedbd8afc883563cea15f81822753146e2"
+    },
+    {
+      "archive": {
+        "bytes": 258193,
+        "filename": "city-linen-hamper-trolley-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7b94669205751c920bbe77f3776f332acadb592e1815ceffdde34aad08dd5ddf"
+      },
+      "fbx": {
+        "bytes": 344748,
+        "filename": "city-linen-hamper-trolley.fbx",
+        "sha256": "c715db5baa03272557ff4bf5fd5d601bc455bd1c2072f1ba4968fa7666526155"
+      },
+      "fbxArchive": {
+        "bytes": 299557,
+        "filename": "city-linen-hamper-trolley-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9b1f0ca14c4bf5ffcc4575369d8a91ec0f5784c9e5556103de4c3639a8f4ddf3"
+      },
+      "id": "city-linen-hamper-trolley",
+      "sourceGlbSha256": "10eb84826b4d5dabe3579a6a0d78c482f17004d2e47b9769ad881616b670e1f4"
+    },
+    {
+      "archive": {
+        "bytes": 897529,
+        "filename": "city-loading-dock-leveler-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b862db15a740fc1eddf216b119882a2ab03092998246b3feae82ab64c613855f"
+      },
+      "fbx": {
+        "bytes": 1369948,
+        "filename": "city-loading-dock-leveler.fbx",
+        "sha256": "cd94a2728a3743c0647599175a0e351b6924e9c5a2616d7aad3b5b925d86f2f5"
+      },
+      "fbxArchive": {
+        "bytes": 1206752,
+        "filename": "city-loading-dock-leveler-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c0d5bfdbaf75bd309450a404d23904c52047d788070b5146199a6e1e5c66e8ef"
+      },
+      "id": "city-loading-dock-leveler",
+      "sourceGlbSha256": "698b88989b4c9540251cbb647f4b83370e3f4c502b5bc6f099c1f4f47c9267b9"
+    },
+    {
+      "archive": {
+        "bytes": 463819,
+        "filename": "city-loading-dock-shelter-1.0.0-minimal-1.0.0.zip",
+        "sha256": "837b665625fff62c8f67cad29792a9ddfb722e9e55624cdc9de0775ae45baa39"
+      },
+      "fbx": {
+        "bytes": 714188,
+        "filename": "city-loading-dock-shelter.fbx",
+        "sha256": "34d29255250a22d0941b988f425d80afe3c4c29e2b944b4d76bd86befde8bd99"
+      },
+      "fbxArchive": {
+        "bytes": 627052,
+        "filename": "city-loading-dock-shelter-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "50dfb413deb251b46f3b6dd14706b3e85cb160d5d1e600710331c6c82f218443"
+      },
+      "id": "city-loading-dock-shelter",
+      "sourceGlbSha256": "b4fa732aaf3982a944ed7b6ec9b41c5dd3af9570e3a41f792c3216328f26748e"
+    },
+    {
+      "archive": {
+        "bytes": 148643,
+        "filename": "city-low-platform-scale-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e46efe78d2ba02cc1a605981e11d2ce2237da885cfe45e01a0260fb83d3fe5d0"
+      },
+      "fbx": {
+        "bytes": 230044,
+        "filename": "city-low-platform-scale.fbx",
+        "sha256": "8a60715d08cc2cd6bb312d76a723f69e19ab8e9f367414e29fd9c91d1ebc63ae"
+      },
+      "fbxArchive": {
+        "bytes": 197970,
+        "filename": "city-low-platform-scale-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d0e9e501deb4b1346999ab1c4cba9ea1917155d30ac362211f1ee5b91d74b09f"
+      },
+      "id": "city-low-platform-scale",
+      "sourceGlbSha256": "f993ed6149f6eb972a6608c782b50d16da1e32c8d00cd96dbac1966cef601e87"
+    },
+    {
+      "archive": {
+        "bytes": 101674,
+        "filename": "city-manual-comb-binding-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8acfc7e303b047e34de1c67e53c1c53299a4ad581e82d415ad44ff9eb6063d8b"
+      },
+      "fbx": {
+        "bytes": 163036,
+        "filename": "city-manual-comb-binding-machine.fbx",
+        "sha256": "4949959063a907aeb143f2fb7b969a440c54d55496a89984582b5f6ab5a82bf4"
+      },
+      "fbxArchive": {
+        "bytes": 134600,
+        "filename": "city-manual-comb-binding-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5f17bd11609c462ef358c237cc3b2b1c9c54408bd6699a680f3a38dcb2a1671a"
+      },
+      "id": "city-manual-comb-binding-machine",
+      "sourceGlbSha256": "5525d15c962742520934a3f383071e25df911571721102ed8ee260913c335b46"
+    },
+    {
+      "archive": {
+        "bytes": 193854,
+        "filename": "city-manual-sheet-metal-brake-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4bd92033b7aa8eaa9cbc62833e37c0f4e8a5fea86f12068ca489273a1116edcc"
+      },
+      "fbx": {
+        "bytes": 288924,
+        "filename": "city-manual-sheet-metal-brake.fbx",
+        "sha256": "53b2297ef9f4b81d08b014e0d9035d077b4bd4d0b89a3bda17fe62ab97a5fced"
+      },
+      "fbxArchive": {
+        "bytes": 255490,
+        "filename": "city-manual-sheet-metal-brake-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "418397f41ed1daa51605d3d71292b5b7c049d54fb2eb963928f011c02c519d63"
+      },
+      "id": "city-manual-sheet-metal-brake",
+      "sourceGlbSha256": "6ef04f04a96fb4a3f7b7c4246d81f346629e05b1923428ebabcede0a808e6c0b"
+    },
+    {
+      "archive": {
+        "bytes": 595120,
+        "filename": "city-manual-wheelchair-1.0.0-minimal-1.0.0.zip",
+        "sha256": "6b36a1a98fa6a5b4057d69e08aaaf698592746fa6e8f20ba192501a599b13f24"
+      },
+      "fbx": {
+        "bytes": 707036,
+        "filename": "city-manual-wheelchair.fbx",
+        "sha256": "13d9e3f4b9a7701e3e2957db214dac4a7a5295749c0f7d0a0efd5b321019140d"
+      },
+      "fbxArchive": {
+        "bytes": 615367,
+        "filename": "city-manual-wheelchair-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "903c259a752e7136dbcf5af995f41fd1951a126d9b102f0c067fca7d0c5844ce"
+      },
+      "id": "city-manual-wheelchair",
+      "sourceGlbSha256": "57cdf7a2baf1b07fa19ea9e820abe77916c121c330ba0315de1dcab576439f77"
+    },
+    {
+      "archive": {
+        "bytes": 191849,
+        "filename": "city-measuring-wheel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7b260a855bf878dcc6206bd1222befbac09419f283bf0b736934a735ef02d499"
+      },
+      "fbx": {
+        "bytes": 241788,
+        "filename": "city-measuring-wheel.fbx",
+        "sha256": "e1dc474c4c7f0091f4f6e17c5c9e31546a874c4c683bacdbca3c9b2e9dcbc768"
+      },
+      "fbxArchive": {
+        "bytes": 202897,
+        "filename": "city-measuring-wheel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "28a70ea4d864453a9dfb1360d5b87ee29e0b5fd70a71661601544504ed3be9d1"
+      },
+      "id": "city-measuring-wheel",
+      "sourceGlbSha256": "1fc000e37c1b8832be957b7a8d4fd9f9d339a1ff682cf7f64fcd2395f5f93507"
+    },
+    {
+      "archive": {
+        "bytes": 503717,
+        "filename": "city-mechanic-creeper-1.0.0-minimal-1.0.0.zip",
+        "sha256": "acf046b56fe4e6b49d1b8c96f191d7121a7051c619989ee7ca2034d52ffaf58f"
+      },
+      "fbx": {
+        "bytes": 655756,
+        "filename": "city-mechanic-creeper.fbx",
+        "sha256": "790f564adeed8292c3a284262b242925240059bdc0adae1621a63221e7ed1f68"
+      },
+      "fbxArchive": {
+        "bytes": 581029,
+        "filename": "city-mechanic-creeper-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5cbe4f3d62c12993a0f17bf2e18b831d77daf8bdd887e809147b2b2405476b31"
+      },
+      "id": "city-mechanic-creeper",
+      "sourceGlbSha256": "e1bc55a403234c023b8e842c64d803ceab19033a70ee9a2a1032c93746f37bdf"
+    },
+    {
+      "archive": {
+        "bytes": 976277,
+        "filename": "city-metalworking-lathe-1.0.0-minimal-1.0.0.zip",
+        "sha256": "bda8fdadc33bc9c3b8c1d00a493e8be91900d75cea82048d8a572373415a23d8"
+      },
+      "fbx": {
+        "bytes": 1093036,
+        "filename": "city-metalworking-lathe.fbx",
+        "sha256": "fa8d83a5fda7c68e67dc1508c7bf9e8678eb57c36441e94128024641d891d221"
+      },
+      "fbxArchive": {
+        "bytes": 954966,
+        "filename": "city-metalworking-lathe-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "519070fe7299a3d1f687ae875989cb30a83b24947aa5b19da385bd2e29b1aa3f"
+      },
+      "id": "city-metalworking-lathe",
+      "sourceGlbSha256": "06a4163250c60ae89054a7cd036e0f54094bc4c4e668acd0cc7b743cc024834b"
+    },
+    {
+      "archive": {
+        "bytes": 201273,
+        "filename": "city-microfilm-reading-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "00859f870339d58e6284418282529720cf3e41aaabd8a2ed2115998ee1065479"
+      },
+      "fbx": {
+        "bytes": 310204,
+        "filename": "city-microfilm-reading-machine.fbx",
+        "sha256": "8ca828ed1fa38d694f6eca26a48fd42311dcf5d2d982248046fc1c4e21bc526e"
+      },
+      "fbxArchive": {
+        "bytes": 271430,
+        "filename": "city-microfilm-reading-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "3a9feb7b05aa58ac1421640bfb79a831340325062c61da1dd8219c1cf0a8e9a0"
+      },
+      "id": "city-microfilm-reading-machine",
+      "sourceGlbSha256": "09036e1112476de5775ab5406c28cccd7272c2769034bb245ae340edbdd8b5eb"
+    },
+    {
+      "archive": {
+        "bytes": 854088,
+        "filename": "city-mobile-scissor-lift-1.0.0-minimal-1.0.0.zip",
+        "sha256": "d3a1e7452d28bca881766995b3f98799b143944bfc6139918b538733319f707a"
+      },
+      "fbx": {
+        "bytes": 1182780,
+        "filename": "city-mobile-scissor-lift.fbx",
+        "sha256": "7bfbcad9e69f0604a82bc2ee8dcb99a0d295bbc17186fbaaf5ba49835e85c7f0"
+      },
+      "fbxArchive": {
+        "bytes": 1015167,
+        "filename": "city-mobile-scissor-lift-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8288297c25135bd811a21b0fda87d67b0b7c06bf13b46e3682972f2b4381f8b9"
+      },
+      "id": "city-mobile-scissor-lift",
+      "sourceGlbSha256": "14254b7ae08b3ee38a8334ad200927a50de22265b1e912864a5446bf36e23f30"
+    },
+    {
+      "archive": {
+        "bytes": 550928,
+        "filename": "city-mobile-surgical-light-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0755fbc84ca6b7a70d40c69696d9603c547d1d5a4a508fd618fdc9a2198e99a0"
+      },
+      "fbx": {
+        "bytes": 676060,
+        "filename": "city-mobile-surgical-light.fbx",
+        "sha256": "44c7946217d608d98c4221d74662daea283765dd803feb268d158cbf48f3151e"
+      },
+      "fbxArchive": {
+        "bytes": 608075,
+        "filename": "city-mobile-surgical-light-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "37ecb19270a1e24e61c2913d817152f432c1bb399e718c03282f606936615ad8"
+      },
+      "id": "city-mobile-surgical-light",
+      "sourceGlbSha256": "d4ceb98b1c298db64bfdeda9450bdfd337a91ce62a212e77537c168cc403adcd"
+    },
+    {
+      "archive": {
+        "bytes": 418603,
+        "filename": "city-mooring-capstan-1.0.0-minimal-1.0.0.zip",
+        "sha256": "22cc4825f9015cc6473e4294c4d403b2290a0378600d4ef257bb8e78ab3e3911"
+      },
+      "fbx": {
+        "bytes": 580508,
+        "filename": "city-mooring-capstan.fbx",
+        "sha256": "5aecd595d31b58f6b480b1507b584d0747bff13974d76bcb6a679924a4667fa0"
+      },
+      "fbxArchive": {
+        "bytes": 498354,
+        "filename": "city-mooring-capstan-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "46576dcecebdbe47aa04ea6889b67109ddf9a0c91f65e5bb18eeee3f49a3cf12"
+      },
+      "id": "city-mooring-capstan",
+      "sourceGlbSha256": "e90b8fc7c9ceb0db89f9e5a7815ef028a1dec12d56694015f82aeb921210f16e"
+    },
+    {
+      "archive": {
+        "bytes": 194524,
+        "filename": "city-multiblade-duct-damper-1.0.0-minimal-1.0.0.zip",
+        "sha256": "acabc3ac358500683f445a03f06d5ea6e0b9020fd2b3893cae1016602cd3e193"
+      },
+      "fbx": {
+        "bytes": 291468,
+        "filename": "city-multiblade-duct-damper.fbx",
+        "sha256": "6b65651aefc00e10b7a52b02b9bc854da180ed4288350b6490cc54ca693ec288"
+      },
+      "fbxArchive": {
+        "bytes": 255926,
+        "filename": "city-multiblade-duct-damper-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7f8b01a1298c9ceee7827f255ea93e0a09a3a19c55f3f998f90971654569a926"
+      },
+      "id": "city-multiblade-duct-damper",
+      "sourceGlbSha256": "2a7adbd084e382ae6c84af79a279a652bf83e1255031f282ddc8e4b656038aac"
+    },
+    {
+      "archive": {
+        "bytes": 116642,
+        "filename": "city-no-entry-sign-post-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ca5c16e49aa7ffad72866f0f4bd0515fab52d9360639de46d77f7557ac3ed922"
+      },
+      "fbx": {
+        "bytes": 151996,
+        "filename": "city-no-entry-sign-post.fbx",
+        "sha256": "7b49bd52bab499bae7b4b07609ed78c3e58f4ca50a88454ee90b45ff696a1d53"
+      },
+      "fbxArchive": {
+        "bytes": 120675,
+        "filename": "city-no-entry-sign-post-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d3f4cd0f6d75d89310d5d0af40fc6fb1c65fc739a2e5ebbb70d27966626d192d"
+      },
+      "id": "city-no-entry-sign-post",
+      "sourceGlbSha256": "ebd8bc3fbfba605dd5e77fec63211ffd57853afff86fb1e317603a3866f2d224"
+    },
+    {
+      "archive": {
+        "bytes": 348352,
+        "filename": "city-octagonal-studio-softbox-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7c821ce1e231477518f377c7923edfb2b9958bcb72073871eecec124509582a0"
+      },
+      "fbx": {
+        "bytes": 404476,
+        "filename": "city-octagonal-studio-softbox.fbx",
+        "sha256": "a5beec1ad89ace5b97c251c037e844c0f6057b18d36d7958f94167ac58c63249"
+      },
+      "fbxArchive": {
+        "bytes": 366542,
+        "filename": "city-octagonal-studio-softbox-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "71f7b0cb87b02010256cd93df63dc8d89e8e3ccf5befe9f70792de6772faa284"
+      },
+      "id": "city-octagonal-studio-softbox",
+      "sourceGlbSha256": "ec18aa6f4f955b5a2fb7ee28da6dfc2e7ae550f732a0c7534bc1cf02ba045e13"
+    },
+    {
+      "archive": {
+        "bytes": 328900,
+        "filename": "city-office-multifunction-copier-1.0.0-minimal-1.0.0.zip",
+        "sha256": "75daf6e10b3ab009790ea27cb159813915b5a2141a5bac5312648127940a33e1"
+      },
+      "fbx": {
+        "bytes": 521516,
+        "filename": "city-office-multifunction-copier.fbx",
+        "sha256": "55c3f76679bfe899791d4512d02f05e094d2b313a74f5f1fa9b406ac5aa4cb69"
+      },
+      "fbxArchive": {
+        "bytes": 461428,
+        "filename": "city-office-multifunction-copier-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cbd4c86fa9ae70735f027512b1db7807d2891652bfc235cb46062e1a96a7d23b"
+      },
+      "id": "city-office-multifunction-copier",
+      "sourceGlbSha256": "5908a7754141847a5436446a6232263b50b1f89c9206d9ca840266ac66e35d69"
+    },
+    {
+      "archive": {
+        "bytes": 409650,
+        "filename": "city-open-baby-stroller-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f07da876f83e939c33c8515b891339318a7f1084574340926b6685a26ad3afd0"
+      },
+      "fbx": {
+        "bytes": 498540,
+        "filename": "city-open-baby-stroller.fbx",
+        "sha256": "2407843ac8cb461a144cf7d3495ccc5249608749b2c2518cd92b1ac0d4153299"
+      },
+      "fbxArchive": {
+        "bytes": 443365,
+        "filename": "city-open-baby-stroller-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7c302e39fa8f7b0e3f461a28c1c45ffccea7ee70733f4670889443671546ac24"
+      },
+      "id": "city-open-baby-stroller",
+      "sourceGlbSha256": "65870895c5a60583991a33240a8ec828c4fc50f5c0058df687cada4ede101359"
+    },
+    {
+      "archive": {
+        "bytes": 159913,
+        "filename": "city-open-chamber-vacuum-sealer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9baed0053eebf3f4d967ae1e895bed16bbaae3f19757109645abf1e22a5126ec"
+      },
+      "fbx": {
+        "bytes": 257276,
+        "filename": "city-open-chamber-vacuum-sealer.fbx",
+        "sha256": "193393171dba6d0b48256149c8f775c9e4371677d78029758c7ac9ba78efeabf"
+      },
+      "fbxArchive": {
+        "bytes": 223214,
+        "filename": "city-open-chamber-vacuum-sealer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ad58edaebc90c94cf34ef9fe230b0a910f97d24650c60539592585d4b0179494"
+      },
+      "id": "city-open-chamber-vacuum-sealer",
+      "sourceGlbSha256": "b2ea09255facfef2fea16e0b69cf3f2dec073fa4592fef2589557834f53e230c"
+    },
+    {
+      "archive": {
+        "bytes": 517274,
+        "filename": "city-open-dartboard-cabinet-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c62b655975841ac05a15f672d4b4a305e4219b241e0bb6c892dc0b5cbb39d12d"
+      },
+      "fbx": {
+        "bytes": 642076,
+        "filename": "city-open-dartboard-cabinet.fbx",
+        "sha256": "2d40ad45d0c73adbc1b9252296ba639028b949fe884cc9c83a3702c66821a9bf"
+      },
+      "fbxArchive": {
+        "bytes": 544014,
+        "filename": "city-open-dartboard-cabinet-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8f6ecd67d5bc0099f9ddefd7cbe372c6b2058ca7d08c2da90cf0806748ddaee7"
+      },
+      "id": "city-open-dartboard-cabinet",
+      "sourceGlbSha256": "2c8ed25722e1493e1f6976b3c179387e92419d7d59bb7c96cd9ad686d94492f0"
+    },
+    {
+      "archive": {
+        "bytes": 204398,
+        "filename": "city-open-parts-washer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f00389eb548907eac190bf0c40ba6929c787921a733a67c23559b08940198247"
+      },
+      "fbx": {
+        "bytes": 298332,
+        "filename": "city-open-parts-washer.fbx",
+        "sha256": "fca5c5e31e5e811f9f0ad92496201e815acd81e7260c4ab4df1d000ab1b50f0b"
+      },
+      "fbxArchive": {
+        "bytes": 260669,
+        "filename": "city-open-parts-washer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6e99ece32ee5bf39b0ee4a7fd79df932f9db3b407ea19704ddc7e9f888ad3928"
+      },
+      "id": "city-open-parts-washer",
+      "sourceGlbSha256": "7dbb67db154ad79ec8b4ce2fb71a8eeed3381ad126e821e56edf5464b89cfff5"
+    },
+    {
+      "archive": {
+        "bytes": 321639,
+        "filename": "city-open-waffle-iron-1.0.0-minimal-1.0.0.zip",
+        "sha256": "75d127da13fdc27586e803571cc19f5841649b327f0ad2b8e1178c1504a69326"
+      },
+      "fbx": {
+        "bytes": 479116,
+        "filename": "city-open-waffle-iron.fbx",
+        "sha256": "807e01dfa67558ff164449e998cbca11403408f680c2c5213ca71a472ca08a54"
+      },
+      "fbxArchive": {
+        "bytes": 421267,
+        "filename": "city-open-waffle-iron-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "df0a532f859c57274ca1d28de83d6b2f47e7239398335a997940131f70ed505a"
+      },
+      "id": "city-open-waffle-iron",
+      "sourceGlbSha256": "e5520b52ed759203d4247e125dece4af7cecca87ee29251e6b7e544b4f86744f"
+    },
+    {
+      "archive": {
+        "bytes": 473443,
+        "filename": "city-outdoor-parallel-bars-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b24442bf68760b79f2d003289da176da1176b1f32116cc8385364f2c5a269b75"
+      },
+      "fbx": {
+        "bytes": 587548,
+        "filename": "city-outdoor-parallel-bars.fbx",
+        "sha256": "4d8ca85225b6f40a3b9f746097dc725e45afc9428df841d24655bbbf6b001a75"
+      },
+      "fbxArchive": {
+        "bytes": 507976,
+        "filename": "city-outdoor-parallel-bars-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6bbfccce96eff4a158a028f64ec7964dbc3ea979fdfe99980ddce12b031d7f4a"
+      },
+      "id": "city-outdoor-parallel-bars",
+      "sourceGlbSha256": "8d9f352d936e32877f8635c7b154e9be16882269e048699ae741ff3077bfe302"
+    },
+    {
+      "archive": {
+        "bytes": 284340,
+        "filename": "city-outdoor-table-tennis-1.0.0-minimal-1.0.0.zip",
+        "sha256": "38112cfbb9ec23d47bb7d1e6506c79f6bac60bdcb40a59eb7072f43c09af6c39"
+      },
+      "fbx": {
+        "bytes": 413788,
+        "filename": "city-outdoor-table-tennis.fbx",
+        "sha256": "da48879fbb89bd211322615312b9e651b1e4d95cb2704eed0bba49bef61a5e63"
+      },
+      "fbxArchive": {
+        "bytes": 354366,
+        "filename": "city-outdoor-table-tennis-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "dd6da63ea122c8a50418a84fac5911fccfeaf46d5820b9ce90a8ccd3a0375013"
+      },
+      "id": "city-outdoor-table-tennis",
+      "sourceGlbSha256": "a39edd0adb174d2f59a0ee4ae7ef0a038c607bd270e4375612c0a26f5aa61356"
+    },
+    {
+      "archive": {
+        "bytes": 199679,
+        "filename": "city-overdoor-air-curtain-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f247f7db237a8501b3af7471bb995932dee374c714668085e39371fdf2ef402c"
+      },
+      "fbx": {
+        "bytes": 320812,
+        "filename": "city-overdoor-air-curtain.fbx",
+        "sha256": "b6860ee869e93977d9e68c06bc0e2be2c6b7d0990cee964c6f3271735d14e76e"
+      },
+      "fbxArchive": {
+        "bytes": 273449,
+        "filename": "city-overdoor-air-curtain-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e1e2fca1a07660068f4f1d732025a5847cecc5698909153deda4e8e17c385f0e"
+      },
+      "id": "city-overdoor-air-curtain",
+      "sourceGlbSha256": "89a63e0a93a04fe9005bc2902a95a5dd6e1efbbbe577589ad3d9d4cba2f5fb3c"
+    },
+    {
+      "archive": {
+        "bytes": 152992,
+        "filename": "city-overhead-book-scanner-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7577739421cb615511acc9455645a58e9209f4beed594f34b5813356e621011d"
+      },
+      "fbx": {
+        "bytes": 218972,
+        "filename": "city-overhead-book-scanner.fbx",
+        "sha256": "1f96bc51009363ef513a0be82f6cbcd6c95ac45d086a995b926c103ff64d4e8d"
+      },
+      "fbxArchive": {
+        "bytes": 188490,
+        "filename": "city-overhead-book-scanner-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a2a5d29067a9eb7435fe9d206b97cb8de79dd56f7823209835c00773f35b2fdc"
+      },
+      "id": "city-overhead-book-scanner",
+      "sourceGlbSha256": "60b556fd06d33613eab029232ab757b30c99f6e302e876bb1424c5ba14672524"
+    },
+    {
+      "archive": {
+        "bytes": 634674,
+        "filename": "city-pad-mounted-transformer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "172af1d0acc8aa830d758df85c4c8eb1483f34c01bd324d99c654e8a806e5608"
+      },
+      "fbx": {
+        "bytes": 935324,
+        "filename": "city-pad-mounted-transformer.fbx",
+        "sha256": "26df8b376716c4bd6dc475d9c483565f34886fd4a58aeafe5747f91393c2a114"
+      },
+      "fbxArchive": {
+        "bytes": 815387,
+        "filename": "city-pad-mounted-transformer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8adb38055ebe5bfd01b82dcca42dc09decbaa34755de30b6a791c67acfbeb07c"
+      },
+      "id": "city-pad-mounted-transformer",
+      "sourceGlbSha256": "ac0e715290eab50041ab0841a0700bfaba2c323aeb441bfea1b572250c297634"
+    },
+    {
+      "archive": {
+        "bytes": 487622,
+        "filename": "city-pallet-racking-bay-1.0.0-minimal-1.0.0.zip",
+        "sha256": "eaa6eba66234c74852f215e73ea9977830ee5d447a3525ab6896792ce55b3dcf"
+      },
+      "fbx": {
+        "bytes": 782476,
+        "filename": "city-pallet-racking-bay.fbx",
+        "sha256": "b9b7f88bf4f37e976bc78e86dd72059b0d89d37244c3c3eaa2131d505d6c191f"
+      },
+      "fbxArchive": {
+        "bytes": 675959,
+        "filename": "city-pallet-racking-bay-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "f2ddcc36b0b60475f902d32ff0160ee3b8b940c47744a577565cf21a1c76f943"
+      },
+      "id": "city-pallet-racking-bay",
+      "sourceGlbSha256": "057df8138cae944d0b54ad37c218ad422023c935fe2fb5d21dbdbd2a19128cc3"
+    },
+    {
+      "archive": {
+        "bytes": 297245,
+        "filename": "city-pallet-stretch-wrapper-1.0.0-minimal-1.0.0.zip",
+        "sha256": "239284b9035cf2f00fd83c70c4db66f719bcd0d40c58be5545b06510f40c702c"
+      },
+      "fbx": {
+        "bytes": 420508,
+        "filename": "city-pallet-stretch-wrapper.fbx",
+        "sha256": "71927d5ed0206b91cd3bec2398d9f8b2ff16655528a1591ce860b7fbaf81348a"
+      },
+      "fbxArchive": {
+        "bytes": 361010,
+        "filename": "city-pallet-stretch-wrapper-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "bedbbe9bea1a9525ad110154b5740b4397ddd968a9393f492571ed97adaca2f3"
+      },
+      "id": "city-pallet-stretch-wrapper",
+      "sourceGlbSha256": "ff672e3f9f4d7585a7e8bc184df9f563f70f2792205f6e19ccd8cc7f13b6d9b3"
+    },
+    {
+      "archive": {
+        "bytes": 299801,
+        "filename": "city-panel-radiator-1.0.0-minimal-1.0.0.zip",
+        "sha256": "128cab20a43189aba32f35228b0e72ecce2fa4b62004e75e3fceb7b716299831"
+      },
+      "fbx": {
+        "bytes": 474476,
+        "filename": "city-panel-radiator.fbx",
+        "sha256": "ac6223ccbc2b71d3f4a2624176f214f07f1fa6aec4354e0b9c8fcf2d4397cf35"
+      },
+      "fbxArchive": {
+        "bytes": 413197,
+        "filename": "city-panel-radiator-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5bbb5ee4832795de105986785eec2977db6a8df64ef35beb7e4c3f449a2ad0ce"
+      },
+      "id": "city-panel-radiator",
+      "sourceGlbSha256": "ff2f97141e27c6daeab85749cafdf5659da22fbf644c82160c02ab5c4a2f3ca9"
+    },
+    {
+      "archive": {
+        "bytes": 44899,
+        "filename": "city-parking-flap-lock-1.0.0-minimal-1.0.0.zip",
+        "sha256": "feaabe237d92cfbcb2172bae5003266df3542f2c115be223478f29d4ece7a661"
+      },
+      "fbx": {
+        "bytes": 79148,
+        "filename": "city-parking-flap-lock.fbx",
+        "sha256": "0f48e63020565fb50b194b1b1d62d03c69a0891624b0402f967bfd85f87fee2b"
+      },
+      "fbxArchive": {
+        "bytes": 60070,
+        "filename": "city-parking-flap-lock-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b925b65a36db0a657e2ded8f5d1166727bf00301ace1486706ead8fee33eb578"
+      },
+      "id": "city-parking-flap-lock",
+      "sourceGlbSha256": "104f0a8e4064a33072ca5671c5797ab54c7746907475802d76cff7e76be4b93c"
+    },
+    {
+      "archive": {
+        "bytes": 869069,
+        "filename": "city-passenger-escalator-1.0.0-minimal-1.0.0.zip",
+        "sha256": "92b36454d916f1a6c983a86628087d5b9284b2abd947545c233ee82b26a1f189"
+      },
+      "fbx": {
+        "bytes": 1280588,
+        "filename": "city-passenger-escalator.fbx",
+        "sha256": "26c1cef4fc64346656f5d5da0d26cc38fe6463ebc3ac0a64bfb0aaccaa672af9"
+      },
+      "fbxArchive": {
+        "bytes": 1070470,
+        "filename": "city-passenger-escalator-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8c5c4d403668d2c9036d54f0c0a5d6ede85c20235b15c3eac8af2b77ddff1718"
+      },
+      "id": "city-passenger-escalator",
+      "sourceGlbSha256": "c59e439c2512ba2716f184e930f8482947b393ed548859d172397618fb1122ce"
+    },
+    {
+      "archive": {
+        "bytes": 457695,
+        "filename": "city-patio-heater-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c57b507c6fd5ab8c06f3415201a2fc584384bd92dec328f1514c3bc7a6275f53"
+      },
+      "fbx": {
+        "bytes": 622524,
+        "filename": "city-patio-heater.fbx",
+        "sha256": "6741d19134e10fc34ccc1be0adf5331230c53953a6343cbbed25efb4d9c6b3b7"
+      },
+      "fbxArchive": {
+        "bytes": 533455,
+        "filename": "city-patio-heater-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "eb871375fb25cf1604eabfd067f2cdae99370f94b1d2e9f2beb2fe11f6aad9f1"
+      },
+      "id": "city-patio-heater",
+      "sourceGlbSha256": "8d116a4f83a21a8a72d1631f9f3cf528372dcae2ccad6ee64e41dbf780c8aa7e"
+    },
+    {
+      "archive": {
+        "bytes": 209648,
+        "filename": "city-pedestal-tube-bender-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4f7db123be0b21cde6a5d5625fe90bba3232f4f6d88d7c6d3f9ca8ff56bd2144"
+      },
+      "fbx": {
+        "bytes": 272892,
+        "filename": "city-pedestal-tube-bender.fbx",
+        "sha256": "89263e48c6eabb73a292190c53a6abfbb87952767193cbdcd2bfa8860193a21b"
+      },
+      "fbxArchive": {
+        "bytes": 235358,
+        "filename": "city-pedestal-tube-bender-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "3e79a6c68b1ca989337456497bcfdf5fd1803c5ada7f7ebbaf949c86496b57f6"
+      },
+      "id": "city-pedestal-tube-bender",
+      "sourceGlbSha256": "eee918343e728ec4e5471bd516e47c6f0b18cb564d241b61f5389bfe1deb1ef5"
+    },
+    {
+      "archive": {
+        "bytes": 163713,
+        "filename": "city-pedestal-washbasin-1.0.0-minimal-1.0.0.zip",
+        "sha256": "89e26b3f8e9ba5810bc94767114c1b0df6a246c895a28d8c9a48495cf2c34186"
+      },
+      "fbx": {
+        "bytes": 214108,
+        "filename": "city-pedestal-washbasin.fbx",
+        "sha256": "51a96742a0dda9a9774f2e17202673fa56e2422ebbfa9efaf0d2d80b9e9fe607"
+      },
+      "fbxArchive": {
+        "bytes": 187122,
+        "filename": "city-pedestal-washbasin-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "12781c0252900ced1bf397652907b630ee5a783227738a769e7e7974ca152b8c"
+      },
+      "id": "city-pedestal-washbasin",
+      "sourceGlbSha256": "b771857f1ab2c0572c25094844c90e274f56feee35e4737180e98a73783b0f1b"
+    },
+    {
+      "archive": {
+        "bytes": 99990,
+        "filename": "city-pedestrian-signal-head-1.0.0-minimal-1.0.0.zip",
+        "sha256": "48e1f00d5758e23be3e4ac2a40d014cf4c7e7043d31d1bd88532042ba2c1245c"
+      },
+      "fbx": {
+        "bytes": 156748,
+        "filename": "city-pedestrian-signal-head.fbx",
+        "sha256": "984bbdff7d8adc4321e9593c9abe58ab20e00bc990f79af98000a2dad896e0e2"
+      },
+      "fbxArchive": {
+        "bytes": 127866,
+        "filename": "city-pedestrian-signal-head-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8b564324a9727375cb66cd0c7b6854a4c47f76e9732766bee4d943c1fda93b29"
+      },
+      "id": "city-pedestrian-signal-head",
+      "sourceGlbSha256": "3a9641ed231cd1954c4543de74494d3eef280ee4052408c65c15d82612b9d030"
+    },
+    {
+      "archive": {
+        "bytes": 234021,
+        "filename": "city-personal-watercraft-1.0.0-minimal-1.0.0.zip",
+        "sha256": "6ad2a9da4343b8439c508be0aa858879f09a58abcf8c69f41ec4940d3bba9e0b"
+      },
+      "fbx": {
+        "bytes": 324060,
+        "filename": "city-personal-watercraft.fbx",
+        "sha256": "00c27cc899ce87f4cd19c42c7e3bcb56334860140c62f3602f7a9fdea7702a55"
+      },
+      "fbxArchive": {
+        "bytes": 286721,
+        "filename": "city-personal-watercraft-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "30d8547c2c2194f4bbed4ceb450ba0978e45fe9e3c8ef988369a43a38bfcf208"
+      },
+      "id": "city-personal-watercraft",
+      "sourceGlbSha256": "7e9ae7977585cb7934673e2cf45394bb9f1ff456372a703d2e6181f4cb575103"
+    },
+    {
+      "archive": {
+        "bytes": 204081,
+        "filename": "city-photo-booth-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0a59573ca2be06e46e904d27b8749bd8b5f9b475203d12f1f2d172cda96dc190"
+      },
+      "fbx": {
+        "bytes": 298380,
+        "filename": "city-photo-booth.fbx",
+        "sha256": "5152452846b1128ed7722fec61e85b399420e2a9c7ab3ed50fd4a768bf93c6c1"
+      },
+      "fbxArchive": {
+        "bytes": 252224,
+        "filename": "city-photo-booth-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "2ab4359ad24dd4ebe570b97e7f354f15f3554157e9bc7a713bd41d9894e9724a"
+      },
+      "id": "city-photo-booth",
+      "sourceGlbSha256": "2f3bbfc111ba91d4fc5c7e5ead9fcc7cc251c0a04dcb53625e69acc75577565c"
+    },
+    {
+      "archive": {
+        "bytes": 461665,
+        "filename": "city-pipe-inspection-camera-reel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "38549d25fa8c5798d1f4d66ce0515c22e5f67bbf03080e8e8905bf1b814763af"
+      },
+      "fbx": {
+        "bytes": 496732,
+        "filename": "city-pipe-inspection-camera-reel.fbx",
+        "sha256": "173f8ee9f182bbfa3f179eb6b648d67b0eb72ac5024a3aab575436ae24f69d10"
+      },
+      "fbxArchive": {
+        "bytes": 415522,
+        "filename": "city-pipe-inspection-camera-reel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "2e7b80ef4aba269c1b2e8870f9c7c4c425d0ba8057a28caa6063123024181219"
+      },
+      "id": "city-pipe-inspection-camera-reel",
+      "sourceGlbSha256": "bd8a2bc7ebd53667e1f2e2547b7a4c8aff664a328c7464d6f5184f9a7d59f869"
+    },
+    {
+      "archive": {
+        "bytes": 309821,
+        "filename": "city-planetary-food-mixer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "36c57332a6cebbdf8353e22f65f6b0be65d66555be38040134d21725232f0bab"
+      },
+      "fbx": {
+        "bytes": 408892,
+        "filename": "city-planetary-food-mixer.fbx",
+        "sha256": "52bac054125a64e7bbf064129459760fd1566effd62216d1571d57e80831e611"
+      },
+      "fbxArchive": {
+        "bytes": 344226,
+        "filename": "city-planetary-food-mixer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7a7d2b03fc0ae74e6a00f02993770821b4758b216efed8278f3383e5762a91c9"
+      },
+      "id": "city-planetary-food-mixer",
+      "sourceGlbSha256": "25d04a5cfb7bf7917cf8a57c46f24c2ad5fd5d6db3abf125710969c4442319ad"
+    },
+    {
+      "archive": {
+        "bytes": 326779,
+        "filename": "city-plate-compactor-1.0.0-minimal-1.0.0.zip",
+        "sha256": "64f82e9847a31896ee6c037da0d52ec2d2a96dd6ac1218532a7674b03bf83848"
+      },
+      "fbx": {
+        "bytes": 466940,
+        "filename": "city-plate-compactor.fbx",
+        "sha256": "ad13112b2250ee02c0c3291f1ceccd2c0e1804f6c18005746cfda37c98e057a0"
+      },
+      "fbxArchive": {
+        "bytes": 417658,
+        "filename": "city-plate-compactor-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "4ea41e922061301c8a4732344ae06cefffde71c2368ac96e565ff0d793ff2aaf"
+      },
+      "id": "city-plate-compactor",
+      "sourceGlbSha256": "f6f7151e934416c25edd3f621eb0ed60453a6bb301acfab83126e88879626fba"
+    },
+    {
+      "archive": {
+        "bytes": 342518,
+        "filename": "city-plate-heat-exchanger-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fe5d189c8ce335f49abe82f23527ac92ae0178c37e1b6071ee8db37e71adca00"
+      },
+      "fbx": {
+        "bytes": 546588,
+        "filename": "city-plate-heat-exchanger.fbx",
+        "sha256": "b8179db7fb4ceba6fce33b3d43c3c0b775d89303d48856c60cfec5b4b8a36e01"
+      },
+      "fbxArchive": {
+        "bytes": 474798,
+        "filename": "city-plate-heat-exchanger-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cceb5896521cae428d22adbf8a59314ce2309c0bd35a831db2f0a470e3ee70cb"
+      },
+      "id": "city-plate-heat-exchanger",
+      "sourceGlbSha256": "eedab41c934266328be3ddab800681ac77d6816df681c47fb3da0d21a1522edf"
+    },
+    {
+      "archive": {
+        "bytes": 827140,
+        "filename": "city-playground-climbing-dome-1.0.0-minimal-1.0.0.zip",
+        "sha256": "77df8789eb9d4599a92396a92a35b179d079c1ba7cde6591da7f2c6fb2f9d734"
+      },
+      "fbx": {
+        "bytes": 1016220,
+        "filename": "city-playground-climbing-dome.fbx",
+        "sha256": "1b718781b45ad0c789fa4f5edcc7d18755579ba1ec9103dbae5445a98cf4d064"
+      },
+      "fbxArchive": {
+        "bytes": 889380,
+        "filename": "city-playground-climbing-dome-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "df45589949d2e18d4ee6ded266336d65c1fe7ada46daa9b00f0468e832878254"
+      },
+      "id": "city-playground-climbing-dome",
+      "sourceGlbSha256": "f3cb91966065c60f3f8d56d32189eb6a3e3a626a8d46cdbf079f4392915df0e3"
+    },
+    {
+      "archive": {
+        "bytes": 602911,
+        "filename": "city-playground-roundabout-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f2d386e50b94390e293091e4edeb3e2376692cec8351ac9a2b881cd48e7975e5"
+      },
+      "fbx": {
+        "bytes": 772668,
+        "filename": "city-playground-roundabout.fbx",
+        "sha256": "b38da22f38bcb714adc42fe9ba2f9b192bad9ba6787b9473587012302927fcf9"
+      },
+      "fbxArchive": {
+        "bytes": 690132,
+        "filename": "city-playground-roundabout-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5ceb85fa22637e4e010572dde9da171c3b66134170c8a79afb13ccb4a4c062dd"
+      },
+      "id": "city-playground-roundabout",
+      "sourceGlbSha256": "29b9b538a016beba1a27eb7582dacdb78cfcb4ec1273b250878828f65da194c1"
+    },
+    {
+      "archive": {
+        "bytes": 536208,
+        "filename": "city-playground-seesaw-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8cb3eff1e0ece3f485fa85d5ad6077c4ebd5243a1d61ca8ced88617005c8ee69"
+      },
+      "fbx": {
+        "bytes": 708348,
+        "filename": "city-playground-seesaw.fbx",
+        "sha256": "cfd6964c9bca3640b87aca007879440560d5ec1a740bc801f7de851029611295"
+      },
+      "fbxArchive": {
+        "bytes": 635787,
+        "filename": "city-playground-seesaw-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "56563b554e33f461425f4bf487bb38d3bd1574fa795540fae75c99989c6d673d"
+      },
+      "id": "city-playground-seesaw",
+      "sourceGlbSha256": "13c574af4eb4cca3da944c33e04de50e2b832c520bb2697f7de6a69857989b7d"
+    },
+    {
+      "archive": {
+        "bytes": 160531,
+        "filename": "city-pool-entry-ladder-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f251396a411687551027079d64a1c8266ee0eb0b092b6ba732a1ab5ef98846e6"
+      },
+      "fbx": {
+        "bytes": 241836,
+        "filename": "city-pool-entry-ladder.fbx",
+        "sha256": "7864ea9668ab602c2ab3166c0f61461d596a443d3446f2d49d3fd37444223225"
+      },
+      "fbxArchive": {
+        "bytes": 207533,
+        "filename": "city-pool-entry-ladder-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cdcb7db7c333723a786b1d95d40e00b1a269d6502967c834fabbd9503faa65f9"
+      },
+      "id": "city-pool-entry-ladder",
+      "sourceGlbSha256": "9d6b34640dfe999e3dbc19f98469fab7ca5e6bc7434eb7b261fac911fd022443"
+    },
+    {
+      "archive": {
+        "bytes": 863141,
+        "filename": "city-pool-lane-rope-reel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "513762399fe46267ca41d6c6efdb37fb0aadef28e252b9d2164c4a78f63e56a3"
+      },
+      "fbx": {
+        "bytes": 984780,
+        "filename": "city-pool-lane-rope-reel.fbx",
+        "sha256": "64a045eb3d6cec3f1aa0e9e518f7ce4aba50fc57f62393ddb06f0cf67046ff2d"
+      },
+      "fbxArchive": {
+        "bytes": 869248,
+        "filename": "city-pool-lane-rope-reel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a8538bb5fad98e3fa9b787222a42ba497129cab4b12a108f4a1b8d9b31ce3277"
+      },
+      "id": "city-pool-lane-rope-reel",
+      "sourceGlbSha256": "157cc0716ac08b9cab61517e8bb626b0d237e1c8877d1338a47fa99216558edc"
+    },
+    {
+      "archive": {
+        "bytes": 478608,
+        "filename": "city-portable-air-compressor-1.0.0-minimal-1.0.0.zip",
+        "sha256": "bb7165bff5a36e9cdff3987d830780e2df200b00f3817464d64a742e3f804caa"
+      },
+      "fbx": {
+        "bytes": 621820,
+        "filename": "city-portable-air-compressor.fbx",
+        "sha256": "c3f9de82b7dd392867afa471af7a7fc4f4159c67f36ee1e34fee5ec3781fb1ba"
+      },
+      "fbxArchive": {
+        "bytes": 538844,
+        "filename": "city-portable-air-compressor-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9328ebb8fe17dff47bd9dfa1f01a287b4d3e65357c44f9993e5554b3260d2d5f"
+      },
+      "id": "city-portable-air-compressor",
+      "sourceGlbSha256": "43b94d7df61b1e0a3aa12e60990487e7ce5b8074263ac5397ce7d8c490a6c1a9"
+    },
+    {
+      "archive": {
+        "bytes": 260128,
+        "filename": "city-portable-dehumidifier-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e559fd9780fcce5050141a58c2e7301d8184b0b4489faaaf0035481c1dacc43d"
+      },
+      "fbx": {
+        "bytes": 405692,
+        "filename": "city-portable-dehumidifier.fbx",
+        "sha256": "1092913fdcd2623a7d6c847d4e5792cc6d5f4481ce0672b2c289bd4a40dd03a8"
+      },
+      "fbxArchive": {
+        "bytes": 354833,
+        "filename": "city-portable-dehumidifier-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "93f8cec336888380918148e5d7caf0e080b91cd25197d86e2db20dc593c74106"
+      },
+      "id": "city-portable-dehumidifier",
+      "sourceGlbSha256": "da19b296e348399dd76418df75c1f9086722c8838ea53653e236cc93d2d45650"
+    },
+    {
+      "archive": {
+        "bytes": 429548,
+        "filename": "city-portable-fire-extinguisher-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5d8634439de75218b1f218d60a164a7df8ae6929c56a76bdc1ce3977a08dc180"
+      },
+      "fbx": {
+        "bytes": 529836,
+        "filename": "city-portable-fire-extinguisher.fbx",
+        "sha256": "13def4c37d32263a7e3fedc53a3ec6bd762762a3898539b5f0c439490b677f01"
+      },
+      "fbxArchive": {
+        "bytes": 468664,
+        "filename": "city-portable-fire-extinguisher-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6ae58c019e50ef1d7e7cc7c762735ea9a14ecd7174a339b417b5c11a6b7b0407"
+      },
+      "id": "city-portable-fire-extinguisher",
+      "sourceGlbSha256": "9fc841f2c136791301c460ade427e47b4f575a37be5e10a1f015b2397fed3691"
+    },
+    {
+      "archive": {
+        "bytes": 438639,
+        "filename": "city-portable-generator-1.0.0-minimal-1.0.0.zip",
+        "sha256": "93f07833e848e9cac4e5ce3107a0379b5ca87c0bf6b2899a22cad7b1f1601e65"
+      },
+      "fbx": {
+        "bytes": 651052,
+        "filename": "city-portable-generator.fbx",
+        "sha256": "436ab6bf2f8470c83030b7478ff3885b76887ab1795ed4efa1f27c1ca2a45f8f"
+      },
+      "fbxArchive": {
+        "bytes": 575818,
+        "filename": "city-portable-generator-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "bdc79dd17be143722b32223f478724ef0bce36a799687b0c7fc036c881409315"
+      },
+      "id": "city-portable-generator",
+      "sourceGlbSha256": "4a5cea9e8bb4bc66d5e9b3c1fe6764ed19c78084a29bb5607b72fb861994860b"
+    },
+    {
+      "archive": {
+        "bytes": 336168,
+        "filename": "city-portable-handwash-station-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f1d572584201e51306df5ce023a73a1f71415291a5c28038a8cbd5040f1384cf"
+      },
+      "fbx": {
+        "bytes": 483628,
+        "filename": "city-portable-handwash-station.fbx",
+        "sha256": "f334d9be596b24eed7d6cb2e54622be494fe8e1d03d5dc5de3ee4f6b4099ec41"
+      },
+      "fbxArchive": {
+        "bytes": 431956,
+        "filename": "city-portable-handwash-station-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e12a4e8fd9d47231c1e469f5bae2275cdf264560291af0755e81062f3e32e48f"
+      },
+      "id": "city-portable-handwash-station",
+      "sourceGlbSha256": "69b7b4d7802c0a3164717dd4a39ce38f0ba3f29347e785bba6b24bfea7332fbc"
+    },
+    {
+      "archive": {
+        "bytes": 462076,
+        "filename": "city-public-barbecue-grill-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5e09d153504e86efc79285322634e8cb7591da470a2729321d29779ecada152f"
+      },
+      "fbx": {
+        "bytes": 582780,
+        "filename": "city-public-barbecue-grill.fbx",
+        "sha256": "3a970e1f42f74106649c51de6e7c5339cc155a30a80ea6842b45f24850356a29"
+      },
+      "fbxArchive": {
+        "bytes": 508606,
+        "filename": "city-public-barbecue-grill-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5fe40c2beaede5eab3db6019a1cc3618cad78979bdb54c8fdae7a5709a458486"
+      },
+      "id": "city-public-barbecue-grill",
+      "sourceGlbSha256": "89f212edb07d5571208d2aa87f36e4fc6ee190b8869918bec8e712bd4ed062e4"
+    },
+    {
+      "archive": {
+        "bytes": 620955,
+        "filename": "city-public-coat-stand-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e12ad84d8b6f812ba64add24641d9d1ca71c0a3349641cadd1b2f5e9bbff93bd"
+      },
+      "fbx": {
+        "bytes": 679500,
+        "filename": "city-public-coat-stand.fbx",
+        "sha256": "c5190fadbaac8018acf4930f22c0a216760687f691a0b3bd9c4601d3974bde2d"
+      },
+      "fbxArchive": {
+        "bytes": 567629,
+        "filename": "city-public-coat-stand-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "17baf78fd248377cabbd6d33113aae8e097daad4e592a10c3ff723d61c87a75d"
+      },
+      "id": "city-public-coat-stand",
+      "sourceGlbSha256": "aa0902e37d10b4cbc889aaaa4b51abeb7e4ea7649e2799555c22e65d38643834"
+    },
+    {
+      "archive": {
+        "bytes": 508647,
+        "filename": "city-push-lawn-mower-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7571e1f7a7baab8765d22a01f7a339c3a3336cee47680e0ec7f56927dcef8f70"
+      },
+      "fbx": {
+        "bytes": 713692,
+        "filename": "city-push-lawn-mower.fbx",
+        "sha256": "2f1210a8491c939c47ba8787908d563571cdf6aca69da65183b12c51966fd132"
+      },
+      "fbxArchive": {
+        "bytes": 634104,
+        "filename": "city-push-lawn-mower-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8c285ed1556ff8eb63fba95ade76fda4d2635c111ba4cd48d7bab96896d2cf63"
+      },
+      "id": "city-push-lawn-mower",
+      "sourceGlbSha256": "4ec061ac77b336ab803f57c74abf655411b1851ad1f44bbb140496ccb80d30a8"
+    },
+    {
+      "archive": {
+        "bytes": 435798,
+        "filename": "city-pushcart-food-stall-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8f451b8a12b482f479cbb8d592dbe8ff986f0bc378a5cf103b939ee2d45f7618"
+      },
+      "fbx": {
+        "bytes": 571948,
+        "filename": "city-pushcart-food-stall.fbx",
+        "sha256": "515379cc7ebf729ef8369b01b130ab2898c5d306fb4b43b65f130d16b84391ab"
+      },
+      "fbxArchive": {
+        "bytes": 493360,
+        "filename": "city-pushcart-food-stall-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1a86fd24dff9248da7c450040c949baf814c5c8e61a07c27e4fbc88b56388e10"
+      },
+      "id": "city-pushcart-food-stall",
+      "sourceGlbSha256": "723d6836ef183392ed52fbd5273c9f51b39b80e2afd69fed3955ddf646e69d25"
+    },
+    {
+      "archive": {
+        "bytes": 144574,
+        "filename": "city-queue-belt-stanchion-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c4d067e2778d4723b2accabd20a8902c985f194c3400d9286c4969ba196941fc"
+      },
+      "fbx": {
+        "bytes": 213052,
+        "filename": "city-queue-belt-stanchion.fbx",
+        "sha256": "dad3e25daf1b4c0e6efe30f61193b609dbddeffa44b13b2937ff9c38b742bc1c"
+      },
+      "fbxArchive": {
+        "bytes": 179316,
+        "filename": "city-queue-belt-stanchion-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "2cc25c665658f233ec039b4ab6e7b72f1ae8ec9d547e686d22df6b9c1f0e6384"
+      },
+      "id": "city-queue-belt-stanchion",
+      "sourceGlbSha256": "60141bbb1bb81c99cbb06d00fa4b7cbbbbdb957c56cc9d7f72b175bf4d551ad0"
+    },
+    {
+      "archive": {
+        "bytes": 435668,
+        "filename": "city-railway-buffer-stop-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b3821d127d23811abdf44691fb47704d89acd993fbf623476ade24228f37a69e"
+      },
+      "fbx": {
+        "bytes": 679676,
+        "filename": "city-railway-buffer-stop.fbx",
+        "sha256": "d57bb2e81d3af03cd415036c31bb39bfcfc6c9730da4ed78b9b90640af4b6055"
+      },
+      "fbxArchive": {
+        "bytes": 582264,
+        "filename": "city-railway-buffer-stop-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7d1b6e41023b76fc8a698af21a9a67e0d57d53a1b6235f8f5410dff2679d1296"
+      },
+      "id": "city-railway-buffer-stop",
+      "sourceGlbSha256": "a4c0c475fbb572786fc09227e339bb669164ae007f567f84085b8e8001f61af6"
+    },
+    {
+      "archive": {
+        "bytes": 3908485,
+        "filename": "city-rear-loading-refuse-truck-1.0.0-minimal-1.0.0.zip",
+        "sha256": "adfe6f532d7f49434242e2511e8bf2c5b633c49c239ace67b3feb370d7c4a045"
+      },
+      "fbx": {
+        "bytes": 5133484,
+        "filename": "city-rear-loading-refuse-truck.fbx",
+        "sha256": "4f3bcc50b45b977e0cecd7bebd7c6cab7cbe8aa01c90b70c40956a6cb0cc4896"
+      },
+      "fbxArchive": {
+        "bytes": 4339876,
+        "filename": "city-rear-loading-refuse-truck-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5a18835c2830f5b21f14b6a6e30509a03c7c1d57556818543490a854e22d340a"
+      },
+      "id": "city-rear-loading-refuse-truck",
+      "sourceGlbSha256": "90f963d6aae8dfb35ab496c3fe1386b033af10b9185169918397669b7b7c84a9"
+    },
+    {
+      "archive": {
+        "bytes": 159580,
+        "filename": "city-reciprocating-saw-1.0.0-minimal-1.0.0.zip",
+        "sha256": "cdfe3035524e14445fcad38dc2ca5da14a948176c1c6b805200169e2987edd5b"
+      },
+      "fbx": {
+        "bytes": 242444,
+        "filename": "city-reciprocating-saw.fbx",
+        "sha256": "61113437bf0b5d78914b14c433b60db5856f939071d118d719b6f8e6ab3af8db"
+      },
+      "fbxArchive": {
+        "bytes": 202580,
+        "filename": "city-reciprocating-saw-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c5c4be305eef4d8af8db84bf1ab81b25b2d99c5b7a39f98c248326b2f1b9c3d6"
+      },
+      "id": "city-reciprocating-saw",
+      "sourceGlbSha256": "1562a2b4c74c0541a283069b156f5fa0f3203b59d1e4b12a5e64e0413bffcb25"
+    },
+    {
+      "archive": {
+        "bytes": 277041,
+        "filename": "city-refrigerated-display-case-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b19051d54f299e5f52d3728fb8683290e9fc1907c9914ec066160a88b66c4e91"
+      },
+      "fbx": {
+        "bytes": 466908,
+        "filename": "city-refrigerated-display-case.fbx",
+        "sha256": "b67034c58c08d505535c97d9345bc3321417679f7d0b45e675486d331fbbe9bf"
+      },
+      "fbxArchive": {
+        "bytes": 403008,
+        "filename": "city-refrigerated-display-case-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "78b70a816fea774adacec7edc26d6d8449770ef306ba40b7e08f60057d5ace01"
+      },
+      "id": "city-refrigerated-display-case",
+      "sourceGlbSha256": "aff5cd696c9ebbafd942a37b529a764c66d75fc739c6e7628093c88206667e72"
+    },
+    {
+      "archive": {
+        "bytes": 197741,
+        "filename": "city-retail-checkout-station-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1d8c62843e7c35cf14c358516f72141f354002ea5ff4c4f0ec95c7dc1a5242d3"
+      },
+      "fbx": {
+        "bytes": 304092,
+        "filename": "city-retail-checkout-station.fbx",
+        "sha256": "df7a43ee5550e8e9d5f8d45fae21778165cf8f5676e2afd99db244ffed3e70fe"
+      },
+      "fbxArchive": {
+        "bytes": 268389,
+        "filename": "city-retail-checkout-station-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "15a4dffbe15b2216d94e0ad95689f2201771dbaf6b705e246a506b2a1af5d5e1"
+      },
+      "id": "city-retail-checkout-station",
+      "sourceGlbSha256": "a7eafff0b944ec6160c9779707c6b741f7f7271240b3e1a24dcde388e859bb07"
+    },
+    {
+      "archive": {
+        "bytes": 188408,
+        "filename": "city-retail-gondola-shelving-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b9321c67ed4cba588a19dc265910243fcef26a8da639bca5549526f0d69b3ef3"
+      },
+      "fbx": {
+        "bytes": 304556,
+        "filename": "city-retail-gondola-shelving.fbx",
+        "sha256": "edb2c32355bcc0a63d24889e88a8e2d3aaec156bb22cf7b1667812cab79ca784"
+      },
+      "fbxArchive": {
+        "bytes": 263231,
+        "filename": "city-retail-gondola-shelving-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "57452679c497723b5dd8d30c638b1e3bdcb9d3a41e36c77af1e0456a3a9bde1c"
+      },
+      "id": "city-retail-gondola-shelving",
+      "sourceGlbSha256": "6dc7d4a4dc238fa6697451b7e03a003bc409a8f23a184f6bd55b266a18c5a350"
+    },
+    {
+      "archive": {
+        "bytes": 273095,
+        "filename": "city-retail-security-pedestals-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1cf63f40487ec96b3618f4ed4503b11bb75f0e37888b23fdaf4de7c6ae1ce988"
+      },
+      "fbx": {
+        "bytes": 427244,
+        "filename": "city-retail-security-pedestals.fbx",
+        "sha256": "c246249010dff4bc5ce58d2b2d8ad396108a61f426ed4b56bfb3e03556701b73"
+      },
+      "fbxArchive": {
+        "bytes": 370187,
+        "filename": "city-retail-security-pedestals-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a7e30c45ed34814039996631b3601def3d937244ac7ddc23bea3e1d6c90bf273"
+      },
+      "id": "city-retail-security-pedestals",
+      "sourceGlbSha256": "ef8e41504234dbd246794395820f8f583b9388dc466c50c78cc049154357ec87"
+    },
+    {
+      "archive": {
+        "bytes": 805284,
+        "filename": "city-revolving-entry-door-1.0.0-minimal-1.0.0.zip",
+        "sha256": "208f8351de21d16d6aa56dea958c24fb668a18ec7daba0bfb14d6963ad0c647d"
+      },
+      "fbx": {
+        "bytes": 1079820,
+        "filename": "city-revolving-entry-door.fbx",
+        "sha256": "35f27f34f2e9c786fc8552aa0f1a05f54cc2e93517701c1326835f287ae9873e"
+      },
+      "fbxArchive": {
+        "bytes": 958821,
+        "filename": "city-revolving-entry-door-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c4c570cd8520f054401ac241890a1b15d22feaafb6527f564736f57cd0e1b6b1"
+      },
+      "id": "city-revolving-entry-door",
+      "sourceGlbSha256": "ded1b8923f9d98a56562e09e932348645a0cac2a5f7e9b497351a3ad23389517"
+    },
+    {
+      "archive": {
+        "bytes": 563809,
+        "filename": "city-rigid-inflatable-rescue-boat-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5e81c8f8f9fc0bedd748c91795d86cdc6014afccbf827819324e0128aa37afdc"
+      },
+      "fbx": {
+        "bytes": 671820,
+        "filename": "city-rigid-inflatable-rescue-boat.fbx",
+        "sha256": "1ae790413b7754118fd23c56bbae0696e8b5f87243e439408bde1f619f7d1fe4"
+      },
+      "fbxArchive": {
+        "bytes": 580197,
+        "filename": "city-rigid-inflatable-rescue-boat-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "69ec8c3df0bb1977d84d3564e6239fef68baa9df73f0c12a16b63d7b8bd9c7b1"
+      },
+      "id": "city-rigid-inflatable-rescue-boat",
+      "sourceGlbSha256": "32b9857bb9dd30826eb8347bf00cde5e98e2b32f30550969672504199a58ab29"
+    },
+    {
+      "archive": {
+        "bytes": 625617,
+        "filename": "city-roadwork-light-trailer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "89732c641cb18ed1807fc41e3b6a3aee064ebe5f2170380dd7faf4778a1c9028"
+      },
+      "fbx": {
+        "bytes": 880172,
+        "filename": "city-roadwork-light-trailer.fbx",
+        "sha256": "22939de85afd052b0706f90cc021230d63696d619c144e8c0d6598a47ab59894"
+      },
+      "fbxArchive": {
+        "bytes": 776349,
+        "filename": "city-roadwork-light-trailer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "01d996cce642411390e039d1bc6ce55e57fe7088c0f023f24df0a7415fae7cb2"
+      },
+      "id": "city-roadwork-light-trailer",
+      "sourceGlbSha256": "721cd5e015f0def248ff5521ccbbdba31546845cddfa128bcdb0036d31b03a8f"
+    },
+    {
+      "archive": {
+        "bytes": 531034,
+        "filename": "city-roll-cage-trolley-1.0.0-minimal-1.0.0.zip",
+        "sha256": "026c080318ebab9f45caa89244c70a6dc66ef9a6f8e242fdb5b91e58073cbe34"
+      },
+      "fbx": {
+        "bytes": 756476,
+        "filename": "city-roll-cage-trolley.fbx",
+        "sha256": "af8557c24142c8f4e7e840a78f9fac4f0707e097db8a141bcac309848211da74"
+      },
+      "fbxArchive": {
+        "bytes": 663098,
+        "filename": "city-roll-cage-trolley-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c2be2e460f2b8fb71ca4c1395e081d51539134de0221b0115ded8fd4ce74ed8c"
+      },
+      "id": "city-roll-cage-trolley",
+      "sourceGlbSha256": "21a8336d32edba3c6ad2cea333d0ba4865ec57745452d73e93bdb48f78249346"
+    },
+    {
+      "archive": {
+        "bytes": 343722,
+        "filename": "city-roof-turbine-vent-1.0.0-minimal-1.0.0.zip",
+        "sha256": "76ae24372abce4c246738352fca19d6e77ecade613bbc20bb43fece00842e906"
+      },
+      "fbx": {
+        "bytes": 381356,
+        "filename": "city-roof-turbine-vent.fbx",
+        "sha256": "9665067384d9381538dc62b3911cfb8f2ca6facf7b5c62c4b670327a853efff3"
+      },
+      "fbxArchive": {
+        "bytes": 332010,
+        "filename": "city-roof-turbine-vent-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "883d7233efa48ce77ff61eb095029518036626dd87e9a53a5d1870c98fb45187"
+      },
+      "id": "city-roof-turbine-vent",
+      "sourceGlbSha256": "20a363820229fb87b5b80d18d567ff3b5b485564a979e76570107c1c458016ba"
+    },
+    {
+      "archive": {
+        "bytes": 162139,
+        "filename": "city-roofed-bird-feeder-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7db7ca7843a6a38b2fa8eb580417230ceea9b15ca3e9ed6cdec70c14ecb50752"
+      },
+      "fbx": {
+        "bytes": 252796,
+        "filename": "city-roofed-bird-feeder.fbx",
+        "sha256": "1084177da8a96dfddb65df97ea44134ed377887b54cbae57488dde5adba43e53"
+      },
+      "fbxArchive": {
+        "bytes": 221968,
+        "filename": "city-roofed-bird-feeder-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e78d5bf54d5536666bfb63ce2b8769a6c958c0a606d470fc50456fa603d45f60"
+      },
+      "id": "city-roofed-bird-feeder",
+      "sourceGlbSha256": "5009681f84e0642201d70a879c2c50e6f2ec2f66cd1047415e9c126db5cea4ea"
+    },
+    {
+      "archive": {
+        "bytes": 160250,
+        "filename": "city-rotary-clothesline-1.0.0-minimal-1.0.0.zip",
+        "sha256": "4003b85bab6c754b46fd6d2c0e5526ea601cda9cb651dadd2a83a6d12a607a9b"
+      },
+      "fbx": {
+        "bytes": 221116,
+        "filename": "city-rotary-clothesline.fbx",
+        "sha256": "2a6e77d4eebcea2f1ab88eab18d2749686ef49ea3c5bda480e31920a1641a952"
+      },
+      "fbxArchive": {
+        "bytes": 190367,
+        "filename": "city-rotary-clothesline-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a7eb9428607ea8951de4d181979715c50155641c330d3d0ac98056e0bf418fad"
+      },
+      "id": "city-rotary-clothesline",
+      "sourceGlbSha256": "57679d04c08775ebfa598b2da7b5c78997fb1fbd179dc4dafa008fa5751b4263"
+    },
+    {
+      "archive": {
+        "bytes": 511611,
+        "filename": "city-rotating-brochure-carousel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fee11d9b5c5ddf24e7289f9d399df32315f84548c1a269143e711bf31c46f875"
+      },
+      "fbx": {
+        "bytes": 783804,
+        "filename": "city-rotating-brochure-carousel.fbx",
+        "sha256": "33541d4a403d9dddbfe046b69837b7c5b37ba5fb43b3631c82fba036b848782d"
+      },
+      "fbxArchive": {
+        "bytes": 695970,
+        "filename": "city-rotating-brochure-carousel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "86c2d1b5ffa8035b9a8551714df4af1d18f365fb9a7b81a49bb0018c35005e14"
+      },
+      "id": "city-rotating-brochure-carousel",
+      "sourceGlbSha256": "5c608a8903a03721f34de4c1ef6301299ebb56bae4fe306722ca80cd86287dbc"
+    },
+    {
+      "archive": {
+        "bytes": 292385,
+        "filename": "city-rowboat-with-oars-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e300324a9d16595f76257fd89d87a52620dd84b71aa56ef681dcec5b1b70b7f1"
+      },
+      "fbx": {
+        "bytes": 368204,
+        "filename": "city-rowboat-with-oars.fbx",
+        "sha256": "1a7f029137d4f2c968ab0c9f61de253eafb2a345f5fdc69247b017dfe3cde8ec"
+      },
+      "fbxArchive": {
+        "bytes": 327032,
+        "filename": "city-rowboat-with-oars-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a1d3439caad038f6f14cba5229dc2b600842e84774f451e79bc96196efaacac4"
+      },
+      "id": "city-rowboat-with-oars",
+      "sourceGlbSha256": "ca36425124b9cdb3aefb6409dffc16a168e0b97089d332325a8a563017c5083e"
+    },
+    {
+      "archive": {
+        "bytes": 556658,
+        "filename": "city-rowing-ergometer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "2043c7005724f590af081efe481f33ea28e2518aa064e106303b6c1fb8cabc4f"
+      },
+      "fbx": {
+        "bytes": 653260,
+        "filename": "city-rowing-ergometer.fbx",
+        "sha256": "9e90da5e9fa69e03055b0098175b661d367d81b3bd4ecb5a6ab3bf9f3f1085a2"
+      },
+      "fbxArchive": {
+        "bytes": 559648,
+        "filename": "city-rowing-ergometer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "0602bd4e420184014851c90e78ef47c957a16c32f5e4b6950cc7e22514a5abc6"
+      },
+      "id": "city-rowing-ergometer",
+      "sourceGlbSha256": "cae9ae0c8f2c03d82fa21bce5b68f45b168ba01b4bd84a25991b7d105817edbe"
+    },
+    {
+      "archive": {
+        "bytes": 657666,
+        "filename": "city-scenic-binocular-viewer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f04a46199d36d683aad36785b5ccac5b854b98745a368bd86cc7df1c697d1fd0"
+      },
+      "fbx": {
+        "bytes": 852940,
+        "filename": "city-scenic-binocular-viewer.fbx",
+        "sha256": "0b3537490af7fb4cc9a1057f959819fc463233852bb5a27ff2c644c9575e1403"
+      },
+      "fbxArchive": {
+        "bytes": 764454,
+        "filename": "city-scenic-binocular-viewer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "3583ae16614159e56b991cac1223feea6d655505ea8ed59143bae4602619c08f"
+      },
+      "id": "city-scenic-binocular-viewer",
+      "sourceGlbSha256": "2e15bc8e5645c2b0599e5c9a581a707a3bfd0e1643df028ce0c833fadd2ff866"
+    },
+    {
+      "archive": {
+        "bytes": 41123,
+        "filename": "city-sidewalk-light-box-sign-1.0.0-minimal-1.0.0.zip",
+        "sha256": "cc4f205e2ec3e689fbc4ba2e4f806260734a885ac9518b3382d8cec8ec8db185"
+      },
+      "fbx": {
+        "bytes": 77692,
+        "filename": "city-sidewalk-light-box-sign.fbx",
+        "sha256": "c445599e8d5ced4b58af52d28ed250c30e352f5026046498b8195666dd1ad346"
+      },
+      "fbxArchive": {
+        "bytes": 57825,
+        "filename": "city-sidewalk-light-box-sign-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c013cc94105558173a5d93c97f1bd91d733c309c66e965a25d35957550128f76"
+      },
+      "id": "city-sidewalk-light-box-sign",
+      "sourceGlbSha256": "c712cc02edd88e9138f4fe375809b5bf3cc01fd7dc7b64bfb624f039592b7521"
+    },
+    {
+      "archive": {
+        "bytes": 733897,
+        "filename": "city-skate-quarter-pipe-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fb781cc1c25f37aa7bc3e4c937a28601beb7ec99ada004a5ec8d7e29416f776d"
+      },
+      "fbx": {
+        "bytes": 996268,
+        "filename": "city-skate-quarter-pipe.fbx",
+        "sha256": "92b2559ba97c02945fac5a54c6186cecc879e54fbf68f2818373bb93ab017d3a"
+      },
+      "fbxArchive": {
+        "bytes": 879241,
+        "filename": "city-skate-quarter-pipe-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9fe58e503ef17cb8b24b572fc937aa21023c9efb33516aba001e9023933a0c46"
+      },
+      "id": "city-skate-quarter-pipe",
+      "sourceGlbSha256": "23e54bd30e0d0ee26a0dd03a6a185ffd19db58caba7ae666fd6d98b079a5484f"
+    },
+    {
+      "archive": {
+        "bytes": 205249,
+        "filename": "city-soldering-workstation-1.0.0-minimal-1.0.0.zip",
+        "sha256": "44d2b76765ecbc832ccfe7f657e4ad0e3ca26192fbb568de4c7f8a7f9231e88c"
+      },
+      "fbx": {
+        "bytes": 254860,
+        "filename": "city-soldering-workstation.fbx",
+        "sha256": "ce0435d1bd859dcfc8937249e01ba4634de022994f7a19768bf65da295c9d531"
+      },
+      "fbxArchive": {
+        "bytes": 213468,
+        "filename": "city-soldering-workstation-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1d6cbcd861c44e5d735a83ac5171bf846fe3391c75397ebdb87b86d1beb206ac"
+      },
+      "id": "city-soldering-workstation",
+      "sourceGlbSha256": "622e13e3b4bb0e7a42bd7d1ae87bb8d444968fe6fa9d451209ac3fb185dff1ee"
+    },
+    {
+      "archive": {
+        "bytes": 516311,
+        "filename": "city-spring-play-rider-1.0.0-minimal-1.0.0.zip",
+        "sha256": "6dab22ae42bb8be76d3ba261d8587688a624635ae9ba291b61b7305373ca49a4"
+      },
+      "fbx": {
+        "bytes": 639484,
+        "filename": "city-spring-play-rider.fbx",
+        "sha256": "2d733a3698d46e6fc3b7ae8d97582a938ca911cb4e7c3d7dc3503a6b00156a90"
+      },
+      "fbxArchive": {
+        "bytes": 565854,
+        "filename": "city-spring-play-rider-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c94757fdebd1ce5b619e6b6f9e06cbc35d13acff5a7143dd99c9d1dd0c01aed6"
+      },
+      "id": "city-spring-play-rider",
+      "sourceGlbSha256": "d6b8768c4be664bd7f3a0520a2bd0ab4f0a0d6885b2a88ee4e5c826629a8e8ed"
+    },
+    {
+      "archive": {
+        "bytes": 216068,
+        "filename": "city-stationary-exercise-bike-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ce6690d2e68d6e4605450a095677e586a0377d41bbd5df3cdbacd4c3c5465e53"
+      },
+      "fbx": {
+        "bytes": 292012,
+        "filename": "city-stationary-exercise-bike.fbx",
+        "sha256": "8b4575f82e67ad72c8a0c82b8cb24e8b32beb9ef22f9fefd154aa854930143b9"
+      },
+      "fbxArchive": {
+        "bytes": 250072,
+        "filename": "city-stationary-exercise-bike-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1bad99c312dbac12f679e745b3135028a2eb1ad104d282eae2174cd485a62cc9"
+      },
+      "id": "city-stationary-exercise-bike",
+      "sourceGlbSha256": "6481b9b5ca895d0b5c0ae18ff55d6cea0c6ca0175ac83d3ccfd502ba6eb452c6"
+    },
+    {
+      "archive": {
+        "bytes": 268687,
+        "filename": "city-string-grass-trimmer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "cd695ea32282f4abbea0baef04166a03e740377e1257081679b130fe88c9889a"
+      },
+      "fbx": {
+        "bytes": 366028,
+        "filename": "city-string-grass-trimmer.fbx",
+        "sha256": "d9ae02d388c0c752ba4a39bdc18efd40e0fa79a0766b060ee00bb21667a3734d"
+      },
+      "fbxArchive": {
+        "bytes": 321244,
+        "filename": "city-string-grass-trimmer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b63385f3d6c8b94c3e1c2eb29cc7c097a9a08a1ad2c30819f461ce2fbcb44b03"
+      },
+      "id": "city-string-grass-trimmer",
+      "sourceGlbSha256": "2da617e86d4a8174fb8553bf5b140aad12f580ace856a85cc04b5dd9e1efac96"
+    },
+    {
+      "archive": {
+        "bytes": 472989,
+        "filename": "city-suspended-rubble-chute-1.0.0-minimal-1.0.0.zip",
+        "sha256": "6952ee6eaad86bf517acf204a2d001a011bdbab175d907e43ce16bdf0d40bfd4"
+      },
+      "fbx": {
+        "bytes": 611532,
+        "filename": "city-suspended-rubble-chute.fbx",
+        "sha256": "413e828575fe7f007b1ca209341e89ee5115e6e3c66d339abeb1c2c165677770"
+      },
+      "fbxArchive": {
+        "bytes": 488795,
+        "filename": "city-suspended-rubble-chute-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c4166469aa7f639a24881abe0167d7195b9b29c4289cba46630e89c75cc86d32"
+      },
+      "id": "city-suspended-rubble-chute",
+      "sourceGlbSha256": "898c668901d692f0a0dc06aeae0cb4d96f970847af660d1d980d110ec40bee24"
+    },
+    {
+      "archive": {
+        "bytes": 118719,
+        "filename": "city-swimming-start-block-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5d42fe565005fd408fbb5dc4e60f2917904a6c2dd35911a5e500742342de3dfc"
+      },
+      "fbx": {
+        "bytes": 193276,
+        "filename": "city-swimming-start-block.fbx",
+        "sha256": "858c39d768ed735f07f5336a19356fe2f09092b4ae5d589ce63e9ecdae00d300"
+      },
+      "fbxArchive": {
+        "bytes": 162724,
+        "filename": "city-swimming-start-block-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1fd9ca623de9d25374099d810925760ba2a246022e1950dfcafafb59946f8131"
+      },
+      "id": "city-swimming-start-block",
+      "sourceGlbSha256": "a78bb212cd0af55552c9de552ee136ad79dc4ba6512955d350c379dffc2504a5"
+    },
+    {
+      "archive": {
+        "bytes": 214182,
+        "filename": "city-swivel-bench-vise-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9f5ce2148913804a23c40c8a516e9c2bb5ba29d4526430b009aa79df92124194"
+      },
+      "fbx": {
+        "bytes": 265132,
+        "filename": "city-swivel-bench-vise.fbx",
+        "sha256": "185247d6e080b8b37c67f9b0a17b4733909da0dfbe64e6354c0a021d78ed9c70"
+      },
+      "fbxArchive": {
+        "bytes": 230430,
+        "filename": "city-swivel-bench-vise-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d3cd746b77124df755376196868ed3a0c62680e0813d2d04f78d784012e39f25"
+      },
+      "id": "city-swivel-bench-vise",
+      "sourceGlbSha256": "8417df3218717b392d72a24ebe66f03ccddb32bcd74178a0c6a6a9c4a7b7ef81"
+    },
+    {
+      "archive": {
+        "bytes": 758269,
+        "filename": "city-table-football-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0c58107f627219ac162ceeec607a5d0b90318a43d1898a3e97942c4f5cc7d212"
+      },
+      "fbx": {
+        "bytes": 1108908,
+        "filename": "city-table-football.fbx",
+        "sha256": "288e2326c453e395fdcc712214510c2562b9db02c3ccedc188984046354148d7"
+      },
+      "fbxArchive": {
+        "bytes": 952983,
+        "filename": "city-table-football-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "ece9e3f69ea6803503869066e3ad6eb78127f9aed0fc5abf896cce7f5d9ae94b"
+      },
+      "id": "city-table-football",
+      "sourceGlbSha256": "2c5f2609fcdc520d0a78b10930bd083e0205743a15e47c2e41883b8f11feda74"
+    },
+    {
+      "archive": {
+        "bytes": 581007,
+        "filename": "city-tamping-rammer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f3e9104978e44d54f6a079bf97c29f42cae184668f841298a9ae51d1d08f08ff"
+      },
+      "fbx": {
+        "bytes": 767836,
+        "filename": "city-tamping-rammer.fbx",
+        "sha256": "a5a94be8e2f6ce97ac8bdf9891461d9f1ad5d65c1242edbee327005c2b2fe713"
+      },
+      "fbxArchive": {
+        "bytes": 645689,
+        "filename": "city-tamping-rammer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "385346c60974ae2f67db51c079055c0af6419be892c2b953d275ec359841e744"
+      },
+      "id": "city-tamping-rammer",
+      "sourceGlbSha256": "cae55f8f11be326bcc27f5ab15f5b0883c0fb6171f13c9218cf5229d098c4a5f"
+    },
+    {
+      "archive": {
+        "bytes": 583259,
+        "filename": "city-tandem-road-roller-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7566c8409e09f1e0da046941e26f94504123f1bca1044195319dee6860440ed1"
+      },
+      "fbx": {
+        "bytes": 759708,
+        "filename": "city-tandem-road-roller.fbx",
+        "sha256": "aecf3fb8ab561daa29696b7162ab8564ade12fa50db7ecf73ada8b4a37ccd633"
+      },
+      "fbxArchive": {
+        "bytes": 654817,
+        "filename": "city-tandem-road-roller-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b012bc5f22b7c943f84fc1fb017228a98012256d3ba996ca95afe7f93b1e635d"
+      },
+      "id": "city-tandem-road-roller",
+      "sourceGlbSha256": "79603c9277db2c8ace77ec19b5d815492216b47212040c45d61187c463a1a08a"
+    },
+    {
+      "archive": {
+        "bytes": 177025,
+        "filename": "city-temporary-mesh-fence-panel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "e002f4dd8931c53a454b3e0ead15e5ec501f81c31babaff257acd68a2b4ce334"
+      },
+      "fbx": {
+        "bytes": 262876,
+        "filename": "city-temporary-mesh-fence-panel.fbx",
+        "sha256": "d9c0b9955101e138d5ad3ce3c24435925d919286b85e7b1184f1e0132ebf9aac"
+      },
+      "fbxArchive": {
+        "bytes": 224838,
+        "filename": "city-temporary-mesh-fence-panel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b91c8536b1caadda135bbeaf5f8e9e522e81b5676618af64908ee361815a5d9e"
+      },
+      "id": "city-temporary-mesh-fence-panel",
+      "sourceGlbSha256": "f2f648af230234fdc8675386f4923fc4ef08471cbf6eeea7e1d38132d023137f"
+    },
+    {
+      "archive": {
+        "bytes": 692762,
+        "filename": "city-tennis-net-set-1.0.0-minimal-1.0.0.zip",
+        "sha256": "3e5df866877a3de5caf62c8c0ccda9ab01407ad279c56fb6fcc561248beff12c"
+      },
+      "fbx": {
+        "bytes": 860076,
+        "filename": "city-tennis-net-set.fbx",
+        "sha256": "43f45b3f6a01057dffbe83e8d5087155494fe933500825831b9317d001d45abd"
+      },
+      "fbxArchive": {
+        "bytes": 721416,
+        "filename": "city-tennis-net-set-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7c5d10a97e03373295a7725e1f2a25c17eb72dba33314ca6b31312f34c72172c"
+      },
+      "id": "city-tennis-net-set",
+      "sourceGlbSha256": "03dfc2c96977fc3d73e3988c24fe22d0a35866829a1f818666c2e1e4a7977eac"
+    },
+    {
+      "archive": {
+        "bytes": 572909,
+        "filename": "city-theatrical-followspot-1.0.0-minimal-1.0.0.zip",
+        "sha256": "636f9f261ab39767dab752a7672581cb641593caeacbf34be5c6e870fe755276"
+      },
+      "fbx": {
+        "bytes": 779516,
+        "filename": "city-theatrical-followspot.fbx",
+        "sha256": "4c7295b7592da03bdb305c06381eeee7068adf77078a3b405a2358bb4047e005"
+      },
+      "fbxArchive": {
+        "bytes": 694776,
+        "filename": "city-theatrical-followspot-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "2dac857c85dd5db44f1a5321339920fb11c9dfc8d78b158a5c1bd0c0d690459d"
+      },
+      "id": "city-theatrical-followspot",
+      "sourceGlbSha256": "d550fcb63a689dec7633a7d0775b28dd79434e0b6f12a3b758298a2335f9c74e"
+    },
+    {
+      "archive": {
+        "bytes": 462583,
+        "filename": "city-thickness-planer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0f7b4aef9b499ce43b5656cc18ad44dfb6dc6966963d4ab35bcb889365ff7f3f"
+      },
+      "fbx": {
+        "bytes": 611164,
+        "filename": "city-thickness-planer.fbx",
+        "sha256": "e23275ae5add3a9fc45b51427a3f6e26656895692ce26c90533b008790c79218"
+      },
+      "fbxArchive": {
+        "bytes": 547397,
+        "filename": "city-thickness-planer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6eea120dfb16141c379d78208b0033aaf6d8b62d767e5b9da73af71c32872e33"
+      },
+      "id": "city-thickness-planer",
+      "sourceGlbSha256": "1dfa4b99e5c55c33fd8db0652c47f99983827b5cf6a25843afb8889d8847e9b8"
+    },
+    {
+      "archive": {
+        "bytes": 280116,
+        "filename": "city-three-roll-slip-roller-1.0.0-minimal-1.0.0.zip",
+        "sha256": "26d1a41f6667be93c9ee64ef9ef78f8bfa68153dc9ebffdd4c6a52defefad626"
+      },
+      "fbx": {
+        "bytes": 388796,
+        "filename": "city-three-roll-slip-roller.fbx",
+        "sha256": "ecf44abda39aa8c4f055a61ec16cf0d39b52c7c712a7fe412b78f2b29e1e9cea"
+      },
+      "fbxArchive": {
+        "bytes": 342192,
+        "filename": "city-three-roll-slip-roller-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d1185c58bd828662c9f3c0677fcdcab29a54095a2cb563cdf37371cb1aeb4e8d"
+      },
+      "id": "city-three-roll-slip-roller",
+      "sourceGlbSha256": "5cc6792dcacacddc0a92e809b8bd6344e79d86659fbaeaf7e1fe9ecfc778b735"
+    },
+    {
+      "archive": {
+        "bytes": 471166,
+        "filename": "city-three-vial-spirit-level-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b96064f3b049f677bc45210627d08c80cdfae5bb93b6d07625e269133f97cfeb"
+      },
+      "fbx": {
+        "bytes": 606348,
+        "filename": "city-three-vial-spirit-level.fbx",
+        "sha256": "714b10f555bd5225e71de45f2aee85b299ae73c2c876012dd96b2adb1bee7d15"
+      },
+      "fbxArchive": {
+        "bytes": 513373,
+        "filename": "city-three-vial-spirit-level-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "398d9846c1b14b9594d9f6819b4ab9cc971fb93b69857bd938d6d2727051b95a"
+      },
+      "id": "city-three-vial-spirit-level",
+      "sourceGlbSha256": "268cf608c4a60211d0affd0d61904b4c9c93a2f9f8345a272bd0b04d8a161ef0"
+    },
+    {
+      "archive": {
+        "bytes": 233124,
+        "filename": "city-tilting-drafting-table-1.0.0-minimal-1.0.0.zip",
+        "sha256": "a94c9122f946575f7796c5d6318115aa20cdd02b33f082bbe5d6bd9df8fe0d37"
+      },
+      "fbx": {
+        "bytes": 332748,
+        "filename": "city-tilting-drafting-table.fbx",
+        "sha256": "6bc1b2a1dbe33d5d81c654b53699036e00bee4e97d7ae1df68399923c8917e7c"
+      },
+      "fbxArchive": {
+        "bytes": 284410,
+        "filename": "city-tilting-drafting-table-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "48db2bfb93f9606f936acdd752c9e2523b3a32399bbec544d7c163e6b2a1f8d4"
+      },
+      "id": "city-tilting-drafting-table",
+      "sourceGlbSha256": "e92d5f9537abcb780e4f9519032e103b5471ed6e81dfcb436994f17831f4022d"
+    },
+    {
+      "archive": {
+        "bytes": 557456,
+        "filename": "city-tire-changing-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "db410a5361b35117afc39f902597fd37ddf3bf7a5a72f28ec50709c37574c6a1"
+      },
+      "fbx": {
+        "bytes": 783228,
+        "filename": "city-tire-changing-machine.fbx",
+        "sha256": "c66cae796c3f75db4cc038a158c2adeceb48cfc21632083ae564de98949176c9"
+      },
+      "fbxArchive": {
+        "bytes": 703077,
+        "filename": "city-tire-changing-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d2c1680009a76d19550388822e10aa61085b5019c65aafc1e80fda6a6c2a1d12"
+      },
+      "id": "city-tire-changing-machine",
+      "sourceGlbSha256": "768dae47ddbe45191e1a81f74c79cd818f65b959afec8a2d42c0c373849e8325"
+    },
+    {
+      "archive": {
+        "bytes": 484893,
+        "filename": "city-tracked-dump-carrier-1.0.0-minimal-1.0.0.zip",
+        "sha256": "50d93653fc45a998d409869ed158b35a826fe20fd20d59cb48cfdb4db35a9e84"
+      },
+      "fbx": {
+        "bytes": 671020,
+        "filename": "city-tracked-dump-carrier.fbx",
+        "sha256": "6b6a53ad1262d73624fe1d75e1cefe934b779431d18ea2f93a8da768c2f4bb0b"
+      },
+      "fbxArchive": {
+        "bytes": 576184,
+        "filename": "city-tracked-dump-carrier-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cfc873f648bcc7ae8b94421f3d40941ced1ef1e4a4ba71dcbc98d954a6b8c11c"
+      },
+      "id": "city-tracked-dump-carrier",
+      "sourceGlbSha256": "6c8bc56a4d16c9d02b63de730a24e65e73770d1c5311e17f760c057860f798f8"
+    },
+    {
+      "archive": {
+        "bytes": 909151,
+        "filename": "city-tracked-mini-excavator-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0583ad894317314d59cf845a096c05d7f76a4be62967e1206362d3293d5d548d"
+      },
+      "fbx": {
+        "bytes": 1201692,
+        "filename": "city-tracked-mini-excavator.fbx",
+        "sha256": "0d679fe538457f05a9d6ac44eec28fb4cd07e46585748c2409f7a2334f67dcfd"
+      },
+      "fbxArchive": {
+        "bytes": 1037538,
+        "filename": "city-tracked-mini-excavator-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e266e11fa929743d8d35997cfc7feee894cab8a61a3bfad356620e2fc866cb87"
+      },
+      "id": "city-tracked-mini-excavator",
+      "sourceGlbSha256": "b28e872723aeef524c28ed24d0ec5da28a2bcb9ea8b4a1d24830313109eb3dad"
+    },
+    {
+      "archive": {
+        "bytes": 71127,
+        "filename": "city-traffic-control-cabinet-1.0.0-minimal-1.0.0.zip",
+        "sha256": "93ea1fd1968c02cabc243b7aac4e3dc9a2a80a5cb83d67354fbf60f2d4347786"
+      },
+      "fbx": {
+        "bytes": 124748,
+        "filename": "city-traffic-control-cabinet.fbx",
+        "sha256": "fae65315c3f43701c7790b1f276488923b5a1c3a64cf19b7f6ded0ad959d6e59"
+      },
+      "fbxArchive": {
+        "bytes": 100103,
+        "filename": "city-traffic-control-cabinet-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5863e1af3983de929670339c4bca49def61288e77c21f6080aed048aa8209fb0"
+      },
+      "id": "city-traffic-control-cabinet",
+      "sourceGlbSha256": "e3c075aedaed1e7efb06d25af4c59527a2bc586e42a129f9323a2ebc394368c5"
+    },
+    {
+      "archive": {
+        "bytes": 547250,
+        "filename": "city-transfer-stretcher-trolley-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8e2dd681e7859e928660a69c03d97c8948bcb3830eada4c8d4d3ddbbc62aa6b4"
+      },
+      "fbx": {
+        "bytes": 711724,
+        "filename": "city-transfer-stretcher-trolley.fbx",
+        "sha256": "90eb5992d9cba1174a3f25ae5cdc3904063c034e916ea951783ad21c77da9a96"
+      },
+      "fbxArchive": {
+        "bytes": 639618,
+        "filename": "city-transfer-stretcher-trolley-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a3a700f660bee65f671aaece9a04b5a00a8986162898fdbe580cdbe310e37fac"
+      },
+      "id": "city-transfer-stretcher-trolley",
+      "sourceGlbSha256": "907a03aabecb480a23eb8027adfb5e5e379f064bc62acd5dc2b53f716fae0173"
+    },
+    {
+      "archive": {
+        "bytes": 126437,
+        "filename": "city-tripod-floor-easel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7a40d75ae59887b5baa3fb57e3d32a86d3345c22b7052139110563ec0176ba33"
+      },
+      "fbx": {
+        "bytes": 188124,
+        "filename": "city-tripod-floor-easel.fbx",
+        "sha256": "e4b9bd0b059d64127e755e0ca3f47bc5edbb7f113f5b6f085304f17733311582"
+      },
+      "fbxArchive": {
+        "bytes": 159731,
+        "filename": "city-tripod-floor-easel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9e4a7230ed3dc27e687083aa8478b270fb5b9eccde5d08440af36f82bdf2bb56"
+      },
+      "id": "city-tripod-floor-easel",
+      "sourceGlbSha256": "6b707e667a379e6e4a2533a220adae43f10a0cb946eb41b11e599db6bc7b858a"
+    },
+    {
+      "archive": {
+        "bytes": 416218,
+        "filename": "city-tripod-pipe-vise-1.0.0-minimal-1.0.0.zip",
+        "sha256": "24f38b09feb56ef8c2007643282b115d519b3bb30d846643e8c5a0c7dee7c5a2"
+      },
+      "fbx": {
+        "bytes": 491820,
+        "filename": "city-tripod-pipe-vise.fbx",
+        "sha256": "adcc90811d33e5e1096703e05fbd26d02e21623f6e0d8eec6c7c4516c7cb8d21"
+      },
+      "fbxArchive": {
+        "bytes": 435988,
+        "filename": "city-tripod-pipe-vise-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e84d70f7aab25d701d6d78a31b1715019dc0a8490539167f3d60a3b1ff4cb6c8"
+      },
+      "id": "city-tripod-pipe-vise",
+      "sourceGlbSha256": "54800319ea3c764ae1a154013543ce4e4706f6ddee8878d4bb2fa713b972dad4"
+    },
+    {
+      "archive": {
+        "bytes": 276986,
+        "filename": "city-tripod-projection-screen-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8a15ff4e5fbad5d7875957b97bb2e674997a6089434f1a912bf9b5de8d906a99"
+      },
+      "fbx": {
+        "bytes": 361596,
+        "filename": "city-tripod-projection-screen.fbx",
+        "sha256": "61357dd7de981b4e3afb2d5919597b9ca42982f48391c6c074553fb8ae12c28a"
+      },
+      "fbxArchive": {
+        "bytes": 319534,
+        "filename": "city-tripod-projection-screen-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1cc978cd1652c410276488304742932357cb47f55f9eb884d8c9d7f0f8473346"
+      },
+      "id": "city-tripod-projection-screen",
+      "sourceGlbSha256": "00894a4f69b1f599340fa1e47d05ac302d318234ddf9f5131cd75e28e7a4c65d"
+    },
+    {
+      "archive": {
+        "bytes": 345521,
+        "filename": "city-tripod-survey-instrument-1.0.0-minimal-1.0.0.zip",
+        "sha256": "3fc121abc18e48d921461132a8edf443b5ed9647ae5d07a8ffdbcd855b5c7d67"
+      },
+      "fbx": {
+        "bytes": 438348,
+        "filename": "city-tripod-survey-instrument.fbx",
+        "sha256": "63a406ec8fb749103eb9123ca7a1b89152db03a097f5d577b8c600cde8191ab7"
+      },
+      "fbxArchive": {
+        "bytes": 389854,
+        "filename": "city-tripod-survey-instrument-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b2e92601be18a5600ebc40cb9d372cab755af06956b79df470ca9b76c6fd0360"
+      },
+      "id": "city-tripod-survey-instrument",
+      "sourceGlbSha256": "8ad53b31c69fb19f488c1d48e349775aeeb6242a8aeae3828f959e25e93227cc"
+    },
+    {
+      "archive": {
+        "bytes": 421003,
+        "filename": "city-tripod-video-camera-1.0.0-minimal-1.0.0.zip",
+        "sha256": "86addec5325a0ac93075e13889818e3fdeadfaee415cd58a5d997a45315ef5c6"
+      },
+      "fbx": {
+        "bytes": 506556,
+        "filename": "city-tripod-video-camera.fbx",
+        "sha256": "df2b01034c775c6126ac831cc60087a97522ff60ae620fc7dc19763f87f98ea6"
+      },
+      "fbxArchive": {
+        "bytes": 454664,
+        "filename": "city-tripod-video-camera-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e2648b52c1eb4717ce0b3307b18f6db8aa4a0e9d52e271d4ba4dcf64fdeb4af0"
+      },
+      "id": "city-tripod-video-camera",
+      "sourceGlbSha256": "2b3b87255989f3983592123e593d164ccdfebf8f225f93d6b734b299df3f7b6d"
+    },
+    {
+      "archive": {
+        "bytes": 293760,
+        "filename": "city-two-handle-earth-auger-1.0.0-minimal-1.0.0.zip",
+        "sha256": "312a0b989b14dab8edf6d7a72ef6bea6799a2660075a980b672de3b282359504"
+      },
+      "fbx": {
+        "bytes": 427244,
+        "filename": "city-two-handle-earth-auger.fbx",
+        "sha256": "7633791937c3feaea0ba73471085791dd7a23020cb7c8aaf923a7ec93e8a8da9"
+      },
+      "fbxArchive": {
+        "bytes": 376754,
+        "filename": "city-two-handle-earth-auger-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "18d7fc5ebc9abc5843de7a46ea5897a02d34692c5cb4fa55ba88db2a9d2df759"
+      },
+      "id": "city-two-handle-earth-auger",
+      "sourceGlbSha256": "ecaa42748b88b957c536c84c0f7e3c8bb5c2241c408a7863ccf85abee70c63b8"
+    },
+    {
+      "archive": {
+        "bytes": 521082,
+        "filename": "city-two-post-vehicle-lift-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b192fc5562b54cfc1d77b01fa9dfa247e0206f247d299fae8e5232cbe89e60dc"
+      },
+      "fbx": {
+        "bytes": 750284,
+        "filename": "city-two-post-vehicle-lift.fbx",
+        "sha256": "6d63ca7e2039e2845059dbae03287b05b07ff07ecff31ed62510449846a4da3a"
+      },
+      "fbxArchive": {
+        "bytes": 630680,
+        "filename": "city-two-post-vehicle-lift-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1277de2f63cdf510a0b8af1357f3143a34939b21718872b10757578306a3c80c"
+      },
+      "id": "city-two-post-vehicle-lift",
+      "sourceGlbSha256": "e1075972d6fd2a2bafb03f2decff99851b369b58416ff5418dcdf270a19efa22"
+    },
+    {
+      "archive": {
+        "bytes": 435252,
+        "filename": "city-two-seat-pedal-boat-1.0.0-minimal-1.0.0.zip",
+        "sha256": "f29259f420930a5c362a506faa5bbed1b4b5fad5c352eb4f792b92953beb931a"
+      },
+      "fbx": {
+        "bytes": 604188,
+        "filename": "city-two-seat-pedal-boat.fbx",
+        "sha256": "7a711229cd84f67fef042f25d698fd8f486b4c13c363b507e24ead16b1f947c5"
+      },
+      "fbxArchive": {
+        "bytes": 538242,
+        "filename": "city-two-seat-pedal-boat-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "31cf13c308edd265df4ea9af9dc01120cbd1e57c5a76f87f9c7499336967fdf0"
+      },
+      "id": "city-two-seat-pedal-boat",
+      "sourceGlbSha256": "15a2c957d2440d1c554e0926a0031b021d3c84682548fe1f102c5e2342420004"
+    },
+    {
+      "archive": {
+        "bytes": 508672,
+        "filename": "city-two-stage-snow-blower-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0e28fa869697e7e0f5d658a31cd908b0f8e20378b33e1b423b0608d4a7dce64c"
+      },
+      "fbx": {
+        "bytes": 701676,
+        "filename": "city-two-stage-snow-blower.fbx",
+        "sha256": "bfe497a17c3b3f0bb1463b84ac3a786db816ab9184f916cd8dfea74e064eb5b2"
+      },
+      "fbxArchive": {
+        "bytes": 633381,
+        "filename": "city-two-stage-snow-blower-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "29de90ecd8f119f63fe6e20e176e09130f5699ad53d17226a1d512e353417494"
+      },
+      "id": "city-two-stage-snow-blower",
+      "sourceGlbSha256": "ca1b2093b0de9ae6e47ef01359f3a742176da5a2419852c630f1cb1ff762826d"
+    },
+    {
+      "archive": {
+        "bytes": 78577,
+        "filename": "city-u-shaped-steel-barrier-1.0.0-minimal-1.0.0.zip",
+        "sha256": "5b497e5cccd6f0f254214ad86a5b93b3d4367e8d9b391fde6beb22952c2a7aac"
+      },
+      "fbx": {
+        "bytes": 120540,
+        "filename": "city-u-shaped-steel-barrier.fbx",
+        "sha256": "4ec3ff5e15f58f50f2775a81ba3096807cbaa48dd36b996883767518dc4ffbb8"
+      },
+      "fbxArchive": {
+        "bytes": 96951,
+        "filename": "city-u-shaped-steel-barrier-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "47aeb6267992671355a6535063b60c389c9f1af3c45afedd0cdd98199ea98095"
+      },
+      "id": "city-u-shaped-steel-barrier",
+      "sourceGlbSha256": "1b6ef53baf8e42f1f7d9b16d10d9b03de81ea2100cd2875ad6dce1f872e86f5e"
+    },
+    {
+      "archive": {
+        "bytes": 396509,
+        "filename": "city-ultrasound-equipment-cart-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0921609dff993868b6353f1623ea7ea157ba998fff9ed886761a1b6b0377e0c1"
+      },
+      "fbx": {
+        "bytes": 559660,
+        "filename": "city-ultrasound-equipment-cart.fbx",
+        "sha256": "387f59a4320c6230a6191cccdf6cd699a8e7bb9a075678dc7ad239d9339f54e7"
+      },
+      "fbxArchive": {
+        "bytes": 491964,
+        "filename": "city-ultrasound-equipment-cart-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "150d3a749b72ef98d531a29fefe30b29f46cd92ae2df7a193868450a00e153eb"
+      },
+      "id": "city-ultrasound-equipment-cart",
+      "sourceGlbSha256": "d5875dfbd230771d9e9cb046b75f894ee45c96bde9a623f8d8c55e7d1df3afdb"
+    },
+    {
+      "archive": {
+        "bytes": 214244,
+        "filename": "city-umbrella-drip-rack-1.0.0-minimal-1.0.0.zip",
+        "sha256": "872fdbd92ff16c5f7451b34bbeafe5b6d79a9572abd87adb95b1ef54c2af4fba"
+      },
+      "fbx": {
+        "bytes": 334204,
+        "filename": "city-umbrella-drip-rack.fbx",
+        "sha256": "6ad4e50029bf74a39fc57b5c325785c63cee0b1f26e79ee69d435e45f69bef5a"
+      },
+      "fbxArchive": {
+        "bytes": 296056,
+        "filename": "city-umbrella-drip-rack-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "14db5473de22a3e6657458aeed8d5e13682f85fda6ec94b4424cb19f595da44e"
+      },
+      "id": "city-umbrella-drip-rack",
+      "sourceGlbSha256": "5f261ef4d94f184ab66da9fb013e92f17eddd48b6e7e621d68bc7015a334d9ca"
+    },
+    {
+      "archive": {
+        "bytes": 441721,
+        "filename": "city-undercounter-dishwasher-1.0.0-minimal-1.0.0.zip",
+        "sha256": "996f7f25729aed5679b47dfd11d2c17a5b22a07a07fa5344880398d869c4636e"
+      },
+      "fbx": {
+        "bytes": 649996,
+        "filename": "city-undercounter-dishwasher.fbx",
+        "sha256": "419eb6193dac76fad85ced9854e4ec8e7018f22179af31d78d369f0571236b80"
+      },
+      "fbxArchive": {
+        "bytes": 573921,
+        "filename": "city-undercounter-dishwasher-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "b7b40842bacb6977a56bf4e72939ff168679220acfa7dbcae91924a736b5d4d1"
+      },
+      "id": "city-undercounter-dishwasher",
+      "sourceGlbSha256": "62531e7a21d6db22b9de8013aed209d6c3d716bd03e74adb811f026b34719861"
+    },
+    {
+      "archive": {
+        "bytes": 245855,
+        "filename": "city-upright-arcade-cabinet-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ae442cd3bf3c9b426323d4f77c60021d03b77fc048c9c5046d9140e488428143"
+      },
+      "fbx": {
+        "bytes": 372076,
+        "filename": "city-upright-arcade-cabinet.fbx",
+        "sha256": "d4fa5dc54c3c2208eb06eaf5e61f2193e747a8cb5ea7d2faa7ca1aff86d97542"
+      },
+      "fbxArchive": {
+        "bytes": 321213,
+        "filename": "city-upright-arcade-cabinet-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c97867b84381ebbb49c279a3b8be01b157ea5999542e4cb44bbe7a85099beecd"
+      },
+      "id": "city-upright-arcade-cabinet",
+      "sourceGlbSha256": "3eca2b8f06e944a475a870ada6b18cef2e2e7e46c5a74727a0fdea3814cdc68d"
+    },
+    {
+      "archive": {
+        "bytes": 276376,
+        "filename": "city-upright-piano-1.0.0-minimal-1.0.0.zip",
+        "sha256": "9c2e9f86e86978c06ba9b443db809e57f69fa18a1277d46363e910e2922ae950"
+      },
+      "fbx": {
+        "bytes": 459708,
+        "filename": "city-upright-piano.fbx",
+        "sha256": "e7e256a3ccfbcbd953bd305740e1ac7da338e9867837716d89052043ce69b4c4"
+      },
+      "fbxArchive": {
+        "bytes": 387539,
+        "filename": "city-upright-piano-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c9f5ad4493e394ffd6625698d7b7d88a7cabdc66385b70fb66c6ed6f6708ee32"
+      },
+      "id": "city-upright-piano",
+      "sourceGlbSha256": "f17d63a4f8866ab08eec4483f964710b9f82dac17ff939ffd508afddeefff311"
+    },
+    {
+      "archive": {
+        "bytes": 238730,
+        "filename": "city-urban-apiary-beehive-1.0.0-minimal-1.0.0.zip",
+        "sha256": "13028e05163ec7b02069ba873742ba5918ea393df0f9a301f3c8a48a146605bb"
+      },
+      "fbx": {
+        "bytes": 416844,
+        "filename": "city-urban-apiary-beehive.fbx",
+        "sha256": "3b6defc86c613943cf727c2f509eda59050f849f262533f96fbbd40a5ec9e83b"
+      },
+      "fbxArchive": {
+        "bytes": 362388,
+        "filename": "city-urban-apiary-beehive-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "1b0a44d0b33daf28a70322f1a599b2cd20e775d6f9d12ca6773001f5fdcc3781"
+      },
+      "id": "city-urban-apiary-beehive",
+      "sourceGlbSha256": "b0b528e9a388c9858f682781c6e76ad74330e80501ec3bb7e44cfe909c9228dd"
+    },
+    {
+      "archive": {
+        "bytes": 2937242,
+        "filename": "city-urban-transit-bus-1.0.0-minimal-1.0.0.zip",
+        "sha256": "1d12b249fcdbc899326a70f90003b681fec054cd84827857e2bb45074bc002c7"
+      },
+      "fbx": {
+        "bytes": 4008444,
+        "filename": "city-urban-transit-bus.fbx",
+        "sha256": "762b9ec78af2e1b0c7497e2fd8530886fac57628638a42b1cf7a45ebe643d7c5"
+      },
+      "fbxArchive": {
+        "bytes": 3425739,
+        "filename": "city-urban-transit-bus-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8f86954a3a11dd2965c57555bdf6ab6e503e4dfa795c2330f70352c3d445eb10"
+      },
+      "id": "city-urban-transit-bus",
+      "sourceGlbSha256": "9b23379449df678250aafb1ac721a4c97e07899ebe5c81bfb6fe3a281704e74b"
+    },
+    {
+      "archive": {
+        "bytes": 647756,
+        "filename": "city-utility-cargo-cart-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fabc17737b424657143bfb8def5b43e31f3cb4578b9235be017053e8ea5deb36"
+      },
+      "fbx": {
+        "bytes": 850252,
+        "filename": "city-utility-cargo-cart.fbx",
+        "sha256": "9affcb66efc7085808ae9b08d602a0e46d286bf57c1d3b979408e830993ea0ca"
+      },
+      "fbxArchive": {
+        "bytes": 724665,
+        "filename": "city-utility-cargo-cart-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "8fdc0e97cc5051cf70b8e3550d216b3ecb8bb66858f2c44d6c64d23d19a9ff7e"
+      },
+      "id": "city-utility-cargo-cart",
+      "sourceGlbSha256": "073647eaf590dcefaa04f8a0c9c4056cb720a0a0fe4c6388e05ea693a151c4e0"
+    },
+    {
+      "archive": {
+        "bytes": 316269,
+        "filename": "city-vertical-band-saw-1.0.0-minimal-1.0.0.zip",
+        "sha256": "b0cccbb2e672e26b5cd05808542dae86bc232146ad5081fa2796bb572b298735"
+      },
+      "fbx": {
+        "bytes": 419580,
+        "filename": "city-vertical-band-saw.fbx",
+        "sha256": "4970e3e7c4c86a7aaf6520aebf67983f965104ffc60d763580df710673c5e0ec"
+      },
+      "fbxArchive": {
+        "bytes": 375701,
+        "filename": "city-vertical-band-saw-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9b2ed8d7ef8c884cac3501551e141ba5d39eed645e80d4697541054307c76f32"
+      },
+      "id": "city-vertical-band-saw",
+      "sourceGlbSha256": "ec16f385c55141ca896550330d6f434b3c9e89053dfbb57645218d20c6af055e"
+    },
+    {
+      "archive": {
+        "bytes": 532465,
+        "filename": "city-vertical-platform-lift-1.0.0-minimal-1.0.0.zip",
+        "sha256": "8a6714a57243d7decb085182dadfbb91410c99cc1131e96bed81b2736dcd1b56"
+      },
+      "fbx": {
+        "bytes": 847772,
+        "filename": "city-vertical-platform-lift.fbx",
+        "sha256": "3778ee9915806fc201c5ae332589c40abb30d65a735157423eda2a804baf545f"
+      },
+      "fbxArchive": {
+        "bytes": 742899,
+        "filename": "city-vertical-platform-lift-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6d4315580e9630c00bbbe2b3d4f21b2e885b47af738c09489a97651f7f4098a6"
+      },
+      "id": "city-vertical-platform-lift",
+      "sourceGlbSha256": "bf2a559d95cd616a133102e8f8988afec71318bf416910ca1f59c1f8f32aa04a"
+    },
+    {
+      "archive": {
+        "bytes": 250524,
+        "filename": "city-vertical-rotisserie-spit-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ec44d167e5e1eac62b4fca8c67861d1ecc2e9f05137b94107bd7af16fc60a750"
+      },
+      "fbx": {
+        "bytes": 379948,
+        "filename": "city-vertical-rotisserie-spit.fbx",
+        "sha256": "91aadebd9509161e7fb9d26e3f656741321f289b26b905d8039e939675412993"
+      },
+      "fbxArchive": {
+        "bytes": 332654,
+        "filename": "city-vertical-rotisserie-spit-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "cbf69f2e35c3e00b0f9ae6f6acafeb9be8e15c1e7342ae7f60270bb92dbdcb60"
+      },
+      "id": "city-vertical-rotisserie-spit",
+      "sourceGlbSha256": "1b8e3d50feb243db61c573b9fa51da292508c76e74183a1a415597a063a7979c"
+    },
+    {
+      "archive": {
+        "bytes": 273437,
+        "filename": "city-w-beam-guardrail-1.0.0-minimal-1.0.0.zip",
+        "sha256": "2f3b32c49df2c2c3693ae0818ae19f25900250610a55a276e5c7049495bcfb91"
+      },
+      "fbx": {
+        "bytes": 345964,
+        "filename": "city-w-beam-guardrail.fbx",
+        "sha256": "bfe1f29cd6c6eb4a91f7c901676879f09261a82008c647aad877d2c30f763992"
+      },
+      "fbxArchive": {
+        "bytes": 299145,
+        "filename": "city-w-beam-guardrail-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "c7e5c083c815678a7a25dc9175d47efeea480ca62c19ae2aa1e2a9d6dceb5887"
+      },
+      "id": "city-w-beam-guardrail",
+      "sourceGlbSha256": "6c6c463780b954cfc79e0ceace2330e6a7f984ac6a093a2e26b1b0396370291a"
+    },
+    {
+      "archive": {
+        "bytes": 719614,
+        "filename": "city-walk-behind-floor-scrubber-1.0.0-minimal-1.0.0.zip",
+        "sha256": "2cbe8ed32c653eda96d501b2c8061ffcf9fe333117d2c91cc7d0888d14d194c6"
+      },
+      "fbx": {
+        "bytes": 863516,
+        "filename": "city-walk-behind-floor-scrubber.fbx",
+        "sha256": "a0f44fb9a487213ba708883db3e217714437928798905407c5c68f8a1b10b943"
+      },
+      "fbxArchive": {
+        "bytes": 775436,
+        "filename": "city-walk-behind-floor-scrubber-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e299625a3da2c270e7c63924e3478280a10f26f023e4cf8b70c3eaf8ef54436c"
+      },
+      "id": "city-walk-behind-floor-scrubber",
+      "sourceGlbSha256": "c45a125370296f13ee31fe56d7a7eb5da77ce1ca3642a08ba47ae93156ac1a94"
+    },
+    {
+      "archive": {
+        "bytes": 151847,
+        "filename": "city-walkthrough-metal-detector-1.0.0-minimal-1.0.0.zip",
+        "sha256": "2f1c3afce2512437db059897fdbeb92a2fa6870c5b7ec8e5fafab1a84e61425f"
+      },
+      "fbx": {
+        "bytes": 251628,
+        "filename": "city-walkthrough-metal-detector.fbx",
+        "sha256": "870671d659d566a5257b7d55d81c76036da11e1c5df3310c6739c70fd11d51e6"
+      },
+      "fbxArchive": {
+        "bytes": 216083,
+        "filename": "city-walkthrough-metal-detector-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "e115f7a603a775e60856ebdef857db76963e4e8165ce7dd0ad0ef46b57834763"
+      },
+      "id": "city-walkthrough-metal-detector",
+      "sourceGlbSha256": "a182b09c726d87470c04cf5a65772aae35d6251bda5708f3df3dec7fcdd4d13d"
+    },
+    {
+      "archive": {
+        "bytes": 297033,
+        "filename": "city-wall-hand-dryer-1.0.0-minimal-1.0.0.zip",
+        "sha256": "d48c48a7d39a287f4d2200aff085c323f53b3c7f8eb3adecefa9e10c773151f0"
+      },
+      "fbx": {
+        "bytes": 434716,
+        "filename": "city-wall-hand-dryer.fbx",
+        "sha256": "4807c3854a404082e7df304ab0e7d94d0e2afc12a0ab2cece714f74d781964a7"
+      },
+      "fbxArchive": {
+        "bytes": 386025,
+        "filename": "city-wall-hand-dryer-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a627bac828c37638b6edc87d385c69d7c89d5bd6ff7eb6438c5e3906fd0bd9dc"
+      },
+      "id": "city-wall-hand-dryer",
+      "sourceGlbSha256": "def17f021c8593707d7693866b1304fd7b8227feec627c2e094b17b63e9deb2a"
+    },
+    {
+      "archive": {
+        "bytes": 181807,
+        "filename": "city-wall-hung-urinal-1.0.0-minimal-1.0.0.zip",
+        "sha256": "ff069cc4b710ad3c898137b7732f3fe2b025c03abccb5082b5c11d8a5602c6aa"
+      },
+      "fbx": {
+        "bytes": 243324,
+        "filename": "city-wall-hung-urinal.fbx",
+        "sha256": "75f07341adecb8e62dd6ef7f08e21bc308209b9858e71da87540ba058e28e240"
+      },
+      "fbxArchive": {
+        "bytes": 211352,
+        "filename": "city-wall-hung-urinal-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "a963f90ab1fed82cbbbc8343656b95573a4e95c43f9dacc27630f267ebe56d55"
+      },
+      "id": "city-wall-hung-urinal",
+      "sourceGlbSha256": "0e08a60c6af1e3353e061ef95fda12d0dc0fff9358bef721aa0c097078b32612"
+    },
+    {
+      "archive": {
+        "bytes": 562565,
+        "filename": "city-wall-irrigation-hose-reel-1.0.0-minimal-1.0.0.zip",
+        "sha256": "fc9404e392f728951825f4f4b202d9be1bc4d154223a8febe26d9b5f2bc06b21"
+      },
+      "fbx": {
+        "bytes": 572972,
+        "filename": "city-wall-irrigation-hose-reel.fbx",
+        "sha256": "8a8c2964bda116553829c402bc2c469a7c29f4eb0fc33f8fff5cdd5fa863486d"
+      },
+      "fbxArchive": {
+        "bytes": 478428,
+        "filename": "city-wall-irrigation-hose-reel-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "7559b37bfc3d85cb505bf52976b7ad70254a4ba0c76f236502e5918d7186c2e8"
+      },
+      "id": "city-wall-irrigation-hose-reel",
+      "sourceGlbSha256": "5ff535b5f964c2a9642f142d6c8a1b2f926b3352aa8c61ea67a579d2f5c88f15"
+    },
+    {
+      "archive": {
+        "bytes": 205327,
+        "filename": "city-wall-mailbox-bank-1.0.0-minimal-1.0.0.zip",
+        "sha256": "cff491baa6db32b9cfc1141c26a07f8ab608a7c477f1ab674067b58ed843a190"
+      },
+      "fbx": {
+        "bytes": 306796,
+        "filename": "city-wall-mailbox-bank.fbx",
+        "sha256": "b2b68c06249d97e8bec846a42e9e9c0be29c5162afbc68524cdcb496fa8e4a91"
+      },
+      "fbxArchive": {
+        "bytes": 258519,
+        "filename": "city-wall-mailbox-bank-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "d83c2cefb683094b8f3b0a126dee9016dbaa768c107e5c9f9b8db1489e221bba"
+      },
+      "id": "city-wall-mailbox-bank",
+      "sourceGlbSha256": "b81b957b195ffda4c145b0fb04350ce07e036f0e2d6147b800c6eeb7fe5f7906"
+    },
+    {
+      "archive": {
+        "bytes": 483761,
+        "filename": "city-wall-shower-set-1.0.0-minimal-1.0.0.zip",
+        "sha256": "7e4e8da37426cd589845f257173b80fd01e1f1fd851c0540afe0df3b0b3229ed"
+      },
+      "fbx": {
+        "bytes": 560524,
+        "filename": "city-wall-shower-set.fbx",
+        "sha256": "85a38d699597ad8ca499d5f6f7c8f4f61657866a0cb3c48ad2cad23bcd70d0fd"
+      },
+      "fbxArchive": {
+        "bytes": 486503,
+        "filename": "city-wall-shower-set-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "f6561e925836fd263ba7aafbb79f4c8e0d6043316d203ba85a97f12628da6b68"
+      },
+      "id": "city-wall-shower-set",
+      "sourceGlbSha256": "eaad60ff8e646d6169b840f4e3846153f6dd9619dbfbc30c59b044a6a53796fd"
+    },
+    {
+      "archive": {
+        "bytes": 362420,
+        "filename": "city-weather-instrument-station-1.0.0-minimal-1.0.0.zip",
+        "sha256": "91c7f20c6e0d86bb0880915ba8d85acd5400b05c5206340615429f65912c6704"
+      },
+      "fbx": {
+        "bytes": 473868,
+        "filename": "city-weather-instrument-station.fbx",
+        "sha256": "abf0fc93bbbae1c1a6990cc300c3356f7d482974253b2819535705598dc6c217"
+      },
+      "fbxArchive": {
+        "bytes": 422358,
+        "filename": "city-weather-instrument-station-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "9056cb58bbf63e6ab4fde1ef0ed0160351af182ad5b69c4a172b1d8b5aed1d14"
+      },
+      "id": "city-weather-instrument-station",
+      "sourceGlbSha256": "8f36dec44da33bc99b00d9d2351727befe96d5dfb8844a353df9cf4af2f8827a"
+    },
+    {
+      "archive": {
+        "bytes": 578948,
+        "filename": "city-welding-machine-cart-1.0.0-minimal-1.0.0.zip",
+        "sha256": "eb2e006f781c1bd9e1c9e194f1e2a8b612db72e7316503445198e87c4341f60e"
+      },
+      "fbx": {
+        "bytes": 771772,
+        "filename": "city-welding-machine-cart.fbx",
+        "sha256": "e1974ec67619f6185dae9d3ce4a782ebfa1e6877b3ba11fed97ea77e29165a02"
+      },
+      "fbxArchive": {
+        "bytes": 680388,
+        "filename": "city-welding-machine-cart-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "21f75884f88be0062109db1776ce513aee3619bcf9bd6b8f5c1469cae6bbf6ba"
+      },
+      "id": "city-welding-machine-cart",
+      "sourceGlbSha256": "a71a12eb37c2c449693547689d4e4ebea0e521b626733f24f37fb298e2341c0c"
+    },
+    {
+      "archive": {
+        "bytes": 713698,
+        "filename": "city-wet-dry-vacuum-1.0.0-minimal-1.0.0.zip",
+        "sha256": "0496d9a05e220be9cb6442e45bd7087a3b92dbb2be6bef887b818e8619cb59ab"
+      },
+      "fbx": {
+        "bytes": 780540,
+        "filename": "city-wet-dry-vacuum.fbx",
+        "sha256": "6d5eb474dfe8bce6af22686ed6a50b6577d9f6e49da77882789af194263c34d2"
+      },
+      "fbxArchive": {
+        "bytes": 669376,
+        "filename": "city-wet-dry-vacuum-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "f40023f633e8bdd3a2dbe1de2b18918469e2ec70e743418b47f7f232258646fd"
+      },
+      "id": "city-wet-dry-vacuum",
+      "sourceGlbSha256": "dd1cb705f73fe090dd7256d765b32df1c8190641ee014cf28b5818ebb97c4aef"
+    },
+    {
+      "archive": {
+        "bytes": 370605,
+        "filename": "city-wet-tile-saw-1.0.0-minimal-1.0.0.zip",
+        "sha256": "92678bcc11661bc5bb03310ef4fa25b877952b06d34d7ff49ab5dddcb1862490"
+      },
+      "fbx": {
+        "bytes": 513804,
+        "filename": "city-wet-tile-saw.fbx",
+        "sha256": "076fc9ee70639f2da89949091a45f456d1d9e51d7b461116a3aa8d5dcc78e2bc"
+      },
+      "fbxArchive": {
+        "bytes": 448859,
+        "filename": "city-wet-tile-saw-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "5f880573470cec905d4e002af7b5fb42d5ccc2c99901d802becf14394ff44dce"
+      },
+      "id": "city-wet-tile-saw",
+      "sourceGlbSha256": "0a6ddc1b4533a287d0dc3ece7bf7e9038ad41a9939df3e8c2dc324c8f131994d"
+    },
+    {
+      "archive": {
+        "bytes": 194412,
+        "filename": "city-wheel-balancing-machine-1.0.0-minimal-1.0.0.zip",
+        "sha256": "c487f786950beb5590622372c622eafd7d2ebb6364296ffd4799999df2bd1cd3"
+      },
+      "fbx": {
+        "bytes": 283676,
+        "filename": "city-wheel-balancing-machine.fbx",
+        "sha256": "100048686ce3dc482a175a30657fec088cb8ba3355a392b5ae923136a547fc40"
+      },
+      "fbxArchive": {
+        "bytes": 248254,
+        "filename": "city-wheel-balancing-machine-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "4fd00fde1fa22f662fbfa7eeed377dd702eb2ed4380071d2ca772ad1f784f754"
+      },
+      "id": "city-wheel-balancing-machine",
+      "sourceGlbSha256": "38b035f66bb55082ef521af5b1acee237d2a83e1950df7d6e90821317dfc9669"
+    },
+    {
+      "archive": {
+        "bytes": 422364,
+        "filename": "city-wheeled-waste-oil-collector-1.0.0-minimal-1.0.0.zip",
+        "sha256": "631120b4421da74513667a67b0ba34737e2957347fed3f7dcbf4fc62878ed49f"
+      },
+      "fbx": {
+        "bytes": 559660,
+        "filename": "city-wheeled-waste-oil-collector.fbx",
+        "sha256": "e5ed7dfa2bd92d23ae815c4f38d38c41b3360fb08d9016f456dec79c9f7bfdfa"
+      },
+      "fbxArchive": {
+        "bytes": 489645,
+        "filename": "city-wheeled-waste-oil-collector-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "db188462855120822db8614da2416e168e6b3b1dc5eaa06e466636939f7a213b"
+      },
+      "id": "city-wheeled-waste-oil-collector",
+      "sourceGlbSha256": "4c7f3c7e0464d8506b0b0213fedea84850122f072a376899ed38e975d7087d26"
+    },
+    {
+      "archive": {
+        "bytes": 226816,
+        "filename": "city-wide-format-roll-plotter-1.0.0-minimal-1.0.0.zip",
+        "sha256": "21e1f7c63c4ccdd68f4eea5efc9d9d89b786c005290b9f834452d1b40cc52aeb"
+      },
+      "fbx": {
+        "bytes": 325436,
+        "filename": "city-wide-format-roll-plotter.fbx",
+        "sha256": "0c783fae43d1b4b14dc67e8942681873e7ff9c9aa9eaae48bb015e657b413c5e"
+      },
+      "fbxArchive": {
+        "bytes": 284115,
+        "filename": "city-wide-format-roll-plotter-1.0.0-fbx-minimal-1.0.0.zip",
+        "sha256": "6c0ff81d0f0e9a9a8fdcbb451db41d92f0fe1df111862a9666c4d3fd1bf7b385"
+      },
+      "id": "city-wide-format-roll-plotter",
+      "sourceGlbSha256": "d0d9a87cc764aa28e683cf2d2b1bde19665c6e812d46caeeac7907b2caac5c00"
+    }
+  ],
+  "packageVersion": "1.0.0",
+  "pipelineSha256": "9c14ed64ff019ef1fc6cdf4d86df1c4504f1cd1a675c4cb1bd4ac3c2f37cb500",
+  "reviewStatus": "reproduced-final",
+  "runtimeSha256": "4209f6e5244f684adc3f54909783cd11f8ade651cd2c48f0dd2556d0277d60f5",
+  "schemaVersion": 1,
+  "sourceInventorySha256": "d7da0e610262b09f5fa7cd7fdad3e8440d3d5a4825e15cbfe13533430c8e4890"
+}

@@ -1,4 +1,4 @@
-const root='https://github.com/Xenoah/meshcopia/releases/download/fbx-minimal-v1.0.0/';
+export const isFbxReleaseTag=tag=>tag==='fbx-minimal-v1.0.0'||typeof tag==='string'&&/^cohort-[a-z][a-z0-9]*(?:-[a-z0-9]+)*-v1\.0\.0$/.test(tag);
 const hash=/^[a-f0-9]{64}$/;
 const size=n=>Number.isSafeInteger(n)&&n>0;
 // Presentation-only selector. Availability is created by trusted same-job prep,
@@ -8,7 +8,8 @@ export function fbxMinimalForAsset(asset,projection){
  const matches=(projection?.formats||[]).filter(x=>x.id===asset.id&&x.assetVersion===asset.version);
  if(matches.length!==1)return undefined;
  const x=matches[0];
- if(x.format!=='FBX'||x.packageVersion!=='1.0.0'||x.selfContained!==true||x.verification?.state!=='published-verified'||x.verification.releaseTag!=='fbx-minimal-v1.0.0')return undefined;
+ if(x.format!=='FBX'||x.packageVersion!=='1.0.0'||x.selfContained!==true||x.verification?.state!=='published-verified'||!isFbxReleaseTag(x.verification.releaseTag))return undefined;
+ const root=`https://github.com/Xenoah/meshcopia/releases/download/${x.verification.releaseTag}/`;
  if(x.direct?.filename!==`${x.id}.fbx`||x.archive?.filename!==`${x.id}-${x.assetVersion}-fbx-minimal-1.0.0.zip`)return undefined;
  for(const f of [x.direct,x.archive])if(f.url!==root+f.filename||!size(f.bytes)||!hash.test(f.sha256))return undefined;
  if(x.notice?.filename!=='LICENSE.txt'||!Array.isArray(x.limitations)||!x.limitations.length)return undefined;

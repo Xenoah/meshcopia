@@ -106,6 +106,8 @@ jobs:
         run: npm run import:all-inbox -- --apply
       - name: Verify durable minimal FBX proof and all public bytes
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - name: Verify independent new-cohort proofs and anonymous bytes
+        run: python3 scripts/prepare-cohort-activation.py --repo "$GITHUB_WORKSPACE"
       - name: Validate, test and build
         run: npm run check
       - name: Verify texture maps, current delivery URLs and Pages budget

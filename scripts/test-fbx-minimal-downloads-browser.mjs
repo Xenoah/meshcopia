@@ -1,3 +1,5 @@
+import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
+const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 // Run from the integrated repository after npm run check. No fixtures or routing
 // substitutions: download checks use actual browser GETs to immutable Releases.
 import {createRequire} from 'node:module';
@@ -13,7 +15,7 @@ const {chromium}=createRequire(path.resolve('package.json'))('@playwright/test')
 const live=process.argv.includes('--live'),root=path.resolve('dist');
 const catalog=JSON.parse(await readFile('dist/api/catalog.json','utf8')).assets;
 const side=JSON.parse(await readFile('dist/api/fbx-minimal-downloads.json','utf8'));
-assert.deepEqual(side.coverage,{publicModels:137,fbxReadyModels:137});assert.equal(side.formats.length,137);assert.deepEqual(side.formats.map(x=>x.id).sort(),catalog.filter(x=>x.type==='model').map(x=>x.id).sort());
+assert.deepEqual(side.coverage,{publicModels:modelCount,fbxReadyModels:modelCount});assert.equal(side.formats.length,modelCount);assert.deepEqual(side.formats.map(x=>x.id).sort(),catalog.filter(x=>x.type==='model').map(x=>x.id).sort());
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.wasm':'application/wasm'};
 const server=createServer(async(req,res)=>{
  try{
@@ -52,7 +54,7 @@ try{
  // Representative plain, textured and large/complex sources. All275 attachment
  // bytes are independently checked by the production build gate; these actual
  // browser clicks establish browser delivery for both buttons in each case.
- for(const id of ['atelier-lamp','commons-bar-stool','yokocho-noh-pavilion']){
+ for(const id of ['atelier-lamp','commons-bar-stool','yokocho-noh-pavilion',...policy.cohorts.map(c=>c.source.models[0].id)]){
   const record=side.formats.find(r=>r.id===id);assert.ok(record);
   await page.goto(home+`assets/${id}/`);
   await page.locator('.fbx-download > summary').click();
@@ -82,5 +84,5 @@ try{
  }
  const nojs=await browser.newContext({javaScriptEnabled:false});const nojsPage=await nojs.newPage();await nojsPage.goto(home+'assets/commons-bar-stool/');await nojsPage.locator('.fbx-download > summary').click();assert.ok(await nojsPage.locator('.download-primary').isVisible());assert.ok(await nojsPage.locator('.direct-formats a.direct-download').isVisible());await nojs.close();
  assert.deepEqual(errors,[]);await writeFile('test-results/fbx-minimal-browser-evidence.json',JSON.stringify(evidence,null,2)+'\n');
- console.log('PASS:137 FBX detail links,6 real browser downloads, mobile and no-JS links.');
+ console.log(`PASS:${side.formats.length} FBX detail links,${evidence.downloads.length} real browser downloads, mobile and no-JS links.`);
 }finally{await browser.close();if(!live)await new Promise(resolve=>server.close(resolve))}

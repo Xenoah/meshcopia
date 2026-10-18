@@ -1,3 +1,5 @@
+import {loadCohortPolicy} from './lib/cohort-policy.mjs';
+const policy=await loadCohortPolicy();
 // Executed on the GitHub Actions runner, not the managed authoring environment.
 import {inspectImageDecode} from './lib/browser-image-check.mjs';
 import {testUsagesBrowser} from './test-usages-browser.mjs';
@@ -150,7 +152,7 @@ try{
   await page.screenshot({path:`test-results/${asset.id}.png`,fullPage:false});
  }
  // Exercise every published original city model in both distributed formats.
- for(const asset of catalog.filter(a=>a.type==='model'&&a.id.startsWith('city-'))){
+ for(const asset of catalog.filter(a=>a.type==='model'&&a.id.startsWith('city-')&&policy.originalIds.includes(a.id))){
   await page.goto(home+`assets/${asset.id}/`);
   await page.waitForSelector('.model-viewer-3d[data-loaded="true"]',{timeout:45000});
   assert.equal(await page.locator('[data-format="glb"]').getAttribute('aria-pressed'),'true');
@@ -180,6 +182,25 @@ try{
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'mobile texture overflow');
   await page.screenshot({path:`test-results/mobile-${id}.png`,fullPage:true});
  }
+ // Verify every newly activated GLB, bounding simultaneous WebGL contexts.
+ const queue=policy.newIds.slice(),cohortPreviews=[];
+ await Promise.all(Array.from({length:3},async()=>{
+  const previewPage=await context.newPage();const failures=[];previewPage.on('pageerror',e=>failures.push(e.message));
+  try{for(let id;(id=queue.shift());){
+   await previewPage.goto(home+`assets/${id}/`,{waitUntil:'domcontentloaded'});
+   await previewPage.waitForSelector('.model-viewer-3d[data-loaded="true"]',{timeout:60000});
+   assert.equal(await previewPage.locator('[data-format="glb"]').getAttribute('aria-pressed'),'true');
+   await previewPage.locator('[data-action="wire"]').click();assert.equal(await previewPage.locator('[data-action="wire"]').getAttribute('aria-pressed'),'true');
+   if(policy.cohorts.some(c=>c.source.models[0].id===id)){
+    await previewPage.locator('[data-format="stl"]').click();
+    await previewPage.waitForFunction(()=>{const r=document.querySelector('.model-viewer-3d');return r.dataset.modelType==='stl'&&r.dataset.loaded==='true'},{},{timeout:60000});
+    await previewPage.screenshot({path:`test-results/new-cohort-${id}.png`});
+   }
+   cohortPreviews.push(id);
+  }assert.deepEqual(failures,[]);}finally{await previewPage.close();}
+ }));
+ assert.deepEqual(cohortPreviews.sort(),policy.newIds);
+ await writeFile('test-results/cohort-previews.json',JSON.stringify({status:'passed',live,ids:cohortPreviews,glbLoaded:true,wireControls:true,rawStlRepresentatives:policy.cohorts.map(c=>c.source.models[0].id)},null,2));
  assert.deepEqual(errors,[]);
  console.log('PASS: desktop/mobile catalog, search, filters, dialog reuse, GLB/STL/OBJ, viewer controls, ZIP, clipboard, repeat/mirror/clamp textures, original PNG download, material sphere and language.');
 }catch(error){await page.screenshot({path:'test-results/failure.png',fullPage:true}).catch(()=>{});throw error}finally{await browser.close();if(!live)server.close()}

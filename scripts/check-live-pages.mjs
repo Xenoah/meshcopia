@@ -1,3 +1,5 @@
+import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
+const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 // Read only: compare the deployed API and anonymous same-origin transport with
 // the exact Pages artifact from this publication run. No routing or mock bytes.
 import assert from 'node:assert/strict';
@@ -6,7 +8,7 @@ import {chromium} from '@playwright/test';
 import {SITE,sha256,measureDist} from './lib/download-browser-contract.mjs';
 const expected=await readFile('dist/api/catalog.json');
 const catalog=JSON.parse(expected);
-assert.equal(catalog.schemaVersion,'3.0.0');assert.equal(catalog.count,173);
+assert.equal(catalog.schemaVersion,'3.0.0');assert.equal(catalog.count,publicCount);
 const dist=await measureDist('dist');
 const browser=await chromium.launch({headless:true});
 try{

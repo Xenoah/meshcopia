@@ -1,0 +1,48 @@
+# 新作281点のサイト反映
+
+対象は既存173点（137モデル＋36テクスチャ）と新作281モデル、計454点。
+新作251点とstage8〜10の追加30点は別の検証証跡を保持します。
+旧232候補は使用していません。dailyモデル123点・テクスチャ19点は、今回
+確認できたmain・リモートref・素材ファイルに対応する成果物がなく対象外です。
+
+## 不変の配布・QA証跡
+
+| 対象 | 最終変換・QA検証 | 配布・匿名取得検証 | Release |
+|---|---|---|---|
+| new251 | [39035757342](https://github.com/Xenoah/meshcopia/actions/runs/39035757342) | [39036941196](https://github.com/Xenoah/meshcopia/actions/runs/39036941196) | [754添付・既存バイト再利用](https://github.com/Xenoah/meshcopia/releases/tag/cohort-new251-v1.0.0) |
+| new30 | [39087547210](https://github.com/Xenoah/meshcopia/actions/runs/39087547210) | [39087785332](https://github.com/Xenoah/meshcopia/actions/runs/39087785332) | [61添付・FBX/FBX ZIP/台帳](https://github.com/Xenoah/meshcopia/releases/tag/cohort-new30-v1.0.0) |
+
+new30はstage8〜10の実ファイルから固定Blender環境で変換・clean-import QA・
+独立検査を実施し、発見実行39087131403と最終実行の全出力ハッシュが一致。
+30 FBX合計6,220,760bytes、FBX ZIP合計5,074,392bytes。
+制作原本ZIP・QAはCI成果物に分離し、通常取得ZIPにはFBXとLICENSE一枚だけを同梱。
+既存Release・元ファイル・履歴・アーカイブ台帳は変更しません。
+
+## サイトと容量
+
+新作のGLBプレビュー計233,991,264bytesはPagesに保持します。新作STL計
+230,416,204bytesは固定stageコミットのGitHub原本URLで提供し、毎回匿名取得と
+SHA-256/サイズを検証します。元ファイルはリポジトリに保持します。
+既存173点の原本URLとテクスチャ単体取得は維持します。
+
+通常FBX ZIPは不変Release、複数選択は同じFBXをPages上のgzipチャンクから
+復元します。選択ZIPにはモデル別フォルダーと共通LICENSE一枚だけが入ります。
+Releaseのfetch CORSに依存しません。未取得サイズの0MB表示はしません。
+
+全体容量の基準は既存173点公開時546,137,684bytes。候補CIは実dist全体を
+計測し、950,000,000bytesを超える場合は公開を停止します。増加量・残余容量は
+CIの`fbx-distribution-size.json`に記録します。候補試験成功だけでは公開済みと
+扱わず、mainの既存公開ワークフローと公開後live検査の成功を別に確認します。
+
+## 検証範囲と制限
+
+ローカル試験は設定、元173点＋追加281点の重複/欠落、不変証跡、同一HEAD/job
+の一回限りの引継ぎ、改変FBX/ZIP/notice、失敗CIの拒否を含みます。
+候補と公開後検査では全新作FBX/ZIPのハッシュ・中身、全418 FBXの実チャンク
+復元、全454点のリンク、全281 GLBのロード、各cohortの実ブラウザー取得、
+既存173点のビューアー/テクスチャ、選択解除・取消・戻る・再試行・実ZIP容量を
+確認します。新旧混在選択ZIPはdesktop/mobileで検査します。
+
+Unity・Godot・VRChat・3Dプリント、実機Safariでの互換性は未検証です。
+FBX材質・透過・裏面カリングはインポーターにより差があり得ます。
+残り容量には限りがあり、未確認の123+19点を無条件で追加できるとは主張しません。

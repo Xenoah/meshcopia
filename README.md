@@ -6,7 +6,7 @@
 
 ![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.3.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.11.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.11.0)。合計173素材（3Dモデル137点とテクスチャ36点）を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.11.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.11.0)。合計454素材（3Dモデル418点とテクスチャ36点）を無料で取得できます。
 
 ## できること
 
@@ -15,7 +15,7 @@
 - GLB / glTF / STL / OBJ / STEPの元形式をプレビュー。Three.js / occt-import-js。FBXは配布用で、今回のブラウザ検証対象は表示ではなくリンクと実ダウンロード。
 - 通常・鏡像リピートの1×1・2×2・4×4確認と球体表示。アトラスは非タイル素材として元の縦横比で表示。
 - 通常のモデルZIPはFBX・必要テクスチャ・短い `LICENSE.txt` 1枚。一括ZIPは素材別フォルダーと共通LICENSE 1枚。テクスチャ単体作品の画像ダウンロードも維持。
-- 公開済み137モデルの検証済みFBX ZIPを通常取得に再利用。GLBはプレビュー、制作原本とQAは別に保持。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があり、UnityやGodotで同じ見た目になるとは保証していません。
+- 既存137モデルと新作281モデルの検証済みFBX ZIPを通常取得に再利用。GLBはプレビュー、制作原本とQAは別に保持。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があり、UnityやGodotで同じ見た目になるとは保証していません。
 - 全素材 **CC BY 4.0**。商用利用・改変・再配布可。作者名・出典・ライセンス・変更点の表示が必要。
 - 認証不要のJSON/NDJSONカタログ、個別マニフェスト、SHA-256、クレジットコピー。
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。
@@ -24,7 +24,7 @@
 
 新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。既存Releaseは変更しません。旧Pagesのfull/models ZIPは生成を終了し、旧URLの互換性は保証しません。制作原本・履歴・過去のハッシュ台帳を保持します。現行取得先は [配布契約](docs/MINIMAL_DOWNLOADS.md) を参照。
 
-> 旧ZIPの重複出力を除いた実ビルドは **546,137,684 bytes**。正規公開ワークフローは950MBの容量ゲートと公開後の実Pages検査を実行します。251点のRelease公開とサイト反映は別作業です。[配布移行の検証記録](docs/FBX_DISTRIBUTION_REVIEW.md)。
+> 既存173点の配布移行時は546,137,684 bytes。新作追加後も実ビルド全体の950MB容量ゲートと公開後の実Pages検査を必須にします。新作251点と追加30点は独立した検証証跡で反映します。[新作反映の検証記録](docs/NEW_ASSETS_ACTIVATION.md)。
 
 ## 収録素材
 

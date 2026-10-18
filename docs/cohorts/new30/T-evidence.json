@@ -1,0 +1,542 @@
+{
+  "assets": [
+    {
+      "anonymousReadback": true,
+      "assetId": 652158688,
+      "bytes": 490567,
+      "name": "city-accordion-sliding-gate-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "1718606246cccc3046f2866070ec40f35b12ba10aa5d437ff858ca14907c2b8a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-accordion-sliding-gate-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652158747,
+      "bytes": 552668,
+      "name": "city-accordion-sliding-gate.fbx",
+      "sha256": "5d0210ed4f95be59d35e678849d16f1ef85be29054bf0e6dfcd303731166a197",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-accordion-sliding-gate.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652158797,
+      "bytes": 294987,
+      "name": "city-bamboo-fence-section-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f68d569f0f5625f661f03acb2b0e0cec46d77bed51e92e3e5b0bdf11addfca08",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-bamboo-fence-section-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652158849,
+      "bytes": 360188,
+      "name": "city-bamboo-fence-section.fbx",
+      "sha256": "9b1b8f85cc62f963b1790b774810212667dd3363df0bee39a09ea3ee8b36fa34",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-bamboo-fence-section.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652158901,
+      "bytes": 71829,
+      "name": "city-bicycle-parking-pay-station-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "383b5446b772537315028ef169f80591a01e4235528366aac6903fcd69283035",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-bicycle-parking-pay-station-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652158930,
+      "bytes": 95228,
+      "name": "city-bicycle-parking-pay-station.fbx",
+      "sha256": "82c24435a0fec58a39fae4f47dea313d829f9464ee0ca9dfbcec795518c7262a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-bicycle-parking-pay-station.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652158979,
+      "bytes": 317898,
+      "name": "city-capsule-toy-vending-machines-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "f35fd0f3e915c15c507ff1e7275774180554faf290ad86cb6ba91198a5537fd4",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-capsule-toy-vending-machines-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159057,
+      "bytes": 379836,
+      "name": "city-capsule-toy-vending-machines.fbx",
+      "sha256": "0aaf4c5081327fd424e8ee1eab88871b2619f3d0ce28a99ac7d848f7fe46eed9",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-capsule-toy-vending-machines.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159114,
+      "bytes": 92299,
+      "name": "city-car-park-pay-station-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a99da53d5c97d6f457b06a5c54b7712f9128128bcafe744e818344b27236c35e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-car-park-pay-station-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159148,
+      "bytes": 131388,
+      "name": "city-car-park-pay-station.fbx",
+      "sha256": "3c800194f9c221eaba9c2cbd769a046e0c6a7d3c7849a7ddc07e01a59a26482e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-car-park-pay-station.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159197,
+      "bytes": 526505,
+      "name": "city-chain-post-barrier-set-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "8eb3df1d38732eb0a25e350814d90da6da2e088ee5d6f5ab2be57eb3acb9a3a0",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-chain-post-barrier-set-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159241,
+      "bytes": 661164,
+      "name": "city-chain-post-barrier-set.fbx",
+      "sha256": "9e777e68df25d1ccb04aef5d7092dd34f45e67ebde61d4608185c0fa96101713",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-chain-post-barrier-set.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159289,
+      "bytes": 234473,
+      "name": "city-coin-locker-bank-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "5d306b357e39f25faf8460df767c61819e6353c9c5f29a507eb9f7368d7c2cf5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-coin-locker-bank-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159333,
+      "bytes": 279740,
+      "name": "city-coin-locker-bank.fbx",
+      "sha256": "ef3f2bf7d1fc13f95dcdee1c5c92e1ffc66c8457ba63a281465b37a0b5cfbdb8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-coin-locker-bank.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159376,
+      "bytes": 198904,
+      "name": "city-concrete-block-wall-with-fence-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "b063f4659a795cf26109620f153bca387e46bfe8b060a6a9971755154d5596d6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-concrete-block-wall-with-fence-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159423,
+      "bytes": 239372,
+      "name": "city-concrete-block-wall-with-fence.fbx",
+      "sha256": "d190987552ab0c4b0996d5b588aa0deae7a72901a7de6ba30ecaee9e706ad6c5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-concrete-block-wall-with-fence.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159486,
+      "bytes": 42945,
+      "name": "city-construction-arrow-board-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "2af0f661b66ab1c80ca0ac90612347ff10a98911a5d712f7c56c89d5fa8f7327",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-construction-arrow-board-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159551,
+      "bytes": 63820,
+      "name": "city-construction-arrow-board.fbx",
+      "sha256": "c09790e7d8036200b374dd56cda99c7df88ad9f974d5c70bb71f7adfd3b20709",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-construction-arrow-board.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159596,
+      "bytes": 138649,
+      "name": "city-disaster-supply-storage-shed-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "0d725f125d0b1631534d804b82e0d4484fa50f4d88056fc2bc0d5558e20902d7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-disaster-supply-storage-shed-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159637,
+      "bytes": 170364,
+      "name": "city-disaster-supply-storage-shed.fbx",
+      "sha256": "fa98ecefa5c08fba154e45c2ae91e2be3d6425ed570c43176ad6fcfa4a84551e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-disaster-supply-storage-shed.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159689,
+      "bytes": 170222,
+      "name": "city-disaster-warning-speaker-pole-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "45f894aa051319df7fbf32e2f6159ecabf1343ec009d75bc6bda17d931788a70",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-disaster-warning-speaker-pole-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159856,
+      "bytes": 201628,
+      "name": "city-disaster-warning-speaker-pole.fbx",
+      "sha256": "b850cdd77d28c80dea1e98722dc7c2a3241b0f69084f5798dc5cf1926195626f",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-disaster-warning-speaker-pole.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159918,
+      "bytes": 129923,
+      "name": "city-divided-park-bench-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a86a85e4fa18db9f02f3a5b500c6ffdfb387a45e2dd2dbb685dea0be1bc7fee6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-divided-park-bench-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652159973,
+      "bytes": 159948,
+      "name": "city-divided-park-bench.fbx",
+      "sha256": "dd7226ea5f24446ecece57c0773dd014ef29898d3d13cde9d2ed28691f03787c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-divided-park-bench.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160022,
+      "bytes": 80050,
+      "name": "city-emergency-call-pillar-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "c208b72a91e7355ace9137a61af5b14271bebfe3592ec0f43a9ad18b42cacc6d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-emergency-call-pillar-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160085,
+      "bytes": 122700,
+      "name": "city-emergency-call-pillar.fbx",
+      "sha256": "bbe392023dc2dbd90d52f818a119192b78b6f4b1fa43774e5c5062b5f126b48c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-emergency-call-pillar.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160149,
+      "bytes": 61210,
+      "name": "city-gas-meter-assembly-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "733c767722284e8d37fa89fbea136c4eae4ae811195f07e6fbd246c3d03e373c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-gas-meter-assembly-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160192,
+      "bytes": 85884,
+      "name": "city-gas-meter-assembly.fbx",
+      "sha256": "6d4e4bd9c2453f9fbe4eec2cdfb076b56eae33fe625c9a9eef4ab1aa793ba45c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-gas-meter-assembly.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160239,
+      "bytes": 43376,
+      "name": "city-hand-sanitizer-stand-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a2b477879b928ffba9db5ae4485436de28a42dd8fffd531e15768b77f4865de2",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-hand-sanitizer-stand-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160306,
+      "bytes": 61436,
+      "name": "city-hand-sanitizer-stand.fbx",
+      "sha256": "da8763666d8ffe8fa1ea186c840559c360a6e8334c0127a04ba286b2fac0dea7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-hand-sanitizer-stand.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160355,
+      "bytes": 77060,
+      "name": "city-hanging-shop-sign-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "947b1c064aa0c7ae7884bd09adb15bdc950f55813fa96eb13ed7bffdf6496abd",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-hanging-shop-sign-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160413,
+      "bytes": 100060,
+      "name": "city-hanging-shop-sign.fbx",
+      "sha256": "bf764891c94cc10b3d54b028149a27d5a67fd78c485f7d8b7231df06df1a0692",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-hanging-shop-sign.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160490,
+      "bytes": 101010,
+      "name": "city-height-limit-gantry-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "9d9c99e5a4b7ea19f250225de2aac3870c7045ef5910d9c74334cd6d02cb6000",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-height-limit-gantry-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160549,
+      "bytes": 131612,
+      "name": "city-height-limit-gantry.fbx",
+      "sha256": "0812ae127d4f0f505814286e8abe5048e81d62a4f95ad392d5e3c690a00ce2f6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-height-limit-gantry.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160591,
+      "bytes": 43759,
+      "name": "city-newspaper-vending-box-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "ae3f7e4b744764c64be6bffdf60a8d9b1b3b35b7104fb1440758bbe595f2ae0a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-newspaper-vending-box-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160645,
+      "bytes": 62204,
+      "name": "city-newspaper-vending-box.fbx",
+      "sha256": "73a8a4fc099b3c14721a3fb6b1344831a04899a7a3fd38e7760ed778fa64ca51",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-newspaper-vending-box.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160707,
+      "bytes": 79306,
+      "name": "city-outdoor-extinguisher-box-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "3a735d792387126f8401ea234563859d555a1f4e809799e4ed55563f35601613",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-outdoor-extinguisher-box-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160756,
+      "bytes": 107180,
+      "name": "city-outdoor-extinguisher-box.fbx",
+      "sha256": "8a7ac5c2587642613b187112f3e4e627351d31bcbb41fdf66aa0656af95fe2fe",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-outdoor-extinguisher-box.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160786,
+      "bytes": 63162,
+      "name": "city-outdoor-power-pedestal-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "a8df8468d9477c0833f359a746e1532dc7a64025c494003c97ffc82f958558b6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-outdoor-power-pedestal-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160829,
+      "bytes": 87180,
+      "name": "city-outdoor-power-pedestal.fbx",
+      "sha256": "3168cd06d4a95fd87b64dbd05595f9ad404e9eb193d5175a6cfb0f3efec25e72",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-outdoor-power-pedestal.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160888,
+      "bytes": 195403,
+      "name": "city-plastic-crate-seating-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "5f2bfaee36fbf787614566446f4ed60832d9596a9b185897c99f257a9a7726e7",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-plastic-crate-seating-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160939,
+      "bytes": 229196,
+      "name": "city-plastic-crate-seating.fbx",
+      "sha256": "d6bf1c8a8e78d4d26072e9c73dc62959cd0625392c948a3ea2daafdc34470a1d",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-plastic-crate-seating.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652160990,
+      "bytes": 85037,
+      "name": "city-pole-mounted-security-light-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "9ccaff2e618ff6b82a90f2537c87cd8c17872477832cc0b280b0e89bb09c4d1b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-pole-mounted-security-light-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161051,
+      "bytes": 106460,
+      "name": "city-pole-mounted-security-light.fbx",
+      "sha256": "a68fc22a7d7159149d088352fefa81ea3002f13f3349cdfd3db83e47a5734a4b",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-pole-mounted-security-light.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161087,
+      "bytes": 59186,
+      "name": "city-residential-gate-pillar-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "599ddfd345c8c6111436aee49784a534d31ced86cb193e63d343793c742ce6f8",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-residential-gate-pillar-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161141,
+      "bytes": 85132,
+      "name": "city-residential-gate-pillar.fbx",
+      "sha256": "88ea9afc2d7c4d0e94c55430bce794bbeefd5480e9de111041b459885259233c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-residential-gate-pillar.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161191,
+      "bytes": 202213,
+      "name": "city-sandbag-stack-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "27f4a693159daae29127e60ce582cb18914ac074c7a0b1d200ca340039d2de18",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-sandbag-stack-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161228,
+      "bytes": 244764,
+      "name": "city-sandbag-stack.fbx",
+      "sha256": "6017f6a8531c57e9fd81421723ed420f8f8c3248dada677d3a637ac04a9fdc4e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-sandbag-stack.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161272,
+      "bytes": 128742,
+      "name": "city-sidewalk-planter-box-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "c49cf05e005f0d000010477cb86e6f34794ece1faef1764f19ef4660ee46443e",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-sidewalk-planter-box-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161321,
+      "bytes": 153836,
+      "name": "city-sidewalk-planter-box.fbx",
+      "sha256": "93079a964dcbda5bffdd04c3d0a269ab79f42251df1503e6f5fb857bdadee6c5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-sidewalk-planter-box.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161380,
+      "bytes": 124470,
+      "name": "city-street-vendor-parasol-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "d1bf4de8f6b1f5c6e320fc02100288199029631395c4aeeb1cd752a1ea7ca414",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-street-vendor-parasol-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161434,
+      "bytes": 151292,
+      "name": "city-street-vendor-parasol.fbx",
+      "sha256": "b25a769d7e59593e94a5d59e44dc7cf565febe28391e8897bcf21905ecaf1051",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-street-vendor-parasol.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161484,
+      "bytes": 199010,
+      "name": "city-temporary-traffic-signal-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "3bd7846d596dd809f71cc4f1e005ed32a64d937170848df073066a0adf93de89",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-temporary-traffic-signal-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161532,
+      "bytes": 240716,
+      "name": "city-temporary-traffic-signal.fbx",
+      "sha256": "9bf69d5148c16d74f6006ad46c245c9fcc98e784a8699f3a31b2b195a4510e5a",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-temporary-traffic-signal.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161576,
+      "bytes": 219179,
+      "name": "city-tree-support-frame-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "24d368ed535453245c39046d64d3be251494d33ecfb9a2e55f96fe3e124a95d6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-tree-support-frame-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161618,
+      "bytes": 256204,
+      "name": "city-tree-support-frame.fbx",
+      "sha256": "d4c4954ec0de285e37fab3fec07049da4dd10fef299857ec273be19395f875c6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-tree-support-frame.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161666,
+      "bytes": 468915,
+      "name": "city-tricycle-coffee-cart-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "be4a259f449447bf42a76153cf3ea377700c89be1a72adcb030699867e92f300",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-tricycle-coffee-cart-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161715,
+      "bytes": 542316,
+      "name": "city-tricycle-coffee-cart.fbx",
+      "sha256": "7cb71493c4ee6bdb9118d9ce1b9313cec047c55429a06774432042df256bbffc",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-tricycle-coffee-cart.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161760,
+      "bytes": 134103,
+      "name": "city-two-tier-bicycle-rack-1.0.0-fbx-minimal-1.0.0.zip",
+      "sha256": "1813f4eb9ac411be6e267c2331833ef69931f905314dea102ee9ac42874c2ec6",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-two-tier-bicycle-rack-1.0.0-fbx-minimal-1.0.0.zip"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161811,
+      "bytes": 157244,
+      "name": "city-two-tier-bicycle-rack.fbx",
+      "sha256": "cd4fd1ca7d4a54dde4b63474fdd07de308f7d87e49705caec43a45816e9888a5",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/city-two-tier-bicycle-rack.fbx"
+    },
+    {
+      "anonymousReadback": true,
+      "assetId": 652161855,
+      "bytes": 49797,
+      "name": "cohort-inventory.json",
+      "sha256": "11ae492bb9a306795a31ce19509d9108d54eab792186389ff7f7e68203a0c06c",
+      "url": "https://github.com/Xenoah/meshcopia/releases/download/cohort-new30-v1.0.0/cohort-inventory.json"
+    }
+  ],
+  "attachmentCount": 61,
+  "browserDownloadEvidence": "not-performed-by-transport",
+  "cohort": "new30",
+  "fCommit": "8bef6f63627e9033ec367d4625739552a1bcc16b",
+  "internalQaVerification": {
+    "blenderRerunByTransport": false,
+    "models": 30,
+    "qaSha256": "b5540dc67fa6a554d7b7ee9e5eae7eb84b323730566fb235460019cdb3210e71",
+    "status": "exact-internal-qa-rechecked"
+  },
+  "inventorySha256": "11ae492bb9a306795a31ce19509d9108d54eab792186389ff7f7e68203a0c06c",
+  "provenance": {
+    "expectedManifestSha256": "62894474d33092611428c7f0d375ab64807408f14e1bf27d9b47b7a21cf05a2a",
+    "fCommit": "8bef6f63627e9033ec367d4625739552a1bcc16b",
+    "inventorySha256": "11ae492bb9a306795a31ce19509d9108d54eab792186389ff7f7e68203a0c06c",
+    "jobId": 117557184763,
+    "payloadArtifact": {
+      "digest": "sha256:db3c0c55c7e1de31ff36074e5d6e1360cba3365132869027aa4e141342ff5cc2",
+      "id": 12121079205,
+      "name": "cohort-new30-8bef6f63627e9033ec367d4625739552a1bcc16b-39087547210-1"
+    },
+    "qaArtifact": {
+      "digest": "sha256:2e1c4a69701ea68b3a613f116e10da071b00041c55ecd8c808f7c0568d17ce7a",
+      "id": 12120984674,
+      "name": "cohort-internal-qa-new30-8bef6f63627e9033ec367d4625739552a1bcc16b-39087547210-1"
+    },
+    "runAttempt": 1,
+    "runId": 39087547210,
+    "runtimeSha256": "4209f6e5244f684adc3f54909783cd11f8ade651cd2c48f0dd2556d0277d60f5",
+    "sourceInventorySha256": "4b2dbcf587e366c2ae40f121094fe7bd9ece9adb108f50cfca715ab541e2f61b"
+  },
+  "releaseId": 416177244,
+  "releaseUrl": "https://github.com/Xenoah/meshcopia/releases/tag/cohort-new30-v1.0.0",
+  "repository": "Xenoah/meshcopia",
+  "schemaVersion": 1,
+  "status": "anonymous-byte-readback-passed",
+  "tag": "cohort-new30-v1.0.0",
+  "transportExecution": {
+    "adapterSha256": {
+      "scripts/cohort/common.py": "73c2c78bd5c8f2f3b5aa57e794c509f74455e2491df4f6af619affb03f5cb48e",
+      "scripts/cohort/transport.py": "f8f813e9415bac2eef84994980527d07ffed65e8250bd428e46a2227be0973e6"
+    },
+    "approvalSha256": "8291cc41521c91f9403ffb6e21c9fe0d91300a39e581550ef6b52ddb7c802f93",
+    "commit": "e7c772f3e3d94d663abd7f263c082473918e6d5a",
+    "jobId": 117557883001,
+    "runAttempt": 1,
+    "runId": 39087785332,
+    "workflowPath": ".github/workflows/release-cohort.yml",
+    "workflowSha256": "7e980f8ce56f7c57672af074d8a889fa9dde35f5feffc973205ab5fe4e6968c0"
+  }
+}

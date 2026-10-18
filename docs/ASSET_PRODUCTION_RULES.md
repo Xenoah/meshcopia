@@ -107,3 +107,17 @@ originals or existing Releases. API v3 exposes model delivery or texture minimal
 downloads only, and current UI/API must not reference retired ZIPs. No separate
 distribution repository/host is created. If capacity fails, stop publication and
 report the actual full-build size. See MINIMAL_DOWNLOADS.md and FBX_DISTRIBUTION_REVIEW.md.
+
+
+## Cohort activation and preview capacity
+
+Original137 verification remains frozen. Additional models require explicit
+source/expected manifests, successful fresh FBX conversion and clean-import QA,
+immutable transport evidence and the separate cohort activation adapter. Reuse
+exact verified FBX bytes when source/version hashes still match. New251 and new30
+are separate proofs and must never be conflated with the retired232 candidate.
+For these cohorts, Pages holds GLB previews and same-origin consumer chunks;
+non-preview production originals remain available at pinned GitHub commit URLs.
+Never substitute those original files for a missing consumer FBX. Keep existing
+source URLs, original files, QA and immutable releases. Measure the complete
+built output and block publication above the950MB operating budget.

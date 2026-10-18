@@ -1,3 +1,5 @@
+import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
+const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 import {primaryDownload} from '../src/lib/downloads.mjs';
 // Full-P regression: use the built, actually activated catalog and shipped JS.
 // No injected catalog, readiness, notices, UI, source responses or ZIP payloads.
@@ -15,7 +17,7 @@ assert.equal(JSON.parse(catalogBytes).schemaVersion,'3.0.0');
 const catalog=await assertActivatedCatalog(JSON.parse(catalogBytes).assets,await readCatalog());
 const dist=await measureDist(root);await mkdir(out,{recursive:true});
 const selected=['studio-chair','sage-terrazzo'].map(id=>{const a=catalog.find(a=>a.id===id);assert.ok(a,id);return a;});
-const evidence={schemaVersion:1,status:'running',sourceCommit:process.env.GITHUB_SHA??null,runId:process.env.GITHUB_RUN_ID??null,runAttempt:process.env.GITHUB_RUN_ATTEMPT??null,release:RELEASE,catalogSha256:sha256(catalogBytes),dist,scope:{builtDist:true,canonicalOriginRemount:!live,liveSite:live,injectedReadiness:false,injectedNoticeText:false,injectedUI:false,originalAssets:173,models:137,textures:36,fbxCoverage:true,new251Coverage:false,publicationPerformedByThisScript:false},links:[],bulk:[],individual:[],screenshots:[],smallSizes:[]};
+const evidence={schemaVersion:1,status:'running',sourceCommit:process.env.GITHUB_SHA??null,runId:process.env.GITHUB_RUN_ID??null,runAttempt:process.env.GITHUB_RUN_ATTEMPT??null,release:RELEASE,catalogSha256:sha256(catalogBytes),dist,scope:{builtDist:true,canonicalOriginRemount:!live,liveSite:live,injectedReadiness:false,injectedNoticeText:false,injectedUI:false,originalAssets:173,publicAssets:publicCount,models:modelCount,textures:36,fbxCoverage:true,cohorts:policy.config.cohorts.map(c=>({name:c.name,models:c.modelCount})),publicationPerformedByThisScript:false},links:[],bulk:[],individual:[],screenshots:[],smallSizes:[]};
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.wasm':'application/wasm','.glb':'model/gltf-binary','.zip':'application/zip'};
 const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
 async function context(options={}){
@@ -44,9 +46,9 @@ try{
  evidence.retiredRequests=await page.evaluate(async urls=>Promise.all(urls.map(async url=>({url,status:(await fetch(url,{cache:'no-store'})).status}))),retired.map(a=>a.url));
  for(const row of evidence.retiredRequests)assert.equal(row.status,404,'Retired ZIP must not be served');
  const cards=await page.locator('#asset-grid [data-card]').evaluateAll(cards=>cards.map(card=>({id:card.querySelector('[data-preview]')?.dataset.preview,zipSize:card.querySelector('.card-zip-size')?.textContent,links:[...card.querySelectorAll('.card-download')].map(a=>({url:a.href,kind:a.dataset.downloadKind}))})));
- assert.equal(cards.length,173);assert.equal(new Set(cards.map(c=>c.id)).size,173);
+ assert.equal(cards.length,publicCount);assert.equal(new Set(cards.map(c=>c.id)).size,publicCount);
  for(const a of catalog){assert.deepEqual(cards.find(c=>c.id===a.id)?.links,[{url:primaryDownload(a).url,kind:primaryDownload(a).kind}],a.id);assert.equal(cards.find(c=>c.id===a.id)?.zipSize,`ZIP容量: ${formatBytes(primaryDownload(a).bytes)}`,a.id+' ZIP bytes');}
- for(const [type,count] of [['all',173],['model',137],['texture',36]])assert.equal(Number(await page.locator(`[data-type-filter="${type}"] small`).textContent()),count);
+ for(const [type,count] of [['all',publicCount],['model',modelCount],['texture',36]])assert.equal(Number(await page.locator(`[data-type-filter="${type}"] small`).textContent()),count);
  // Fetch and parse every real generated detail page without repeatedly loading
  // 173 viewers. Existing test-browser.mjs retains the full viewer regression.
  for(const a of catalog){
@@ -115,9 +117,24 @@ try{
   assert.equal(await smallDownload.failure(),null);const smallFile=`${out}/small-${mode}.zip`;await smallDownload.saveAs(smallFile);
   const smallProof=await verifyBrowserZip(smallFile,small);assert.equal(smallProof.bytes,estimate);
   evidence.smallSizes.push({mode,estimate,display:await counter.textContent(),file:smallFile,...smallProof});
+  await dialog.getByRole('button',{name:'選択解除',exact:true}).click();
+  await dialog.getByRole('button',{name:'閉じる',exact:true}).click();
+  const mixed=['studio-chair','sage-terrazzo',...policy.cohorts.map(c=>c.source.models[0].id)].map(id=>catalog.find(a=>a.id===id));
+  for(const asset of mixed)await page.locator(`[data-asset-select="${asset.id}"]`).check();
+  const mixedEstimate=bundleSizeSummary(mixed).zipBytes;assert.ok(mixedEstimate>0);
+  await expect(counter).toHaveText(`${mixed.length} 件選択 · ZIP 約 ${formatBytes(mixedEstimate)}`);
+  await counter.click();
+  const newSource=mixed[2].downloads.delivery.files[0].fetch.url;
+  await page.route(newSource,fail);await prepare.click();await expect(dialog.getByRole('status')).toContainText('失敗');await expect(save).toHaveCount(0);await page.unroute(newSource,fail);
+  await prepare.click();await expect(save).toBeVisible({timeout:90000});
+  const mixedPending=page.waitForEvent('download');await save.click();const mixedDownload=await mixedPending;
+  assert.equal(await mixedDownload.failure(),null);const mixedFile=`${out}/mixed-cohorts-${mode}.zip`;await mixedDownload.saveAs(mixedFile);
+  const mixedProof=await verifyBrowserZip(mixedFile,mixed);assert.equal(mixedProof.bytes,mixedEstimate);
+  await expect(counter).toHaveText(`${mixed.length} 件選択 · ZIP ${formatBytes(mixedEstimate)}`);
+  evidence.bulk.push({mode,ids:mixed.map(a=>a.id),file:mixedFile,estimate:mixedEstimate,...mixedProof,checks:['original-and-new-cohorts-and-texture','new-cohort-network-failure','retry','exact-size','one-common-license']});
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Horizontal overflow');assert.deepEqual(pageErrors,[]);
   const screenshot=`${out}/${mode}.png`;await page.screenshot({path:screenshot});const bytes=await readFile(screenshot);evidence.screenshots.push({file:screenshot,bytes:bytes.length,sha256:sha256(bytes)});await ctx.close();
  }
- evidence.status='passed';await writeFile(`${out}/report.json`,JSON.stringify(evidence,null,2)+'\n');console.log('Full-P minimal downloads passed: 173 link inventories, 3 real Release downloads, desktop/mobile actual-ready bulk ZIPs.');
+ evidence.status='passed';await writeFile(`${out}/report.json`,JSON.stringify(evidence,null,2)+'\n');console.log(`Full-P downloads passed: ${publicCount} link inventories, 3 real Release downloads, desktop/mobile bulk ZIPs including new cohorts.`);
 }catch(error){evidence.status='failed';evidence.error=error.stack;await writeFile(`${out}/failure.json`,JSON.stringify(evidence,null,2)+'\n');throw error;}
 finally{await browser.close();}
