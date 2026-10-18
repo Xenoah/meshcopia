@@ -7,7 +7,7 @@ import {SITE,sha256,verifyBrowserZip,expectedZipEntries,measureDist} from '../li
 const root=path.resolve('dist'),out='test-results/asset-revisions/browser';await mkdir(out,{recursive:true});
 const document=JSON.parse(await readFile('dist/api/catalog.json')),assets=document.assets;
 assert.equal(document.publicationState,'unpublished-candidate');assert.equal(document.count,455);
-const selected=['garden-arch','household-two-door-refrigerator','city-front-loading-washing-machine','sage-terrazzo'].map(id=>assets.find(a=>a.id===id));
+const selected=['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine','sage-terrazzo'].map(id=>assets.find(a=>a.id===id));
 const entries=expectedZipEntries(selected),estimate=22+entries.reduce((n,e)=>n+e.bytes+76+2*Buffer.byteLength(e.name),0);
 const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),individual:[],bulk:[],previews:[],oldUrls:[]};
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
@@ -25,26 +25,27 @@ try{
   assert.deepEqual(JSON.parse(await page.locator('#catalog-data').textContent()),assets);
   for(const [query,id] of [['冷蔵庫','household-two-door-refrigerator'],['洗濯機','city-front-loading-washing-machine']]){await page.locator('#asset-search').fill(query);await expect(page.locator(`[data-preview="${id}"]`)).toBeVisible()}
   await page.locator('#asset-search').fill('');
-  for(const a of selected)await page.locator(`[data-asset-select="${a.id}"]`).check();
-  const counter=page.locator('#batch-download-bar button'),dialog=page.locator('#batch-selection-dialog');await expect(counter).toHaveText(`4 件選択 · ZIP 約 ${formatBytes(estimate)}`);
+  for(const a of selected){await page.locator(`[data-asset-select="${a.id}"]`).check();const decoded=await page.locator(`[data-card]:has([data-preview="${a.id}"]) img`).evaluate(async im=>{await im.decode();return im.naturalWidth>0&&im.naturalHeight>0});assert.ok(decoded,`Thumbnail decode failed: ${a.id}`)}
+  const counter=page.locator('#batch-download-bar button'),dialog=page.locator('#batch-selection-dialog');await expect(counter).toHaveText(`5 件選択 · ZIP 約 ${formatBytes(estimate)}`);
   await counter.click();await page.goBack();await expect(dialog).toBeHidden();await expect(counter).toBeEnabled();
   await counter.click();await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await counter.click();
   const prepare=dialog.getByRole('button',{name:'選択素材を1 ZIPにまとめる',exact:true}),save=dialog.getByRole('link',{name:'1 ZIPを保存',exact:true}),source=selected[0].downloads.delivery.files[0].fetch.url;
   let release,calls=0;const held=new Promise(resolve=>release=resolve);const hold=async route=>{calls++;await held;await route.abort().catch(()=>{})};await page.route(source,hold);
   await prepare.click();await expect.poll(()=>calls).toBe(1);await dialog.getByRole('button',{name:'キャンセル',exact:true}).click();await expect(dialog.getByRole('status')).toContainText('キャンセルしました');await expect(save).toHaveCount(0);release();await page.unroute(source,hold,{behavior:'wait'});
   const fail=route=>route.abort('failed');await page.route(source,fail);await prepare.click();await expect(dialog.getByRole('status')).toContainText('失敗');await expect(save).toHaveCount(0);await page.unroute(source,fail);
-  await prepare.click();await expect(save).toBeVisible({timeout:90000});await expect(counter).toHaveText(`4 件選択 · ZIP ${formatBytes(estimate)}`);
+  await prepare.click();await expect(save).toBeVisible({timeout:90000});await expect(counter).toHaveText(`5 件選択 · ZIP ${formatBytes(estimate)}`);
   const pending=page.waitForEvent('download');await save.click();const download=await pending,file=`${out}/mixed-${mode}.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);const proof=await verifyBrowserZip(file,selected);assert.equal(proof.bytes,estimate);evidence.bulk.push({mode,estimate,...proof});
-  await dialog.locator('li button').first().click();await expect(counter).toHaveText(/^3 件選択/);await dialog.getByRole('button',{name:'選択解除',exact:true}).click();await expect(dialog.locator('li')).toHaveCount(0);await dialog.getByRole('button',{name:'閉じる',exact:true}).click();
+  await dialog.locator('li button').first().click();await expect(counter).toHaveText(/^4 件選択/);await dialog.getByRole('button',{name:'選択解除',exact:true}).click();await expect(dialog.locator('li')).toHaveCount(0);await dialog.getByRole('button',{name:'閉じる',exact:true}).click();
   for(const id of ['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine']){
    const asset=assets.find(a=>a.id===id);await page.goto(SITE+`assets/${id}/`);await expect(page.locator('.model-viewer-status')).toHaveText('GLB preview',{timeout:60000});
    await page.waitForFunction(()=>[...document.querySelectorAll('canvas')].some(c=>c.width>0&&c.height>0));
    await expect(page.locator('.download-primary')).toHaveAttribute('href',asset.downloads.delivery.archive.url.replace('https://xenoah.github.io',''));
-   if(!mobile&&id!=='city-front-loading-washing-machine'){
+   if(!mobile){
     const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/${id}.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);evidence.individual.push({id,...await verifyBrowserZip(file,[asset],{individual:true})});
    }
    await page.screenshot({path:`${out}/${id}-${mode}.png`});evidence.previews.push({id,mode});
   }
+  if(!mobile){const asset=assets.find(a=>a.id==='sage-terrazzo');await page.goto(SITE+'assets/sage-terrazzo/');const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/sage-terrazzo.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);evidence.individual.push({id:asset.id,...await verifyBrowserZip(file,[asset],{individual:true})})}
   if(!mobile)for(const id of ['garden-arch','wayfinding-sign'])for(const f of assets.find(a=>a.id===id).files.filter(f=>!f.name.includes('1.0.2'))){const response=await page.request.get(f.url);assert.ok(response.ok());const bytes=await response.body();assert.equal(bytes.length,f.bytes);assert.equal(sha256(bytes),f.sha256);evidence.oldUrls.push({url:f.url,bytes:bytes.length,sha256:f.sha256})}
   assert.deepEqual(errors,[]);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await ctx.close();
  }

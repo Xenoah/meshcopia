@@ -30,6 +30,7 @@ jobs:
             debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
             sh -c 'set -eu
               sh scripts/fbx-minimal-verification/setup-runtime.sh
+              /usr/bin/python3.13 scripts/asset-revisions/compare_repairs.py
               /usr/bin/python3.13 scripts/asset-revisions/reproduce_baseline.py --out .cache/asset-revision-qa/original-fbx-attempt2
               /usr/bin/python3.13 scripts/asset-revisions/reproduce_washer.py
               /usr/bin/python3.13 scripts/asset-revisions/prepare_candidates.py --out .cache/asset-revision-qa/candidate-final

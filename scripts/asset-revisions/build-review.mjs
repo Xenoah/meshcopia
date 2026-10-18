@@ -8,6 +8,7 @@ import {readAsset,sha256,attributionFor,SITE} from '../lib/catalog.mjs';
 import {prepareDeliveryPayloads} from '../lib/delivery-chunks.mjs';
 import {DELIVERY_POLICY,deliveryReadiness} from '../../src/lib/delivery.mjs';
 const input=path.resolve(process.argv[2]??'.cache/asset-revision-qa/candidate-final');
+const lockCheck=spawnSync('python3',['scripts/asset-revisions/verify_lock.py'],{stdio:'inherit'});assert.equal(lockCheck.status,0);
 const manifest=JSON.parse(await readFile(path.join(input,'candidate-packages.json')));
 assert.equal(manifest.publicationState,'unpublished-candidate');
 assert.deepEqual(manifest.records.map(r=>r.id).sort(),['garden-arch','household-two-door-refrigerator','wayfinding-sign']);

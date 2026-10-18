@@ -68,6 +68,10 @@ the frozen FBX exporter writes `CullingOff`, so targets may need culling enabled
 The geometry is checked with culling enabled rather than relying on that flag.
 Unity, Godot, manufacturing, collision/LOD and 3D printing are not certified.
 
+Review images: [starter before/after](asset-revisions/starter-winding-comparison.webp)
+and [actual appliance GLB/FBX](asset-revisions/appliances-fbx-glb.webp).
+These sheets use local actual renders; fresh CI captures remain separate artifacts.
+
 ## Separate review build
 
 1. Run `.github/workflows/verify-asset-revisions.yml` on the dedicated branch.
