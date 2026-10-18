@@ -109,6 +109,9 @@ These sheets use local actual renders; fresh CI captures remain separate artifac
    work. A separate dependent runner downloads that exact commit's build and
    performs the browser tests. This preserves evidence if a runner is stopped;
    artifact upload does not publish the candidate to Pages or Releases.
+   Compare the embedded page catalog with the API by unique ID, checking every
+   complete record. The page sorts by type/title while the API keeps source
+   order, so array-order equality is not a valid catalog check.
 
 The last published dist was 933,823,099 bytes, with 16,176,901 bytes of operating
 headroom. New measured baseline/candidate reports are CI artifacts; do not reuse

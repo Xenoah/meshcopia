@@ -2,6 +2,7 @@ import {chromium,expect} from '@playwright/test';
 import {readFile,writeFile,mkdir,stat} from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import {isDeepStrictEqual} from 'node:util';
 import {formatBytes} from '../../src/lib/file-size.mjs';
 import {SITE,sha256,verifyBrowserZip,expectedZipEntries,measureDist} from '../lib/download-browser-contract.mjs';
 const root=path.resolve('dist'),out='test-results/asset-revisions/browser';await mkdir(out,{recursive:true});
@@ -23,7 +24,12 @@ try{
   await page.goto(SITE);await expect(page.locator('#batch-download-bar')).toBeVisible();
   console.log(`REVIEW_BROWSER_STAGE ${mode} catalog-loaded`);
   assert.equal(await page.locator('#asset-grid [data-card]').count(),455);assert.equal(await page.locator('[role="note"]').textContent(),'未公開の検証ビルド — 修正版と冷蔵庫の候補。公開サイトへの反映は未実施です。');
-  assert.deepEqual(JSON.parse(await page.locator('#catalog-data').textContent()),assets);
+  // The page sorts public entries by type/title; the API retains source order.
+  // Compare every complete record by ID, without formatting megabytes of array diff.
+  const embedded=JSON.parse(await page.locator('#catalog-data').textContent()),byId=new Map(embedded.map(a=>[a.id,a]));
+  assert.equal(embedded.length,assets.length);assert.equal(byId.size,assets.length);
+  for(const a of assets)assert.ok(isDeepStrictEqual(byId.get(a.id),a),`Embedded catalog differs for ${a.id}`);
+  console.log(`REVIEW_BROWSER_STAGE ${mode} all-records-verified-by-id`);
   for(const [query,id] of [['冷蔵庫','household-two-door-refrigerator'],['洗濯機','city-front-loading-washing-machine']]){await page.locator('#asset-search').fill(query);await expect(page.locator(`[data-preview="${id}"]`)).toBeVisible();console.log(`REVIEW_BROWSER_STAGE ${mode} search-verified ${id}`)}
   await page.locator('#asset-search').fill('');
   for(const a of selected){console.log(`REVIEW_BROWSER_STAGE ${mode} selecting ${a.id}`);await page.locator(`[data-asset-select="${a.id}"]`).check();const decoded=await page.locator(`[data-card]:has([data-preview="${a.id}"]) img`).evaluate(async im=>{await Promise.race([im.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Thumbnail decode timed out: '+im.currentSrc)),20000))]);return im.naturalWidth>0&&im.naturalHeight>0});assert.ok(decoded,`Thumbnail decode failed: ${a.id}`);console.log(`REVIEW_BROWSER_STAGE ${mode} thumbnail-verified ${a.id}`)}
