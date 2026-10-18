@@ -249,3 +249,15 @@ regressions, load all281 new GLBs, verify all418 FBX links, sample actual consum
 ZIP/raw downloads from each cohort, and check mixed-cohort ZIP contents and exact
 sizes on desktop/mobile. Full dist must remain below950,000,000bytes; future asset
 additions require renewed capacity measurement. See NEW_ASSETS_ACTIVATION.md.
+## 修正版の配布と公開の確認
+
+[修正候補のレビュー手順](ASSET_REVISION_REVIEW.md)では、FBXと短いLICENSE
+のみの候補ZIPを別ビルドで確認する。必要画像は検証済みFBXに内包する。
+`local-review-verified` は公開済みReleaseを意味せず、通常ビルドは拒否する。
+複数選択ZIPのモデル別フォルダー、共通LICENSE一枚、実バイト数の規則は同じ。
+レビュー用FBX/ZIPも含めた全distを950,000,000バイトの既存ゲートで測定する。
+承認済み3点の本番配布は [ASSET_REVISION_PUBLICATION.md](ASSET_REVISION_PUBLICATION.md)
+の独立した有効化証跡に従う。既存454-IDコホートの検証後、2点をバージョン更新し
+冷蔵庫1点を追加する。本番は455点・モデル419点・テクスチャ36点となる。
+旧版の原本・公開URL・Releaseを保持し、新版も同一オリジンの検証済み断片から
+一括ZIPを作る。ReleaseへのブラウザfetchのCORS成功を前提にしない。

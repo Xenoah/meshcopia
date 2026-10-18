@@ -15,3 +15,5 @@ __pycache__/
 *.pyc
 .cache/
 public/download-data/
+public/review-packages/
+asset-revisions/**/production/*.blend1

@@ -1,0 +1,48 @@
+{
+  "id": "garden-arch",
+  "version": "1.0.2",
+  "publicationState": "unpublished-candidate",
+  "sourceFile": "garden-arch-1.0.2.glb",
+  "sourceSha256": "3c463603a0d84ecec31890f19a303ea0ffd50642ba905a47d68558b9ed7cdaa5",
+  "change": {
+    "primitive": 2,
+    "reason": "Reverse only the inward curved strip and remove the four concealed pillar-top triangles at the matching interfaces, making one continuous closed arch surface. Preserve all vertex coordinates and the walk-through opening.",
+    "beforeTriangles": 216,
+    "afterTriangles": 212
+  },
+  "audit": {
+    "file": "source/garden-arch-1.0.2.glb",
+    "bytes": 22340,
+    "sha256": "3c463603a0d84ecec31890f19a303ea0ffd50642ba905a47d68558b9ed7cdaa5",
+    "nodes": [
+      {
+        "node": 0,
+        "name": "garden-arch",
+        "localDeterminant": 1.0
+      }
+    ],
+    "doubleSidedMaterials": [],
+    "parts": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "material": 3,
+        "triangles": 212,
+        "nonFiniteCoordinates": 0,
+        "degenerateFaces": 0,
+        "minStoredNormalDotFaceNormal": 0.999999999998571,
+        "components": [
+          {
+            "triangles": 212,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "inconsistentWindingEdges": 0,
+            "closedOriented": true,
+            "signedVolumeMeters3": 0.34046905636374536,
+            "orientation": "outward"
+          }
+        ]
+      }
+    ]
+  }
+}

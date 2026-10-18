@@ -1,0 +1,123 @@
+{
+  "publicationState": "unpublished-candidate",
+  "baseCommit": "fd595dfdc8b17fe515a618bf2f309e9cc61a7491",
+  "records": [
+    {
+      "id": "garden-arch",
+      "assetVersion": "1.0.2",
+      "metadataSha256": "0fb86ee89959d2d4bab44aee46bad49eb43dffb634beb10a7ad181a4172aa6f7",
+      "sourceGlbSha256": "3c463603a0d84ecec31890f19a303ea0ffd50642ba905a47d68558b9ed7cdaa5",
+      "fbxBytes": 21884,
+      "fbxSha256": "d3931d17cb06f43b86b50c151098c5ca53bc4865acc272733e2f080d16605e31",
+      "archiveBytes": 11591,
+      "archiveSha256": "c67aa01c9653fbda79e1ec0926c01dfa5b652a1b6c20c9155c1f0bc73ac87428",
+      "noticeBytes": 611,
+      "noticeSha256": "c68f8c6f41446ce9a7d93d611aea385b417f90e964ad270966b38585d56e958d",
+      "retainedFiles": [
+        {
+          "path": "asset.json",
+          "bytes": 2404,
+          "sha256": "0fb86ee89959d2d4bab44aee46bad49eb43dffb634beb10a7ad181a4172aa6f7"
+        },
+        {
+          "path": "preview.webp",
+          "bytes": 5448,
+          "sha256": "0989a25479f404cf50411579370c1ecc83e48c7fdfffad60c47c6d505bb2ba50"
+        },
+        {
+          "path": "production/garden-arch.blend",
+          "bytes": 455492,
+          "sha256": "ee169a7af87b09ea7f99e5e7e25148656cdf3e55163d389019358cdd39dae81f"
+        },
+        {
+          "path": "repair-evidence.json",
+          "bytes": 1449,
+          "sha256": "84f9480690520bff59f765973deac7bc657b35ce9c4909f0d3feb78d4a4e78b6"
+        },
+        {
+          "path": "source/garden-arch-1.0.2.glb",
+          "bytes": 22340,
+          "sha256": "3c463603a0d84ecec31890f19a303ea0ffd50642ba905a47d68558b9ed7cdaa5"
+        }
+      ]
+    },
+    {
+      "id": "household-two-door-refrigerator",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3228a999ff0eb20de0cf1732ef49668c37c0a323557630b7a0843d6ad8f5e1d9",
+      "sourceGlbSha256": "f7cde544d92d3c61998fd1ce11f9c3f8151e6a1b2dd97bb27039810ed186ac22",
+      "fbxBytes": 688844,
+      "fbxSha256": "1f4dcdb20c053d68a81077a30498acc683a5549e88e87a930bb65535f6f07fb9",
+      "archiveBytes": 261956,
+      "archiveSha256": "63719176a820ab252623c3e831321429a6638975dbd1b750298c402929b546f6",
+      "noticeBytes": 415,
+      "noticeSha256": "6888856840d63004e6f69a3f1fd388f9dd26f67298c0cdf0b3f7fdd71884843e",
+      "retainedFiles": [
+        {
+          "path": "asset.json",
+          "bytes": 2800,
+          "sha256": "3228a999ff0eb20de0cf1732ef49668c37c0a323557630b7a0843d6ad8f5e1d9"
+        },
+        {
+          "path": "preview.webp",
+          "bytes": 8096,
+          "sha256": "8d527ca20dccdced17f40e016a365ee449c17a15be2687d3f0be977a1a53e897"
+        },
+        {
+          "path": "production/control-panel.png",
+          "bytes": 3922,
+          "sha256": "f1a26c0c2c1dd59ffe52daee971d20f72734bfcaddefc8476d602104570f22fb"
+        },
+        {
+          "path": "production/household-two-door-refrigerator.blend",
+          "bytes": 1707968,
+          "sha256": "79d06f24c007386a8089139713a514b1bb599cc95854a1c24b6c5cd2ffc6a1b5"
+        },
+        {
+          "path": "source/household-two-door-refrigerator.glb",
+          "bytes": 753304,
+          "sha256": "f7cde544d92d3c61998fd1ce11f9c3f8151e6a1b2dd97bb27039810ed186ac22"
+        }
+      ]
+    },
+    {
+      "id": "wayfinding-sign",
+      "assetVersion": "1.0.2",
+      "metadataSha256": "6386beba8f9d24cb53a57a9f03319a257bb35bd6a3dc75336f025d1a9c5b4cc6",
+      "sourceGlbSha256": "9bca4e0f705cee48aab5181863c4cb4f4f7b942931bd402b6022072c12e546fc",
+      "fbxBytes": 68620,
+      "fbxSha256": "284cf9ab09738be2c3ab234e84e05b5d5b487182267e51b7d66ac3dc5e9d17cd",
+      "archiveBytes": 48888,
+      "archiveSha256": "85225322514fbae39115ccddf5cc45c08c40a1854172e8975118e08d3ee0acfa",
+      "noticeBytes": 561,
+      "noticeSha256": "67ab93ffcef951d7e1802cac0aba525bd4d8e78d08f438367d21718a89e05352",
+      "retainedFiles": [
+        {
+          "path": "asset.json",
+          "bytes": 2378,
+          "sha256": "6386beba8f9d24cb53a57a9f03319a257bb35bd6a3dc75336f025d1a9c5b4cc6"
+        },
+        {
+          "path": "preview.webp",
+          "bytes": 11138,
+          "sha256": "4db51eafad2bdf10359c6648de7bd6cccc0b7654a29cb7328af86a8d40a92e6a"
+        },
+        {
+          "path": "production/wayfinding-sign.blend",
+          "bytes": 666148,
+          "sha256": "fa7e994bf7600f8e803c0f11b25e568a6ec0d7f6d23cf777c3676a03c6f51a8e"
+        },
+        {
+          "path": "repair-evidence.json",
+          "bytes": 3078,
+          "sha256": "f08e534327b7fb6b29d13f6c01f983ba789c97a51d7e80a954638c677bf613aa"
+        },
+        {
+          "path": "source/wayfinding-sign-1.0.2.glb",
+          "bytes": 139992,
+          "sha256": "9bca4e0f705cee48aab5181863c4cb4f4f7b942931bd402b6022072c12e546fc"
+        }
+      ]
+    }
+  ]
+}

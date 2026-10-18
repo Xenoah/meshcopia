@@ -1,0 +1,56 @@
+{
+  "id": "household-two-door-refrigerator",
+  "type": "model",
+  "title": "家庭用2ドア冷蔵庫",
+  "titleEn": "Household two-door refrigerator",
+  "description": "幅0.60mのオリジナル家庭用冷蔵庫。上扉・下段冷凍引出し、実際に空いた庫内、棚・野菜室・ドアポケット、ガスケット、ハンドル、背面コンプレッサーと配管、放熱管、電源コード、調整脚を収録。上扉は独立したヒンジ原点を保持し、標準状態は閉扉。表示パネルに自作512pxテクスチャを使用。棚・ポケットは不透明な淡色樹脂表現。冷却・電装・扉操作の実行ロジックは含みません。製造設計・安全性・3Dプリントは未検証。",
+  "descriptionEn": "Original 0.60m-wide domestic refrigerator with separate upper door and lower freezer front, real empty compartments, shelves, crispers, door pockets, gaskets, handles, rear compressor and pipes, condenser, stowed power lead and levelling feet. The upper door retains an editable hinge pivot; the delivered pose is closed. Includes an original 512px control-panel atlas. Shelves and pockets use opaque tinted-plastic representations. Static appearance asset; no cooling, electrical or door-control logic. Not verified for manufacturing, safety or 3D printing.",
+  "category": "furniture",
+  "tags": [
+    "refrigerator",
+    "fridge",
+    "冷蔵庫",
+    "家電",
+    "kitchen",
+    "キッチン",
+    "furniture",
+    "household"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.0",
+  "status": "public",
+  "created": "2026-10-18",
+  "updated": "2026-10-18",
+  "thumbnail": "preview.webp",
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 11432,
+  "dimensions": [
+    0.601,
+    1.85,
+    0.775
+  ],
+  "preview": "household-two-door-refrigerator.glb",
+  "uv": "UV0 per part; dedicated original 512px control-panel atlas. Other surfaces use solid PBR materials. No UV2, collider, LOD or animation.",
+  "provenance": {
+    "method": "AI-agent-authored original procedural geometry and texture",
+    "tool": "Meshcopia appliance recipe 1 / Blender 4.3.2",
+    "rights": "Original geometry and control-panel artwork for Meshcopia. No third-party model, photograph, brand or certification mark."
+  },
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia appliance revision",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/asset-revisions/build_refrigerator.py",
+        "scripts/asset-revisions/make_appliance_texture.py"
+      ],
+      "selectors": [
+        "household-two-door-refrigerator"
+      ],
+      "context": "Original domestic appliance for this library, with retained editable Blender production source."
+    }
+  ]
+}

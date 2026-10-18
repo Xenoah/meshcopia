@@ -1,5 +1,5 @@
-import {loadCohortPolicy} from './lib/cohort-policy.mjs';
-const policy=await loadCohortPolicy();
+import {loadProductionPolicy} from './lib/production-catalog.mjs';
+const policy=await loadProductionPolicy();
 // Executed on the GitHub Actions runner, not the managed authoring environment.
 import {inspectImageDecode} from './lib/browser-image-check.mjs';
 import {testUsagesBrowser} from './test-usages-browser.mjs';

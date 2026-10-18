@@ -1,5 +1,5 @@
-import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
-const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
+import {loadProductionPolicy,assertPublicationScope} from './lib/production-catalog.mjs';
+const policy=await loadProductionPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 // Run from the integrated repository after npm run check. No fixtures or routing
 // substitutions: download checks use actual browser GETs to immutable Releases.
 import {createRequire} from 'node:module';

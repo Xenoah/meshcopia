@@ -60,11 +60,11 @@ const related=data.filter(b=>b.id!==a.id&&b.type===a.type&&b.status==='public').
     {directFiles.map(file=><a class="direct-download" href={downloadHref(file.url)} download title={file.name}><span>{file.format}<span data-ja=" ファイル" data-en=" file"> ファイル</span>{directFiles.filter(f=>f.format===file.format).length>1&&<small> · {file.name}</small>}</span><small>{bytes(file.bytes)} <Icon name="download" size={15}/></small></a>)}
     <p class="download-help" data-ja="関連ファイルが必要な形式はZIPをご利用ください。個別ファイルにもクレジット表記が必要です。" data-en="Use the ZIP for formats that need companion files. Individual files still require attribution.">関連ファイルが必要な形式はZIPをご利用ください。個別ファイルにもクレジット表記が必要です。</p>
    </section>}
-   {fbx&&<details class="fbx-download"><summary data-ja="FBXの仕様・互換性" data-en="FBX specifications and compatibility">FBXの仕様・互換性</summary>
+   {(fbx||download?.kind==='fbx')&&<details class="fbx-download"><summary data-ja="FBXの仕様・互換性" data-en="FBX specifications and compatibility">FBXの仕様・互換性</summary>
     <p class="download-help" data-ja="通常ZIPと一括ZIPは同じ検証済みFBXを使用します。" data-en="Ordinary and selected ZIPs use the same verified FBX payload.">通常ZIPと一括ZIPは同じ検証済みFBXを使用します。</p>
     <p class="download-help" data-ja="画像を内包した静的モデル・m単位・Y-up。単体ファイルにもクレジット表記が必要です。" data-en="Static model with embedded images, meter units and Y-up. Standalone files also require attribution.">画像を内包した静的モデル・m単位・Y-up。単体ファイルにもクレジット表記が必要です。</p>
     <p class="download-help fbx-compatibility" data-ja="FBXの材質・透過・裏面カリングは読み込み先によって変わる場合があります。GLBはプレビュー用に保持しています。UnityやGodotで同じ見た目になることは保証していません。" data-en="FBX materials, transparency and face culling can vary by importer. GLB is retained for previews. Matching appearance in Unity or Godot is not guaranteed.">FBXの材質・透過・裏面カリングは読み込み先によって変わる場合があります。GLBはプレビュー用に保持しています。UnityやGodotで同じ見た目になることは保証していません。</p>
-    <ul>{fbx.limitations.map(text=><li>{text}</li>)}</ul><pre>{fbx.notice.text}</pre>
+    {fbx&&<ul>{fbx.limitations.map(text=><li>{text}</li>)}</ul>}{fbx?<pre>{fbx.notice.text}</pre>:<pre>{a.downloads.delivery.notice.text}</pre>}
    </details>}
    <div class="license-note"><Icon name="check" size={17}/><p data-ja="商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。" data-en="Commercial use, modification and redistribution allowed. Credit the creator, link the license and indicate changes.">商用利用・改変・再配布OK。作者名、ライセンスへのリンク、変更内容の表示をお願いします。</p></div></div>
    <div class="credit-card"><div><h2 data-ja="クレジット表記" data-en="Attribution">クレジット表記</h2><button class="text-button" data-copy={a.attribution}><Icon name="copy" size={15}/><span data-ja="コピー" data-en="Copy">コピー</span></button></div><pre>{a.attribution}</pre><a href={`${base}/license/`} data-ja="ライセンスを確認 →" data-en="Read the license →">ライセンスを確認 →</a></div>

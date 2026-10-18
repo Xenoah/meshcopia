@@ -1,0 +1,32 @@
+name: Publish approved starter and appliance FBX revision
+on:
+  push:
+    branches: [codex/repair-starters-add-appliances]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  transport:
+    if: github.repository == 'Xenoah/meshcopia' && github.ref == 'refs/heads/codex/repair-starters-add-appliances' && (contains(github.event.head_commit.message, '[release-revisions]') || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: asset-revision-review-4d537fad080c50ec18f3e515695f4f9f582351c5
+          run-id: 39129140683
+          github-token: ${{ github.token }}
+          path: .cache/approved-review/
+      - name: Publish only the approved exact seven attachments and read all bytes anonymously
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/asset-revisions/publication.py .cache/approved-review
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: asset-revision-publication-${{ github.sha }}-${{ github.run_attempt }}
+          path: test-results/asset-revisions/publication.json

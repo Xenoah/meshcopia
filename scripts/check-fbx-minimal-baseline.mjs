@@ -1,5 +1,5 @@
-import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
-const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
+import {loadProductionPolicy,assertPublicationScope} from './lib/production-catalog.mjs';
+const policy=await loadProductionPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 // Migration successor to the original API byte-compatibility check.
 // API v3 deliberately retires Pages ZIP URLs, while retaining original sources,
 // historical archive records and immutable public Release attachments.

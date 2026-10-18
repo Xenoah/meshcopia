@@ -1,5 +1,5 @@
-import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
-const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
+import {loadProductionPolicy,assertPublicationScope} from './lib/production-catalog.mjs';
+const policy=await loadProductionPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 import {primaryDownload} from '../src/lib/downloads.mjs';
 // Full-P regression: use the built, actually activated catalog and shipped JS.
 // No injected catalog, readiness, notices, UI, source responses or ZIP payloads.
@@ -8,13 +8,13 @@ import assert from 'node:assert/strict';
 import {readFile,writeFile,mkdir,stat} from 'node:fs/promises';
 import path from 'node:path';
 import {formatBytes,bundleSizeSummary} from '../src/lib/file-size.mjs';
-import {readCatalog} from './lib/catalog.mjs';
+import {readProductionCatalog} from './lib/production-catalog.mjs';
 import {SITE,RELEASE,sha256,assertActivatedCatalog,expectedDetail,verifyBrowserZip,measureDist} from './lib/download-browser-contract.mjs';
 
 const live=process.argv.includes('--live'),root=path.resolve('dist'),out='test-results/minimal-p-downloads';
 const catalogBytes=await readFile(path.join(root,'api/catalog.json'));
 assert.equal(JSON.parse(catalogBytes).schemaVersion,'3.0.0');
-const catalog=await assertActivatedCatalog(JSON.parse(catalogBytes).assets,await readCatalog());
+const catalog=await assertActivatedCatalog(JSON.parse(catalogBytes).assets,await readProductionCatalog());
 const dist=await measureDist(root);await mkdir(out,{recursive:true});
 const selected=['studio-chair','sage-terrazzo'].map(id=>{const a=catalog.find(a=>a.id===id);assert.ok(a,id);return a;});
 const evidence={schemaVersion:1,status:'running',sourceCommit:process.env.GITHUB_SHA??null,runId:process.env.GITHUB_RUN_ID??null,runAttempt:process.env.GITHUB_RUN_ATTEMPT??null,release:RELEASE,catalogSha256:sha256(catalogBytes),dist,scope:{builtDist:true,canonicalOriginRemount:!live,liveSite:live,injectedReadiness:false,injectedNoticeText:false,injectedUI:false,originalAssets:173,publicAssets:publicCount,models:modelCount,textures:36,fbxCoverage:true,cohorts:policy.config.cohorts.map(c=>({name:c.name,models:c.modelCount})),publicationPerformedByThisScript:false},links:[],bulk:[],individual:[],screenshots:[],smallSizes:[]};

@@ -1,3 +1,5 @@
+import {readProductionCatalog,loadProductionPolicy,originalThumbnailUrl,revisionIds} from './lib/production-catalog.mjs';
+import {prepareRevisionDownloads} from './asset-revisions/activation.mjs';
 import {prepareDeliveryPayloads} from './lib/delivery-chunks.mjs';
 import {prepareCohortDownloads} from './lib/cohort-downloads.mjs';
 import {bindDelivery} from './lib/delivery.mjs';
@@ -10,15 +12,23 @@ import { readCatalog, attributionFor, sha256, SITE, LICENSE_URL } from './lib/ca
 import {primaryDownload} from '../src/lib/downloads.mjs';
 import assert from 'node:assert/strict';
 
-const assets = await readCatalog(); // Validate before changing generated output.
-const verifiedFbx = [...await prepareFbxMinimalDownloads(assets),...await prepareCohortDownloads(assets)];
+assert.notEqual(process.env.PUBLIC_ASSET_REVIEW,'1','Production generation refuses review mode; use the separate asset revision review builder.');
+
+const baseAssets = await readCatalog(); // Validate before changing generated output.
+const baseFbx = [...await prepareFbxMinimalDownloads(baseAssets),...await prepareCohortDownloads(baseAssets)];
+const assets=await readProductionCatalog(baseAssets), policy=await loadProductionPolicy();
+const revisions=await prepareRevisionDownloads(assets);
+const verifiedFbx=[...baseFbx.filter(r=>!revisions.some(x=>x.id===r.id)),...revisions];
 assert.equal(new Set(verifiedFbx.map(r=>r.id)).size,verifiedFbx.length,'Duplicate FBX cohort IDs');
 await assertCompleteModelDeliveries(assets,{verifiedFbx,baseline:JSON.parse(await readFile('docs/model-delivery-baseline.json','utf8'))});
-const minimalDownloads = await prepareMinimalDownloads(assets); // Verify public bytes before cleanup.
-const deliveryPayloads = await prepareDeliveryPayloads(verifiedFbx,{site:SITE});
+const minimalDownloads = await prepareMinimalDownloads(baseAssets); // Verify public bytes before cleanup.
+// Keep historical arch/sign transport URLs while later revision records bind
+// the current ID to the new payload. Shared chunks remain deduplicated.
+const deliveryPayloads = await prepareDeliveryPayloads([...baseFbx,...revisions],{site:SITE});
 await rm('public/assets', {recursive:true,force:true});
 await rm('public/api', {recursive:true,force:true});
 await rm('public/download-data', {recursive:true,force:true});
+await rm('public/review-packages', {recursive:true,force:true});
 await cp(deliveryPayloads.directory,'public/download-data',{recursive:true});
 await rm(deliveryPayloads.directory,{recursive:true,force:true});
 await mkdir('public/assets', {recursive:true});
@@ -36,14 +46,18 @@ for (const asset of assets) {
   const url = `${SITE}/assets/${asset.id}`;
   await mkdir(out, {recursive:true});
   const record=verifiedFbx.find(r=>r.id===asset.id);
-  const cohort=record?.verification.releaseTag.startsWith('cohort-');
+  const revision=Boolean(policy.revision&&revisionIds.includes(asset.id)), cohort=!revision&&record?.verification.releaseTag.startsWith('cohort-');
   // New cohorts keep production originals at immutable Git URLs. Only their
   // unchanged GLB preview is copied into Pages; existing source URLs stay put.
   await mkdir(`${out}/source`,{recursive:true});
   if(cohort)await cp(path.join(dir,'source',asset.preview),`${out}/source/${asset.preview}`);
   else await cp(path.join(dir,'source'), `${out}/source`, {recursive:true});
-  if(!cohort)await cp(path.join(dir,asset.thumbnail), `${out}/thumbnail${path.extname(asset.thumbnail)}`);
-  const thumbnail=cohort?`https://raw.githubusercontent.com/Xenoah/meshcopia/${record.sourceCommit}/content/assets/${asset.id}/${encodeURIComponent(asset.thumbnail)}`:`${url}/thumbnail${path.extname(asset.thumbnail)}`;
+  if(!cohort){
+    const old=baseAssets.find(a=>a.id===asset.id);
+    if(revision&&old)await cp(path.join(old.dir,old.thumbnail),`${out}/thumbnail${path.extname(old.thumbnail)}`);
+    await cp(path.join(dir,asset.thumbnail),`${out}/${revision?'thumbnail-'+asset.version+'.webp':'thumbnail'+path.extname(asset.thumbnail)}`);
+  }
+  const thumbnail=originalThumbnailUrl(asset,policy);
   const attribution = attributionFor(asset);
   const files = [];
   for (const file of sources) {

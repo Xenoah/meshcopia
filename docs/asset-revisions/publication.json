@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "state": "anonymous-byte-readback-passed",
+  "releaseId": 416523959,
+  "releaseTag": "cohort-repair-appliances-v1.0.0",
+  "reviewCommit": "4d537fad080c50ec18f3e515695f4f9f582351c5",
+  "reviewRunId": 39129140683,
+  "inventorySha256": "e046071fef1b8f58e9f8d6976ddd682e778f2943dfd5b0de3e52f040bf20c844",
+  "attachments": [
+    {
+      "id": 653780323,
+      "name": "garden-arch-1.0.2-fbx-minimal-1.0.0.zip",
+      "bytes": 11591,
+      "sha256": "c67aa01c9653fbda79e1ec0926c01dfa5b652a1b6c20c9155c1f0bc73ac87428"
+    },
+    {
+      "id": 653780315,
+      "name": "garden-arch.fbx",
+      "bytes": 21884,
+      "sha256": "d3931d17cb06f43b86b50c151098c5ca53bc4865acc272733e2f080d16605e31"
+    },
+    {
+      "id": 653780361,
+      "name": "household-two-door-refrigerator-1.0.0-fbx-minimal-1.0.0.zip",
+      "bytes": 261956,
+      "sha256": "63719176a820ab252623c3e831321429a6638975dbd1b750298c402929b546f6"
+    },
+    {
+      "id": 653780336,
+      "name": "household-two-door-refrigerator.fbx",
+      "bytes": 688844,
+      "sha256": "1f4dcdb20c053d68a81077a30498acc683a5549e88e87a930bb65535f6f07fb9"
+    },
+    {
+      "id": 653780422,
+      "name": "revision-inventory.json",
+      "bytes": 3810,
+      "sha256": "e046071fef1b8f58e9f8d6976ddd682e778f2943dfd5b0de3e52f040bf20c844"
+    },
+    {
+      "id": 653780417,
+      "name": "wayfinding-sign-1.0.2-fbx-minimal-1.0.0.zip",
+      "bytes": 48888,
+      "sha256": "85225322514fbae39115ccddf5cc45c08c40a1854172e8975118e08d3ee0acfa"
+    },
+    {
+      "id": 653780385,
+      "name": "wayfinding-sign.fbx",
+      "bytes": 68620,
+      "sha256": "284cf9ab09738be2c3ab234e84e05b5d5b487182267e51b7d66ac3dc5e9d17cd"
+    }
+  ],
+  "transportCommit": "b0645e59bc8c42075a62d83a3446ce8dc57e73d8",
+  "transportRunId": 39140047292
+}

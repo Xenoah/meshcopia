@@ -1,5 +1,5 @@
-import {loadCohortPolicy,assertPublicationScope} from './lib/cohort-policy.mjs';
-const policy=await loadCohortPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
+import {loadProductionPolicy,assertPublicationScope} from './lib/production-catalog.mjs';
+const policy=await loadProductionPolicy(),publicCount=policy.publicIds.length,modelCount=publicCount-36;
 // Read only: compare the deployed API and anonymous same-origin transport with
 // the exact Pages artifact from this publication run. No routing or mock bytes.
 import assert from 'node:assert/strict';

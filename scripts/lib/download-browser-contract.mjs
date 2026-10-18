@@ -4,7 +4,7 @@ import {readFile,lstat,readdir} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {primaryDownload,directModelFiles,minimalDownloadReadiness} from '../../src/lib/downloads.mjs';
-import {loadCohortPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './cohort-policy.mjs';
+import {loadProductionPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './production-catalog.mjs';
 import {deliveryReadiness} from '../../src/lib/delivery.mjs';
 
 export const sha256=data=>createHash('sha256').update(data).digest('hex');
@@ -18,7 +18,7 @@ export function assertNotice(notice){
  assert.equal(bytes.length,notice.bytes);assert.equal(sha256(bytes),notice.sha256);return bytes;
 }
 export async function assertActivatedCatalog(catalog,sources){
- const policy=await loadCohortPolicy();assertPublicationScope(catalog,policy);assertPublicationScope(sources,policy);
+ const policy=await loadProductionPolicy();assertPublicationScope(catalog,policy);assertPublicationScope(sources,policy);
  const publicSources=sources.filter(a=>a.status==='public');
  for(const a of catalog){
   const original=publicSources.find(s=>s.id===a.id);assert.ok(original,a.id);assert.equal(a.version,original.version);assert.equal(a.status,'public');assert.equal(a.thumbnail,originalThumbnailUrl(original,policy));

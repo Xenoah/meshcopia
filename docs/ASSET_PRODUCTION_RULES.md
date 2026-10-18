@@ -122,3 +122,11 @@ GitHub commit URLs, with anonymous exact-byte checks. Preserve original pixels.
 Never substitute those original files for a missing consumer FBX. Keep existing
 source URLs, original files, QA and immutable releases. Measure the complete
 built output and block publication above the950MB operating budget.
+## 面向き修正・家電の追加
+
+形状検証は [ASSET_REVISION_REVIEW.md](ASSET_REVISION_REVIEW.md)、公開は
+[ASSET_REVISION_PUBLICATION.md](ASSET_REVISION_PUBLICATION.md) に従い、
+公開原本と分離して検証する。面の一律反転や両面材質での隠蔽は禁止。
+開口・内壁・薄板を保持し、部品ごとの面順序、法線、負の変換、FBX再読込、
+片面描画の外側・内側を確認する。レビュー状態は公開検証の代わりにしない。
+既存の車両・洗濯機・他用途モデルを今回の追加と引き換えに削除しない。

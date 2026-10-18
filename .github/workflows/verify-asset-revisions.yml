@@ -1,0 +1,106 @@
+name: Verify starter repairs and refrigerator candidate
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.ref == 'refs/heads/codex/repair-starters-add-appliances'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Validate staged sources and preserve every published model
+        run: node scripts/asset-revisions/validate.mjs
+      - name: Reproduce immutable originals and verify new FBXs in pinned Blender
+        run: |
+          mkdir -p .cache/asset-revision-qa
+          docker run --rm -v "$GITHUB_WORKSPACE:/src" -w /src \
+            debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
+            sh -c 'set -eu
+              sh scripts/fbx-minimal-verification/setup-runtime.sh
+              /usr/bin/python3.13 scripts/asset-revisions/compare_repairs.py
+              /usr/bin/python3.13 scripts/asset-revisions/reproduce_baseline.py --out .cache/asset-revision-qa/original-fbx-attempt2
+              /usr/bin/python3.13 scripts/asset-revisions/reproduce_washer.py
+              /usr/bin/python3.13 scripts/asset-revisions/prepare_candidates.py --out .cache/asset-revision-qa/candidate-final
+              /usr/bin/python3.13 scripts/asset-revisions/verify_lock.py
+              /usr/bin/python3.13 scripts/asset-revisions/inspect_all.py'
+      - name: Render actual original and revised GLB/FBX front faces and interiors
+        run: node scripts/asset-revisions/render.mjs
+      - name: Verify native downloads through real canonical-origin HTTPS hosting
+        run: node scripts/asset-revisions/test-review-server.mjs
+      - name: Verify live washing-machine listing, Japanese search and public preview
+        run: node scripts/asset-revisions/test-live-washer.mjs
+      - name: Verify existing immutable FBX release and retain exact payloads
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - name: Verify all existing cohorts anonymously with fresh binding
+        run: python3 scripts/asset-revisions/prepare_existing_cohorts.py --repo "$GITHUB_WORKSPACE"
+      - name: Full unchanged production catalog checks
+        run: npm run check
+      - name: Record actual complete baseline build size
+        run: |
+          node scripts/measure-distribution.mjs
+          cp test-results/fbx-distribution-size.json test-results/asset-revisions/baseline-size.json
+      - name: Verify missing FBX and interrupted download behavior
+        run: node tests/delivery-browser-fixture.mjs
+      - name: Build explicitly unpublished 455-item candidate
+        run: node scripts/asset-revisions/build-review.mjs
+      - name: Enforce unchanged full Pages capacity gate on review build
+        run: |
+          node scripts/measure-distribution.mjs
+          cp test-results/fbx-distribution-size.json test-results/asset-revisions/candidate-size.json
+      - name: Recheck source preservation
+        run: node scripts/asset-revisions/validate.mjs
+      - name: Store review evidence and unpublished packages, never publish
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-revision-review-${{ github.sha }}
+          include-hidden-files: true
+          path: |
+            test-results/
+            .cache/asset-revision-qa/candidate-final/
+            .cache/asset-revision-qa/original-fbx-attempt2/reproduction.json
+      - name: Preserve verified candidate build before starting browser work
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-revision-build-${{ github.sha }}
+          compression-level: 1
+          include-hidden-files: true
+          path: dist/
+  browser:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: asset-revision-build-${{ github.sha }}
+          include-hidden-files: true
+          path: dist/
+      - name: Verify actual ordinary and selected downloads, previews and old source URLs
+        run: node scripts/asset-revisions/test-review-browser.mjs
+      - name: Store actual browser download and preview evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-revision-browser-${{ github.sha }}-attempt-${{ github.run_attempt }}
+          path: test-results/asset-revisions/browser/

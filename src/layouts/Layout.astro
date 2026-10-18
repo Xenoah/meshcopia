@@ -4,18 +4,20 @@ import Icon from '../components/Icon.astro';
 import {base} from '../lib/paths';
 const {title='Meshcopia — 世界をつくる、自由な素材。',description='AIエージェントと人間のための、無料3Dモデルとテクスチャ。CC BY 4.0、3Dプレビュー、ZIPダウンロード、機械可読カタログ。',image,robots='index,follow'}=Astro.props;
 const canonical=new URL(Astro.url.pathname,Astro.site);
+const assetReview=import.meta.env.PUBLIC_ASSET_REVIEW==='1';
 ---
 <!doctype html>
 <html lang="ja">
  <head>
   <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="theme-color" content="#121719"/><meta name="description" content={description}/><meta name="robots" content={robots}/>
+  <meta name="theme-color" content="#121719"/><meta name="description" content={description}/><meta name="robots" content={assetReview?'noindex,nofollow':robots}/>
   <title>{title}</title><link rel="canonical" href={canonical}/><link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`}/>
   <meta property="og:type" content="website"/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/>
   {image && <meta property="og:image" content={image}/>}
   <link rel="alternate" type="application/json" title="Meshcopia asset catalog" href={`${base}/api/catalog.json`}/>
  </head>
  <body>
+  {assetReview && <aside style="padding:12px;background:#f8df94;color:#26333b;text-align:center" role="note">未公開の検証ビルド — 修正版と冷蔵庫の候補。公開サイトへの反映は未実施です。</aside>}
   <a class="skip-link" href="#main">本文へスキップ</a>
   <header class="site-header"><div class="header-inner">
    <a href={`${base}/`} class="brand" aria-label="Meshcopia ホーム"><svg width="30" height="32" viewBox="0 0 30 32" fill="none" aria-hidden="true"><path d="M2 25V7l7-4 6 10 6-10 7 4v18l-7 4V15l-6 10-6-10v14l-7-4Z" stroke="currentColor" stroke-width="1.6"/><path d="m2 7 7 8m19-8-7 8M9 3v12m12-12v12" stroke="currentColor"/></svg><span>meshcopia<span class="brand-dot">.</span></span></a>
