@@ -10,7 +10,7 @@ const {primaryDownload,directModelFiles,downloadHref}=await import(pathToFileURL
 import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 const {chromium}=createRequire(path.resolve('package.json'))('@playwright/test');
-const root=path.resolve('dist');
+const live=process.argv.includes('--live'),root=path.resolve('dist');
 const catalog=JSON.parse(await readFile('dist/api/catalog.json','utf8')).assets;
 const side=JSON.parse(await readFile('dist/api/fbx-minimal-downloads.json','utf8'));
 assert.deepEqual(side.coverage,{publicModels:137,fbxReadyModels:137});assert.equal(side.formats.length,137);assert.deepEqual(side.formats.map(x=>x.id).sort(),catalog.filter(x=>x.type==='model').map(x=>x.id).sort());
@@ -24,14 +24,14 @@ const server=createServer(async(req,res)=>{
   res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');res.end(await readFile(file));
  }catch{res.writeHead(404).end('Not found')}
 });
-await new Promise(resolve=>server.listen(4174,'127.0.0.1',resolve));
+if(!live)await new Promise(resolve=>server.listen(4174,'127.0.0.1',resolve));
 await mkdir('test-results',{recursive:true});
 const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}),args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
-const evidence={browserFbxRendering:false,scope:'Local built pages; actual anonymous immutable Release browser downloads',coverage:side.coverage,pages:[],originalButtonsChecked:[],downloads:[]};
+const evidence={browserFbxRendering:false,scope:live?'Live Pages; actual anonymous immutable Release browser downloads':'Local built pages; actual anonymous immutable Release browser downloads',coverage:side.coverage,pages:[],originalButtonsChecked:[],downloads:[]};
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1050},acceptDownloads:true});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- const home='http://127.0.0.1:4174/meshcopia/';
+ const home=live?'https://xenoah.github.io/meshcopia/':'http://127.0.0.1:4174/meshcopia/';
  for(const record of side.formats){
   await page.goto(home+`assets/${record.id}/`,{waitUntil:'domcontentloaded'});
   const original=catalog.find(a=>a.id===record.id);assert.ok(original);
@@ -83,4 +83,4 @@ try{
  const nojs=await browser.newContext({javaScriptEnabled:false});const nojsPage=await nojs.newPage();await nojsPage.goto(home+'assets/commons-bar-stool/');await nojsPage.locator('.fbx-download > summary').click();assert.ok(await nojsPage.locator('.download-primary').isVisible());assert.ok(await nojsPage.locator('.direct-formats a.direct-download').isVisible());await nojs.close();
  assert.deepEqual(errors,[]);await writeFile('test-results/fbx-minimal-browser-evidence.json',JSON.stringify(evidence,null,2)+'\n');
  console.log('PASS:137 FBX detail links,6 real browser downloads, mobile and no-JS links.');
-}finally{await browser.close();await new Promise(resolve=>server.close(resolve))}
+}finally{await browser.close();if(!live)await new Promise(resolve=>server.close(resolve))}

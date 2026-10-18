@@ -24,7 +24,7 @@
 
 新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。既存Releaseは変更しません。旧Pagesのfull/models ZIPは生成を終了し、旧URLの互換性は保証しません。制作原本・履歴・過去のハッシュ台帳を保持します。現行取得先は [配布契約](docs/MINIMAL_DOWNLOADS.md) を参照。
 
-> **このブランチの配布変更は未公開です。** 旧ZIPの重複出力を除いた実ビルドで950MBの容量ゲートを検証します。別配信リポジトリは作成しません。251点のRelease公開とサイト反映は別作業です。[検証・公開前の残作業](docs/FBX_DISTRIBUTION_REVIEW.md)。
+> 旧ZIPの重複出力を除いた実ビルドは **546,137,684 bytes**。正規公開ワークフローは950MBの容量ゲートと公開後の実Pages検査を実行します。251点のRelease公開とサイト反映は別作業です。[配布移行の検証記録](docs/FBX_DISTRIBUTION_REVIEW.md)。
 
 ## 収録素材
 
