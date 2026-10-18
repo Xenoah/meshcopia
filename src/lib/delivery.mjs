@@ -1,3 +1,4 @@
+import {isFbxReleaseTag} from './fbx-minimal-downloads.mjs';
 // Publisher-generated consumer inventory, separate from preview/original files.
 export const DELIVERY_POLICY = 'fbx-required-textures-single-notice-v1';
 const hash = /^[a-f0-9]{64}$/;
@@ -11,7 +12,7 @@ export function deliveryReadiness(asset) {
  if(d.schemaVersion!==1||d.id!==asset.id||d.assetVersion!==asset.version||d.contentPolicy!==DELIVERY_POLICY||!/^\d+\.\d+\.\d+$/.test(d.packageVersion))return fail('identity');
  if(!validInventory(d.sourceFiles)||!validInventory(asset.files)||inventory(d.sourceFiles)!==inventory(asset.files))return fail('source-inventory');
  const tag=d.verification?.releaseTag;
- if(d.verification?.state!=='published-verified'||!/^fbx-minimal-v\d+\.\d+\.\d+$/.test(tag))return fail('verification');
+ if(d.verification?.state!=='published-verified'||!isFbxReleaseTag(tag))return fail('verification');
  const root=`https://github.com/Xenoah/meshcopia/releases/download/${tag}/`;
  if(!size(d.archive?.bytes)||!hash.test(d.archive.sha256)||d.archive.filename!==`${asset.id}-${asset.version}-fbx-minimal-${d.packageVersion}.zip`||d.archive.url!==root+d.archive.filename)return fail('archive');
  if(!validInventory(d.files)||new Set(d.files.map(f=>f.name.toLowerCase())).size!==d.files.length)return fail('files');

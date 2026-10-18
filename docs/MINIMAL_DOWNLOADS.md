@@ -24,7 +24,7 @@ source/metadata checks and the model delivery gate. It contains:
   They are separate from the consumer inventory and their URLs are not guaranteed forever.
 - `archive`: the existing verified immutable FBX ZIP URL, filename, bytes, sha256.
 - `files`: exact consumer files with name, format, bytes, sha256, direct Release URL
-  and `fetch` transport. Currently all137 have embedded images and exactly one FBX.
+  and `fetch` transport. The original137 and activated new281 use self-contained FBX with embedded images where required.
   A future external-texture model requires its own reviewed dependency adapter.
 - `notice` and `verification`: exact existing FBX notice and publication binding.
 
@@ -41,7 +41,7 @@ payload is reused byte-for-byte, never re-exported or re-licensed.
 `public/download-data` is generated output, not a committed source. Prep's local
 FBX payload cache is usable only after fresh verification and receipt consumption;
 it is not an offline bypass. The generator rehashes all payloads before replacing
-output. check-dist reconstructs all137 from the actual built chunks independently.
+output. check-dist reconstructs every activated FBX from the actual built chunks independently.
 
 The browser diagnostic in CI39042567048 confirmed missing CORS headers on both
 the direct Release URL and the API's redirected binary; neither a clickable
@@ -152,8 +152,7 @@ real transport evidence exists may the publisher add the exact record below:
 The document itself has `schemaVersion: 1`, `repository: "Xenoah/meshcopia"`
 and `activations`. Placeholder activation and T evidence are prohibited. The
 first adapter intentionally covers only the reviewed original 173-asset cohort.
-Future cohorts, including the separately published new251 assets, need their own reviewed
-source/expected-data adapter using the same consumer binding contract.
+New251 and the later new30 use the independently reviewed cohort adapter described below; they do not broaden that frozen adapter.
 
 Before output cleanup, `generate.mjs` calls `prepareMinimalDownloads()`. A
 nonempty activation invokes `verify-minimal-activation.py`, which anonymously
@@ -197,7 +196,7 @@ gate and all-model FBX browser/download checks. Neither workflow publishes
 or deploys. Both require real public bytes; fixture-only UI proof is not release
 proof. Production applies the same durable prep, current-URL migration gate, original viewer, ordinary
 selected-download, FBX browser, texture and size-budget gates before publishing.
-The browser evidence does not claim FBX rendering or new251 site availability.
+The browser evidence does not claim FBX rendering. Current new-cohort site availability requires the matching post-deployment live checks.
 
 For this FBX-first candidate, `.github/workflows/verify-fbx-distribution.yml`
 runs on the dedicated branch with read-only permissions. It additionally records
@@ -219,3 +218,34 @@ consumer ZIPs remain in their existing verified Releases, and selected collectio
 are built in the browser. Recovery of a historical site build uses its exact Git
 revision, pinned runtime and archive ledger; do not overwrite public Releases or
 insert retired ZIP links into the current UI to satisfy an old compatibility test.
+
+
+## Independently verified new cohorts
+
+`docs/cohort-activation.json` explicitly adds new251 and new30 to the original173
+catalog: 418 models and 36 textures. `prepare-cohort-activation.py` runs **after**
+the original FBX prep and **before** every build. It verifies pinned F/R commits,
+successful exact run attempts and jobs, clean-import QA attestation, immutable
+Release identity and attachment set, all public payload bytes and ZIP members,
+current source/metadata hashes and exact notices. The separate, one-use receipt
+binds the current checkout, CI job, all verifier inputs and exact consumer outputs.
+Only these records join the original137 projection; absent or stale proof blocks
+all generation. No offline, stale-cache or incomplete-FBX fallback exists.
+
+The new251 Release retains all754 existing attachments, including historical
+source ZIPs. Consumer UI uses its verified FBX ZIPs. The new30 Release has61
+attachments (30 FBXs,30 FBX ZIPs,one inventory); source ZIPs and QA remain in the
+reviewed build artifacts. Existing releases are never replaced.
+
+New GLB previews remain on Pages. New thumbnails and non-preview originals use exact stage
+commit URLs at raw.githubusercontent.com/Xenoah/meshcopia, verified anonymously
+against local complete source inventories and exact staged thumbnail bytes. The existing173 source and thumbnail URLs remain
+unchanged. Raw original URLs are not selected-ZIP inputs; all selected FBXs use
+same-origin verified gzip chunks. Release links do not imply CORS permission.
+
+`verify-new-assets.yml` runs the complete read-only candidate gate. Production
+and live Pages checks use the explicit454-ID policy, preserve existing173 viewer
+regressions, load all281 new GLBs, verify all418 FBX links, sample actual consumer
+ZIP/raw downloads from each cohort, and check mixed-cohort ZIP contents and exact
+sizes on desktop/mobile. Full dist must remain below950,000,000bytes; future asset
+additions require renewed capacity measurement. See NEW_ASSETS_ACTIVATION.md.

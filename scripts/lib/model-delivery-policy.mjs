@@ -3,7 +3,7 @@ import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 const digest=b=>createHash('sha256').update(b).digest('hex');
-const canonical=xs=>JSON.stringify([...xs].sort((a,b)=>a.name.localeCompare(b.name,'en')));
+const canonical=xs=>JSON.stringify(xs.map(({name,bytes,sha256})=>({name,bytes,sha256})).sort((a,b)=>a.name.localeCompare(b.name,'en')));
 // verifiedFbx must be the result of the independent FBX publication/QA validator,
 // never a direct parse of an unverified JSON file or a caller's readiness flag.
 export async function assertCompleteModelDeliveries(assets,{baseline,verifiedFbx=[],readSource=(a,n)=>readFile(path.join(a.dir,'source',n)),readMetadata=a=>readFile(path.join(a.dir,'asset.json'))}={}){

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {DELIVERY_POLICY,deliveryReadiness} from '../../src/lib/delivery.mjs';
-// Call only with prepareFbxMinimalDownloads() output. That gate independently
+// Call only with the original and cohort prep outputs. Their gates independently
 // checks live attachment IDs/digests. Chunk bytes are bound to the same FBX hash.
 export function bindDelivery(asset,verifiedFbx,transports) {
  const record=verifiedFbx.find(f=>f.id===asset.id&&f.assetVersion===asset.version);

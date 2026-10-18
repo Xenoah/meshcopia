@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "repository": "Xenoah/meshcopia",
+  "cohorts": [
+    {
+      "name": "new251",
+      "modelCount": 251,
+      "releaseTag": "cohort-new251-v1.0.0",
+      "releaseId": 415820647,
+      "verificationCommit": "58c092992430326c3aad463072dba6507003a058",
+      "transportCommit": "493df1619f41e3cbcbbeee8004ce0edcd432bb82",
+      "evidenceCommit": "583ddc7b04bc106153a6441ac5f568a6cadd1f7b",
+      "publicPayloads": [
+        "fbx",
+        "fbxArchive",
+        "archive"
+      ],
+      "inputs": {
+        "source.json": "d7da0e610262b09f5fa7cd7fdad3e8440d3d5a4825e15cbfe13533430c8e4890",
+        "expected.json": "878ba224263b58f61fd809f13999be6e79d7700bc1e7174019fcfea7e52a2362",
+        "approval.json": "badff593e4245f6ca645af80de61a8f2cf368c90a5c045ca7bc2307a617bf241",
+        "T-evidence.json": "88b368f3e42adef9d2b109a70511b8c71ecc6e300a0fe644f2a935f338aeaddf",
+        "cohort-inventory.json": "bb5a0cc2c72f78e8097aef922bd419180a0c4147fadc88c56473f0f78f58c53d"
+      }
+    },
+    {
+      "name": "new30",
+      "modelCount": 30,
+      "releaseTag": "cohort-new30-v1.0.0",
+      "releaseId": 416177244,
+      "verificationCommit": "8bef6f63627e9033ec367d4625739552a1bcc16b",
+      "transportCommit": "e7c772f3e3d94d663abd7f263c082473918e6d5a",
+      "evidenceCommit": "d5ecdcccfe4e407c682a5fcef3a604bce4ae48ed",
+      "publicPayloads": [
+        "fbx",
+        "fbxArchive"
+      ],
+      "inputs": {
+        "source.json": "4b2dbcf587e366c2ae40f121094fe7bd9ece9adb108f50cfca715ab541e2f61b",
+        "expected.json": "62894474d33092611428c7f0d375ab64807408f14e1bf27d9b47b7a21cf05a2a",
+        "approval.json": "8291cc41521c91f9403ffb6e21c9fe0d91300a39e581550ef6b52ddb7c802f93",
+        "T-evidence.json": "01c2883963948c02e84329c3e799794331aea917d61e14ccd5bad22f5c606305",
+        "cohort-inventory.json": "11ae492bb9a306795a31ce19509d9108d54eab792186389ff7f7e68203a0c06c"
+      }
+    }
+  ]
+}

@@ -3,7 +3,12 @@
 1. `npm run new:asset -- unique-name model`（テクスチャは `texture`）
 2. `_inbox/unique-name/asset.json` を完成させ、`preview.webp` と `source/` を用意。
 3. `npm run import:inbox -- unique-name` で検証。`--apply` で取り込み。
-4. `npm run check` を実行し、変更をコミット。
+4. 素材はまず`draft`で保存・コミットし、原本に結び付いた配布とQAを検証。
+5. 公開対象の台帳を追加・コミットしてから、READMEの二つの匿名事前検証を順番に実行し、`npm run check`で実バイト・容量・UIを確認。
+
+事前検証はクリーンな同一コミット・同一ジョブに対する一回限りの証跡です。
+公開済み137モデルの事前検証の後で、新cohort用の事前検証を実行してください。
+新しい公開素材や更新版を、既存cohortの証跡だけで公開することはできません。
 
 `source/` に格納できるのは3Dファイル、関連バッファ・材質、ラスタ画像のみ。
 実行ファイル、スクリプト、シンボリックリンク、絶対パス、`..`を使う参照は不可。

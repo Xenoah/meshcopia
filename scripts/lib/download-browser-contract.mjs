@@ -4,6 +4,7 @@ import {readFile,lstat,readdir} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {primaryDownload,directModelFiles,minimalDownloadReadiness} from '../../src/lib/downloads.mjs';
+import {loadCohortPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './cohort-policy.mjs';
 import {deliveryReadiness} from '../../src/lib/delivery.mjs';
 
 export const sha256=data=>createHash('sha256').update(data).digest('hex');
@@ -17,14 +18,13 @@ export function assertNotice(notice){
  assert.equal(bytes.length,notice.bytes);assert.equal(sha256(bytes),notice.sha256);return bytes;
 }
 export async function assertActivatedCatalog(catalog,sources){
- assert.equal(catalog.length,173);assert.equal(new Set(catalog.map(a=>a.id)).size,173);
- assert.equal(catalog.filter(a=>a.type==='model').length,137);assert.equal(catalog.filter(a=>a.type==='texture').length,36);
- const publicSources=sources.filter(a=>a.status==='public');assert.equal(publicSources.length,173);
+ const policy=await loadCohortPolicy();assertPublicationScope(catalog,policy);assertPublicationScope(sources,policy);
+ const publicSources=sources.filter(a=>a.status==='public');
  for(const a of catalog){
-  const original=publicSources.find(s=>s.id===a.id);assert.ok(original,a.id);assert.equal(a.version,original.version);assert.equal(a.status,'public');
+  const original=publicSources.find(s=>s.id===a.id);assert.ok(original,a.id);assert.equal(a.version,original.version);assert.equal(a.status,'public');assert.equal(a.thumbnail,originalThumbnailUrl(original,policy));
   const files=await Promise.all(original.sources.map(async name=>{const data=await readFile(path.join(original.dir,'source',name));return {name,bytes:data.length,sha256:sha256(data)};}));
   assert.deepEqual(inventory(a.files),inventory(files),`${a.id}: original files changed`);
-  for(const f of a.files)assert.equal(f.url,`${SITE}assets/${a.id}/source/${f.name.split('/').map(encodeURIComponent).join('/')}`);
+  for(const f of a.files)assert.equal(f.url,originalSourceUrl(original,f,policy));
   assert.deepEqual(Object.keys(a.downloads),[a.type==='model'?'delivery':'minimal'],`${a.id}: retired download field`);
   const ready=a.type==='model'?deliveryReadiness(a):minimalDownloadReadiness(a);
   assert.ok(ready.ready,`${a.id}: consumer package unavailable`);

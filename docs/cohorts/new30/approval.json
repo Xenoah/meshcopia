@@ -1,0 +1,28 @@
+{
+  "approvalNote": "On 2026-10-18 the owner requested new asset integration and publication after verification. Codex reviewed the exact successful reproduced-final F run, its 30-model inventory and both artifact envelopes below under that authorization. Existing Releases must remain unchanged; publish only FBX, FBX+LICENSE ZIPs and the inventory for new30.",
+  "approvedBy": "Codex acting on Xenoah’s explicit new-asset publication request",
+  "cohort": "new30",
+  "expectedManifestSha256": "62894474d33092611428c7f0d375ab64807408f14e1bf27d9b47b7a21cf05a2a",
+  "fCommit": "8bef6f63627e9033ec367d4625739552a1bcc16b",
+  "inventorySha256": "11ae492bb9a306795a31ce19509d9108d54eab792186389ff7f7e68203a0c06c",
+  "jobId": 117557184763,
+  "payloadArtifact": {
+    "digest": "sha256:db3c0c55c7e1de31ff36074e5d6e1360cba3365132869027aa4e141342ff5cc2",
+    "id": 12121079205,
+    "name": "cohort-new30-8bef6f63627e9033ec367d4625739552a1bcc16b-39087547210-1"
+  },
+  "qaArtifact": {
+    "digest": "sha256:2e1c4a69701ea68b3a613f116e10da071b00041c55ecd8c808f7c0568d17ce7a",
+    "id": 12120984674,
+    "name": "cohort-internal-qa-new30-8bef6f63627e9033ec367d4625739552a1bcc16b-39087547210-1"
+  },
+  "releaseBodySha256": "98ed8b758b50f5bea0ff48dbc86f825393061797ef0efb9281e29c39b8528588",
+  "repository": "Xenoah/meshcopia",
+  "reviewStatus": "approved-for-transport",
+  "runAttempt": 1,
+  "runId": 39087547210,
+  "runtimeSha256": "4209f6e5244f684adc3f54909783cd11f8ade651cd2c48f0dd2556d0277d60f5",
+  "schemaVersion": 1,
+  "sourceInventorySha256": "4b2dbcf587e366c2ae40f121094fe7bd9ece9adb108f50cfca715ab541e2f61b",
+  "tag": "cohort-new30-v1.0.0"
+}

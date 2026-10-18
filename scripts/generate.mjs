@@ -1,4 +1,5 @@
 import {prepareDeliveryPayloads} from './lib/delivery-chunks.mjs';
+import {prepareCohortDownloads} from './lib/cohort-downloads.mjs';
 import {bindDelivery} from './lib/delivery.mjs';
 import {prepareFbxMinimalDownloads,writeFbxMinimalDownloads} from './lib/fbx-minimal-downloads.mjs';
 import {assertCompleteModelDeliveries} from './lib/model-delivery-policy.mjs';
@@ -10,7 +11,8 @@ import {primaryDownload} from '../src/lib/downloads.mjs';
 import assert from 'node:assert/strict';
 
 const assets = await readCatalog(); // Validate before changing generated output.
-const verifiedFbx = await prepareFbxMinimalDownloads(assets); // Trusted same-job prep, then current source/history checks.
+const verifiedFbx = [...await prepareFbxMinimalDownloads(assets),...await prepareCohortDownloads(assets)];
+assert.equal(new Set(verifiedFbx.map(r=>r.id)).size,verifiedFbx.length,'Duplicate FBX cohort IDs');
 await assertCompleteModelDeliveries(assets,{verifiedFbx,baseline:JSON.parse(await readFile('docs/model-delivery-baseline.json','utf8'))});
 const minimalDownloads = await prepareMinimalDownloads(assets); // Verify public bytes before cleanup.
 const deliveryPayloads = await prepareDeliveryPayloads(verifiedFbx,{site:SITE});
@@ -33,17 +35,25 @@ for (const asset of assets) {
   const out = `public/assets/${asset.id}`;
   const url = `${SITE}/assets/${asset.id}`;
   await mkdir(out, {recursive:true});
-  await cp(path.join(dir,'source'), `${out}/source`, {recursive:true});
-  await cp(path.join(dir,asset.thumbnail), `${out}/thumbnail${path.extname(asset.thumbnail)}`);
+  const record=verifiedFbx.find(r=>r.id===asset.id);
+  const cohort=record?.verification.releaseTag.startsWith('cohort-');
+  // New cohorts keep production originals at immutable Git URLs. Only their
+  // unchanged GLB preview is copied into Pages; existing source URLs stay put.
+  await mkdir(`${out}/source`,{recursive:true});
+  if(cohort)await cp(path.join(dir,'source',asset.preview),`${out}/source/${asset.preview}`);
+  else await cp(path.join(dir,'source'), `${out}/source`, {recursive:true});
+  if(!cohort)await cp(path.join(dir,asset.thumbnail), `${out}/thumbnail${path.extname(asset.thumbnail)}`);
+  const thumbnail=cohort?`https://raw.githubusercontent.com/Xenoah/meshcopia/${record.sourceCommit}/content/assets/${asset.id}/${encodeURIComponent(asset.thumbnail)}`:`${url}/thumbnail${path.extname(asset.thumbnail)}`;
   const attribution = attributionFor(asset);
   const files = [];
   for (const file of sources) {
     const data = await readFile(path.join(dir,'source',file));
-    files.push({name:file,format:path.extname(file).slice(1).toUpperCase(),bytes:data.length,sha256:sha256(data),url:`${url}/source/${file.split('/').map(encodeURIComponent).join('/')}`});
+    const sourceUrl=cohort&&file!==asset.preview?`https://raw.githubusercontent.com/Xenoah/meshcopia/${record.sourceCommit}/content/assets/${asset.id}/source/${file.split('/').map(encodeURIComponent).join('/')}`:`${url}/source/${file.split('/').map(encodeURIComponent).join('/')}`;
+    files.push({name:file,format:path.extname(file).slice(1).toUpperCase(),bytes:data.length,sha256:sha256(data),url:sourceUrl});
   }
   // Production originals and previews remain separate from consumer delivery.
   // Retired full/models ZIP URLs are deliberately absent from API v3 and output.
-  const original = {...metadata,thumbnail:`${url}/thumbnail${path.extname(asset.thumbnail)}`,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads:{}};
+  const original = {...metadata,thumbnail,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads:{}};
   const item = asset.type === 'model'
     ? bindDelivery(original,verifiedFbx,deliveryPayloads.files)
     : bindMinimalDownload(original,minimalDownloads);

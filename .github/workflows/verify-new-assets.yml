@@ -1,0 +1,55 @@
+name: Verify new assets candidate
+on:
+  push:
+    branches: [codex/activate-new-assets]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.ref == 'refs/heads/codex/activate-new-assets'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Record actual Release fetch and CORS diagnostics
+        run: node scripts/diagnose-release-fetch.mjs
+      - run: node scripts/check-download-ui-source.mjs
+      - run: node scripts/check-archive-lock.mjs --check-history
+      - name: Verify existing immutable FBX release and retain exact payloads
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - name: Verify independent new-cohort proofs and anonymous bytes
+        run: python3 scripts/prepare-cohort-activation.py --repo "$GITHUB_WORKSPACE"
+      - run: npm run check
+      - name: Verify missing FBX and interrupted retry with local synthetic data
+        run: node tests/delivery-browser-fixture.mjs
+      - name: Verify real ordinary and selected ZIPs, size, cancel, retry and navigation
+        run: node scripts/test-minimal-downloads-browser.mjs
+      - name: Verify every FBX link, anonymous downloads, mobile and no-JS
+        run: node scripts/test-fbx-minimal-downloads-browser.mjs
+      - name: Preserve viewer and texture regressions
+        run: node scripts/test-browser.mjs
+      - name: Measure complete build and enforce Pages capacity
+        if: always()
+        run: node scripts/measure-distribution.mjs
+      - name: Verify current URLs, retired archive absence and immutable history
+        if: always()
+        run: node scripts/check-fbx-minimal-baseline.mjs
+      - name: Build current site release artifacts without publishing
+        run: npm run release:bundle
+      - name: Preserve source assets, release request and historical ledger
+        run: node scripts/check-cohort-source-preservation.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: new-assets-${{ github.sha }}
+          path: test-results/
