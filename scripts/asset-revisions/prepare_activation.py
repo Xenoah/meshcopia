@@ -46,7 +46,7 @@ def prepare():
     fresh=verify_release(release,files)
     for key in fresh:assert fresh[key]==evidence[key],key
     inputs=json.loads(subprocess.check_output(['node','scripts/asset-revisions/activation.mjs','--inputs'],cwd=ROOT))
-    receipt={'schemaVersion':1,'createdBy':'same-job-revision-prep/1','head':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'execution':{'runId':os.getenv('GITHUB_RUN_ID'),'runAttempt':os.getenv('GITHUB_RUN_ATTEMPT'),'job':os.getenv('GITHUB_JOB')},'releaseId':release['id'],'inventorySha256':sha(inventory_bytes),'projection':projection,'projectionSha256':sha(json.dumps(projection,ensure_ascii=False,separators=(',',':')).encode()),'inputs':[{'path':p,'sha256':sha((ROOT/p).read_bytes())} for p in inputs]}
+    receipt={'schemaVersion':1,'createdBy':'same-job-revision-prep/1','head':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'execution':{'runId':os.getenv('GITHUB_RUN_ID'),'runAttempt':os.getenv('GITHUB_RUN_ATTEMPT'),'job':os.getenv('GITHUB_JOB')},'releaseId':release['id'],'inventorySha256':sha(inventory_bytes),'projection':projection,'projectionSha256':sha(json.dumps(projection,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()),'inputs':[{'path':p,'sha256':sha((ROOT/p).read_bytes())} for p in inputs]}
     (ROOT/'.cache/asset-revision-verified.json').write_bytes(encode(receipt))
     print('REVISION_PREP '+json.dumps({'state':fresh['state'],'releaseId':release['id'],'models':len(projection),'attachments':fresh['attachments']}),flush=True)
 if __name__=='__main__':prepare()

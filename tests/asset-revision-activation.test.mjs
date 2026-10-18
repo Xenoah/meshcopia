@@ -1,9 +1,10 @@
 import test from 'node:test';
+import {spawnSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {readCatalog,sha256} from '../scripts/lib/catalog.mjs';
 import {readProductionCatalog,loadProductionPolicy,revisionConfig,revisionIds,originalThumbnailUrl} from '../scripts/lib/production-catalog.mjs';
-import {validateRevisionReceipt,revisionInputs,inventoryPath} from '../scripts/asset-revisions/activation.mjs';
+import {validateRevisionReceipt,revisionInputs,inventoryPath,revisionProjectionHash} from '../scripts/asset-revisions/activation.mjs';
 
 test('approved overlay preserves every existing ID and old source byte while binding three versioned previews',async()=>{
  const base=await readCatalog(),assets=await readProductionCatalog(base),p=await loadProductionPolicy();
@@ -20,9 +21,10 @@ test('revision receipt rejects stale execution, missing input, tampered payload 
   projection.push({id:r.id,assetVersion:r.assetVersion,format:'FBX',packageVersion:'1.0.0',selfContained:true,sources,direct:{filename:r.id+'.fbx',url:root+r.id+'.fbx',bytes:r.fbxBytes,sha256:r.fbxSha256},archive:{filename:archive,url:root+archive,bytes:r.archiveBytes,sha256:r.archiveSha256},notice:{filename:'LICENSE.txt',text:r.notice,bytes:r.noticeBytes,sha256:r.noticeSha256},verification:{state:'published-verified',releaseTag:config.releaseTag},limitations:['unit-test fixture only']});
  }
  const execution={runId:'fixture',runAttempt:'1',job:'fixture'},head='fixture';
- const receipt={schemaVersion:1,createdBy:'same-job-revision-prep/1',head,execution,releaseId:config.releaseId,inventorySha256:config.inventorySha256,projection,projectionSha256:sha256(JSON.stringify(projection)),inputs:await Promise.all(inputs.map(async path=>({path,sha256:sha256(await readFile(path))})))};
- const options={head,execution,inputs,config,assets};assert.deepEqual(await validateRevisionReceipt(receipt,options),projection);
+ const receipt={schemaVersion:1,createdBy:'same-job-revision-prep/1',head,execution,releaseId:config.releaseId,inventorySha256:config.inventorySha256,projection,projectionSha256:revisionProjectionHash(projection),inputs:await Promise.all(inputs.map(async path=>({path,sha256:sha256(await readFile(path))})))};
+ const python=spawnSync('python3',['-c',"import sys,json,hashlib; r=json.load(sys.stdin); r['projectionSha256']=hashlib.sha256(json.dumps(r['projection'],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest(); print(json.dumps(r,ensure_ascii=False,sort_keys=True))"],{input:JSON.stringify(receipt),encoding:'utf8'});assert.equal(python.status,0,python.stderr);
+ const options={head,execution,inputs,config,assets};assert.deepEqual(await validateRevisionReceipt(JSON.parse(python.stdout),options),projection);assert.deepEqual(await validateRevisionReceipt(receipt,options),projection);
  for(const mutate of [r=>r.head='stale',r=>r.execution.runAttempt='0',r=>r.inputs.pop(),r=>r.inputs[0].sha256='0'.repeat(64),r=>r.releaseId++,r=>r.projection.pop(),r=>r.projection[0].sources.pop(),r=>r.projection[0].archive.sha256='0'.repeat(64),r=>r.projection[0].direct.bytes++,r=>r.projection[0].notice.text+='changed',r=>r.projection[0].verification.state='local-review-verified']){
-  const bad=structuredClone(receipt);mutate(bad);bad.projectionSha256=sha256(JSON.stringify(bad.projection));await assert.rejects(()=>validateRevisionReceipt(bad,options));
+  const bad=structuredClone(receipt);mutate(bad);bad.projectionSha256=revisionProjectionHash(bad.projection);await assert.rejects(()=>validateRevisionReceipt(bad,options));
  }
 });
