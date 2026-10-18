@@ -24,7 +24,7 @@
 
 新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。既存Releaseは変更しません。旧Pagesのfull/models ZIPは生成を終了し、旧URLの互換性は保証しません。制作原本・履歴・過去のハッシュ台帳を保持します。現行取得先は [配布契約](docs/MINIMAL_DOWNLOADS.md) を参照。
 
-> 既存173点の配布移行時は546,137,684 bytes。新作追加後も実ビルド全体の950MB容量ゲートと公開後の実Pages検査を必須にします。新作251点と追加30点は独立した検証証跡で反映します。[新作反映の検証記録](docs/NEW_ASSETS_ACTIVATION.md)。
+> 既存173点の配布移行時は546,137,684 bytes。新作追加後も実ビルド全体の950MB容量ゲートと公開後の実Pages検査を必須にします。新作251点と追加30点は独立した検証証跡で反映します。新作サムネイルと追加STL原本は固定GitHub URLで提供し、GLBと選択取得チャンクをPagesに保持します。[新作反映の検証記録](docs/NEW_ASSETS_ACTIVATION.md)。
 
 ## 収録素材
 

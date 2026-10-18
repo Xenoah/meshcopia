@@ -15,6 +15,7 @@ export async function validateCohortReceipt(receipt,{head,policy,read=regularRea
  assert.equal(new Set(receipt.sourceBindings.map(r=>r.id)).size,policy.newIds.length,'Duplicate cohort source binding');
  const runtime=JSON.parse(await read('docs/fbx-minimal-verification/runtime.json'));
  const required=[...cohortCoreInputs,...Object.keys(runtime.supportFiles),...Object.keys(runtime.recipe).map(k=>'scripts/fbx-verification/'+k),...policy.config.cohorts.flatMap(c=>cohortInputNames.map(n=>`docs/cohorts/${c.name}/${n}`))];
+ for(const {source} of policy.cohorts)for(const row of source.models){const meta=JSON.parse(await read(row.assetMetadata));required.push(`content/assets/${row.id}/${meta.thumbnail}`);}
  assert.deepEqual(receipt.inputs.map(r=>r.path).sort(),[...new Set(required)].sort(),'Incomplete cohort receipt inputs');
  for(const input of receipt.inputs){assert.deepEqual(Object.keys(input).sort(),['path','sha256']);assert.equal(cohortHash(await read(input.path)),input.sha256,`Cohort input changed: ${input.path}`);}
  const provenance=[];

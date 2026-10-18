@@ -67,7 +67,7 @@ Run `npm ci`, then the mandatory anonymous durable prep described in
 The original prep must run first because it recreates the verified FBX cache.
 The cohort prep binds each separately reviewed F/R run, exact immutable Release,
 clean-import QA attestation, metadata and complete source inventory. It checks
-all new public FBX/ZIP bytes anonymously and produces a single-use same-job receipt.
+all new public FBX/ZIP, external original and staged thumbnail bytes anonymously and produces a single-use same-job receipt.
 This validates metadata, source safety, GLB headers,
 catalog filtering, current Release ZIP contents, retired URL absence, links,
 hashes and the complete Pages budget. CI also verifies texture

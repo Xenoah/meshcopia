@@ -7,9 +7,9 @@ async function size(root){let bytes=0;for(const row of await readdir(root,{withF
 const catalog=JSON.parse(await readFile('dist/api/catalog.json')).assets;
 const archives=JSON.parse(await readFile('docs/archive-lock.json')).archives;
 const models=catalog.filter(a=>a.type==='model'),sum=f=>models.reduce((n,a)=>n+f(a),0);
-const report={publicAssets:catalog.length,models:models.length,textures:catalog.length-models.length,previousPublishedDistBytes:546137684,addedSincePreviousPublicationBytes:dist.bytes-546137684,externalOriginalBytes:sum(a=>a.files.filter(f=>f.url.startsWith('https://raw.githubusercontent.com/')).reduce((n,f)=>n+f.bytes,0)),baselineCommit:'7262f3e34559234de636cd5351d89fc733df008d',baselineDistBytes:939340180,
+const report={publicAssets:catalog.length,models:models.length,textures:catalog.length-models.length,previousPublishedDistBytes:546137684,beforeThumbnailOffloadBytes:1078999992,operationalHeadroomBytes:950000000-dist.bytes,addedSincePreviousPublicationBytes:dist.bytes-546137684,externalOriginalBytes:sum(a=>a.files.filter(f=>f.url.startsWith('https://raw.githubusercontent.com/')).reduce((n,f)=>n+f.bytes,0)),baselineCommit:'7262f3e34559234de636cd5351d89fc733df008d',baselineDistBytes:939340180,
  previousFbxCandidateDistBytes:1079586102,
- ...dist,savedFromMainBytes:939340180-dist.bytes,savedFromPreviousFbxCandidateBytes:1079586102-dist.bytes,
+ ...dist,savedFromPreMigrationBytes:939340180-dist.bytes,savedFromPreviousFbxCandidateBytes:1079586102-dist.bytes,
  retiredPagesArchives:archives.length,retiredPagesArchiveBytes:archives.reduce((n,a)=>n+a.bytes,0),
  chunkTransportBytes:await size('dist/download-data'),
  originalModelSourceBytes:sum(a=>a.files.reduce((n,f)=>n+f.bytes,0)),

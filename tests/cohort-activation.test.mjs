@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {execFileSync} from 'node:child_process';
-import {loadCohortPolicy,validateCohortActivation,assertPublicationScope,originalSourceUrl,cohortHash,stable,cohortCoreInputs,cohortInputNames} from '../scripts/lib/cohort-policy.mjs';
+import {loadCohortPolicy,validateCohortActivation,assertPublicationScope,originalSourceUrl,originalThumbnailUrl,cohortHash,stable,cohortCoreInputs,cohortInputNames} from '../scripts/lib/cohort-policy.mjs';
 import {validateCohortReceipt} from '../scripts/lib/cohort-downloads.mjs';
 const policy=await loadCohortPolicy();
 test('activation contains exactly original173 plus independently verified 251 and 30',()=>{
@@ -23,6 +23,7 @@ test('new previews remain on Pages and production originals use exact staged Git
 async function fixture(){
  const runtime=JSON.parse(await readFile('docs/fbx-minimal-verification/runtime.json'));
  const names=[...new Set([...cohortCoreInputs,...Object.keys(runtime.supportFiles),...Object.keys(runtime.recipe).map(k=>'scripts/fbx-verification/'+k),...policy.config.cohorts.flatMap(c=>cohortInputNames.map(n=>`docs/cohorts/${c.name}/${n}`))])].sort();
+ for(const {source} of policy.cohorts)for(const row of source.models){const meta=JSON.parse(await readFile(row.assetMetadata));names.push(`content/assets/${row.id}/${meta.thumbnail}`);}names.sort();
  const r={schemaVersion:1,createdBy:'same-job-cohort-prep/1',head:'test-head',activationSha256:cohortHash(policy.bytes),execution:{runId:null,runAttempt:null,job:null},inputs:await Promise.all(names.map(async path=>({path,sha256:cohortHash(await readFile(path))}))),projection:[],projectionSha256:'',sourceBindings:[],provenance:[]};
  for(const {activation:c,source} of policy.cohorts){
   const expected=JSON.parse(await readFile(`docs/cohorts/${c.name}/expected.json`)),evidence=JSON.parse(await readFile(`docs/cohorts/${c.name}/T-evidence.json`));
@@ -42,4 +43,9 @@ test('same-job receipt binds complete inputs, sources and exact immutable FBX ou
 });
 test('Python immutable proofs, failed jobs and malformed consumer ZIPs are rejected',()=>{
  execFileSync('python3',['tests/cohort-prep-checks.py'],{stdio:'pipe'});
+});
+
+test('new thumbnails retain staged original bytes and old thumbnail URLs remain unchanged',()=>{
+ const row=policy.cohorts[0].source.models[0];assert.equal(originalThumbnailUrl({id:row.id,thumbnail:'preview.png'},policy),`https://raw.githubusercontent.com/Xenoah/meshcopia/${row.stageCommit}/content/assets/${row.id}/preview.png`);
+ assert.equal(originalThumbnailUrl({id:'studio-chair',thumbnail:'preview.webp'},policy),'https://xenoah.github.io/meshcopia/assets/studio-chair/thumbnail.webp');
 });

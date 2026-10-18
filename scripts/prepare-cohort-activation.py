@@ -190,7 +190,11 @@ def prepare(repo):
     ordinary = importlib.util.module_from_spec(spec); spec.loader.exec_module(ordinary); reader = ordinary.PublicReader()
     prepared = [(c, verify_pins(repo, c)) for c in config['cohorts']]
     inputs = set(CORE_INPUTS)
-    for c, (_, _, _, pins) in prepared: inputs.update(pins); inputs.update('docs/cohorts/' + c['name'] + '/' + n for n in INPUT_NAMES)
+    for c, (source, _, _, pins) in prepared:
+        inputs.update(pins); inputs.update('docs/cohorts/' + c['name'] + '/' + n for n in INPUT_NAMES)
+        for row in source['models']:
+            meta = json.loads(local(repo, row['assetMetadata']).read_bytes())
+            inputs.add(f'content/assets/{row["id"]}/' + meta['thumbnail'])
     input_hashes = [{'path': name, 'sha256': file_sha(local(repo, name))} for name in sorted(inputs)]
     projection, bindings, provenance, ids = [], [], [], set()
     payloads = cache / 'fbx-delivery-payloads'; payloads.mkdir(exist_ok=True); need(not payloads.is_symlink(), 'Unsafe payload cache')
@@ -204,6 +208,10 @@ def prepare(repo):
                 metadata = local(repo, row['assetMetadata']).read_bytes()
                 need(sha(metadata) == row['metadataSha256'] and metadata == git(repo, 'show', c['verificationCommit'] + ':' + row['assetMetadata']), 'Current model metadata differs')
                 meta = json.loads(metadata); need(meta['status'] == 'public' and meta['type'] == 'model', 'Model is not public')
+                thumbnail_path = f'content/assets/{identity}/' + meta['thumbnail']
+                thumbnail = local(repo, thumbnail_path).read_bytes()
+                need(thumbnail == git(repo, 'show', row['stageCommit'] + ':' + thumbnail_path), 'Thumbnail differs from fixed stage commit')
+                target = work / 'thumbnail'; reader.file(f'https://raw.githubusercontent.com/{REPO}/{row["stageCommit"]}/{thumbnail_path}', target, len(thumbnail), sha(thumbnail)); target.unlink()
                 prefix = f'content/assets/{identity}/source/'
                 need(packages.source_listing(repo / prefix) == [x['name'] for x in row['sourceFiles']], 'Current complete source listing differs')
                 check_notice(row['notice'], meta, False); check_notice(row['fbxNotice'], meta, True)

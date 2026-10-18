@@ -1,4 +1,4 @@
-import {loadCohortPolicy} from '../scripts/lib/cohort-policy.mjs';
+import {loadCohortPolicy,originalThumbnailUrl} from '../scripts/lib/cohort-policy.mjs';
 import {model} from './delivery-fixtures.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -17,7 +17,7 @@ test('catalog contract rejects missing readiness, changed original bytes and par
  const root=await mkdtemp(path.join(os.tmpdir(),'p-catalog-test-'));try{
   await mkdir(path.join(root,'source'));await writeFile(path.join(root,'source/model.glb'),'model');await writeFile(path.join(root,'source/color.png'),'texture');
   const policy=await loadCohortPolicy();const assets=policy.publicIds.map((id,i)=>asset(id,i<policy.publicIds.length-36?'model':'texture'));
-  const sources=assets.map(a=>({...a,dir:root,preview:a.files[0].name,sources:a.files.map(f=>f.name)}));await assertActivatedCatalog(assets,sources);
+  const sources=assets.map(a=>({...a,dir:root,thumbnail:'preview.png',preview:a.files[0].name,sources:a.files.map(f=>f.name)}));for(const a of assets)a.thumbnail=originalThumbnailUrl(sources.find(s=>s.id===a.id),policy);await assertActivatedCatalog(assets,sources);
   await assert.rejects(()=>assertActivatedCatalog(assets.slice(1),sources));
   const changed=structuredClone(assets);changed[0].files[0].bytes++;await assert.rejects(()=>assertActivatedCatalog(changed,sources));
   const absent=structuredClone(assets);delete absent[0].downloads.delivery;await assert.rejects(()=>assertActivatedCatalog(absent,sources));

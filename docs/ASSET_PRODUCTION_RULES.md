@@ -117,7 +117,8 @@ immutable transport evidence and the separate cohort activation adapter. Reuse
 exact verified FBX bytes when source/version hashes still match. New251 and new30
 are separate proofs and must never be conflated with the retired232 candidate.
 For these cohorts, Pages holds GLB previews and same-origin consumer chunks;
-non-preview production originals remain available at pinned GitHub commit URLs.
+new thumbnails and non-preview production originals remain available at pinned
+GitHub commit URLs, with anonymous exact-byte checks. Preserve original pixels.
 Never substitute those original files for a missing consumer FBX. Keep existing
 source URLs, original files, QA and immutable releases. Measure the complete
 built output and block publication above the950MB operating budget.

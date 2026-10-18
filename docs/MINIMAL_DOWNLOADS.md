@@ -237,9 +237,9 @@ source ZIPs. Consumer UI uses its verified FBX ZIPs. The new30 Release has61
 attachments (30 FBXs,30 FBX ZIPs,one inventory); source ZIPs and QA remain in the
 reviewed build artifacts. Existing releases are never replaced.
 
-New GLB previews remain on Pages. New non-preview originals use exact stage
+New GLB previews remain on Pages. New thumbnails and non-preview originals use exact stage
 commit URLs at raw.githubusercontent.com/Xenoah/meshcopia, verified anonymously
-against local complete source inventories. The existing173 source URLs remain
+against local complete source inventories and exact staged thumbnail bytes. The existing173 source and thumbnail URLs remain
 unchanged. Raw original URLs are not selected-ZIP inputs; all selected FBXs use
 same-origin verified gzip chunks. Release links do not imply CORS permission.
 

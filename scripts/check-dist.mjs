@@ -2,7 +2,7 @@ import {readFile,stat} from 'node:fs/promises';import path from 'node:path';impo
 import {filesIn,sha256,readCatalog} from './lib/catalog.mjs';
 import {prepareMinimalDownloads,minimalIdentity} from './lib/minimal-downloads.mjs';
 import {verifySiteMigration} from './lib/site-migration.mjs';
-import {loadCohortPolicy,assertPublicationScope,originalSourceUrl} from './lib/cohort-policy.mjs';
+import {loadCohortPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './lib/cohort-policy.mjs';
 const policy=await loadCohortPolicy();
 const base=process.env.PUBLIC_BASE_PATH??'/meshcopia';
 const verifiedMinimal=await prepareMinimalDownloads(await readCatalog());
@@ -22,7 +22,7 @@ for(const a of catalog.assets){
   assert.deepEqual(a.downloads.minimal,verifiedMinimal.get(minimalIdentity(a)),'Minimal binding differs from current verified public Release');
   assert.deepEqual(manifest.downloads.minimal,a.downloads.minimal,'Per-asset minimal binding mismatch');
  }
- assert.equal(a.status,'public');await resolveFile(a.pageUrl);await resolveFile(a.thumbnail);await resolveFile(a.manifestUrl);
+ assert.equal(a.status,'public');await resolveFile(a.pageUrl);assert.equal(a.thumbnail,originalThumbnailUrl(original,policy));if(!a.thumbnail.startsWith('https://raw.githubusercontent.com/'))await resolveFile(a.thumbnail);await resolveFile(a.manifestUrl);
  for(const f of a.files){assert.equal(f.url,originalSourceUrl(original,f,policy));const data=await readFile(f.url.startsWith('https://raw.githubusercontent.com/')?`content/assets/${a.id}/source/${f.name}`:await resolveFile(f.url));assert.equal(data.length,f.bytes);assert.equal(sha256(data),f.sha256);count++;}
 }
 assert.equal(catalog.assets.filter(a=>a.downloads.minimal).length,catalog.assets.filter(a=>a.type==='texture').length,'Verified texture cohort omitted from public catalog');

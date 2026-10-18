@@ -44,3 +44,8 @@ export function originalSourceUrl(asset,file,policy){
  const encoded=file.name.split('/').map(encodeURIComponent).join('/');
  return row&&file.name!==asset.preview?`https://raw.githubusercontent.com/Xenoah/meshcopia/${row.stageCommit}/content/assets/${asset.id}/source/${encoded}`:`https://xenoah.github.io/meshcopia/assets/${asset.id}/source/${encoded}`;
 }
+
+export function originalThumbnailUrl(asset,policy){
+ const row=policy.cohorts.flatMap(c=>c.source.models).find(r=>r.id===asset.id);
+ return row?`https://raw.githubusercontent.com/Xenoah/meshcopia/${row.stageCommit}/content/assets/${asset.id}/${encodeURIComponent(asset.thumbnail)}`:`https://xenoah.github.io/meshcopia/assets/${asset.id}/thumbnail${asset.thumbnail.slice(asset.thumbnail.lastIndexOf('.'))}`;
+}

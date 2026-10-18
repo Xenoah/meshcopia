@@ -42,7 +42,8 @@ for (const asset of assets) {
   await mkdir(`${out}/source`,{recursive:true});
   if(cohort)await cp(path.join(dir,'source',asset.preview),`${out}/source/${asset.preview}`);
   else await cp(path.join(dir,'source'), `${out}/source`, {recursive:true});
-  await cp(path.join(dir,asset.thumbnail), `${out}/thumbnail${path.extname(asset.thumbnail)}`);
+  if(!cohort)await cp(path.join(dir,asset.thumbnail), `${out}/thumbnail${path.extname(asset.thumbnail)}`);
+  const thumbnail=cohort?`https://raw.githubusercontent.com/Xenoah/meshcopia/${record.sourceCommit}/content/assets/${asset.id}/${encodeURIComponent(asset.thumbnail)}`:`${url}/thumbnail${path.extname(asset.thumbnail)}`;
   const attribution = attributionFor(asset);
   const files = [];
   for (const file of sources) {
@@ -52,7 +53,7 @@ for (const asset of assets) {
   }
   // Production originals and previews remain separate from consumer delivery.
   // Retired full/models ZIP URLs are deliberately absent from API v3 and output.
-  const original = {...metadata,thumbnail:`${url}/thumbnail${path.extname(asset.thumbnail)}`,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads:{}};
+  const original = {...metadata,thumbnail,pageUrl:`${url}/`,manifestUrl:`${SITE}/api/assets/${asset.id}.json`,attribution,licenseUrl:LICENSE_URL,files,downloads:{}};
   const item = asset.type === 'model'
     ? bindDelivery(original,verifiedFbx,deliveryPayloads.files)
     : bindMinimalDownload(original,minimalDownloads);
