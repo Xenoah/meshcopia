@@ -65,6 +65,7 @@ Node.js 22以上。
 ```sh
 npm ci
 python3 scripts/prepare-fbx-minimal-activation.py --repo "$PWD" --verification-mode durable-transport-attestation
+python3 scripts/prepare-cohort-activation.py --repo "$PWD"
 npm run check
 ```
 
@@ -77,11 +78,15 @@ npm run new:asset -- my-chair model
 # _inbox/my-chair/asset.json、preview.webp、source/ を記入・追加
 npm run import:inbox -- my-chair          # 検証のみ
 npm run import:inbox -- my-chair --apply  # content/assets/ へ移動
+# 素材をdraftで保存・コミットし、検証済み配布の承認後に公開対象へ追加
+# 上記の二つの事前検証を、このコミットに対して実行してからチェック
 npm run check
 git add .
 git commit -m "feat(assets): add my-chair"
 git push origin main
 ```
+
+新しい公開素材には、原本・バージョンに結び付いたFBX/テクスチャ配布の検証と、明示的な公開台帳への追加が必要です。draftの保存だけでは公開されません。
 
 `_inbox/**` へのpushでもActionsが自動で取り込みます。既存IDは上書きしません。更新は `content/assets/<id>/` を直接変更し、versionとupdatedを更新します。`draft` は配信物に含めません。`hidden` は一覧から除外するだけで非公開ではありません。
 
