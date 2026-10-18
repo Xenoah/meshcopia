@@ -6,7 +6,7 @@
 
 ![Meshcopia library](https://github.com/Xenoah/meshcopia/releases/download/v1.3.0/desktop-catalog-full.png)
 
-> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.11.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.11.0)。合計454素材（3Dモデル418点とテクスチャ36点）を無料で取得できます。
+> **公開中**: [Meshcopia](https://xenoah.github.io/meshcopia/) · [正式版 v1.11.0](https://github.com/Xenoah/meshcopia/releases/tag/v1.11.0)。合計455素材（3Dモデル419点とテクスチャ36点）を無料で取得できます。
 
 ## できること
 
@@ -117,10 +117,11 @@ npm run check
 ## 出元・使用作品
 
 任意の構造化 `usages[]` で制作元・再利用先、固定コミット、リポジトリ内パス、オブジェクト名を記録します。詳細ページに表示し、作品名・場所・識別子で検索できます。カタログ・NDJSON・個別JSONに含まれます。既存Releaseや履歴にある従来版ZIPの `asset.json` は保持しますが、現行の配布ZIPにメタデータファイルは追加しません。ライセンスの `provenance`、テクスチャ設定の `usage` とは別項目です。記入例と未知情報の扱いは [usage metadata](docs/USAGE_METADATA.md) を参照。
-## 未公開の修正候補
+## 初期モデルの修正と家庭用冷蔵庫
 
-初期モデル2点の面向き修正と家庭用冷蔵庫の候補は、公開カタログから分離して
-[`asset-revisions/`](asset-revisions/) に保持しています。既存の前開き洗濯機、
-車両、その他の公開素材は保持します。検証方法と公開前の残作業は
-[修正候補のレビュー手順](docs/ASSET_REVISION_REVIEW.md)を参照してください。
-このブランチへの追加はサイトへの掲載を意味しません。
+`garden-arch` と `wayfinding-sign` の 1.0.2 は、開口と形状を保持して
+面向きを修正しています。家庭用冷蔵庫を追加し、既存の前開き洗濯機、車両、
+その他の素材は保持しています。3 点の FBX 配布は独立した不変 Release と
+毎回の匿名取得検証に結び付けています。旧ソース URL と原本は保持します。
+[公開・検証手順](docs/ASSET_REVISION_PUBLICATION.md)と
+[修正前後の実モデル比較](docs/ASSET_REVISION_REVIEW.md)を参照してください。

@@ -1,12 +1,14 @@
+import {readProductionCatalog} from './lib/production-catalog.mjs';
 import {readFile,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
 import {filesIn,sha256,readCatalog} from './lib/catalog.mjs';
 import {prepareMinimalDownloads,minimalIdentity} from './lib/minimal-downloads.mjs';
 import {verifySiteMigration} from './lib/site-migration.mjs';
-import {loadCohortPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './lib/cohort-policy.mjs';
-const policy=await loadCohortPolicy();
+import {loadProductionPolicy,assertPublicationScope,originalSourceUrl,originalThumbnailUrl} from './lib/production-catalog.mjs';
+const policy=await loadProductionPolicy();
 import {toLocalSiteUrl} from '../src/lib/site-url.mjs';
 const base=process.env.PUBLIC_BASE_PATH??'/meshcopia';
 const verifiedMinimal=await prepareMinimalDownloads(await readCatalog());
+const effectiveSources=await readProductionCatalog();
 const catalog=JSON.parse(await readFile('dist/api/catalog.json','utf8'));
 const ndjson=(await readFile('dist/api/catalog.ndjson','utf8')).trim().split('\n').map(line=>JSON.parse(line));
 assert.deepEqual(ndjson,catalog.assets);
@@ -15,7 +17,7 @@ let count=0;
 async function resolveFile(url){const u=new URL(url,'https://xenoah.github.io'+base+'/');assert.ok(u.pathname.startsWith(base+'/'),`Wrong base path: ${url}`);let file='dist/'+decodeURIComponent(u.pathname.slice(base.length+1));if(u.pathname.endsWith('/'))file+='index.html';await stat(file);return file;}
 for(const a of catalog.assets){
  assert.ok(Array.isArray(a.usages));
- const original=JSON.parse(await readFile(`content/assets/${a.id}/asset.json`,'utf8'));
+ const original=effectiveSources.find(x=>x.id===a.id);assert.ok(original);
  assert.deepEqual(a.usages,original.usages??[]);
  const manifest=JSON.parse(await readFile(await resolveFile(a.manifestUrl),'utf8'));assert.deepEqual(manifest.usages,a.usages);
  const html=await readFile(await resolveFile(a.pageUrl),'utf8');assert.ok(html.includes('id="usage-heading"'));

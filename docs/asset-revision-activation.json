@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "releaseId": 416523959,
+  "releaseTag": "cohort-repair-appliances-v1.0.0",
+  "reviewCommit": "4d537fad080c50ec18f3e515695f4f9f582351c5",
+  "reviewRunId": 39129140683,
+  "inventorySha256": "e046071fef1b8f58e9f8d6976ddd682e778f2943dfd5b0de3e52f040bf20c844",
+  "lockSha256": "55b488f27965daa22fd230f040715627c532f1a967354c007c7a419c00fa734c",
+  "evidenceSha256": "298827a0513771674341713ae6252581ad3915ad1ada4e247e3bc3ef300a4dc6"
+}

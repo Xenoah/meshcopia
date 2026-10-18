@@ -14,11 +14,11 @@ bytes and recoverable Git history; do not replace/delete existing Release
 attachments. Old Pages URL compatibility is not guaranteed. API v3 retires
 full/models ZIP output and fields; current UI/API must use verified FBX delivery
 or standalone texture downloads. Do not create another distribution repository.
-## Unpublished starter/appliance review
+## Starter/appliance revisions
 
-See [docs/ASSET_REVISION_REVIEW.md](docs/ASSET_REVISION_REVIEW.md) for the separate
-455-item candidate (two starter revisions and one refrigerator). The existing
-front-loading washer and every vehicle remain. `asset-revisions/` is inactive
-staging; its local review packages are not published Release evidence. Keep the
-original137/cohort adapters frozen and require a separately approved immutable
-publication/activation before merging or deploying these candidates.
+Follow [docs/ASSET_REVISION_PUBLICATION.md](docs/ASSET_REVISION_PUBLICATION.md).
+The independently verified overlay activates exactly two starter 1.0.2 revisions
+and one refrigerator 1.0.0, giving 455 public assets. Existing washer, vehicles,
+all other IDs, legacy source URLs and original137/cohort adapters stay intact.
+Run original137 prep, cohort prep, then revision prep in the same build job.
+Never use `local-review-verified` or the historical review build for production.

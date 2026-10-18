@@ -1,6 +1,11 @@
 # Starter winding repairs and household refrigerator — unpublished review
 
 Base: `fd595dfdc8b17fe515a618bf2f309e9cc61a7491` (454 public assets).
+
+This document records the historical unpublished review, completed at `4d537fad`.
+The user subsequently authorized publication; the production successor is
+[ASSET_REVISION_PUBLICATION.md](ASSET_REVISION_PUBLICATION.md). Review builds
+remain unpublished evidence and are never deployed.
 Branch: `codex/repair-starters-add-appliances`. No merge, deployment or Release
 creation/update is authorized by this review. No vehicle or unrelated asset is
 removed. All `content/assets` files and frozen original137/new-cohort adapters
@@ -124,7 +129,7 @@ The last published dist was 933,823,099 bytes, with 16,176,901 bytes of operatin
 headroom. New measured baseline/candidate reports are CI artifacts; do not reuse
 these historical numbers as an actual measurement of the candidate.
 
-## Before publication (separate approval)
+## Historical publication checklist (authorization subsequently received)
 
 - Review the exact branch commit, render evidence, fresh tests and full sizes.
 - Publish the locked new versions as a **new immutable Release** via separately
@@ -136,4 +141,5 @@ these historical numbers as an actual measurement of the candidate.
   old source URLs, repeat normal/full-browser/capacity checks, and only then
   request the separately authorized merge/deployment and post-deployment check.
 
-The new refrigerator's intended detail URL is not claimed to exist publicly yet.
+Actual deployment status is recorded in the production publication evidence;
+this historical review alone makes no live-site claim.

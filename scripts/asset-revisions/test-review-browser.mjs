@@ -6,23 +6,24 @@ import {isDeepStrictEqual} from 'node:util';
 import {formatBytes} from '../../src/lib/file-size.mjs';
 import {SITE,sha256,verifyBrowserZip,expectedZipEntries,measureDist} from '../lib/download-browser-contract.mjs';
 import {serveReview} from './serve-review.mjs';
-const root=path.resolve('dist'),out='test-results/asset-revisions/browser';await mkdir(out,{recursive:true});
+const live=process.argv.includes('--live'),production=live||process.argv.includes('--production');
+const root=path.resolve('dist'),out='test-results/asset-revisions/'+(live?'live-browser':production?'production-browser':'browser');await mkdir(out,{recursive:true});
 const document=JSON.parse(await readFile('dist/api/catalog.json')),assets=document.assets;
-assert.equal(document.publicationState,'unpublished-candidate');assert.equal(document.count,455);
+if(production){assert.equal(document.schemaVersion,'3.0.0');assert.ok(!document.publicationState);for(const a of assets.filter(a=>a.type==='model'))assert.equal(a.downloads.delivery.verification.state,'published-verified');}else assert.equal(document.publicationState,'unpublished-candidate');assert.equal(document.count,455);
 const selected=['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine','sage-terrazzo'].map(id=>assets.find(a=>a.id===id));
 const entries=expectedZipEntries(selected),estimate=22+entries.reduce((n,e)=>n+e.bytes+76+2*Buffer.byteLength(e.name),0);
-const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),localHttpsStaticServer:true,canonicalOriginPreserved:true,individual:[],bulk:[],previews:[],oldUrls:[]};
-const server=await serveReview(root);let browser;
+const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),liveSite:live,localHttpsStaticServer:!live,canonicalOriginPreserved:true,individual:[],bulk:[],previews:[],oldUrls:[]};
+const server=live?null:await serveReview(root);let browser;
 async function context(mobile=false){
  return browser.newContext({acceptDownloads:true,ignoreHTTPSErrors:true,serviceWorkers:'block',viewport:mobile?{width:390,height:844}:{width:1440,height:1050},isMobile:mobile,hasTouch:mobile});
 }
 try{
- browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:[...server.args,'--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
+ browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:[...(server?.args??[]),'--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
  for(const mobile of [false,true]){
   const ctx=await context(mobile),page=await ctx.newPage(),mode=mobile?'mobile':'desktop',errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(SITE);await expect(page.locator('#batch-download-bar')).toBeVisible();
   console.log(`REVIEW_BROWSER_STAGE ${mode} catalog-loaded`);
-  assert.equal(await page.locator('#asset-grid [data-card]').count(),455);assert.equal(await page.locator('[role="note"]').textContent(),'未公開の検証ビルド — 修正版と冷蔵庫の候補。公開サイトへの反映は未実施です。');
+  assert.equal(await page.locator('#asset-grid [data-card]').count(),455);if(production)assert.equal(await page.locator('[role="note"]').count(),0);else assert.equal(await page.locator('[role="note"]').textContent(),'未公開の検証ビルド — 修正版と冷蔵庫の候補。公開サイトへの反映は未実施です。');
   // The page sorts public entries by type/title; the API retains source order.
   // Compare every complete record by ID, without formatting megabytes of array diff.
   const embedded=JSON.parse(await page.locator('#catalog-data').textContent()),byId=new Map(embedded.map(a=>[a.id,a]));
@@ -45,15 +46,16 @@ try{
   console.log(`REVIEW_BROWSER_STAGE ${mode} mixed-zip-verified bytes=${proof.bytes}`);
   await dialog.locator('li button').first().click();await expect(counter).toHaveText(/^4 件選択/);await dialog.getByRole('button',{name:'選択解除',exact:true}).click();await expect(dialog.locator('li')).toHaveCount(0);await dialog.getByRole('button',{name:'閉じる',exact:true}).click();
   for(const id of ['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine']){
-   const asset=assets.find(a=>a.id===id);await page.goto(SITE+`assets/${id}/`);await expect(page.locator('.model-viewer-status')).toHaveText('GLB preview',{timeout:60000});
+   const asset=assets.find(a=>a.id===id);const previewResponse=page.waitForResponse(r=>r.url()===asset.previewUrl&&r.status()===200);await page.goto(SITE+`assets/${id}/`);await expect(page.locator('.model-viewer-status')).toHaveText('GLB preview',{timeout:60000});
    await page.waitForFunction(()=>[...document.querySelectorAll('canvas')].some(c=>c.width>0&&c.height>0));
+   const previewBytes=await (await previewResponse).body(),previewFile=asset.files.find(f=>f.url===asset.previewUrl);assert.equal(previewBytes.length,previewFile.bytes);assert.equal(sha256(previewBytes),previewFile.sha256);
    await expect(page.locator('.download-primary')).toHaveAttribute('href',asset.downloads.delivery.archive.url.replace('https://xenoah.github.io',''));
    if(!mobile){
     const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/${id}.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);const proof=await verifyBrowserZip(file,[asset],{individual:true});
     if(asset.downloads.delivery.verification.state==='local-review-verified')assert.ok(server.served.some(r=>r.path===new URL(asset.downloads.delivery.archive.url).pathname&&r.bytes===proof.bytes));
     evidence.individual.push({id,url:download.url(),...proof});
    }
-   await page.screenshot({path:`${out}/${id}-${mode}.png`});evidence.previews.push({id,mode});
+   await page.screenshot({path:`${out}/${id}-${mode}.png`});evidence.previews.push({id,mode,url:asset.previewUrl,bytes:previewBytes.length,sha256:previewFile.sha256});
    console.log(`REVIEW_BROWSER_STAGE ${mode} ${id} preview-verified`);
   }
   if(!mobile){const asset=assets.find(a=>a.id==='sage-terrazzo');await page.goto(SITE+'assets/sage-terrazzo/');const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/sage-terrazzo.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);evidence.individual.push({id:asset.id,...await verifyBrowserZip(file,[asset],{individual:true})})}
@@ -65,4 +67,4 @@ try{
  }
  evidence.state='passed';await writeFile(`${out}/report.json`,JSON.stringify(evidence,null,2)+'\n');
  console.log('ASSET_REVISION_BROWSER '+JSON.stringify(evidence));
-}catch(e){evidence.state='failed';evidence.error=e.stack;await writeFile(`${out}/failure.json`,JSON.stringify(evidence,null,2)+'\n');throw e}finally{await browser?.close();await server.close()}
+}catch(e){evidence.state='failed';evidence.error=e.stack;await writeFile(`${out}/failure.json`,JSON.stringify(evidence,null,2)+'\n');throw e}finally{await browser?.close();await server?.close()}

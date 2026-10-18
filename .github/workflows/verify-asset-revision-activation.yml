@@ -1,0 +1,63 @@
+name: Verify production revision activation
+on:
+  push:
+    branches: [codex/repair-starters-add-appliances]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: revision-activation-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Preserve immutable sources, vehicles and reviewed candidate GLBs
+        run: |
+          node scripts/asset-revisions/validate.mjs
+          node scripts/check-archive-runtime.mjs
+          node scripts/check-archive-lock.mjs --check-history
+      - name: Verify every original FBX anonymously
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - name: Verify every existing new-cohort FBX anonymously
+        run: python3 scripts/asset-revisions/prepare_existing_cohorts.py --repo "$GITHUB_WORKSPACE"
+      - name: Verify new immutable revisions and single-use source binding
+        run: python3 scripts/asset-revisions/prepare_activation.py
+      - run: npm run check
+      - name: Verify full output and unchanged Pages capacity gate
+        run: |
+          node scripts/check-full-p-inputs.mjs --dist
+          node scripts/check-fbx-minimal-baseline.mjs
+          node scripts/measure-distribution.mjs
+      - run: node tests/delivery-browser-fixture.mjs
+      - run: node scripts/test-browser.mjs
+      - run: node scripts/test-minimal-downloads-browser.mjs
+      - run: node scripts/test-fbx-minimal-downloads-browser.mjs
+      - name: Test all revised previews, actual Release ZIPs and selected mixed ZIPs
+        run: node scripts/asset-revisions/test-review-browser.mjs --production
+      - name: Retain production QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: revision-production-qa-${{ github.sha }}-${{ github.run_attempt }}
+          path: test-results/
+      - name: Retain exact complete verified production build
+        uses: actions/upload-artifact@v4
+        with:
+          name: revision-production-build-${{ github.sha }}-${{ github.run_attempt }}
+          include-hidden-files: true
+          compression-level: 1
+          path: dist/

@@ -108,6 +108,8 @@ jobs:
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Verify independent new-cohort proofs and anonymous bytes
         run: python3 scripts/prepare-cohort-activation.py --repo "$GITHUB_WORKSPACE"
+      - name: Verify approved model revisions anonymously in this job
+        run: python3 scripts/asset-revisions/prepare_activation.py
       - name: Validate, test and build
         run: npm run check
       - name: Verify texture maps, current delivery URLs and Pages budget
@@ -115,6 +117,8 @@ jobs:
           python3 scripts/check-textures.py
           node scripts/check-full-p-inputs.mjs --dist
           node scripts/check-fbx-minimal-baseline.mjs
+          node scripts/measure-distribution.mjs
+          node scripts/asset-revisions/validate.mjs
       - name: Install CI Chromium
         run: npx playwright install --with-deps chromium
       - name: Browser interactions and screenshots
@@ -123,6 +127,8 @@ jobs:
         run: node scripts/test-minimal-downloads-browser.mjs
       - name: Verify all FBX links and actual anonymous FBX downloads
         run: node scripts/test-fbx-minimal-downloads-browser.mjs
+      - name: Verify revised previews, Japanese appliance searches and real mixed ZIPs
+        run: node scripts/asset-revisions/test-review-browser.mjs --production
       - name: Preserve QA evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -261,6 +267,8 @@ jobs:
         run: node scripts/test-fbx-minimal-downloads-browser.mjs --live
       - name: Verify live previews and standalone textures
         run: node scripts/test-browser.mjs --live
+      - name: Verify live repaired previews, appliance searches and actual mixed ZIPs
+        run: node scripts/asset-revisions/test-review-browser.mjs --live
       - name: Preserve live Pages evidence
         if: always() && needs.verify.outputs.source_only == 'false'
         uses: actions/upload-artifact@v4

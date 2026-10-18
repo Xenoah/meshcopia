@@ -62,14 +62,15 @@ direct downloads, machine-readable catalog, and mobile accessibility.
 
 ## Verification and releases
 
-For unpublished starter repairs/appliance candidates, use the separate workflow
-in [docs/ASSET_REVISION_REVIEW.md](docs/ASSET_REVISION_REVIEW.md). Staging under
-`asset-revisions/` is inactive. Review delivery states must never count as
-published verification; do not deploy review builds or edit frozen adapters.
-Preserve vehicles and all existing IDs when reviewing this candidate.
+Starter repairs and the refrigerator use the separate production overlay in
+[docs/ASSET_REVISION_PUBLICATION.md](docs/ASSET_REVISION_PUBLICATION.md).
+Only the exact locked three versions under `asset-revisions/repair-appliances-v1`
+are activated by `docs/asset-revision-activation.json`; other staging stays inactive.
+Review states never count as publication. Keep frozen original137/cohort adapters
+and all `content/assets` originals unchanged. Preserve vehicles and all existing IDs.
 
 Run `npm ci`, then the mandatory anonymous durable prep described in
-`docs/fbx-minimal-activation/README.md`, then `python3 scripts/prepare-cohort-activation.py --repo "$PWD"`, then `npm run check`.
+`docs/fbx-minimal-activation/README.md`, then `python3 scripts/prepare-cohort-activation.py --repo "$PWD"`, then `python3 scripts/asset-revisions/prepare_activation.py`, then `npm run check`.
 The original prep must run first because it recreates the verified FBX cache.
 The cohort prep binds each separately reviewed F/R run, exact immutable Release,
 clean-import QA attestation, metadata and complete source inventory. It checks
