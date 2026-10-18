@@ -5,6 +5,7 @@ Emits a LOCAL trust handoff, not portable/signed proof. CI must clear stale
 receipts, execute this full verifier, then invoke token-free npm in this checkout.
 Local --qa-artifact uses identical digest and QA verification, never a projection.
 """
+import shutil
 import argparse, hashlib, importlib.util, json, os, re, stat, subprocess, sys, tempfile, urllib.error, urllib.parse, urllib.request, zipfile
 from pathlib import Path
 if not __debug__:raise RuntimeError('Optimized Python is prohibited')
@@ -260,7 +261,15 @@ def prepare(repo,qa_artifact=None,verification_mode='full-internal-qa'):
   if verification_mode=='full-internal-qa':
    verified=transport.qa.verify_internal_qa(qa_file,p,source,expected,runtime,repo,fbx_directory=fbxdir)
    need(verified==evidence['internalQaVerification'],'Rechecked internal QA differs from T evidence')
- # Raw downloaded QA and FBX bytes have now been discarded. Nothing is written
+  # Preserve only the verified consumer FBX bytes for this job's generator.
+  # Fresh receipt + current-source validation remain mandatory; this is not proof.
+  payloads=repo/'.cache/fbx-delivery-payloads'
+  need(not payloads.is_symlink(),'Unsafe delivery payload cache')
+  if payloads.exists():shutil.rmtree(payloads)
+  payloads.mkdir(parents=True)
+  for row in inventory['models']:
+   shutil.copyfile(fbxdir/row['fbx']['filename'],payloads/(row['fbx']['sha256']+'.fbx'))
+ # Raw downloaded QA and temporary ZIPs have now been discarded. Nothing is written
  # into public/, src/data/ or consumer metadata by this credentialed prep step.
  need(initial_inputs==[{'path':x,'sha256':file_hash(safe_local(repo,x))} for x in inputs],'Verifier input changed during prep')
  receipt={'schemaVersion':1,'verificationMode':verification_mode,'createdBy':'same-job-fbx-minimal-prep/1','execution':{'runId':os.environ.get('GITHUB_RUN_ID'),'runAttempt':os.environ.get('GITHUB_RUN_ATTEMPT'),'job':os.environ.get('GITHUB_JOB')},'head':head,'activationSha256':sha(activation_bytes),'inputs':initial_inputs,'projection':projection,'projectionSha256':sha(canonical(projection)),'sourceBindings':source_bindings,'provenance':{**p,'releaseId':a['releaseId'],'transportExecution':execution}}

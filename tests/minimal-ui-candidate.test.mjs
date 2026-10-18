@@ -1,3 +1,4 @@
+import {completeTexture} from './delivery-fixtures.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile,mkdtemp,writeFile,rm} from 'node:fs/promises';
@@ -22,7 +23,7 @@ test('all contributor entrypoints refer to one shared production document',async
     assert.ok(text.includes('docs/ASSET_PRODUCTION_RULES.md'),name);
   }
   const rules=await readFile(new URL('../docs/ASSET_PRODUCTION_RULES.md',import.meta.url),'utf8');
-  assert.match(rules,/FBX alongside/);assert.match(rules,/clean scene/);assert.match(rules,/single root `LICENSE\.txt`/);
+  assert.match(rules,/FBX as the consumer model format/);assert.match(rules,/clean scene/);assert.match(rules,/single root `LICENSE\.txt`/);
 });
 test('ordinary activation retains the strict schema and production validation hooks',async()=>{
   const activation=JSON.parse(await readFile(new URL('../docs/minimal-activation.json',import.meta.url),'utf8'));
@@ -32,11 +33,11 @@ test('ordinary activation retains the strict schema and production validation ho
   assert.match(generate,/prepareFbxMinimalDownloads/);assert.doesNotMatch(generate,/prepareSidecars|alternate-formats/);
   const detail=await readFile(new URL('../src/pages/assets/[id].astro',import.meta.url),'utf8');assert.match(detail,/fbx-download/);assert.doesNotMatch(detail,/alternate-formats/);
 });
-test('live browser proof selects raw GLB by exact asset ID regardless of catalog order',async()=>{
+test('live browser entrypoint delegates to the non-injected post-deployment gate',async()=>{
   const source=await readFile(new URL('./live-browser-proof.mjs',import.meta.url),'utf8');
-  assert.match(source,/expectedIds\.every/);assert.match(source,/assets\.length!==expectedIds\.length/);
-  assert.ok(source.includes("const chair=assets.find(a=>a.id==='studio-chair')"));assert.doesNotMatch(source,/assets\[0\]/);
-  assert.match(source,/fetch\(rawURL,\{mode:'cors'\}\)/);assert.match(source,/rawHash!==raw\.sha256/);
+  assert.match(source,/process.argv.push\('--live'\)/);
+  assert.match(source,/test-minimal-downloads-browser.mjs/);
+  assert.doesNotMatch(source,/createObjectURL|downloads.minimal=/);
 });
 test('full-P verification workflow has read-only permissions and no publication actions',async()=>{
   const workflow=await readFile(new URL('../.github/workflows/verify-minimal-ui.yml',import.meta.url),'utf8');
@@ -56,7 +57,7 @@ test('browser-evidence recorder validates ZIP payloads and retains fixture limit
       const data=Buffer.from(id),name=id==='studio-chair'?'model.glb':'color.png';
       const file={name,bytes:data.length,sha256:digest(data),url:`https://xenoah.github.io/meshcopia/assets/${id}/source/${name}`};
       const text=`Fixture only: ${id}\nCC BY 4.0\n`;
-      return {id,status:'public',version:'1.0.0',files:[file],downloads:{minimal:{id,assetVersion:'1.0.0',contentPolicy:POLICY,noticeFile:'LICENSE.txt',sourceFiles:[file],notice:{filename:'LICENSE.txt',text,bytes:Buffer.byteLength(text),sha256:digest(text)}}}};
+      return completeTexture({id,status:'public',version:'1.0.0',files:[file],downloads:{minimal:{id,assetVersion:'1.0.0',contentPolicy:POLICY,noticeFile:'LICENSE.txt',sourceFiles:[file],notice:{filename:'LICENSE.txt',text,bytes:Buffer.byteLength(text),sha256:digest(text)}}}});
     });
     const plan=planBundle(assets),blob=await buildBundle(plan,{cryptoImpl:webcrypto,fetchImpl:async url=>new Response(assets.find(a=>url.includes('/'+a.id+'/')).id)});
     for(const name of ['live-browser-proof.zip','batch-desktop.zip','batch-mobile.zip'])await writeFile(path.join(root,name),Buffer.from(await blob.arrayBuffer()));

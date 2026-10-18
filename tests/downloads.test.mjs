@@ -21,17 +21,11 @@ function bind(asset) {
   return asset;
 }
 
-test('models have one truthfully labeled legacy source ZIP before migration',()=>{
-  const a=fixture();assert.deepEqual(minimalDownloadReadiness(a),{ready:false,reason:'absent'});
-  const selected=primaryDownload(a);assert.equal(selected.kind,'models');assert.equal(selected.minimal,false);assert.equal(selected.url,a.downloads.models.url);assert.equal(selected.bytes,3000);
-  assert.equal(selected.labelEn,'Model ZIP (legacy)');assert.equal(selected.labelJa,'3Dモデル ZIP（従来版）');
-  assert.equal(selected.contentsEn,'Model files, required dependencies, LICENSE.txt and ATTRIBUTION.txt');
+test('models without verified FBX are unavailable; legacy fields stay intact',()=>{const a=bind(fixture());assert.equal(primaryDownload(a),undefined);assert.equal(primaryDownloadBytes(a),Infinity);assert.ok(a.downloads.models);});
+test('textures without verified delivery never fall back to retired Pages ZIPs',()=>{
+  const a=fixture('texture');assert.equal(primaryDownload(a),undefined);assert.equal(primaryDownloadBytes(a),Infinity);
 });
-test('textures retain a truthful preview/metadata legacy description until bound',()=>{
-  const a=fixture('texture'), selected=primaryDownload(a);assert.equal(selected.kind,'full');assert.equal(selected.minimal,false);
-  assert.equal(selected.labelEn,'Texture ZIP (legacy)');assert.equal(selected.contentsEn,'Asset files, preview, metadata, README, LICENSE.txt and ATTRIBUTION.txt');
-});
-for(const type of ['model','texture'])test(`${type}: verified binding becomes the sole primary ZIP without mutating legacy fields`,()=>{
+for(const type of ['texture'])test(`${type}: verified binding becomes the sole primary ZIP without mutating legacy fields`,()=>{
   const a=bind(fixture(type)), before=clone(a);const selected=primaryDownload(a);
   assert.equal(minimalDownloadReadiness(a).ready,true);assert.equal(selected.kind,'minimal');assert.equal(selected.minimal,true);assert.equal(selected.url,a.downloads.minimal.url);assert.equal(primaryDownloadBytes(a),2000);
   assert.equal(selected.labelJa,'素材 ZIPをダウンロード');assert.equal(selected.labelEn,'Download asset ZIP');assert.equal(selected.contentsEn,'Asset files, required dependencies and LICENSE.txt (license and attribution)');
@@ -81,11 +75,11 @@ test('source inventory order is immaterial, and Unicode notice bytes are UTF-8',
   notice.bytes=notice.text.length;assert.equal(minimalDownloadReadiness(a).reason,'notice');
 });
 test('current file changes invalidate a previously bound archive',()=>{
-  const a=bind(fixture());a.files[0].sha256=digest('updated current source');assert.equal(minimalDownloadReadiness(a).reason,'source-inventory');assert.equal(primaryDownload(a).kind,'models');
+  const a=bind(fixture());a.files[0].sha256=digest('updated current source');assert.equal(minimalDownloadReadiness(a).reason,'source-inventory');assert.equal(primaryDownload(a),undefined);
 });
-test('missing or malformed ordinary downloads remain unavailable or use honest full fallback',()=>{
+test('missing or malformed ordinary downloads remain unavailable',()=>{
   assert.equal(primaryDownload({type:'model'}),undefined);assert.equal(primaryDownload(undefined),undefined);assert.equal(primaryDownloadBytes({}),Infinity);
-  const a=fixture();a.downloads.models.url='javascript:alert(1)';assert.equal(primaryDownload(a).kind,'full');assert.equal(primaryDownload(a).labelEn,'Asset ZIP (legacy)');
+  const a=fixture('texture');assert.equal(primaryDownload(a),undefined);
   a.downloads.full.url='http://unsafe.example/file.zip';assert.equal(primaryDownload(a),undefined);
 });
 test('Release origin is never stripped; same-site direct files stay base-path local',()=>{
@@ -94,12 +88,9 @@ test('Release origin is never stripped; same-site direct files stay base-path lo
   assert.equal(downloadHref('/meshcopia/assets/model.zip'),'/meshcopia/assets/model.zip');
   for(const url of ['javascript:alert(1)','http://example.com/a.zip','https://user:pass@github.com/a.zip','https://github.com/a\\b','data:application/zip;base64,a',''])assert.equal(downloadHref(url),undefined);
 });
-test('direct formats expose actual model entry files, not maps/buffers or invented conversions',()=>{
-  const a=fixture();assert.deepEqual(directModelFiles(a).map(f=>f.format),['GLB','STL','STEP']);assert.equal(directModelFiles(a).some(f=>f.format==='FBX'),false);assert.deepEqual(directModelFiles(fixture('texture')),[]);
-  a.files[0].url='javascript:alert(1)';assert.deepEqual(directModelFiles(a).map(f=>f.format),['STL','STEP']);
-});
+test('original models stay separate from primary direct FBX links',()=>{assert.deepEqual(directModelFiles(fixture()),[]);});
 test('catalog size ordering follows the same selected ZIP as cards and detail pages',()=>{
-  const legacy=fixture('texture'), migrated=bind(fixture());legacy.downloads.full.bytes=2500;migrated.downloads.full.bytes=9000;
+  const legacy=fixture('texture'), migrated=bind(fixture('texture'));migrated.id='migrated';migrated.downloads.minimal.id='migrated';migrated.downloads.minimal.url=migrated.downloads.minimal.url.replace('fixture-texture-','migrated-');legacy.downloads.full.bytes=2500;migrated.downloads.full.bytes=9000;
   assert.deepEqual(filterAssets([legacy,migrated],{sort:'size'}).map(a=>a.id),[migrated.id,legacy.id]);
   migrated.downloads.minimal.verification.state='pending';assert.deepEqual(filterAssets([legacy,migrated],{sort:'size'}).map(a=>a.id),[legacy.id,migrated.id]);
 });

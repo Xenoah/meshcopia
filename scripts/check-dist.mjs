@@ -1,14 +1,13 @@
 import {readFile,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
 import {filesIn,sha256,readCatalog} from './lib/catalog.mjs';
 import {prepareMinimalDownloads,minimalIdentity} from './lib/minimal-downloads.mjs';
-import {readZipEntries} from './lib/zip-read.mjs';
-import {verifyArchiveLock,archiveLockPath} from './lib/archive-lock.mjs';
+import {verifySiteMigration} from './lib/site-migration.mjs';
 const base=process.env.PUBLIC_BASE_PATH??'/meshcopia';
 const verifiedMinimal=await prepareMinimalDownloads(await readCatalog());
 const catalog=JSON.parse(await readFile('dist/api/catalog.json','utf8'));
 const ndjson=(await readFile('dist/api/catalog.ndjson','utf8')).trim().split('\n').map(line=>JSON.parse(line));
 assert.deepEqual(ndjson,catalog.assets);
-assert.equal(catalog.schemaVersion,'2.1.0');
+assert.equal(catalog.schemaVersion,'3.0.0');
 let count=0;
 async function resolveFile(url){const u=new URL(url,'https://xenoah.github.io'+base+'/');assert.ok(u.pathname.startsWith(base+'/'),`Wrong base path: ${url}`);let file='dist/'+decodeURIComponent(u.pathname.slice(base.length+1));if(u.pathname.endsWith('/'))file+='index.html';await stat(file);return file;}
 for(const a of catalog.assets){
@@ -17,39 +16,24 @@ for(const a of catalog.assets){
  assert.deepEqual(a.usages,original.usages??[]);
  const manifest=JSON.parse(await readFile(await resolveFile(a.manifestUrl),'utf8'));assert.deepEqual(manifest.usages,a.usages);
  const html=await readFile(await resolveFile(a.pageUrl),'utf8');assert.ok(html.includes('id="usage-heading"'));
- assert.deepEqual(a.downloads.minimal,verifiedMinimal.get(minimalIdentity(a)),'Minimal binding differs from current verified public Release');
- assert.deepEqual(manifest.downloads.minimal,a.downloads.minimal,'Per-asset minimal binding mismatch');
- assert.equal(a.status,'public');await resolveFile(a.pageUrl);await resolveFile(a.thumbnail);await resolveFile(a.manifestUrl);
- for(const f of [...a.files,...Object.entries(a.downloads).filter(([kind])=>kind!=='minimal').map(([,file])=>file)]){const data=await readFile(await resolveFile(f.url));assert.equal(data.length,f.bytes);assert.equal(sha256(data),f.sha256);count++;}
- for(const [kind,f] of Object.entries(a.downloads)){
-  if(kind==='direct'||kind==='minimal')continue; // Minimal public bytes/entries were independently verified above.
-  const entries=readZipEntries(await readFile(await resolveFile(f.url)));
-  assert.ok(entries.has('LICENSE.txt'));assert.ok(entries.has('ATTRIBUTION.txt'));
-  assert.ok(entries.get('LICENSE.txt').toString().includes('CC BY 4.0'));
-  assert.equal(entries.get('ATTRIBUTION.txt').toString(),a.attribution+'\n');
-  for(const source of a.files){
-   const data=entries.get('source/'+source.name);assert.ok(data,`Missing ZIP source: ${source.name}`);
-   assert.equal(data.length,source.bytes);assert.equal(sha256(data),source.sha256);
-  }
-  if(kind==='models'){
-   assert.equal(entries.size,a.files.length+2);
-   assert.ok(!entries.has('README.md'));assert.ok(![...entries.keys()].some(n=>n.startsWith('preview.')));
-  }else{
-   const metadata=JSON.parse(entries.get('asset.json').toString());assert.deepEqual(metadata.usages,a.usages);
-   assert.ok(entries.has('README.md'));assert.equal(entries.size,a.files.length+5);
-   const thumbnail=await readFile(await resolveFile(a.thumbnail));
-   assert.deepEqual(entries.get('preview'+path.extname(a.thumbnail)),thumbnail);
-  }
+ if(a.type==='texture'){
+  assert.deepEqual(a.downloads.minimal,verifiedMinimal.get(minimalIdentity(a)),'Minimal binding differs from current verified public Release');
+  assert.deepEqual(manifest.downloads.minimal,a.downloads.minimal,'Per-asset minimal binding mismatch');
  }
+ assert.equal(a.status,'public');await resolveFile(a.pageUrl);await resolveFile(a.thumbnail);await resolveFile(a.manifestUrl);
+ for(const f of a.files){const data=await readFile(await resolveFile(f.url));assert.equal(data.length,f.bytes);assert.equal(sha256(data),f.sha256);count++;}
 }
-assert.equal(catalog.assets.filter(a=>a.downloads.minimal).length,verifiedMinimal.size,'Verified minimal cohort omitted from public catalog');
+assert.equal(catalog.assets.filter(a=>a.downloads.minimal).length,catalog.assets.filter(a=>a.type==='texture').length,'Verified texture cohort omitted from public catalog');
 let links=0;
 for(const file of (await filesIn('dist')).filter(f=>f.endsWith('.html'))){const html=await readFile(path.join('dist',file),'utf8');for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){const value=match[1].replace(/&amp;/g,'&');if(value.startsWith(base+'/')){await resolveFile(value);links++;}}}
 assert.ok((await readFile('dist/sitemap.xml','utf8')).includes(base+'/assets/studio-chair/'));
-await verifyArchiveLock({catalog:JSON.parse(await readFile('src/data/catalog.json','utf8')),lock:JSON.parse(await readFile(archiveLockPath,'utf8'))});
-console.log(`Verified ${catalog.assets.length} public assets, ${count} file/ZIP hashes, ZIP contents, immutable archive locks, ${verifiedMinimal.size} verified Release minimal ZIPs and ${links} internal links.`);
+await verifySiteMigration();
+console.log(`Verified ${catalog.assets.length} public assets, ${count} original file hashes, ${verifiedMinimal.size} verified Release minimal ZIPs and ${links} current internal links; retired ZIPs absent.`);
 
-// Separate minimal FBX projection: original catalog/minimal ZIP/bulk fields stay unchanged.
+// Current delivery binds exact FBX bytes; production originals stay separate.
+const {bindDelivery}=await import('./lib/delivery.mjs');
+const {buildBundle,planBundle}=await import('../src/lib/batch-download.mjs');
+const {webcrypto}=await import('node:crypto');
 const fbxProjection=JSON.parse(await readFile('dist/api/fbx-minimal-downloads.json','utf8'));
 const {fbxMinimalForAsset}=await import('../src/lib/fbx-minimal-downloads.mjs');
 assert.deepEqual(fbxProjection,JSON.parse(await readFile('src/data/fbx-minimal-downloads.json','utf8')),'Built FBX projection differs from generated binding');
@@ -59,6 +43,13 @@ assert.equal(fbxProjection.coverage.fbxReadyModels,new Set(fbxProjection.formats
 for(const record of fbxProjection.formats){
  const asset=catalog.assets.find(a=>a.id===record.id&&a.version===record.assetVersion);
  assert.ok(fbxMinimalForAsset(asset,fbxProjection),'Invalid FBX public projection');
+ const {delivery,...legacy}=asset.downloads;
+ assert.deepEqual(delivery,bindDelivery({...asset,downloads:legacy},[record],new Map([[asset.id,delivery.files[0].fetch]])).downloads.delivery);
+ const manifest=JSON.parse(await readFile(await resolveFile(asset.manifestUrl),'utf8'));
+ assert.deepEqual(manifest.downloads.delivery,delivery);
+ // Reconstruct every model from the actual built chunks, not the prep cache.
+ // The same browser reader verifies compressed, expanded and final FBX hashes.
+ await buildBundle(planBundle([asset],{limit:Number.MAX_SAFE_INTEGER}),{cryptoImpl:webcrypto,fetchImpl:async url=>new Response(await readFile(await resolveFile(url)))});
  const page=await readFile(await resolveFile(asset.pageUrl),'utf8');
  assert.ok(page.includes(record.archive.url)&&page.includes(record.direct.url));
  assert.ok(!page.includes('data-format="fbx"'),'Minimal FBX must remain download-only');

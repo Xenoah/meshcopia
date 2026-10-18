@@ -1,0 +1,77 @@
+name: Verify FBX distribution candidate
+on:
+  push:
+    branches: [codex/fbx-distribution]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.ref == 'refs/heads/codex/fbx-distribution'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Record actual Release fetch and CORS diagnostics
+        run: node scripts/diagnose-release-fetch.mjs
+      - run: node scripts/check-download-ui-source.mjs
+      - run: node scripts/check-archive-lock.mjs --check-history
+      - name: Verify existing immutable FBX release and retain exact payloads
+        run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - run: npm run check
+      - name: Verify missing FBX and interrupted retry with local synthetic data
+        run: node tests/delivery-browser-fixture.mjs
+      - name: Verify real ordinary and selected ZIPs, size, cancel, retry and navigation
+        run: node scripts/test-minimal-downloads-browser.mjs
+      - name: Verify every FBX link, anonymous downloads, mobile and no-JS
+        run: node scripts/test-fbx-minimal-downloads-browser.mjs
+      - name: Preserve viewer and texture regressions
+        run: node scripts/test-browser.mjs
+      - name: Measure complete build and enforce Pages capacity
+        if: always()
+        run: node scripts/measure-distribution.mjs
+      - name: Verify current URLs, retired archive absence and immutable history
+        if: always()
+        run: node scripts/check-fbx-minimal-baseline.mjs
+      - name: Build current site release artifacts without publishing
+        run: npm run release:bundle
+      - name: Preserve source assets, release request and historical ledger
+        run: git diff --exit-code 7262f3e34559234de636cd5351d89fc733df008d -- content .release.json docs/archive-lock.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fbx-distribution-${{ github.sha }}
+          path: test-results/
+  baseline:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 7262f3e34559234de636cd5351d89fc733df008d
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
+      - run: npm run build
+      - name: Measure complete baseline dist
+        run: node --input-type=module -e "import {measureDist} from './scripts/lib/download-browser-contract.mjs'; import {writeFile,mkdir} from 'node:fs/promises'; const result=await measureDist('dist'); console.log(result); await mkdir('test-results',{recursive:true});await writeFile('test-results/baseline-size.json',JSON.stringify(result));"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: baseline-size-${{ github.sha }}
+          path: test-results/

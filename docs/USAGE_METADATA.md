@@ -1,7 +1,9 @@
-# Origin and documented usage (catalog 2.1.0)
+# Origin and documented usage (introduced in catalog 2.1.0)
 
 `usages` is an optional array on an asset, additive to catalog 2.0.0. It appears
-unchanged in JSON/NDJSON, individual manifests, and full ZIP `asset.json`.
+unchanged in current JSON/NDJSON and individual manifests. Historical full ZIPs
+also included it in `asset.json`; API v3 no longer generates those Pages ZIPs.
+Consumer FBX/image ZIPs contain no metadata file.
 The loader normalizes an omitted array to `[]`. Both mean **not recorded**, not
 “never used”. Old assets remain valid. Existing fields and rights checks remain.
 
@@ -60,4 +62,5 @@ an immutable ref only for files actually present there, and keep original-only
 rights evidence separate. Increment version/updated for edits to existing assets.
 
 `npm run check` exercises record validation, legacy defaults, multiple usages,
-unsafe URLs/paths, search, and propagation into built JSON/manifests/ZIP metadata.
+unsafe URLs/paths, search, and propagation into current built JSON/manifests. Historical ZIP metadata remains
+in existing Releases/history, outside the current consumer ZIP layout.

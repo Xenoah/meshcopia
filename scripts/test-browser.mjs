@@ -4,19 +4,19 @@ import {testUsagesBrowser} from './test-usages-browser.mjs';
 import {chromium} from '@playwright/test';
 import {createHash} from 'node:crypto';
 import {createServer} from 'node:http';import {readFile,writeFile,mkdir,stat} from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
-const root=path.resolve('dist');
+const live=process.argv.includes('--live'),root=path.resolve('dist');
 const catalog=JSON.parse(await readFile(path.join(root,'api/catalog.json'),'utf8')).assets;
 const countType=type=>catalog.filter(a=>a.type===type).length;
 const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.wasm':'application/wasm','.glb':'model/gltf-binary','.zip':'application/zip'};
 const server=createServer(async(req,res)=>{try{const u=new URL(req.url,'http://127.0.0.1');if(!u.pathname.startsWith('/meshcopia/')){res.writeHead(404).end();return}let file=path.resolve(root,decodeURIComponent(u.pathname.slice('/meshcopia/'.length)));if(!file.startsWith(root+path.sep)&&file!==root)throw Error('path');if((await stat(file)).isDirectory())file=path.join(file,'index.html');res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');res.end(await readFile(file))}catch{res.writeHead(404).end('Not found')}});
-await new Promise(resolve=>server.listen(4173,'127.0.0.1',resolve));await mkdir('test-results',{recursive:true});
+if(!live)await new Promise(resolve=>server.listen(4173,'127.0.0.1',resolve));await mkdir('test-results',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
 const context=await browser.newContext({viewport:{width:1440,height:1050},permissions:['clipboard-read','clipboard-write']});
 const page=await context.newPage();const errors=[];const imageResponses=new Map();const imageDecodeChecks=[];
 page.on('response',r=>{if(r.request().resourceType()==='image')imageResponses.set(r.url(),{status:r.status(),contentType:r.headers()['content-type']??null,contentLength:r.headers()['content-length']??null});});
 page.on('requestfailed',r=>{if(r.resourceType()==='image')imageResponses.set(r.url(),{requestFailure:r.failure()?.errorText??'unknown'});});
 page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
-const home='http://127.0.0.1:4173/meshcopia/';
+const home=live?'https://xenoah.github.io/meshcopia/':'http://127.0.0.1:4173/meshcopia/';
 async function loadImages(){
  const images=await page.locator('img:visible').all();
  const batch={page:page.url(),expectedImages:images.length,images:[]};
@@ -66,7 +66,7 @@ try{
  await page.goto(home);await page.waitForSelector('[data-card]');
  await loadImages();
  assert.equal(await page.locator('[data-card]:visible').count(),catalog.length);
- for(const a of catalog.filter(a=>a.type==='model'&&a.id.startsWith('commons-'))){const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});assert.equal(await card.locator('.card-info p').textContent(),`${a.triangles.toLocaleString()} tris · GLB / STL`);}
+ for(const a of catalog.filter(a=>a.type==='model'&&a.id.startsWith('commons-'))){const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});assert.equal(await card.locator('.card-info p').textContent(),`${a.triangles.toLocaleString()} tris · FBX`);}
  for(const a of catalog.filter(a=>a.type==='texture')){
   const card=page.locator('[data-card]').filter({has:page.locator(`[data-preview="${a.id}"]`)});
   assert.equal((await card.locator('.format-badge').textContent()).trim(),{repeat:'SEAMLESS',mirror:'MIRROR',clamp:'ATLAS'}[a.wrapMode]);
@@ -75,6 +75,7 @@ try{
  await page.screenshot({path:'test-results/desktop-catalog.png',fullPage:false});
  await page.screenshot({path:'test-results/desktop-catalog-full.png',fullPage:true});
  await page.locator('[data-type-filter="model"]').click();assert.equal(await page.locator('[data-card]:visible').count(),countType('model'));
+ await page.locator('#asset-search').fill('chair FBX');assert.ok(await page.locator('[data-preview="studio-chair"]').isVisible());
  await page.locator('#asset-search').fill('chair GLB');assert.ok(await page.locator('[data-preview="studio-chair"]').isVisible());assert.equal(await page.locator('[data-preview="atelier-lamp"]').isVisible(),false);
  await page.locator('#asset-search').fill('no-such-asset');assert.equal(await page.locator('[data-card]:visible').count(),0);assert.ok(await page.locator('#empty-state').isVisible());
  await page.locator('#clear-filters').click();assert.equal(await page.locator('[data-card]:visible').count(),catalog.length);
@@ -181,4 +182,4 @@ try{
  }
  assert.deepEqual(errors,[]);
  console.log('PASS: desktop/mobile catalog, search, filters, dialog reuse, GLB/STL/OBJ, viewer controls, ZIP, clipboard, repeat/mirror/clamp textures, original PNG download, material sphere and language.');
-}catch(error){await page.screenshot({path:'test-results/failure.png',fullPage:true}).catch(()=>{});throw error}finally{await browser.close();server.close()}
+}catch(error){await page.screenshot({path:'test-results/failure.png',fullPage:true}).catch(()=>{});throw error}finally{await browser.close();if(!live)server.close()}

@@ -11,16 +11,19 @@
 - Source: https://github.com/Xenoah/meshcopia
 - License: https://creativecommons.org/licenses/by/4.0/
 
-Catalog schemaVersion: 2.1.0. assets[] contains id, type, title, titleEn, tags,
+Catalog schemaVersion: 3.0.0. assets[] contains id, type, title, titleEn, tags,
 category, author, license, version, provenance, thumbnail, pageUrl, manifestUrl,
-attribution, files[], downloads.full and (models only) downloads.models.
-When present, publisher-verified downloads.minimal is the ordinary ZIP for either
-asset type. It contains asset files, required dependencies, and one LICENSE.txt
-with license and attribution. It is hosted at a pinned GitHub Release URL; keep
-the URL host. Match its id, assetVersion and sourceFiles to the current asset.
-Absent a valid minimal binding, downloads.models / downloads.full remain legacy
-archives with their original contents, URLs and hashes. Do not relabel them minimal.
-Use files[].url for individual files; prefer self-contained GLB for a single model.
+attribution, files[], and the current downloads binding.
+Models use publisher-verified downloads.delivery: archive is the ordinary FBX ZIP;
+files is the exact FBX/required-texture consumer inventory, with one notice.
+Missing delivery means FBX unavailable; do not silently select all-format archives.
+Textures use verified downloads.minimal; there is no legacy fallback.
+The files[] at asset root are retained original/preview files, not the batch payload.
+downloads.full/models/direct and model downloads.minimal are removed in API v3.
+Legacy full/models Pages ZIPs are no longer generated; old URL compatibility is
+not guaranteed. Sources, Git history and existing Release attachments are retained.
+Batch consumers use downloads.delivery.files and its verified chunk manifest.
+Never assume GitHub Release links allow browser fetch. Keep direct Release hosts.
 Every file and ZIP has bytes and sha256. Verify the downloaded bytes before use.
 Keep LICENSE.txt from minimal ZIPs. For legacy ZIPs, keep both ATTRIBUTION.txt
 and LICENSE.txt. Indicate any changes in your credits.

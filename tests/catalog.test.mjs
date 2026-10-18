@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {mkdtemp,mkdir,readFile,writeFile,rm,symlink} from 'node:fs/promises';
 import os from 'node:os';import path from 'node:path';
 import {readCatalog,readAsset,safeRelative} from '../scripts/lib/catalog.mjs';
+import {primaryDownloadBytes} from '../src/lib/downloads.mjs';
 import {filterAssets} from '../src/lib/catalog-ui.js';
 import {writeStoreZip} from '../scripts/lib/zip-store.mjs';
 
@@ -28,7 +29,7 @@ test('public search covers Japanese, English and formats, with cumulative filter
  assert.deepEqual(filterAssets(assets,{type:'texture'}).map(a=>a.id).sort(),assets.filter(a=>a.type==='texture').map(a=>a.id).sort());
  const furniture=filterAssets(assets,{type:'model',category:'furniture'});assert.ok(furniture.length>=2);assert.ok(furniture.every(a=>a.type==='model'&&a.category==='furniture'));
  assert.equal(filterAssets(assets,{query:'not-a-real-item'}).length,0);assert.equal(filterAssets(assets,{type:'model',query:'seamless'}).length,0);
- const sorted=filterAssets(assets,{sort:'size'});assert.ok(sorted.every((a,i)=>!i||a.downloads.full.bytes>=sorted[i-1].downloads.full.bytes));
+ const sorted=filterAssets(assets,{sort:'size'});assert.ok(sorted.every((a,i)=>!i||primaryDownloadBytes(a)>=primaryDownloadBytes(sorted[i-1])));
 });
 test('ZIPs are deterministic and use UTF-8 names',async()=>{
  const dir=await mkdtemp(path.join(os.tmpdir(),'meshcopia-zip-'));

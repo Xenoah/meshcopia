@@ -12,17 +12,19 @@
 
 - 大きなサムネイル、名前・タグ・形式検索、カテゴリー、種類、並び替え。検索条件はURLで共有。
 - 一覧からクイック3Dプレビュー。詳細で回転・拡大・ワイヤー・ライティング・材質を切替。
-- GLB / glTF / STL / OBJ / STEPの元形式をプレビュー。Three.js / occt-import-js。追加FBXはダウンロード用で、今回のブラウザ検証対象は表示ではなくリンクと実ダウンロード。
+- GLB / glTF / STL / OBJ / STEPの元形式をプレビュー。Three.js / occt-import-js。FBXは配布用で、今回のブラウザ検証対象は表示ではなくリンクと実ダウンロード。
 - 通常・鏡像リピートの1×1・2×2・4×4確認と球体表示。アトラスは非タイル素材として元の縦横比で表示。
-- 通常のZIPは1種類。検証済みの最小構成ZIPがある素材から、素材ファイル・必要な関連ファイル・短い `LICENSE.txt` 1ファイルへ移行。GLB / STL / STEPは収録されている形式の個別リンクも表示。
-- 公開済み137モデルに、追加のFBX単体ファイルと、FBX・`LICENSE.txt`のみのZIPを用意。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があります。元のPBRの見た目にはGLBを推奨。UnityやGodotで同じ見た目になるとは保証していません。
+- 通常のモデルZIPはFBX・必要テクスチャ・短い `LICENSE.txt` 1枚。一括ZIPは素材別フォルダーと共通LICENSE 1枚。テクスチャ単体作品の画像ダウンロードも維持。
+- 公開済み137モデルの検証済みFBX ZIPを通常取得に再利用。GLBはプレビュー、制作原本とQAは別に保持。FBXの材質・透過・裏面カリングは読み込み先により異なる場合があり、UnityやGodotで同じ見た目になるとは保証していません。
 - 全素材 **CC BY 4.0**。商用利用・改変・再配布可。作者名・出典・ライセンス・変更点の表示が必要。
 - 認証不要のJSON/NDJSONカタログ、個別マニフェスト、SHA-256、クレジットコピー。
 - モバイル対応、キーボード操作、検索ショートカット `/`、JP/EN切替（素材と主要UI）。
 
 ### 素材制作・ダウンロードの共通ルール
 
-新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。新しい利用者向けZIPは素材と必要な関連ファイル、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。過去の不変ZIPは元の内容・URL・ハッシュを保持します。検証済み公開URLへの切り替えは [minimal download binding](docs/MINIMAL_DOWNLOADS.md) を参照。
+新しい素材の形式・品質検証・ZIP構成は [共通制作ルール](docs/ASSET_PRODUCTION_RULES.md) に従います。利用者向けモデルZIPはFBXと必要テクスチャ、クレジットをまとめた短い `LICENSE.txt` 1ファイルのみ。既存Releaseは変更しません。旧Pagesのfull/models ZIPは生成を終了し、旧URLの互換性は保証しません。制作原本・履歴・過去のハッシュ台帳を保持します。現行取得先は [配布契約](docs/MINIMAL_DOWNLOADS.md) を参照。
+
+> 旧ZIPの重複出力を除いた実ビルドは **546,137,684 bytes**。正規公開ワークフローは950MBの容量ゲートと公開後の実Pages検査を実行します。251点のRelease公開とサイト反映は別作業です。[配布移行の検証記録](docs/FBX_DISTRIBUTION_REVIEW.md)。
 
 ## 収録素材
 
@@ -42,11 +44,11 @@
 
 初期8モデル・6テクスチャはMeshcopiaのオリジナルのプロシージャル素材です。Commons cafeの追加素材は元ワールドのオリジナル形状と生成画像を使用。サムネイルは実際の配布メッシュから描画しています。
 
-モデル: 単位m、Y-up。初期モデルはGLB/OBJ/STL、Commons cafe素材はGLB/STL。GLBには色・PBR材質を保持し、Commons cafe素材は画像も埋め込んでいます。OBJにはMTLを同梱。STLは色を持ちません。UVの仕様は各素材に記載しています。ゲーム・VR向けの小道具で、3Dプリントや機構部品としては未検証です。
+保持している制作原本: 単位m、Y-up。初期モデルはGLB/OBJ/STL、Commons cafe素材はGLB/STL。配布モデルの基本形式はFBXです。GLBには色・PBR材質を保持し、Commons cafe素材は画像も埋め込んでいます。OBJにはMTLを同梱。STLは色を持ちません。UVの仕様は各素材に記載しています。ゲーム・VR向けの小道具で、3Dプリントや機構部品としては未検証です。
 
 ## テクスチャとAPIの反復方式
 
-カタログの `schemaVersion` は **2.1.0**。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
+カタログの `schemaVersion` は **3.0.0**。モデルは `downloads.delivery`、テクスチャは `downloads.minimal` を使用します。`downloads.full` / `models` / `direct` とモデルの旧 `minimal` は公開APIから除外しました。`files[]` は制作原本・プレビュー用、モデルの配布ファイルは `downloads.delivery.files` です。`width` / `height` は実ピクセル寸法、`resolution` は長辺です。`wrapMode` を両軸に適用します。
 
 | wrapMode | 使い方 | seamless |
 | --- | --- | --- |
@@ -62,7 +64,7 @@ Node.js 22以上。
 
 ```sh
 npm ci
-npm run dev
+python3 scripts/prepare-fbx-minimal-activation.py --repo "$PWD" --verification-mode durable-transport-attestation
 npm run check
 ```
 
@@ -87,13 +89,13 @@ git push origin main
 
 ## ビルドとリリース
 
-`npm run build` が素材検証、ZIP・JSON生成、Astro静的ビルドを行います。`npm run check` はその前後に検証を実行します。mainへのpushでCIとPagesが動作します。`.release.json` のversionを変更すると、成功した検証後に対応するGitHub Releaseを作成します。`prerelease: true` でプレリリース、`false` で正式リリースです。同一タグは作り直しません。
+`npm run build` が素材検証、配布manifest・共有chunk・JSON生成、Astro静的ビルドを行います。`npm run check` はその前後に現行URL・ハッシュ・旧ZIP除外・全体容量を検証します。mainへのpushでCIが動作し、公開条件が成立した場合にPagesへ進みます。`.release.json` のversionを変更すると、成功した検証後に対応するGitHub Releaseを作成します。同一タグは作り直しません。
 
-リリースには公開サイトZIP、全素材ZIP、モデル集ZIP、テクスチャ集ZIP、カタログJSON、SHA256SUMSを添付。GitHub Pagesは **Settings → Pages → Source: GitHub Actions** を使用し、`.github/workflows/publish.yml` が検証済みのAstroサイトを公開します。別のリポジトリへ複製した場合もこのSourceを選択してください。
+今後のサイトReleaseには公開サイトZIP、カタログJSON、SHA256SUMSを添付。単体FBX/テクスチャZIPは検証済みの既存Releaseを使い、選択素材はブラウザーで一つのZIPにします。旧ZIPを入れ子にするall/models/textures集は新規生成しません。既存Releaseの添付は残します。GitHub Pagesは **Settings → Pages → Source: GitHub Actions** を使用し、`.github/workflows/publish.yml` が検証済みのAstroサイトを公開します。
 
 ## 素材の再生成
 
-通常のビルドではPython不要。オリジナルの生成コードを再実行する場合のみ:
+現在のビルドにはPython 3と匿名Release検証が必要です。オリジナルの生成コードを再実行する場合のみ:
 
 ```sh
 python3 -m pip install -r scripts/requirements-assets.txt
@@ -109,4 +111,4 @@ npm run check
 
 ## 出元・使用作品
 
-任意の構造化 `usages[]` で制作元・再利用先、固定コミット、リポジトリ内パス、オブジェクト名を記録します。詳細ページに表示し、作品名・場所・識別子で検索できます。カタログ・NDJSON・個別JSONに含まれます。従来版ZIPの `asset.json` は保持しますが、新しい最小構成ZIPにメタデータファイルは追加しません。ライセンスの `provenance`、テクスチャ設定の `usage` とは別項目です。記入例と未知情報の扱いは [usage metadata](docs/USAGE_METADATA.md) を参照。
+任意の構造化 `usages[]` で制作元・再利用先、固定コミット、リポジトリ内パス、オブジェクト名を記録します。詳細ページに表示し、作品名・場所・識別子で検索できます。カタログ・NDJSON・個別JSONに含まれます。既存Releaseや履歴にある従来版ZIPの `asset.json` は保持しますが、現行の配布ZIPにメタデータファイルは追加しません。ライセンスの `provenance`、テクスチャ設定の `usage` とは別項目です。記入例と未知情報の扱いは [usage metadata](docs/USAGE_METADATA.md) を参照。

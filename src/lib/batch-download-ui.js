@@ -1,5 +1,4 @@
 import {planBundle,buildBundle,bundleLimit} from './batch-download.mjs';
-import {minimalDownloadReadiness} from './downloads.mjs';
 import {formatBytes,bundleSizeSummary} from './file-size.mjs';
 import './batch-download.css';
 export function initBatchDownload(){
@@ -16,6 +15,7 @@ export function initBatchDownload(){
  // that later event to navigate can overwrite the user's next filter change.
  function requestClose(){
   if(count.disabled)return;
+  controller?.abort();
   if(history.state?.meshcopiaSelection){count.disabled=true;history.back();}
   else {dialog.close();count.focus();}
  }
@@ -24,9 +24,9 @@ export function initBatchDownload(){
  window.addEventListener('popstate',()=>{
   const restoreFocus=dialog.open||count.disabled;count.disabled=false;
   if(history.state?.meshcopiaSelection){if(!dialog.open){dialog.showModal();close.focus();}}
-  else {if(dialog.open)dialog.close();if(restoreFocus)count.focus();}
+  else {controller?.abort();if(dialog.open)dialog.close();if(restoreFocus)count.focus();}
  });
- const ready=a=>{try{return minimalDownloadReadiness(a).ready&&!!planBundle([a]);}catch{return false;}};
+ const ready=a=>{try{return !!planBundle([a]);}catch{return false;}};
  try{const saved=JSON.parse(sessionStorage.getItem(key)||'[]');if(Array.isArray(saved))saved.slice(0,50).forEach(id=>{if(byId.has(id)&&ready(byId.get(id)))selected.add(id)});}catch{}
  function invalidate(){if(blobURL){URL.revokeObjectURL(blobURL);blobURL=null;}save.hidden=true;save.removeAttribute('href');message='';progressValue=null;finalBytes=null;}
  function persist(){try{sessionStorage.setItem(key,JSON.stringify([...selected]));}catch{}}
@@ -45,7 +45,7 @@ export function initBatchDownload(){
   bar.setAttribute('aria-label',t('選択素材を1個のZIPにまとめる','Bundle selected assets into one ZIP'));
   clear.textContent=t('選択解除','Clear selection');download.textContent=t('選択素材を1 ZIPにまとめる','Bundle selection into one ZIP');cancel.textContent=t('キャンセル','Cancel');save.textContent=t('1 ZIPを保存','Save one ZIP');
   clear.disabled=!!controller||!selected.size;download.disabled=!!controller||!selected.size;cancel.hidden=!controller;progress.hidden=!controller;progress.setAttribute('aria-label',t('ZIP作成の進捗','ZIP progress'));if(progressValue!==null)progress.value=progressValue;
-  help.textContent=t(`絞り込み後も選択を保持。素材ごとのフォルダーに必要ファイル、全素材共通のLICENSE.txtを1枚。作成前はZIP容量の見積もり、作成後は実容量を表示。ZIPは無圧縮で作成します。最大50件・元ファイル${bundleLimit()/1024**2} MiB。`, `Selection stays across filters. Asset folders contain required files, with one combined LICENSE.txt. Estimated ZIP size before building; actual size afterward. The combined ZIP is uncompressed. Up to 50 assets / ${bundleLimit()/1024**2} MiB of input files.`);
+  help.textContent=t(`絞り込み後も選択を保持。モデルはFBXと必要テクスチャ、テクスチャ作品は画像を素材別フォルダーに収録、全素材共通のLICENSE.txtを1枚。作成前はZIP容量の見積もり、作成後は実容量を表示。ZIPは無圧縮で作成します。最大50件・元ファイル${bundleLimit()/1024**2} MiB。`, `Selection stays across filters. Asset folders contain FBX and required textures, or standalone texture maps, with one combined LICENSE.txt. Estimated ZIP size before building; actual size afterward. The combined ZIP is uncompressed. Up to 50 assets / ${bundleLimit()/1024**2} MiB of input files.`);
   for(const [id,c] of controls){c.box.checked=selected.has(id);c.box.disabled=!!controller||!c.available||(!c.box.checked&&selected.size>=50);c.text.textContent=c.available?t('選択','Select'):t('一括準備中','Bundle unavailable');c.box.setAttribute('aria-label',t(`${c.a.title}を選択`, `Select ${c.a.titleEn}`));c.label.title=c.available?'':t('検証済みの最小パッケージがまだありません','A verified minimal package is not available yet');}
   if(bytes===null){download.disabled=true;status.textContent=t('容量を確認できません。選択を解除して再試行してください。','Size unavailable. Clear the selection and retry.');}else if(bytes>bundleLimit()){download.disabled=true;status.textContent=t('容量上限を超えています。選択数を減らしてください。','Size limit exceeded. Select fewer assets.');}else status.textContent=message;
  }

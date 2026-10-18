@@ -2,7 +2,7 @@ import {renderTextureTiles,textureWrap,textureSize} from './texture.js';
 import {primaryDownloadBytes} from './downloads.mjs';
 export function filterAssets(assets, {query='',type='all',category='all',sort='newest'}={}) {
  const terms=query.trim().toLowerCase().split(/\s+/).filter(Boolean);
- return assets.filter(a=>(type==='all'||a.type===type)&&(category==='all'||a.category===category)&&terms.every(term=>`${a.title} ${a.titleEn} ${(a.tags||[]).join(' ')} ${(a.usages||[]).flatMap(u=>[u.project,u.context,u.sourceUrl,u.sourceRef,...(u.sourcePaths||[]),...(u.selectors||[])]).filter(Boolean).join(' ')} ${(a.files||[]).map(f=>f.format).join(' ')}`.toLowerCase().includes(term))).sort((a,b)=>sort==='name'?a.titleEn.localeCompare(b.titleEn):sort==='size'?primaryDownloadBytes(a)-primaryDownloadBytes(b):b.updated.localeCompare(a.updated)||a.type.localeCompare(b.type)||a.titleEn.localeCompare(b.titleEn));
+ return assets.filter(a=>(type==='all'||a.type===type)&&(category==='all'||a.category===category)&&terms.every(term=>`${a.title} ${a.titleEn} ${(a.tags||[]).join(' ')} ${(a.usages||[]).flatMap(u=>[u.project,u.context,u.sourceUrl,u.sourceRef,...(u.sourcePaths||[]),...(u.selectors||[])]).filter(Boolean).join(' ')} ${[...(a.files||[]),...(a.downloads?.delivery?.files||[])].map(f=>f.format).join(' ')}`.toLowerCase().includes(term))).sort((a,b)=>sort==='name'?a.titleEn.localeCompare(b.titleEn):sort==='size'?primaryDownloadBytes(a)-primaryDownloadBytes(b):b.updated.localeCompare(a.updated)||a.type.localeCompare(b.type)||a.titleEn.localeCompare(b.titleEn));
 }
 export function initCatalog(){
  const assets=JSON.parse(document.getElementById('catalog-data').textContent);

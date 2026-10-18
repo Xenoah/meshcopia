@@ -17,8 +17,8 @@ const marker=ids=>({schemaVersion:1,purpose:'draft-raw-source-prepublication',id
 
 test('all import/generation, commit and publication paths explicitly require false; QA remains on',()=>{
  for(const name of ['Generate original starter assets (once)','Set up original cafe extraction (once)','Extract the pinned original cafe collection (once)','Import more original cafe meshes and textures (once)','Import reviewed original Yokocho assets (once)','Set up original city draft generation (once)','Generate original city drafts for review (once)','Import inbox','Commit imported original assets','Build release archives'])assert.match(step(name),/if: steps\.source-stage\.outputs\.source_only == 'false'/,name);
- for(const s of steps.filter(s=>s.includes('actions/upload-')&&!s.includes('name: browser-qa')&&!s.includes('name: city-draft-qa')))assert.match(s,/if: steps\.source-stage\.outputs\.source_only == 'false'/);
- for(const name of ['Verify durable minimal FBX proof and all public bytes','Validate, test and build','Verify all texture maps, original API compatibility and Pages budget','Browser interactions and screenshots','Verify ordinary selected downloads and exact displayed ZIP sizes','Verify all FBX links and actual anonymous FBX downloads'])assert.doesNotMatch(step(name),/\n        if:/,name);
+ for(const s of steps.filter(s=>s.includes('actions/upload-')&&!s.includes('name: browser-qa')&&!s.includes('name: city-draft-qa')))assert.match(s,/if: .*?(?:steps\.source-stage|needs\.verify)\.outputs\.source_only == 'false'/);
+ for(const name of ['Verify durable minimal FBX proof and all public bytes','Validate, test and build','Verify texture maps, current delivery URLs and Pages budget','Browser interactions and screenshots','Verify ordinary selected downloads and exact displayed ZIP sizes','Verify all FBX links and actual anonymous FBX downloads'])assert.doesNotMatch(step(name),/\n        if:/,name);
  for(const name of ['Preserve QA evidence','Preserve city draft QA evidence'])assert.match(step(name),/if: always\(\)/);
  assert.match(workflow,/pages:\n    needs: \[verify, release\]\n    if: needs\.verify\.outputs\.source_only == 'false'/);
  assert.match(workflow,/release:\n    needs: verify\n    if: needs\.verify\.outputs\.source_only == 'false'/);
@@ -30,7 +30,16 @@ test('all import/generation, commit and publication paths explicitly require fal
  assert.doesNotMatch(step('Record verified source SHA'),/\n        if:|PUSH_TOKEN|git (?:add|commit|push)/);
  assert.match(step('Record verified source SHA'),/id: commit\n.*git rev-parse HEAD/s);
  const tokenSteps=steps.filter(s=>s.includes('PUSH_TOKEN:'));assert.equal(tokenSteps.length,1);assert.match(tokenSteps[0],/if: steps\.source-stage\.outputs\.source_only == 'false'/);
- assert.equal((workflow.match(/persist-credentials: false/g)||[]).length,2);
+ assert.equal((workflow.match(/persist-credentials: false/g)||[]).length,3);
+});
+
+test('live verification is read-only and checks the deployed artifact after Pages succeeds',()=>{
+ const live=workflow.split('  verify-live:\n')[1];assert.ok(live);
+ assert.match(live,/needs: \[verify, pages\]/);assert.match(live,/if: needs\.verify\.outputs\.source_only == 'false'/);
+ assert.match(live,/ref: \$\{\{ needs\.verify\.outputs\.sha \}\}/);
+ assert.match(live,/name: github-pages/);assert.match(live,/contents: read/);
+ assert.doesNotMatch(live,/contents: write|pages: write|id-token: write|run-id:|repository:/);
+ for(const script of ['check-live-pages.mjs','test-minimal-downloads-browser.mjs --live','test-fbx-minimal-downloads-browser.mjs --live','test-browser.mjs --live'])assert.ok(live.includes(script));
 });
 
 test('source-only identity gate accepts only exact main push HEAD; dispatch is not a proof',()=>{

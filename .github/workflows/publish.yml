@@ -108,7 +108,7 @@ jobs:
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Validate, test and build
         run: npm run check
-      - name: Verify all texture maps, original API compatibility and Pages budget
+      - name: Verify texture maps, current delivery URLs and Pages budget
         run: |
           python3 scripts/check-textures.py
           node scripts/check-full-p-inputs.mjs --dist
@@ -224,3 +224,44 @@ jobs:
           TARGET_SHA: ${{ needs.verify.outputs.sha }}
         run: |
           node scripts/release.mjs
+  verify-live:
+    needs: [verify, pages]
+    if: needs.verify.outputs.source_only == 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.verify.outputs.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.node-version'
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Download the exact deployed Pages artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: .cache/deployed-pages
+      - name: Restore the verified deployment output
+        run: |
+          mkdir -p dist
+          tar -xf .cache/deployed-pages/artifact.tar -C dist
+      - name: Verify live catalog, capacity and anonymous same-origin chunks
+        run: node scripts/check-live-pages.mjs
+      - name: Verify live downloads, exact sizes, recovery and retired URLs
+        run: node scripts/test-minimal-downloads-browser.mjs --live
+      - name: Verify live FBX detail links and downloads
+        run: node scripts/test-fbx-minimal-downloads-browser.mjs --live
+      - name: Verify live previews and standalone textures
+        run: node scripts/test-browser.mjs --live
+      - name: Preserve live Pages evidence
+        if: always() && needs.verify.outputs.source_only == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-pages-qa
+          path: test-results/
