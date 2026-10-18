@@ -14,3 +14,11 @@ bytes and recoverable Git history; do not replace/delete existing Release
 attachments. Old Pages URL compatibility is not guaranteed. API v3 retires
 full/models ZIP output and fields; current UI/API must use verified FBX delivery
 or standalone texture downloads. Do not create another distribution repository.
+## Unpublished starter/appliance review
+
+See [docs/ASSET_REVISION_REVIEW.md](docs/ASSET_REVISION_REVIEW.md) for the separate
+455-item candidate (two starter revisions and one refrigerator). The existing
+front-loading washer and every vehicle remain. `asset-revisions/` is inactive
+staging; its local review packages are not published Release evidence. Keep the
+original137/cohort adapters frozen and require a separately approved immutable
+publication/activation before merging or deploying these candidates.

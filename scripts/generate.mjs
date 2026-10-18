@@ -10,6 +10,8 @@ import { readCatalog, attributionFor, sha256, SITE, LICENSE_URL } from './lib/ca
 import {primaryDownload} from '../src/lib/downloads.mjs';
 import assert from 'node:assert/strict';
 
+assert.notEqual(process.env.PUBLIC_ASSET_REVIEW,'1','Production generation refuses review mode; use the separate asset revision review builder.');
+
 const assets = await readCatalog(); // Validate before changing generated output.
 const verifiedFbx = [...await prepareFbxMinimalDownloads(assets),...await prepareCohortDownloads(assets)];
 assert.equal(new Set(verifiedFbx.map(r=>r.id)).size,verifiedFbx.length,'Duplicate FBX cohort IDs');
@@ -19,6 +21,7 @@ const deliveryPayloads = await prepareDeliveryPayloads(verifiedFbx,{site:SITE});
 await rm('public/assets', {recursive:true,force:true});
 await rm('public/api', {recursive:true,force:true});
 await rm('public/download-data', {recursive:true,force:true});
+await rm('public/review-packages', {recursive:true,force:true});
 await cp(deliveryPayloads.directory,'public/download-data',{recursive:true});
 await rm(deliveryPayloads.directory,{recursive:true,force:true});
 await mkdir('public/assets', {recursive:true});

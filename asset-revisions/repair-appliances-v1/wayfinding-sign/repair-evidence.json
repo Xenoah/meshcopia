@@ -1,0 +1,108 @@
+{
+  "id": "wayfinding-sign",
+  "version": "1.0.2",
+  "publicationState": "unpublished-candidate",
+  "sourceFile": "wayfinding-sign-1.0.2.glb",
+  "sourceSha256": "9bca4e0f705cee48aab5181863c4cb4f4f7b942931bd402b6022072c12e546fc",
+  "change": {
+    "primitive": 2,
+    "reason": "The vertical torus was reflected by swapping Y/Z without reversing triangle order. Reverse only this torus; retain every coordinate and the central opening.",
+    "beforeTriangles": 1420,
+    "afterTriangles": 1420
+  },
+  "audit": {
+    "file": "source/wayfinding-sign-1.0.2.glb",
+    "bytes": 139992,
+    "sha256": "9bca4e0f705cee48aab5181863c4cb4f4f7b942931bd402b6022072c12e546fc",
+    "nodes": [
+      {
+        "node": 0,
+        "name": "wayfinding-sign",
+        "localDeterminant": 1.0
+      }
+    ],
+    "doubleSidedMaterials": [],
+    "parts": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "material": 2,
+        "triangles": 128,
+        "nonFiniteCoordinates": 0,
+        "degenerateFaces": 0,
+        "minStoredNormalDotFaceNormal": 0.9999999999999658,
+        "components": [
+          {
+            "triangles": 128,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "inconsistentWindingEdges": 0,
+            "closedOriented": true,
+            "signedVolumeMeters3": 0.011377668033403746,
+            "orientation": "outward"
+          }
+        ]
+      },
+      {
+        "mesh": 0,
+        "primitive": 1,
+        "material": 5,
+        "triangles": 128,
+        "nonFiniteCoordinates": 0,
+        "degenerateFaces": 0,
+        "minStoredNormalDotFaceNormal": 0.9999999999999571,
+        "components": [
+          {
+            "triangles": 128,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "inconsistentWindingEdges": 0,
+            "closedOriented": true,
+            "signedVolumeMeters3": 0.005618601090981583,
+            "orientation": "outward"
+          }
+        ]
+      },
+      {
+        "mesh": 0,
+        "primitive": 2,
+        "material": 5,
+        "triangles": 1152,
+        "nonFiniteCoordinates": 0,
+        "degenerateFaces": 0,
+        "minStoredNormalDotFaceNormal": 0.9999999999710977,
+        "components": [
+          {
+            "triangles": 1152,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "inconsistentWindingEdges": 0,
+            "closedOriented": true,
+            "signedVolumeMeters3": 0.0035366125434452052,
+            "orientation": "outward"
+          }
+        ]
+      },
+      {
+        "mesh": 0,
+        "primitive": 3,
+        "material": 0,
+        "triangles": 12,
+        "nonFiniteCoordinates": 0,
+        "degenerateFaces": 0,
+        "minStoredNormalDotFaceNormal": 1.0,
+        "components": [
+          {
+            "triangles": 12,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "inconsistentWindingEdges": 0,
+            "closedOriented": true,
+            "signedVolumeMeters3": 0.003689000082880258,
+            "orientation": "outward"
+          }
+        ]
+      }
+    ]
+  }
+}

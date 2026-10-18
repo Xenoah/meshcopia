@@ -1,0 +1,42 @@
+{
+  "publicationState": "unpublished-candidate",
+  "baseCommit": "fd595dfdc8b17fe515a618bf2f309e9cc61a7491",
+  "records": [
+    {
+      "id": "garden-arch",
+      "assetVersion": "1.0.2",
+      "metadataSha256": "0fb86ee89959d2d4bab44aee46bad49eb43dffb634beb10a7ad181a4172aa6f7",
+      "sourceGlbSha256": "3c463603a0d84ecec31890f19a303ea0ffd50642ba905a47d68558b9ed7cdaa5",
+      "fbxBytes": 21884,
+      "fbxSha256": "d3931d17cb06f43b86b50c151098c5ca53bc4865acc272733e2f080d16605e31",
+      "archiveBytes": 11591,
+      "archiveSha256": "c67aa01c9653fbda79e1ec0926c01dfa5b652a1b6c20c9155c1f0bc73ac87428",
+      "noticeBytes": 611,
+      "noticeSha256": "c68f8c6f41446ce9a7d93d611aea385b417f90e964ad270966b38585d56e958d"
+    },
+    {
+      "id": "household-two-door-refrigerator",
+      "assetVersion": "1.0.0",
+      "metadataSha256": "3228a999ff0eb20de0cf1732ef49668c37c0a323557630b7a0843d6ad8f5e1d9",
+      "sourceGlbSha256": "189ae74880bf19487a4503bfc77d575e5d6319a619bfa64aaf19a0d572bd6781",
+      "fbxBytes": 689372,
+      "fbxSha256": "680e77ca568b97fd93dc061a0136e72369aa927b2f70b02b435a801591a48b3e",
+      "archiveBytes": 262605,
+      "archiveSha256": "f280424a67823e3e31c221f0f946486ba1d1d879d2f47c7723b42dfce4f7a210",
+      "noticeBytes": 415,
+      "noticeSha256": "6888856840d63004e6f69a3f1fd388f9dd26f67298c0cdf0b3f7fdd71884843e"
+    },
+    {
+      "id": "wayfinding-sign",
+      "assetVersion": "1.0.2",
+      "metadataSha256": "6386beba8f9d24cb53a57a9f03319a257bb35bd6a3dc75336f025d1a9c5b4cc6",
+      "sourceGlbSha256": "9bca4e0f705cee48aab5181863c4cb4f4f7b942931bd402b6022072c12e546fc",
+      "fbxBytes": 68620,
+      "fbxSha256": "284cf9ab09738be2c3ab234e84e05b5d5b487182267e51b7d66ac3dc5e9d17cd",
+      "archiveBytes": 48888,
+      "archiveSha256": "85225322514fbae39115ccddf5cc45c08c40a1854172e8975118e08d3ee0acfa",
+      "noticeBytes": 561,
+      "noticeSha256": "67ab93ffcef951d7e1802cac0aba525bd4d8e78d08f438367d21718a89e05352"
+    }
+  ]
+}

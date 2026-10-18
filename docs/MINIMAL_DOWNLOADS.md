@@ -249,3 +249,11 @@ regressions, load all281 new GLBs, verify all418 FBX links, sample actual consum
 ZIP/raw downloads from each cohort, and check mixed-cohort ZIP contents and exact
 sizes on desktop/mobile. Full dist must remain below950,000,000bytes; future asset
 additions require renewed capacity measurement. See NEW_ASSETS_ACTIVATION.md.
+## 未公開候補の配布確認
+
+[修正候補のレビュー手順](ASSET_REVISION_REVIEW.md)では、FBXと短いLICENSE
+のみの候補ZIPを別ビルドで確認する。必要画像は検証済みFBXに内包する。
+`local-review-verified` は公開済みReleaseを意味せず、通常ビルドは拒否する。
+複数選択ZIPのモデル別フォルダー、共通LICENSE一枚、実バイト数の規則は同じ。
+レビュー用FBX/ZIPも含めた全distを950,000,000バイトの既存ゲートで測定する。
+公開には新しい不変Releaseと独立した現行ソースへの有効化証跡が別途必要。

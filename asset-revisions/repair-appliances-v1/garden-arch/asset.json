@@ -1,0 +1,64 @@
+{
+  "id": "garden-arch",
+  "type": "model",
+  "title": "ガーデンアーチ",
+  "titleEn": "Garden arch",
+  "description": "明るい石色のアーチ。Y軸上向き、幅1.52 mの建築用モジュール。 面順序を部品単位で修正した1.0.2候補。片面材質で表示し、開口を保持。",
+  "descriptionEn": "A pale stone arch. Y-up architectural module with a 1.52 m outer width. Version 1.0.2 candidate repairs component winding, uses single-sided materials and preserves the opening.",
+  "category": "architecture",
+  "tags": [
+    "arch",
+    "アーチ",
+    "stone",
+    "garden"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.2",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-18",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia original starter generator with component-specific winding repair 1; Blender 4.3.2 FBX conversion",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included.",
+    "changes": "none. Version 1.0.2: Reverse only the inward curved strip and remove the four concealed pillar-top triangles at the matching interfaces, making one continuous closed arch surface. Preserve all vertex coordinates and the walk-through opening."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 212,
+  "dimensions": [
+    1.52,
+    2.16,
+    0.32
+  ],
+  "preview": "garden-arch-1.0.2.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/create-starter-assets.py"
+      ],
+      "selectors": [
+        "garden-arch"
+      ],
+      "context": "Created for the Meshcopia asset library; no external project usage recorded."
+    },
+    {
+      "relationship": "original",
+      "project": "Meshcopia winding repair",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/asset-revisions/repair_starters.py"
+      ],
+      "selectors": [
+        "garden-arch"
+      ],
+      "context": "Component-specific correction of the original Meshcopia model; no third-party geometry."
+    }
+  ]
+}

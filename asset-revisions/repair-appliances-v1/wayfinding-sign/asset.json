@@ -1,0 +1,64 @@
+{
+  "id": "wayfinding-sign",
+  "type": "model",
+  "title": "ラウンドサイン",
+  "titleEn": "Round wayfinding sign",
+  "description": "丸いフレームと無地の看板。文字やロゴを追加できる案内用プロップ。 面順序を部品単位で修正した1.0.2候補。片面材質で表示し、開口を保持。",
+  "descriptionEn": "A round frame and blank sign face, ready for your lettering or original logo. Version 1.0.2 candidate repairs component winding, uses single-sided materials and preserves the opening.",
+  "category": "props",
+  "tags": [
+    "sign",
+    "看板",
+    "cafe",
+    "wayfinding"
+  ],
+  "author": "Xenoah",
+  "license": "CC-BY-4.0",
+  "version": "1.0.2",
+  "status": "public",
+  "created": "2026-10-14",
+  "updated": "2026-10-18",
+  "thumbnail": "preview.webp",
+  "provenance": {
+    "method": "AI-agent-authored deterministic procedural geometry",
+    "tool": "Meshcopia original starter generator with component-specific winding repair 1; Blender 4.3.2 FBX conversion",
+    "rights": "Original geometry/material formulas for Meshcopia. No third-party model, photograph, trademark, or scanned asset included.",
+    "changes": "none. Version 1.0.2: The vertical torus was reflected by swapping Y/Z without reversing triangle order. Reverse only this torus; retain every coordinate and the central opening."
+  },
+  "unit": "m",
+  "upAxis": "Y",
+  "triangles": 1420,
+  "dimensions": [
+    0.54,
+    1.218,
+    0.54
+  ],
+  "preview": "wayfinding-sign-1.0.2.glb",
+  "uv": "Planar XZ per face; custom UV unwrap recommended for directional textures",
+  "usages": [
+    {
+      "relationship": "original",
+      "project": "Meshcopia",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/create-starter-assets.py"
+      ],
+      "selectors": [
+        "wayfinding-sign"
+      ],
+      "context": "Created for the Meshcopia asset library; no external project usage recorded."
+    },
+    {
+      "relationship": "original",
+      "project": "Meshcopia winding repair",
+      "sourceUrl": "https://github.com/Xenoah/meshcopia",
+      "sourcePaths": [
+        "scripts/asset-revisions/repair_starters.py"
+      ],
+      "selectors": [
+        "wayfinding-sign"
+      ],
+      "context": "Component-specific correction of the original Meshcopia model; no third-party geometry."
+    }
+  ]
+}

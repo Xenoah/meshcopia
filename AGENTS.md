@@ -62,6 +62,12 @@ direct downloads, machine-readable catalog, and mobile accessibility.
 
 ## Verification and releases
 
+For unpublished starter repairs/appliance candidates, use the separate workflow
+in [docs/ASSET_REVISION_REVIEW.md](docs/ASSET_REVISION_REVIEW.md). Staging under
+`asset-revisions/` is inactive. Review delivery states must never count as
+published verification; do not deploy review builds or edit frozen adapters.
+Preserve vehicles and all existing IDs when reviewing this candidate.
+
 Run `npm ci`, then the mandatory anonymous durable prep described in
 `docs/fbx-minimal-activation/README.md`, then `python3 scripts/prepare-cohort-activation.py --repo "$PWD"`, then `npm run check`.
 The original prep must run first because it recreates the verified FBX cache.
