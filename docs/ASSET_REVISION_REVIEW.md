@@ -79,6 +79,10 @@ These sheets use local actual renders; fresh CI captures remain separate artifac
    candidate FBXs/ZIPs, verify `candidate-lock.json`, import and render them.
 3. Run the **ordinary mandatory anonymous original137 and cohort prep**, then
    `npm run check`, against the unchanged 454-item production catalog.
+   The review workflow invokes the unchanged cohort verifier through a wrapper
+   that reports sanitized HTTP status/host/path and retries the entire strict
+   prep at most three times for transient server/rate-limit errors. Verification
+   failures are never retried as success or replaced by cached evidence.
 4. Measure the actual complete baseline dist. Run
    `node scripts/asset-revisions/build-review.mjs` only after that successful build.
 5. The review overlay preserves all 454 existing IDs and old source URLs,

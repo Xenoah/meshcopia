@@ -35,6 +35,9 @@ for folder in sorted((ROOT/'asset-revisions/repair-appliances-v1').iterdir()):
     plan=make_plan(folder,notice_path,fbx_path=fbx,fbx_sha256=digest(fbx),pipeline_sha256=recipe,fbx_report=report_path)
     archive=target/plan['filename'];receipt=target/'package-receipt.json'
     package(plan,output=archive,receipt_path=receipt)
+    # The atomic package writer uses a private temporary file. Make only this
+    # newly created, public-content artifact readable by the CI host uploader.
+    archive.chmod(0o644)
     records.append({'id':identity,'assetVersion':meta['version'],'metadataSha256':digest(folder/'asset.json'),'sourceGlbSha256':digest(source),'fbx':str(fbx.relative_to(out)),'fbxBytes':fbx.stat().st_size,'fbxSha256':digest(fbx),'archive':str(archive.relative_to(out)),'archiveBytes':archive.stat().st_size,'archiveSha256':digest(archive),'notice':notice,'noticeBytes':len(notice.encode()),'noticeSha256':digest(notice_path),'roundtripReport':str(report_path.relative_to(out)),'roundtripReportSha256':digest(report_path),'packageReceipt':str(receipt.relative_to(out))})
     print(identity,'clean-import and minimal package passed',fbx.stat().st_size,archive.stat().st_size,flush=True)
 (out/'candidate-packages.json').write_text(json.dumps({'schemaVersion':1,'publicationState':'unpublished-candidate','scope':'Local conversion and exact archive verification; no anonymous Release publication claim','records':records},ensure_ascii=False,indent=2)+'\n')

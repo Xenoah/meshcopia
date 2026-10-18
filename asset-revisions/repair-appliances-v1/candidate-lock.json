@@ -45,11 +45,11 @@
       "id": "household-two-door-refrigerator",
       "assetVersion": "1.0.0",
       "metadataSha256": "3228a999ff0eb20de0cf1732ef49668c37c0a323557630b7a0843d6ad8f5e1d9",
-      "sourceGlbSha256": "189ae74880bf19487a4503bfc77d575e5d6319a619bfa64aaf19a0d572bd6781",
-      "fbxBytes": 689372,
-      "fbxSha256": "680e77ca568b97fd93dc061a0136e72369aa927b2f70b02b435a801591a48b3e",
-      "archiveBytes": 262605,
-      "archiveSha256": "f280424a67823e3e31c221f0f946486ba1d1d879d2f47c7723b42dfce4f7a210",
+      "sourceGlbSha256": "f7cde544d92d3c61998fd1ce11f9c3f8151e6a1b2dd97bb27039810ed186ac22",
+      "fbxBytes": 688844,
+      "fbxSha256": "1f4dcdb20c053d68a81077a30498acc683a5549e88e87a930bb65535f6f07fb9",
+      "archiveBytes": 261956,
+      "archiveSha256": "63719176a820ab252623c3e831321429a6638975dbd1b750298c402929b546f6",
       "noticeBytes": 415,
       "noticeSha256": "6888856840d63004e6f69a3f1fd388f9dd26f67298c0cdf0b3f7fdd71884843e",
       "retainedFiles": [
@@ -60,8 +60,8 @@
         },
         {
           "path": "preview.webp",
-          "bytes": 8456,
-          "sha256": "4926683d77804fc516db135862f1f5d35a32899ee182f71ebf1283f7a1c4026a"
+          "bytes": 8096,
+          "sha256": "8d527ca20dccdced17f40e016a365ee449c17a15be2687d3f0be977a1a53e897"
         },
         {
           "path": "production/control-panel.png",
@@ -71,12 +71,12 @@
         {
           "path": "production/household-two-door-refrigerator.blend",
           "bytes": 1707968,
-          "sha256": "b93c02490705dd2e79cfbf67f303d58d2b929f13b82334bf85dd4b9120361f36"
+          "sha256": "79d06f24c007386a8089139713a514b1bb599cc95854a1c24b6c5cd2ffc6a1b5"
         },
         {
           "path": "source/household-two-door-refrigerator.glb",
-          "bytes": 752316,
-          "sha256": "189ae74880bf19487a4503bfc77d575e5d6319a619bfa64aaf19a0d572bd6781"
+          "bytes": 753304,
+          "sha256": "f7cde544d92d3c61998fd1ce11f9c3f8151e6a1b2dd97bb27039810ed186ac22"
         }
       ]
     },

@@ -41,7 +41,7 @@ jobs:
       - name: Verify existing immutable FBX release and retain exact payloads
         run: python3 scripts/prepare-fbx-minimal-activation.py --repo "$GITHUB_WORKSPACE" --verification-mode durable-transport-attestation
       - name: Verify all existing cohorts anonymously with fresh binding
-        run: python3 scripts/prepare-cohort-activation.py --repo "$GITHUB_WORKSPACE"
+        run: python3 scripts/asset-revisions/prepare_existing_cohorts.py --repo "$GITHUB_WORKSPACE"
       - name: Full unchanged production catalog checks
         run: npm run check
       - name: Record actual complete baseline build size
