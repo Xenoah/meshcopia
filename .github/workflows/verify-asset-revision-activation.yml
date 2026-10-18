@@ -1,7 +1,5 @@
 name: Verify production revision activation
 on:
-  push:
-    branches: [codex/repair-starters-add-appliances]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -42,22 +40,46 @@ jobs:
           node scripts/check-full-p-inputs.mjs --dist
           node scripts/check-fbx-minimal-baseline.mjs
           node scripts/measure-distribution.mjs
+      - name: Retain exact complete verified production build
+        uses: actions/upload-artifact@v4
+        with:
+          name: revision-production-build-${{ github.sha }}
+          include-hidden-files: true
+          compression-level: 1
+          path: dist/
       - run: node tests/delivery-browser-fixture.mjs
       - run: node scripts/test-browser.mjs
       - run: node scripts/test-minimal-downloads-browser.mjs
       - run: node scripts/test-fbx-minimal-downloads-browser.mjs
-      - name: Test all revised previews, actual Release ZIPs and selected mixed ZIPs
-        run: node scripts/asset-revisions/test-review-browser.mjs --production
       - name: Retain production QA
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: revision-production-qa-${{ github.sha }}-${{ github.run_attempt }}
           path: test-results/
-      - name: Retain exact complete verified production build
+  revision-browser:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: revision-production-build-${{ github.sha }}
+          path: dist/
+      - name: Test actual revised previews, Release ZIPs and selected mixed ZIPs
+        run: node scripts/asset-revisions/test-review-browser.mjs --production
+      - name: Retain revised browser evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: revision-production-build-${{ github.sha }}-${{ github.run_attempt }}
-          include-hidden-files: true
-          compression-level: 1
-          path: dist/
+          name: revision-browser-${{ github.sha }}-${{ github.run_attempt }}
+          path: test-results/asset-revisions/production-browser/

@@ -26,7 +26,7 @@ const entries=expectedZipEntries(selected),estimate=22+entries.reduce((n,e)=>n+e
 const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),liveSite:live,localHttpsStaticServer:!live,canonicalOriginPreserved:true,individual:[],bulk:[],previews:[],oldUrls:[],retainedTransports:[]};
 const server=live?null:await serveReview(root);let browser;
 async function context(mobile=false){
- return browser.newContext({acceptDownloads:true,ignoreHTTPSErrors:true,serviceWorkers:'block',viewport:mobile?{width:390,height:844}:{width:1440,height:1050},isMobile:mobile,hasTouch:mobile});
+ return browser.newContext({acceptDownloads:true,ignoreHTTPSErrors:!live,serviceWorkers:'block',viewport:mobile?{width:390,height:844}:{width:1440,height:1050},isMobile:mobile,hasTouch:mobile});
 }
 try{
  browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:[...(server?.args??[]),'--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
@@ -59,14 +59,18 @@ try{
   for(const id of ['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine']){
    const asset=assets.find(a=>a.id===id);const previewResponse=page.waitForResponse(r=>r.url()===asset.previewUrl&&r.status()===200);await page.goto(SITE+`assets/${id}/`);await expect(page.locator('.model-viewer-status')).toHaveText('GLB preview',{timeout:60000});
    await page.waitForFunction(()=>[...document.querySelectorAll('canvas')].some(c=>c.width>0&&c.height>0));
-   const previewBytes=await (await previewResponse).body(),previewFile=asset.files.find(f=>f.url===asset.previewUrl);assert.equal(previewBytes.length,previewFile.bytes);assert.equal(sha256(previewBytes),previewFile.sha256);
+   const observedPreview=await previewResponse;assert.equal(observedPreview.url(),asset.previewUrl);
+   // Chromium may discard the DevTools response body for a cached/consumed GLB.
+   // Keep the renderer's actual 200 response assertion, then independently read
+   // and hash the same real URL in the browser without substituting any bytes.
+   const previewBytes=await page.evaluate(async url=>{const r=await fetch(url,{credentials:'omit',cache:'no-store',redirect:'error'});if(!r.ok)throw Error('Preview byte verification HTTP '+r.status);const b=await r.arrayBuffer();return {bytes:b.byteLength,sha256:[...new Uint8Array(await crypto.subtle.digest('SHA-256',b))].map(x=>x.toString(16).padStart(2,'0')).join('')};},asset.previewUrl),previewFile=asset.files.find(f=>f.url===asset.previewUrl);assert.equal(previewBytes.bytes,previewFile.bytes);assert.equal(previewBytes.sha256,previewFile.sha256);
    await expect(page.locator('.download-primary')).toHaveAttribute('href',asset.downloads.delivery.archive.url.replace('https://xenoah.github.io',''));
    if(!mobile){
     const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/${id}.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);const proof=await verifyBrowserZip(file,[asset],{individual:true});
     if(asset.downloads.delivery.verification.state==='local-review-verified')assert.ok(server.served.some(r=>r.path===new URL(asset.downloads.delivery.archive.url).pathname&&r.bytes===proof.bytes));
     evidence.individual.push({id,url:download.url(),...proof});
    }
-   await page.screenshot({path:`${out}/${id}-${mode}.png`});evidence.previews.push({id,mode,url:asset.previewUrl,bytes:previewBytes.length,sha256:previewFile.sha256});
+   await page.screenshot({path:`${out}/${id}-${mode}.png`});evidence.previews.push({id,mode,url:asset.previewUrl,bytes:previewBytes.bytes,sha256:previewFile.sha256});
    console.log(`REVIEW_BROWSER_STAGE ${mode} ${id} preview-verified`);
   }
   if(!mobile){const asset=assets.find(a=>a.id==='sage-terrazzo');await page.goto(SITE+'assets/sage-terrazzo/');const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/sage-terrazzo.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);evidence.individual.push({id:asset.id,...await verifyBrowserZip(file,[asset],{individual:true})})}
