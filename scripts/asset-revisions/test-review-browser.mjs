@@ -1,24 +1,23 @@
 import {chromium,expect} from '@playwright/test';
-import {readFile,writeFile,mkdir,stat} from 'node:fs/promises';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {isDeepStrictEqual} from 'node:util';
 import {formatBytes} from '../../src/lib/file-size.mjs';
 import {SITE,sha256,verifyBrowserZip,expectedZipEntries,measureDist} from '../lib/download-browser-contract.mjs';
+import {serveReview} from './serve-review.mjs';
 const root=path.resolve('dist'),out='test-results/asset-revisions/browser';await mkdir(out,{recursive:true});
 const document=JSON.parse(await readFile('dist/api/catalog.json')),assets=document.assets;
 assert.equal(document.publicationState,'unpublished-candidate');assert.equal(document.count,455);
 const selected=['garden-arch','wayfinding-sign','household-two-door-refrigerator','city-front-loading-washing-machine','sage-terrazzo'].map(id=>assets.find(a=>a.id===id));
 const entries=expectedZipEntries(selected),estimate=22+entries.reduce((n,e)=>n+e.bytes+76+2*Buffer.byteLength(e.name),0);
-const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),individual:[],bulk:[],previews:[],oldUrls:[]};
-const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:['--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
-const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.wasm':'application/wasm','.glb':'model/gltf-binary','.zip':'application/zip'};
+const evidence={state:'running',publicationPerformed:false,sourceCommit:process.env.GITHUB_SHA??null,assets:assets.length,dist:await measureDist(root),localHttpsStaticServer:true,canonicalOriginPreserved:true,individual:[],bulk:[],previews:[],oldUrls:[]};
+const server=await serveReview(root);let browser;
 async function context(mobile=false){
- const ctx=await browser.newContext({acceptDownloads:true,serviceWorkers:'block',viewport:mobile?{width:390,height:844}:{width:1440,height:1050},isMobile:mobile,hasTouch:mobile});
- // Actual built bytes mounted at the canonical origin, preserving fetch rules.
- await ctx.route(`${SITE}**`,async route=>{try{let file=path.resolve(root,decodeURIComponent(new URL(route.request().url()).pathname.slice('/meshcopia/'.length)));assert.ok(file===root||file.startsWith(root+path.sep));if((await stat(file)).isDirectory())file=path.join(file,'index.html');await route.fulfill({status:200,contentType:types[path.extname(file)]??'application/octet-stream',body:await readFile(file)})}catch{await route.fulfill({status:404,body:'Missing built file'})}});return ctx;
+ return browser.newContext({acceptDownloads:true,ignoreHTTPSErrors:true,serviceWorkers:'block',viewport:mobile?{width:390,height:844}:{width:1440,height:1050},isMobile:mobile,hasTouch:mobile});
 }
 try{
+ browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:[...server.args,'--use-angle=swiftshader','--enable-webgl','--enable-unsafe-swiftshader']});
  for(const mobile of [false,true]){
   const ctx=await context(mobile),page=await ctx.newPage(),mode=mobile?'mobile':'desktop',errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(SITE);await expect(page.locator('#batch-download-bar')).toBeVisible();
@@ -50,15 +49,20 @@ try{
    await page.waitForFunction(()=>[...document.querySelectorAll('canvas')].some(c=>c.width>0&&c.height>0));
    await expect(page.locator('.download-primary')).toHaveAttribute('href',asset.downloads.delivery.archive.url.replace('https://xenoah.github.io',''));
    if(!mobile){
-    const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/${id}.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);evidence.individual.push({id,...await verifyBrowserZip(file,[asset],{individual:true})});
+    const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/${id}.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);const proof=await verifyBrowserZip(file,[asset],{individual:true});
+    if(asset.downloads.delivery.verification.state==='local-review-verified')assert.ok(server.served.some(r=>r.path===new URL(asset.downloads.delivery.archive.url).pathname&&r.bytes===proof.bytes));
+    evidence.individual.push({id,url:download.url(),...proof});
    }
    await page.screenshot({path:`${out}/${id}-${mode}.png`});evidence.previews.push({id,mode});
    console.log(`REVIEW_BROWSER_STAGE ${mode} ${id} preview-verified`);
   }
   if(!mobile){const asset=assets.find(a=>a.id==='sage-terrazzo');await page.goto(SITE+'assets/sage-terrazzo/');const pending=page.waitForEvent('download');await page.locator('.download-primary').click();const download=await pending,file=`${out}/sage-terrazzo.zip`;assert.equal(await download.failure(),null);await download.saveAs(file);evidence.individual.push({id:asset.id,...await verifyBrowserZip(file,[asset],{individual:true})})}
-  if(!mobile)for(const id of ['garden-arch','wayfinding-sign'])for(const f of assets.find(a=>a.id===id).files.filter(f=>!f.name.includes('1.0.2'))){const response=await page.request.get(f.url);assert.ok(response.ok());const bytes=await response.body();assert.equal(bytes.length,f.bytes);assert.equal(sha256(bytes),f.sha256);evidence.oldUrls.push({url:f.url,bytes:bytes.length,sha256:f.sha256})}
+  if(!mobile)for(const id of ['garden-arch','wayfinding-sign'])for(const f of assets.find(a=>a.id===id).files.filter(f=>!f.name.includes('1.0.2'))){
+   const built=await page.evaluate(async url=>{const r=await fetch(url);return {status:r.status,bytes:[...new Uint8Array(await r.arrayBuffer())]}},f.url);assert.equal(built.status,200);assert.equal(built.bytes.length,f.bytes);assert.equal(sha256(Buffer.from(built.bytes)),f.sha256);
+   const response=await page.request.get(f.url);assert.ok(response.ok());const bytes=await response.body();assert.equal(bytes.length,f.bytes);assert.equal(sha256(bytes),f.sha256);evidence.oldUrls.push({url:f.url,bytes:bytes.length,sha256:f.sha256,candidateAndPublicBytesVerified:true})
+  }
   assert.deepEqual(errors,[]);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await ctx.close();
  }
  evidence.state='passed';await writeFile(`${out}/report.json`,JSON.stringify(evidence,null,2)+'\n');
  console.log('ASSET_REVISION_BROWSER '+JSON.stringify(evidence));
-}catch(e){evidence.state='failed';evidence.error=e.stack;await writeFile(`${out}/failure.json`,JSON.stringify(evidence,null,2)+'\n');throw e}finally{await browser.close()}
+}catch(e){evidence.state='failed';evidence.error=e.stack;await writeFile(`${out}/failure.json`,JSON.stringify(evidence,null,2)+'\n');throw e}finally{await browser?.close();await server.close()}

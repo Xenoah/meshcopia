@@ -112,6 +112,13 @@ These sheets use local actual renders; fresh CI captures remain separate artifac
    Compare the embedded page catalog with the API by unique ID, checking every
    complete record. The page sorts by type/title while the API keeps source
    order, so array-order equality is not a valid catalog check.
+   Serve the unchanged build from a real local HTTPS server, with browser-only
+   DNS mapping for `xenoah.github.io` and an ephemeral test certificate. Ordinary
+   Chromium downloads bypassed Playwright response interception in the observed
+   transport probe; do not mistake an intercepted page for a working ZIP server.
+   A three-archive native-download probe runs before the expensive remote prep.
+   External GitHub Release downloads remain real network requests. Legacy source
+   URL checks compare both the candidate server and the current public Pages bytes.
 
 The last published dist was 933,823,099 bytes, with 16,176,901 bytes of operating
 headroom. New measured baseline/candidate reports are CI artifacts; do not reuse

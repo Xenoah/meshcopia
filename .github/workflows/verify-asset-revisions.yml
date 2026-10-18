@@ -38,6 +38,8 @@ jobs:
               /usr/bin/python3.13 scripts/asset-revisions/inspect_all.py'
       - name: Render actual original and revised GLB/FBX front faces and interiors
         run: node scripts/asset-revisions/render.mjs
+      - name: Verify native downloads through real canonical-origin HTTPS hosting
+        run: node scripts/asset-revisions/test-review-server.mjs
       - name: Verify live washing-machine listing, Japanese search and public preview
         run: node scripts/asset-revisions/test-live-washer.mjs
       - name: Verify existing immutable FBX release and retain exact payloads
@@ -100,5 +102,5 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: asset-revision-browser-${{ github.sha }}
+          name: asset-revision-browser-${{ github.sha }}-attempt-${{ github.run_attempt }}
           path: test-results/asset-revisions/browser/
