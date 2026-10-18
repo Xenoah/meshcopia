@@ -1,0 +1,113 @@
+name: Verify new model cohort FBX and minimal packages
+on:
+  push:
+    branches: ['cohort/verify-*']
+permissions:
+  contents: read
+concurrency:
+  group: meshcopia-cohort-verify-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.repository == 'Xenoah/meshcopia' && github.event_name == 'push' && startsWith(github.ref, 'refs/heads/cohort/verify-')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    outputs:
+      cohort: ${{ steps.name.outputs.cohort }}
+      payload_id: ${{ steps.payload.outputs.artifact-id }}
+      payload_digest: ${{ steps.payload.outputs.artifact-digest }}
+      qa_id: ${{ steps.qa.outputs.artifact-id }}
+      qa_digest: ${{ steps.qa.outputs.artifact-digest }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Resolve cohort name from the exact branch
+        id: name
+        shell: bash
+        run: |
+          set -euo pipefail
+          cohort="${GITHUB_REF#refs/heads/cohort/verify-}"
+          [[ "$cohort" =~ ^[a-z][a-z0-9]*(-[a-z0-9]+)*$ ]]
+          printf 'cohort=%s\n' "$cohort" >> "$GITHUB_OUTPUT"
+      - name: Gate exact base, status-only metadata changes and pinned inputs before Blender
+        run: python3 scripts/cohort/verify.py --repo "$GITHUB_WORKSPACE" --cohort "${{ steps.name.outputs.cohort }}" --output "$RUNNER_TEMP/cohort-preflight" --preflight-only
+      - name: Fresh conversion, independent QA and strict minimal packaging in the pinned runtime
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir "$RUNNER_TEMP/cohort-output"
+          docker run --rm --platform linux/amd64 \
+            -e GITHUB_REPOSITORY -e GITHUB_REF -e GITHUB_EVENT_NAME -e GITHUB_SHA -e GITHUB_RUN_ID -e GITHUB_RUN_ATTEMPT \
+            -e COHORT="${{ steps.name.outputs.cohort }}" \
+            -v "$GITHUB_WORKSPACE:/src:ro" -v "$RUNNER_TEMP/cohort-output:/result" -w /src \
+            debian@sha256:918311b7b6c4c6f68b232ba516584925f6c78ad82b6fd534b98979df6438e483 \
+            sh -c 'sh scripts/fbx-minimal-verification/setup-runtime.sh && /usr/bin/python3.13 -m unittest discover -s tests -p "test_minimal_packages.py" -v && /usr/bin/python3.13 -m unittest discover -s scripts/cohort -p "test_*.py" -v && /usr/bin/python3.13 scripts/cohort/verify.py --repo /src --cohort "$COHORT" --output /result/verified' 2>&1 | tee "$RUNNER_TEMP/cohort-runtime.log"
+      - name: Store exact public payload review artifact, never publish
+        id: payload
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: cohort-${{ steps.name.outputs.cohort }}-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cohort-output/verified/artifact/
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
+      - name: Store internal QA separately, never in consumer ZIPs or a release
+        id: qa
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: cohort-internal-qa-${{ steps.name.outputs.cohort }}-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/cohort-output/verified/internal/qa.json
+            ${{ runner.temp }}/cohort-output/verified/internal/runtime.json
+            ${{ runner.temp }}/cohort-output/verified/internal/*/receipt.json
+            ${{ runner.temp }}/cohort-output/verified/internal/*/fresh/roundtrip-report.json
+            ${{ runner.temp }}/cohort-output/verified/internal/*/fresh/materialized-imported-images.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Bounded failure summary, no partial payload upload
+        if: failure()
+        shell: bash
+        run: |
+          echo 'Cohort verification stopped. Nothing was published; inspect this exact run.' >> "$GITHUB_STEP_SUMMARY"
+          # Surface the last runtime lines as bounded annotations (public log excerpt):
+          # gzip+base64 chunks so multi-line context survives annotation limits.
+          if [ -f "$RUNNER_TEMP/cohort-runtime.log" ]; then
+            tail -n 400 "$RUNNER_TEMP/cohort-runtime.log" | tr '\r' '\n' | tail -n 300 | gzip -9 | base64 -w0 > "$RUNNER_TEMP/tail.b64"
+            split -b 3500 -d "$RUNNER_TEMP/tail.b64" "$RUNNER_TEMP/tailpart."
+            n=0; for part in "$RUNNER_TEMP"/tailpart.*; do n=$((n+1)); [ $n -le 9 ] && echo "::warning title=cohort-log-gz-b64 part $n::$(cat "$part")"; done
+          fi
+
+  record:
+    # Separate job: copies only the concise public inventory and artifact
+    # envelopes to an evidence branch for review. No QA, payload or release.
+    needs: verify
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: |
+            scripts/cohort
+            scripts/minimal_packages.py
+            scripts/minimal_notices.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: cohort-${{ needs.verify.outputs.cohort }}-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/payload
+      - name: Record inventory and envelopes on an evidence branch
+        env:
+          PUSH_TOKEN: ${{ github.token }}
+          COHORT: ${{ needs.verify.outputs.cohort }}
+          PAYLOAD_ID: ${{ needs.verify.outputs.payload_id }}
+          PAYLOAD_DIGEST: ${{ needs.verify.outputs.payload_digest }}
+          QA_ID: ${{ needs.verify.outputs.qa_id }}
+          QA_DIGEST: ${{ needs.verify.outputs.qa_digest }}
+        run: python3 scripts/cohort/record.py --payload "$RUNNER_TEMP/payload" --work "$RUNNER_TEMP/evidence"

@@ -1,0 +1,11 @@
+{
+  "baseCommit": "dc4b5b44a76c5c737ed64dfd7e4a6c9ca0f27f71",
+  "cohort": "new30",
+  "models": [],
+  "packageVersion": "1.0.0",
+  "pipelineSha256": "9c14ed64ff019ef1fc6cdf4d86df1c4504f1cd1a675c4cb1bd4ac3c2f37cb500",
+  "reviewStatus": "discovery",
+  "runtimeSha256": "4209f6e5244f684adc3f54909783cd11f8ade651cd2c48f0dd2556d0277d60f5",
+  "schemaVersion": 1,
+  "sourceInventorySha256": "4b2dbcf587e366c2ae40f121094fe7bd9ece9adb108f50cfca715ab541e2f61b"
+}
