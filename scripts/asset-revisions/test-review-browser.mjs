@@ -24,9 +24,9 @@ try{
   console.log(`REVIEW_BROWSER_STAGE ${mode} catalog-loaded`);
   assert.equal(await page.locator('#asset-grid [data-card]').count(),455);assert.equal(await page.locator('[role="note"]').textContent(),'未公開の検証ビルド — 修正版と冷蔵庫の候補。公開サイトへの反映は未実施です。');
   assert.deepEqual(JSON.parse(await page.locator('#catalog-data').textContent()),assets);
-  for(const [query,id] of [['冷蔵庫','household-two-door-refrigerator'],['洗濯機','city-front-loading-washing-machine']]){await page.locator('#asset-search').fill(query);await expect(page.locator(`[data-preview="${id}"]`)).toBeVisible()}
+  for(const [query,id] of [['冷蔵庫','household-two-door-refrigerator'],['洗濯機','city-front-loading-washing-machine']]){await page.locator('#asset-search').fill(query);await expect(page.locator(`[data-preview="${id}"]`)).toBeVisible();console.log(`REVIEW_BROWSER_STAGE ${mode} search-verified ${id}`)}
   await page.locator('#asset-search').fill('');
-  for(const a of selected){await page.locator(`[data-asset-select="${a.id}"]`).check();const decoded=await page.locator(`[data-card]:has([data-preview="${a.id}"]) img`).evaluate(async im=>{await im.decode();return im.naturalWidth>0&&im.naturalHeight>0});assert.ok(decoded,`Thumbnail decode failed: ${a.id}`)}
+  for(const a of selected){console.log(`REVIEW_BROWSER_STAGE ${mode} selecting ${a.id}`);await page.locator(`[data-asset-select="${a.id}"]`).check();const decoded=await page.locator(`[data-card]:has([data-preview="${a.id}"]) img`).evaluate(async im=>{await Promise.race([im.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Thumbnail decode timed out: '+im.currentSrc)),20000))]);return im.naturalWidth>0&&im.naturalHeight>0});assert.ok(decoded,`Thumbnail decode failed: ${a.id}`);console.log(`REVIEW_BROWSER_STAGE ${mode} thumbnail-verified ${a.id}`)}
   const counter=page.locator('#batch-download-bar button'),dialog=page.locator('#batch-selection-dialog');await expect(counter).toHaveText(`5 件選択 · ZIP 約 ${formatBytes(estimate)}`);
   console.log(`REVIEW_BROWSER_STAGE ${mode} five-selected estimate=${estimate}`);
   await counter.click();await page.goBack();await expect(dialog).toBeHidden();await expect(counter).toBeEnabled();

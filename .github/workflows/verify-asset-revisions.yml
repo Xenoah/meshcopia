@@ -58,8 +58,8 @@ jobs:
         run: |
           node scripts/measure-distribution.mjs
           cp test-results/fbx-distribution-size.json test-results/asset-revisions/candidate-size.json
-      - name: Verify actual ordinary and selected downloads, previews and old source URLs
-        run: node scripts/asset-revisions/test-review-browser.mjs
+      - name: Recheck source preservation
+        run: node scripts/asset-revisions/validate.mjs
       - name: Store review evidence and unpublished packages, never publish
         if: always()
         uses: actions/upload-artifact@v4
@@ -70,5 +70,35 @@ jobs:
             test-results/
             .cache/asset-revision-qa/candidate-final/
             .cache/asset-revision-qa/original-fbx-attempt2/reproduction.json
-      - name: Recheck source preservation
-        run: node scripts/asset-revisions/validate.mjs
+      - name: Preserve verified candidate build before starting browser work
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-revision-build-${{ github.sha }}
+          compression-level: 1
+          path: dist/
+  browser:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: asset-revision-build-${{ github.sha }}
+          path: dist/
+      - name: Verify actual ordinary and selected downloads, previews and old source URLs
+        run: node scripts/asset-revisions/test-review-browser.mjs
+      - name: Store actual browser download and preview evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-revision-browser-${{ github.sha }}
+          path: test-results/asset-revisions/browser/

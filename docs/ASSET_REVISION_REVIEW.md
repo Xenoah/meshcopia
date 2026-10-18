@@ -105,6 +105,10 @@ These sheets use local actual renders; fresh CI captures remain separate artifac
 8. Enforce the unchanged **950,000,000-byte** full-dist budget. This review
    includes extra standalone candidate FBXs/ZIPs and preserves replaced chunks,
    so its size is conservative. Measure it; do not infer capacity from GLBs alone.
+9. Save model QA and the complete verified build as CI artifacts before browser
+   work. A separate dependent runner downloads that exact commit's build and
+   performs the browser tests. This preserves evidence if a runner is stopped;
+   artifact upload does not publish the candidate to Pages or Releases.
 
 The last published dist was 933,823,099 bytes, with 16,176,901 bytes of operating
 headroom. New measured baseline/candidate reports are CI artifacts; do not reuse
